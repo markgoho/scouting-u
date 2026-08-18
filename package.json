@@ -10,6 +10,7 @@
     "index": "bunx pagefind --site hugo/public"
   },
   "devDependencies": {
+    "firebase-tools": "^15.27.0",
     "oxlint": "^1.72.0",
     "pagefind": "^1.5.2",
     "prettier": "^3.9.4",
