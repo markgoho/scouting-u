@@ -1,0 +1,11 @@
+<!-- Load Critical CSS Inline -->
+{{ $criticalCSS := slice
+  (resources.Get "css/colors.css")
+  (resources.Get "css/tokens-v2.css")
+  (resources.Get "css/typography.css")
+  (resources.Get "css/spacing.css")
+  (resources.Get "css/button.css")
+  | resources.Concat "css/critical.css"
+  | resources.Minify
+}}
+<style>{{ $criticalCSS.Content | safeCSS }}</style>
