@@ -6,7 +6,7 @@ Consumed by grilling ticket #16 — this file reports facts, not decisions.
 - **Source**: Scouting America advancements API v2. Primary source only; no secondary write-ups were read.
 - **Fetched**: 2026-08-18. All 8 payloads pulled in one pass.
 - **Auth**: none. Plain `GET`, no headers, HTTP 200 on every call.
-- **Analysis script**: [`analyze-ranks-api.py`](./analyze-ranks-api.py) in this directory. It reads the 8 JSON files and prints every tally quoted below.
+- **Analysis script**: [`analyze-ranks-api.py`](./analyze-ranks-api.py) in this directory. It reads the 8 JSON files and prints every tally quoted in sections 1–8. Section 9 additionally reads mbu's `scripts/sync-requirements-api.ts`.
 
 ## Reproducing
 
@@ -401,3 +401,550 @@ Double spaces appear inside prose, e.g. `"must be completed as a member  of a tr
 | 7 Eagle Scout | 3 / 7 | 0 |
 
 `short` **never contains a `<`** on any rank — the `<`-or-`&` hits above are all bare ampersands. `rankInformation.footer` is populated and contains HTML on all 7 ranks; `rankInformation.header` is populated on **rank 1 only** (empty on ranks 2–7).
+
+---
+
+*Sections 5–9 were added in a second pass. All 8 payloads were re-fetched on 2026-08-18 before that pass; every response was HTTP 200 and **byte-identical in size to the first pass** (67,283 / 15,378 / 21,005 / 30,368 / 30,831 / 9,687 / 8,900 / 11,305 B), and `analyze-ranks-api.py` reproduces every tally in sections 1–4 unchanged. Sections 5–9 therefore describe the same corpus.*
+
+---
+
+## 5. Priority 3 — the `short` field
+
+### 5.1 Completeness
+
+**`short` is populated on all 147 rows of all 7 ranks. It is never `""`, never whitespace-only.**
+
+| rank | rows | empty | trimmed length min–max | median | rows with trailing whitespace |
+|---|---|---|---|---|---|
+| 1 Scout | 20 | 0 | 9–30 | 17.5 | none |
+| 2 Tenderfoot | 27 | 0 | 9–37 | 15.0 | `4c.`, `5a.` |
+| 3 Second Class | 37 | 0 | 7–31 | 17.0 | `3a.`, `3b.`, `3d.`, `6c.`, `6e.`, `8d.`, `9b.` |
+| 4 First Class | 38 | 0 | 7–28 | 17.0 | `2a.` |
+| 5 Star Scout | 10 | 0 | 15–27 | 20.5 | `3.` |
+| 6 Life Scout | 8 | 0 | 15–28 | 23.0 | none |
+| 7 Eagle Scout | 7 | 0 | 13–27 | 20.0 | none |
+
+Lengths above are **after `.strip()`**. The 11 rows flagged in the last column are exactly the 11 trailing tabs catalogued in §4.6 — the tab is the *only* trailing whitespace in the corpus, and it is only ever on `short`. Raw (untrimmed) length equals trimmed length + 1 on those 11 rows and is identical elsewhere; no rank's raw min/max differs from its trimmed min/max, because no tab row is a per-rank extreme.
+
+Whole corpus, trimmed: **min 7, max 37, mean 17.7, median 17.0.**
+
+```
+length histogram (trimmed, buckets of 5)
+   5- 9   6  ######
+  10-14  37  #####################################
+  15-19  53  #####################################################
+  20-24  31  ###############################
+  25-29  17  #################
+  30-34   2  ##
+  35-39   1  #
+```
+
+### 5.2 Truncation
+
+**No evidence of truncation.** Two independent checks:
+
+1. **No length cap.** The longest value is 37 characters and **exactly one row** reaches it. The eight longest values are 37, 31, 30, 28, 28, 27, 27, 27 — a smooth tail with no cluster at a round number, which is what a `varchar(N)` cap would produce.
+2. **No mid-token or dangling-connective endings.** Scanning all 147 for a value ending in a stopword (`a an the of and or to in for with from`), a hyphen, `...` or `…` returns **zero hits**.
+
+The eight longest, verbatim:
+
+```
+ 37  r2 5d.   'Why it is important to hike on trails'
+ 31  r3 1b.   'Leave No Trace Seven Principles'
+ 30  r1 2.    'Attend meeting; Complete 2a-2d'
+ 28  r6 3.    'Five Additional Merit Badges'
+ 28  r4 9b.   'Study an environmental issue'
+ 27  r7 2     'Demonstrate Scouting spirit'
+ 27  r6 4.    'Complete service project(s)'
+ 27  r5 6a    'Protection from Child Abuse'
+```
+
+### 5.3 Duplication
+
+**Within a rank: zero duplicates on all 7 ranks** (compared on trimmed values). `short` is a unique label inside its own rank.
+
+**Across ranks: 12 values are shared by two or more ranks.** Every one of them is a genuinely recurring requirement, not a data error:
+
+| value | rows |
+|---|---|
+| `Scoutmaster conference` | r1 `7.`, r2 `10.`, r3 `11.`, r4 `12.`, r5 `7.`, r6 `7.`, r7 `6` — **all 7 ranks** |
+| `Board of review` | r2 `11.`, r3 `12.`, r4 `13.`, r5 `8.`, r6 `8.`, r7 `7` — 6 ranks |
+| `Demonstrate Scout spirit` | r4 `11.`, r5 `2.`, r6 `2.` |
+| `Position of responsibility` | r5 `5.`, r6 `5.`, r7 `4` |
+| `Protection from Child Abuse` | r1 `6a`, r5 `6a` |
+| `Personal Safety Awareness` | r1 `6b`, r5 `6b` |
+| `Be physically active` | r3 `7a.`, r4 `8a.` |
+| `Reflection & Goal Setting` | r3 `7b.`, r4 `8b.` |
+| `Injury prevention` | r2 `4c.`, r3 `6c.` |
+| `Outdoor Code` | r1 `1e.`, r2 `1c.` |
+| `Scout spirit` | r2 `9.`, r3 `10.` |
+| `Complete service project(s)` | r4 `9d.`, r6 `4.` |
+
+Consequence, stated as fact: **`short` is not globally unique and cannot key a requirement on its own.** In search results, a bare `short` of `Scoutmaster conference` is ambiguous across all seven ranks.
+
+Note also that near-duplicates differ only in case or wording: `Scout Spirit` (r1 `1b.`) vs `Scout spirit` (r2 `9.`) vs `Demonstrate Scout spirit` (r4/r5/r6) vs `Demonstrate Scouting spirit` (r7 `2`); and `Personal protection` (r1 `6.`) vs `Personal Protection` (r5 `6.`) — the same requirement, capitalised differently on two ranks. Capitalisation across the corpus mixes Title Case (`First Class Badge`, `Five Additional Merit Badges`) and sentence case (`Knife safety`, `Board of review`) with no discernible rule.
+
+### 5.4 `short` on the three parent (header) rows
+
+The three parent rows carry a `short` like any other row, and two of the three are usable labels:
+
+```
+r1 6.   PARENT  short='Personal protection'
+          child 6a   short='Protection from Child Abuse'
+          child 6b   short='Personal Safety Awareness'
+r1 2.   PARENT  short='Attend meeting; Complete 2a-2d'
+          child 2a.  short='Describe Youth Leadership'
+          child 2b.  short='Describe Advancement'
+          child 2c.  short='Describe Ranks'
+          child 2d.  short='Describe Merit Badges'
+r5 6.   PARENT  short='Personal Protection'
+          child 6a   short='Protection from Child Abuse'
+          child 6b   short='Personal Safety Awareness'
+```
+
+A parent's `short` is always distinguishable from its children's — no parent repeats a child's label. But **Scout `2.` is self-referential**: `'Attend meeting; Complete 2a-2d'` embeds sibling list numbers, so it only reads correctly next to rows numbered `2a`–`2d`. Lifted into a flat search result or a home-page ladder it names nothing.
+
+### 5.5 Full literals
+
+Rank 1 Scout, in `listNumber` order:
+
+```
+1a.  'Scout Oath & Law'
+1b.  'Scout Spirit'
+1c.  'Salute & Sign'
+1d.  'First Class Badge'
+1e.  'Outdoor Code'
+1f.  'Pledge of Allegiance'
+2.   'Attend meeting; Complete 2a-2d'
+2a.  'Describe Youth Leadership'
+2b.  'Describe Advancement'
+2c.  'Describe Ranks'
+2d.  'Describe Merit Badges'
+3a.  'Patrol Method'
+3b.  'Patrol Spirit'
+4a.  'Knots (3)'
+4b.  'Whip and fuse rope'
+5.   'Knife safety'
+6.   'Personal protection'
+6a   'Protection from Child Abuse'
+6b   'Personal Safety Awareness'
+7.   'Scoutmaster conference'
+```
+
+Rank 5 Star Scout:
+
+```
+1.   'Active 4 months'
+2.   'Demonstrate Scout spirit'
+3.   'Six Merit Badges\t'
+4.   'Service Project(s)'
+5.   'Position of responsibility'
+6.   'Personal Protection'
+6a   'Protection from Child Abuse'
+6b   'Personal Safety Awareness'
+7.   'Scoutmaster conference'
+8.   'Board of review'
+```
+
+Rank 6 Life Scout:
+
+```
+1.  'Active 6 months'
+2.  'Demonstrate Scout spirit'
+3.  'Five Additional Merit Badges'
+4.  'Complete service project(s)'
+5.  'Position of responsibility'
+6.  'Teach EDGE method'
+7.  'Scoutmaster conference'
+8.  'Board of review'
+```
+
+Rank 7 Eagle Scout:
+
+```
+1  'Active 6+ months'
+2  'Demonstrate Scouting spirit'
+3  'Earn 21 merit badges'
+4  'Position of responsibility'
+5  'Eagle project'
+6  'Scoutmaster conference'
+7  'Board of review'
+```
+
+### 5.6 Summary of `short` quality
+
+| property | verdict |
+|---|---|
+| populated on every row of every rank | **yes** — 147/147 |
+| ever empty | **no** |
+| ever truncated | **no** — no length cap, no mid-token endings |
+| duplicated within a rank | **no** — 0 on all 7 ranks |
+| duplicated across ranks | **yes** — 12 values, one of them on all 7 ranks |
+| free of HTML | **yes** — never contains `<` (§4.8) |
+| free of entities | **yes** — 6 bare `&` (§4.5), no entities |
+| clean whitespace | **no** — 11 rows carry a trailing tab |
+| consistent capitalisation | **no** — Title Case and sentence case both used, same requirement cased two ways across ranks |
+| self-contained out of context | **mostly** — one exception, Scout `2.` `'Attend meeting; Complete 2a-2d'` |
+
+---
+
+## 6. Priority 4 — the numeric fields vs the prose
+
+### 6.1 Where they are populated at all
+
+Whole-corpus value counts (147 rows):
+
+| field | values |
+|---|---|
+| `monthsSinceLastRankRequired` | `""` ×141, `"4"` ×2, `"6"` ×4 |
+| `serviceHoursRequired` | `""` ×147 — **never populated on any Scouts BSA row** |
+| `eagleMBRequired` | `""` ×144, `"4"`, `"3"`, `"13"` |
+| `totalMBRequired` | `""` ×144, `"6"`, `"5"`, `"21"` |
+| `previousRankRequired` | `"False"` ×146, `"True"` ×1 |
+
+**All five fields are entirely empty on ranks 1–4.** Every populated value sits on rank 5, 6 or 7. Nine rows in total carry anything.
+
+### 6.2 Every populated row, verbatim, adjudicated
+
+```
+rank 5 Star   id=595  listNumber='1.'  short='Active 4 months'
+  monthsSinceLastRankRequired='4'  previousRankRequired='True'
+  name='Be active in your troop for at least four months as a First Class Scout.'
+```
+→ **agrees.** `4` ↔ "four months". `previousRankRequired: "True"` and the prose names First Class.
+
+```
+rank 5 Star   id=597  listNumber='3.'  short='Six Merit Badges\t'
+  eagleMBRequired='4'  totalMBRequired='6'
+  name='Earn six merit badges, including any four from the required list for
+        Eagle. You may choose any of the merit badges on the  required list for
+        Eagle to fulfill this requirement. See Eagle rank requirement 3 for this list.'
+```
+→ **agrees.** `6` ↔ "six", `4` ↔ "any four". Both numbers are **incremental** (badges earned *for this rank*).
+
+```
+rank 5 Star   id=601  listNumber='8.'  short='Board of review'
+  monthsSinceLastRankRequired='4'
+  name='Successfully complete your board of review for the Star rank.<sup>8</sup>'
+```
+→ **DISAGREES.** The prose contains no month count and nothing about tenure. The `4` is rank-level metadata (Star's tenure period) attached to the board-of-review row.
+
+```
+rank 6 Life   id=603  listNumber='1.'  short='Active 6 months'
+  monthsSinceLastRankRequired='6'
+  name='Be active in your troop for at least six months as a Star Scout.'
+```
+→ **agrees** on the number. But `previousRankRequired` is `"False"` here, while the prose names Star Scout exactly as Star's requirement 1 names First Class — see §6.5.
+
+```
+rank 6 Life   id=605  listNumber='3.'  short='Five Additional Merit Badges'
+  eagleMBRequired='3'  totalMBRequired='5'
+  name='Earn five more merit badges (so that you have 11 in all) including any
+        number more from the list for Eagle so that you have a total of seven from
+        the required list of Eagle in that total number of 11 merit badges. You may
+        choose any of the 17 merit badges on the required list for Eagle to fulfill
+        this requirement. See Eagle rank requirement 3 for this list.*'
+```
+→ **PARTLY DISAGREES.** `totalMBRequired: "5"` ↔ "five more" ✓ (incremental). But **`eagleMBRequired: "3"` appears nowhere in the prose** — the prose states the *cumulative* figure, "a total of seven from the required list of Eagle". The `3` is only recoverable as `7 − 4` (Star's `eagleMBRequired`). Rendering `3` beside this text puts an unexplained number next to a sentence that says seven.
+Two further prose facts on this row: the numbers extracted from it are `five, 11, seven, 11, 17, 3` — the `17` is a **stale count of the Eagle-required list**, which the current (2026) Eagle requirement 3 gives as 13; and the `3` in the prose is a cross-reference ("Eagle rank requirement 3"), not a quantity.
+
+```
+rank 6 Life   id=610  listNumber='8.'  short='Board of review'
+  monthsSinceLastRankRequired='6'
+  name='Successfully complete your board of review for the Life rank.*<br />…'
+```
+→ **DISAGREES.** Same pattern as Star `8.` — no month count in the prose.
+
+```
+rank 7 Eagle  id=2425  listNumber='1'  short='Active 6+ months'
+  monthsSinceLastRankRequired='6'
+  name='Be active in your troop for at least six months as a Life Scout.'
+```
+→ **agrees.** `6` ↔ "six months".
+
+```
+rank 7 Eagle  id=2427  listNumber='3'  short='Earn 21 merit badges'
+  eagleMBRequired='13'  totalMBRequired='21'
+  name='Earn a total of 21 merit badges (10 more than required for the Life rank),
+        including these 13 merit badges: (a) First Aid, … (m) Family Life. …'
+```
+→ **agrees** with the prose as written — `21` ↔ "a total of 21", `13` ↔ "these 13". But both numbers here are **cumulative**, the opposite convention to ranks 5 and 6 (see §6.4).
+
+```
+rank 7 Eagle  id=2431  listNumber='7'  short='Board of review'
+  monthsSinceLastRankRequired='6'
+  name='Successfully complete your board of review for the Eagle Scout rank.<sup>12</sup>…'
+```
+→ **DISAGREES.** No month count in the prose.
+
+### 6.3 `monthsSinceLastRankRequired` sits on the wrong rows half the time
+
+Ranks 5, 6, 7 each carry it on **exactly two rows: requirement `1.` (tenure) and the board-of-review requirement.** It is *not* on the position-of-responsibility requirement, whose prose is the other place a month figure appears:
+
+| rank | rows carrying the field | value | rows whose prose states months but carry **no** field |
+|---|---|---|---|
+| 5 Star | `1.`, `8.` | `4`, `4` | `5.` "serve actively … for four months" |
+| 6 Life | `1.`, `8.` | `6`, `6` | `5.` "serve actively … for six months" |
+| 7 Eagle | `1`, `7` | `6`, `6` | `4` "serve actively … for six months" |
+
+So of the six populated cells, **three agree with their own row's prose (the `1.` rows) and three sit on a row whose prose never mentions months (the board-of-review rows)** — and in all three ranks the one requirement that *does* state a second month figure is left empty.
+
+### 6.4 `eagleMBRequired` / `totalMBRequired` change meaning between ranks
+
+| rank | `eagleMBRequired` | `totalMBRequired` | prose says | convention |
+|---|---|---|---|---|
+| 5 Star | `4` | `6` | "six merit badges, including any four from the required list for Eagle" | **incremental** |
+| 6 Life | `3` | `5` | "five more merit badges (so that you have 11 in all) … a total of seven from the required list" | **incremental** (`totalMB` matches "five more"; `eagleMB` matches nothing in the prose) |
+| 7 Eagle | `13` | `21` | "a total of 21 merit badges (10 more than required for the Life rank), including these 13" | **cumulative** |
+
+The arithmetic confirms it rather than the naming: `totalMBRequired` running total is 6 → 6+5 = 11 → Eagle's value is **21, not 10**; `eagleMBRequired` running total is 4 → 4+3 = 7 → Eagle's value is **13, not 6**. Identically named fields therefore mean "additional badges for this rank" on ranks 5 and 6 and "badges held in total" on rank 7.
+
+### 6.5 `previousRankRequired` is not a usable predicate
+
+`"True"` appears on exactly one row in the corpus — Star `1.`. Life `1.` and Eagle `1` are `"False"` despite prose of exactly the same form ("as a Star Scout", "as a Life Scout"). Every other row on every rank, including all of ranks 1–4, is `"False"`. The field does not encode which rank precedes which; the catalog `level` field does (§8.1).
+
+### 6.6 `serviceHoursRequired` is dead while the prose is not
+
+The field is `""` on all 147 rows. Five requirements state a service-hours figure in prose and get nothing:
+
+```
+r2 7b.  'Participate in a total of one hour of service in one or more service projects…'
+r3 8e.  'Participate in two hours of service through one or more service projects…'
+r4 9d.  'Participate in three hours of service through one or more service projects…'
+r5 4.   'While a First Class Scout, participate in six hours of service…'
+r6 4.   'While a Star Scout, participate in six hours of service…'
+```
+
+### 6.7 Agreement scoreboard
+
+| field | rows populated | agrees with own row's prose | disagrees / unsupported by own row's prose |
+|---|---|---|---|
+| `monthsSinceLastRankRequired` | 6 | 3 (r5 `1.`, r6 `1.`, r7 `1`) | 3 (r5 `8.`, r6 `8.`, r7 `7` — board of review, no months in prose) |
+| `eagleMBRequired` | 3 | 2 (r5 `3.`, r7 `3`) | 1 (r6 `3.` — value `3`, prose says seven) |
+| `totalMBRequired` | 3 | 3 | 0 — but r5/r6 are incremental and r7 is cumulative |
+| `previousRankRequired` | 1 `"True"` | 1 | 2 rows with identical prose are `"False"` |
+| `serviceHoursRequired` | 0 | — | 5 rows state hours in prose and carry nothing |
+
+---
+
+## 7. Priority 5 — the `versions` array
+
+`versions[]` exists only on the **catalog** endpoint (`/v2/ranks`); `rankInformation` drops it (§1). Each version object has 14 keys:
+
+`versionId`, `version`, `header`, `footer`, `adminNotes`, `proofReadDate`, `active`, `disabledOnQuickEntry`, `expiredDate`, `versionEffectiveDt`, `versionExpiryDt`, `imageUrl100`, `imageUrl200`, `imageUrl400`.
+
+### 7.1 Every version of every Scouts BSA rank
+
+27 version objects across the 7 ranks. `active` is printed as-returned.
+
+| rank | versionId | version | active | versionEffectiveDt | versionExpiryDt | expiredDate | header | footer | adminNotes |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 Scout | **84** | 2022 | `true` | 2022-08-01 | `""` | `""` | yes | yes | — |
+| 1 Scout | 38 | 2016 | `true` | 2016-01-01 | 2022-07-31 | 2022-12-31 | yes | yes | yes |
+| 1 Scout | 1 | 2012 | `true` | 2012-01-01 | 2015-12-31 | 2021-12-31 | — | — | — |
+| 2 Tenderfoot | **83** | 2022 | `true` | 2022-08-01 | `""` | `""` | — | yes | — |
+| 2 Tenderfoot | 37 | 2016 | `true` | 2016-01-01 | 2022-07-31 | 2022-12-31 | — | yes | yes |
+| 2 Tenderfoot | 8 | 2012 | `true` | 2012-01-01 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 3 Second Class | **98** | 2022 | `true` | 2022-08-01 | `""` | `""` | — | yes | — |
+| 3 Second Class | 36 | 2016 | `true` | 2016-01-01 | 2022-07-31 | `""` | — | yes | yes |
+| 3 Second Class | 35 | 2015 | `true` | 2015-01-01 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 3 Second Class | 21 | 2013 | `true` | 2013-01-01 | 2014-12-31 | 2021-12-31 | — | yes | — |
+| 3 Second Class | 3 | 2012 | `true` | 2012-01-01 | 2012-12-31 | 2021-12-31 | — | yes | — |
+| 4 First Class | **99** | 2022 | `true` | 2022-08-01 | `""` | `""` | — | yes | — |
+| 4 First Class | 39 | 2016 | `true` | 2016-01-01 | 2022-07-31 | `""` | — | yes | yes |
+| 4 First Class | 22 | 2013 | `true` | 2013-01-01 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 4 First Class | 4 | 2012 | `true` | 2012-01-01 | 2012-12-31 | 2021-12-31 | — | yes | — |
+| 5 Star Scout | **40** | 2016 | `true` | 2016-01-01 | `""` | `""` | — | yes | yes |
+| 5 Star Scout | 23 | 2013 | `true` | 2013-01-01 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 5 Star Scout | 5 | 2012 | `true` | 2012-01-01 | 2012-12-31 | 2021-12-31 | — | yes | — |
+| 6 Life Scout | **41** | 2016 | `true` | 2016-01-01 | `""` | `""` | — | yes | yes |
+| 6 Life Scout | 24 | 2013 | `true` | 2013-01-01 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 6 Life Scout | 6 | 2012 | `true` | 2012-01-01 | 2012-12-31 | 2021-12-31 | — | yes | — |
+| 7 Eagle Scout | **108** | 2026 | `true` | 2026-02-27 | `""` | `""` | — | yes | — |
+| 7 Eagle Scout | 73 | 2022 | `true` | 2022-07-01 | 2026-02-26 | 2026-02-26 | yes | yes | yes |
+| 7 Eagle Scout | 42 | 2016 | `true` | 2016-01-01 | 2022-06-30 | 2024-07-01 | — | yes | yes |
+| 7 Eagle Scout | 27 | 2013 | `true` | 2013-07-15 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 7 Eagle Scout | 25 | 2014 | `true` | 2014-01-01 | 2015-12-31 | 2021-12-31 | — | yes | — |
+| 7 Eagle Scout | 7 | 2012 | `true` | 2012-01-01 | 2013-12-31 | 2021-12-31 | — | yes | yes |
+
+Bold `versionId` = the version the requirements endpoint actually serves (it matches the `versionId` on every row of that rank, §1).
+
+| rank | versions | active version | version labels present |
+|---|---|---|---|
+| 1 Scout | 3 | 2022 (id 84) | 2022, 2016, 2012 |
+| 2 Tenderfoot | 3 | 2022 (id 83) | 2022, 2016, 2012 |
+| 3 Second Class | 5 | 2022 (id 98) | 2022, 2016, 2015, 2013, 2012 |
+| 4 First Class | 4 | 2022 (id 99) | 2022, 2016, 2013, 2012 |
+| 5 Star Scout | 3 | 2016 (id 40) | 2016, 2013, 2012 |
+| 6 Life Scout | 3 | 2016 (id 41) | 2016, 2013, 2012 |
+| 7 Eagle Scout | 6 | 2026 (id 108) | 2026, 2022, 2016, 2014, 2013, 2012 |
+
+The label set is **not the same across ranks** — Scout has no 2013 or 2015 version, Second Class has both. A version label is a per-rank string, not a corpus-wide edition.
+
+### 7.2 `active` does not identify the active version
+
+**`active` is `true` on all 27 version objects, including the 2012 editions.** It is a constant, not a flag. `rankInformation.active` is likewise `"True"` on all 7 ranks.
+
+Two things do identify the served version, and they agree on all 7 ranks:
+
+1. `rankInformation.version` (and the `versionId` carried on every requirement row).
+2. **`versionExpiryDt == ""`** — empty on exactly the 7 served versions and populated on all 20 others.
+
+`expiredDate` is *not* a substitute: it is empty on 9 of 27 — the 7 served versions **plus** Second Class 2016 and First Class 2016, both of which have a `versionExpiryDt` of 2022-07-31.
+
+### 7.3 Date reliability
+
+- `versionEffectiveDt` — **populated on all 27**, always a bare `YYYY-MM-DD` string. No time component, no timezone, no `null`.
+- `versionExpiryDt` — populated on 20 of 27; empty on exactly the served version of each rank. Reliable as an "is current" predicate.
+- `expiredDate` — populated on 18 of 27, and its value sometimes differs from `versionExpiryDt` by years (Scout 2016: expiry 2022-07-31, expiredDate 2022-12-31; Eagle 2016: expiry 2022-06-30, expiredDate 2024-07-01). It appears to record when the edition stopped being *accepted*, not when it stopped being *current*. Not usable as a version selector.
+- **Eagle's windows overlap.** 2012 runs to 2013-12-31 while 2013 begins 2013-07-15; 2013 and 2014 both end 2015-12-31. Array order is also not chronological there — the 2013 object is served before the 2014 object. Every other rank's windows are contiguous and non-overlapping, and every other rank's array is in descending date order.
+
+### 7.4 Prose survives on old versions; requirement rows do not
+
+Of the 27 version objects, `footer` is populated on **26** (only Scout 2012 has neither header nor footer), `header` on **3** (Scout 2022, Scout 2016, Eagle 2022), and `adminNotes` on **9**. This is the only historical content the public API exposes — §4.1 found `<b>`/`</b>` exclusively in a historical `versions[].footer`, prose reachable nowhere else.
+
+The requirement rows of a non-served version are **not reachable**. Both spellings of the per-version requirements endpoint return HTTP 401:
+
+```
+$ curl -sS -o /dev/null -w '%{http_code}' \
+    https://api.scouting.org/advancements/v2/ranks/versions/84/requirements
+401
+
+$ curl -sS https://api.scouting.org/advancements/ranks/versions/84/requirements
+{
+  "errorCode": "M401",
+  "message": "Unauthorized",
+  "errorDesc": "Missing JWT Token"
+}
+```
+
+The `401` is returned even for `versionId: 84`, which *is* the currently served Scout version — so the refusal is on the endpoint, not on the version being historical. There is no anonymous route to any version's requirement rows other than `/v2/ranks/{id}/requirements`, which always serves the current one.
+
+---
+
+## 8. Priority 6 — rank-level fields
+
+### 8.1 `level`
+
+Within `programId == 2`, `level` is `{1:1, 2:2, 3:3, 4:4, 5:5, 6:6, 7:7}` — **bijective with ids 1–7, and equal to the id on every rank.** It orders the seven cleanly, ascending Scout → Eagle.
+
+It does **not** track `id` globally, because it restarts per program and is not always 1-based:
+
+| programId | program | `level` values |
+|---|---|---|
+| 1 | Cub Scouting | 0, 1, 2, 3, 4, 5, 6 (Lion is `0`, Bobcat `1` — while their ids are 14 and 13) |
+| 2 | Scouts BSA | 1, 2, 3, 4, 5, 6, 7 |
+| 4 | Venturing | 1, 2, 3, 4 |
+| 5 | Sea Scouting | 1, 2, 3, 4 |
+
+So `level` is only an ordering key **within a program**, and its base differs between programs. For Scouts BSA it is a correct and complete advancement order.
+
+### 8.2 `name` / `short` / `reallyShort`
+
+| id | `name` | `short` | `reallyShort` |
+|---|---|---|---|
+| 1 | `Scout` | `Scout` | `Scout` |
+| 2 | `Tenderfoot` | `Tenderfoot` | `Tenderfoot` |
+| 3 | `Second Class` | `Second Class` | `2nd Class` |
+| 4 | `First Class` | `First Class` | `1st Class` |
+| 5 | `Star Scout` | `Star` | `Star` |
+| 6 | `Life Scout` | `Life` | `Life` |
+| 7 | `Eagle Scout` | `Eagle` | `Eagle` |
+
+The inconsistency is in **`name`**, not in `short`: `name` appends " Scout" for ranks 5–7 and omits it for ranks 1–4. `short` is the field that is internally consistent — it is the bare rank word throughout ("Scout" for rank 1 because that *is* the bare word). `reallyShort` differs from `short` on only two ranks, 3 and 4, where it numeralises ("2nd Class", "1st Class"); on the other five it is byte-identical to `short`.
+
+### 8.3 What each field yields as a URL slug
+
+Slugging with lowercase → non-alphanumeric runs to `-` → trim:
+
+| id | `slug(name)` | `slug(short)` | `slug(reallyShort)` |
+|---|---|---|---|
+| 1 | `scout` | `scout` | `scout` |
+| 2 | `tenderfoot` | `tenderfoot` | `tenderfoot` |
+| 3 | `second-class` | `second-class` | `2nd-class` |
+| 4 | `first-class` | `first-class` | `1st-class` |
+| 5 | `star-scout` | `star` | `star` |
+| 6 | `life-scout` | `life` | `life` |
+| 7 | `eagle-scout` | `eagle` | `eagle` |
+
+| field | 7 distinct slugs | any empty | collisions |
+|---|---|---|---|
+| `name` | yes | none | none |
+| `short` | yes | none | none |
+| `reallyShort` | yes | none | none |
+
+**All three are collision-free and non-empty across the seven Scouts BSA ranks**, so any of them yields a working `/scouts-bsa/ranks/{slug}/`. What differs is only the resulting shape: `name` gives `…/ranks/eagle-scout/` and the asymmetric pair `…/ranks/scout/` + `…/ranks/star-scout/`; `short` gives the uniform one-word `…/ranks/eagle/`; `reallyShort` gives the same as `short` except `…/ranks/2nd-class/` and `…/ranks/1st-class/`, which lead with a digit. No recommendation is made here — #16 owns the call.
+
+### 8.4 Other rank-level fields
+
+| id | `image` | `sku` | `price` | `scoutNet` | `lds` | `searchKeywords` |
+|---|---|---|---|---|---|---|
+| 1 | `scout.png` | 657432 | 3.29 | `RN` | `true` | `Boy Scout Scouting Scout Rank Award Requirements` |
+| 2 | `tenderfoot.png` | 657437 | 3.29 | `RT` | `true` | `Boy Scout Scouting Tenderfoot Rank Award Requirements` |
+| 3 | `secondclass.png` | 657436 | 3.29 | `R2` | `true` | `Boy Scout Scouting Second Class Rank Award Requirements` |
+| 4 | `firstclass.png` | 657435 | 3.29 | `R1` | `true` | `Boy Scout Scouting First Class Rank Award Requirements` |
+| 5 | `star.png` | 657434 | 3.29 | `RS` | `true` | `Boy Scout Scouting Star Scout Rank Award Requirements` |
+| 6 | `life.png` | 657433 | 3.29 | `RL` | `true` | `Boy Scout Scouting Life Scout Rank Award Requirements` |
+| 7 | `neweagle.png` | 663044 | 3.29 | `RE` | `true` | `Boy Scout Scouting Eagle Rank Award Requirements` |
+
+`searchKeywords` is a single space-separated string of the same template on every rank — `Boy Scout Scouting {name} Rank Award Requirements` — carrying no information the rank name does not, and using the retired "Boy Scout" wording.
+
+`imageUrl100/200/400` come from `rankInformation` (and from each `versions[]` entry), all on one CloudFront host:
+
+```
+https://d1kn0x9vzr5n76.cloudfront.net/images/ranks/{stem}{100|200|400}.png
+```
+
+with `{stem}` = `scout`, `tenderfoot`, `secondclass`, `firstclass`, `star`, `life`, **`neweagle`** — i.e. the `image` filename minus `.png`, and Eagle's stem is `neweagle`, not `eagle`. All 21 URLs are populated. (Whether these may be used is [#13](https://github.com/markgoho/scouting-u/issues/13) / [#26](https://github.com/markgoho/scouting-u/issues/26), not this ticket.)
+
+---
+
+## 9. Ranks vs merit badges — the two-way gap
+
+Reference for the merit-badge side: `/Users/mgoho/github/mbu/scripts/sync-requirements-api.ts` (mbu). Per map [#10](https://github.com/markgoho/scouting-u/issues/10) that script is a reference for approach only — mbu's ADR 0002 rules out sharing requirement-engine code. Facts only below.
+
+### 9.1 On a rank row, with no merit-badge equivalent
+
+mbu's `ApiRequirementRow` type declares **8 fields**: `id`, `name`, `listNumber`, `requirementNumber`, `sortOrder`, `childrenRequired`, `required`, `parentRequirementId`. A rank row has **25** (§2). The 17 unmatched fields:
+
+| rank-row field | state on Scouts BSA (§2) |
+|---|---|
+| `versionId` | populated on all 147 — mbu's script does not model versions at all |
+| `short` | populated on all 147; **no merit-badge counterpart exists** |
+| `footer` | empty on all 147 (only `rankInformation.footer` is live) |
+| `previousRankRequired` | `"True"` on 1 row |
+| `monthsSinceLastRankRequired` | 6 rows |
+| `eagleMBRequired` | 3 rows |
+| `totalMBRequired` | 3 rows |
+| `serviceHoursRequired` | 0 rows |
+| `videoExternalURLId` | 0 rows |
+| `disabledOnQuickEntry` | constant `"False"` |
+| `linkedAdventureId`, `linkedAwardId`, `linkedAdventure` | empty / `{}` — Cub Scouting machinery |
+| `electiveAdventure`, `linkedElectiveAdventures` | `false` / `[]` — Cub Scouting machinery |
+| `requiresSSElective`, `ssElectives` | `false` / `[]` — Sea Scouting machinery |
+
+Of those 17, only **three carry information on Scouts BSA today**: `short`, `versionId`, and the numeric quartet (`previousRankRequired` / `monthsSinceLastRankRequired` / `eagleMBRequired` / `totalMBRequired`), whose reliability is §6. The remaining eleven are dead for this program.
+
+Rank-*level* additions with no badge equivalent: `level`, `reallyShort`, `versions[]`, `rankInformation.header`, `rankInformation.footer`, `imageUrl100/200/400`, `lds`, `scoutNet`, `sku`, `price`, `priceLastUpdated`.
+
+### 9.2 What mbu relies on that ranks do not provide
+
+| mbu field / mechanism | how mbu gets it | ranks equivalent |
+|---|---|---|
+| `resources[]` | `cheerio` over each requirement's HTML, selecting `$("details a[href]")` and keeping absolute `http(s)` links | **none.** §4.1's tag inventory has **no `<details>` element anywhere** in the ranks corpus, and exactly **one distinct `<a href>` literal**, on 2 of 147 rows (the youth-protection training link on Scout `6b` and Star `6b`). A resources-extraction pass over rank prose would yield at most one link, twice. |
+| `pamphlet_url` | regex `href="([^"]+\.pdf[^"]*)"` on a requirement matching `/official merit badge pamphlets/i` | **none.** No `.pdf` href and no such requirement exists on any rank. |
+| `category`, `eagle_required`, `eagle_group` | mbu's own hand-maintained `scripts/merit-badges.ts` catalog, not the API | **none needed** — the rank analogue, advancement order, *is* in the API as `level` (§8.1). |
+| `discontinued`, `discontinued_date` | mbu's own catalog | **none.** The API models retirement per *version* (`versionExpiryDt` / `expiredDate`, §7.3), never per rank. All 7 ranks are live. |
+| `last_updated` | carried forward from the previous badge JSON, or today's date | **partially available and better** — `rankInformation.versionEffectiveDt` is the real effective date of the served text (§7.3), populated on all 7. |
+| `url` (canonical page) | constructed from the badge slug | n/a — no canonical URL is served for a rank either. |
+| `sortOrder` typed as `number` (line 68) | the merit-badge API supplies it | **breaks on ranks.** §3.4: `sortOrder` is a string, empty on 34/37 Second Class rows, 34/38 First Class, 8/10 Star and **all 8** Life rows, non-integer where present (`"1.1"`), and duplicated once on Tenderfoot. |
+| `requirementNumber` as a usable label | present on merit-badge rows | **empty on exactly the 3 parent rows** (§3.3) — the rows a tree walker most needs to label. |
+
+Two further observations about the shared API family, recorded as fact:
+
+- mbu's script needs three hand-maintained override maps against the *same* API — `SUBREQUIREMENT_MODE_OVERRIDES`, `REQUIREMENT_ID_OVERRIDES`, `REQUIREMENT_PATH_OVERRIDES` — all of them currently populated solely for the Shotgun Shooting badge. The ranks corpus's structural anomalies are catalogued in §3; whether they need the same treatment is #16's call.
+- mbu reads requirements from the **non-`v2`** path `https://api.scouting.org/advancements/meritBadges/…`, while the ranks catalog and requirements both live under `/advancements/v2/`. The non-`v2` ranks version route is the one that 401s (§7.4).
+
+### 9.3 Structural asymmetry worth recording
+
+mbu's `Requirement` type is genuinely recursive (`subrequirements?: Requirement[]`) with a `path` string and a `subrequirement_mode`. The ranks corpus never exceeds **depth 1**, has only **3 parent rows in 147**, and `childrenRequired` equals the child count in all 3 cases, so no choose-*k*-of-*n* occurs anywhere (§3.8). Whatever ranks need is a strict subset of that shape — except for `short`, which mbu has nothing to hold.
