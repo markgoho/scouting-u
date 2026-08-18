@@ -602,9 +602,9 @@ Whole-corpus value counts (147 rows):
 | `totalMBRequired` | `""` ×144, `"6"`, `"5"`, `"21"` |
 | `previousRankRequired` | `"False"` ×146, `"True"` ×1 |
 
-**All five fields are entirely empty on ranks 1–4.** Every populated value sits on rank 5, 6 or 7. Nine rows in total carry anything.
+**All five fields are empty on ranks 1–4** — with the single caveat that `previousRankRequired` is never literally empty anywhere: it carries its populated default `"False"` on all 147 rows (as §2 records). Every *non-default* value sits on rank 5, 6 or 7. **Nine rows in total carry a non-default value on any of the five.**
 
-### 6.2 Every populated row, verbatim, adjudicated
+### 6.2 Every row carrying a non-default value, verbatim, adjudicated
 
 ```
 rank 5 Star   id=595  listNumber='1.'  short='Active 4 months'
@@ -923,7 +923,7 @@ mbu's `ApiRequirementRow` type declares **8 fields**: `id`, `name`, `listNumber`
 | `electiveAdventure`, `linkedElectiveAdventures` | `false` / `[]` — Cub Scouting machinery |
 | `requiresSSElective`, `ssElectives` | `false` / `[]` — Sea Scouting machinery |
 
-Of those 17, only **three carry information on Scouts BSA today**: `short`, `versionId`, and the numeric quartet (`previousRankRequired` / `monthsSinceLastRankRequired` / `eagleMBRequired` / `totalMBRequired`), whose reliability is §6. The remaining eleven are dead for this program.
+Of those 17, only **six carry information on Scouts BSA today** — three groups: `short`, `versionId`, and the numeric quartet (`previousRankRequired` / `monthsSinceLastRankRequired` / `eagleMBRequired` / `totalMBRequired`), whose reliability is §6. The remaining eleven are dead for this program.
 
 Rank-*level* additions with no badge equivalent: `level`, `reallyShort`, `versions[]`, `rankInformation.header`, `rankInformation.footer`, `imageUrl100/200/400`, `lds`, `scoutNet`, `sku`, `price`, `priceLastUpdated`.
 
