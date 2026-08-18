@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>First Class requirements</title>
+  </head>
+  <body>
+    <nav>Site nav — never indexed by Pagefind.</nav>
+    <main data-pagefind-body>
+      <h1 data-pagefind-meta="title:First Class" data-pagefind-filter="rank:First Class">
+        First Class Rank Requirements
+      </h1>
+      <!--
+        GOTCHA, proven by this fixture: an inline `key:value` metadata capture
+        swallows the rest of the attribute. Written as
+          data-pagefind-meta="rank:First Class, rank_slug:first-class"
+        Pagefind indexed  rank = "First Class, rank_slug:first-class".
+        Inline captures must be last, one per element.
+      -->
+      <span hidden data-pagefind-meta="rank:First Class"></span>
+      <span hidden data-pagefind-meta="rank_slug:first-class"></span>
+
+      <ol>
+        <!-- Requirement with an id-bearing HEADING: should become a sub-result. -->
+        <li>
+          <h2 id="1a">1a</h2>
+          <p>
+            Since joining Scouts BSA, participate in 10 separate troop
+            activities, at least six of which must be held outdoors.
+          </p>
+        </li>
+
+        <li>
+          <h2 id="2a">2a</h2>
+          <p>
+            Help plan a patrol menu for one campout that includes at least one
+            breakfast, one lunch, and one dinner, and that requires cooking at
+            least two of the meals.
+          </p>
+          <!-- Nested deeper heading INSIDE 2a's list item: does it flatten? -->
+          <ol>
+            <li>
+              <h4 id="2a-i">2a(i)</h4>
+              <p>
+                Tell how the menu includes the foods needed to cook a balanced
+                meal.
+              </p>
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <h2 id="2b">2b</h2>
+          <p>
+            Using the menu planned in requirement 2a, make a list showing a
+            budget and the food amounts needed to feed three or more youth. Cook
+            something over a fire.
+          </p>
+        </li>
+
+        <!-- Requirement anchored on a NON-heading element only. -->
+        <li id="3a" data-req="3a">
+          <p class="req-label">3a</p>
+          <p>
+            Discuss when it is appropriate to use a fire for cooking versus a
+            lightweight stove. Cook a hot meal for your patrol.
+          </p>
+        </li>
+
+        <!-- A heading with an id but no text — filtered out by Pagefind. -->
+        <li>
+          <h2 id="4a"></h2>
+          <p>Demonstrate cooking safety and cleanliness after every meal.</p>
+        </li>
+      </ol>
+
+      <!-- Trailing content AFTER the last heading: does it land in the last region? -->
+      <section class="page-footer-notes">
+        <p>
+          Note: a Scout may cook these requirements at any troop campout. See
+          the troop cookbook for more.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

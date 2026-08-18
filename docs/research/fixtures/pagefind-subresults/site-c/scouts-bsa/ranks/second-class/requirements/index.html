@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Second Class requirements</title>
+  </head>
+  <body>
+    <nav>Site nav.</nav>
+
+    <!--
+      SIBLING-BODIES PROBE (no outer body element).
+
+      Each requirement is its own `data-pagefind-body`, with no page-level
+      wrapper. If sibling bodies produced one record each, this page would
+      yield two results. This fixture settles whether "multiple body
+      elements ... will be combined" means one record per page regardless.
+
+      Also probes question 5: `reqtext` carries the FULL requirement prose
+      as metadata, to see whether Pagefind truncates a long meta value.
+    -->
+    <h1>Second Class Rank Requirements</h1>
+
+    <ol>
+      <li data-pagefind-body>
+        <h2 id="2a">2a</h2>
+        <span
+          hidden
+          data-pagefind-meta="reqtext:On one campout, plan and cook one hot breakfast or lunch for yourself, selecting foods from MyPlate or the current USDA nutritional model. Explain the importance of good nutrition. Demonstrate how to transport, store, and prepare the foods you selected."
+        ></span>
+        <p>
+          On one campout, plan and cook one hot breakfast or lunch for
+          yourself, selecting foods from MyPlate or the current USDA
+          nutritional model.
+        </p>
+      </li>
+
+      <li data-pagefind-body>
+        <h2 id="2b">2b</h2>
+        <p>Cook a second meal and clean up afterwards.</p>
+      </li>
+    </ol>
+  </body>
+</html>
