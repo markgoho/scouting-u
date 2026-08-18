@@ -1,0 +1,19 @@
+{
+  "name": "scouting-u",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "oxlint .",
+    "build:local": "rm -rf hugo/public && cd hugo && hugo && bun run index",
+    "build": "cd hugo && hugo --minify && bun run index",
+    "hugo:dev": "cd hugo && hugo server",
+    "index": "bunx pagefind --site hugo/public"
+  },
+  "devDependencies": {
+    "oxlint": "^1.72.0",
+    "pagefind": "^1.5.2",
+    "prettier": "^3.9.4",
+    "prettier-plugin-go-template": "^0.0.15",
+    "prettier-plugin-organize-imports": "^4.3.0"
+  }
+}
