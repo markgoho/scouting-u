@@ -4,13 +4,6 @@ on:
   repository_dispatch:
     types: [uni-theme-bump]
 
-# HUGO_VERSION is hardcoded rather than read from a Dockerfile (mbu's
-# approach) because scouting-u has no deploy pipeline yet. Keep this in
-# sync with mbu's Dockerfile ARG HUGO_VERSION until scouting-u has its
-# own build/deploy config to read from.
-env:
-  HUGO_VERSION: "0.159.2"
-
 permissions:
   contents: write
   pull-requests: write
@@ -43,7 +36,8 @@ jobs:
 
       - name: Install Hugo (extended)
         run: |
-          curl -fsSL -o hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          hugo_version=$(grep -oP 'ARG HUGO_VERSION=\K[0-9.]+' Dockerfile)
+          curl -fsSL -o hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_linux-amd64.deb"
           sudo apt-get install -y ./hugo.deb
           rm hugo.deb
 
