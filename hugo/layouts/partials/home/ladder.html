@@ -1,0 +1,69 @@
+{{/*
+  Rank ladder: the home page IS the advancement path. Scroll down the rail
+  from joining a troop to Eagle. Settled via scouting-u#22 (three prototype
+  variants compared on branch prototype/22-rank-ladder-home) — this vertical
+  rail won. Uses uni-theme's shared .timeline primitive.
+*/}}
+
+{{ $ranksData := index hugo.Data.ranks "scouts-bsa" }}
+{{ $ranks := slice }}
+{{ range $slug, $data := $ranksData }}
+  {{ $page := site.GetPage (printf "/scouts-bsa/ranks/%s" $slug) }}
+  {{ $samples := slice }}
+  {{ range $data.requirements }}
+    {{ if lt (len $samples) 3 }}
+      {{ if .short }}
+        {{ $samples = $samples | append .short }}
+      {{ else }}
+        {{ range .children }}
+          {{ if and (lt (len $samples) 3) .short }}
+            {{ $samples = $samples | append .short }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $ranks = $ranks | append (dict
+    "slug" $slug
+    "title" $data.title
+    "short" $data.short
+    "level" $data.level
+    "description" (cond (isset $page.Params "description") $page.Params.description "")
+    "samples" $samples
+  ) }}
+{{ end }}
+{{ $ranks = sort $ranks "level" }}
+
+<div class="ladder-progress" aria-hidden="true"></div>
+
+<section class="ladder" aria-labelledby="ladder-heading">
+  <h1 id="ladder-heading" class="ladder__intro-title">The trail to Eagle</h1>
+  <p class="ladder__intro-copy">Every Scouts BSA member walks the same seven ranks, in order. Scroll to follow the path from joining a troop to Eagle Scout.</p>
+
+  <ol class="timeline ladder__rail">
+    <li class="timeline__item ladder__step">
+      <span class="timeline__node"><span class="timeline__node-text" aria-hidden="true">&#9733;</span></span>
+      <div class="timeline__panel ladder__card">
+        <p class="ladder__eyebrow">Getting started</p>
+        <h2 class="ladder__card-title">Join Scouting</h2>
+        <p class="ladder__card-copy">Every Scout starts here — no rank required, just a troop and a Scoutmaster.</p>
+      </div>
+    </li>
+
+    {{ range $ranks }}
+    <li class="timeline__item ladder__step">
+      <span class="timeline__node"><span class="timeline__node-text" aria-hidden="true">{{ .level }}</span></span>
+      <div class="timeline__panel ladder__card">
+        <p class="ladder__eyebrow">Rank {{ .level }} of 7</p>
+        <h2 class="ladder__card-title"><a href="/scouts-bsa/ranks/{{ .slug }}/">{{ .title }}</a></h2>
+        {{ with .description }}<p class="ladder__card-copy">{{ . }}</p>{{ end }}
+        {{ with .samples }}
+        <ul class="ladder__samples">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ol>
+</section>
