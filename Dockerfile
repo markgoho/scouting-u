@@ -22,6 +22,10 @@ RUN git config --global --add safe.directory /__w/scouting-u/scouting-u && \
   git config --system --add safe.directory /__w/scouting-u/scouting-u && \
   git config --system --add core.quotepath false
 
+# Install Node.js (npx is required by FirebaseExtended/action-hosting-deploy to run firebase-tools)
+RUN curl -fsSL https://deb.nodesource.com/setup_24.x | bash - \
+  && apt-get install -y nodejs
+
 # Install Bun
 RUN curl -fsSL https://bun.com/install | bash -s "bun-v${BUN_VERSION}"
 ENV PATH="/root/.bun/bin:$PATH"
@@ -31,6 +35,7 @@ RUN wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hu
   && apt-get install -y ./hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
   && rm hugo_extended_${HUGO_VERSION}_linux-amd64.deb
 
+RUN echo "Node.js version: $(node --version)"
 RUN echo "Bun version: $(bun --version)"
 RUN echo "Hugo version: $(hugo version)"
 
