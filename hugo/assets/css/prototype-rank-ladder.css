@@ -44,50 +44,6 @@ html[data-variant="c"] .ladder--b {
   }
 }
 
-/* ---- persistent "you are here" stepper --------------------------------- */
-.ladder-stepper {
-  position: fixed;
-  top: var(--space-s);
-  right: var(--space-s);
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: var(--space-3xs);
-  background: var(--surface-inverse);
-  color: var(--on-surface-inverse);
-  border-radius: var(--radius-lg);
-  padding: var(--space-2xs) var(--space-s);
-  box-shadow: var(--shadow-raised);
-}
-
-.ladder-stepper__dots {
-  list-style: none;
-  display: flex;
-  gap: var(--space-3xs);
-  margin: 0;
-  padding: 0;
-}
-
-.ladder-stepper__dot {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: var(--radius-full);
-  background: color-mix(in srgb, var(--on-surface-inverse) 35%, transparent);
-  transition: background 0.2s, scale 0.2s;
-}
-
-.ladder-stepper__dot[data-active] {
-  background: var(--on-surface-inverse);
-  scale: 1.3;
-}
-
-.ladder-stepper__label {
-  margin: 0;
-  font-size: var(--step--1);
-  white-space: nowrap;
-}
-
 /* ---- prototype switcher bar ------------------------------------------ */
 .ladder-switcher {
   position: fixed;
@@ -203,9 +159,13 @@ html[data-variant="c"] .ladder--b {
   @supports ((animation-timeline: view()) and (animation-range: entry)) {
     .ladder--a .ladder__step {
       view-timeline: --ladder-a-step block;
-      animation: ladder-a-grow auto linear both;
-      animation-timeline: --ladder-a-step;
-      animation-range: entry 0% cover 30%;
+      animation:
+        ladder-a-grow auto linear backwards,
+        ladder-a-shrink auto linear forwards;
+      animation-timeline: --ladder-a-step, --ladder-a-step;
+      animation-range:
+        entry 0% cover 30%,
+        exit 70% exit 100%;
     }
 
     @keyframes ladder-a-grow {
@@ -213,6 +173,16 @@ html[data-variant="c"] .ladder--b {
         opacity: 0;
         scale: 0.85;
         translate: 0 var(--space-m);
+      }
+    }
+
+    /* Exit mirrors entry: the card came up from below, so it leaves
+       shrinking and fading upward, past the rail node it grew from. */
+    @keyframes ladder-a-shrink {
+      to {
+        opacity: 0;
+        scale: 0.85;
+        translate: 0 calc(-1 * var(--space-m));
       }
     }
 
@@ -312,15 +282,23 @@ html[data-variant="c"] .ladder--b {
 @media (prefers-reduced-motion: no-preference) {
   @supports ((animation-timeline: view()) and (animation-range: entry)) {
     .ladder__band--left .ladder__band-content {
-      animation: ladder-b-in-left auto linear both;
-      animation-timeline: view();
-      animation-range: entry 0% cover 35%;
+      animation:
+        ladder-b-in-left auto linear backwards,
+        ladder-b-out-left auto linear forwards;
+      animation-timeline: view(), view();
+      animation-range:
+        entry 0% cover 35%,
+        exit 65% exit 100%;
     }
 
     .ladder__band--right .ladder__band-content {
-      animation: ladder-b-in-right auto linear both;
-      animation-timeline: view();
-      animation-range: entry 0% cover 35%;
+      animation:
+        ladder-b-in-right auto linear backwards,
+        ladder-b-out-right auto linear forwards;
+      animation-timeline: view(), view();
+      animation-range:
+        entry 0% cover 35%,
+        exit 65% exit 100%;
     }
 
     @keyframes ladder-b-in-left {
@@ -334,6 +312,23 @@ html[data-variant="c"] .ladder--b {
       from {
         opacity: 0;
         translate: 3rem 0;
+      }
+    }
+
+    /* Exit continues the entry's direction of travel rather than reversing
+       it: the left band arrived moving rightward (-3rem → 0), so it keeps
+       moving right on the way out; the right band mirrors that. */
+    @keyframes ladder-b-out-left {
+      to {
+        opacity: 0;
+        translate: 3rem 0;
+      }
+    }
+
+    @keyframes ladder-b-out-right {
+      to {
+        opacity: 0;
+        translate: -3rem 0;
       }
     }
 
@@ -446,6 +441,31 @@ html[data-variant="c"] .ladder--b {
         scale: 1.05;
       }
     }
+
+    /* C's core mechanic already IS a continuous entry/exit (every card
+       slides in from the right and out to the left) — this adds the one
+       macro-level pair the mechanic doesn't cover: the whole pinned trail
+       fading in as you arrive at it and fading out as you leave it. */
+    .ladder__pin-wrap {
+      animation: ladder-c-pin-fade auto linear;
+      animation-timeline: --ladder-c-scroll;
+      animation-range: cover 0% cover 100%;
+    }
+
+    @keyframes ladder-c-pin-fade {
+      from {
+        opacity: 0;
+      }
+      15% {
+        opacity: 1;
+      }
+      85% {
+        opacity: 1;
+      }
+      to {
+        opacity: 0;
+      }
+    }
   }
 }
 
@@ -501,6 +521,7 @@ html[data-variant="c"] .ladder--b {
 
   .ladder__pin-wrap {
     height: auto !important;
+    opacity: 1 !important;
   }
 
   .ladder__pin {

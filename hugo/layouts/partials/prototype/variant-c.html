@@ -9,14 +9,14 @@
   <div class="ladder__pin-wrap" style="--ladder-c-count: {{ $count }};">
     <div class="ladder__pin">
       <div class="ladder__track">
-        <article class="ladder__trail-card" data-ladder-rank="0" data-ladder-title="Join Scouting">
+        <article class="ladder__trail-card">
           <p class="ladder__eyebrow">Getting started</p>
           <h2 class="ladder__card-title">Join Scouting</h2>
           <p class="ladder__card-copy">Every Scout starts here — no rank required, just a troop and a Scoutmaster.</p>
         </article>
 
         {{ range $ranks }}
-        <article class="ladder__trail-card" data-ladder-rank="{{ .level }}" data-ladder-title="{{ .title }}">
+        <article class="ladder__trail-card">
           <span class="ladder__trail-numeral" aria-hidden="true">{{ .level }}</span>
           <p class="ladder__eyebrow">Rank {{ .level }} of 7</p>
           <h2 class="ladder__card-title">{{ .title }}</h2>
