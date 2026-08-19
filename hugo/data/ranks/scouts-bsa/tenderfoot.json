@@ -1,0 +1,402 @@
+{
+  "$schema": "../../../static/schemas/rank.schema.json",
+  "title": "Tenderfoot",
+  "slug": "tenderfoot",
+  "short": "Tenderfoot",
+  "level": 2,
+  "program": "Scouts BSA",
+  "version_id": "83",
+  "version_effective_date": "2022-08-01",
+  "header": "",
+  "footer": "<strong>NOTES:</strong> The requirements for Scout, Tenderfoot, Second Class, and First Class ranks may be worked on simultaneously; however, these ranks must be earned in sequence.<br><br> Alternative requirements for the Scout rank are available for Scouts with physical or mental disabilities if they meet the criteria listed in the Scouts BSA Requirements book.",
+  "requirements": [
+    {
+      "req_id": "1",
+      "path": "1",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "1.a",
+          "text": "Present yourself to your leader, prepared for an overnight camping trip. Show the personal and camping gear you will use. Show the right way to pack and carry it.",
+          "list_number": "1a.",
+          "short": "Prepare to camp",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "1.b",
+          "text": "Spend at least one night on a patrol or troop campout. Sleep in a tent you have helped pitch.",
+          "list_number": "1b.",
+          "short": "Sleep in tent",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "1.c",
+          "text": "Explain how you demonstrated the Outdoor Code and Leave No Trace on campouts or outings.",
+          "list_number": "1c.",
+          "short": "Outdoor Code",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "2",
+      "path": "2",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "2.a",
+          "text": "On the campout, assist in preparing one of the meals. Tell why it is important for each patrol member to share in meal preparation and cleanup.",
+          "list_number": "2a.",
+          "short": "Help cook a meal",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "2.b",
+          "text": "While on a campout, demonstrate an appropriate method of safely cleaning items used to prepare, serve, and eat a meal.",
+          "list_number": "2b.",
+          "short": "Show cooking safety",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "2.c",
+          "text": "Explain the importance of eating together as a patrol.",
+          "list_number": "2c.",
+          "short": "Explain patrol eating",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "3",
+      "path": "3",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "3.a",
+          "text": "Demonstrate a practical use of the square knot.",
+          "list_number": "3a.",
+          "short": "Square knot",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "3.b",
+          "text": "Demonstrate a practical use of two half-hitches.",
+          "list_number": "3b.",
+          "short": "Two half-hitches",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "3.c",
+          "text": "Demonstrate a practical use of the taut-line hitch.",
+          "list_number": "3c.",
+          "short": "Taut-line hitch",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "3.d",
+          "text": "Demonstrate proper care, sharpening, and use of the knife, saw, and ax. Describe when each should be used.",
+          "list_number": "3d.",
+          "short": "Wood tools",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "4",
+      "path": "4",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "4.a",
+          "text": "Show first aid for the following: <ul> <li>Simple cuts and scrapes</li> <li>Blisters on the hand and foot</li> <li>Minor (thermal/heat) burns or scalds (superficial, or first-degree)</li> <li>Bites or stings of insects and ticks</li> <li>Venomous snakebite</li> <li>Nosebleed</li> <li>Frostbite and sunburn</li> <li>Choking</li> </ul>",
+          "list_number": "4a.",
+          "short": "First Aid",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "4.b",
+          "text": "Describe common poisonous or hazardous plants; identify any that grow in your local area or campsite location. Tell how to treat for exposure to them.",
+          "list_number": "4b.",
+          "short": "Poisonous plants",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "4.c",
+          "text": "Tell what you can do while on a campout or other outdoor activity to prevent or reduce the occurrence of injuries or exposure listed in Tenderfoot requirements 4a and 4b.",
+          "list_number": "4c.",
+          "short": "Injury prevention",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "4.d",
+          "text": "Assemble a personal first-aid kit to carry with you on future campouts and hikes. Tell how each item in the kit would be used.",
+          "list_number": "4d.",
+          "short": "First-aid kit",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "5",
+      "path": "5",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "5.a",
+          "text": "Explain the importance of the buddy system as it relates to your personal safety on outings and where you live. Use the buddy system while on a troop or patrol outing.",
+          "list_number": "5a.",
+          "short": "Buddy system",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "5.b",
+          "text": "Describe what to do if you become lost on a hike or campout.",
+          "list_number": "5b.",
+          "short": "Explain actions if lost",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "5.c",
+          "text": "Explain the rules of safe and responsible hiking, both on the highway and cross-country, during the day and at night.",
+          "list_number": "5c.",
+          "short": "Safe Hiking Rules",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "5.d",
+          "text": "Explain why it is important to hike on trails or other durable surfaces, and give examples of durable surfaces you saw on your outing.",
+          "list_number": "5d.",
+          "short": "Why it is important to hike on trails",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "6",
+      "path": "6",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "6.a",
+          "text": "Record your best in the following tests:<br> <br><strong>Current results</strong><br> <ul> <li>Push-ups ________ (Record the number done correctly in 60 seconds)</li> <li>Sit-ups or curl-ups________ (Record the number done correctly in 60 seconds)</li> <li>Back-saver sit-and-reach _________ (Record the distance stretched)</li> <li>1 mile walk/run _____________ (record the time)</li> </ul>",
+          "list_number": "6a.",
+          "short": "Fitness benchmark",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "6.b",
+          "text": "Develop and describe a plan for improvement in each of the activities listed in Tenderfoot requirement 6a. Keep track of your activity for at least 30 days.",
+          "list_number": "6b.",
+          "short": "Improvement plan",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "6.c",
+          "text": "Show improvement (of any degree) in each activity listed in Tenderfoot requirement 6a after practicing for 30 days. <br> <br><strong>30 days later</strong><br> <ul> <li>Push-ups ________ (Record the number done correctly in 60 seconds)</li> <li>Sit-ups or curl-ups________ (Record the number done correctly in 60 seconds)</li> <li>Back-saver sit-and-reach _________ (Record the distance stretched)</li> <li>1 mile walk/run _____________ (record the time)</li> </ul>",
+          "list_number": "6c.",
+          "short": "Test fitness plan",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "7",
+      "path": "7",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "7.a",
+          "text": "Demonstrate how to display, raise, lower, and fold the American flag.",
+          "list_number": "7a",
+          "short": "Flag basics",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "7.b",
+          "text": "Participate in a total of one hour of service in one or more service projects approved by your Scoutmaster. Explain how your service to others relates to the Scout slogan and Scout motto.",
+          "list_number": "7b.",
+          "short": "Service project",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "8",
+      "path": "8",
+      "text": "Describe the steps in Scouting's EDGE method. Use the Teaching EDGE method to teach another person how to tie the square knot.",
+      "list_number": "8.",
+      "short": "EDGE method",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "9",
+      "path": "9",
+      "text": "Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived four different points of the Scout Law in your everyday life.",
+      "list_number": "9.",
+      "short": "Scout spirit",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "10",
+      "path": "10",
+      "text": "While working toward the Tenderfoot rank, and after completing Scout rank requirement 7, participate in a Scoutmaster conference.",
+      "list_number": "10.",
+      "short": "Scoutmaster conference",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "11",
+      "path": "11",
+      "text": "Successfully complete your board of review for the Tenderfoot rank.",
+      "list_number": "11.",
+      "short": "Board of review",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    }
+  ]
+}

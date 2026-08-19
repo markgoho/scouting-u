@@ -3,6 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "sync:ranks": "bun scripts/sync-ranks-api.ts",
     "lint": "oxlint .",
     "build:local": "rm -rf hugo/public && cd hugo && hugo && bun run index",
     "build": "cd hugo && hugo --minify && bun run index",

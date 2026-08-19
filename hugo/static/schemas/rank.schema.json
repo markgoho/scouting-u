@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "Uses draft-07 for ajv-cli compatibility in local validation workflows.",
+  "$id": "https://scouting.university/schemas/rank.schema.json",
+  "title": "Rank",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "title",
+    "slug",
+    "short",
+    "level",
+    "program",
+    "version_id",
+    "version_effective_date",
+    "header",
+    "footer",
+    "requirements"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../../../static/schemas/rank.schema.json"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "short": {
+      "type": "string",
+      "minLength": 1
+    },
+    "level": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "program": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version_effective_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "header": {
+      "type": "string"
+    },
+    "footer": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/requirement"
+      }
+    }
+  },
+  "$defs": {
+    "requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "req_id",
+        "path",
+        "text",
+        "list_number",
+        "short",
+        "months_since_last_rank_required",
+        "eagle_mb_required",
+        "total_mb_required",
+        "service_hours_required"
+      ],
+      "properties": {
+        "req_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string"
+        },
+        "list_number": {
+          "type": "string"
+        },
+        "short": {
+          "type": "string"
+        },
+        "months_since_last_rank_required": {
+          "type": "string"
+        },
+        "eagle_mb_required": {
+          "type": "string"
+        },
+        "total_mb_required": {
+          "type": "string"
+        },
+        "service_hours_required": {
+          "type": "string"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/requirement"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "$schema": "../../../static/schemas/rank.schema.json",
+  "title": "Scout",
+  "slug": "scout",
+  "short": "Scout",
+  "level": 1,
+  "program": "Scouts BSA",
+  "version_id": "84",
+  "version_effective_date": "2022-08-01",
+  "header": "All requirements for the Scout rank must be completed as a member of a troop or as a Lone Scout. If you have already completed these requirements as part of the Webelos Scouting Adventure, simply demonstrate your knowledge or skills to your Scoutmaster or other designated leader after joining the troop.",
+  "footer": "<strong>NOTES:</strong> The requirements for Scout, Tenderfoot, Second Class, and First Class ranks may be worked on simultaneously; however, these ranks must be earned in sequence.<br><br> Alternative requirements for the Scout rank are available for Scouts with physical or mental disabilities if they meet the criteria listed in the Scouts BSA Requirements book. <br><br> <sup>1</sup> If your family does not have internet access at home AND you do not have ready internet access at school or another public place or via a mobile device, the Personal Safety Awareness videos portion of this requirement may be waived by your Scoutmaster in consultation with your parent or guardian.",
+  "requirements": [
+    {
+      "req_id": "1",
+      "path": "1",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "1.a",
+          "text": "Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In your own words, explain their meaning.",
+          "list_number": "1a.",
+          "short": "Scout Oath & Law",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "1.b",
+          "text": "Explain what Scout spirit is. Describe some ways you have shown Scout spirit by practicing the Scout Oath, Scout Law, Scout motto, and Scout slogan.",
+          "list_number": "1b.",
+          "short": "Scout Spirit",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "1.c",
+          "text": "Demonstrate the Scout sign, salute, and handshake. Explain when they should be used.",
+          "list_number": "1c.",
+          "short": "Salute & Sign",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "1.d",
+          "text": "Describe the First Class Scout badge and tell what each part stands for. Explain the significance of the First Class Scout badge.",
+          "list_number": "1d.",
+          "short": "First Class Badge",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "e",
+          "path": "1.e",
+          "text": "Repeat from memory the Outdoor Code. List the Leave No Trace Seven Principles. Explain the difference between the two.",
+          "list_number": "1e.",
+          "short": "Outdoor Code",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "f",
+          "path": "1.f",
+          "text": "Repeat from memory the Pledge of Allegiance. In your own words, explain its meaning.",
+          "list_number": "1f.",
+          "short": "Pledge of Allegiance",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "2",
+      "path": "2",
+      "text": "After attending at least one Scout troop meeting, do the following:",
+      "list_number": "2.",
+      "short": "Attend meeting; Complete 2a-2d",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "2.a",
+          "text": "Describe how the Scouts in the troop provide its leadership.",
+          "list_number": "2a.",
+          "short": "Describe Youth Leadership",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "2.b",
+          "text": "Describe the four steps of Scout advancement.",
+          "list_number": "2b.",
+          "short": "Describe Advancement",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "2.c",
+          "text": "Describe the Scouts BSA ranks and how they are earned.",
+          "list_number": "2c.",
+          "short": "Describe Ranks",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "2.d",
+          "text": "Describe what merit badges are and how they are earned.",
+          "list_number": "2d.",
+          "short": "Describe Merit Badges",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "3",
+      "path": "3",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "3.a",
+          "text": "Explain the patrol method. Describe the types of patrols that are used in your troop.",
+          "list_number": "3a.",
+          "short": "Patrol Method",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "3.b",
+          "text": "Become familiar with your patrol name, emblem, flag, and yell. Explain how these items create patrol spirit.",
+          "list_number": "3b.",
+          "short": "Patrol Spirit",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "4",
+      "path": "4",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "4.a",
+          "text": "Show how to tie a square knot, two half-hitches, and a taut-line hitch. Explain how each knot is used.",
+          "list_number": "4a.",
+          "short": "Knots (3)",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "4.b",
+          "text": "Show the proper care of a rope by learning how to whip and fuse the ends of different kinds of rope.",
+          "list_number": "4b.",
+          "short": "Whip and fuse rope",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "5",
+      "path": "5",
+      "text": "Tell what you need to know about using a pocketknife safely and responsibly.",
+      "list_number": "5.",
+      "short": "Knife safety",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "6",
+      "path": "6",
+      "text": "Do the following:",
+      "list_number": "6.",
+      "short": "Personal protection",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "6.a",
+          "text": "With your parent or guardian, complete the exercises in the pamphlet<i> How to Protect Your Children from Child Abuse: A Parent's Guide</i> .",
+          "list_number": "6a",
+          "short": "Protection from Child Abuse",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "6.b",
+          "text": "With your parent or guardian's permission, view the <i><a href=\"https://www.scouting.org/training/youth-protection/scouts-bsa/\"> Personal Safety Awareness videos</a></i>.1 (See the pamphlet inserted inside the front cover.)",
+          "list_number": "6b",
+          "short": "Personal Safety Awareness",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "7",
+      "path": "7",
+      "text": "Since joining the troop and while working on Scout rank, participate in a Scoutmaster conference.",
+      "list_number": "7.",
+      "short": "Scoutmaster conference",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    }
+  ]
+}

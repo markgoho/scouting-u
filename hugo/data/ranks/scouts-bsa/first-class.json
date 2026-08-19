@@ -1,0 +1,549 @@
+{
+  "$schema": "../../../static/schemas/rank.schema.json",
+  "title": "First Class",
+  "slug": "first-class",
+  "short": "First Class",
+  "level": 4,
+  "program": "Scouts BSA",
+  "version_id": "99",
+  "version_effective_date": "2022-08-01",
+  "header": "",
+  "footer": "<br><br><strong>NOTES:</strong> The requirements for Scout, Tenderfoot, Second Class, and First Class ranks may be worked on simultaneously; however, these ranks must be earned in sequence. <br><br> Alternative requirements for the First Class rank are available for Scouts with physical or mental disabilities if they meet the criteria listed in the <em>Scout BSA Requirements</em> book. <br><br> <sup>4</sup> See the Swimming merit badge requirements for details about the BSA swimmer test. <br><br> <sup>5</sup> Under certain exceptional conditions, where the climate keeps the outdoor water temperature below safe levels yearround, or where there are no suitably safe and accessible places (outdoors or indoors) within a reasonable traveling distance to swim at any time during the year, the council Scout executive and advancement committee may, on an individual Scout basis, authorize an alternative for requirements 6a and 6e. The local council may establish appropriate procedures for submitting and processing these types of requests. All the other requirements, none of which necessitate entry in the water or entry in a watercraft on the water, must be completed as written.",
+  "requirements": [
+    {
+      "req_id": "1",
+      "path": "1",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "1.a",
+          "text": "Since joining Scouts BSA, participate in 10 separate troop/patrol activities, at least six of which must be held outdoors. Of the outdoor activities, at least three must include overnight camping. These activities do not include troop or patrol meetings. On campouts, spend the night in a tent that you pitch or other structure that you help erect, such as a lean-to, snow cave, or tepee.",
+          "list_number": "1a.",
+          "short": "Participate in 10 events",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "1.b",
+          "text": "Explain the potential impacts of camping, both on the environment and on other outdoor users. Explain why the Outdoor Code and Leave No Trace Seven Principles are important for protecting the outdoors.",
+          "list_number": "1b.",
+          "short": "Tread Lightly!",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "2",
+      "path": "2",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "2.a",
+          "text": "Help plan a menu for one of the above campouts that includes at least one breakfast, one lunch, and one dinner, and that requires cooking at least two of the meals. Tell how the menu includes the foods from MyPlate or the current USDA nutritional model and how it meets nutritional needs for the planned activity or campout.",
+          "list_number": "2a.",
+          "short": "Plan a campout menu",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "2.b",
+          "text": "Using the menu planned in First Class requirement 2a, make a list showing a budget and the food amounts needed to feed three or more youth. Secure the ingredients.",
+          "list_number": "2b.",
+          "short": "Develop menu budget",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "2.c",
+          "text": "Show which pans, utensils, and other gear will be needed to cook and serve these meals.",
+          "list_number": "2c.",
+          "short": "Know cooking tools",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "2.d",
+          "text": "Demonstrate the procedures to follow in the safe handling and storage of fresh meats, dairy products, eggs, vegetables, and other perishable food products. Show how to properly dispose of camp garbage, cans, plastic containers, waste water and other rubbish.",
+          "list_number": "2d.",
+          "short": "Know food safety",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "e",
+          "path": "2.e",
+          "text": "On one campout, serve as cook. Supervise your assistant(s) in using a stove or building a cooking fire. Prepare the breakfast, lunch, and dinner planned in First Class requirement 2a. Supervise the cleanup.",
+          "list_number": "2e.",
+          "short": "Cook on 1 campout",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "3",
+      "path": "3",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "3.a",
+          "text": "Discuss when you should and should not use lashings.",
+          "list_number": "3a.",
+          "short": "Know lashing uses",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "3.b",
+          "text": "Demonstrate tying the timber hitch and clove hitch.",
+          "list_number": "3b.",
+          "short": "Demonstrate knots",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "3.c",
+          "text": "Demonstrate tying the square, shear, and diagonal lashings by joining two or more poles or staves together.",
+          "list_number": "3c.",
+          "short": "Demonstrate lashings",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "3.d",
+          "text": "Use lashings to make a useful camp gadget or structure.",
+          "list_number": "3d.",
+          "short": "Lash camp gadget",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "4",
+      "path": "4",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "4.a",
+          "text": "Using a map and compass, complete an orienteering course that covers at least one mile and requires measuring the height and/or width of designated items (tree, tower, canyon, ditch, etc.).",
+          "list_number": "4a.",
+          "short": "Orienteering course",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "4.b",
+          "text": "Demonstrate how to use a handheld GPS unit, GPS app on a smartphone, or other electronic navigation system while on a campout or hike. Use GPS to find your current location, a destination of your choice, and the route you will take to get there. Follow that route to arrive at your destination.",
+          "list_number": "4b.",
+          "short": "GPS use",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "5",
+      "path": "5",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "5.a",
+          "text": "Identify or show evidence of at least 10 kinds of native plants found in your local area or campsite location. You may show evidence by identifying fallen leaves or fallen fruit that you find in the field, or as part of a collection you have made, or by photographs you have taken.",
+          "list_number": "5a.",
+          "short": "Identify native plants",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "5.b",
+          "text": "Identify two ways to obtain a weather forecast for an upcoming activity. Explain why weather forecasts are important when planning for an event.",
+          "list_number": "5b.",
+          "short": "Weather forecasts",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "5.c",
+          "text": "Describe at least three natural indicators of impending hazardous weather, the potential dangerous events that might result from such weather conditions, and the appropriate actions to take.",
+          "list_number": "5c.",
+          "short": "Hazardous weather",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "5.d",
+          "text": "Describe extreme weather conditions you might encounter in the outdoors in your local geographic area. Discuss how you would determine ahead of time the potential risk of these types of weather dangers, alternative planning considerations to avoid such risks, and how you would prepare for and respond to those weather conditions.",
+          "list_number": "5d.",
+          "short": "Local weather",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "6",
+      "path": "6",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "6.a",
+          "text": "Successfully complete the BSA swimmer test.<sup>4, 5</sup>",
+          "list_number": "6a.",
+          "short": "BSA swim test",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "6.b",
+          "text": "Tell what precautions must be taken for a safe trip afloat.",
+          "list_number": "6b.",
+          "short": "Safety Afloat",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "6.c",
+          "text": "Identify the basic parts of a canoe, kayak, or other boat. Identify the parts of a paddle or an oar.",
+          "list_number": "6c.",
+          "short": "Boat parts",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "6.d",
+          "text": "Describe proper body positioning in a watercraft, depending on the type and size of the vessel. Explain the importance of proper body position in the boat.",
+          "list_number": "6d.",
+          "short": "Show boating body position",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "e",
+          "path": "6.e",
+          "text": "With a helper and a practice victim, show a line rescue both as tender and as rescuer. (The practice victim should be approximately 30 feet from shore in deep water.)<sup>5</sup>",
+          "list_number": "6e.",
+          "short": "Line rescue",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "7",
+      "path": "7",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "7.a",
+          "text": "Demonstrate bandages for a sprained ankle and for injuries on the head, the upper arm, and the collarbone.",
+          "list_number": "7a.",
+          "short": "Bandages",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "7.b",
+          "text": "By yourself and with a partner, show how to: <ul> <li>Transport a person from a smoke-filled room</li> <li>Transport for at least 25 yards a person with a sprained ankle.</li> </ul>",
+          "list_number": "7b.",
+          "short": "Transport others",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "7.c",
+          "text": "Tell the five most common signals of a heart attack. Explain the steps (procedures) in cardiopulmonary resuscitation (CPR).",
+          "list_number": "7c.",
+          "short": "Heart attack",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "7.d",
+          "text": "Tell what utility services exist in your home or meeting place. Describe potential hazards associated with these utilities and tell how to respond in emergency situations.",
+          "list_number": "7d.",
+          "short": "Utility hazards",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "e",
+          "path": "7.e",
+          "text": "Develop an emergency action plan for your home that includes what to do in case of fire, storm, power outage, and water outage.",
+          "list_number": "7e.",
+          "short": "Emergency plan",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "f",
+          "path": "7.f",
+          "text": "Explain how to obtain potable water in an emergency.",
+          "list_number": "7f.",
+          "short": "Potable water",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "8",
+      "path": "8",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "8.a",
+          "text": "After completing Second Class requirement 7a, be physically active at least 30 minutes each day for five days a week for four weeks. Keep track of your activities.",
+          "list_number": "8a.",
+          "short": "Be physically active",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "8.b",
+          "text": "Share your challenges and successes in completing First Class requirement 8a. Set a goal for continuing to include physical activity as part of your daily life.",
+          "list_number": "8b.",
+          "short": "Reflection & Goal Setting",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "9",
+      "path": "9",
+      "text": "",
+      "list_number": "",
+      "short": "",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": "",
+      "children": [
+        {
+          "req_id": "a",
+          "path": "9.a",
+          "text": "Visit and discuss with a selected individual approved by your leader (for example, an elected official, judge, attorney, civil servant, principal, or teacher) the constitutional rights and obligations of a U.S. citizen.",
+          "list_number": "9a.",
+          "short": "Discuss citizenship",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "b",
+          "path": "9.b",
+          "text": "Investigate an environmental issue affecting your community. Share what you learned about that issue with your patrol or troop. Tell what, if anything, could be done by you or your community to address the concern.",
+          "list_number": "9b.",
+          "short": "Study an environmental issue",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "c",
+          "path": "9.c",
+          "text": "On a Scouting or family outing, take note of the trash and garbage you produce. Before your next similar outing, decide how you can reduce, recycle, or repurpose what you take on that outing, and then put those plans into action. Compare your results.",
+          "list_number": "9c.",
+          "short": "Track garbage & recycle",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        },
+        {
+          "req_id": "d",
+          "path": "9.d",
+          "text": "Participate in three hours of service through one or more service projects approved by your Scoutmaster. The project(s) must not be the same service project(s) used for Tenderfoot requirement 7b and Second Class requirement 8e. Explain how your service to others relates to the Scout Law.",
+          "list_number": "9d.",
+          "short": "Complete service project(s)",
+          "months_since_last_rank_required": "",
+          "eagle_mb_required": "",
+          "total_mb_required": "",
+          "service_hours_required": ""
+        }
+      ]
+    },
+    {
+      "req_id": "10",
+      "path": "10",
+      "text": "Tell someone who is eligible to join Scouts BSA, or an inactive Scout, about your Scouting activities. Invite this person to an outing, activity, service project, or meeting. Provide information on how to join, or encourage the inactive Scout to become active. Share your efforts with your Scoutmaster or other adult leader.",
+      "list_number": "10.",
+      "short": "Invite a friend to Scouts",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "11",
+      "path": "11",
+      "text": "Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived four different points of the Scout Law (different from those points used for previous ranks) in your everyday life.",
+      "list_number": "11.",
+      "short": "Demonstrate Scout spirit",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "12",
+      "path": "12",
+      "text": "While working toward the First Class rank, and after completing Second Class requirement 11, participate in a Scoutmaster conference.",
+      "list_number": "12.",
+      "short": "Scoutmaster conference",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    },
+    {
+      "req_id": "13",
+      "path": "13",
+      "text": "Successfully complete your board of review for the First Class rank.",
+      "list_number": "13.",
+      "short": "Board of review",
+      "months_since_last_rank_required": "",
+      "eagle_mb_required": "",
+      "total_mb_required": "",
+      "service_hours_required": ""
+    }
+  ]
+}
