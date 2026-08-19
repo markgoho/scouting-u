@@ -6,7 +6,7 @@
   <p class="ladder__intro-copy">Every Scouts BSA member walks the same seven ranks, in order. Scroll to follow the path from joining a troop to Eagle Scout.</p>
 
   <ol class="timeline ladder__rail">
-    <li class="timeline__item ladder__step">
+    <li class="timeline__item ladder__step" data-ladder-rank="0" data-ladder-title="Join Scouting">
       <span class="timeline__node"><span class="timeline__node-text" aria-hidden="true">&#9733;</span></span>
       <div class="timeline__panel ladder__card">
         <p class="ladder__eyebrow">Getting started</p>
@@ -16,7 +16,7 @@
     </li>
 
     {{ range $ranks }}
-    <li class="timeline__item ladder__step">
+    <li class="timeline__item ladder__step" data-ladder-rank="{{ .level }}" data-ladder-title="{{ .title }}">
       <span class="timeline__node"><span class="timeline__node-text" aria-hidden="true">{{ .level }}</span></span>
       <div class="timeline__panel ladder__card">
         <p class="ladder__eyebrow">Rank {{ .level }} of 7</p>

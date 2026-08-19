@@ -2,14 +2,14 @@
 {{ $ranks := . }}
 
 <section data-variant="b" class="ladder ladder--b" aria-labelledby="ladder-b-heading">
-  <div class="ladder__band ladder__band--intro">
+  <div class="ladder__band ladder__band--intro" data-ladder-rank="0" data-ladder-title="Join Scouting">
     <p class="ladder__eyebrow">Getting started</p>
     <h1 id="ladder-b-heading" class="ladder__band-title">Join Scouting</h1>
     <p class="ladder__band-copy">Every Scout starts here — no rank required, just a troop and a Scoutmaster.</p>
   </div>
 
   {{ range $i, $r := $ranks }}
-  <div class="ladder__band {{ if eq (mod $i 2) 0 }}ladder__band--left{{ else }}ladder__band--right{{ end }}">
+  <div class="ladder__band {{ if eq (mod $i 2) 0 }}ladder__band--left{{ else }}ladder__band--right{{ end }}" data-ladder-rank="{{ $r.level }}" data-ladder-title="{{ $r.title }}">
     <span class="ladder__band-numeral" aria-hidden="true">{{ $r.level }}</span>
     <div class="ladder__band-content">
       <p class="ladder__eyebrow">Rank {{ $r.level }} of 7</p>

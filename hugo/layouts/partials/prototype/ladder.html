@@ -29,6 +29,17 @@
 {{ end }}
 {{ $ranks = sort $ranks "level" }}
 
+<div id="ladder-progress" class="ladder-progress" aria-hidden="true"></div>
+
+<section class="ladder-stepper" aria-hidden="true">
+  <ol class="ladder-stepper__dots" data-ladder-dots>
+    {{ range seq 0 7 }}
+    <li class="ladder-stepper__dot" data-ladder-dot="{{ . }}"></li>
+    {{ end }}
+  </ol>
+  <p class="ladder-stepper__label" data-ladder-stepper-label>Join Scouting</p>
+</section>
+
 <section class="ladder-switcher" aria-label="Prototype variant switcher">
   <button type="button" class="ladder-switcher__arrow" data-ladder-prev aria-label="Previous variant">&larr;</button>
   <span class="ladder-switcher__label" data-ladder-label>Variant A — Vertical rail</span>
