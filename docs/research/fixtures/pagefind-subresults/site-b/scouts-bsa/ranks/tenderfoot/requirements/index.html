@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tenderfoot requirements</title>
+  </head>
+  <body>
+    <nav>Site nav.</nav>
+
+    <!--
+      NESTING PROBE.
+
+      An outer `data-pagefind-body` wraps the page, and each requirement
+      ALSO carries its own `data-pagefind-body`. The docs say multiple
+      body elements "will be combined" — this fixture proves what that
+      means when they are nested rather than siblings.
+
+      It also probes whether `data-pagefind-meta` / `-filter` set INSIDE
+      one requirement region stay scoped to that region or escape to the
+      page.
+    -->
+    <main data-pagefind-body>
+      <h1>Tenderfoot Rank Requirements</h1>
+      <span hidden data-pagefind-meta="rank:Tenderfoot"></span>
+
+      <ol>
+        <li data-pagefind-body>
+          <h2 id="5b">5b</h2>
+          <!-- Region-local meta + filter: do these stay local? -->
+          <span hidden data-pagefind-meta="req:5b"></span>
+          <span hidden data-pagefind-filter="req_num:5b"></span>
+          <p>Cook some food over a fire on a campout with your patrol.</p>
+        </li>
+
+        <li data-pagefind-body>
+          <h2 id="5c">5c</h2>
+          <span hidden data-pagefind-meta="req:5c"></span>
+          <span hidden data-pagefind-filter="req_num:5c"></span>
+          <p>Clean the cooking gear and the campsite after the meal.</p>
+        </li>
+      </ol>
+    </main>
+  </body>
+</html>
