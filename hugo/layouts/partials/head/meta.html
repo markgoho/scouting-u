@@ -1,0 +1,24 @@
+<!--
+  Local override of uni-theme's head/meta.html.
+
+  The vendored partial is not generic: it indexes an mbu-only
+  `data/badge-images.json`, hardcodes `/mbu-assets/...` ImageKit paths for
+  OG images, and requires `params.imagekit.endpoint` unconditionally with
+  no fallback. scouting-u has neither the data file nor an ImageKit
+  account configured. This drops the OG/Twitter image tags rather than
+  emitting a broken one; add them back once scouting-u has real emblem
+  imagery and an ImageKit endpoint (see #26, #13). See mbu#128 for the
+  upstream gap.
+-->
+<meta name="description" content="{{ .Description | default .Summary }}" />
+<meta name="theme-color" content="#1a1c1e" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)" />
+
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ .Permalink | absURL }}" />
+<meta property="og:description" content="{{ .Description | default .Summary }}" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ .Description | default .Summary }}" />

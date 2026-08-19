@@ -1,11 +1,49 @@
-<!-- Load Critical CSS Inline -->
-{{ $criticalCSS := slice
-  (resources.Get "css/colors.css")
-  (resources.Get "css/tokens-v2.css")
-  (resources.Get "css/typography.css")
-  (resources.Get "css/spacing.css")
-  (resources.Get "css/button.css")
-  | resources.Concat "css/critical.css"
-  | resources.Minify
+<!--
+  Local override of uni-theme's head/critical-css.html.
+
+  The vendored partial hardcodes several mbu-only filenames that don't
+  exist here (button-eagle.css, top-level search.css, eagle-required.css,
+  discontinued-notice.css, badge-view-transitions.css) — resources.Concat
+  errors on a slice containing even one nil. This mirrors the theme's path
+  list but skips missing files instead of crashing. See scouting-u#14 and
+  mbu#128 for the upstream gap; which of these files scouting-u actually
+  needs is a call for #20, not this override.
+-->
+{{ $paths := slice
+  "css/base.css"
+  "css/colors.css"
+  "css/tokens-v2.css"
+  "css/typography.css"
+  "css/spacing.css"
+  "css/layout.css"
+  "css/header.css"
+  "css/footer.css"
+  "css/button.css"
+  "css/button-eagle.css"
+  "css/components/search.css"
+  "css/search.css"
+  "css/components/breadcrumb.css"
+  "css/components/tag.css"
+  "css/components/card-surface.css"
+  "css/view-transitions.css"
+  "css/badge-view-transitions.css"
+  "css/components/timeline.css"
+  "css/pages/home.css"
+  "css/pages/merit-badges.css"
+  "css/components/discontinued-notice.css"
+  "css/eagle-required.css"
+  "css/pages/merit-badge-requirements.css"
+  "css/components/badge-hero.css"
+  "css/pages/merit-badge-landing.css"
+  "css/pages/drg.css"
+  "css/components/drg-blocks.css"
+  "css/pages/drg-print.css"
 }}
+{{ $found := slice }}
+{{ range $paths }}
+  {{ with resources.Get . }}
+    {{ $found = $found | append . }}
+  {{ end }}
+{{ end }}
+{{ $criticalCSS := $found | resources.Concat "css/critical.css" | resources.Minify }}
 <style>{{ $criticalCSS.Content | safeCSS }}</style>

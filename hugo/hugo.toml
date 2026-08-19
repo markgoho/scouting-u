@@ -1,7 +1,28 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://scouting.university/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'scouting.university'
 
 [module]
   [[module.imports]]
     path = "github.com/markgoho/uni-theme"
+
+[params.theme]
+  siteTitle = 'scouting.university'
+  siteTitleShort = 'scouting.u'
+  tagline = 'Your guide to Scouts BSA rank requirements.'
+
+  [params.theme.cta]
+    label = 'Browse Ranks'
+    href = '/scouts-bsa/ranks/'
+
+  [[params.theme.footerColumns]]
+    title = 'Ranks'
+    [[params.theme.footerColumns.links]]
+      label = 'All Ranks'
+      href = '/scouts-bsa/ranks/'
+
+  [[params.theme.footerColumns]]
+    title = 'Resources'
+    [[params.theme.footerColumns.links]]
+      label = 'Search'
+      href = '/search/'
