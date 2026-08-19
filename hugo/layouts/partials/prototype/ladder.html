@@ -1,0 +1,40 @@
+{{/* Assemble the seven ranks (real data + real front matter descriptions), then render the switcher and all three variants. Only one variant is visible at a time — [data-variant] on <html> controls that, see prototype-rank-ladder.css / .js. */}}
+
+{{ $ranksData := index hugo.Data.ranks "scouts-bsa" }}
+{{ $ranks := slice }}
+{{ range $slug, $data := $ranksData }}
+  {{ $page := site.GetPage (printf "/scouts-bsa/ranks/%s" $slug) }}
+  {{ $samples := slice }}
+  {{ range $data.requirements }}
+    {{ if lt (len $samples) 3 }}
+      {{ if .short }}
+        {{ $samples = $samples | append .short }}
+      {{ else }}
+        {{ range .children }}
+          {{ if and (lt (len $samples) 3) .short }}
+            {{ $samples = $samples | append .short }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $ranks = $ranks | append (dict
+    "slug" $slug
+    "title" $data.title
+    "short" $data.short
+    "level" $data.level
+    "description" (cond (isset $page.Params "description") $page.Params.description "")
+    "samples" $samples
+  ) }}
+{{ end }}
+{{ $ranks = sort $ranks "level" }}
+
+<section class="ladder-switcher" aria-label="Prototype variant switcher">
+  <button type="button" class="ladder-switcher__arrow" data-ladder-prev aria-label="Previous variant">&larr;</button>
+  <span class="ladder-switcher__label" data-ladder-label>Variant A — Vertical rail</span>
+  <button type="button" class="ladder-switcher__arrow" data-ladder-next aria-label="Next variant">&rarr;</button>
+</section>
+
+{{ partial "prototype/variant-a.html" $ranks }}
+{{ partial "prototype/variant-b.html" $ranks }}
+{{ partial "prototype/variant-c.html" $ranks }}

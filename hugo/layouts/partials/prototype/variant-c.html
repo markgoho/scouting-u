@@ -1,0 +1,34 @@
+{{/* Variant C — pinned horizontal trail. The page keeps scrolling vertically, but a sticky viewport pins while a horizontal row of cards slides past (animation-timeline: view() on the tall wrapper drives translateX on the track). Falls back to a plain wrapped card row — see @supports/prefers-reduced-motion in prototype-rank-ladder.css. */}}
+{{ $ranks := . }}
+{{ $count := add (len $ranks) 1 }}
+
+<section data-variant="c" class="ladder ladder--c" aria-labelledby="ladder-c-heading">
+  <h1 id="ladder-c-heading" class="ladder__intro-title">The trail to Eagle</h1>
+  <p class="ladder__intro-copy">Scroll down to walk the trail — each rank slides past like stations on a map.</p>
+
+  <div class="ladder__pin-wrap" style="--ladder-c-count: {{ $count }};">
+    <div class="ladder__pin">
+      <div class="ladder__track">
+        <article class="ladder__trail-card">
+          <p class="ladder__eyebrow">Getting started</p>
+          <h2 class="ladder__card-title">Join Scouting</h2>
+          <p class="ladder__card-copy">Every Scout starts here — no rank required, just a troop and a Scoutmaster.</p>
+        </article>
+
+        {{ range $ranks }}
+        <article class="ladder__trail-card">
+          <span class="ladder__trail-numeral" aria-hidden="true">{{ .level }}</span>
+          <p class="ladder__eyebrow">Rank {{ .level }} of 7</p>
+          <h2 class="ladder__card-title">{{ .title }}</h2>
+          {{ with .description }}<p class="ladder__card-copy">{{ . }}</p>{{ end }}
+          {{ with .samples }}
+          <ul class="ladder__samples">
+            {{ range . }}<li>{{ . }}</li>{{ end }}
+          </ul>
+          {{ end }}
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

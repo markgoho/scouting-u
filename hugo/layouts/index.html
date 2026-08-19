@@ -1,3 +1,24 @@
+{{/*
+  PROTOTYPE — scouting-u#22: scroll-driven rank ladder home page.
+  Three structurally different variants, switchable via ?variant=a|b|c.
+  Throwaway: captured on branch prototype/22-rank-ladder-home, not for main.
+*/}}
+
+{{ define "html-class" }}theme-v2{{ end }}
+{{ define "main-class" }}home-main ladder-proto{{ end }}
+
+{{ define "head-styles" }}
+  {{ with resources.Get "css/prototype-rank-ladder.css" }}
+    <link rel="stylesheet" href="{{ (. | resources.Minify).RelPermalink }}">
+  {{ end }}
+{{ end }}
+
 {{ define "main" }}
-  {{ .Content }}
+  {{ partial "prototype/ladder.html" . }}
+{{ end }}
+
+{{ define "footer-scripts" }}
+  {{ with resources.Get "js/prototype-rank-ladder.js" }}
+    <script src="{{ (. | resources.Minify).RelPermalink }}" defer></script>
+  {{ end }}
 {{ end }}

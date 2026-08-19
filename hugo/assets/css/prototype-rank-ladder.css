@@ -1,0 +1,363 @@
+/* PROTOTYPE — scouting-u#22. Throwaway; not for main. */
+
+/* ---- variant toggle -------------------------------------------------- */
+/* Default (no JS): variant A shows, B/C hidden. JS flips html[data-variant]. */
+html:not([data-variant]) .ladder--b,
+html:not([data-variant]) .ladder--c,
+html[data-variant="a"] .ladder--b,
+html[data-variant="a"] .ladder--c,
+html[data-variant="b"] .ladder--a,
+html[data-variant="b"] .ladder--c,
+html[data-variant="c"] .ladder--a,
+html[data-variant="c"] .ladder--b {
+  display: none;
+}
+
+/* ---- prototype switcher bar ------------------------------------------ */
+.ladder-switcher {
+  position: fixed;
+  bottom: var(--space-m);
+  left: 50%;
+  translate: -50% 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+  background: var(--surface-inverse);
+  color: var(--on-surface-inverse);
+  border-radius: var(--radius-full);
+  padding: var(--space-2xs) var(--space-s);
+  box-shadow: var(--shadow-raised);
+  font-family: var(--font-body);
+  font-size: var(--step--1);
+}
+
+.ladder-switcher__arrow {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: var(--step-1);
+  line-height: 1;
+  cursor: pointer;
+  padding: var(--space-3xs);
+}
+
+.ladder-switcher__label {
+  white-space: nowrap;
+  min-width: 14ch;
+  text-align: center;
+}
+
+/* ---- shared card content ---------------------------------------------- */
+.ladder__eyebrow {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: var(--step--2);
+  color: var(--on-surface-muted);
+  margin: 0 0 var(--space-3xs);
+}
+
+.ladder__card-title,
+.ladder__band-title {
+  font-family: var(--font-display);
+  font-size: var(--step-2);
+  margin: 0 0 var(--space-2xs);
+}
+
+.ladder__card-copy,
+.ladder__band-copy {
+  font-size: var(--step-0);
+  line-height: 1.5;
+  margin: 0 0 var(--space-s);
+  max-width: 60ch;
+}
+
+.ladder__samples {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+}
+
+.ladder__samples li {
+  background: var(--accent-container);
+  color: var(--on-accent-container);
+  border-radius: var(--radius-full);
+  padding: var(--space-3xs) var(--space-xs);
+  font-size: var(--step--1);
+}
+
+.ladder__intro-title {
+  font-family: var(--font-display);
+  font-size: var(--step-4);
+  text-align: center;
+  margin: var(--space-xl) auto var(--space-2xs);
+}
+
+.ladder__intro-copy {
+  text-align: center;
+  max-width: 50ch;
+  margin: 0 auto var(--space-2xl);
+  color: var(--on-surface-muted);
+}
+
+/* ---- variant A: vertical rail ----------------------------------------- */
+.ladder--a {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding-inline: var(--space-s);
+  padding-block-end: var(--space-3xl);
+}
+
+.ladder__rail {
+  padding-block-end: var(--space-l);
+}
+
+.ladder__step .ladder__card {
+  background: var(--surface-raised);
+  border: 1px solid var(--outline-variant);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports ((animation-timeline: view()) and (animation-range: entry)) {
+    .ladder--a .ladder__step {
+      animation: ladder-a-grow auto linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 30%;
+    }
+
+    @keyframes ladder-a-grow {
+      from {
+        opacity: 0;
+        scale: 0.85;
+        translate: 0 var(--space-m);
+      }
+    }
+  }
+}
+
+/* ---- variant B: alternating full-bleed bands --------------------------- */
+.ladder--b {
+  display: flex;
+  flex-direction: column;
+}
+
+.ladder__band {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: var(--space-2xl) clamp(var(--space-s), 8vw, var(--space-3xl));
+  overflow: clip;
+}
+
+.ladder__band:nth-of-type(odd) {
+  background: var(--surface-sunken);
+}
+
+.ladder__band--intro {
+  min-height: 50vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.ladder__band--right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.ladder__band--right .ladder__band-content {
+  align-items: flex-end;
+}
+
+.ladder__band-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 34rem;
+}
+
+.ladder__band--right .ladder__samples,
+.ladder__band--right .ladder__eyebrow {
+  justify-content: flex-end;
+}
+
+.ladder__band-numeral {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-boldest);
+  font-size: min(40vw, 24rem);
+  line-height: 1;
+  color: var(--accent-container);
+  opacity: 0.5;
+  pointer-events: none;
+  inset-inline-start: -2vw;
+}
+
+.ladder__band--right .ladder__band-numeral {
+  inset-inline-start: auto;
+  inset-inline-end: -2vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports ((animation-timeline: view()) and (animation-range: entry)) {
+    .ladder__band--left .ladder__band-content {
+      animation: ladder-b-in-left auto linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 35%;
+    }
+
+    .ladder__band--right .ladder__band-content {
+      animation: ladder-b-in-right auto linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 35%;
+    }
+
+    @keyframes ladder-b-in-left {
+      from {
+        opacity: 0;
+        translate: -3rem 0;
+      }
+    }
+
+    @keyframes ladder-b-in-right {
+      from {
+        opacity: 0;
+        translate: 3rem 0;
+      }
+    }
+  }
+}
+
+/* ---- variant C: pinned horizontal trail --------------------------------- */
+.ladder--c {
+  padding-block-end: var(--space-2xl);
+}
+
+.ladder__pin-wrap {
+  view-timeline: --ladder-c-scroll block;
+  height: calc(var(--ladder-c-count, 8) * 60vh);
+}
+
+.ladder__pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.ladder__track {
+  display: flex;
+  gap: 4vw;
+  padding-inline: 10vw;
+}
+
+.ladder__trail-card {
+  position: relative;
+  flex: 0 0 auto;
+  width: 80vw;
+  max-width: 34rem;
+  background: var(--surface-raised);
+  border: 1px solid var(--outline-variant);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+  padding: var(--space-l);
+}
+
+.ladder__trail-numeral {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-boldest);
+  font-size: var(--step-4);
+  color: var(--accent);
+  margin-block-end: var(--space-xs);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports ((animation-timeline: view()) and (animation-range: contain)) {
+    .ladder__track {
+      animation: ladder-c-slide linear both;
+      animation-timeline: --ladder-c-scroll;
+      animation-range: contain 0% contain 100%;
+    }
+
+    @keyframes ladder-c-slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(
+          calc(-1 * (var(--ladder-c-count, 8) * 84vw - 100vw))
+        );
+      }
+    }
+  }
+}
+
+/*
+ * Fallback (Firefox, or animation-timeline: view()/contain unsupported):
+ * un-pin and let the trail wrap as a normal card row. Content stays fully
+ * readable with zero JS either way.
+ */
+@supports not (
+  (animation-timeline: view()) and (animation-range: contain)
+) {
+  .ladder__pin-wrap {
+    height: auto;
+  }
+
+  .ladder__pin {
+    position: static;
+    height: auto;
+    overflow: visible;
+  }
+
+  .ladder__track {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline: var(--space-s);
+  }
+}
+
+/*
+ * MANDATORY copy-paste safety: reduced motion gets the same static,
+ * fully-readable fallback as the no-support path above, for every variant.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .ladder__step,
+  .ladder__band-content {
+    animation: none !important;
+    opacity: 1 !important;
+    scale: 1 !important;
+    translate: 0 0 !important;
+  }
+
+  .ladder__pin-wrap {
+    height: auto !important;
+  }
+
+  .ladder__pin {
+    position: static !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  .ladder__track {
+    animation: none !important;
+    transform: none !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

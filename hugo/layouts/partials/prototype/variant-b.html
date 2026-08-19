@@ -1,0 +1,26 @@
+{{/* Variant B — alternating full-bleed bands. No rail. Giant ghost numeral per band; text panel alternates left/right and slides in from its own side as the band enters the viewport (self-referencing view() timeline, no shared rail markup — structurally distinct from A). */}}
+{{ $ranks := . }}
+
+<section data-variant="b" class="ladder ladder--b" aria-labelledby="ladder-b-heading">
+  <div class="ladder__band ladder__band--intro">
+    <p class="ladder__eyebrow">Getting started</p>
+    <h1 id="ladder-b-heading" class="ladder__band-title">Join Scouting</h1>
+    <p class="ladder__band-copy">Every Scout starts here — no rank required, just a troop and a Scoutmaster.</p>
+  </div>
+
+  {{ range $i, $r := $ranks }}
+  <div class="ladder__band {{ if eq (mod $i 2) 0 }}ladder__band--left{{ else }}ladder__band--right{{ end }}">
+    <span class="ladder__band-numeral" aria-hidden="true">{{ $r.level }}</span>
+    <div class="ladder__band-content">
+      <p class="ladder__eyebrow">Rank {{ $r.level }} of 7</p>
+      <h2 class="ladder__band-title">{{ $r.title }}</h2>
+      {{ with $r.description }}<p class="ladder__band-copy">{{ . }}</p>{{ end }}
+      {{ with $r.samples }}
+      <ul class="ladder__samples">
+        {{ range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</section>
