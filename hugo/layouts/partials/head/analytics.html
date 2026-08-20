@@ -1,9 +1,12 @@
 <!--
-  Local override of uni-theme's head/analytics.html.
-
-  The vendored partial hardcodes mbu's Pirsch site code and fires it on
-  any hugo.IsProduction build — scouting-u has no Pirsch account, so a
-  production build would misattribute its traffic to mbu's dashboard.
-  Disabled here until scouting-u has its own analytics decision. See
-  mbu#128 for the upstream gap (the code should be a param, not a literal).
+  Local override of uni-theme's head/analytics.html, using scouting-u's
+  own Pirsch site code instead of mbu's. See markgoho/uni-theme for the
+  upstream ask to make this a param instead of a hardcoded literal.
 -->
+{{ if hugo.IsProduction }}
+  <script
+    defer
+    src="https://api.pirsch.io/pa.js"
+    id="pianjs"
+    data-code="3ghEJ8dNoUUjtbQI3smz4RUa5LeYQyfY"></script>
+{{ end }}
