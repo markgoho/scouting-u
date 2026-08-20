@@ -1,6 +1,10 @@
 baseURL = 'https://scouting.university/'
 locale = 'en-us'
 title = 'scouting.university'
+enableRobots = true
+
+[outputs]
+  home = ['html', 'rss', 'robots']
 
 [module]
   [[module.imports]]
