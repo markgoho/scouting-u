@@ -1,0 +1,21 @@
+{{/*
+  One leaf requirement's row in the landing page's requirement summary
+  (scouting-u#19). Leaf-level only -- callers pass either a top-level
+  node's children, or the node itself when it has none. Links to its
+  anchor on /requirements/, view-transition-named to match
+  requirement-node.html on the destination page.
+
+  Params (dict): req, requirements_url
+*/}}
+{{ $req := .req }}
+{{ $slug := "" }}
+{{ with $req.list_number }}
+  {{ $slug = lower (replaceRE `[.\s\t]+$` "" .) }}
+{{ end }}
+
+<li class="rank-landing__req-item">
+  <a class="rank-landing__req-link" href="{{ .requirements_url }}#{{ $slug }}">
+    <span class="rank-landing__req-marker" aria-hidden="true" style="view-transition-name: req-num-{{ $slug }}">{{ $req.list_number }}</span>
+    <span class="rank-landing__req-short" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</span>
+  </a>
+</li>

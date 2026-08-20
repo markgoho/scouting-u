@@ -1,0 +1,39 @@
+{{/*
+  Renders one rank requirement node at depth 1 (top-level) or depth 2
+  (child). No recursion past depth 2 -- rank data never nests deeper
+  (scouting-u#11's research). A node with no `short` is a synthetic
+  ADR-0001 group wrapper (no API row of its own): it renders unheaded,
+  just its children -- scouting-u#18.
+
+  View-transition names are keyed by list_number (not path), matching
+  the landing-page preview in req-preview-item.html so the browser can
+  morph one into the other -- scouting-u#18/#19.
+
+  Params (dict): req, depth (1 or 2)
+*/}}
+{{ $req := .req }}
+{{ $depth := .depth }}
+{{ $slug := "" }}
+{{ with $req.list_number }}
+  {{ $slug = lower (replaceRE `[.\s\t]+$` "" .) }}
+{{ end }}
+
+<li class="rank-req rank-req--depth-{{ $depth }}">
+  {{ if $req.short }}
+    {{ if eq $depth 1 }}
+      <h3 id="{{ $slug }}" class="rank-req__heading" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</h3>
+    {{ else }}
+      <h4 id="{{ $slug }}" class="rank-req__heading" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</h4>
+    {{ end }}
+    {{ with $req.text }}
+      <div class="rank-req__text" style="view-transition-name: req-text-{{ $slug }}">{{ . | safeHTML }}</div>
+    {{ end }}
+  {{ end }}
+  {{ with $req.children }}
+    <ol class="rank-req__children">
+      {{ range . }}
+        {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 2) }}
+      {{ end }}
+    </ol>
+  {{ end }}
+</li>

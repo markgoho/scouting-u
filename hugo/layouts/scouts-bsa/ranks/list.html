@@ -1,0 +1,15 @@
+{{/*
+  /scouts-bsa/ranks/ -- scouting-u#19. Title-only rows ordered by level,
+  no snippet.
+*/}}
+{{ define "main" }}
+  {{ partial "breadcrumb.html" . }}
+  <h1 class="ranks-index__title">{{ .Title }}</h1>
+  <ol class="ranks-index__list">
+    {{ range .Pages.ByParam "level" }}
+      <li class="ranks-index__item">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ol>
+{{ end }}

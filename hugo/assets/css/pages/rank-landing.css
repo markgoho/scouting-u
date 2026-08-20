@@ -1,0 +1,142 @@
+/*
+ * Rank plain index (list.html) and rank landing page (rank-landing.html)
+ * -- scouting-u#19/#33. Local-first per ADR 0005: content-bound to the
+ * rank data shape, no case yet to lift into uni-theme.
+ */
+
+.ranks-index__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.ranks-index__item a {
+  display: block;
+  padding: var(--space-s) var(--space-m);
+  border: 1px solid var(--card-border-subtle);
+  border-radius: var(--radius-md);
+  color: var(--on-surface);
+  text-decoration: none;
+  font-family: var(--font-display);
+}
+
+.ranks-index__item a:hover,
+.ranks-index__item a:focus-visible {
+  border-color: var(--accent-container);
+  background: var(--accent-wash);
+}
+
+.rank-landing {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: var(--space-l) var(--space-m);
+}
+
+.rank-landing__eyebrow {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  color: var(--on-surface-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  margin: 0 0 var(--space-2xs);
+}
+
+.rank-landing__title {
+  font-family: var(--font-display);
+  margin: 0 0 var(--space-2xs);
+}
+
+.rank-landing__short {
+  color: var(--on-surface-muted);
+  margin: 0 0 var(--space-m);
+}
+
+.rank-landing__description {
+  line-height: 1.6;
+  margin: 0 0 var(--space-l);
+}
+
+.rank-landing__pager {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-m);
+  margin-bottom: var(--space-xl);
+}
+
+.rank-landing__pager-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.rank-landing__pager-link:hover,
+.rank-landing__pager-link:focus-visible {
+  text-decoration: underline;
+}
+
+.rank-landing__pager-link--next {
+  margin-left: auto;
+}
+
+.rank-landing__requirements-heading {
+  font-family: var(--font-display);
+  margin: 0 0 var(--space-m);
+}
+
+.rank-landing__req-group {
+  margin-bottom: var(--space-l);
+}
+
+.rank-landing__req-group-label {
+  font-weight: var(--font-weight-semibold);
+  color: var(--on-surface-muted);
+  margin: 0 0 var(--space-xs);
+}
+
+.rank-landing__req-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.rank-landing__req-link {
+  display: flex;
+  gap: var(--space-xs);
+  align-items: baseline;
+  padding: var(--space-2xs) var(--space-xs);
+  border-radius: var(--radius-sm);
+  color: var(--on-surface);
+  text-decoration: none;
+}
+
+.rank-landing__req-link:hover,
+.rank-landing__req-link:focus-visible {
+  background: var(--accent-wash);
+}
+
+.rank-landing__req-marker {
+  color: var(--on-surface-muted);
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.rank-landing__cta {
+  margin-top: var(--space-xl);
+}
+
+.rank-landing__cta a {
+  color: var(--link-color);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+}
+
+.rank-landing__cta a:hover,
+.rank-landing__cta a:focus-visible {
+  text-decoration: underline;
+}

@@ -1,0 +1,71 @@
+/*
+ * Rank requirements page (requirements.html) -- scouting-u#18/#33.
+ * Local-first per ADR 0005: Route A (Pagefind sub-result headings), no
+ * nav rail, no numeric chips -- flat h3/h4 + text, unlike mbu's req-card
+ * DRG/dock machinery which this data has no equivalent of.
+ */
+
+.rank-requirements {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: var(--space-l) var(--space-m);
+}
+
+.rank-requirements__title {
+  font-family: var(--font-display);
+  margin: 0 0 var(--space-m);
+}
+
+.rank-requirements__header,
+.rank-requirements__footer {
+  color: var(--on-surface-muted);
+  line-height: 1.6;
+  padding: var(--space-m);
+  border: 1px solid var(--card-border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-l);
+}
+
+.rank-requirements__footer {
+  margin-top: var(--space-l);
+  margin-bottom: 0;
+}
+
+.rank-req__children {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rank-requirements__list > .rank-req {
+  margin-bottom: var(--space-l);
+}
+
+.rank-req--depth-2 {
+  margin-top: var(--space-s);
+  padding-left: var(--space-m);
+  border-left: 2px solid var(--outline-variant);
+}
+
+.rank-req__heading {
+  font-family: var(--font-display);
+  scroll-margin-top: var(--space-xl);
+}
+
+.rank-req--depth-1 > .rank-req__heading {
+  font-size: 1.15rem;
+}
+
+.rank-req--depth-2 > .rank-req__heading {
+  font-size: 1rem;
+}
+
+.rank-req__text {
+  line-height: 1.6;
+  margin: var(--space-2xs) 0 0;
+}
+
+.rank-req__text ul,
+.rank-req__text ol {
+  padding-left: 1.25rem;
+}
