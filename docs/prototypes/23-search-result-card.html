@@ -1,0 +1,635 @@
+<!doctype html>
+<!--
+  PROTOTYPE — throwaway. Answers scouting-u#23: what does one search
+  result look like when the result is a requirement, not a page?
+  Route A (Pagefind sub-results) won in #18: results are necessarily
+  grouped by rank page, never interleaved across ranks. See #12/#18 on
+  the map (scouting-u#10) for why.
+
+  Deliberately OUTSIDE hugo/ — this must never be built into public/ or
+  it gets indexed by Pagefind itself (no page yet carries
+  data-pagefind-body, so Pagefind currently indexes every HTML page it
+  finds). Not wired to live Pagefind — static mock over real requirement
+  text pulled from hugo/data/ranks/scouts-bsa/*.json. Open directly in a
+  browser, no server needed.
+
+  Two axes, both switchable:
+    - variant (A/B/C): structurally different card layouts.
+    - scenario (cook/demonstrate): "cook" is the ticket's original
+      light example (3 ranks, 2-3 hits each); "demonstrate" is the real
+      worst case in the synced data — Second Class alone matches 10
+      times on this one word, close to #12's measured max of 38
+      sub-results on a page.
+  All three variants render from the same data array per scenario, so
+  full requirement text is identical across variants — no variant looks
+  shorter just because its markup happened to be trimmed differently.
+
+  Delete this file once #23 is resolved and captured (branch
+  prototype/23-search-result-card per the repo's convention).
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROTOTYPE — search result card (#23)</title>
+    <style>
+      /* TOKENS: lifted from uni-theme colors.css/tokens-v2.css :root (v1,
+         the theme this site currently renders — no .theme-v2 opt-in
+         found anywhere in this repo's layouts). Approximate subset only,
+         enough to judge structure, not a pixel-exact reuse. */
+      :root {
+        --surface: hsl(41, 23%, 94%);
+        --surface-raised: hsl(41, 23%, 97%);
+        --surface-sunken: hsl(41, 23%, 88%);
+        --on-surface: hsl(138, 27%, 19%);
+        --on-surface-muted: hsl(41, 23%, 45%);
+        --accent: hsl(138, 27%, 19%);
+        --accent-container: hsl(138, 27%, 79%);
+        --outline: hsl(41, 23%, 69%);
+        --outline-variant: hsl(41, 23%, 79%);
+        --font-display: "Literata", Georgia, serif;
+        --font-body: "Inter", system-ui, -apple-system, sans-serif;
+        --radius-md: 0.5rem;
+        --radius-lg: 0.75rem;
+        --radius-full: 9999px;
+        --space-2xs: 0.25rem;
+        --space-xs: 0.5rem;
+        --space-s: 0.75rem;
+        --space-m: 1rem;
+        --space-l: 1.5rem;
+        --space-xl: 2rem;
+      }
+      mark {
+        background: hsl(45, 90%, 75%);
+        color: inherit;
+        border-radius: 2px;
+        padding: 0 0.1em;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--surface);
+        color: var(--on-surface);
+        font-family: var(--font-body);
+        padding-bottom: 6rem;
+      }
+
+      .proto-banner {
+        background: var(--on-surface);
+        color: var(--surface-raised);
+        font-size: 0.8rem;
+        padding: var(--space-s) var(--space-m);
+        text-align: center;
+      }
+      .proto-banner code {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 0.1em 0.35em;
+        border-radius: 3px;
+      }
+
+      main {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: var(--space-xl) var(--space-m);
+      }
+
+      .search-header {
+        text-align: center;
+        margin-block-end: var(--space-l);
+      }
+      .search-header h1 {
+        font-family: var(--font-display);
+        margin: 0 0 var(--space-2xs);
+      }
+      .search-header p {
+        color: var(--on-surface-muted);
+        margin: 0 0 var(--space-s);
+      }
+
+      .scenario-toggle,
+      .state-toggle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--space-s);
+        font-size: 0.78rem;
+      }
+      .scenario-toggle {
+        margin-block-start: var(--space-s);
+      }
+      .state-toggle {
+        margin-block: var(--space-l);
+      }
+      .scenario-toggle button,
+      .state-toggle button {
+        border: 1px solid var(--outline-variant);
+        background: var(--surface-raised);
+        color: var(--on-surface-muted);
+        border-radius: var(--radius-full);
+        padding: var(--space-2xs) var(--space-s);
+        cursor: pointer;
+      }
+      .scenario-toggle button.active,
+      .state-toggle button.active {
+        background: var(--accent);
+        color: var(--surface-raised);
+        border-color: var(--accent);
+      }
+
+      .results-count {
+        font-weight: 600;
+        color: var(--on-surface-muted);
+        font-size: 0.8rem;
+        margin-block-end: var(--space-m);
+      }
+
+      .empty-state,
+      .no-results-state {
+        display: none;
+        text-align: center;
+        padding: var(--space-xl) var(--space-m);
+        color: var(--on-surface-muted);
+      }
+      .empty-state.show,
+      .no-results-state.show {
+        display: block;
+      }
+      .results-body.hide {
+        display: none;
+      }
+
+      .deep-link-note {
+        margin-block-start: var(--space-l);
+        padding: var(--space-s) var(--space-m);
+        border: 1px dashed var(--outline);
+        border-radius: var(--radius-md);
+        font-size: 0.8rem;
+        color: var(--on-surface-muted);
+      }
+
+      /* ---- switcher bar ---- */
+      .switcher {
+        position: fixed;
+        left: 50%;
+        bottom: 1.25rem;
+        transform: translateX(-50%);
+        background: #1b1b18;
+        color: #fff;
+        border-radius: var(--radius-full);
+        padding: 0.4rem 0.4rem 0.4rem 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+        font-size: 0.85rem;
+        z-index: 100;
+      }
+      .switcher button.arrow {
+        background: rgba(255, 255, 255, 0.12);
+        border: none;
+        color: #fff;
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: 50%;
+        cursor: pointer;
+        font-size: 0.9rem;
+        line-height: 1;
+      }
+      .switcher button.arrow:hover {
+        background: rgba(255, 255, 255, 0.25);
+      }
+      .switcher .label {
+        min-width: 13rem;
+        text-align: center;
+      }
+
+      /* ---- Variant A: rank header, stacked rows ---- */
+      .rank-group {
+        margin-block-end: var(--space-l);
+      }
+      .rank-group h2 {
+        font-family: var(--font-display);
+        font-size: 1.1rem;
+        margin: 0 0 var(--space-s);
+        padding-block-end: var(--space-2xs);
+        border-bottom: 2px solid var(--outline);
+      }
+      .req-row {
+        padding: var(--space-s) 0;
+        border-bottom: 1px solid var(--outline-variant);
+      }
+      .req-row:last-child {
+        border-bottom: none;
+      }
+      .req-row a.req-title {
+        font-weight: 600;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .req-row a.req-title:hover {
+        text-decoration: underline;
+      }
+      .req-row p {
+        margin: var(--space-2xs) 0 0;
+        font-size: 0.9rem;
+        line-height: 1.45;
+      }
+
+      /* ---- Variant B: nested card cluster ---- */
+      .rank-card {
+        background: var(--surface-raised);
+        border: 2px solid var(--outline-variant);
+        border-radius: var(--radius-lg);
+        padding: var(--space-m);
+        margin-block-end: var(--space-m);
+      }
+      .rank-eyebrow {
+        display: inline-block;
+        background: var(--accent-container);
+        color: var(--accent);
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        padding: 0.15rem 0.6rem;
+        border-radius: var(--radius-full);
+        margin-block-end: var(--space-s);
+      }
+      .req-tile {
+        background: var(--surface);
+        border-radius: var(--radius-md);
+        padding: var(--space-s) var(--space-m);
+        margin-block-end: var(--space-xs);
+      }
+      .req-tile:last-child {
+        margin-block-end: 0;
+      }
+      .req-tile a.req-title {
+        font-weight: 600;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .req-tile a.req-title:hover {
+        text-decoration: underline;
+      }
+      .req-tile p {
+        margin: var(--space-2xs) 0 0;
+        font-size: 0.88rem;
+        line-height: 1.45;
+      }
+
+      /* ---- Variant C: flat rows, inline rank pill ---- */
+      .flat-row {
+        display: flex;
+        gap: var(--space-s);
+        padding: var(--space-s) 0;
+        border-bottom: 1px solid var(--outline-variant);
+      }
+      .flat-row:last-child {
+        border-bottom: none;
+      }
+      .rank-pill {
+        flex: 0 0 auto;
+        font-size: 0.7rem;
+        font-weight: 700;
+        color: var(--on-surface-muted);
+        background: var(--surface-sunken);
+        border-radius: var(--radius-full);
+        padding: 0.2rem 0.55rem;
+        height: fit-content;
+        white-space: nowrap;
+      }
+      .flat-row .content {
+        flex: 1;
+        min-width: 0;
+      }
+      .flat-row a.req-title {
+        font-weight: 600;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .flat-row a.req-title:hover {
+        text-decoration: underline;
+      }
+      .flat-row p {
+        margin: var(--space-2xs) 0 0;
+        font-size: 0.9rem;
+        line-height: 1.45;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="proto-banner">
+      PROTOTYPE for
+      <code>scouting-u#23</code>
+      — not live Pagefind, real synced requirement text. Route A won
+      (#18): grouped by rank, cannot interleave.
+    </div>
+
+    <main>
+      <div class="search-header">
+        <h1>Search</h1>
+        <p>Find specific requirements across every rank.</p>
+        <div class="scenario-toggle">
+          <button data-scenario="cook" class="active">
+            "cook" — light (3 ranks, 2-3 hits each)
+          </button>
+          <button data-scenario="demonstrate">
+            "demonstrate" — heavy (Second Class alone: 10 hits)
+          </button>
+        </div>
+      </div>
+
+      <div class="state-toggle">
+        <button data-state="results" class="active">Results</button>
+        <button data-state="empty">Empty query</button>
+        <button data-state="no-results">No matches</button>
+      </div>
+
+      <div class="empty-state">
+        <p>Start typing to search requirements across all ranks.</p>
+      </div>
+
+      <div class="no-results-state">
+        <p>No results found for "xyzzy123".</p>
+        <p style="font-size: 0.85rem">
+          Try a different word, or check the spelling.
+        </p>
+      </div>
+
+      <div class="results-body">
+        <p class="results-count" id="results-count"></p>
+        <div id="scenario-content"></div>
+
+        <p class="deep-link-note">
+          Every result title links to
+          <code>&lt;rank&gt;/requirements/#&lt;slug&gt;</code>
+          — the id lives on the requirement's own heading (#18). Landing
+          there should trigger the existing
+          <code>req-num-</code>
+          /
+          <code>req-title-</code>
+          /
+          <code>req-text-{key}</code>
+          view-transition names, keyed by
+          <code>list_number</code>, so the requirement the reader
+          searched for visually resolves into place rather than a bare
+          jump-scroll.
+        </p>
+      </div>
+    </main>
+
+    <div class="switcher">
+      <button class="arrow" id="prev">&larr;</button>
+      <span class="label" id="label"></span>
+      <button class="arrow" id="next">&rarr;</button>
+    </div>
+
+    <script>
+      // Real synced requirement text (hugo/data/ranks/scouts-bsa/*.json),
+      // grouped by rank in the order Pagefind's page-level ranking would
+      // plausibly return them. <mark> placed exactly where the query word
+      // appears, matching Pagefind's own excerpt markup.
+      const SCENARIOS = {
+        cook: {
+          label: '"cook"',
+          count: "3 ranks match “cook”",
+          ranks: [
+            {
+              rank: "First Class",
+              slug: "first-class",
+              items: [
+                {
+                  path: "2a",
+                  title: "Plan a campout menu",
+                  html: 'Help plan a menu for one of the above campouts that includes at least one breakfast, one lunch, and one dinner, and that requires <mark>cooking</mark> at least two of the meals. Tell how the menu includes the foods from MyPlate or the current USDA nutritional model and how it meets nutritional needs for the planned activity or campout.',
+                },
+                {
+                  path: "2c",
+                  title: "Know cooking tools",
+                  html: "Show which pans, utensils, and other gear will be needed to <mark>cook</mark> and serve these meals.",
+                },
+                {
+                  path: "2e",
+                  title: "Cook on 1 campout",
+                  html: "On one campout, serve as <mark>cook</mark>. Supervise your assistant(s) in using a stove or building a <mark>cooking</mark> fire. Prepare the breakfast, lunch, and dinner planned in First Class requirement 2a. Supervise the cleanup.",
+                },
+              ],
+            },
+            {
+              rank: "Tenderfoot",
+              slug: "tenderfoot",
+              items: [
+                {
+                  path: "2a",
+                  title: "Help cook a meal",
+                  html: "On the campout, assist in preparing one of the meals. Tell why it is important for each patrol member to share in meal preparation and cleanup.",
+                },
+                {
+                  path: "2b",
+                  title: "Show cooking safety",
+                  html: "While on a campout, demonstrate an appropriate method of safely cleaning items used to prepare, serve, and eat a meal.",
+                },
+              ],
+            },
+            {
+              rank: "Second Class",
+              slug: "second-class",
+              items: [
+                {
+                  path: "2a",
+                  title: "Explain cooking fires",
+                  html: "Explain when it is appropriate to use a fire for <mark>cooking</mark> or other purposes and when it would not be appropriate to do so.",
+                },
+                {
+                  path: "2b",
+                  title: "Prepare cooking fire",
+                  html: "Use a pocketknife, and a saw or axe if needed, to prepare tinder, kindling, and fuel wood for a <mark>cooking</mark> fire.",
+                },
+                {
+                  path: "2e",
+                  title: "Plan &amp; Cook Meal",
+                  html: "On one campout, plan and <mark>cook</mark> one hot breakfast or lunch, selecting foods from MyPlate or the current USDA nutritional model. Explain the importance of good nutrition. Demonstrate how to transport, store, and prepare the foods you selected.",
+                },
+              ],
+            },
+          ],
+        },
+        demonstrate: {
+          label: '"demonstrate"',
+          count: "2 ranks match “demonstrate” — Second Class alone: 10 hits (real, not trimmed; #12 measured up to 38 sub-results on one page)",
+          ranks: [
+            {
+              rank: "Second Class",
+              slug: "second-class",
+              items: [
+                { path: "2c", title: "Build a fire", html: "Using a minimum-impact method at an approved outdoor location and time, use the tinder, kindling, and fuel wood from Second Class requirement 2b to <mark>demonstrate</mark> how to build a fire. Unless prohibited by local fire restrictions, light the fire. After allowing the flames to burn safely for at least two minutes, safely extinguish the flames with minimal impact to the fire site. Properly dispose of the ashes and any charred remains." },
+                { path: "2e", title: "Plan &amp; Cook Meal", html: "On one campout, plan and cook one hot breakfast or lunch, selecting foods from MyPlate or the current USDA nutritional model. Explain the importance of good nutrition. <mark>Demonstrate</mark> how to transport, store, and prepare the foods you selected." },
+                { path: "2f", title: "Sheet bend", html: "<mark>Demonstrate</mark> tying the sheet bend knot. Describe a situation in which you would use this knot." },
+                { path: "2g", title: "Bowline", html: "<mark>Demonstrate</mark> tying the bowline knot. Describe a situation in which you would use this knot." },
+                { path: "3a", title: "Orient a map", html: "<mark>Demonstrate</mark> how a compass works and how to orient a map. Use a map to point out and tell the meaning of five map symbols." },
+                { path: "3d", title: "Demonstrate navigation", html: "<mark>Demonstrate</mark> how to find directions during the day and at night without using a compass or an electronic device." },
+                { path: "5b", title: "Beginner swim test", html: "<mark>Demonstrate</mark> your ability to pass the BSA beginner test: Jump feet first into water over your head in depth, level off and swim 25 feet on the surface, stop, turn sharply, resume swimming, then return to your starting place.<sup>3</sup>" },
+                { path: "5c", title: "Water rescues", html: "<mark>Demonstrate</mark> water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects.<sup>3</sup>" },
+                { path: "6a", title: "First aid", html: "<mark>Demonstrate</mark> first aid for the following: <ul><li>Object in the eye</li><li>Bite of a suspected rabid animal</li><li>Puncture wounds from a splinter, nail, and fishhook</li><li>Serious burns (partial thickness, or second-degree)</li><li>Heat exhaustion</li><li>Shock</li><li>Heatstroke, dehydration, hypothermia, and hyperventilation</li></ul>" },
+                { path: "10", title: "Scout spirit", html: "<mark>Demonstrate</mark> Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived four different points of the Scout Law (not to include those used for Tenderfoot requirement 9) in your everyday life." },
+              ],
+            },
+            {
+              rank: "Tenderfoot",
+              slug: "tenderfoot",
+              items: [
+                { path: "1c", title: "Outdoor Code", html: "Explain how you <mark>demonstrated</mark> the Outdoor Code and Leave No Trace on campouts or outings." },
+                { path: "2b", title: "Show cooking safety", html: "While on a campout, <mark>demonstrate</mark> an appropriate method of safely cleaning items used to prepare, serve, and eat a meal." },
+                { path: "3a", title: "Square knot", html: "<mark>Demonstrate</mark> a practical use of the square knot." },
+                { path: "3b", title: "Two half-hitches", html: "<mark>Demonstrate</mark> a practical use of two half-hitches." },
+                { path: "3c", title: "Taut-line hitch", html: "<mark>Demonstrate</mark> a practical use of the taut-line hitch." },
+                { path: "3d", title: "Wood tools", html: "<mark>Demonstrate</mark> proper care, sharpening, and use of the knife, saw, and ax. Describe when each should be used." },
+                { path: "7a", title: "Flag basics", html: "<mark>Demonstrate</mark> how to display, raise, lower, and fold the American flag." },
+                { path: "9", title: "Scout spirit", html: "<mark>Demonstrate</mark> Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived four different points of the Scout Law in your everyday life." },
+              ],
+            },
+          ],
+        },
+      };
+
+      const VARIANTS = {
+        a: "A — Rank header, stacked rows",
+        b: "B — Nested card cluster",
+        c: "C — Flat rows, inline rank pill",
+      };
+      const variantKeys = Object.keys(VARIANTS);
+      const scenarioKeys = Object.keys(SCENARIOS);
+
+      function href(slug, path) {
+        return `/scouts-bsa/ranks/${slug}/requirements/#${path}`;
+      }
+
+      function renderA(scenario) {
+        return scenario.ranks
+          .map(
+            g => `
+        <section class="rank-group">
+          <h2>${g.rank}</h2>
+          ${g.items
+            .map(
+              it => `
+          <div class="req-row">
+            <a class="req-title" href="${href(g.slug, it.path)}">${it.title}</a>
+            <p>${it.html}</p>
+          </div>`,
+            )
+            .join("")}
+        </section>`,
+          )
+          .join("");
+      }
+
+      function renderB(scenario) {
+        return scenario.ranks
+          .map(
+            g => `
+        <div class="rank-card">
+          <span class="rank-eyebrow">${g.rank}</span>
+          ${g.items
+            .map(
+              it => `
+          <div class="req-tile">
+            <a class="req-title" href="${href(g.slug, it.path)}">${it.title}</a>
+            <p>${it.html}</p>
+          </div>`,
+            )
+            .join("")}
+        </div>`,
+          )
+          .join("");
+      }
+
+      function renderC(scenario) {
+        return scenario.ranks
+          .map(g =>
+            g.items
+              .map(
+                it => `
+        <div class="flat-row">
+          <span class="rank-pill">${g.rank}</span>
+          <div class="content">
+            <a class="req-title" href="${href(g.slug, it.path)}">${it.title}</a>
+            <p>${it.html}</p>
+          </div>
+        </div>`,
+              )
+              .join(""),
+          )
+          .join("");
+      }
+
+      const RENDERERS = { a: renderA, b: renderB, c: renderC };
+
+      function currentVariant() {
+        const v = new URLSearchParams(location.search).get("variant");
+        return variantKeys.includes(v) ? v : "a";
+      }
+      function currentScenario() {
+        const s = new URLSearchParams(location.search).get("scenario");
+        return scenarioKeys.includes(s) ? s : "cook";
+      }
+
+      function render() {
+        const v = currentVariant();
+        const s = currentScenario();
+        const scenario = SCENARIOS[s];
+
+        document.getElementById("label").textContent = VARIANTS[v];
+        document.getElementById("results-count").textContent = scenario.count;
+        document.getElementById("scenario-content").innerHTML = RENDERERS[v](scenario);
+
+        document
+          .querySelectorAll(".scenario-toggle button")
+          .forEach(b => b.classList.toggle("active", b.dataset.scenario === s));
+      }
+
+      function setParam(key, value) {
+        const url = new URL(location.href);
+        url.searchParams.set(key, value);
+        history.replaceState(null, "", url);
+        render();
+      }
+
+      function cycleVariant(delta) {
+        const i = variantKeys.indexOf(currentVariant());
+        setParam("variant", variantKeys[(i + delta + variantKeys.length) % variantKeys.length]);
+      }
+
+      document.getElementById("prev").addEventListener("click", () => cycleVariant(-1));
+      document.getElementById("next").addEventListener("click", () => cycleVariant(1));
+      document.addEventListener("keydown", e => {
+        const t = document.activeElement;
+        if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable)) return;
+        if (e.key === "ArrowLeft") cycleVariant(-1);
+        if (e.key === "ArrowRight") cycleVariant(1);
+      });
+
+      document.querySelectorAll(".scenario-toggle button").forEach(btn =>
+        btn.addEventListener("click", () => setParam("scenario", btn.dataset.scenario)),
+      );
+
+      render();
+
+      // ---- results / empty / no-results state toggle ----
+      const stateButtons = document.querySelectorAll(".state-toggle button");
+      stateButtons.forEach(btn =>
+        btn.addEventListener("click", () => {
+          stateButtons.forEach(b => b.classList.toggle("active", b === btn));
+          const state = btn.dataset.state;
+          document.querySelector(".results-body").classList.toggle("hide", state !== "results");
+          document.querySelector(".empty-state").classList.toggle("show", state === "empty");
+          document.querySelector(".no-results-state").classList.toggle("show", state === "no-results");
+        }),
+      );
+    </script>
+  </body>
+</html>
