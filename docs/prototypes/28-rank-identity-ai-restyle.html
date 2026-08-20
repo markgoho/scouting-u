@@ -1,0 +1,255 @@
+<!doctype html>
+<!--
+  PROTOTYPE — throwaway. Answers scouting-u#28 via a different route than
+  docs/prototypes/28-rank-identity.html (the wholly-original marks): take
+  the real official rank emblems and run them through Gemini 3 Pro Image
+  ("Nano Banana Pro") to restyle them, rather than designing new marks
+  from scratch.
+
+  RISK FINDING, surfaced before this file existed: all three restyle
+  directions below preserve the exact protected composition of the
+  source badge — Scout's mark keeps the fleur-de-lis outline, and the
+  woodcut variant even reproduces the rope-bordered circle. Restyling
+  changes rendering technique, not the underlying shape. That cuts
+  against #28's own premise (avoid official BSA emblem imagery, per the
+  unresolved trademark question on #13/#27) — see the banner below,
+  which is intentionally part of the page, not just this comment.
+
+  Source badges pulled live from api.scouting.org's CDN (see #11/#13 for
+  the URL pattern) into scratch, restyled via the Gemini API, then
+  copied next to this file as plain PNGs — not embedded as data URIs, to
+  keep this file small. Deliberately OUTSIDE hugo/. Open directly in a
+  browser, no server needed (relative image paths).
+
+  Delete this file (and the sibling restyled/ image folder) once #28 is
+  resolved and captured, per the repo's prototype convention (see #23).
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROTOTYPE — AI-restyled rank identity (#28)</title>
+    <style>
+      :root {
+        --surface: hsl(41, 23%, 94%);
+        --surface-raised: hsl(41, 23%, 97%);
+        --on-surface: hsl(138, 27%, 19%);
+        --on-surface-muted: hsl(41, 23%, 45%);
+        --outline-variant: hsl(41, 23%, 79%);
+        --font-display: "Literata", Georgia, serif;
+        --font-body: "Inter", system-ui, -apple-system, sans-serif;
+        --space-2xs: 0.25rem;
+        --space-xs: 0.5rem;
+        --space-s: 0.75rem;
+        --space-m: 1rem;
+        --space-l: 1.5rem;
+        --space-xl: 2rem;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--surface);
+        color: var(--on-surface);
+        font-family: var(--font-body);
+        padding-bottom: 6rem;
+      }
+      .proto-banner {
+        background: var(--on-surface);
+        color: var(--surface-raised);
+        font-size: 0.8rem;
+        padding: var(--space-s) var(--space-m);
+        text-align: center;
+      }
+      .proto-banner code {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 0.1em 0.35em;
+        border-radius: 3px;
+      }
+      .risk-banner {
+        background: #7a2e2e;
+        color: #fdf1f1;
+        font-size: 0.85rem;
+        padding: var(--space-m);
+        text-align: center;
+        line-height: 1.5;
+      }
+      .risk-banner strong {
+        display: block;
+        font-size: 0.95rem;
+        margin-bottom: 0.2em;
+      }
+      main {
+        max-width: 72rem;
+        margin: 0 auto;
+        padding: var(--space-xl) var(--space-m);
+      }
+      .variant-title {
+        text-align: center;
+        font-family: var(--font-display);
+        font-size: 1.6rem;
+        margin: 0 0 var(--space-2xs);
+      }
+      .variant-note {
+        max-width: 46rem;
+        margin: 0 auto var(--space-xl);
+        text-align: center;
+        color: var(--on-surface-muted);
+        font-size: 0.95rem;
+      }
+      .rank-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+        gap: var(--space-l);
+      }
+      .rank-cell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--space-xs);
+        background: var(--surface-raised);
+        border: 1px solid var(--outline-variant);
+        border-radius: 0.75rem;
+        padding: var(--space-m);
+      }
+      .rank-cell img {
+        width: 100%;
+        max-width: 10rem;
+        aspect-ratio: 1;
+        object-fit: contain;
+      }
+      .rank-cell .rank-name {
+        font-size: 0.85rem;
+        color: var(--on-surface-muted);
+      }
+      .switcher {
+        position: fixed;
+        bottom: var(--space-l);
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        gap: var(--space-s);
+        background: var(--on-surface);
+        color: var(--surface-raised);
+        padding: var(--space-xs) var(--space-m);
+        border-radius: 999px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        font-size: 0.85rem;
+        z-index: 100;
+      }
+      .switcher button.arrow {
+        background: none;
+        border: none;
+        color: inherit;
+        font-size: 1.1rem;
+        cursor: pointer;
+        padding: 0 var(--space-2xs);
+      }
+      .switcher button.arrow:hover {
+        opacity: 0.7;
+      }
+      .switcher .label {
+        min-width: 16rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="proto-banner">
+      PROTOTYPE for <code>scouting-u#28</code> — AI restyle of the real
+      badges. Cycle with the arrows below or <code>?variant=a|b|c</code>.
+    </div>
+    <div class="risk-banner">
+      <strong>Risk finding, not a caveat</strong>
+      Every variant below keeps the source badge's exact protected shape —
+      Scout's mark is still a fleur-de-lis, the woodcut variant still has
+      a rope-bordered circle. This restyles the trademarked imagery; it
+      does not avoid it. See #28's resolution comment before shipping any
+      of this.
+    </div>
+    <main>
+      <h1 class="variant-title" id="variant-title"></h1>
+      <p class="variant-note" id="variant-note"></p>
+      <div class="rank-grid" id="content"></div>
+    </main>
+
+    <div class="switcher">
+      <button class="arrow" id="prev" aria-label="Previous variant">&larr;</button>
+      <span class="label" id="switcher-label"></span>
+      <button class="arrow" id="next" aria-label="Next variant">&rarr;</button>
+    </div>
+
+    <script>
+      const RANKS = [
+        { slug: "scout", short: "Scout" },
+        { slug: "tenderfoot", short: "Tenderfoot" },
+        { slug: "secondclass", short: "Second Class" },
+        { slug: "firstclass", short: "First Class" },
+        { slug: "star", short: "Star" },
+        { slug: "life", short: "Life" },
+        { slug: "eagle", short: "Eagle" },
+      ];
+
+      const VARIANTS = {
+        a: {
+          name: "A — Flat vector",
+          note: "Prompted for flat, minimalist two-color vector icons in the site's olive/tan palette, no shading or texture.",
+        },
+        b: {
+          name: "B — Woodcut print",
+          note: "Prompted for a hand-stamped woodblock print: bold cut linework, uneven ink texture, single brown ink on cream paper.",
+        },
+        c: {
+          name: "C — Duotone illustration",
+          note: "Prompted for a modern flat duotone illustration: teal-to-cream gradient, rounded contemporary shapes, editorial style.",
+        },
+      };
+
+      const variantKeys = Object.keys(VARIANTS);
+
+      function render(variantKey) {
+        const v = VARIANTS[variantKey];
+        document.getElementById("variant-title").textContent = v.name;
+        document.getElementById("variant-note").textContent = v.note;
+        document.getElementById("content").innerHTML = RANKS.map(
+          (rank) => `
+          <div class="rank-cell">
+            <img src="./28-rank-identity-restyled/${rank.slug}-${variantKey}.png" alt="AI-restyled ${rank.short} rank emblem, variant ${variantKey.toUpperCase()}" />
+            <span class="rank-name">${rank.short}</span>
+          </div>`
+        ).join("");
+        document.getElementById("switcher-label").textContent = `${variantKey.toUpperCase()} — ${v.name.split(" — ")[1]}`;
+      }
+
+      function currentVariant() {
+        const v = new URLSearchParams(location.search).get("variant");
+        return variantKeys.includes(v) ? v : "a";
+      }
+
+      function setVariant(key) {
+        const url = new URL(location.href);
+        url.searchParams.set("variant", key);
+        history.replaceState(null, "", url);
+        render(key);
+      }
+
+      function cycle(delta) {
+        const i = variantKeys.indexOf(currentVariant());
+        setVariant(variantKeys[(i + delta + variantKeys.length) % variantKeys.length]);
+      }
+
+      document.getElementById("prev").addEventListener("click", () => cycle(-1));
+      document.getElementById("next").addEventListener("click", () => cycle(1));
+      document.addEventListener("keydown", (e) => {
+        const tag = document.activeElement.tagName;
+        if (tag === "INPUT" || tag === "TEXTAREA" || document.activeElement.isContentEditable) return;
+        if (e.key === "ArrowLeft") cycle(-1);
+        if (e.key === "ArrowRight") cycle(1);
+      });
+
+      render(currentVariant());
+    </script>
+  </body>
+</html>
