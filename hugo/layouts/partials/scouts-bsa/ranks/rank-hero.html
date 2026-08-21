@@ -1,0 +1,67 @@
+{{/*
+  scouts-bsa/ranks/rank-hero.html
+
+  Landing-page hero for a single rank (scouting-u#46), modeled on mbu's
+  merit-badges/badge-hero.html. Reuses uni-theme's own `.badge-hero*`
+  classes directly, unmodified -- CONTRACT.md documents them as
+  theme-owned, generic CSS (ADR 0008), not a merit-badge dependency.
+
+  The eyebrow pill reads "Rank X of Y" in place of mbu's category pill
+  (ranks have no category). Emblem backdrop/crisp-image are gated on
+  $emblemMeta, hardcoded false today -- no rank emblem data source
+  exists yet (#28); the gate reserves the markup path without rendering
+  a broken placeholder. The "View Guide" CTA is likewise reserved,
+  gated on the `guide` param (nil until a rank Guide page exists).
+
+  Params (dict): rank (rank data), position (1-based rank position),
+  total (rank count), lead (front-matter description string),
+  requirements_url, guide (Guide Page, or nil)
+*/}}
+{{ $rank := .rank }}
+{{ $position := .position }}
+{{ $total := .total }}
+{{ $lead := .lead }}
+{{ $requirementsURL := .requirements_url }}
+{{ $guide := .guide }}
+
+{{ $emblemMeta := false }}
+
+<div class="badge-hero-wrap">
+  <section class="badge-hero" id="badge-hero">
+    {{ if $emblemMeta }}
+      <div class="badge-hero__backdrop" aria-hidden="true"></div>
+    {{ end }}
+    <div class="badge-hero__glow" aria-hidden="true"></div>
+
+    <div class="badge-hero__grid">
+      <div class="badge-hero__content">
+        <div class="badge-hero__eyebrow-row">
+          <span class="badge-hero__pill">Rank {{ $position }} of {{ $total }}</span>
+        </div>
+
+        <h1 class="badge-hero__title">{{ $rank.title }}</h1>
+
+        {{ with $lead }}
+          <p class="badge-hero__lead">{{ . }}</p>
+        {{ end }}
+
+        <div class="badge-hero__ctas">
+          <a href="{{ $requirementsURL }}" class="button badge-hero__cta">
+            {{ partial "icon.html" (dict "name" "list-checks" "class" "badge-hero__cta-icon") }}
+            View Requirements
+          </a>
+          {{ with $guide }}
+            <a href="{{ .RelPermalink }}" class="button button-secondary badge-hero__cta">
+              {{ partial "icon.html" (dict "name" "book-open-text" "class" "badge-hero__cta-icon") }}
+              View Guide
+            </a>
+          {{ end }}
+        </div>
+      </div>
+
+      {{ if $emblemMeta }}
+        <div class="badge-hero__emblem-col"></div>
+      {{ end }}
+    </div>
+  </section>
+</div>

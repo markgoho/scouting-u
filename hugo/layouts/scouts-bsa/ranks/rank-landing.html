@@ -1,66 +1,61 @@
 {{/*
-  /scouts-bsa/ranks/{slug}/ -- scouting-u#19.
+  /scouts-bsa/ranks/{slug}/ -- scouting-u#46 (supersedes #19/#34's stub
+  build). Renders inside the req-page/req-sidebar-wrap/req-main shell
+  shared with requirements.html, with a badge-hero-style hero (scouting-u
+  #44/ADR 0008) owning the page's real <h1> -- the shared sidebar's own
+  heading is demoted to a <p> here (see req-sidebar.html's
+  demote_heading param). Sequence prev/next lives in the sidebar, below
+  the identity block.
 
-  Text-only identity (artwork deferred to #28), a "Rank X of 7" indicator
-  with prev/next (absent at the Scout/Eagle edges), the hand-written
-  front-matter description, and a leaf-level requirement summary
-  clustered by top-level digit-stem, deep-linking to /requirements/.
+  The requirement-summary preview card and the facts/resources cards
+  land in #47/#48 -- this ticket only rebuilds the shell and hero.
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
+{{ define "main-class" }}req-page-main{{ end }}
+
 {{ define "main" }}
-  {{ partial "breadcrumb.html" . }}
   {{ $slug := .File.ContentBaseName }}
   {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $slug }}
   {{ $requirementsPage := .GetPage "requirements" }}
+  {{ $guide := .GetPage "guide" }}
   {{ $siblings := .Parent.Pages.ByParam "level" }}
   {{ $total := len $siblings }}
   {{ $position := 0 }}
   {{ range $i, $p := $siblings }}
     {{ if eq $p.RelPermalink $.RelPermalink }}{{ $position = $i }}{{ end }}
   {{ end }}
+  {{ $prev := "" }}
+  {{ if gt $position 0 }}{{ $prev = index $siblings (sub $position 1) }}{{ end }}
+  {{ $next := "" }}
+  {{ if lt $position (sub $total 1) }}{{ $next = index $siblings (add $position 1) }}{{ end }}
 
-  <article class="rank-landing">
-    <p class="rank-landing__eyebrow">Rank {{ add $position 1 }} of {{ $total }}</p>
-    <h1 class="rank-landing__title">{{ .Title }}</h1>
-    {{ with $rank.short }}<p class="rank-landing__short">{{ . }}</p>{{ end }}
+  <div class="req-page">
+    <aside class="req-sidebar-wrap">
+      {{ partial "scouts-bsa/ranks/req-sidebar.html" (dict
+        "rank" $rank
+        "page" .
+        "landing_url" .RelPermalink
+        "requirements_url" $requirementsPage.RelPermalink
+        "active" "overview"
+        "guide" $guide
+        "demote_heading" true
+        "prev" $prev
+        "next" $next
+      ) }}
+    </aside>
 
-    {{ with .Params.description }}
-      <p class="rank-landing__description">{{ . }}</p>
-    {{ end }}
+    <div class="req-main">
+      {{ partial "breadcrumb.html" . }}
 
-    <nav class="rank-landing__pager" aria-label="Rank order">
-      {{ if gt $position 0 }}
-        {{ $prev := index $siblings (sub $position 1) }}
-        <a class="rank-landing__pager-link rank-landing__pager-link--prev" href="{{ $prev.RelPermalink }}">&larr; {{ $prev.Title }}</a>
-      {{ end }}
-      {{ if lt $position (sub $total 1) }}
-        {{ $next := index $siblings (add $position 1) }}
-        <a class="rank-landing__pager-link rank-landing__pager-link--next" href="{{ $next.RelPermalink }}">{{ $next.Title }} &rarr;</a>
-      {{ end }}
-    </nav>
-
-    <section class="rank-landing__requirements" aria-labelledby="rank-landing-requirements-heading">
-      <h2 id="rank-landing-requirements-heading" class="rank-landing__requirements-heading">Requirements</h2>
-      {{ range $rank.requirements }}
-        {{ $group := . }}
-        <div class="rank-landing__req-group">
-          <p class="rank-landing__req-group-label">{{ or $group.short $group.path }}</p>
-          <ul class="rank-landing__req-list">
-            {{ if $group.children }}
-              {{ range $group.children }}
-                {{ partial "scouts-bsa/ranks/req-preview-item.html" (dict "req" . "depth" 2 "requirements_url" $requirementsPage.RelPermalink) }}
-              {{ end }}
-            {{ else }}
-              {{ partial "scouts-bsa/ranks/req-preview-item.html" (dict "req" $group "depth" 1 "requirements_url" $requirementsPage.RelPermalink) }}
-            {{ end }}
-          </ul>
-        </div>
-      {{ end }}
-    </section>
-
-    <p class="rank-landing__cta">
-      <a href="{{ $requirementsPage.RelPermalink }}">View all {{ .Title }} requirements &rarr;</a>
-    </p>
-  </article>
+      {{ partial "scouts-bsa/ranks/rank-hero.html" (dict
+        "rank" $rank
+        "position" (add $position 1)
+        "total" $total
+        "lead" .Params.description
+        "requirements_url" $requirementsPage.RelPermalink
+        "guide" $guide
+      ) }}
+    </div>
+  </div>
 {{ end }}

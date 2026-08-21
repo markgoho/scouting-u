@@ -9,13 +9,21 @@
   the <h1> there too).
 
   Shared between the requirements page and the landing page (scouting-u
-  #45) via the `active` param. A Guide nav item is DRG-reserved: it's
+  #45/#46) via the `active` param. A Guide nav item is DRG-reserved: it's
   gated by `{{ with .guide }}` so it renders once a rank Guide page
   exists (scouting-u#28/DRG), same as mbu's own Study Guide nav item.
 
+  `demote_heading` renders the identity block's title as a <p> instead
+  of an <h1> -- set by the landing page (#46), whose own hero owns the
+  page's real <h1>, matching mbu's badge-identity.html/req-sidebar.html
+  split. `prev`/`next` render a rank-sequence pager below the identity
+  block when given (landing page only -- no mbu equivalent, since
+  badges aren't ordered).
+
   Params (dict): rank (rank data), page (the current Page),
   landing_url, requirements_url, active ("overview" | "requirements" |
-  "guide", default "requirements"), guide (the rank's Guide Page, or nil)
+  "guide", default "requirements"), guide (the rank's Guide Page, or nil),
+  demote_heading (bool, default false), prev/next (sibling rank Page, or nil)
 */}}
 {{ $rank := .rank }}
 {{ $page := .page }}
@@ -23,6 +31,9 @@
 {{ $requirementsURL := .requirements_url }}
 {{ $active := .active | default "requirements" }}
 {{ $guide := .guide }}
+{{ $demoteHeading := .demote_heading | default false }}
+{{ $prev := .prev }}
+{{ $next := .next }}
 {{ $reqCount := len $rank.requirements }}
 
 <nav class="req-mobile-nav-wrap" aria-label="Page section navigation">
@@ -79,10 +90,25 @@
   <div class="badge-identity">
     <div class="badge-identity__header-text">
       <span class="badge-identity__eyebrow-category">Rank {{ $rank.level }} of 7</span>
-      <h1 class="badge-identity__title">{{ $rank.title }}</h1>
+      {{ if $demoteHeading }}
+        <p class="badge-identity__title">{{ $rank.title }}</p>
+      {{ else }}
+        <h1 class="badge-identity__title">{{ $rank.title }}</h1>
+      {{ end }}
       <span class="badge-identity__micro-tag">{{ $rank.program }} RANK</span>
     </div>
   </div>
+
+  {{ if or $prev $next }}
+    <nav class="req-sidebar__pager" aria-label="Rank order">
+      {{ with $prev }}
+        <a class="req-sidebar__pager-link req-sidebar__pager-link--prev" href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>
+      {{ end }}
+      {{ with $next }}
+        <a class="req-sidebar__pager-link req-sidebar__pager-link--next" href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>
+      {{ end }}
+    </nav>
+  {{ end }}
 
   <nav class="req-sidebar__nav" aria-label="{{ $rank.title }} sections">
     <ul>
