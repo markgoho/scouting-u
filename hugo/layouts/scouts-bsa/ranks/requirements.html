@@ -4,7 +4,8 @@
   Route A (Pagefind sub-result headings, rank-grouped): every requirement
   gets its own h3/h4 with a unique id on the heading and its list_number
   (e.g. "1a.") as visible text, no nav rail, no recursion past depth 2.
-  Rank header/footer bracket the list.
+  Rank header/footer bracket the list. Top-level list uses uni-theme's
+  shared .timeline primitive (see requirement-node.html) -- scouting-u#33.
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
@@ -17,7 +18,7 @@
     {{ with $rank.header }}
       <div class="rank-requirements__header">{{ . | safeHTML }}</div>
     {{ end }}
-    <ol class="rank-req__children rank-requirements__list">
+    <ol class="timeline rank-requirements__list">
       {{ range $rank.requirements }}
         {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1) }}
       {{ end }}

@@ -1,13 +1,26 @@
 {{/*
   Renders one rank requirement node at depth 1 (top-level) or depth 2
   (child). No recursion past depth 2 -- rank data never nests deeper
-  (scouting-u#11's research). A node with no `short` is a synthetic
-  ADR-0001 group wrapper (no API row of its own): it renders unheaded,
-  just its children -- scouting-u#18.
+  (scouting-u#11's research). Depth 1 uses uni-theme's generic .timeline
+  (numbered node + panel); depth 2 uses its .req-list (marker + title +
+  text rail) -- both are shared primitives, not bespoke local CSS, so
+  this page's card/rail visual language stays in sync with wherever else
+  those primitives get used (currently the home page's rank ladder).
+  A depth-1 node with no `short` is a synthetic ADR-0001 group wrapper
+  (no API row of its own): its panel holds only its children's .req-list,
+  no title/text of its own -- scouting-u#18.
+
+  The timeline node is numbered by req_id, never by array position --
+  reqs 10-13 are depth-1 leaves interleaved with the lettered groups, so
+  position and req_id only coincide by accident of this rank's data.
 
   View-transition names are keyed by list_number (not path), matching
   the landing-page preview in req-preview-item.html so the browser can
-  morph one into the other -- scouting-u#18/#19.
+  morph one into the other -- scouting-u#18/#19. Depth-2 children keep
+  their FULL list_number as the visible marker (e.g. "1a.", not "a.")
+  so it matches the landing page's marker exactly -- unlike MBU's
+  convention of stripping to the last segment, since the parent group
+  here carries no visible number of its own to supply that context.
 
   Params (dict): req, depth (1 or 2)
 */}}
@@ -18,22 +31,36 @@
   {{ $slug = lower (replaceRE `[.\s\t]+$` "" .) }}
 {{ end }}
 
-<li class="rank-req rank-req--depth-{{ $depth }}">
-  {{ if $req.short }}
-    {{ if eq $depth 1 }}
-      <h3 id="{{ $slug }}" class="rank-req__heading" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</h3>
-    {{ else }}
-      <h4 id="{{ $slug }}" class="rank-req__heading" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</h4>
-    {{ end }}
-    {{ with $req.text }}
-      <div class="rank-req__text" style="view-transition-name: req-text-{{ $slug }}">{{ . | safeHTML }}</div>
-    {{ end }}
-  {{ end }}
-  {{ with $req.children }}
-    <ol class="rank-req__children">
-      {{ range . }}
-        {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 2) }}
+{{ if eq $depth 1 }}
+  <li class="timeline__item">
+    <span class="timeline__node"><span class="timeline__node-text">{{ $req.req_id }}</span></span>
+    <div class="timeline__panel rank-req__panel">
+      {{ if $req.short }}
+        <h3 id="{{ $slug }}" class="rank-req__heading">
+          <span class="rank-req__number" style="view-transition-name: req-num-{{ $slug }}">{{ $req.list_number }}</span>
+          <span style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</span>
+        </h3>
+        {{ with $req.text }}
+          <div class="rank-req__text" style="view-transition-name: req-text-{{ $slug }}">{{ . | safeHTML }}</div>
+        {{ end }}
       {{ end }}
-    </ol>
-  {{ end }}
-</li>
+      {{ with $req.children }}
+        <ol class="req-list">
+          {{ range . }}
+            {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 2) }}
+          {{ end }}
+        </ol>
+      {{ end }}
+    </div>
+  </li>
+{{ else }}
+  <li class="req-list__item">
+    <span class="req-list__marker" style="view-transition-name: req-num-{{ $slug }}">{{ $req.list_number }}</span>
+    <div class="req-list__body">
+      <h4 id="{{ $slug }}" class="req-list__title" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</h4>
+      {{ with $req.text }}
+        <div class="req-list__text" style="view-transition-name: req-text-{{ $slug }}">{{ . | safeHTML }}</div>
+      {{ end }}
+    </div>
+  </li>
+{{ end }}
