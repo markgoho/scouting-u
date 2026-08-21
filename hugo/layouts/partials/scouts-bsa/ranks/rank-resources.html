@@ -1,0 +1,24 @@
+{{/*
+  scouts-bsa/ranks/rank-resources.html
+
+  Landing-page "Resources & downloads" card (scouting-u#48). DRG-reserved
+  per ADR 0008: the whole card is gated on `guide_print` (nil until a
+  rank Guide print page exists -- #28/DRG), so it renders nothing today
+  rather than an empty heading. No worksheet/pamphlet/scouting.org
+  rows -- no such data exists in synced rank JSON, unlike mbu's badges.
+
+  Params (dict): guide_print (the rank's Guide print Page, or nil)
+*/}}
+{{ with .guide_print }}
+  <div class="badge-resources card-surface">
+    <h2 class="badge-resources__heading">Resources &amp; downloads</h2>
+    <ul class="badge-resources__list">
+      <li>
+        <a href="{{ .RelPermalink }}" class="badge-resources__link">
+          {{ partial "icon.html" (dict "name" "scroll" "class" "badge-resources__icon") }}
+          Print Complete Guide
+        </a>
+      </li>
+    </ul>
+  </div>
+{{ end }}

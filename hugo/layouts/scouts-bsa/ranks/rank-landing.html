@@ -7,9 +7,9 @@
   demote_heading param). Sequence prev/next lives in the sidebar, below
   the identity block.
 
-  The "What you'll do" preview card (#47) lives in `.badge-overview`
-  below the hero; the facts/resources cards land in #48, into the same
-  wrapper.
+  The "What you'll do" preview, "At a glance" facts, and DRG-reserved
+  "Resources & downloads" cards (#47/#48) live in `.badge-overview`
+  below the hero; a "Start with Requirement N" CTA closes the page.
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
@@ -30,6 +30,9 @@
   {{ if gt $position 0 }}{{ $prev = index $siblings (sub $position 1) }}{{ end }}
   {{ $next := "" }}
   {{ if lt $position (sub $total 1) }}{{ $next = index $siblings (add $position 1) }}{{ end }}
+  {{ $guidePrint := .GetPage "guide/print" }}
+  {{ $leafCount := partial "scouts-bsa/ranks/count-leaves.html" $rank.requirements }}
+  {{ $firstReq := index $rank.requirements 0 }}
 
   <div class="req-page">
     <aside class="req-sidebar-wrap">
@@ -60,7 +63,16 @@
 
       <div class="badge-overview">
         {{ partial "scouts-bsa/ranks/rank-preview.html" (dict "rank" $rank "requirements_page" $requirementsPage) }}
+        {{ partial "scouts-bsa/ranks/rank-glance.html" (dict "rank" $rank "leaf_count" $leafCount) }}
+        {{ partial "scouts-bsa/ranks/rank-resources.html" (dict "guide_print" $guidePrint) }}
       </div>
+
+      {{ with $firstReq }}
+        <a href="{{ $requirementsPage.RelPermalink }}#{{ .path }}" class="badge-start-cta">
+          Start with Requirement {{ .req_id }}
+          {{ partial "icon.html" (dict "name" "arrow-right" "class" "badge-start-cta__icon") }}
+        </a>
+      {{ end }}
     </div>
   </div>
 {{ end }}

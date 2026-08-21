@@ -1,0 +1,20 @@
+{{/*
+  scouts-bsa/ranks/count-leaves.html
+
+  Recursively counts leaf Rank Requirements (no `children`, per ADR
+  0001's leaf definition) in a list of requirement nodes -- used by
+  rank-glance.html's "At a glance" card (scouting-u#48), which needs the
+  true leaf count, not the top-level count rank-preview.html (#47) uses.
+
+  Params: a slice of requirement nodes (not a dict). Returns an int.
+*/}}
+{{ $nodes := . }}
+{{ $count := 0 }}
+{{ range $nodes }}
+  {{ if .children }}
+    {{ $count = add $count (partial "scouts-bsa/ranks/count-leaves.html" .children) }}
+  {{ else }}
+    {{ $count = add $count 1 }}
+  {{ end }}
+{{ end }}
+{{ return $count }}

@@ -1,0 +1,39 @@
+{{/*
+  scouts-bsa/ranks/rank-glance.html
+
+  Landing-page "At a glance" facts card (scouting-u#48), modeled on
+  mbu's badge-landing.html glance section. Reuses uni-theme's
+  .badge-glance and .card-surface classes directly -- theme-owned per
+  CONTRACT.md/ADR 0008. No category or eagle-required rows: no rank data
+  backs a category, and every Scouts BSA rank leads toward Eagle, so a
+  per-rank eagle flag isn't meaningful the way mbu's per-badge one is.
+
+  Params (dict): rank (rank data), leaf_count (int, total leaf Rank
+  Requirements in the tree -- not the top-level count rank-preview.html
+  (#47) uses)
+*/}}
+{{ $rank := .rank }}
+{{ $leafCount := .leaf_count }}
+
+<div class="badge-glance card-surface">
+  <h2 class="badge-glance__heading">At a glance</h2>
+  <dl class="badge-glance__list">
+    <div class="badge-glance__row">
+      <dt>
+        {{ partial "icon.html" (dict "name" "list-checks" "class" "badge-glance__icon") }}
+        Requirements
+      </dt>
+      <dd>{{ $leafCount }}</dd>
+    </div>
+    <div class="badge-glance__row">
+      <dt>Program</dt>
+      <dd>{{ $rank.program }}</dd>
+    </div>
+    {{ with $rank.version_effective_date }}
+      <div class="badge-glance__row">
+        <dt>Updated</dt>
+        <dd>{{ time . | dateFormat "January 2, 2006" }}</dd>
+      </div>
+    {{ end }}
+  </dl>
+</div>
