@@ -10,14 +10,14 @@
 {{ define "html-class" }}theme-v2{{ end }}
 
 {{ define "main" }}
-  {{ partial "breadcrumb.html" . }}
   {{ $slug := .Parent.File.ContentBaseName }}
   {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $slug }}
   <article class="rank-requirements">
-    <h1 class="rank-requirements__title">{{ .Title }}</h1>
+    {{ partial "breadcrumb.html" . }}
     {{ with $rank.header }}
-      <div class="rank-requirements__header">{{ . | safeHTML }}</div>
+      <div class="rank-requirements__lead">{{ . | safeHTML }}</div>
     {{ end }}
+    <h2 class="rank-requirements__heading">Requirements</h2>
     <ol class="timeline rank-requirements__list">
       {{ range $rank.requirements }}
         {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1) }}

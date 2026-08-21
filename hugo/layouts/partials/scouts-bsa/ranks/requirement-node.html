@@ -34,7 +34,7 @@
 {{ if eq $depth 1 }}
   <li class="timeline__item">
     <span class="timeline__node"><span class="timeline__node-text">{{ $req.req_id }}</span></span>
-    <div class="timeline__panel rank-req__panel">
+    <div class="timeline__panel card-surface rank-req__panel">
       {{ if $req.short }}
         <h3 id="{{ $slug }}" class="rank-req__heading">
           <span class="rank-req__number" style="view-transition-name: req-num-{{ $slug }}">{{ $req.list_number }}</span>

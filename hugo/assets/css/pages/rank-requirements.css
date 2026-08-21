@@ -1,47 +1,36 @@
 /*
  * Rank requirements page (requirements.html) -- scouting-u#18/#33.
- * Top-level structure and rail come from uni-theme's shared .timeline
- * and .req-list primitives (see requirement-node.html) -- see ADR 0007.
- * What's left here is content-bound: card chrome, heading/text sizing,
- * the header/footer wrapper -- things genuinely shaped by rank data,
- * per ADR 0005/0006.
+ * Top-level structure, rail, and card chrome come from uni-theme's shared
+ * .timeline, .req-list, and .card-surface primitives (see
+ * requirement-node.html) -- see ADR 0007. What's left here is
+ * content-bound: measure, heading/text sizing, sticky node, and the
+ * narrow-column fallback -- things genuinely shaped by rank data or this
+ * page's layout, per ADR 0005/0006.
  */
 
+/* .container already supplies the width and inline padding (ADR 0006). */
 .rank-requirements {
-  padding: var(--space-l) var(--space-m);
+  padding-block: var(--space-l);
 }
 
-.rank-requirements__title {
-  font-family: var(--font-display);
-  margin: 0 0 var(--space-m);
+/* Lead paragraph -- mirrors mbu's .badge-description p */
+.rank-requirements__lead {
+  max-width: 75ch;
 }
 
-.rank-requirements__header,
-.rank-requirements__footer {
-  color: var(--on-surface-muted);
-  line-height: 1.6;
-  padding: var(--space-m);
-  border: 1px solid var(--card-border-subtle);
-  border-radius: var(--radius-md);
-  margin-bottom: var(--space-l);
+/* mirrors mbu's .req-main__heading; size/family come from the theme's h2 */
+.rank-requirements__heading {
+  margin-block: var(--space-m) var(--space-s);
 }
 
-.rank-requirements__footer {
-  margin-top: var(--space-l);
-  margin-bottom: 0;
-}
-
+/* Chrome is .card-surface; only the measure is local (mbu: 78ch). */
 .rank-req__panel {
-  background: var(--surface-raised);
-  border: 1px solid var(--outline-variant);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
+  max-inline-size: 78ch;
+  scroll-margin-top: var(--space-m);
 }
 
 .rank-req__heading {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  scroll-margin-top: var(--space-xl);
+  scroll-margin-top: var(--space-xl); /* size = theme h3, --step-2 */
 }
 
 .rank-req__number {
@@ -51,11 +40,62 @@
 }
 
 .rank-req__text {
-  line-height: 1.6;
-  margin: var(--space-2xs) 0 0;
+  margin-block: var(--space-xs) 0;
+  line-height: var(--line-height-relaxed);
 }
 
 .rank-req__text ul,
 .rank-req__text ol {
   padding-left: 1.25rem;
+}
+
+/* Group-wrapper cards carry no heading -- drop .req-list's orphan top margin. */
+.rank-requirements .timeline__panel > .req-list:first-child {
+  margin-block-start: 0;
+}
+
+.rank-requirements__footer {
+  max-width: 75ch;
+  margin-block-start: var(--space-l);
+  color: var(--on-surface-muted);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Sticky number, matching mbu's .req-card__node. */
+.rank-requirements .timeline__node {
+  position: sticky;
+  top: var(--space-m);
+  align-self: flex-start;
+}
+
+/*
+ * Narrow-column fallback, matching mbu's `@container req-main (max-width: 500px)`
+ * block. `main.container` already declares `container-type: inline-size`, so an
+ * unnamed container query resolves against it -- no need to redeclare the theme's
+ * primitive. Overlay the bubble on the card corner and reclaim the gutter.
+ */
+@container (max-width: 500px) {
+  .rank-requirements__list {
+    gap: var(--space-m);
+  }
+
+  .rank-requirements .timeline__item {
+    display: block;
+  }
+
+  .rank-requirements .timeline__item::before {
+    content: none;
+  }
+
+  .rank-requirements .timeline__node {
+    position: absolute;
+    top: calc(var(--space-2xs) * -1);
+    left: calc(var(--space-2xs) * -1);
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .rank-requirements .timeline__node-text {
+    font-size: var(--step-0);
+  }
 }
