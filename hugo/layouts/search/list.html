@@ -1,0 +1,33 @@
+{{/*
+  /search/ -- scouting-u#35. Requirement-level search across every rank
+  (Route A, #12/#18/ADR 0002): wires uni-theme's search/page.html +
+  search/scripts.html to the Pagefind index built by the site's own
+  `bun run index` step. No data-pagefind-body here, so this page is
+  never indexed by its own search -- Pagefind only indexes pages that
+  carry the attribute once any page on the site does (requirements.html
+  does, per #35's fix to #32's gap).
+
+  pageSize 7 (one per Scouts BSA rank) so a query matching every rank
+  shows every card without a "Load more" click -- Pagefind's own
+  default page size is 5. See uni-theme's search/page.html doc comment.
+*/}}
+{{ define "html-class" }}theme-v2{{ end }}
+
+{{ define "head-styles" }}
+  <meta name="robots" content="noindex" />
+{{ end }}
+
+{{ define "main" }}
+  {{ partial "search/page.html" (dict
+    "page" .
+    "description" "Find specific requirements across every rank."
+    "zeroResults" "No results found for \"[SEARCH_TERM]\". Try a different word, or check the spelling."
+    "noResultsEvent" "rank-search-no-results"
+    "resultClickEvent" "rank-search-result-click"
+    "pageSize" 7
+  ) }}
+{{ end }}
+
+{{ define "footer-scripts" }}
+  {{ partial "search/scripts.html" . }}
+{{ end }}

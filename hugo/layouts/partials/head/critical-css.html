@@ -2,12 +2,14 @@
   Local override of uni-theme's head/critical-css.html.
 
   The vendored partial hardcodes several mbu-only filenames that don't
-  exist here (button-eagle.css, top-level search.css, eagle-required.css,
-  discontinued-notice.css, badge-view-transitions.css) — resources.Concat
-  errors on a slice containing even one nil. This mirrors the theme's path
-  list but skips missing files instead of crashing. See scouting-u#14 and
+  exist here (button-eagle.css, eagle-required.css, discontinued-
+  notice.css, badge-view-transitions.css) — resources.Concat errors on a
+  slice containing even one nil. This mirrors the theme's path list but
+  skips missing files instead of crashing. See scouting-u#14 and
   mbu#128 for the upstream gap; which of these files scouting-u actually
-  needs is a call for #20, not this override.
+  needs is a call for #20, not this override. Top-level `search.css`
+  (scouting-u's own result-card reskin) landed in #35 -- it's no longer
+  one of the missing ones.
 -->
 {{ $paths := slice
   "css/base.css"
