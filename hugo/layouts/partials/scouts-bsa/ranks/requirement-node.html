@@ -4,13 +4,21 @@
   (scouting-u#11's research). Composes uni-theme's req-card/req-child
   family (merit-badge-requirements.css -- see mbu's req-card.html/
   req-child-item.html, which this mirrors minus everything that depends
-  on DRG guide data ranks don't have: no eyebrow, no subrequirement_mode
-  pill, no resources list. Card chrome only ever starts at depth 1 --
-  depth 2 is a plain left rail (.req-children--rail), same as mbu.
+  on DRG guide data ranks don't have: no subrequirement_mode pill, no
+  resources list. Card chrome only ever starts at depth 1 -- depth 2 is
+  a plain left rail (.req-children--rail), same as mbu.
 
-  A depth-1 node with no `short` is a synthetic ADR-0001 group wrapper
-  (no title/text row of its own): its panel holds only its children's
-  .req-children -- scouting-u#18.
+  A depth-1 node's `short` plays one of two roles depending on whether
+  it has children, mirroring how mbu's DRG-resolved eyebrow/title pair
+  works even though ranks have no DRG guide to resolve against:
+  - Has children: `short` is a group/category name ("Scout Spirit and
+    Basics", "Patrol Method") -- renders as .req-card__eyebrow, same
+    slot as mbu's DRG group-title lookup (e.g. "FOUNDATIONS OF AMERICAN
+    BUSINESS"). A group wrapper with no `short` yet (ADR-0001) simply
+    omits the eyebrow -- scouting-u#18.
+  - No children (a genuine leaf, e.g. "Knife safety"): `short` is the
+    requirement's own specific title -- renders as .req-card__title,
+    same slot as mbu's single-requirement DRG title.
 
   IDs/data-anchor use the rank JSON's own dotted `path` field (e.g.
   "1.a"), matching mbu's convention exactly -- deep-link.ts builds its
@@ -46,7 +54,11 @@
       ><span class="req-card__node-text">{{ $req.req_id }}</span></span
     >
     <div class="req-card__panel">
-      {{ if $req.short }}
+      {{ if $req.children }}
+        {{ with $req.short }}
+          <p class="req-card__eyebrow">{{ . }}</p>
+        {{ end }}
+      {{ else if $req.short }}
         <div class="req-card__header">
           <div class="req-card__heading">
             <div class="req-card__title-row">
@@ -58,9 +70,9 @@
             </div>
           </div>
         </div>
-        {{ with $req.text }}
-          <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
-        {{ end }}
+      {{ end }}
+      {{ with $req.text }}
+        <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
       {{ end }}
       {{ with $req.children }}
         <ol class="req-children req-children--rail">
