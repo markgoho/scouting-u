@@ -2,6 +2,7 @@ baseURL = 'https://scouting.university/'
 locale = 'en-us'
 title = 'scouting.university'
 enableRobots = true
+disableKinds = ['taxonomy', 'term']
 
 [outputs]
   home = ['html', 'rss', 'robots']

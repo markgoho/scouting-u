@@ -30,8 +30,6 @@
 }
 
 .rank-landing {
-  max-width: 42rem;
-  margin: 0 auto;
   padding: var(--space-l) var(--space-m);
 }
 
