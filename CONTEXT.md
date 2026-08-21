@@ -9,8 +9,8 @@ One of Scouting America's four program tracks (Scouts BSA, Cub Scouting, Sea Sco
 _Avoid_: Track, division
 
 **Rank**:
-An achievement level within one Program (Scout, Tenderfoot, ... Eagle, for Scouts BSA). The site's central concept — analogous to mbu's Merit Badge.
-_Avoid_: Badge, achievement (unqualified)
+An achievement level within one Program (Scout, Tenderfoot, ... Eagle, for Scouts BSA). The site's central concept — analogous to mbu's Merit Badge. Every rank, including Scout (`level` 1), is earned by completing its requirements — a new troop member has not yet earned any rank, and Scout is not a default or starting state.
+_Avoid_: Badge, achievement (unqualified); describing Scout as a default/starting rank
 
 **Level**:
 A Rank's numeric position within its Program's sequence. Restarts per Program (Cub Lion is `0`); not a synonym for Rank, just its ordinal.
