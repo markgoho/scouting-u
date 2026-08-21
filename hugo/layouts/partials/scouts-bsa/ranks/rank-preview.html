@@ -7,54 +7,52 @@
   documents them as theme-owned generic CSS (ADR 0008), same as the
   hero (#46).
 
-  Rows are the rank's leaf requirements (no `children`, per ADR 0001's
-  leaf definition) -- not the top-level sections requirement-node.html
-  groups them under. Flattened inline rather than via a recursive
-  partial since rank data never nests past depth 2 (scouting-u#11).
+  Rows are the rank's first 4 top-level requirements (revised again
+  from the #47-follow-up leaf-flatten, per live review): each row is
+  that top-level node itself when it carries its own `text` (e.g. Scout
+  `2`/`6`, a real ADR-0001 group with prose), or its first child when it
+  doesn't (a synthetic group wrapper with no prose of its own, e.g.
+  Scout `1`/`3`/`4` -> shown as "1a"/"3a"/"4a") -- every row still gets a
+  real snippet, without losing the top-level framing entirely the way a
+  full leaf-flatten did.
 
-  Leaf-level, not top-level, on purpose (revised from #47's original
-  "top-level, not leaf" call): every leaf across every rank has its own
-  non-empty `text` (verified against all seven ranks' synced JSON), so
-  every row gets a real snippet the way mbu's cards always do, and the
-  "+N more" count matches rank-glance.html's leaf-based "Requirements"
-  count in #48's facts card instead of silently using a different total.
+  The "more" link intentionally carries no count ("View more
+  requirements", not "+N more") -- a per-row substitution makes "shown +
+  more = total" ambiguous (is a substituted "1a" row one leaf item or a
+  stand-in for all of group 1's children?), so this sidesteps ever
+  disagreeing with rank-glance.html's leaf-based "Requirements" count in
+  #48's facts card again.
 
-  Marker is the leaf's own `list_number` with the trailing dot trimmed
-  (e.g. "1a", or a bare "5" for an ungrouped flat leaf) -- full context,
-  since rows in one preview can come from different top-level groups.
-  Title is `short`; snippet is `text`, truncated.
+  Marker is the row's own `list_number` with the trailing dot trimmed
+  (e.g. "1a", or "5" for a flat top-level leaf) -- works whether the row
+  is the top-level node itself or a substituted child, since both carry
+  `list_number`. Title is `short`; snippet is `text`, truncated.
 
   View-transition keys are `path` with dots to hyphens, matching
-  requirement-node.html's contract exactly (a leaf's card is always the
-  depth-1 or depth-2 element that owns that path), so a row morphs into
-  its matching card on /requirements/ instead of cross-fading.
+  requirement-node.html's contract exactly, so a row morphs into its
+  matching card on /requirements/ instead of cross-fading.
 
   Params (dict): rank (rank data), requirements_page (the requirements Page)
 */}}
 {{ $rank := .rank }}
 {{ $reqPage := .requirements_page }}
 
-{{ $leaves := slice }}
-{{ range $rank.requirements }}
-  {{ if .children }}
-    {{ range .children }}
-      {{ $leaves = $leaves | append . }}
-    {{ end }}
-  {{ else }}
-    {{ $leaves = $leaves | append . }}
-  {{ end }}
-{{ end }}
-{{ $total := len $leaves }}
-{{ $preview := first 4 $leaves }}
+{{ $topLevel := $rank.requirements }}
+{{ $total := len $topLevel }}
+{{ $preview := first 4 $topLevel }}
 
 <div class="badge-preview card-surface">
   <h2 class="badge-preview__heading">What you'll do</h2>
   <ul class="badge-preview__list">
-    {{ range $req := $preview }}
-      {{ $key := replace $req.path "." "-" }}
-      {{ $marker := strings.TrimSuffix "." $req.list_number }}
+    {{ range $node := $preview }}
+      {{ $row := $node }}
+      {{ if and (not $node.text) $node.children }}
+        {{ $row = index $node.children 0 }}
+      {{ end }}
+      {{ $key := replace $row.path "." "-" }}
+      {{ $marker := strings.TrimSuffix "." $row.list_number }}
       <li class="badge-preview__item">
-        <a href="{{ $reqPage.RelPermalink }}#{{ $req.path }}" class="badge-preview__link">
+        <a href="{{ $reqPage.RelPermalink }}#{{ $row.path }}" class="badge-preview__link">
           <span
             class="badge-preview__node req-card__node"
             aria-hidden="true"
@@ -62,8 +60,8 @@
             ><span class="req-card__node-text">{{ $marker }}</span></span
           >
           <span class="badge-preview__text">
-            <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $req.short }}</span>
-            {{ with $req.text }}
+            <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $row.short }}</span>
+            {{ with $row.text }}
               <span class="badge-preview__snippet" style="view-transition-name: req-text-{{ $key }}">{{ . | plainify | truncate 120 }}</span>
             {{ end }}
           </span>
@@ -73,7 +71,7 @@
   </ul>
   {{ if gt $total 4 }}
     <a href="{{ $reqPage.RelPermalink }}" class="badge-preview__more">
-      +{{ sub $total 4 }} more requirements
+      View more requirements
       {{ partial "icon.html" (dict "name" "arrow-right" "class" "badge-preview__more-icon") }}
     </a>
   {{ end }}
