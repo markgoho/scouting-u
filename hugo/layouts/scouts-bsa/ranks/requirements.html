@@ -21,10 +21,11 @@
   {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $slug }}
   {{ $landingURL := .Parent.RelPermalink }}
   {{ $requirementsURL := .RelPermalink }}
+  {{ $guide := .Parent.GetPage "guide" }}
 
   <div class="req-page">
     <aside class="req-sidebar-wrap">
-      {{ partial "scouts-bsa/ranks/req-sidebar.html" (dict "rank" $rank "page" . "landing_url" $landingURL "requirements_url" $requirementsURL) }}
+      {{ partial "scouts-bsa/ranks/req-sidebar.html" (dict "rank" $rank "page" . "landing_url" $landingURL "requirements_url" $requirementsURL "active" "requirements" "guide" $guide) }}
     </aside>
 
     <div class="req-main">

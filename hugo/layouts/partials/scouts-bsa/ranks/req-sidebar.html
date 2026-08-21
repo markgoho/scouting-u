@@ -3,25 +3,41 @@
 
   Reduced version of uni-theme's req-sidebar/badge-identity pattern
   (see mbu's merit-badges/req-sidebar.html + badge-identity.html), scoped
-  to what a rank actually has: no badge emblem/category, no Study Guide
-  page, no downloads. Carries the page's real <h1> -- the requirements
-  template itself renders none, matching mbu's split (badge-identity.html
-  owns the <h1> there too).
+  to what a rank actually has today: no badge emblem/category, no
+  downloads. Carries the page's real <h1> -- the requirements template
+  itself renders none, matching mbu's split (badge-identity.html owns
+  the <h1> there too).
 
-  Params (dict): rank (rank data), page (the requirements Page),
-  landing_url, requirements_url
+  Shared between the requirements page and the landing page (scouting-u
+  #45) via the `active` param. A Guide nav item is DRG-reserved: it's
+  gated by `{{ with .guide }}` so it renders once a rank Guide page
+  exists (scouting-u#28/DRG), same as mbu's own Study Guide nav item.
+
+  Params (dict): rank (rank data), page (the current Page),
+  landing_url, requirements_url, active ("overview" | "requirements" |
+  "guide", default "requirements"), guide (the rank's Guide Page, or nil)
 */}}
 {{ $rank := .rank }}
 {{ $page := .page }}
 {{ $landingURL := .landing_url }}
 {{ $requirementsURL := .requirements_url }}
+{{ $active := .active | default "requirements" }}
+{{ $guide := .guide }}
 {{ $reqCount := len $rank.requirements }}
 
 <nav class="req-mobile-nav-wrap" aria-label="Page section navigation">
   <details class="req-mobile-nav">
     <summary class="req-mobile-nav__toggle">
-      {{ partial "icon.html" (dict "name" "list-checks" "class" "req-mobile-nav__icon") }}
-      <span>Requirements</span>
+      {{ if eq $active "overview" }}
+        {{ partial "icon.html" (dict "name" "compass" "class" "req-mobile-nav__icon") }}
+        <span>Overview</span>
+      {{ else if eq $active "guide" }}
+        {{ partial "icon.html" (dict "name" "book-open-text" "class" "req-mobile-nav__icon") }}
+        <span>Study Guide</span>
+      {{ else }}
+        {{ partial "icon.html" (dict "name" "list-checks" "class" "req-mobile-nav__icon") }}
+        <span>Requirements</span>
+      {{ end }}
       <span class="req-mobile-nav__chevron">
         <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="6 9 12 15 18 9"></polyline>
@@ -32,18 +48,28 @@
     <div class="req-mobile-nav__menu">
       <ul class="req-mobile-nav__list">
         <li>
-          <a href="{{ $landingURL }}" class="req-mobile-nav__item">
+          <a href="{{ $landingURL }}" class="req-mobile-nav__item{{ if eq $active "overview" }} req-mobile-nav__item--active{{ end }}">
             {{ partial "icon.html" (dict "name" "compass" "class" "req-mobile-nav__item-icon") }}
             <span class="req-mobile-nav__item-label">Overview</span>
+            {{ if eq $active "overview" }}<svg class="req-mobile-nav__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>{{ end }}
           </a>
         </li>
         <li>
-          <a href="{{ $requirementsURL }}" class="req-mobile-nav__item req-mobile-nav__item--active">
+          <a href="{{ $requirementsURL }}" class="req-mobile-nav__item{{ if eq $active "requirements" }} req-mobile-nav__item--active{{ end }}">
             {{ partial "icon.html" (dict "name" "list-checks" "class" "req-mobile-nav__item-icon") }}
             <span class="req-mobile-nav__item-label">Requirements</span>
-            <svg class="req-mobile-nav__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            {{ if eq $active "requirements" }}<svg class="req-mobile-nav__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>{{ end }}
           </a>
         </li>
+        {{ with $guide }}
+          <li>
+            <a href="{{ .RelPermalink }}" class="req-mobile-nav__item{{ if eq $active "guide" }} req-mobile-nav__item--active{{ end }}">
+              {{ partial "icon.html" (dict "name" "book-open-text" "class" "req-mobile-nav__item-icon") }}
+              <span class="req-mobile-nav__item-label">Study Guide</span>
+              {{ if eq $active "guide" }}<svg class="req-mobile-nav__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>{{ end }}
+            </a>
+          </li>
+        {{ end }}
       </ul>
     </div>
   </details>
@@ -60,8 +86,11 @@
 
   <nav class="req-sidebar__nav" aria-label="{{ $rank.title }} sections">
     <ul>
-      <li><a href="{{ $landingURL }}">Overview</a></li>
-      <li><a href="{{ $requirementsURL }}" aria-current="page">Requirements</a></li>
+      <li><a href="{{ $landingURL }}"{{ if eq $active "overview" }} aria-current="page"{{ end }}>Overview</a></li>
+      <li><a href="{{ $requirementsURL }}"{{ if eq $active "requirements" }} aria-current="page"{{ end }}>Requirements</a></li>
+      {{ with $guide }}
+        <li><a href="{{ .RelPermalink }}"{{ if eq $active "guide" }} aria-current="page"{{ end }}>Study Guide</a></li>
+      {{ end }}
     </ul>
   </nav>
 
