@@ -1,5 +1,5 @@
 ---
-title: "Scouts BSA Ranks"
+title: "Ranks"
 cascade:
   - target:
       path: /scouts-bsa/ranks/*
