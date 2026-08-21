@@ -1,65 +1,97 @@
 {{/*
   Renders one rank requirement node at depth 1 (top-level) or depth 2
   (child). No recursion past depth 2 -- rank data never nests deeper
-  (scouting-u#11's research). Depth 1 uses uni-theme's generic .timeline
-  (numbered node + panel); depth 2 uses its .req-list (marker + title +
-  text rail) -- both are shared primitives, not bespoke local CSS, so
-  this page's card/rail visual language stays in sync with wherever else
-  those primitives get used (currently the home page's rank ladder).
+  (scouting-u#11's research). Composes uni-theme's req-card/req-child
+  family (merit-badge-requirements.css -- see mbu's req-card.html/
+  req-child-item.html, which this mirrors minus everything that depends
+  on DRG guide data ranks don't have: no eyebrow, no subrequirement_mode
+  pill, no resources list. Card chrome only ever starts at depth 1 --
+  depth 2 is a plain left rail (.req-children--rail), same as mbu.
+
   A depth-1 node with no `short` is a synthetic ADR-0001 group wrapper
-  (no API row of its own): its panel holds only its children's .req-list,
-  no title/text of its own -- scouting-u#18.
+  (no title/text row of its own): its panel holds only its children's
+  .req-children -- scouting-u#18.
 
-  The timeline node is numbered by req_id, never by array position --
-  reqs 10-13 are depth-1 leaves interleaved with the lettered groups, so
-  position and req_id only coincide by accident of this rank's data.
-
-  View-transition names are keyed by list_number (not path), matching
+  IDs/data-anchor use the rank JSON's own dotted `path` field (e.g.
+  "1.a"), matching mbu's convention exactly -- deep-link.ts builds its
+  #hash from this same value. View-transition names key off path with
+  dots replaced by dashes (mbu's $cardKey/$itemKey pattern), paired with
   the landing-page preview in req-preview-item.html so the browser can
-  morph one into the other -- scouting-u#18/#19. Depth-2 children keep
-  their FULL list_number as the visible marker (e.g. "1a.", not "a.")
-  so it matches the landing page's marker exactly -- unlike MBU's
-  convention of stripping to the last segment, since the parent group
-  here carries no visible number of its own to supply that context.
+  morph one into the other -- scouting-u#18/#19.
 
-  Params (dict): req, depth (1 or 2)
+  Depth-2 markers are the item's own last path segment plus a trailing
+  period ("1.a" -> "a."), not the full list_number -- mbu's convention.
+  The depth-1 node's own number bubble already supplies the "1" context,
+  so repeating it in every child's marker would be redundant.
+
+  Params (dict): req, depth (1 or 2), rank_title
 */}}
 {{ $req := .req }}
 {{ $depth := .depth }}
-{{ $slug := "" }}
-{{ with $req.list_number }}
-  {{ $slug = lower (replaceRE `[.\s\t]+$` "" .) }}
-{{ end }}
+{{ $rankTitle := .rank_title }}
+{{ $key := lower (replace $req.path "." "-") }}
 
 {{ if eq $depth 1 }}
-  <li class="timeline__item">
-    <span class="timeline__node"><span class="timeline__node-text">{{ $req.req_id }}</span></span>
-    <div class="timeline__panel card-surface rank-req__panel">
+  <li
+    id="{{ $req.path }}"
+    class="req-card"
+    tabindex="-1"
+    data-pagefind-index-attrs="data-anchor,data-content-name"
+    data-anchor="{{ $req.path }}"
+    data-content-name="{{ $rankTitle }}">
+    <span
+      class="req-card__node"
+      aria-hidden="true"
+      style="view-transition-name: req-num-{{ $key }}"
+      ><span class="req-card__node-text">{{ $req.req_id }}</span></span
+    >
+    <div class="req-card__panel">
       {{ if $req.short }}
-        <h3 id="{{ $slug }}" class="rank-req__heading">
-          <span class="rank-req__number" style="view-transition-name: req-num-{{ $slug }}">{{ $req.list_number }}</span>
-          <span style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</span>
-        </h3>
+        <div class="req-card__header">
+          <div class="req-card__heading">
+            <div class="req-card__title-row">
+              <h3
+                class="req-card__title"
+                style="view-transition-name: req-title-{{ $key }}"
+                >{{ $req.short }}</h3
+              >
+            </div>
+          </div>
+        </div>
         {{ with $req.text }}
-          <div class="rank-req__text" style="view-transition-name: req-text-{{ $slug }}">{{ . | safeHTML }}</div>
+          <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
         {{ end }}
       {{ end }}
       {{ with $req.children }}
-        <ol class="req-list">
+        <ol class="req-children req-children--rail">
           {{ range . }}
-            {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 2) }}
+            {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 2 "rank_title" $rankTitle) }}
           {{ end }}
         </ol>
       {{ end }}
     </div>
   </li>
 {{ else }}
-  <li class="req-list__item">
-    <span class="req-list__marker" style="view-transition-name: req-num-{{ $slug }}">{{ $req.list_number }}</span>
-    <div class="req-list__body">
-      <h4 id="{{ $slug }}" class="req-list__title" style="view-transition-name: req-title-{{ $slug }}">{{ $req.short }}</h4>
+  {{ $segments := split $req.path "." }}
+  {{ $marker := printf "%s." (index $segments (sub (len $segments) 1)) }}
+  <li
+    id="{{ $req.path }}"
+    class="req-child req-child--rail"
+    tabindex="-1"
+    data-pagefind-index-attrs="data-anchor,data-content-name"
+    data-anchor="{{ $req.path }}"
+    data-content-name="{{ $rankTitle }}">
+    <span class="req-child__marker" style="view-transition-name: req-num-{{ $key }}">{{ $marker }}</span>
+    <div class="req-child__body">
+      <div class="req-child__title-row">
+        <h4
+          class="req-child__title"
+          style="view-transition-name: req-title-{{ $key }}"
+          >{{ $req.short }}</h4
+        >
+      </div>
       {{ with $req.text }}
-        <div class="req-list__text" style="view-transition-name: req-text-{{ $slug }}">{{ . | safeHTML }}</div>
+        <div class="req-child__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
       {{ end }}
     </div>
   </li>

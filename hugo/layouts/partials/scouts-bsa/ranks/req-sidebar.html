@@ -1,0 +1,71 @@
+{{/*
+  scouts-bsa/ranks/req-sidebar.html
+
+  Reduced version of uni-theme's req-sidebar/badge-identity pattern
+  (see mbu's merit-badges/req-sidebar.html + badge-identity.html), scoped
+  to what a rank actually has: no badge emblem/category, no Study Guide
+  page, no downloads. Carries the page's real <h1> -- the requirements
+  template itself renders none, matching mbu's split (badge-identity.html
+  owns the <h1> there too).
+
+  Params (dict): rank (rank data), page (the requirements Page),
+  landing_url, requirements_url
+*/}}
+{{ $rank := .rank }}
+{{ $page := .page }}
+{{ $landingURL := .landing_url }}
+{{ $requirementsURL := .requirements_url }}
+{{ $reqCount := len $rank.requirements }}
+
+<nav class="req-mobile-nav-wrap" aria-label="Page section navigation">
+  <details class="req-mobile-nav">
+    <summary class="req-mobile-nav__toggle">
+      {{ partial "icon.html" (dict "name" "list-checks" "class" "req-mobile-nav__icon") }}
+      <span>Requirements</span>
+      <span class="req-mobile-nav__chevron">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </span>
+    </summary>
+
+    <div class="req-mobile-nav__menu">
+      <ul class="req-mobile-nav__list">
+        <li>
+          <a href="{{ $landingURL }}" class="req-mobile-nav__item">
+            {{ partial "icon.html" (dict "name" "compass" "class" "req-mobile-nav__item-icon") }}
+            <span class="req-mobile-nav__item-label">Overview</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ $requirementsURL }}" class="req-mobile-nav__item req-mobile-nav__item--active">
+            {{ partial "icon.html" (dict "name" "list-checks" "class" "req-mobile-nav__item-icon") }}
+            <span class="req-mobile-nav__item-label">Requirements</span>
+            <svg class="req-mobile-nav__check" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</nav>
+
+<div class="req-sidebar">
+  <div class="badge-identity">
+    <div class="badge-identity__header-text">
+      <span class="badge-identity__eyebrow-category">Rank {{ $rank.level }} of 7</span>
+      <h1 class="badge-identity__title">{{ $rank.title }}</h1>
+      <span class="badge-identity__micro-tag">{{ $rank.program }} RANK</span>
+    </div>
+  </div>
+
+  <nav class="req-sidebar__nav" aria-label="{{ $rank.title }} sections">
+    <ul>
+      <li><a href="{{ $landingURL }}">Overview</a></li>
+      <li><a href="{{ $requirementsURL }}" aria-current="page">Requirements</a></li>
+    </ul>
+  </nav>
+
+  <div class="req-sidebar__meta">
+    <span class="req-sidebar__meta-item">{{ $reqCount }} Requirements</span>
+  </div>
+</div>

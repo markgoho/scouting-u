@@ -49,10 +49,10 @@
           <ul class="rank-landing__req-list">
             {{ if $group.children }}
               {{ range $group.children }}
-                {{ partial "scouts-bsa/ranks/req-preview-item.html" (dict "req" . "requirements_url" $requirementsPage.RelPermalink) }}
+                {{ partial "scouts-bsa/ranks/req-preview-item.html" (dict "req" . "depth" 2 "requirements_url" $requirementsPage.RelPermalink) }}
               {{ end }}
             {{ else }}
-              {{ partial "scouts-bsa/ranks/req-preview-item.html" (dict "req" $group "requirements_url" $requirementsPage.RelPermalink) }}
+              {{ partial "scouts-bsa/ranks/req-preview-item.html" (dict "req" $group "depth" 1 "requirements_url" $requirementsPage.RelPermalink) }}
             {{ end }}
           </ul>
         </div>
