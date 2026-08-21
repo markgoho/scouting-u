@@ -17,12 +17,50 @@
   one system; a card with no `short` yet (ADR-0001 group wrapper, or a
   leaf still missing one) just omits it -- scouting-u#18.
 
-  IDs/data-anchor use the rank JSON's own dotted `path` field (e.g.
-  "1.a"), matching mbu's convention exactly -- deep-link.ts builds its
-  #hash from this same value. View-transition names key off path with
-  dots replaced by dashes (mbu's $cardKey/$itemKey pattern), paired with
-  the landing-page's requirement preview (scouting-u#47) so the browser
-  can morph one into the other -- scouting-u#18/#44.
+  The `id="{{ $req.path }}"` lives on the heading (h3 at depth 1, h4 at
+  depth 2), not the `<li>` -- Pagefind's Route A sub-results need the id
+  ON an h1-h6 with non-blank text to bound excerpt regions correctly
+  (scouting-u#12's research; verified empirically against a real build
+  that putting it on the `<li>` instead, mbu's current convention,
+  produces no sub-results at all and garbled cross-requirement
+  excerpts -- scouting-u#35). `data-anchor` (unchanged, still on the
+  `<li>`) is what deep-link.ts actually reads for selection/dock/
+  copy-link, so none of that JS behavior is affected by where `id`
+  lives. The one narrow regression: uni-theme's shared `:target` CSS
+  fallback (`.req-card:target`/`.req-child:target`, no-JS visitors
+  only) no longer matches, since it keys off the `<li>`'s own id --
+  JS-enabled visitors are unaffected (deep-link.ts's data-anchor-based
+  highlight doesn't touch `:target`). Widening that CSS to also match
+  `:has(:target)` is a shared-theme follow-up, not done here.
+
+  `data-pagefind-index-attrs="data-anchor,data-content-name"` (mbu's
+  convention, dropped here) is NOT the metadata-only mechanism it looks
+  like -- confirmed against Pagefind's own docs, it inlines the named
+  attributes' *values* into that element's indexed text, mixed in with
+  the visible content. With both attributes on every `<li>` on the page,
+  that wove "3.a" (the path) and "Scout" (the rank name) into the
+  indexed stream at every requirement boundary, garbling sub-result
+  excerpts (scouting-u#35's live testing caught this). Neither value
+  needs to be searchable text: `data-anchor` is deep-link.ts's own
+  lookup key, read via plain `.dataset`, never Pagefind; `data-content-
+  name` only labels a Pirsch event (see deep-link.ts) and the rank name
+  is already the page's own indexed title. Both attributes stay on the
+  `<li>` for deep-link.ts; only the Pagefind-specific index-attrs
+  directive is gone.
+
+  `data-pagefind-ignore` on the number bubble/marker spans stops a
+  different bleed: those spans sit in the DOM right before their own
+  requirement's heading, so their text (e.g. a child's "a." marker)
+  otherwise gets attributed to the *previous* requirement's excerpt --
+  Pagefind assigns pre-heading text to whatever region came before,
+  which was one requirement too early here. Found the same way as the
+  index-attrs issue: live-testing against pagefind.search(), not
+  assumed from docs alone.
+
+  View-transition names key off path with dots replaced by dashes
+  (mbu's $cardKey/$itemKey pattern), paired with the landing-page's
+  requirement preview (scouting-u#47) so the browser can morph one into
+  the other -- scouting-u#18/#44.
 
   Depth-2 markers are the item's own last path segment plus a trailing
   period ("1.a" -> "a."), not the full list_number -- mbu's convention.
@@ -38,22 +76,19 @@
 
 {{ if eq $depth 1 }}
   <li
-    id="{{ $req.path }}"
     class="req-card"
     tabindex="-1"
-    data-pagefind-index-attrs="data-anchor,data-content-name"
     data-anchor="{{ $req.path }}"
     data-content-name="{{ $rankTitle }}">
     <span
       class="req-card__node"
       aria-hidden="true"
+      data-pagefind-ignore
       style="view-transition-name: req-num-{{ $key }}"
       ><span class="req-card__node-text">{{ $req.req_id }}</span></span
     >
     <div class="req-card__panel">
-      {{ with $req.short }}
-        <p class="req-card__eyebrow" style="view-transition-name: req-title-{{ $key }}">{{ . }}</p>
-      {{ end }}
+      <h3 id="{{ $req.path }}" class="req-card__eyebrow" style="view-transition-name: req-title-{{ $key }}">{{ $req.short | default (printf "Requirement %s" $req.path) }}</h3>
       {{ with $req.text }}
         <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
       {{ end }}
@@ -70,19 +105,18 @@
   {{ $segments := split $req.path "." }}
   {{ $marker := printf "%s." (index $segments (sub (len $segments) 1)) }}
   <li
-    id="{{ $req.path }}"
     class="req-child req-child--rail"
     tabindex="-1"
-    data-pagefind-index-attrs="data-anchor,data-content-name"
     data-anchor="{{ $req.path }}"
     data-content-name="{{ $rankTitle }}">
-    <span class="req-child__marker" style="view-transition-name: req-num-{{ $key }}">{{ $marker }}</span>
+    <span class="req-child__marker" data-pagefind-ignore style="view-transition-name: req-num-{{ $key }}">{{ $marker }}</span>
     <div class="req-child__body">
       <div class="req-child__title-row">
         <h4
+          id="{{ $req.path }}"
           class="req-child__title"
           style="view-transition-name: req-title-{{ $key }}"
-          >{{ $req.short }}</h4
+          >{{ $req.short | default (printf "Requirement %s" $req.path) }}</h4
         >
       </div>
       {{ with $req.text }}

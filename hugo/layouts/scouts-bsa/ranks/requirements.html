@@ -37,13 +37,15 @@
         </div>
       {{ end }}
 
-      <h2 class="req-main__heading">Requirements</h2>
+      <div class="rank-requirements" data-pagefind-body>
+        <h2 class="req-main__heading">Requirements</h2>
 
-      <ol class="req-timeline">
-        {{ range $rank.requirements }}
-          {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1 "rank_title" $rank.title) }}
-        {{ end }}
-      </ol>
+        <ol class="req-timeline">
+          {{ range $rank.requirements }}
+            {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1 "rank_title" $rank.title) }}
+          {{ end }}
+        </ol>
+      </div>
 
       {{ with $rank.footer }}
         <div class="rank-requirements__footer">{{ . | safeHTML }}</div>
