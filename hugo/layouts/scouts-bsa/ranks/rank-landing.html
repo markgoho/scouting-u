@@ -6,6 +6,8 @@
   front-matter description, and a leaf-level requirement summary
   clustered by top-level digit-stem, deep-linking to /requirements/.
 */}}
+{{ define "html-class" }}theme-v2{{ end }}
+
 {{ define "main" }}
   {{ partial "breadcrumb.html" . }}
   {{ $slug := .File.ContentBaseName }}

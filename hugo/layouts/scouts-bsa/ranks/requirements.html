@@ -2,10 +2,12 @@
   /scouts-bsa/ranks/{slug}/requirements/ -- scouting-u#18.
 
   Route A (Pagefind sub-result headings, rank-grouped): every requirement
-  gets its own h3/h4 with a unique id on the heading, no nav rail, no
-  numeric chips, no recursion past depth 2. Rank header/footer bracket
-  the list.
+  gets its own h3/h4 with a unique id on the heading and its list_number
+  (e.g. "1a.") as visible text, no nav rail, no recursion past depth 2.
+  Rank header/footer bracket the list.
 */}}
+{{ define "html-class" }}theme-v2{{ end }}
+
 {{ define "main" }}
   {{ partial "breadcrumb.html" . }}
   {{ $slug := .Parent.File.ContentBaseName }}
