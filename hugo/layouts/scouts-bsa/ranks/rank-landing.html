@@ -7,8 +7,9 @@
   demote_heading param). Sequence prev/next lives in the sidebar, below
   the identity block.
 
-  The requirement-summary preview card and the facts/resources cards
-  land in #47/#48 -- this ticket only rebuilds the shell and hero.
+  The "What you'll do" preview card (#47) lives in `.badge-overview`
+  below the hero; the facts/resources cards land in #48, into the same
+  wrapper.
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
@@ -56,6 +57,10 @@
         "requirements_url" $requirementsPage.RelPermalink
         "guide" $guide
       ) }}
+
+      <div class="badge-overview">
+        {{ partial "scouts-bsa/ranks/rank-preview.html" (dict "rank" $rank "requirements_page" $requirementsPage) }}
+      </div>
     </div>
   </div>
 {{ end }}

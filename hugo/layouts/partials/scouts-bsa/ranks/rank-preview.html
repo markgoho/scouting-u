@@ -1,0 +1,59 @@
+{{/*
+  scouts-bsa/ranks/rank-preview.html
+
+  Landing-page "What you'll do" preview card (scouting-u#47), modeled on
+  mbu's badge-landing.html preview section. Reuses uni-theme's
+  .badge-preview and .badge-overview classes directly -- CONTRACT.md
+  documents them as theme-owned generic CSS (ADR 0008), same as the
+  hero (#46).
+
+  Rows are the rank's own top-level requirements (rank.requirements,
+  the same array requirement-node.html renders at depth 1) -- not leaf
+  requirements, and not truncated to 4 there; only this preview card
+  truncates. Marker is the node's own req_id (already a plain digit,
+  e.g. "2"), title is `short`, and the snippet is `text` when the node
+  carries prose (a real group node like Scout 2/6, or a childless leaf)
+  -- omitted for a synthetic group wrapper whose text is empty.
+
+  View-transition keys are `path` with dots to hyphens, matching
+  requirement-node.html's contract exactly, so a row morphs into its
+  matching card on /requirements/ instead of cross-fading.
+
+  Params (dict): rank (rank data), requirements_page (the requirements Page)
+*/}}
+{{ $rank := .rank }}
+{{ $reqPage := .requirements_page }}
+{{ $all := $rank.requirements }}
+{{ $total := len $all }}
+{{ $preview := first 4 $all }}
+
+<div class="badge-preview card-surface">
+  <h2 class="badge-preview__heading">What you'll do</h2>
+  <ul class="badge-preview__list">
+    {{ range $req := $preview }}
+      {{ $key := replace $req.path "." "-" }}
+      <li class="badge-preview__item">
+        <a href="{{ $reqPage.RelPermalink }}#{{ $req.path }}" class="badge-preview__link">
+          <span
+            class="badge-preview__node req-card__node"
+            aria-hidden="true"
+            style="view-transition-name: req-num-{{ $key }}"
+            ><span class="req-card__node-text">{{ $req.req_id }}</span></span
+          >
+          <span class="badge-preview__text">
+            <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $req.short }}</span>
+            {{ with $req.text }}
+              <span class="badge-preview__snippet" style="view-transition-name: req-text-{{ $key }}">{{ . | plainify | truncate 120 }}</span>
+            {{ end }}
+          </span>
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+  {{ if gt $total 4 }}
+    <a href="{{ $reqPage.RelPermalink }}" class="badge-preview__more">
+      +{{ sub $total 4 }} more requirements
+      {{ partial "icon.html" (dict "name" "arrow-right" "class" "badge-preview__more-icon") }}
+    </a>
+  {{ end }}
+</div>
