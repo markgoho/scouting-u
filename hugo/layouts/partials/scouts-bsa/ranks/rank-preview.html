@@ -7,38 +7,59 @@
   documents them as theme-owned generic CSS (ADR 0008), same as the
   hero (#46).
 
-  Rows are the rank's own top-level requirements (rank.requirements,
-  the same array requirement-node.html renders at depth 1) -- not leaf
-  requirements, and not truncated to 4 there; only this preview card
-  truncates. Marker is the node's own req_id (already a plain digit,
-  e.g. "2"), title is `short`, and the snippet is `text` when the node
-  carries prose (a real group node like Scout 2/6, or a childless leaf)
-  -- omitted for a synthetic group wrapper whose text is empty.
+  Rows are the rank's leaf requirements (no `children`, per ADR 0001's
+  leaf definition) -- not the top-level sections requirement-node.html
+  groups them under. Flattened inline rather than via a recursive
+  partial since rank data never nests past depth 2 (scouting-u#11).
+
+  Leaf-level, not top-level, on purpose (revised from #47's original
+  "top-level, not leaf" call): every leaf across every rank has its own
+  non-empty `text` (verified against all seven ranks' synced JSON), so
+  every row gets a real snippet the way mbu's cards always do, and the
+  "+N more" count matches rank-glance.html's leaf-based "Requirements"
+  count in #48's facts card instead of silently using a different total.
+
+  Marker is the leaf's own `list_number` with the trailing dot trimmed
+  (e.g. "1a", or a bare "5" for an ungrouped flat leaf) -- full context,
+  since rows in one preview can come from different top-level groups.
+  Title is `short`; snippet is `text`, truncated.
 
   View-transition keys are `path` with dots to hyphens, matching
-  requirement-node.html's contract exactly, so a row morphs into its
-  matching card on /requirements/ instead of cross-fading.
+  requirement-node.html's contract exactly (a leaf's card is always the
+  depth-1 or depth-2 element that owns that path), so a row morphs into
+  its matching card on /requirements/ instead of cross-fading.
 
   Params (dict): rank (rank data), requirements_page (the requirements Page)
 */}}
 {{ $rank := .rank }}
 {{ $reqPage := .requirements_page }}
-{{ $all := $rank.requirements }}
-{{ $total := len $all }}
-{{ $preview := first 4 $all }}
+
+{{ $leaves := slice }}
+{{ range $rank.requirements }}
+  {{ if .children }}
+    {{ range .children }}
+      {{ $leaves = $leaves | append . }}
+    {{ end }}
+  {{ else }}
+    {{ $leaves = $leaves | append . }}
+  {{ end }}
+{{ end }}
+{{ $total := len $leaves }}
+{{ $preview := first 4 $leaves }}
 
 <div class="badge-preview card-surface">
   <h2 class="badge-preview__heading">What you'll do</h2>
   <ul class="badge-preview__list">
     {{ range $req := $preview }}
       {{ $key := replace $req.path "." "-" }}
+      {{ $marker := strings.TrimSuffix "." $req.list_number }}
       <li class="badge-preview__item">
         <a href="{{ $reqPage.RelPermalink }}#{{ $req.path }}" class="badge-preview__link">
           <span
             class="badge-preview__node req-card__node"
             aria-hidden="true"
             style="view-transition-name: req-num-{{ $key }}"
-            ><span class="req-card__node-text">{{ $req.req_id }}</span></span
+            ><span class="req-card__node-text">{{ $marker }}</span></span
           >
           <span class="badge-preview__text">
             <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $req.short }}</span>
