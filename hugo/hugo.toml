@@ -1,6 +1,6 @@
 baseURL = 'https://scouting.university/'
 locale = 'en-us'
-title = 'scouting.university'
+title = 'Scouting University'
 enableRobots = true
 disableKinds = ['taxonomy', 'term']
 
@@ -12,8 +12,8 @@ disableKinds = ['taxonomy', 'term']
     path = "github.com/markgoho/uni-theme"
 
 [params.theme]
-  siteTitle = 'scouting.university'
-  siteTitleShort = 'scouting.u'
+  siteTitle = 'Scouting University'
+  siteTitleShort = 'Scouting U'
   tagline = 'Your guide to Scouts BSA rank requirements.'
 
   [params.theme.cta]
