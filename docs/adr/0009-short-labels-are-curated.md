@@ -40,10 +40,14 @@ Where the text is already one short sentence, every label we could write just
 restates it — "Demonstrate square knot" above "Demonstrate a practical use of
 the square knot" is two lines saying one thing.
 
-For those we set `short` to `""`, and `requirement-node.html` promotes the
-requirement text into the heading slot and renders no separate text block. The
-heading element and its `id` stay, so Pagefind's Route A sub-results keep
-working (ADR 0002); only the duplicated line goes away.
+For those we set `short` to `""`. What a blank title then renders as is
+**uni-theme's decision, not ours** — ADR 0010 moved the empty-title-slot policy
+into the theme along with the rest of the requirement markup. The theme
+promotes a single-sentence text visibly into the heading (as we used to do
+locally) and falls back to a hidden derived lead sentence above the full
+visible text when the requirement runs longer. Either way the heading element
+and its `id` stay, so Pagefind's Route A sub-results keep working (ADR 0002),
+and the requirement's full official wording stays on screen.
 
 The rule for blanking, applied once across all seven ranks:
 
@@ -51,7 +55,10 @@ The rule for blanking, applied once across all seven ranks:
 - every meaningful word of the label already appears in that text.
 
 Above 16 words the text is too long to read as a heading, and a label that
-compresses it is doing real work. A label that introduces a word the text does
+compresses it is doing real work. Our rule decides only whether to *write* a
+label; where we blank one, the theme decides how the bare text presents. The
+two rules do not have to agree, and they do not: five multi-sentence
+requirements we blanked render hidden-derived rather than promoted. A label that introduces a word the text does
 not use (`Hike 5 miles`, `Earn 21 merit badges`) is also doing real work, at
 any length.
 
