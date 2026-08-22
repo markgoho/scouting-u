@@ -6,9 +6,10 @@
     "sync:ranks": "bun scripts/sync-ranks-api.ts",
     "lint": "oxlint .",
     "build:local": "rm -rf hugo/public && cd hugo && hugo && bun run index",
-    "build": "cd hugo && hugo --minify && bun run index",
+    "build": "cd hugo && hugo --minify && bun run index && bun run verify:output",
     "hugo:dev": "bun run build:local && cd hugo && hugo server",
-    "index": "bunx pagefind --site hugo/public"
+    "index": "bunx pagefind --site hugo/public",
+    "verify:output": "bun scripts/verify-build-output.ts"
   },
   "devDependencies": {
     "firebase-tools": "^15.27.0",
