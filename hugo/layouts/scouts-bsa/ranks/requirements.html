@@ -2,16 +2,20 @@
   /scouts-bsa/ranks/{slug}/requirements/ -- scouting-u#18.
 
   Route A (Pagefind sub-result headings, rank-grouped): every requirement
-  gets its own h3/h4 with a unique id on the heading and its path
-  (e.g. "1.a") as visible text, no recursion past depth 2. Structure
-  mirrors mbu's merit-badges/requirements.html: full-bleed .req-page
-  shell (uni-theme's shared req-sidebar.html renders its own
-  aside.req-sidebar-wrap + div.req-main), the depth-1 requirement list
-  rendered via requirement-node.html onto uni-theme's shared
-  req-card/req-children family, and uni-theme's shared req-dock rendered
-  OUTSIDE .req-main (that element's container-type: inline-size would
-  otherwise pin a position:fixed dock to the column, not the viewport --
-  see req-dock.html).
+  gets its own h3/h4 with a unique id on the heading, no recursion past
+  depth 2. Structure mirrors mbu's merit-badges/requirements.html:
+  full-bleed .req-page shell (uni-theme's shared req-sidebar.html renders
+  its own aside.req-sidebar-wrap + div.req-main), and uni-theme's shared
+  req-dock rendered OUTSIDE .req-main (that element's container-type:
+  inline-size would otherwise pin a position:fixed dock to the column,
+  not the viewport -- see req-dock.html).
+
+  The requirement list is uni-theme's req-card.html, called once per
+  top-level requirement. Local requirement-node.html no longer emits
+  markup -- it maps rank data into the theme's node dict and the theme
+  renders it, so the deep-link.ts selector contract and the Pagefind
+  non-blank-heading invariant are the theme's to keep, not ours to
+  re-derive. See uni-theme's CONTRACT.md.
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
@@ -51,7 +55,8 @@
 
         <ol class="req-timeline">
           {{ range $rank.requirements }}
-            {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1 "rank_title" $rank.title) }}
+            {{ $node := partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1 "rank_title" $rank.title) }}
+            {{ partial "req-card.html" (dict "node" $node) }}
           {{ end }}
         </ol>
       </div>

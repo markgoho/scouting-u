@@ -1,155 +1,65 @@
 {{/*
-  Renders one rank requirement node at depth 1 (top-level) or depth 2
-  (child). No recursion past depth 2 -- rank data never nests deeper
-  (scouting-u#11's research). Composes uni-theme's req-card/req-child
-  family (merit-badge-requirements.css -- see mbu's req-card.html/
-  req-child-item.html, which this mirrors minus everything that depends
-  on DRG guide data ranks don't have: no subrequirement_mode pill, no
-  resources list. Card chrome only ever starts at depth 1 -- depth 2 is
-  a plain left rail (.req-children--rail), same as mbu.
+  Maps one rank requirement (and its children) into uni-theme's node
+  dict, the shape `req-card.html`/`req-child-item.html` render from. See
+  uni-theme's CONTRACT.md, "The `.req-card`/`.req-child` markup,
+  theme-owned" -- the theme owns the markup, the `deep-link.ts` selector
+  contract, and the Pagefind non-blank-heading invariant. Nothing here
+  emits markup; this partial only translates rank data.
 
-  A depth-1 node's `short` always renders as .req-card__title (the big,
-  heavy serif style), whether or not it has children -- mbu varies
-  eyebrow vs. title per card based on what its DRG guide resolves, but
-  ranks have no guide to make that call. Unlike mbu, every depth-1 card
-  here gets the same treatment, so there's no eyebrow-vs-title mix to
-  worry about; one consistent style across every depth-1 card keeps the
-  page reading as one system.
+  Recursion is ours, not the theme's: `req-card.html` renders children
+  itself, but it needs them already mapped, so this partial walks the
+  tree to build nested dicts. Rank data never nests past depth 2
+  (scouting-u#11's research), but the mapper doesn't hard-code that --
+  depth only decides marker shape.
 
-  A node with a blank `short` promotes its own requirement text into the
-  heading slot instead, and then renders no separate text block --
-  otherwise the heading would read "Requirement 3.a" above the only
-  sentence that matters. Blank is a curation decision, not a gap: where
-  the official text is one short sentence, any Short Label we could
-  write just restates it (ADR 0009), so we delete the label and let the
-  text carry the heading. The `--verbatim` modifier marks those headings
-  as Scouting America's wording rather than ours. A node with neither
-  `short` nor text (an ADR-0001 group wrapper) still falls back to
-  "Requirement {path}", because Pagefind needs non-blank heading text --
-  scouting-u#18.
+  Markers: depth 1 uses `req_id` (the number bubble); deeper levels use
+  the path's own last segment plus a trailing period ("3.a" -> "a."),
+  since the card's bubble already supplies the "3". Same convention as
+  before the extraction.
 
-  The `id="{{ $req.path }}"` lives on the heading (h3 at depth 1, h4 at
-  depth 2), not the `<li>` -- Pagefind's Route A sub-results need the id
-  ON an h1-h6 with non-blank text to bound excerpt regions correctly
-  (scouting-u#12's research; verified empirically against a real build
-  that putting it on the `<li>` instead, mbu's current convention,
-  produces no sub-results at all and garbled cross-requirement
-  excerpts -- scouting-u#35). `data-anchor` (unchanged, still on the
-  `<li>`) is what deep-link.ts actually reads for selection/dock/
-  copy-link, so none of that JS behavior is affected by where `id`
-  lives. The one narrow regression: uni-theme's shared `:target` CSS
-  fallback (`.req-card:target`/`.req-child:target`, no-JS visitors
-  only) no longer matches, since it keys off the `<li>`'s own id --
-  JS-enabled visitors are unaffected (deep-link.ts's data-anchor-based
-  highlight doesn't touch `:target`). Widening that CSS to also match
-  `:has(:target)` is filed as uni-theme#4, not done here.
+  `title` is our Short Label, deliberately blank on requirements whose
+  own text is short enough to carry the heading (ADR 0009). The theme
+  decides what a blank title renders as -- promoted-and-visible, or
+  hidden-and-derived -- via `text/heading-for.html`. That policy is no
+  longer ours to implement.
 
-  `data-pagefind-index-attrs="data-anchor,data-content-name"` (mbu's
-  convention, dropped here) is NOT the metadata-only mechanism it looks
-  like -- confirmed against Pagefind's own docs, it inlines the named
-  attributes' *values* into that element's indexed text, mixed in with
-  the visible content. With both attributes on every `<li>` on the page,
-  that wove "3.a" (the path) and "Scout" (the rank name) into the
-  indexed stream at every requirement boundary, garbling sub-result
-  excerpts (scouting-u#35's live testing caught this). Neither value
-  needs to be searchable text: `data-anchor` is deep-link.ts's own
-  lookup key, read via plain `.dataset`, never Pagefind; `data-content-
-  name` only labels a Pirsch event (see deep-link.ts) and the rank name
-  is already the page's own indexed title. Both attributes stay on the
-  `<li>` for deep-link.ts; only the Pagefind-specific index-attrs
-  directive is gone.
+  `transition_num` is true so every card's number bubble carries a
+  view-transition-name, which the landing page's requirement preview
+  morphs into (scouting-u#44/#47). The theme defaults it off because mbu
+  only wants it on preview-linked cards.
 
-  `data-pagefind-ignore` on the number bubble/marker spans stops a
-  different bleed: those spans sit in the DOM right before their own
-  requirement's heading, so their text (e.g. a child's "a." marker)
-  otherwise gets attributed to the *previous* requirement's excerpt --
-  Pagefind assigns pre-heading text to whatever region came before,
-  which was one requirement too early here. Found the same way as the
-  index-attrs issue: live-testing against pagefind.search(), not
-  assumed from docs alone.
+  `variant` is left unset (theme default "rail"). Ranks have no chips or
+  options groups, and per CONTRACT.md the theme never infers variant
+  from content.
 
-  View-transition names key off path with dots replaced by dashes
-  (mbu's $cardKey/$itemKey pattern), paired with the landing-page's
-  requirement preview (scouting-u#47) so the browser can morph one into
-  the other -- scouting-u#18/#44.
+  `guide_href` is unset until the Digital Requirements Guide lands --
+  the theme omits `data-guide` entirely when empty, so the dock's guide
+  button hides itself rather than rendering a dead link.
 
-  Depth-2 markers are the item's own last path segment plus a trailing
-  period ("1.a" -> "a."), not the full list_number -- mbu's convention.
-  The depth-1 node's own number bubble already supplies the "1" context,
-  so repeating it in every child's marker would be redundant.
-
-  Params (dict): req, depth (1 or 2), rank_title
+  Params (dict): req, depth (1 for top-level), rank_title
+  Returns: node dict for uni-theme's req-card.html
 */}}
 {{ $req := .req }}
-{{ $depth := .depth }}
+{{ $depth := .depth | default 1 }}
 {{ $rankTitle := .rank_title }}
-{{ $key := lower (replace $req.path "." "-") }}
 
-{{/* Heading text, and whether it is the requirement text promoted into the
-     heading slot (see the note on Short Label promotion above). */}}
-{{ $title := $req.short }}
-{{ $promoted := false }}
-{{ if not $title }}
-  {{ if $req.text }}
-    {{ $title = $req.text }}
-    {{ $promoted = true }}
-  {{ else }}
-    {{ $title = printf "Requirement %s" $req.path }}
-  {{ end }}
-{{ end }}
-
-{{ if eq $depth 1 }}
-  <li
-    class="req-card"
-    tabindex="-1"
-    data-anchor="{{ $req.path }}"
-    data-content-name="{{ $rankTitle }}">
-    <span
-      class="req-card__node"
-      aria-hidden="true"
-      data-pagefind-ignore
-      style="view-transition-name: req-num-{{ $key }}"
-      ><span class="req-card__node-text">{{ $req.req_id }}</span></span
-    >
-    <div class="req-card__panel">
-      <h3 id="{{ $req.path }}" class="req-card__title{{ if $promoted }} req-card__title--verbatim{{ end }}" style="view-transition-name: req-title-{{ $key }}">{{ $title | safeHTML }}</h3>
-      {{ if not $promoted }}
-        {{ with $req.text }}
-          <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
-        {{ end }}
-      {{ end }}
-      {{ with $req.children }}
-        <ol class="req-children req-children--rail">
-          {{ range . }}
-            {{ partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 2 "rank_title" $rankTitle) }}
-          {{ end }}
-        </ol>
-      {{ end }}
-    </div>
-  </li>
-{{ else }}
+{{ $marker := $req.req_id }}
+{{ if gt $depth 1 }}
   {{ $segments := split $req.path "." }}
-  {{ $marker := printf "%s." (index $segments (sub (len $segments) 1)) }}
-  <li
-    class="req-child req-child--rail"
-    tabindex="-1"
-    data-anchor="{{ $req.path }}"
-    data-content-name="{{ $rankTitle }}">
-    <span class="req-child__marker" data-pagefind-ignore style="view-transition-name: req-num-{{ $key }}">{{ $marker }}</span>
-    <div class="req-child__body">
-      <div class="req-child__title-row">
-        <h4
-          id="{{ $req.path }}"
-          class="req-child__title{{ if $promoted }} req-child__title--verbatim{{ end }}"
-          style="view-transition-name: req-title-{{ $key }}"
-          >{{ $title | safeHTML }}</h4
-        >
-      </div>
-      {{ if not $promoted }}
-        {{ with $req.text }}
-          <div class="req-child__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
-        {{ end }}
-      {{ end }}
-    </div>
-  </li>
+  {{ $marker = printf "%s." (index $segments (sub (len $segments) 1)) }}
 {{ end }}
+
+{{ $children := slice }}
+{{ range $req.children }}
+  {{ $children = $children | append (partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" (add $depth 1) "rank_title" $rankTitle)) }}
+{{ end }}
+
+{{ return (dict
+  "path" $req.path
+  "marker" $marker
+  "content_name" $rankTitle
+  "title" $req.short
+  "text" $req.text
+  "children" $children
+  "transition_num" true
+) }}
