@@ -34,20 +34,19 @@
   {{ $leafCount := partial "scouts-bsa/ranks/count-leaves.html" $rank.requirements }}
   {{ $firstReq := index $rank.requirements 0 }}
 
+  {{ $identity := partial "scouts-bsa/ranks/rank-identity.html" (dict "rank" $rank "demote_heading" true) }}
+  {{ $meta := partial "scouts-bsa/ranks/req-sidebar-meta.html" (dict "rank" $rank) }}
+  {{ $pager := partial "scouts-bsa/ranks/rank-pager.html" (dict "prev" $prev "next" $next) }}
+  {{ $navItems := slice
+    (dict "label" "Overview" "url" .RelPermalink "icon" "compass" "active" true)
+    (dict "label" "Requirements" "url" $requirementsPage.RelPermalink "icon" "list-checks" "active" false)
+  }}
+  {{ with $guide }}
+    {{ $navItems = $navItems | append (dict "label" "Study Guide" "url" .RelPermalink "icon" "book-open-text" "active" false) }}
+  {{ end }}
+
   <div class="req-page">
-    <aside class="req-sidebar-wrap">
-      {{ partial "scouts-bsa/ranks/req-sidebar.html" (dict
-        "rank" $rank
-        "page" .
-        "landing_url" .RelPermalink
-        "requirements_url" $requirementsPage.RelPermalink
-        "active" "overview"
-        "guide" $guide
-        "demote_heading" true
-        "prev" $prev
-        "next" $next
-      ) }}
-    </aside>
+    {{ partial "req-sidebar.html" (dict "nav_items" $navItems "identity" $identity "meta" $meta "pager" $pager) }}
 
     <div class="req-main">
       {{ partial "breadcrumb.html" . }}

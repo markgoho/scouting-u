@@ -1,0 +1,20 @@
+{{/* scouts-bsa/ranks/rank-pager.html
+
+  Prev/next rank-sequence pager for uni-theme's shared req-sidebar.html
+  shell's "pager" param. Landing page only (scouting-u#46) -- no mbu
+  equivalent, since badges aren't ordered.
+
+  Params (dict): prev/next (sibling rank Page, or nil)
+*/}}
+{{ $prev := .prev }}
+{{ $next := .next }}
+{{ if or $prev $next }}
+  <nav class="req-sidebar__pager" aria-label="Rank order">
+    {{ with $prev }}
+      <a class="req-sidebar__pager-link req-sidebar__pager-link--prev" href="{{ .RelPermalink }}">&larr; {{ .Title }}</a>
+    {{ end }}
+    {{ with $next }}
+      <a class="req-sidebar__pager-link req-sidebar__pager-link--next" href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>
+    {{ end }}
+  </nav>
+{{ end }}

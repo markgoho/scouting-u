@@ -1,0 +1,13 @@
+{{/* scouts-bsa/ranks/req-sidebar-meta.html
+
+  Meta block for uni-theme's shared req-sidebar.html shell: just the
+  requirement count today (mirrors mbu's merit-badges/req-sidebar-meta.html,
+  reduced to what a rank actually has -- no last-updated date, Eagle
+  badge, or downloads).
+
+  Params (dict): rank (rank data)
+*/}}
+{{ $reqCount := len .rank.requirements }}
+<div class="req-sidebar__meta">
+  <span class="req-sidebar__meta-item">{{ $reqCount }} Requirements</span>
+</div>

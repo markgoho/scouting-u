@@ -5,12 +5,13 @@
   gets its own h3/h4 with a unique id on the heading and its path
   (e.g. "1.a") as visible text, no recursion past depth 2. Structure
   mirrors mbu's merit-badges/requirements.html: full-bleed .req-page
-  shell (aside.req-sidebar-wrap + div.req-main), the depth-1 requirement
-  list rendered via requirement-node.html onto uni-theme's shared
-  req-card/req-children family, and the shared req-dock rendered OUTSIDE
-  .req-main (that element's container-type: inline-size would otherwise
-  pin a position:fixed dock to the column, not the viewport -- see
-  req-dock.html).
+  shell (uni-theme's shared req-sidebar.html renders its own
+  aside.req-sidebar-wrap + div.req-main), the depth-1 requirement list
+  rendered via requirement-node.html onto uni-theme's shared
+  req-card/req-children family, and uni-theme's shared req-dock rendered
+  OUTSIDE .req-main (that element's container-type: inline-size would
+  otherwise pin a position:fixed dock to the column, not the viewport --
+  see req-dock.html).
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
@@ -23,10 +24,18 @@
   {{ $requirementsURL := .RelPermalink }}
   {{ $guide := .Parent.GetPage "guide" }}
 
+  {{ $identity := partial "scouts-bsa/ranks/rank-identity.html" (dict "rank" $rank) }}
+  {{ $meta := partial "scouts-bsa/ranks/req-sidebar-meta.html" (dict "rank" $rank) }}
+  {{ $navItems := slice
+    (dict "label" "Overview" "url" $landingURL "icon" "compass" "active" false)
+    (dict "label" "Requirements" "url" $requirementsURL "icon" "list-checks" "active" true)
+  }}
+  {{ with $guide }}
+    {{ $navItems = $navItems | append (dict "label" "Study Guide" "url" .RelPermalink "icon" "book-open-text" "active" false) }}
+  {{ end }}
+
   <div class="req-page">
-    <aside class="req-sidebar-wrap">
-      {{ partial "scouts-bsa/ranks/req-sidebar.html" (dict "rank" $rank "page" . "landing_url" $landingURL "requirements_url" $requirementsURL "active" "requirements" "guide" $guide) }}
-    </aside>
+    {{ partial "req-sidebar.html" (dict "nav_items" $navItems "identity" $identity "meta" $meta) }}
 
     <div class="req-main">
       {{ partial "breadcrumb.html" . }}
@@ -53,7 +62,7 @@
     </div>
   </div>
 
-  {{ partial "scouts-bsa/ranks/req-dock.html" . }}
+  {{ partial "req-dock.html" . }}
 {{ end }}
 
 {{ define "footer-scripts" }}

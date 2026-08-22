@@ -1,0 +1,24 @@
+{{/* scouts-bsa/ranks/rank-identity.html
+
+  Identity header for uni-theme's shared req-sidebar.html shell (mirrors
+  mbu's merit-badges/badge-identity.html): rank level eyebrow, rank
+  title, program micro-tag. No emblem -- ranks don't have one.
+
+  Params (dict): rank (rank data), demote_heading (bool, default false --
+  when true, render the title as a <p> instead of an <h1>; set by the
+  landing page, whose own hero owns the page's real <h1>)
+*/}}
+{{ $rank := .rank }}
+{{ $demoteHeading := .demote_heading | default false }}
+
+<div class="badge-identity">
+  <div class="badge-identity__header-text">
+    <span class="badge-identity__eyebrow-category">Rank {{ $rank.level }} of 7</span>
+    {{ if $demoteHeading }}
+      <p class="badge-identity__title">{{ $rank.title }}</p>
+    {{ else }}
+      <h1 class="badge-identity__title">{{ $rank.title }}</h1>
+    {{ end }}
+    <span class="badge-identity__micro-tag">{{ $rank.program }} RANK</span>
+  </div>
+</div>
