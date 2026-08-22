@@ -28,6 +28,14 @@
   is the top-level node itself or a substituted child, since both carry
   `list_number`. Title is `short`; snippet is `text`, truncated.
 
+  Substitution prefers the first child that actually has a Short Label,
+  not blindly the first child: a child with a deliberately blank `short`
+  (ADR 0009 -- its own text carries the heading on /requirements/) would
+  otherwise put a whole sentence in the title slot next to three-word
+  labels. When no child has one, the row falls back to the truncated text
+  as its title and drops the snippet, so it never renders an empty title
+  above a repeat of itself.
+
   View-transition keys are `path` with dots to hyphens, matching
   requirement-node.html's contract exactly, so a row morphs into its
   matching card on /requirements/ instead of cross-fading.
@@ -48,6 +56,11 @@
       {{ $row := $node }}
       {{ if and (not $node.text) $node.children }}
         {{ $row = index $node.children 0 }}
+        {{ range $node.children }}
+          {{ if and (not $row.short) .short }}
+            {{ $row = . }}
+          {{ end }}
+        {{ end }}
       {{ end }}
       {{ $key := replace $row.path "." "-" }}
       {{ $marker := strings.TrimSuffix "." $row.list_number }}
@@ -60,9 +73,13 @@
             ><span class="req-card__node-text">{{ $marker }}</span></span
           >
           <span class="badge-preview__text">
-            <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $row.short }}</span>
-            {{ with $row.text }}
-              <span class="badge-preview__snippet" style="view-transition-name: req-text-{{ $key }}">{{ . | plainify | truncate 120 }}</span>
+            {{ if $row.short }}
+              <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $row.short }}</span>
+              {{ with $row.text }}
+                <span class="badge-preview__snippet" style="view-transition-name: req-text-{{ $key }}">{{ . | plainify | truncate 120 }}</span>
+              {{ end }}
+            {{ else }}
+              <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $row.text | plainify | truncate 120 }}</span>
             {{ end }}
           </span>
         </a>

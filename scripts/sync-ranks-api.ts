@@ -382,8 +382,11 @@ function getRankDataPath({ slug }: { slug: string }): string {
 /**
  * Short Labels are curated, not authoritative API data: the API leaves many
  * group stems blank and its own `short` values are inconsistent across ranks.
- * Anything already written in the rank file wins; the API value only seeds
- * requirements that are new since the last sync. See ADR 0009.
+ * Anything already written in the rank file wins -- including a deliberate
+ * empty string, which means "this requirement's own text carries the heading"
+ * and must survive a re-sync. The API value only seeds requirements whose
+ * `short` key is absent from the file, which is how you ask for a re-seed.
+ * See ADR 0009.
  */
 async function loadCuratedShorts({
   slug,
@@ -399,7 +402,7 @@ async function loadCuratedShorts({
   const existing = (await file.json()) as RankData;
   const collect = (requirements: Requirement[]): void => {
     for (const requirement of requirements) {
-      if (requirement.short !== "") {
+      if (requirement.short !== undefined) {
         curated.set(requirement.path, requirement.short);
       }
       if (requirement.children !== undefined) {

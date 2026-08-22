@@ -14,8 +14,18 @@
   ranks have no guide to make that call. Unlike mbu, every depth-1 card
   here gets the same treatment, so there's no eyebrow-vs-title mix to
   worry about; one consistent style across every depth-1 card keeps the
-  page reading as one system. A card with no `short` yet (ADR-0001
-  group wrapper, or a leaf still missing one) just omits it --
+  page reading as one system.
+
+  A node with a blank `short` promotes its own requirement text into the
+  heading slot instead, and then renders no separate text block --
+  otherwise the heading would read "Requirement 3.a" above the only
+  sentence that matters. Blank is a curation decision, not a gap: where
+  the official text is one short sentence, any Short Label we could
+  write just restates it (ADR 0009), so we delete the label and let the
+  text carry the heading. The `--verbatim` modifier marks those headings
+  as Scouting America's wording rather than ours. A node with neither
+  `short` nor text (an ADR-0001 group wrapper) still falls back to
+  "Requirement {path}", because Pagefind needs non-blank heading text --
   scouting-u#18.
 
   The `id="{{ $req.path }}"` lives on the heading (h3 at depth 1, h4 at
@@ -75,6 +85,19 @@
 {{ $rankTitle := .rank_title }}
 {{ $key := lower (replace $req.path "." "-") }}
 
+{{/* Heading text, and whether it is the requirement text promoted into the
+     heading slot (see the note on Short Label promotion above). */}}
+{{ $title := $req.short }}
+{{ $promoted := false }}
+{{ if not $title }}
+  {{ if $req.text }}
+    {{ $title = $req.text }}
+    {{ $promoted = true }}
+  {{ else }}
+    {{ $title = printf "Requirement %s" $req.path }}
+  {{ end }}
+{{ end }}
+
 {{ if eq $depth 1 }}
   <li
     class="req-card"
@@ -89,9 +112,11 @@
       ><span class="req-card__node-text">{{ $req.req_id }}</span></span
     >
     <div class="req-card__panel">
-      <h3 id="{{ $req.path }}" class="req-card__title" style="view-transition-name: req-title-{{ $key }}">{{ $req.short | default (printf "Requirement %s" $req.path) }}</h3>
-      {{ with $req.text }}
-        <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
+      <h3 id="{{ $req.path }}" class="req-card__title{{ if $promoted }} req-card__title--verbatim{{ end }}" style="view-transition-name: req-title-{{ $key }}">{{ $title | safeHTML }}</h3>
+      {{ if not $promoted }}
+        {{ with $req.text }}
+          <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
+        {{ end }}
       {{ end }}
       {{ with $req.children }}
         <ol class="req-children req-children--rail">
@@ -115,13 +140,15 @@
       <div class="req-child__title-row">
         <h4
           id="{{ $req.path }}"
-          class="req-child__title"
+          class="req-child__title{{ if $promoted }} req-child__title--verbatim{{ end }}"
           style="view-transition-name: req-title-{{ $key }}"
-          >{{ $req.short | default (printf "Requirement %s" $req.path) }}</h4
+          >{{ $title | safeHTML }}</h4
         >
       </div>
-      {{ with $req.text }}
-        <div class="req-child__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
+      {{ if not $promoted }}
+        {{ with $req.text }}
+          <div class="req-child__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
+        {{ end }}
       {{ end }}
     </div>
   </li>

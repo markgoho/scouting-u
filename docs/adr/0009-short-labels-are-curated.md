@@ -33,10 +33,45 @@ verb phrase tells a Scout what they must actually do. Labels appear as
 requirements-page headings, landing-page summaries, and search result-card
 titles, so they carry the scanning load that the official text is too long for.
 
+## Blank means the requirement text carries the heading
+
+A Short Label only earns its place when it says less than the official text.
+Where the text is already one short sentence, every label we could write just
+restates it — "Demonstrate square knot" above "Demonstrate a practical use of
+the square knot" is two lines saying one thing.
+
+For those we set `short` to `""`, and `requirement-node.html` promotes the
+requirement text into the heading slot and renders no separate text block. The
+heading element and its `id` stay, so Pagefind's Route A sub-results keep
+working (ADR 0002); only the duplicated line goes away.
+
+The rule for blanking, applied once across all seven ranks:
+
+- The requirement text is **16 words or fewer** and carries no markup, **and**
+- every meaningful word of the label already appears in that text.
+
+Above 16 words the text is too long to read as a heading, and a label that
+compresses it is doing real work. A label that introduces a word the text does
+not use (`Hike 5 miles`, `Earn 21 merit badges`) is also doing real work, at
+any length.
+
+**One carve-out**: `Complete board of review` and `Complete Scoutmaster
+conference` stay on every rank even where the rule would blank them. The
+same-meaning-same-label convention above matters more here than the saved line,
+because these are the labels a Scout compares across ranks on search cards and
+landing pages.
+
+Landing-page previews (`rank-preview.html`) show the truncated text as the row
+title for a blanked requirement, so no surface renders an empty label.
+
 ## Consequences
 
 The Short Labels are ours, not Scouting America's, and must never be presented
 as official requirement wording. A re-sync no longer reports label drift from
 upstream, because it no longer looks: correcting a bad label means editing the
-JSON by hand. Deleting a `short` (setting it to `""`) is the way to re-seed one
-from the API.
+JSON by hand.
+
+`""` is now a curation decision, not an absence, so `loadCuratedShorts` keeps
+it across a re-sync — otherwise every blanked label would silently come back
+next August. Re-seeding one from the API means deleting the `short` **key**
+from the requirement object; only an absent key falls through to `row.short`.

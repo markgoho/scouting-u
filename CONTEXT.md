@@ -29,7 +29,7 @@ A Rank Requirement that has lettered children (e.g. Scout `2`, Star `6`), whethe
 _Avoid_: Parent requirement, section
 
 **Short Label**:
-The one-line label for a Rank Requirement — curated by this project, seeded from the API's `short` field. Unlike the Rank Requirement's text, it is ours to write and is not Scouting America's official wording; group stems read as Title Case topic nouns, everything else as sentence-case verb phrases (ADR 0009). Used as requirements-page heading text, the landing-page summary label, and the search result-card title. No mbu equivalent.
+The one-line label for a Rank Requirement — curated by this project, seeded from the API's `short` field. Unlike the Rank Requirement's text, it is ours to write and is not Scouting America's official wording; group stems read as Title Case topic nouns, everything else as sentence-case verb phrases (ADR 0009). Used as requirements-page heading text, the landing-page summary label, and the search result-card title. Deliberately blank on Rank Requirements whose own text is short enough to carry the heading itself (ADR 0009) — blank means "curated away," not "missing." No mbu equivalent.
 _Avoid_: short (field name only), title, label (unqualified); calling it official
 
 **Rank Version**:
