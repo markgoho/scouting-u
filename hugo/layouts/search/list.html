@@ -8,8 +8,15 @@
   does, per #35's fix to #32's gap).
 
   pageSize 7 (one per Scouts BSA rank) so a query matching every rank
-  shows every card without a "Load more" click -- Pagefind's own
-  default page size is 5. See uni-theme's search/page.html doc comment.
+  shows every card without a "Load more" click -- the theme's own
+  pagination default is 5. See uni-theme's search/page.html doc comment.
+
+  The results display is theme-owned end to end (uni-theme#14/#16):
+  Pagefind's Default UI is gone, and uni-theme's search.ts renders one
+  award panel per rank with a requirement tile per sub-result. Hence
+  awardLabel, appended at render time ("Tenderfoot" -> "Tenderfoot
+  Rank") so the suffix never enters the index, and emblemPlaceholder,
+  because no rank page carries an `image[src]` meta yet.
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
@@ -21,6 +28,8 @@
   {{ partial "search/page.html" (dict
     "page" .
     "description" "Find specific requirements across every rank."
+    "awardLabel" "Rank"
+    "emblemPlaceholder" "/img/emblem-placeholder.svg"
     "zeroResults" "No results found for \"[SEARCH_TERM]\". Try a different word, or check the spelling."
     "noResultsEvent" "rank-search-no-results"
     "resultClickEvent" "rank-search-result-click"

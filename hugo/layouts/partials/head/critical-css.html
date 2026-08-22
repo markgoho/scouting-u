@@ -7,9 +7,12 @@
   slice containing even one nil. This mirrors the theme's path list but
   skips missing files instead of crashing. See scouting-u#14 and
   mbu#128 for the upstream gap; which of these files scouting-u actually
-  needs is a call for #20, not this override. Top-level `search.css`
-  (scouting-u's own result-card reskin) landed in #35 -- it's no longer
-  one of the missing ones.
+  needs is a call for #20, not this override.
+
+  Top-level `search.css` (scouting-u's own reskin of Pagefind's Default
+  UI DOM) is gone: uni-theme#14 replaced that UI with a theme-owned
+  renderer, so `css/components/search.css` now covers the whole search
+  page. Removed here with the file in uni-theme#16.
 -->
 {{ $paths := slice
   "css/base.css"
@@ -23,7 +26,6 @@
   "css/button.css"
   "css/button-eagle.css"
   "css/components/search.css"
-  "css/search.css"
   "css/components/breadcrumb.css"
   "css/components/tag.css"
   "css/components/card-surface.css"
