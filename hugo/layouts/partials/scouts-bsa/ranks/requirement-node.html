@@ -32,6 +32,13 @@
   options groups, and per CONTRACT.md the theme never infers variant
   from content.
 
+  `text_format` is "html", not the theme's "markdown" default: rank text
+  is pre-rendered HTML that sync-ranks-api.ts sanitizes on the way in,
+  never markdown. Without it the theme markdownifies our text and
+  goldmark drops every raw tag -- footnote `<sup>`s included -- unless
+  the site turns on `goldmark.renderer.unsafe`, which we should not have
+  to do to feed the theme our own content.
+
   `guide_href` is unset until the Digital Requirements Guide lands --
   the theme omits `data-guide` entirely when empty, so the dock's guide
   button hides itself rather than rendering a dead link.
@@ -62,4 +69,5 @@
   "text" $req.text
   "children" $children
   "transition_num" true
+  "text_format" "html"
 ) }}

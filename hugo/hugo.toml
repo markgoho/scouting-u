@@ -4,11 +4,6 @@ title = 'Scouting University'
 enableRobots = true
 disableKinds = ['taxonomy', 'term']
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
 [outputs]
   home = ['html', 'rss', 'robots']
 
