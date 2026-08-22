@@ -1,0 +1,16 @@
+{{/* scouts-bsa/ranks/rank-hero-eyebrow.html
+
+  rank-hero.html's eyebrow-row content: a single "Rank X of Y" pill.
+  Split into its own partial, rather than string-interpolated inline,
+  so rank-hero.html captures it the same way mbu's badge-hero.html
+  captures badge-hero-eyebrow.html's output -- consistent with how
+  every other pre-rendered-HTML value in these theme/consumer partials
+  (req-sidebar.html's `identity`/`meta`, hero.html's `eyebrow`) is
+  produced by a `partial` call rather than by hand-built markup.
+
+  Params (dict): position (1-based rank position), total (rank count).
+*/}}
+{{ $position := .position }}
+{{ $total := .total }}
+
+<span class="badge-hero__pill">Rank {{ $position }} of {{ $total }}</span>

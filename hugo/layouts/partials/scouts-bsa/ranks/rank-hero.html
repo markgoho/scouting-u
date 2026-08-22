@@ -1,17 +1,18 @@
 {{/*
   scouts-bsa/ranks/rank-hero.html
 
-  Landing-page hero for a single rank (scouting-u#46), modeled on mbu's
-  merit-badges/badge-hero.html. Reuses uni-theme's own `.badge-hero*`
-  classes directly, unmodified -- CONTRACT.md documents them as
-  theme-owned, generic CSS (ADR 0008), not a merit-badge dependency.
+  Thin domain adapter around uni-theme's shared hero.html (uni-theme#26,
+  which now owns the .badge-hero-wrap/.badge-hero markup shape this
+  partial used to reuse directly -- CONTRACT.md still documents those
+  classes as theme-owned, generic vocabulary (ADR 0008), not a
+  merit-badge dependency).
 
-  The eyebrow pill reads "Rank X of Y" in place of mbu's category pill
-  (ranks have no category). Emblem backdrop/crisp-image are gated on
-  $emblemMeta, hardcoded false today -- no rank emblem data source
-  exists yet (#28); the gate reserves the markup path without rendering
-  a broken placeholder. The "View Guide" CTA is likewise reserved,
-  gated on the `guide` param (nil until a rank Guide page exists).
+  The eyebrow reads "Rank X of Y" in place of mbu's category pill (ranks
+  have no category). Emblem backdrop/crisp-image are omitted -- no rank
+  emblem data source exists yet (#28); once it does, pass `backdrop`/
+  `emblem` here the same way mbu's badge-hero.html does. The "View
+  Guide" CTA is reserved, gated on the `guide` param (nil until a rank
+  Guide page exists).
 
   Params (dict): rank (rank data), position (1-based rank position),
   total (rank count), lead (front-matter description string),
@@ -24,44 +25,16 @@
 {{ $requirementsURL := .requirements_url }}
 {{ $guide := .guide }}
 
-{{ $emblemMeta := false }}
+{{ $eyebrow := partial "scouts-bsa/ranks/rank-hero-eyebrow.html" (dict "position" $position "total" $total) }}
 
-<div class="badge-hero-wrap">
-  <section class="badge-hero" id="badge-hero">
-    {{ if $emblemMeta }}
-      <div class="badge-hero__backdrop" aria-hidden="true"></div>
-    {{ end }}
-    <div class="badge-hero__glow" aria-hidden="true"></div>
+{{ $ctas := slice (dict "url" $requirementsURL "label" "View Requirements" "icon" "list-checks") }}
+{{ with $guide }}
+  {{ $ctas = $ctas | append (dict "url" .RelPermalink "label" "View Guide" "icon" "book-open-text" "secondary" true) }}
+{{ end }}
 
-    <div class="badge-hero__grid">
-      <div class="badge-hero__content">
-        <div class="badge-hero__eyebrow-row">
-          <span class="badge-hero__pill">Rank {{ $position }} of {{ $total }}</span>
-        </div>
-
-        <h1 class="badge-hero__title">{{ $rank.title }}</h1>
-
-        {{ with $lead }}
-          <p class="badge-hero__lead">{{ . }}</p>
-        {{ end }}
-
-        <div class="badge-hero__ctas">
-          <a href="{{ $requirementsURL }}" class="button badge-hero__cta">
-            {{ partial "icon.html" (dict "name" "list-checks" "class" "badge-hero__cta-icon") }}
-            View Requirements
-          </a>
-          {{ with $guide }}
-            <a href="{{ .RelPermalink }}" class="button button-secondary badge-hero__cta">
-              {{ partial "icon.html" (dict "name" "book-open-text" "class" "badge-hero__cta-icon") }}
-              View Guide
-            </a>
-          {{ end }}
-        </div>
-      </div>
-
-      {{ if $emblemMeta }}
-        <div class="badge-hero__emblem-col"></div>
-      {{ end }}
-    </div>
-  </section>
-</div>
+{{ partial "hero.html" (dict
+  "eyebrow" $eyebrow
+  "title" $rank.title
+  "lead" $lead
+  "ctas" $ctas
+) }}
