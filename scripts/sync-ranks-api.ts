@@ -65,7 +65,7 @@ type RankData = {
 
 // One hand-written paragraph per rank -- see #17's resolution comment.
 const RANK_DESCRIPTIONS: Record<number, string> = {
-  1: "Scout is the rank every Scouts BSA member starts at, earned by learning the Scout Oath and Law, the Scout motto and slogan, and the basics of patrol life — from a proper salute and handshake to the buddy system and personal safety awareness. It sets the foundation everything else in the program builds on.",
+  1: "Scout is the first rank in Scouts BSA, earned by learning the Scout Oath and Law, the Scout motto and slogan, and the basics of patrol life — from a proper salute and handshake to the buddy system and personal safety awareness. It sets the foundation everything else in the program builds on.",
   2: "Tenderfoot is the first rank earned through real time in the outdoors, requiring a Scout to demonstrate physical fitness, basic camping and cooking skills, and knot-tying, while continuing to grow as an active member of a patrol and troop.",
   3: "Second Class builds directly on Tenderfoot, asking a Scout to navigate with a map and compass, plan and cook a patrol meal, and demonstrate a deeper set of outdoor and first-aid skills — the point at which a Scout starts operating with real independence on a campout.",
   4: "First Class has long been considered the rank that makes a ‘complete’ Scout: it rounds out core outdoor skills like cooking, camping, and swimming, and asks a Scout to put them to use leading and teaching younger Scouts in the troop.",
@@ -213,20 +213,23 @@ function buildLeaf({
   row,
   reqId,
   parentPath,
+  curatedShorts,
 }: {
   row: ApiRequirementRow;
   reqId: string;
   parentPath: string;
+  curatedShorts: Map<string, string>;
 }): Requirement {
+  const path = computePath({ parentPath, requirementId: reqId });
   return {
     req_id: reqId,
-    path: computePath({ parentPath, requirementId: reqId }),
+    path,
     text: sanitizeHtml({
       html: row.name,
       context: `requirement ${row.listNumber}`,
     }),
     list_number: row.listNumber,
-    short: row.short.trim(),
+    short: curatedShorts.get(path) ?? row.short.trim(),
     months_since_last_rank_required: row.monthsSinceLastRankRequired,
     eagle_mb_required: row.eagleMBRequired,
     total_mb_required: row.totalMBRequired,
@@ -236,8 +239,10 @@ function buildLeaf({
 
 function buildRequirementTree({
   requirementRows,
+  curatedShorts,
 }: {
   requirementRows: ApiRequirementRow[];
+  curatedShorts: Map<string, string>;
 }): Requirement[] {
   const rowsByStem = new Map<
     string,
@@ -269,7 +274,12 @@ function buildRequirementTree({
       if (bareRow === undefined) {
         throw new Error(`Stem "${stem}" has no rows at all`);
       }
-      return buildLeaf({ row: bareRow, reqId: stem, parentPath: "" });
+      return buildLeaf({
+        row: bareRow,
+        reqId: stem,
+        parentPath: "",
+        curatedShorts,
+      });
     }
 
     const sortedLetterRows = [...letterRows].sort((a, b) =>
@@ -284,13 +294,13 @@ function buildRequirementTree({
           ? sanitizeHtml({ html: bareRow.name, context: `requirement ${stem}` })
           : "",
       list_number: bareRow?.listNumber ?? "",
-      short: bareRow?.short.trim() ?? "",
+      short: curatedShorts.get(stem) ?? bareRow?.short.trim() ?? "",
       months_since_last_rank_required: bareRow?.monthsSinceLastRankRequired ?? "",
       eagle_mb_required: bareRow?.eagleMBRequired ?? "",
       total_mb_required: bareRow?.totalMBRequired ?? "",
       service_hours_required: bareRow?.serviceHoursRequired ?? "",
       children: sortedLetterRows.map(({ letter, row }) =>
-        buildLeaf({ row, reqId: letter, parentPath: stem }),
+        buildLeaf({ row, reqId: letter, parentPath: stem, curatedShorts }),
       ),
     };
   });
@@ -369,6 +379,38 @@ function getRankDataPath({ slug }: { slug: string }): string {
   return `hugo/data/ranks/scouts-bsa/${slug}.json`;
 }
 
+/**
+ * Short Labels are curated, not authoritative API data: the API leaves many
+ * group stems blank and its own `short` values are inconsistent across ranks.
+ * Anything already written in the rank file wins; the API value only seeds
+ * requirements that are new since the last sync. See ADR 0009.
+ */
+async function loadCuratedShorts({
+  slug,
+}: {
+  slug: string;
+}): Promise<Map<string, string>> {
+  const curated = new Map<string, string>();
+  const file = Bun.file(getRankDataPath({ slug }));
+  if (!(await file.exists())) {
+    return curated;
+  }
+
+  const existing = (await file.json()) as RankData;
+  const collect = (requirements: Requirement[]): void => {
+    for (const requirement of requirements) {
+      if (requirement.short !== "") {
+        curated.set(requirement.path, requirement.short);
+      }
+      if (requirement.children !== undefined) {
+        collect(requirement.children);
+      }
+    }
+  };
+  collect(existing.requirements);
+  return curated;
+}
+
 function getContentBundlePath({ slug }: { slug: string }): string {
   return `hugo/content/scouts-bsa/ranks/${slug}/_index.md`;
 }
@@ -408,7 +450,12 @@ async function main(): Promise<void> {
       );
     }
 
-    const tree = buildRequirementTree({ requirementRows: requirements });
+    const slug = slugify({ text: rank.short });
+    const curatedShorts = await loadCuratedShorts({ slug });
+    const tree = buildRequirementTree({
+      requirementRows: requirements,
+      curatedShorts,
+    });
 
     const sourcedCount = countSourcedNodes({ requirements: tree });
     if (sourcedCount !== requirements.length) {
@@ -419,7 +466,6 @@ async function main(): Promise<void> {
     totalRows += requirements.length;
     collectProseGroupPaths({ requirements: tree, output: proseGroupPaths });
 
-    const slug = slugify({ text: rank.short });
     const description = RANK_DESCRIPTIONS[rank.id];
     if (description === undefined) {
       throw new Error(`No hand-written description for ${rank.name}`);
