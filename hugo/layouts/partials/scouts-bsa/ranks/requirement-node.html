@@ -8,14 +8,15 @@
   resources list. Card chrome only ever starts at depth 1 -- depth 2 is
   a plain left rail (.req-children--rail), same as mbu.
 
-  A depth-1 node's `short` always renders as .req-card__eyebrow, whether
-  or not it has children -- mbu varies eyebrow vs. title per card based
-  on what its DRG guide resolves, but ranks have no guide to make that
-  call, and mixing eyebrow-style group cards with big-title leaf cards
-  on the same page read as two different card kinds. One consistent
-  small-caps label across every depth-1 card keeps the page reading as
-  one system; a card with no `short` yet (ADR-0001 group wrapper, or a
-  leaf still missing one) just omits it -- scouting-u#18.
+  A depth-1 node's `short` always renders as .req-card__title (the big,
+  heavy serif style), whether or not it has children -- mbu varies
+  eyebrow vs. title per card based on what its DRG guide resolves, but
+  ranks have no guide to make that call. Unlike mbu, every depth-1 card
+  here gets the same treatment, so there's no eyebrow-vs-title mix to
+  worry about; one consistent style across every depth-1 card keeps the
+  page reading as one system. A card with no `short` yet (ADR-0001
+  group wrapper, or a leaf still missing one) just omits it --
+  scouting-u#18.
 
   The `id="{{ $req.path }}"` lives on the heading (h3 at depth 1, h4 at
   depth 2), not the `<li>` -- Pagefind's Route A sub-results need the id
@@ -88,7 +89,7 @@
       ><span class="req-card__node-text">{{ $req.req_id }}</span></span
     >
     <div class="req-card__panel">
-      <h3 id="{{ $req.path }}" class="req-card__eyebrow" style="view-transition-name: req-title-{{ $key }}">{{ $req.short | default (printf "Requirement %s" $req.path) }}</h3>
+      <h3 id="{{ $req.path }}" class="req-card__title" style="view-transition-name: req-title-{{ $key }}">{{ $req.short | default (printf "Requirement %s" $req.path) }}</h3>
       {{ with $req.text }}
         <div class="req-card__text" style="view-transition-name: req-text-{{ $key }}">{{ . | safeHTML }}</div>
       {{ end }}
