@@ -18,9 +18,19 @@ jobs:
       - name: Record current pin
         id: old
         run: |
-          # grabs the token after the module path, regardless of whether go.mod
-          # states it as a single-line "require" directive or inside a require(...) block
-          version=$(grep -oP 'github\.com/markgoho/uni-theme \K\S+' hugo/go.mod)
+          # Grabs the version token after the module path, whether go.mod states
+          # it as a single-line "require" directive or inside a require(...)
+          # block. The \Kv anchor matters: the module path can appear on more
+          # than one line (a `replace` directive names it too), and matching
+          # \S+ there returned "=>" as a second match, so $version became
+          # multi-line and the GITHUB_OUTPUT write below failed with
+          # "Unable to process file command 'output'". Only the require line
+          # is followed by a v-prefixed version, so require just that.
+          version=$(grep -oP 'github\.com/markgoho/uni-theme \Kv\S+' hugo/go.mod | head -1)
+          if [[ -z "$version" ]]; then
+            echo "::error::No uni-theme version found in hugo/go.mod" >&2
+            exit 1
+          fi
           # pseudo-version vX.Y.Z-timestamp-sha -> extract the sha; a plain tag is used as-is
           if [[ "$version" =~ -([0-9a-f]{12})$ ]]; then
             ref="${BASH_REMATCH[1]}"
