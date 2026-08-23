@@ -38,6 +38,12 @@ With your parent or guardian, complete the exercises...
   shortcode's own grammar/merge logic decides whether to compose the
   parent's verb onto the child's text or leave it as-is — you don't need
   to pre-merge it yourself.
+- **Not currently emitted.** `scaffold-drg.ts` no longer produces combined
+  pages (every child gets its own dedicated page — see SKILL.md's Page
+  granularity rule), so this shortcode has no live caller in scouting-u
+  right now. It still exists in uni-theme and is documented here in case
+  the combined-page case returns; don't reach for it in new hand-written
+  content.
 - `parent_text` is required and must be the parent's verbatim text,
   already resolved by the scaffold. Don't invent one if it's missing —
   that means this child shouldn't be using this shortcode.

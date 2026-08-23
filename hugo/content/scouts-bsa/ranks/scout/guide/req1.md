@@ -18,12 +18,12 @@ These six pieces are what most people picture when they picture a Scout: the wor
 
 ## What You'll Complete
 
-- **[Repeat Scout Oath and Law](/scouts-bsa/ranks/scout/guide/req1a/)**: Memorize the Oath, Law, motto, and slogan, and explain what each one means.
-- **[Explain Scout spirit](/scouts-bsa/ranks/scout/guide/req1b/)**: Describe how you have already put the Oath and Law into practice.
-- **[Demonstrate Scout sign, salute, handshake](/scouts-bsa/ranks/scout/guide/req1c/)**: Show the three physical gestures every Scout uses, and when to use each one.
-- **[Describe First Class badge](/scouts-bsa/ranks/scout/guide/req1d/)**: Explain what the badge's shape and parts represent.
-- **[Repeat Outdoor Code](/scouts-bsa/ranks/scout/guide/req1e/)**: Memorize the Outdoor Code and the Leave No Trace principles, and explain how they differ.
-- **[Recite Pledge of Allegiance](/scouts-bsa/ranks/scout/guide/req1f/)**: Recite the Pledge and explain its meaning in your own words.
+- 1a. **[Repeat Scout Oath and Law](/scouts-bsa/ranks/scout/guide/req1a/)**: Memorize the Oath, Law, motto, and slogan, and explain what each one means.
+- 1b. **[Explain Scout spirit](/scouts-bsa/ranks/scout/guide/req1b/)**: Describe how you have already put the Oath and Law into practice.
+- 1c. **[Demonstrate Scout sign, salute, handshake](/scouts-bsa/ranks/scout/guide/req1c/)**: Show the three physical gestures every Scout uses, and when to use each one.
+- 1d. **[Describe First Class badge](/scouts-bsa/ranks/scout/guide/req1d/)**: Explain what the badge's shape and parts represent.
+- 1e. **[Repeat Outdoor Code](/scouts-bsa/ranks/scout/guide/req1e/)**: Memorize the Outdoor Code and the Leave No Trace principles, and explain how they differ.
+- 1f. **[Recite Pledge of Allegiance](/scouts-bsa/ranks/scout/guide/req1f/)**: Recite the Pledge and explain its meaning in your own words.
 
 Memorize the words first — most Scouts learn them by hearing them repeated at troop meetings — then work through each page below to build the explanation that goes with them.
 

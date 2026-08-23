@@ -18,10 +18,10 @@ This requirement asks you to look up from your own progress and understand the b
 
 ## What You'll Complete
 
-- **[Describe troop leadership structure](/scouts-bsa/ranks/scout/guide/req2a/)**: Explain how youth leaders — not adults — run the day-to-day of your troop.
-- **[Describe 4 advancement steps](/scouts-bsa/ranks/scout/guide/req2b/)**: Learn the four-step cycle every rank requirement moves through.
-- **[Describe Scouts BSA ranks](/scouts-bsa/ranks/scout/guide/req2c/)**: See the seven ranks ahead of you and roughly how each one is earned.
-- **[Describe merit badges](/scouts-bsa/ranks/scout/guide/req2d/)**: Understand what merit badges are and how they differ from rank requirements.
+- 2a. **[Describe troop leadership structure](/scouts-bsa/ranks/scout/guide/req2a/)**: Explain how youth leaders — not adults — run the day-to-day of your troop.
+- 2b. **[Describe 4 advancement steps](/scouts-bsa/ranks/scout/guide/req2b/)**: Learn the four-step cycle every rank requirement moves through.
+- 2c. **[Describe Scouts BSA ranks](/scouts-bsa/ranks/scout/guide/req2c/)**: See the seven ranks ahead of you and roughly how each one is earned.
+- 2d. **[Describe merit badges](/scouts-bsa/ranks/scout/guide/req2d/)**: Understand what merit badges are and how they differ from rank requirements.
 
 Go to a troop meeting, watch who is actually giving instructions and running activities, and ask your patrol leader or another older Scout to walk you through anything that doesn't make sense before your conference.
 

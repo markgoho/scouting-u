@@ -30,27 +30,30 @@ files and resume from their current state (see Resume Behavior below).
 
 ## What the scaffold already decided — do not re-litigate
 
-- **Page granularity.** A top-level requirement with ≤3 children is one
-  combined page (`## Title {#anchor}` per child); ≥4 children gets an
-  overview page plus one page per child. This is already built into the
-  generated file tree — keep it unless there's a deliberate editorial
-  reason to merge further, and if you do, update `guide_nav` and every
-  `prev`/`next` link consistently.
+- **Page granularity.** Every top-level requirement with children — however
+  few — gets an overview page plus one dedicated page per child; there is no
+  combined-page threshold. A requirement with no children is a plain leaf
+  page. This is already built into the generated file tree — keep it unless
+  there's a deliberate editorial reason to merge pages, and if you do,
+  update `guide_nav` and every `prev`/`next` link consistently.
 - **Titles.** Every `title` and `guide_nav` entry is the requirement's
   curated `short` field (ADR 0011) — never invent or rewrite one. If a
   `short` reads badly as a page title, that's a signal to fix the rank
   JSON label per ADR 0011's own convention (Title Case noun phrases for
   group stems, sentence-case verb-first imperatives for leaves), not to
   write around it here.
-- **`drg/requirement` vs `drg/inherited-requirement`.** The scaffold
-  already chose which shortcode each child section uses, and already
-  resolved `parent_text` where needed. Leave that choice alone — it's
-  driven by a real constraint: `drg/requirement` is the only shortcode
-  that writes `Page.Store.leadRequirement` (the `.req-rail` sticky quote),
-  and only when its `number` equals the page's own `req_number`. A
-  dedicated child page (split case) is therefore always `drg/requirement`
-  even when its text reads as a bare topic; `drg/inherited-requirement` is
-  reserved for child sections on a *combined* page.
+- **Every child page uses `drg/requirement`, never `drg/inherited-requirement`.**
+  Every requirement with children now gets one dedicated page per child
+  (see Page granularity above), and a dedicated child page's lead quote
+  must always be `drg/requirement` — it's the only shortcode that writes
+  `Page.Store.leadRequirement` (the `.req-rail` sticky quote), and only
+  when its `number` equals the page's own `req_number`. This holds even
+  when a child's text reads as a bare topic inherited from its parent's
+  verb (see Inherited-action parent below) — the parent-verb merge happens
+  in that page's own prose, not via a different shortcode.
+  `drg/inherited-requirement` exists in uni-theme for combined-page child
+  sections, but this scaffold no longer produces combined pages, so it has
+  no live caller here.
 - **Footnote markers** (`<sup><a href="#fn-N">`) are already stripped from
   quoted requirement text. Don't reintroduce them in your own prose, and
   don't guess at what a footnote said — if you need one, read it from the
@@ -70,9 +73,11 @@ explicitly, not by defaulting every parent to the same shape:
 - **Inherited-action parent** — parent text carries the operative verbs;
   children are bare topic labels. Example: Tenderfoot `4.a`, "Show first
   aid for the following:", with a `list` field of injury types as
-  children. Mirror the parent's verbs in each child section's `###`
-  headings ("Show first aid for simple cuts and scrapes") instead of
-  leaving one undifferentiated block.
+  children. Since each child now has its own dedicated page, open that
+  page's body by restating the parent's verb onto the child's own topic
+  ("Show first aid for simple cuts and scrapes") instead of teaching the
+  bare topic in isolation — the overview page's intro is the place to
+  name the shared parent verb once for the whole group.
 
 A requirement's `list` field (present on some leaves, e.g. Tenderfoot
 `4.a`) is rendered by the scaffold as a plain markdown list after the

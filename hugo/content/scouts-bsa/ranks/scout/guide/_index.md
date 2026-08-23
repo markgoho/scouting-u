@@ -49,10 +49,18 @@ guide_nav:
     items:
       - title: "Patrol Method"
         url: "/scouts-bsa/ranks/scout/guide/req3/"
+      - title: "Explain patrol method and types"
+        url: "/scouts-bsa/ranks/scout/guide/req3a/"
+      - title: "Explain patrol spirit"
+        url: "/scouts-bsa/ranks/scout/guide/req3b/"
   - group_title: "Requirement 4"
     items:
       - title: "Knots and Ropework"
         url: "/scouts-bsa/ranks/scout/guide/req4/"
+      - title: "Tie 3 basic knots"
+        url: "/scouts-bsa/ranks/scout/guide/req4a/"
+      - title: "Whip and fuse rope ends"
+        url: "/scouts-bsa/ranks/scout/guide/req4b/"
   - group_title: "Requirement 5"
     items:
       - title: "Explain pocketknife safety"
@@ -61,6 +69,10 @@ guide_nav:
     items:
       - title: "Personal Protection"
         url: "/scouts-bsa/ranks/scout/guide/req6/"
+      - title: "Complete child protection exercises"
+        url: "/scouts-bsa/ranks/scout/guide/req6a/"
+      - title: "View Personal Safety Awareness videos"
+        url: "/scouts-bsa/ranks/scout/guide/req6b/"
   - group_title: "Requirement 7"
     items:
       - title: "Complete Scoutmaster conference"

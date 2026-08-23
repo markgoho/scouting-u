@@ -125,12 +125,11 @@ async function loadRankData({
 }
 
 /**
- * Page-granularity rule (a threshold, not a blanket rule): a top-level
- * requirement with <=3 children gets ONE combined page with a `##` section
- * per child; >=4 children gets an overview page plus one dedicated page per
- * child. A requirement with no children is a plain leaf page. Group widths
- * vary a lot across ranks (second-class req 2 has 7 children, first-class
- * req 6 has 6), so this is computed from the data, not assumed.
+ * Page-granularity rule: a top-level requirement with no children is a
+ * plain leaf page. Any requirement with children -- however few -- gets an
+ * overview page plus one dedicated page per child; there is no combined-page
+ * threshold. Group widths vary a lot across ranks (second-class req 2 has 7
+ * children, first-class req 6 has 6), but the split is now unconditional.
  */
 function buildRequirementPages({ rank }: { rank: RankData }): GuidePage[] {
   const pages: GuidePage[] = [];
@@ -140,11 +139,6 @@ function buildRequirementPages({ rank }: { rank: RankData }): GuidePage[] {
 
     if (children.length === 0) {
       pages.push(buildLeafPage({ requirement }));
-      continue;
-    }
-
-    if (children.length <= 3) {
-      pages.push(buildCombinedPage({ requirement, children }));
       continue;
     }
 
@@ -184,70 +178,6 @@ function buildLeafPage({
   };
 }
 
-function buildCombinedPage({
-  requirement,
-  children,
-}: {
-  requirement: RankRequirement;
-  children: RankRequirement[];
-}): GuidePage {
-  const reqNumber = compactPath({ path: requirement.path });
-  const childSections = children.map(child =>
-    buildCombinedChildSection({ parent: requirement, child }),
-  );
-
-  return {
-    kind: "requirement",
-    fileName: `req${reqNumber}.md`,
-    pageSlug: `req${reqNumber}`,
-    title: requirementTitle({ requirement }),
-    groupTitle: `Requirement ${requirement.req_id}`,
-    reqNumber,
-    body: [
-      buildRequirementShortcodeBlock({
-        number: reqNumber,
-        text: stripFootnoteMarkers({ text: requirement.text }),
-      }),
-      "",
-      "[PLACEHOLDER: Add a brief intro that explains how these child requirements fit together and what the Scout should focus on first.]",
-      ...childSections,
-      "[PLACEHOLDER: Add any helpful examples, steps, comparisons, preparation advice, or context that ties these child requirements together.]",
-    ].join("\n\n"),
-  };
-}
-
-function buildCombinedChildSection({
-  parent,
-  child,
-}: {
-  parent: RankRequirement;
-  child: RankRequirement;
-}): string {
-  const childNumber = compactPath({ path: child.path });
-  const headingTitle = child.short || `Requirement ${childNumber}`;
-  const childText = stripFootnoteMarkers({ text: child.text });
-  const shortcodeBlock = shouldUseInheritedRequirementDisplay({
-    text: childText,
-  })
-    ? buildInheritedRequirementShortcodeBlock({
-        number: childNumber,
-        topic: childText,
-        parentText: stripFootnoteMarkers({ text: parent.text }),
-      })
-    : buildRequirementShortcodeBlock({ number: childNumber, text: childText });
-
-  return [
-    `## ${headingTitle} {#${childNumber}}`,
-    "",
-    shortcodeBlock,
-    renderRequirementList({ requirement: child }),
-    "",
-    "[PLACEHOLDER: Write the instructional body for this child requirement.]",
-  ]
-    .filter(line => line !== "")
-    .join("\n\n");
-}
-
 function buildOverviewPage({
   requirement,
   children,
@@ -263,7 +193,9 @@ function buildOverviewPage({
         pageSlug: `req${compactPath({ path: child.path })}`,
       });
       const title = child.short || `Requirement ${compactPath({ path: child.path })}`;
-      return `- **[${title}](${url})**: [PLACEHOLDER: Summarize what the Scout will do and gain on this page.]`;
+      const rawLabel = child.list_number || compactPath({ path: child.path });
+      const label = rawLabel.endsWith(".") ? rawLabel : `${rawLabel}.`;
+      return `- ${label} **[${title}](${url})**: [PLACEHOLDER: Summarize what the Scout will do and gain on this page.]`;
     })
     .join("\n");
   const firstChildPageSlug = `req${compactPath({ path: children[0]!.path })}`;
@@ -367,40 +299,6 @@ function stripFootnoteMarkers({ text }: { text: string }): string {
   return text.replace(/<sup>\s*<a href="#fn-\d+">\d+<\/a>\s*<\/sup>/g, "");
 }
 
-/**
- * Mirrors mbu's scaffold-drg.ts heuristic (same verb/lead-in checks), kept
- * as a separate decision from uni-theme's inherited-requirement.html's own
- * (more thorough) internal merge logic: this only decides WHICH shortcode
- * the scaffold emits for a child section on a combined page; the shortcode
- * decides HOW to merge at render time regardless.
- */
-function shouldUseInheritedRequirementDisplay({
-  text,
-}: {
-  text: string;
-}): boolean {
-  const trimmedText = text.trim();
-
-  if (trimmedText === "") {
-    return false;
-  }
-
-  const startsWithOwnAction =
-    /^(?:explain|describe|identify|name|list|tell|discuss|show|demonstrate|construct|prepare|research|record|compare|create|define|use|conduct|revisit|complete|visit|interview|pick)\b/i.test(
-      trimmedText,
-    );
-  if (startsWithOwnAction) {
-    return false;
-  }
-
-  const startsWithLeadIn = /^(?:with|after|before|using|by)\b/i.test(trimmedText);
-  if (startsWithLeadIn) {
-    return false;
-  }
-
-  return true;
-}
-
 function buildRequirementShortcodeBlock({
   number,
   text,
@@ -412,22 +310,6 @@ function buildRequirementShortcodeBlock({
     `{{< drg/requirement number="${number}" text_format="html" >}}`,
     text,
     "{{< /drg/requirement >}}",
-  ].join("\n");
-}
-
-function buildInheritedRequirementShortcodeBlock({
-  number,
-  topic,
-  parentText,
-}: {
-  number: string;
-  topic: string;
-  parentText: string;
-}): string {
-  return [
-    `{{< drg/inherited-requirement number="${number}" parent_text="${escapeAttribute({ value: parentText })}" text_format="html" >}}`,
-    topic,
-    "{{< /drg/inherited-requirement >}}",
   ].join("\n");
 }
 
