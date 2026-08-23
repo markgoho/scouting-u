@@ -19,6 +19,7 @@ disableKinds = ['taxonomy', 'term']
   siteTitleShort = 'Scouting U'
   tagline = 'Your guide to Scouts BSA rank requirements.'
   hideReqChildTitles = true
+  guideLabel = 'Digital Requirements Guide'
 
   [params.theme.cta]
     label = 'Browse Ranks'

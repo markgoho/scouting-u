@@ -43,16 +43,20 @@
   unchanged when present -- it's already the node-dict shape req-text.html
   expects, nothing to translate.
 
-  `guide_href` is unset until the Digital Requirements Guide lands --
-  the theme omits `data-guide` entirely when empty, so the dock's guide
-  button hides itself rather than rendering a dead link.
+  `guide_href` resolves via req-guide-lookup.html once a rank's Digital
+  Requirements Guide exists; "" (the theme's no-guide state) otherwise,
+  which keeps `data-guide` unset so the dock's guide button hides itself
+  rather than rendering a dead link.
 
-  Params (dict): req, depth (1 for top-level), rank_title
+  Params (dict): req, depth (1 for top-level), rank_title, guide (the
+  guide section Page, or "" if this rank has no guide yet)
   Returns: node dict for uni-theme's req-card.html
 */}}
 {{ $req := .req }}
 {{ $depth := .depth | default 1 }}
 {{ $rankTitle := .rank_title }}
+{{ $guide := .guide }}
+{{ $guideHref := partial "scouts-bsa/ranks/req-guide-lookup.html" (dict "guide" $guide "path" $req.path) }}
 
 {{ $marker := $req.req_id }}
 {{ if gt $depth 1 }}
@@ -62,7 +66,7 @@
 
 {{ $children := slice }}
 {{ range $req.children }}
-  {{ $children = $children | append (partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" (add $depth 1) "rank_title" $rankTitle)) }}
+  {{ $children = $children | append (partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" (add $depth 1) "rank_title" $rankTitle "guide" $guide)) }}
 {{ end }}
 
 {{ return (dict
@@ -75,4 +79,5 @@
   "children" $children
   "transition_num" true
   "text_format" "html"
+  "guide_href" $guideHref
 ) }}

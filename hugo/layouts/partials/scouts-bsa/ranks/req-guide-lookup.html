@@ -1,0 +1,53 @@
+{{/* scouts-bsa/ranks/req-guide-lookup.html
+
+  Resolves the Digital Requirements Guide URL (if any) for one requirement
+  node, by `path`. Simpler than mbu's merit-badges/req-guide-lookup.html:
+  rank req_id is always a digit or single letter (ADR 0001), never a
+  multi-char named-option slug, so there is no hyphenated-slug case to try
+  and no "title travels upward" bookkeeping -- the dock only ever needs a
+  URL, never a borrowed title.
+
+  Resolution, first hit wins:
+  1. An exact guide page named `req<path with dots removed>` -- covers a
+  top-level requirement's own page, and any child that got its own
+  dedicated page (a split, >=4-child group -- see scaffold-drg.ts).
+  2. A guide page whose own `req_number` front matter is a prefix of this
+  path on a clean boundary (the next character isn't a digit) -- covers a
+  child folded into its parent's combined page (a <=3-child group), whose
+  content carries an explicit `{#<dotsRemoved>}` heading anchor for the
+  child. The result links to that anchor.
+
+  Params (dict):
+  guide - the guide section Page, or "" if this rank has no DRG guide yet
+  path  - the requirement's dotted path, e.g. "6" or "6.a"
+
+  Returns: the guide URL (with a "#<id>" fragment for case 2), or "" if
+  no guide exists yet or nothing resolves.
+*/}}
+{{ $guide := .guide }}
+{{ $path := .path }}
+
+{{ $href := "" }}
+
+{{ if $guide }}
+  {{ $dotsRemoved := replace $path "." "" }}
+  {{ $found := $guide.GetPage (printf "req%s" $dotsRemoved) }}
+
+  {{ if $found }}
+    {{ $href = $found.RelPermalink }}
+  {{ else }}
+    {{ range $guide.RegularPages }}
+      {{ if not $href }}
+        {{ $reqNumber := .Params.req_number | default "" }}
+        {{ if and $reqNumber (strings.HasPrefix $dotsRemoved $reqNumber) }}
+          {{ $boundary := substr $dotsRemoved (len $reqNumber) 1 }}
+          {{ if not (findRE "[0-9]" $boundary) }}
+            {{ $href = printf "%s#%s" .RelPermalink $dotsRemoved }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $href }}

@@ -55,7 +55,7 @@
 
         <ol class="req-timeline">
           {{ range $rank.requirements }}
-            {{ $node := partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1 "rank_title" $rank.title) }}
+            {{ $node := partial "scouts-bsa/ranks/requirement-node.html" (dict "req" . "depth" 1 "rank_title" $rank.title "guide" $guide) }}
             {{ partial "req-card.html" (dict "node" $node) }}
           {{ end }}
         </ol>
