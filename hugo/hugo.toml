@@ -11,6 +11,9 @@ disableKinds = ['taxonomy', 'term']
   [[module.imports]]
     path = "github.com/markgoho/uni-theme"
 
+[params.analytics]
+  pirsch_code = '3ghEJ8dNoUUjtbQI3smz4RUa5LeYQyfY'
+
 [params.theme]
   siteTitle = 'Scouting University'
   siteTitleShort = 'Scouting U'
