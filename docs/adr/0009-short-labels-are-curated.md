@@ -1,6 +1,8 @@
 # Short Labels are curated, not synced
 
-**Status**: accepted
+**Status**: superseded by [ADR 0011](0011-short-labels-are-always-curated-headings-render-hidden.md)
+for the blanking rule below; the curation convention (Title Case group stems,
+verb-first imperative leaves, digits for counts, same-meaning-same-label) still holds.
 
 Rank Requirement text is immutable — it is Scouting America's wording and the
 sync script copies it verbatim. Short Labels are not. The API's `short` field
