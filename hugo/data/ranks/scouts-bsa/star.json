@@ -8,7 +8,21 @@
   "version_id": "40",
   "version_effective_date": "2016-01-01",
   "header": "",
-  "footer": "<br><br><strong>NOTES:</strong> For Venturers working on Scouts BSA requirements, replace \"troop\" with \"crew\" and \"Scoutmaster\" with \"Crew Advisor.\" For Sea Scouts working on Scouts BSA requirements, replace \"troop\" with \"ship\" and \"Scoutmaster\" with \"Skipper.\" <br><br> <sup>6</sup> Assistant patrol leader is not an approved position of responsibility for the Star, Life, or Eagle rank.<br> <br> <sup>7</sup> If your family does not have internet access at home AND you do not have ready internet access at school or another public place or via a mobile device, the Cyber Chip portion of this requirement may be waived by your Scoutmaster in consultation with your parent or guardian.<br><br> <sup>8</sup> If the board of review does not approve the Scout's advancement, the decision may be appealed in accordance with Guide to Advancement topic 8.0.4.0.",
+  "footer": "<br><br><strong>NOTES:</strong> For Venturers working on Scouts BSA requirements, replace \"troop\" with \"crew\" and \"Scoutmaster\" with \"Crew Advisor.\" For Sea Scouts working on Scouts BSA requirements, replace \"troop\" with \"ship\" and \"Scoutmaster\" with \"Skipper.\" <br><br>",
+  "footnotes": [
+    {
+      "marker": "6",
+      "text": "Assistant patrol leader is not an approved position of responsibility for the Star, Life, or Eagle rank."
+    },
+    {
+      "marker": "7",
+      "text": "If your family does not have internet access at home AND you do not have ready internet access at school or another public place or via a mobile device, the Cyber Chip portion of this requirement may be waived by your Scoutmaster in consultation with your parent or guardian."
+    },
+    {
+      "marker": "8",
+      "text": "If the board of review does not approve the Scout's advancement, the decision may be appealed in accordance with Guide to Advancement topic 8.0.4.0."
+    }
+  ],
   "requirements": [
     {
       "req_id": "1",
@@ -57,7 +71,7 @@
     {
       "req_id": "5",
       "path": "5",
-      "text": "While a First Class Scout, serve actively in your troop for four months in one or more of the following positions of responsibility (or carry out a Scoutmaster-approved leadership project to help the troop:<br><br> <p><strong>Scout troop.</strong> Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, bugler, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.<sup>6</sup></p> <p><strong>Venturing crew.</strong> President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.</p> <p><strong>Sea Scout ship.</strong> Boatswain, boatswain's mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.</p> <p><strong>Lone Scout.</strong> Leadership responsibility in your school, religious organization, club, or elsewhere in your community.</p>",
+      "text": "While a First Class Scout, serve actively in your troop for four months in one or more of the following positions of responsibility (or carry out a Scoutmaster-approved leadership project to help the troop:<br><br> <p><strong>Scout troop.</strong> Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, bugler, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.<sup><a href=\"#fn-6\">6</a></sup></p> <p><strong>Venturing crew.</strong> President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.</p> <p><strong>Sea Scout ship.</strong> Boatswain, boatswain's mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.</p> <p><strong>Lone Scout.</strong> Leadership responsibility in your school, religious organization, club, or elsewhere in your community.</p>",
       "list_number": "5.",
       "short": "Serve in position of responsibility",
       "months_since_last_rank_required": "",
@@ -90,7 +104,7 @@
         {
           "req_id": "b",
           "path": "6.b",
-          "text": "With your parent or guardian's permission, view the <i><a href=\"https://www.scouting.org/training/youth-protection/scouts-bsa/\"> Personal Safety Awareness videos</a></i>.1 (See the pamphlet inserted inside the front cover.)",
+          "text": "With your parent or guardian's permission, view the <i><a href=\"https://www.scouting.org/training/youth-protection/scouts-bsa/\"> Personal Safety Awareness videos</a></i>. (See the pamphlet inserted inside the front cover.)",
           "list_number": "6b",
           "short": "View Personal Safety Awareness videos",
           "months_since_last_rank_required": "",
@@ -114,7 +128,7 @@
     {
       "req_id": "8",
       "path": "8",
-      "text": "Successfully complete your board of review for the Star rank.<sup>8</sup>",
+      "text": "Successfully complete your board of review for the Star rank.<sup><a href=\"#fn-8\">8</a></sup>",
       "list_number": "8.",
       "short": "Complete board of review",
       "months_since_last_rank_required": "4",

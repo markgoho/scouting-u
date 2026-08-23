@@ -36,6 +36,11 @@ type ApiRequirementsResponse = {
   requirements: ApiRequirementRow[];
 };
 
+type RequirementList = {
+  type: "ul" | "ol";
+  items: string[];
+};
+
 type Requirement = {
   req_id: string;
   path: string;
@@ -46,7 +51,13 @@ type Requirement = {
   eagle_mb_required: string;
   total_mb_required: string;
   service_hours_required: string;
+  list?: RequirementList;
   children?: Requirement[];
+};
+
+type Footnote = {
+  marker: string;
+  text: string;
 };
 
 type RankData = {
@@ -60,6 +71,7 @@ type RankData = {
   version_effective_date: string;
   header: string;
   footer: string;
+  footnotes: Footnote[];
   requirements: Requirement[];
 };
 
@@ -97,6 +109,64 @@ const TENDERFOOT_6C_BROKEN =
 const TENDERFOOT_6C_FIXED =
   "curl-ups________ (Record the number done correctly in 60 seconds)</li>";
 let tenderfoot6cPatchCount = 0;
+
+// Known one-off citation-marker defects: hand-patched here rather than
+// trusted, same rationale as Tenderfoot 6c above. Scoped to an exact
+// (rank, requirement path) pair so the same source string on a different
+// requirement is never touched by accident.
+type KnownMarkerPatch = {
+  rankSlug: string;
+  path: string;
+  broken: string;
+  fixed: string;
+};
+
+// Life 3 ends in a bare "*" with no corresponding footer note anywhere --
+// leftover from an older, uncorrected printing of the requirement (the
+// sentence's own "17 merit badges" is itself stale; Eagle's current
+// requirement 3 lists 13, and Star's identical cross-reference sentence
+// carries no asterisk at all). Nothing to link to, so it's stripped.
+const LIFE_3_ORPHAN_MARKER: KnownMarkerPatch = {
+  rankSlug: "life",
+  path: "3",
+  broken: "for this list.*",
+  fixed: "for this list.",
+};
+
+// Scout and Star both cite the internet-access waiver as a bare digit
+// ("...videos</i>.1 (See...") instead of <sup>1</sup>. Scout's footer
+// defines note 1 with the matching text, so that one links cleanly below.
+// Star's footer has no note "1" -- only 6, 7, 8 -- so there's nothing to
+// link to; stripped instead.
+const STAR_6B_ORPHAN_MARKER: KnownMarkerPatch = {
+  rankSlug: "star",
+  path: "6.b",
+  broken: "videos</a></i>.1 (See",
+  fixed: "videos</a></i>. (See",
+};
+const SCOUT_6B_BARE_MARKER: KnownMarkerPatch = {
+  rankSlug: "scout",
+  path: "6.b",
+  broken: "videos</a></i>.1 (See",
+  fixed: 'videos</a></i>.<sup><a href="#fn-1">1</a></sup> (See',
+};
+const KNOWN_MARKER_PATCHES: KnownMarkerPatch[] = [
+  LIFE_3_ORPHAN_MARKER,
+  STAR_6B_ORPHAN_MARKER,
+  SCOUT_6B_BARE_MARKER,
+];
+const appliedMarkerPatchCounts = new Map<string, number>();
+
+// Footer notes with no citation anywhere in the requirement body -- kept in
+// `footnotes` (the content is real) but excluded from the "every footnote
+// must be cited" check below.
+const KNOWN_UNCITED_FOOTNOTES: { rankSlug: string; marker: string }[] = [
+  // "Cyber Chip" note; Star has no Cyber Chip requirement, and the related
+  // requirement (6b, Personal Safety Awareness videos) cites nothing here.
+  { rankSlug: "star", marker: "7" },
+  // Duplicated verbatim as requirement 8's own self-contained "*" footnote.
+  { rankSlug: "life", marker: "10" },
+];
 
 function computePath({
   parentPath,
@@ -197,6 +267,162 @@ function sanitizeHtml({
   return collapseWhitespace({ text: sanitized });
 }
 
+function applyKnownMarkerPatch({
+  rankSlug,
+  path,
+  text,
+  patch,
+}: {
+  rankSlug: string;
+  path: string;
+  text: string;
+  patch: KnownMarkerPatch;
+}): string {
+  if (rankSlug !== patch.rankSlug || path !== patch.path) {
+    return text;
+  }
+  if (!text.includes(patch.broken)) {
+    throw new Error(
+      `Expected known-marker text "${patch.broken}" not found in ${rankSlug} ${path}`,
+    );
+  }
+  const key = `${patch.rankSlug}:${patch.path}`;
+  appliedMarkerPatchCounts.set(key, (appliedMarkerPatchCounts.get(key) ?? 0) + 1);
+  return text.replace(patch.broken, patch.fixed);
+}
+
+// Rewrites a citation marker like <sup>4</sup> or the compound <sup>4,
+// 5</sup> into linked <a href="#fn-N"> citations, one per digit, so it
+// resolves to req-footnotes.html's id="fn-N" targets. Throws on any digit
+// with no matching footer definition -- a real, previously-unseen orphan
+// should fail the sync, not render as a dead link.
+function linkFootnoteCitations({
+  text,
+  footnoteMarkers,
+  context,
+}: {
+  text: string;
+  footnoteMarkers: Set<string>;
+  context: string;
+}): string {
+  return text.replaceAll(/<sup>([\d,\s]+)<\/sup>/g, (_whole, rawList: string) => {
+    const digits = rawList.split(",").map(digit => digit.trim());
+    const links = digits.map(digit => {
+      if (!footnoteMarkers.has(digit)) {
+        throw new Error(
+          `${context}: citation marker "${digit}" has no matching footnote definition`,
+        );
+      }
+      return `<a href="#fn-${digit}">${digit}</a>`;
+    });
+    return `<sup>${links.join(", ")}</sup>`;
+  });
+}
+
+// Splits a rank's sanitized footer blob into its non-footnote intro prose
+// and the numbered footnote definitions that follow. Footers always
+// introduce a definition with a bare <sup>N</sup> (never compound); text
+// before the first one is the intro, and each subsequent chunk up to the
+// next marker (or end of string) is that note's definition.
+function parseFooter({
+  html,
+  context,
+}: {
+  html: string;
+  context: string;
+}): { intro: string; footnotes: Footnote[] } {
+  const markerPattern = /<sup>(\d+)<\/sup>/g;
+  const matches = [...html.matchAll(markerPattern)];
+  if (matches.length === 0) {
+    return { intro: html, footnotes: [] };
+  }
+
+  const intro = collapseWhitespace({ text: html.slice(0, matches[0]!.index) });
+  assertBalancedAllowedTags({ html: intro, context: `${context} intro` });
+
+  const footnotes = matches.map((match, i) => {
+    const start = match.index! + match[0].length;
+    const end = i + 1 < matches.length ? matches[i + 1]!.index! : html.length;
+    const marker = match[1]!;
+    const text = collapseWhitespace({
+      text: html
+        .slice(start, end)
+        .replace(/^(\s*<br\s*\/?>\s*)+/i, "")
+        .replace(/(\s*<br\s*\/?>\s*)+$/i, ""),
+    });
+    assertBalancedAllowedTags({ html: text, context: `${context} note ${marker}` });
+    return { marker, text };
+  });
+
+  return { intro, footnotes };
+}
+
+// Pulls a trailing <ul>/<ol> checklist off the end of a requirement's text
+// into a structured list, so the theme can render it as a real list instead
+// of trusting raw markup passed through safeHTML. List items must be plain
+// text -- a nested tag inside an <li> means the shape has changed and needs
+// a human look, not a silent pass-through.
+function extractTrailingList({
+  text,
+}: {
+  text: string;
+}): { text: string; list?: RequirementList } {
+  const match = /^(.*?)\s*<(ul|ol)>(.*)<\/\2>$/s.exec(text);
+  if (match === null) {
+    return { text };
+  }
+
+  const [, before, tag, inner] = match;
+  const items = [...inner!.matchAll(/<li>(.*?)<\/li>/gs)].map(itemMatch => {
+    const item = collapseWhitespace({ text: itemMatch[1]! });
+    if (item.includes("<")) {
+      throw new Error(`extractTrailingList: list item contains markup: "${item}"`);
+    }
+    return item;
+  });
+
+  if (items.length === 0) {
+    return { text };
+  }
+
+  return {
+    text: collapseWhitespace({ text: before! }),
+    list: { type: tag as "ul" | "ol", items },
+  };
+}
+
+// Runs a requirement's sanitized text through the known-marker patches,
+// footnote-citation linking, and trailing-list extraction, in that order --
+// the bare-digit patches insert or remove content outside any <sup> tag, so
+// they have to run before the generic <sup> rewriter sees the text.
+function structureRequirementText({
+  text,
+  rankSlug,
+  path,
+  footnoteMarkers,
+  citedMarkers,
+  context,
+}: {
+  text: string;
+  rankSlug: string;
+  path: string;
+  footnoteMarkers: Set<string>;
+  citedMarkers: Set<string>;
+  context: string;
+}): { text: string; list?: RequirementList } {
+  let patched = text;
+  for (const patch of KNOWN_MARKER_PATCHES) {
+    patched = applyKnownMarkerPatch({ rankSlug, path, text: patched, patch });
+  }
+
+  const linked = linkFootnoteCitations({ text: patched, footnoteMarkers, context });
+  for (const match of linked.matchAll(/<a href="#fn-(\d+)">/g)) {
+    citedMarkers.add(match[1]!);
+  }
+
+  return extractTrailingList({ text: linked });
+}
+
 function parseListNumber({
   listNumber,
 }: {
@@ -214,35 +440,57 @@ function buildLeaf({
   reqId,
   parentPath,
   curatedShorts,
+  rankSlug,
+  footnoteMarkers,
+  citedMarkers,
 }: {
   row: ApiRequirementRow;
   reqId: string;
   parentPath: string;
   curatedShorts: Map<string, string>;
+  rankSlug: string;
+  footnoteMarkers: Set<string>;
+  citedMarkers: Set<string>;
 }): Requirement {
   const path = computePath({ parentPath, requirementId: reqId });
+  const sanitized = sanitizeHtml({
+    html: row.name,
+    context: `requirement ${row.listNumber}`,
+  });
+  const { text, list } = structureRequirementText({
+    text: sanitized,
+    rankSlug,
+    path,
+    footnoteMarkers,
+    citedMarkers,
+    context: `requirement ${row.listNumber}`,
+  });
   return {
     req_id: reqId,
     path,
-    text: sanitizeHtml({
-      html: row.name,
-      context: `requirement ${row.listNumber}`,
-    }),
+    text,
     list_number: row.listNumber,
     short: curatedShorts.get(path) ?? row.short.trim(),
     months_since_last_rank_required: row.monthsSinceLastRankRequired,
     eagle_mb_required: row.eagleMBRequired,
     total_mb_required: row.totalMBRequired,
     service_hours_required: row.serviceHoursRequired,
+    ...(list !== undefined ? { list } : {}),
   };
 }
 
 function buildRequirementTree({
   requirementRows,
   curatedShorts,
+  rankSlug,
+  footnoteMarkers,
+  citedMarkers,
 }: {
   requirementRows: ApiRequirementRow[];
   curatedShorts: Map<string, string>;
+  rankSlug: string;
+  footnoteMarkers: Set<string>;
+  citedMarkers: Set<string>;
 }): Requirement[] {
   const rowsByStem = new Map<
     string,
@@ -279,6 +527,9 @@ function buildRequirementTree({
         reqId: stem,
         parentPath: "",
         curatedShorts,
+        rankSlug,
+        footnoteMarkers,
+        citedMarkers,
       });
     }
 
@@ -286,21 +537,39 @@ function buildRequirementTree({
       a.letter.localeCompare(b.letter),
     );
 
+    const groupText =
+      bareRow !== undefined
+        ? structureRequirementText({
+            text: sanitizeHtml({ html: bareRow.name, context: `requirement ${stem}` }),
+            rankSlug,
+            path: stem,
+            footnoteMarkers,
+            citedMarkers,
+            context: `requirement ${stem}`,
+          })
+        : { text: "" };
+
     return {
       req_id: stem,
       path: stem,
-      text:
-        bareRow !== undefined
-          ? sanitizeHtml({ html: bareRow.name, context: `requirement ${stem}` })
-          : "",
+      text: groupText.text,
       list_number: bareRow?.listNumber ?? "",
       short: curatedShorts.get(stem) ?? bareRow?.short.trim() ?? "",
       months_since_last_rank_required: bareRow?.monthsSinceLastRankRequired ?? "",
       eagle_mb_required: bareRow?.eagleMBRequired ?? "",
       total_mb_required: bareRow?.totalMBRequired ?? "",
       service_hours_required: bareRow?.serviceHoursRequired ?? "",
+      ...(groupText.list !== undefined ? { list: groupText.list } : {}),
       children: sortedLetterRows.map(({ letter, row }) =>
-        buildLeaf({ row, reqId: letter, parentPath: stem, curatedShorts }),
+        buildLeaf({
+          row,
+          reqId: letter,
+          parentPath: stem,
+          curatedShorts,
+          rankSlug,
+          footnoteMarkers,
+          citedMarkers,
+        }),
       ),
     };
   });
@@ -455,9 +724,24 @@ async function main(): Promise<void> {
 
     const slug = slugify({ text: rank.short });
     const curatedShorts = await loadCuratedShorts({ slug });
+
+    const sanitizedFooter = sanitizeHtml({
+      html: rankInformation.footer,
+      context: `${rank.name} footer`,
+    });
+    const { intro: footerIntro, footnotes } = parseFooter({
+      html: sanitizedFooter,
+      context: `${rank.name} footer`,
+    });
+    const footnoteMarkers = new Set(footnotes.map(footnote => footnote.marker));
+    const citedMarkers = new Set<string>();
+
     const tree = buildRequirementTree({
       requirementRows: requirements,
       curatedShorts,
+      rankSlug: slug,
+      footnoteMarkers,
+      citedMarkers,
     });
 
     const sourcedCount = countSourcedNodes({ requirements: tree });
@@ -468,6 +752,20 @@ async function main(): Promise<void> {
     }
     totalRows += requirements.length;
     collectProseGroupPaths({ requirements: tree, output: proseGroupPaths });
+
+    for (const footnote of footnotes) {
+      if (citedMarkers.has(footnote.marker)) {
+        continue;
+      }
+      const isKnownUncited = KNOWN_UNCITED_FOOTNOTES.some(
+        known => known.rankSlug === slug && known.marker === footnote.marker,
+      );
+      if (!isKnownUncited) {
+        throw new Error(
+          `${rank.name}: footnote "${footnote.marker}" is never cited in the requirement body -- new orphan, or a marker shape structureRequirementText doesn't catch yet`,
+        );
+      }
+    }
 
     const description = RANK_DESCRIPTIONS[rank.id];
     if (description === undefined) {
@@ -487,10 +785,8 @@ async function main(): Promise<void> {
         html: rankInformation.header,
         context: `${rank.name} header`,
       }),
-      footer: sanitizeHtml({
-        html: rankInformation.footer,
-        context: `${rank.name} footer`,
-      }),
+      footer: footerIntro,
+      footnotes,
       requirements: tree,
     };
 
@@ -518,6 +814,12 @@ async function main(): Promise<void> {
   console.log(
     `Tenderfoot 6c patch applications: ${tenderfoot6cPatchCount} (expect 1)`,
   );
+  for (const patch of KNOWN_MARKER_PATCHES) {
+    const key = `${patch.rankSlug}:${patch.path}`;
+    console.log(
+      `${patch.rankSlug} ${patch.path} marker patch applications: ${appliedMarkerPatchCounts.get(key) ?? 0} (expect 1)`,
+    );
+  }
   console.log("\nSync complete.");
 }
 

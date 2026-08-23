@@ -8,7 +8,17 @@
   "version_id": "98",
   "version_effective_date": "2022-08-01",
   "header": "",
-  "footer": "<br><br><strong>NOTES:</strong> The requirements for Scout, Tenderfoot, Second Class, and First Class ranks may be worked on simultaneously; however, these ranks must be earned in sequence. <br><br>Alternative requirements for the Second Class rank are available for Scouts with physical or mental disabilities if they meet the criteria listed in the Scouts BSA Requirements book. <br><br> <sup>2</sup> If you use a wheelchair or crutches, or if it is difficult for you to get around, you may substitute <q>trip</q> for <q>hike</q> in requirement 3b and 3c. <br><br> <sup>3</sup> Under certain exceptional conditions, where the climate keeps the outdoor water temperature below safe levels yearround, or where there are no suitably safe and accessible places (outdoors or indoors) within a reasonable traveling distance to swim at any time during the year, the council Scout executive and advancement committee may, on an individual Scout basis, authorize an alternative for requirements 5b and 5c. The local council may establish appropriate procedures for submitting and processing these types of requests. All the other requirements, none of which necessitate entry in the water or entry in a watercraft on the water, must be completed as written.",
+  "footer": "<br><br><strong>NOTES:</strong> The requirements for Scout, Tenderfoot, Second Class, and First Class ranks may be worked on simultaneously; however, these ranks must be earned in sequence. <br><br>Alternative requirements for the Second Class rank are available for Scouts with physical or mental disabilities if they meet the criteria listed in the Scouts BSA Requirements book. <br><br>",
+  "footnotes": [
+    {
+      "marker": "2",
+      "text": "If you use a wheelchair or crutches, or if it is difficult for you to get around, you may substitute <q>trip</q> for <q>hike</q> in requirement 3b and 3c."
+    },
+    {
+      "marker": "3",
+      "text": "Under certain exceptional conditions, where the climate keeps the outdoor water temperature below safe levels yearround, or where there are no suitably safe and accessible places (outdoors or indoors) within a reasonable traveling distance to swim at any time during the year, the council Scout executive and advancement committee may, on an individual Scout basis, authorize an alternative for requirements 5b and 5c. The local council may establish appropriate procedures for submitting and processing these types of requests. All the other requirements, none of which necessitate entry in the water or entry in a watercraft on the water, must be completed as written."
+    }
+  ],
   "requirements": [
     {
       "req_id": "1",
@@ -171,7 +181,7 @@
         {
           "req_id": "b",
           "path": "3.b",
-          "text": "Using a compass and map together, take a 5-mile hike (or 10 miles by bike) approved by your adult leader and your parent or guardian.<sup>2</sup>",
+          "text": "Using a compass and map together, take a 5-mile hike (or 10 miles by bike) approved by your adult leader and your parent or guardian.<sup><a href=\"#fn-2\">2</a></sup>",
           "list_number": "3b.",
           "short": "Hike 5 miles",
           "months_since_last_rank_required": "",
@@ -182,7 +192,7 @@
         {
           "req_id": "c",
           "path": "3.c",
-          "text": "Describe some hazards or injuries that you might encounter on your hike and what you can do to help prevent them.<sup>2</sup>",
+          "text": "Describe some hazards or injuries that you might encounter on your hike and what you can do to help prevent them.<sup><a href=\"#fn-2\">2</a></sup>",
           "list_number": "3c.",
           "short": "Describe hike hazards",
           "months_since_last_rank_required": "",
@@ -239,7 +249,7 @@
         {
           "req_id": "b",
           "path": "5.b",
-          "text": "Demonstrate your ability to pass the BSA beginner test: Jump feet first into water over your head in depth, level off and swim 25 feet on the surface, stop, turn sharply, resume swimming, then return to your starting place.<sup>3</sup>",
+          "text": "Demonstrate your ability to pass the BSA beginner test: Jump feet first into water over your head in depth, level off and swim 25 feet on the surface, stop, turn sharply, resume swimming, then return to your starting place.<sup><a href=\"#fn-3\">3</a></sup>",
           "list_number": "5b.",
           "short": "Pass BSA beginner test",
           "months_since_last_rank_required": "",
@@ -250,7 +260,7 @@
         {
           "req_id": "c",
           "path": "5.c",
-          "text": "Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects.<sup>3</sup>",
+          "text": "Demonstrate water rescue methods by reaching with your arm or leg, by reaching with a suitable object, and by throwing lines and objects.<sup><a href=\"#fn-3\">3</a></sup>",
           "list_number": "5c.",
           "short": "Demonstrate reaching rescues",
           "months_since_last_rank_required": "",
@@ -285,13 +295,25 @@
         {
           "req_id": "a",
           "path": "6.a",
-          "text": "Demonstrate first aid for the following: <ul> <li>Object in the eye</li> <li>Bite of a suspected rabid animal</li> <li>Puncture wounds from a splinter, nail, and fishhook</li> <li>Serious burns (partial thickness, or second-degree)</li> <li>Heat exhaustion</li> <li>Shock</li> <li>Heatstroke, dehydration, hypothermia, and hyperventilation</li> </ul>",
+          "text": "Demonstrate first aid for the following:",
           "list_number": "6a.",
           "short": "Demonstrate first aid",
           "months_since_last_rank_required": "",
           "eagle_mb_required": "",
           "total_mb_required": "",
-          "service_hours_required": ""
+          "service_hours_required": "",
+          "list": {
+            "type": "ul",
+            "items": [
+              "Object in the eye",
+              "Bite of a suspected rabid animal",
+              "Puncture wounds from a splinter, nail, and fishhook",
+              "Serious burns (partial thickness, or second-degree)",
+              "Heat exhaustion",
+              "Shock",
+              "Heatstroke, dehydration, hypothermia, and hyperventilation"
+            ]
+          }
         },
         {
           "req_id": "b",

@@ -64,6 +64,12 @@
       {{ with $rank.footer }}
         <div class="rank-requirements__footer">{{ . | safeHTML }}</div>
       {{ end }}
+
+      {{ $footnotes := slice }}
+      {{ range $rank.footnotes }}
+        {{ $footnotes = $footnotes | append (dict "marker" .marker "text" .text "text_format" "html") }}
+      {{ end }}
+      {{ partial "req-footnotes.html" (dict "footnotes" $footnotes) }}
     </div>
   </div>
 

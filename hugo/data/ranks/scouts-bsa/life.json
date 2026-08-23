@@ -8,7 +8,17 @@
   "version_id": "41",
   "version_effective_date": "2016-01-01",
   "header": "",
-  "footer": "<br><br><strong>NOTES:</strong> For Venturers working on Scouts BSA requirements, replace \"troop\" with \"crew\" and \"Scoutmaster\" with \"crew Advisor.\" For Sea Scouts working on Scouts BSA requirements, replace \"troop\" with \"ship\" and \"Scoutmaster\" with \"Skipper.\" <br><br> <sup>9</sup> Assistant patrol leader is not an approved position of responsibility for the Star, Life, or Eagle rank. <br><br> <sup>10</sup> If the board of review does not approve the Scout's advancement, the decision may be appealed in accordance with Guide to Advancement topic 8.0.4.0.",
+  "footer": "<br><br><strong>NOTES:</strong> For Venturers working on Scouts BSA requirements, replace \"troop\" with \"crew\" and \"Scoutmaster\" with \"crew Advisor.\" For Sea Scouts working on Scouts BSA requirements, replace \"troop\" with \"ship\" and \"Scoutmaster\" with \"Skipper.\" <br><br>",
+  "footnotes": [
+    {
+      "marker": "9",
+      "text": "Assistant patrol leader is not an approved position of responsibility for the Star, Life, or Eagle rank."
+    },
+    {
+      "marker": "10",
+      "text": "If the board of review does not approve the Scout's advancement, the decision may be appealed in accordance with Guide to Advancement topic 8.0.4.0."
+    }
+  ],
   "requirements": [
     {
       "req_id": "1",
@@ -35,7 +45,7 @@
     {
       "req_id": "3",
       "path": "3",
-      "text": "Earn five more merit badges (so that you have 11 in all) including any number more from the list for Eagle so that you have a total of seven from the required list of Eagle in that total number of 11 merit badges. You may choose any of the 17 merit badges on the required list for Eagle to fulfill this requirement. See Eagle rank requirement 3 for this list.*",
+      "text": "Earn five more merit badges (so that you have 11 in all) including any number more from the list for Eagle so that you have a total of seven from the required list of Eagle in that total number of 11 merit badges. You may choose any of the 17 merit badges on the required list for Eagle to fulfill this requirement. See Eagle rank requirement 3 for this list.",
       "list_number": "3.",
       "short": "Earn 5 more merit badges",
       "months_since_last_rank_required": "",
@@ -57,7 +67,7 @@
     {
       "req_id": "5",
       "path": "5",
-      "text": "While a Star Scout, serve actively in your troop for six months in one or more of the following positions of responsibility (or carry out a Scoutmaster-approved leadership project to help the troop:<br><br> <p><strong>Scout troop.</strong> Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, bugler, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.<sup>9</sup></p> <p><strong>Venturing crew.</strong> President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.</p> <p><strong>Sea Scout ship.</strong> Boatswain, boatswain's mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.</p> <p><strong>Lone Scout.</strong> Leadership responsibility in your school, religious organization, club, or elsewhere in your community.</p>",
+      "text": "While a Star Scout, serve actively in your troop for six months in one or more of the following positions of responsibility (or carry out a Scoutmaster-approved leadership project to help the troop:<br><br> <p><strong>Scout troop.</strong> Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, Order of the Arrow troop representative, den chief, scribe, librarian, historian, quartermaster, bugler, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.<sup><a href=\"#fn-9\">9</a></sup></p> <p><strong>Venturing crew.</strong> President, vice president, secretary, treasurer, den chief, historian, guide, quartermaster, chaplain aide, or outdoor ethics guide.</p> <p><strong>Sea Scout ship.</strong> Boatswain, boatswain's mate, purser, yeoman, storekeeper, crew leader, media specialist, specialist, den chief, or chaplain aide.</p> <p><strong>Lone Scout.</strong> Leadership responsibility in your school, religious organization, club, or elsewhere in your community.</p>",
       "list_number": "5.",
       "short": "Serve in position of responsibility",
       "months_since_last_rank_required": "",
@@ -68,13 +78,26 @@
     {
       "req_id": "6",
       "path": "6",
-      "text": "While a Star Scout, use the Teaching EDGE method to teach another Scout (preferably younger than you) the skills from ONE of the following choices, so that the Scout is prepared to pass those requirements to their Scoutmaster's satisfaction. <ol> <li>Tenderfoot 4a and 4b (first aid)</li> <li>Second Class 2b, 2c, and 2d (cooking/tools)</li> <li>Second Class 3a and 3d (navigation)</li> <li>First Class 3a, 3b, 3c, and 3d (tools)</li> <li>First Class 4a and 4b (navigation)</li> <li> Second Class 6a and 6b (first aid)</li> <li>First Class - 7a and 7b (first aid)</li> <li>Three requirements from one of the required for Eagle merit badges, as approved by your Scoutmaster</li> </ol>",
+      "text": "While a Star Scout, use the Teaching EDGE method to teach another Scout (preferably younger than you) the skills from ONE of the following choices, so that the Scout is prepared to pass those requirements to their Scoutmaster's satisfaction.",
       "list_number": "6.",
       "short": "Teach a Scout using EDGE",
       "months_since_last_rank_required": "",
       "eagle_mb_required": "",
       "total_mb_required": "",
-      "service_hours_required": ""
+      "service_hours_required": "",
+      "list": {
+        "type": "ol",
+        "items": [
+          "Tenderfoot 4a and 4b (first aid)",
+          "Second Class 2b, 2c, and 2d (cooking/tools)",
+          "Second Class 3a and 3d (navigation)",
+          "First Class 3a, 3b, 3c, and 3d (tools)",
+          "First Class 4a and 4b (navigation)",
+          "Second Class 6a and 6b (first aid)",
+          "First Class - 7a and 7b (first aid)",
+          "Three requirements from one of the required for Eagle merit badges, as approved by your Scoutmaster"
+        ]
+      }
     },
     {
       "req_id": "7",

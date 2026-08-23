@@ -39,6 +39,10 @@
   the site turns on `goldmark.renderer.unsafe`, which we should not have
   to do to feed the theme our own content.
 
+  `list` passes through sync-ranks-api.ts's own {type, items} shape
+  unchanged when present -- it's already the node-dict shape req-text.html
+  expects, nothing to translate.
+
   `guide_href` is unset until the Digital Requirements Guide lands --
   the theme omits `data-guide` entirely when empty, so the dock's guide
   button hides itself rather than rendering a dead link.
@@ -67,6 +71,7 @@
   "content_name" $rankTitle
   "title" $req.short
   "text" $req.text
+  "list" $req.list
   "children" $children
   "transition_num" true
   "text_format" "html"

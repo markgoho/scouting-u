@@ -16,6 +16,7 @@
     "version_effective_date",
     "header",
     "footer",
+    "footnotes",
     "requirements"
   ],
   "properties": {
@@ -56,6 +57,12 @@
     "footer": {
       "type": "string"
     },
+    "footnotes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/footnote"
+      }
+    },
     "requirements": {
       "type": "array",
       "items": {
@@ -64,6 +71,36 @@
     }
   },
   "$defs": {
+    "footnote": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["marker", "text"],
+      "properties": {
+        "marker": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "requirementList": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "items"],
+      "properties": {
+        "type": {
+          "enum": ["ul", "ol"]
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "requirement": {
       "type": "object",
       "additionalProperties": false,
@@ -107,6 +144,9 @@
         },
         "service_hours_required": {
           "type": "string"
+        },
+        "list": {
+          "$ref": "#/$defs/requirementList"
         },
         "children": {
           "type": "array",

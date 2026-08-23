@@ -9,6 +9,7 @@
   "version_effective_date": "2022-08-01",
   "header": "",
   "footer": "<strong>NOTES:</strong> The requirements for Scout, Tenderfoot, Second Class, and First Class ranks may be worked on simultaneously; however, these ranks must be earned in sequence.<br><br> Alternative requirements for the Scout rank are available for Scouts with physical or mental disabilities if they meet the criteria listed in the Scouts BSA Requirements book.",
+  "footnotes": [],
   "requirements": [
     {
       "req_id": "1",
@@ -173,13 +174,26 @@
         {
           "req_id": "a",
           "path": "4.a",
-          "text": "Show first aid for the following: <ul> <li>Simple cuts and scrapes</li> <li>Blisters on the hand and foot</li> <li>Minor (thermal/heat) burns or scalds (superficial, or first-degree)</li> <li>Bites or stings of insects and ticks</li> <li>Venomous snakebite</li> <li>Nosebleed</li> <li>Frostbite and sunburn</li> <li>Choking</li> </ul>",
+          "text": "Show first aid for the following:",
           "list_number": "4a.",
           "short": "Show basic first aid",
           "months_since_last_rank_required": "",
           "eagle_mb_required": "",
           "total_mb_required": "",
-          "service_hours_required": ""
+          "service_hours_required": "",
+          "list": {
+            "type": "ul",
+            "items": [
+              "Simple cuts and scrapes",
+              "Blisters on the hand and foot",
+              "Minor (thermal/heat) burns or scalds (superficial, or first-degree)",
+              "Bites or stings of insects and ticks",
+              "Venomous snakebite",
+              "Nosebleed",
+              "Frostbite and sunburn",
+              "Choking"
+            ]
+          }
         },
         {
           "req_id": "b",
@@ -287,13 +301,22 @@
         {
           "req_id": "a",
           "path": "6.a",
-          "text": "Record your best in the following tests:<br> <br><strong>Current results</strong><br> <ul> <li>Push-ups ________ (Record the number done correctly in 60 seconds)</li> <li>Sit-ups or curl-ups________ (Record the number done correctly in 60 seconds)</li> <li>Back-saver sit-and-reach _________ (Record the distance stretched)</li> <li>1 mile walk/run _____________ (record the time)</li> </ul>",
+          "text": "Record your best in the following tests:<br> <br><strong>Current results</strong><br>",
           "list_number": "6a.",
           "short": "Record fitness benchmark",
           "months_since_last_rank_required": "",
           "eagle_mb_required": "",
           "total_mb_required": "",
-          "service_hours_required": ""
+          "service_hours_required": "",
+          "list": {
+            "type": "ul",
+            "items": [
+              "Push-ups ________ (Record the number done correctly in 60 seconds)",
+              "Sit-ups or curl-ups________ (Record the number done correctly in 60 seconds)",
+              "Back-saver sit-and-reach _________ (Record the distance stretched)",
+              "1 mile walk/run _____________ (record the time)"
+            ]
+          }
         },
         {
           "req_id": "b",
@@ -309,13 +332,22 @@
         {
           "req_id": "c",
           "path": "6.c",
-          "text": "Show improvement (of any degree) in each activity listed in Tenderfoot requirement 6a after practicing for 30 days. <br> <br><strong>30 days later</strong><br> <ul> <li>Push-ups ________ (Record the number done correctly in 60 seconds)</li> <li>Sit-ups or curl-ups________ (Record the number done correctly in 60 seconds)</li> <li>Back-saver sit-and-reach _________ (Record the distance stretched)</li> <li>1 mile walk/run _____________ (record the time)</li> </ul>",
+          "text": "Show improvement (of any degree) in each activity listed in Tenderfoot requirement 6a after practicing for 30 days. <br> <br><strong>30 days later</strong><br>",
           "list_number": "6c.",
           "short": "Show fitness improvement",
           "months_since_last_rank_required": "",
           "eagle_mb_required": "",
           "total_mb_required": "",
-          "service_hours_required": ""
+          "service_hours_required": "",
+          "list": {
+            "type": "ul",
+            "items": [
+              "Push-ups ________ (Record the number done correctly in 60 seconds)",
+              "Sit-ups or curl-ups________ (Record the number done correctly in 60 seconds)",
+              "Back-saver sit-and-reach _________ (Record the distance stretched)",
+              "1 mile walk/run _____________ (record the time)"
+            ]
+          }
         }
       ]
     },
