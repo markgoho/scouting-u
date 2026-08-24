@@ -1,0 +1,94 @@
+{
+  "rank": "scout",
+  "style_context": "Basic Scouting knowledge and skills for the Scout rank: gestures, badge symbolism, rope work, and pocketknife safety",
+  "images": [
+    {
+      "id": "scout-sign-hand-position",
+      "file": "req1c.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "MAYA giving the Scout sign, photographed from the waist up: right hand raised at shoulder height, palm facing the camera, thumb pinning the little finger down, the other three fingers pointing straight up together and clearly separated. She looks confident and attentive, facing slightly toward the raised hand. Tight enough framing that the finger position is unmistakable. No text, no labels, no watermark, no logos anywhere in the frame.",
+      "value": "Shows the exact finger position — three fingers up, thumb pinning the little finger — that is easy to get backward from a text description alone",
+      "width": 1376,
+      "height": 768,
+      "v": "8faaeb9c"
+    },
+    {
+      "id": "scout-salute-hand-position",
+      "file": "req1c.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "MAYA giving the Scout salute, photographed from the waist up, facing the camera with a focused, attentive expression, right arm raised so her hand is beside her right eyebrow, fingertips touching her forehead near the eyebrow — same overall arm position as the reference photo. CRITICAL: the attached reference photo shows the exact hand pose to copy at that eyebrow position — same finger angle, same hand tilt, same thumb tucked below the fingers, same silhouette where the camera sees mostly the edge/back of the hand, not the flat palm. Reproduce that hand shape exactly, unchanged, applied to Maya's arm at her eyebrow; do not reinterpret it, do not lower the hand away from her head, and do not default to a flatter palm-forward hand like a raised Scout sign. The tan Scouts BSA uniform and outdoor background follow the rest of this description. No text, no labels, no watermark, no logos anywhere in the frame.",
+      "value": "Shows the salute's military-style posture combined with the Scout sign's distinct hand shape, a combination that's easy to picture wrong from text alone",
+      "width": 1376,
+      "height": 768,
+      "v": "4921cf01"
+    },
+    {
+      "id": "scout-handshake-grip",
+      "file": "req1c.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "MAYA and ETHAN greeting each other, photographed from the waist up, both wearing the tan/khaki Scouts BSA field uniform shirt with olive green shoulder loops, standing in profile facing each other with friendly expressions. Grip detail, get this exactly right: an ORDINARY, EVERYDAY handshake grip — each hand is fully open, palm flat against the other person's palm, fingers curling around and wrapping the back of the other person's hand, thumbs resting on top. This is a simple up-and-down handshake motion. It is explicitly NOT an arm-wrestle grip, NOT interlocked or interwoven fingers, NOT a thumb-clasp, NOT a fist bump, NOT a \"dap\". This image will be mirrored horizontally after generation, so render it as a completely ordinary right-handed handshake — do not attempt a left-handed grip here. IMPORTANT: no readable text of any kind on the uniform pockets or chest — no name tape, no unit lettering, no wordmark. A plain rank patch (small graphic emblem, no legible words) on the pocket is fine. No text, no labels, no watermark, no logos anywhere in the frame.",
+      "value": "Makes the unusual left-hand detail immediately visible, which is easy to default to the ordinary right-hand grip if only described in words",
+      "width": 1376,
+      "height": 768,
+      "v": "1b8a5c23"
+    },
+    {
+      "id": "first-class-badge-parts",
+      "file": "req1d.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "A clean labeled diagram closely matching the shape, layout, and colors of the reference image provided: the trefoil outline, the eagle-and-shield at center, the scroll wrapping below it reading \"BE PREPARED\", the knot at the bottom of the scroll, and the two stars above the shield. Exactly five leader-line labels, one per part, no more: \"Trefoil\", \"Eagle and Shield\", \"Scroll\", \"Knot\", \"Stars\". Do not label the oval background or add any other labels. Redraw as a flat vector-style diagram, not an embroidered patch texture.",
+      "value": "Lets the reader match each symbol's name to its exact location on the real badge shape and colors, which a prose list alone cannot pin down",
+      "width": 1376,
+      "height": 768,
+      "v": "a87250b1"
+    },
+    {
+      "id": "whip-fuse-rope-ends",
+      "file": "req4b.md",
+      "style": "illustrated",
+      "verb_family": "show",
+      "description": "A technical illustration in two side-by-side panels on a plain background: the left panel labeled \"Whipping\" shows a natural-fiber rope end wrapped tightly with thread; the right panel labeled \"Fusing\" shows a synthetic rope end with a smooth, rounded melted cap. No people, just the two rope ends.",
+      "value": "Shows what a correctly whipped end and a correctly fused end actually look like when finished, so the Scout knows what result to aim for with each material",
+      "width": 1376,
+      "height": 768,
+      "v": "5282fff7"
+    },
+    {
+      "id": "pocketknife-cutting-technique",
+      "file": "req5.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "JAMES, photographed from a slight side angle, seated on a log and whittling a long stick with a pocketknife, wearing the tan/khaki Scouts BSA field uniform with olive green shoulder loops. His cutting hand and the blade are captured mid-stroke moving outward and away from his own torso — the blade tip points away from his body, not toward it. CRITICAL SAFETY DISTANCE: his other hand grips the stick much farther out, at least a full hand's width (several inches) from the blade — there must be an obvious, clearly visible gap of open air between his fingers and the blade at all times, never close to or touching the cutting point. His focused, curious expression is on the wood, not the camera. No text, no labels, no watermark, no logos anywhere in the frame.",
+      "value": "Shows the seated posture, outward cutting motion, and the free hand's safe distance from the blade together in one realistic scene, which text alone leaves the reader to reconstruct",
+      "width": 1376,
+      "height": 768,
+      "v": "f7dcdc0e"
+    },
+    {
+      "id": "pocketknife-passing-handle-first",
+      "file": "req5.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "JAMES handing a pocketknife to KAI, photographed from the waist up, both wearing the tan/khaki Scouts BSA field uniform with olive green shoulder loops. The pocketknife is completely FOLDED SHUT — no blade, no metal, no sharp edge visible anywhere, just a small closed handle, exactly like a folded multi-tool. James holds the blade-end of the closed handle between his fingers and offers the other end — the handle end — toward Kai, who is reaching out to take it by that handle end. Both look down at the knife changing hands. No text, no labels, no watermark, no logos anywhere in the frame.",
+      "value": "Shows the handle-toward-the-receiver orientation on a closed blade directly, which is easy to picture backward from a text description alone",
+      "width": 1376,
+      "height": 768,
+      "v": "4d9c5be1"
+    },
+    {
+      "id": "troop-leadership-org-chart",
+      "file": "req2a.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "A clean org-chart diagram with no people, uniforms, or photos — just labeled boxes and connecting lines on a plain background. A box labeled \"Senior Patrol Leader\" near the top, connected by a dashed line to a smaller box off to the side labeled \"Scoutmaster — advises, doesn't run the troop\", showing an advisory relationship rather than a command one. Solid lines run down from \"Senior Patrol Leader\" to several boxes labeled \"Patrol Leader\", each connected down to a row of smaller boxes labeled \"Patrol Members\".",
+      "value": "Shows the reporting structure and the Scoutmaster's advisory (not commanding) position at a glance, which a paragraph of prose makes the reader reconstruct piece by piece",
+      "width": 1376,
+      "height": 768,
+      "v": "33f1789a"
+    }
+  ]
+}

@@ -17,7 +17,9 @@ Show how to tie a square knot, two half-hitches, and a taut-line hitch. Explain 
 Each of these three knots does a different job, and knowing which one to reach for matters as much as knowing how to tie it.
 
 - **Square knot** — joins two ropes of the same thickness. Used to tie the ends of a bandage, finish off a bundle, or join two rope ends for a short splice. It is not meant for climbing or any load-bearing use — under heavy strain, a square knot can slip.
+
 - **Two half-hitches** — anchors a rope to a fixed object, like a tent stake, a tree, or a pole. Quick to tie and quick to untie, even after it's been under tension.
+
 - **Taut-line hitch** — a sliding knot that holds firm under load but can be adjusted by hand without untying it. This is the knot behind almost every tent guyline, letting you tighten or loosen the line as the wind picks up or the ground shifts overnight.
 
 {{< drg/tip >}}

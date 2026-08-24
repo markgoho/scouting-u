@@ -14,6 +14,13 @@ disableKinds = ['taxonomy', 'term']
 [params.analytics]
   pirsch_code = '3ghEJ8dNoUUjtbQI3smz4RUa5LeYQyfY'
 
+[params.imagekit]
+  # Shared ImageKit account also used by mbu and doula.coop. Object paths
+  # are prefixed /su-assets/ so they never collide with those sites' own
+  # folders. See docs/adr for the image delivery decision record.
+  endpoint = 'https://ik.imagekit.io/doulacoop'
+  widths   = [400, 600, 800, 1200, 1600]
+
 [params.theme]
   siteTitle = 'Scouting University'
   siteTitleShort = 'Scouting U'

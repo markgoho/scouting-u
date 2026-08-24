@@ -18,4 +18,6 @@ A troop is run through the patrol method: Scouts are organized into small patrol
 
 Adult leaders, including the Scoutmaster and assistant Scoutmasters, are there to guide, coach, and keep things safe — not to run the troop day to day. That job belongs to the Scouts themselves. This is one of the biggest differences between Scouts BSA and the Cub Scout program many Scouts came from, where adults led most activities directly.
 
+{{< drg/image src="images/troop-leadership-org-chart.png" alt="Org chart showing patrol members reporting to patrol leaders, patrol leaders reporting to the senior patrol leader, and the Scoutmaster in an advisory role" >}}
+
 At your next troop meeting, notice who calls the meeting to order, who's teaching the skills stations, and who's making decisions about the next campout. Those are your youth leaders in action.

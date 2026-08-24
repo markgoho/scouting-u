@@ -145,6 +145,12 @@ See `SHORTCODES.md` for the full shortcode catalog and usage rules, and
 surprise test, shortcode variety, extended-learning depth). Consult both
 before writing your first page.
 
+Where a requirement's meaning is clearer shown than described, use an
+`<!-- IMAGE: -->` placeholder (see `SHORTCODES.md`'s Images section) rather
+than stretching prose to cover it. Turning placeholders into real images is
+a separate, manually-invoked pass (`/drg-images <rank>`) run after this
+guide's content is finished — don't attempt it as part of this skill.
+
 ## Workflow
 
 **Run to completion.** Work through every remaining page without pausing

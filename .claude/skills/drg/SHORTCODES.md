@@ -174,5 +174,15 @@ equivalent here — do not reference or attempt to use them:
   rank JSON has no `resources` field (`rank.schema.json` forbids it).
 - `option` param on `drg/requirement`, "Choose One" overview pages,
   `subrequirement_mode` handling — every rank group is complete-all.
-- `<!-- IMAGE: ... -->` placeholders or any image-generation handoff —
-  no image pipeline exists for this repo.
+
+## Images
+
+```markdown
+{{</* drg/image src="images/compass-parts-labeled.png" alt="Baseplate compass with all parts labeled" */>}}
+```
+
+`drg/image` resolves `src` against the guide's `images.json` manifest, not a
+local page resource — see the `drg-images` skill for placeholder syntax,
+the Image Value Test, and the full generation/upload workflow. Do not add
+image placeholders or shortcodes while writing content in this skill; that
+happens as a separate pass after a guide's text is finished.

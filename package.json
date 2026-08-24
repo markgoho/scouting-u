@@ -11,14 +11,21 @@
     "hugo:dev": "bun run build:local && cd hugo && hugo server",
     "index": "bunx pagefind --site hugo/public",
     "verify:output": "bun scripts/verify-build-output.ts",
-    "verify:drg": "bun scripts/verify-drg.ts"
+    "verify:drg": "bun scripts/verify-drg.ts",
+    "generate:drg-images": "bun scripts/generate-drg-images.ts",
+    "migrate:imagekit": "bun scripts/migrate-images-to-imagekit.ts",
+    "migrate:imagekit:dry": "bun scripts/migrate-images-to-imagekit.ts --dry-run",
+    "verify:imagekit": "bun scripts/verify-imagekit.ts"
   },
   "devDependencies": {
+    "@google/genai": "^2.10.0",
+    "@imagekit/nodejs": "^7.10.0",
     "firebase-tools": "^15.27.0",
     "oxlint": "^1.72.0",
     "pagefind": "^1.5.2",
     "prettier": "^3.9.4",
     "prettier-plugin-go-template": "^0.0.15",
-    "prettier-plugin-organize-imports": "^4.3.0"
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "sharp": "^0.35.2"
   }
 }

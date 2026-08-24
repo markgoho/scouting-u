@@ -1,0 +1,635 @@
+/**
+ * Generates DRG guide images for one Scouts BSA rank via Gemini image
+ * generation. Trimmed/adapted port of mbu/scripts/generate-drg-images.ts:
+ * merit badge -> rank vocabulary, guide path -> scouts-bsa/ranks/{slug}/guide,
+ * and the branding denylist updated to this site's own names ("Scouting
+ * University", "Digital Requirements Guide") in place of mbu's.
+ *
+ * Usage:
+ *   bun scripts/generate-drg-images.ts --rank <slug>
+ *   bun scripts/generate-drg-images.ts --rank <slug> --index <N>
+ *   bun scripts/generate-drg-images.ts --rank <slug> --id <image-id>
+ *   bun scripts/generate-drg-images.ts --rank <slug> --skip-existing
+ */
+import { GoogleGenAI } from "@google/genai";
+import * as path from "node:path";
+import { loadEnvFromRepoRoot } from "./lib/load-env-from-repo-root.ts";
+
+await loadEnvFromRepoRoot();
+
+type ImageStyle =
+  | "photo"
+  | "diagram"
+  | "infographic"
+  | "illustrated"
+  | "annotated-photo"
+  | "comparison";
+
+type VerbFamily = "show" | "describe" | "identify" | "create";
+
+interface DrgImage {
+  id: string;
+  file: string;
+  style?: ImageStyle;
+  verb_family?: VerbFamily;
+  // Absent for externally-sourced images (see "source" field in images.json) —
+  // those are never AI-generated, so there's nothing to build a prompt from.
+  description?: string;
+}
+
+interface DrgManifest {
+  rank: string;
+  style_context: string;
+  images: DrgImage[];
+}
+
+const IMAGE_MODEL = "gemini-3.1-flash-image-preview";
+const DELAY_MS = 1500;
+const MAX_RETRIES = 3;
+
+// ---------------------------------------------------------------------------
+// Shared preamble sections (reused across styles that depict people or safety)
+// ---------------------------------------------------------------------------
+
+const RECURRING_CAST = `
+RECURRING CAST — USE THESE SAME KIDS IN EVERY PHOTO:
+When people appear in the scene, draw from this specific group of Scouts. They are the SAME kids across every image — treat this like a photo series following one Scout troop:
+
+1. MAYA — 14-year-old girl, Black, tall and athletic build, natural hair in two puffs, confident posture, often takes the lead
+2. ETHAN — 12-year-old boy, white/red hair and freckles, shorter and wiry, eager expression, carries a big backpack relative to his size
+3. SOFIA — 15-year-old girl, Latina, medium build, long dark hair usually in a braid, calm and focused demeanor
+4. JAMES — 13-year-old boy, East Asian, average height, glasses, curious expression, often examining things closely
+5. KAI — 16-year-old boy, Pacific Islander/mixed-race, broad-shouldered and tallest of the group, relaxed and easygoing presence
+
+Not every kid needs to appear in every photo — use whichever 2-5 of them make sense for the scene. But they must be RECOGNIZABLY the same individuals across images: same hair, same face, same build, same glasses (James), same freckles (Ethan), etc.
+
+CAST PRIVACY RULE:
+- These names and demographic descriptors are prompt-only casting guidance.
+- NEVER render any cast name, age, race, ethnicity, nationality, or gender as visible text anywhere in the image.
+- NEVER turn cast descriptors into labels, callouts, captions, badges, posters, watermarks, or annotations.
+- If the image includes text annotations, they may label ONLY techniques, equipment, actions, directions, or safety concepts — never people.`;
+
+const UNIFORM_SECTION = `
+PROJECT BRANDING — STILL FORBIDDEN:
+- NEVER render "Scouting University", "Scouting U", "Digital Requirements Guide", or any project branding as visible text in the image. No titles, headers, watermarks, or project branding of any kind. This is about this project's own site branding, not the Scout uniform itself.
+
+UNIFORM & CLOTHING — FULL REALISM:
+- Youth should frequently be wearing a realistic Scouts BSA field uniform: a tan/khaki button-up shirt with olive green pants/shorts.
+- Include olive green shoulder loops on both shoulders — this is the color that marks the Scouts BSA program level (distinct from the colors used at other program levels).
+- Include a rank patch on the left pocket, generic council/unit patches on the sleeves, and (for older-looking scenes) an optional merit-badge sash worn diagonally across the chest. The right pocket may carry the organization's wordmark in small red lettering, the way it appears on the real uniform. Invent generic council/unit numbers rather than depicting a specific real council or troop.
+- When NOT in uniform, youth wear generic outdoor clothing in earth tones (greens, browns, khaki, navy).
+- NO brand names or non-Scouting logos visible on clothing or gear.
+- Scout uniforms must ALWAYS appear clean, neat, and presentable — no stains, paint, mud, tears, or visible wear.
+- If the scene involves messy activities (painting, gardening, cooking), Scouts should be wearing generic work clothes or aprons OVER their uniforms, OR the uniforms should remain visibly clean and unaffected.
+- The Scout uniform represents the organization and must never look damaged, dirty, or disrespected in any image.`;
+
+const SAFETY_SECTION = `
+SAFETY-CRITICAL ACCURACY:
+- Any image depicting a safety practice, rule, or technique MUST be correct in every visible detail. A wrong detail in a safety image actively teaches dangerous behavior.
+- Equipment must be shown used correctly: helmets level on the head with straps buckled, PFDs properly fitted, harnesses snug, eye protection worn.
+- Containers, tools, and gear must look like what they are. A water container must NOT resemble a fuel or chemical container. A cooking flame must NOT appear near flammable liquids or inappropriate materials.
+- Body positioning and technique must be accurate: proper lifting form, correct hand placement on tools, safe distances from hazards.
+- If the scene involves fire, stoves, or heat sources, ensure all nearby objects are plausible and safe — no red gas cans, aerosol cans, or plastic containers near open flame.
+- When in doubt, depict the SAFEST version of the scene. Err on the side of caution.`;
+
+const NO_BRANDING_SECTION = `
+ABSOLUTELY FORBIDDEN — BRANDING AND ORGANIZATIONAL TEXT:
+- NEVER render the words "Scouting America", "Boy Scouts of America", "BSA", "Scouting University", "Scouting U", or "Digital Requirements Guide" as visible text anywhere in the image.
+- Do NOT render any organizational logos, emblems, insignia, titles, headers, watermarks, or branding.
+- The image should contain ONLY educational content — no project or organizational identity.`;
+
+const TEXT_DENSITY_SECTION = `
+TEXT DENSITY — KEEP TEXT MINIMAL:
+- The image should be VISUAL-FIRST. Text should occupy no more than ~20% of the image area.
+- Use short single-word or brief-phrase labels only. No sentences, paragraphs, or dense text blocks.
+- If the concept requires a lot of text to explain, that text belongs on the web page, not in the image.
+- The image generator produces illegible text at small sizes — fewer labels at larger size is always better than many labels at small size.
+- Prefer icons, visual symbols, and spatial layout to communicate meaning instead of text.`;
+
+// ---------------------------------------------------------------------------
+// buildStyleGuide — selects the correct preamble based on style
+// ---------------------------------------------------------------------------
+
+function buildStyleGuide(context: string, style: ImageStyle): string {
+  switch (style) {
+    case "photo":
+      return `You are generating a PHOTOGRAPH for an educational youth guide about ${context}.
+
+CRITICAL — OUTPUT MUST BE A PHOTOGRAPH:
+- The output MUST look like a real photograph taken with a camera
+- Do NOT generate illustrations, drawings, paintings, watercolors, sketches, cartoons, digital art, or any non-photographic style
+- Even if the description mentions "illustration" or "painting", IGNORE that and produce a photorealistic photograph instead
+- Think: National Geographic photo, DSLR camera, real-world scene captured on film
+${RECURRING_CAST}
+
+STYLE REQUIREMENTS:
+- Photorealistic photography style with warm, natural lighting
+- Educational tone — like a well-produced textbook or National Geographic photograph
+- Clean composition suitable for all ages (youth 11-17)
+- NO text overlays, watermarks, or captions in the image
+- NO organizational names, logos, or branding visible anywhere — see ABSOLUTELY FORBIDDEN section above
+- Warm color palette: earthy greens, browns, golden-hour warmth, natural sky colors
+${UNIFORM_SECTION}
+${SAFETY_SECTION}
+
+SCENE: `;
+
+    case "annotated-photo":
+      return `You are generating a PHOTOGRAPH WITH EDUCATIONAL ANNOTATIONS for an educational youth guide about ${context}.
+
+CRITICAL — OUTPUT MUST BE AN ANNOTATED PHOTOGRAPH:
+- Base image must be photorealistic (like a DSLR photo)
+- OVERLAY clear text labels, arrows, and callout boxes on the photo
+- Labels should have semi-transparent backgrounds for readability
+- Arrows should be clean and clearly point to their subjects
+- Think: annotated textbook photo, museum exhibit label, instructional manual
+${RECURRING_CAST}
+
+ANNOTATION REQUIREMENTS:
+- Labels must be LEGIBLE at web resolution
+- Use a consistent label style throughout (same font, same background treatment)
+- Arrows or leader lines should be clean and clearly connect labels to subjects
+- Semi-transparent label backgrounds (white or light color at ~80% opacity)
+- Dark text on light labels for maximum readability
+- Place labels to minimize overlap with important visual content
+
+PHOTOGRAPHY BASE:
+- Warm, natural lighting
+- Clean composition suitable for youth ages 11-17
+- No logos, brand names, or organizational text visible — see ABSOLUTELY FORBIDDEN section above
+${UNIFORM_SECTION}
+${SAFETY_SECTION}
+
+SCENE: `;
+
+    case "diagram":
+      return `You are generating a CLEAN EDUCATIONAL DIAGRAM for an educational youth guide about ${context}.
+
+CRITICAL — OUTPUT MUST BE A DIAGRAM:
+- Output must be a clear, labeled diagram — NOT a photograph
+- Use clean lines, clear typography, and educational colors
+- All text labels must be LEGIBLE and ACCURATE
+- Use arrows, callouts, and annotations freely
+- Style: modern textbook diagram, clean vector-like appearance
+- Color palette: professional blues, greens, warm accents on a light background
+- No decorative elements — every visual element should teach something
+- Think: modern science textbook diagram, educational poster, museum exhibit graphic
+${NO_BRANDING_SECTION}
+${TEXT_DENSITY_SECTION}
+
+TYPOGRAPHY REQUIREMENTS:
+- All text must be large enough to read at web resolution (minimum ~14pt equivalent)
+- Use a clean sans-serif font style
+- Labels should have high contrast against their background
+- Use leader lines or arrows to connect labels to their subjects
+
+SCENE: `;
+
+    case "infographic":
+      return `You are generating an EDUCATIONAL INFOGRAPHIC for an educational youth guide about ${context}.
+
+CRITICAL — OUTPUT MUST BE AN INFOGRAPHIC:
+- Clean, modern infographic design — NOT a photograph
+- Mix of icons, short text blocks, and visual elements
+- Clear visual hierarchy — most important information is largest
+- All text must be LEGIBLE at web resolution
+- Professional color scheme, consistent throughout
+- Think: National Geographic sidebar, educational poster, well-designed factsheet
+${NO_BRANDING_SECTION}
+${TEXT_DENSITY_SECTION}
+
+LAYOUT REQUIREMENTS:
+- Organized sections with clear visual separation
+- Use icons, pictograms, or simple illustrations alongside text
+- Use color coding to group related information
+- Do NOT include a title, heading, or banner at the top — the web page provides its own heading
+- Keep text to short labels and key numbers only — no sentences or paragraphs
+
+TYPOGRAPHY:
+- Labels: large, bold, legible at web resolution
+- Key numbers/facts: large and highlighted
+- No body text or paragraphs — if it needs that much text, it belongs on the web page, not in the image
+
+SCENE: `;
+
+    case "illustrated":
+      return `You are generating a DETAILED TECHNICAL ILLUSTRATION for an educational youth guide about ${context}.
+
+CRITICAL — OUTPUT MUST BE A TECHNICAL ILLUSTRATION:
+- Detailed technical illustration style — NOT a photograph
+- Think: field guide illustration, technical manual drawing, equipment catalog diagram
+- Use precise linework with clear detail
+- Style: somewhere between a botanical illustration and an engineering diagram
+- Professional, educational, authoritative feel
+${NO_BRANDING_SECTION}
+${TEXT_DENSITY_SECTION}
+
+ILLUSTRATION REQUIREMENTS:
+- Clean white or light neutral background
+- Precise, detailed rendering of the subject
+- Only add labels if the description explicitly asks for them — otherwise let the visual speak for itself
+- Consistent line weight and rendering style
+- Cross-hatching or subtle shading for depth (not photorealistic shading)
+- Color should be accurate and educational, not decorative
+
+SCENE: `;
+
+    case "comparison":
+      return `You are generating a COMPARISON IMAGE for an educational youth guide about ${context}.
+
+CRITICAL — OUTPUT MUST BE A SIDE-BY-SIDE OR SPLIT-FRAME COMPARISON:
+- Show two versions of the same subject for clear comparison
+- Use a split-frame, side-by-side, or before/after layout
+- Clearly label each side (e.g., "CORRECT" vs "INCORRECT", "DO" vs "DON'T", "BEFORE" vs "AFTER")
+- The comparison should be immediately obvious and educational
+
+COMPARISON REQUIREMENTS:
+- Both sides should show the SAME subject or scenario
+- Differences must be clearly visible and meaningful
+- Labels must be large and legible at web resolution
+- Use color coding: green tones for correct/good, red tones for incorrect/bad
+- A dividing line or visual separator between the two sides
+- Can be photorealistic or illustrated — whichever communicates the comparison more clearly
+${NO_BRANDING_SECTION}
+${TEXT_DENSITY_SECTION}
+
+EDUCATIONAL FOCUS:
+- The viewer should instantly understand what is right and what is wrong
+- Key differences should be emphasized (circles, arrows, highlights)
+- Suitable for youth ages 11-17
+${SAFETY_SECTION}
+
+SCENE: `;
+  }
+}
+
+function buildVerbFamilyGuidance(verbFamily?: VerbFamily): string {
+  switch (verbFamily) {
+    case "show":
+      return "\n\nVERB FAMILY GUIDANCE: The requirement is action-forward and demonstration-oriented. Prefer prompts that clearly show technique, sequence, comparison, or observable steps when the image adds real teaching value. When the requirement specifically uses demonstrate-style wording, prefer photographic step-wise instructional imagery over abstract diagrams.\n\n";
+    case "describe":
+      return "\n\nVERB FAMILY GUIDANCE: The requirement is explanation-oriented. Prefer prompts that clarify structure, labeled parts, or visual relationships when the image helps the reader understand what is being described.\n\n";
+    case "identify":
+      return "\n\nVERB FAMILY GUIDANCE: The requirement is identification-oriented. Prefer prompts that support visual recognition, side-by-side comparison, or distinguishing features.\n\n";
+    case "create":
+      return "\n\nVERB FAMILY GUIDANCE: The requirement is planning/building-oriented. Prefer prompts that show layout, assembly, spatial arrangement, or before-and-after outcomes.\n\n";
+    default:
+      return "";
+  }
+}
+
+async function loadManifest(rank: string): Promise<DrgManifest> {
+  const manifestPath = path.resolve(
+    `hugo/content/scouts-bsa/ranks/${rank}/guide/images.json`,
+  );
+  const manifestFile = Bun.file(manifestPath);
+  if (!(await manifestFile.exists())) {
+    console.error(`Manifest not found: ${manifestPath}`);
+    console.error(
+      `Create an images.json file in the guide directory for "${rank}".`,
+    );
+    process.exit(1);
+  }
+  const raw = await manifestFile.text();
+  return JSON.parse(raw) as DrgManifest;
+}
+
+const apiKey = process.env.GEMINI_API_KEY;
+if (!apiKey) {
+  console.error("Error: GEMINI_API_KEY environment variable is required");
+  process.exit(1);
+}
+const ai = new GoogleGenAI({ apiKey });
+
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function generateImage(
+  image: DrgImage,
+  context: string,
+  reference?: { data: Uint8Array; mimeType: string },
+): Promise<Uint8Array | null> {
+  const style: ImageStyle = image.style ?? "photo";
+  const styleGuide = buildStyleGuide(context, style);
+  const verbGuidance = buildVerbFamilyGuidance(image.verb_family);
+  const prompt = styleGuide + verbGuidance + image.description;
+
+  const parts: object[] = [];
+  if (reference) {
+    parts.push({
+      inlineData: {
+        mimeType: reference.mimeType,
+        data: Buffer.from(reference.data).toString("base64"),
+      },
+    });
+  }
+  parts.push({ text: prompt });
+
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const response = await ai.models.generateContent({
+        model: IMAGE_MODEL,
+        contents: [
+          {
+            role: "user",
+            parts,
+          },
+        ],
+        config: {
+          responseModalities: ["TEXT", "IMAGE"],
+          imageConfig: {
+            aspectRatio: "16:9",
+            imageSize: "1K",
+          },
+        },
+      });
+
+      for (const part of response.candidates?.[0]?.content?.parts || []) {
+        if (part.inlineData?.data) {
+          return Uint8Array.fromBase64(part.inlineData.data);
+        }
+      }
+
+      console.warn(`  ⚠ No image data in response for ${image.id}`);
+      return null;
+    } catch (error: unknown) {
+      const err = error as { status?: number; message?: string };
+      if (err.status === 429 && attempt < MAX_RETRIES) {
+        const backoff = Math.pow(3, attempt) * 5000;
+        console.warn(
+          `  ⚠ Rate limited (attempt ${attempt}/${MAX_RETRIES}), waiting ${backoff / 1000}s...`,
+        );
+        await sleep(backoff);
+        continue;
+      }
+      console.error(
+        `  ✗ Error generating ${image.id} (attempt ${attempt}):`,
+        err.message || error,
+      );
+      if (attempt === MAX_RETRIES) return null;
+    }
+  }
+  return null;
+}
+
+async function savePng(
+  pngBuffer: Uint8Array,
+  outputPath: string,
+): Promise<boolean> {
+  try {
+    await Bun.write(outputPath, pngBuffer);
+    return true;
+  } catch (error: unknown) {
+    const err = error as { message?: string };
+    console.error(`  ✗ Save failed:`, err.message || error);
+    return false;
+  }
+}
+
+function parseArgs(): {
+  rank?: string;
+  index?: number;
+  id?: string;
+  skipExisting: boolean;
+  reference?: string;
+} {
+  const args = process.argv.slice(2);
+  const result: {
+    rank?: string;
+    index?: number;
+    id?: string;
+    skipExisting: boolean;
+    reference?: string;
+  } = {
+    skipExisting: false,
+  };
+
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    const next = args[i + 1];
+    if (arg === "--rank" && next) {
+      result.rank = next;
+      i++;
+    } else if (arg === "--index" && next) {
+      result.index = parseInt(next, 10);
+      i++;
+    } else if (arg === "--id" && next) {
+      result.id = next;
+      i++;
+    } else if (arg === "--skip-existing") {
+      result.skipExisting = true;
+    } else if (arg === "--reference" && next) {
+      result.reference = next;
+      i++;
+    }
+  }
+
+  return result;
+}
+
+const REFERENCE_MIME_TYPES: Record<string, string> = {
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
+};
+
+function printUsage(): void {
+  console.log(`Usage: bun scripts/generate-drg-images.ts --rank <slug> [options]
+
+Required:
+  --rank <slug>        Rank slug (e.g., scout, star, life)
+
+Options:
+  --index <N>          Generate only the Nth image (1-based)
+  --id <image-id>       Generate only the image with this ID
+  --skip-existing       Skip images that already have a .png file
+  --reference <path>    Pass a local image as a reference input (requires --id or --index)
+
+Examples:
+  bun scripts/generate-drg-images.ts --rank star
+  bun scripts/generate-drg-images.ts --rank star --index 1
+  bun scripts/generate-drg-images.ts --rank star --id compass-parts-labeled
+  bun scripts/generate-drg-images.ts --rank star --skip-existing
+  bun scripts/generate-drg-images.ts --rank scout --id first-class-badge-parts --reference ./patch.webp`);
+}
+
+async function main() {
+  const args = parseArgs();
+
+  if (process.argv.includes("--help")) {
+    printUsage();
+    return;
+  }
+
+  if (!args.rank) {
+    console.error("Error: --rank <slug> is required.\n");
+    printUsage();
+    process.exit(1);
+  }
+
+  if (args.reference && !args.id && args.index === undefined) {
+    console.error("Error: --reference requires --id or --index.\n");
+    printUsage();
+    process.exit(1);
+  }
+
+  let reference: { data: Uint8Array; mimeType: string } | undefined;
+  if (args.reference) {
+    const ext = path.extname(args.reference).toLowerCase();
+    const mimeType = REFERENCE_MIME_TYPES[ext];
+    if (!mimeType) {
+      console.error(`Error: unsupported reference image type "${ext}".`);
+      process.exit(1);
+    }
+    const referenceFile = Bun.file(args.reference);
+    if (!(await referenceFile.exists())) {
+      console.error(`Error: reference image not found: ${args.reference}`);
+      process.exit(1);
+    }
+    reference = { data: await referenceFile.bytes(), mimeType };
+  }
+
+  const manifest = await loadManifest(args.rank);
+  const outputDir = path.resolve(
+    `hugo/content/scouts-bsa/ranks/${args.rank}/guide/images`,
+  );
+
+  await Bun.write(path.join(outputDir, ".gitkeep"), "", {
+    createPath: true,
+  });
+  await Bun.file(path.join(outputDir, ".gitkeep")).delete();
+
+  console.log(`Rank: ${manifest.rank}`);
+  console.log(`Manifest: ${manifest.images.length} images defined`);
+
+  let imagesToGenerate: DrgImage[];
+
+  if (args.index !== undefined) {
+    const idx = args.index - 1;
+    if (idx < 0 || idx >= manifest.images.length) {
+      console.error(
+        `Invalid index: ${args.index}. Must be 1-${manifest.images.length}`,
+      );
+      process.exit(1);
+    }
+    const target = manifest.images[idx]!;
+    if (!target.description) {
+      console.error(
+        `${target.id} is externally-sourced (see its "source" field) — nothing to generate.`,
+      );
+      process.exit(1);
+    }
+    imagesToGenerate = [target];
+    console.log(`Generating single image: ${target.id}`);
+  } else if (args.id) {
+    const image = manifest.images.find(img => img.id === args.id);
+    if (!image) {
+      console.error(`Image not found: ${args.id}`);
+      console.error(
+        "Available IDs:",
+        manifest.images.map(img => img.id).join(", "),
+      );
+      process.exit(1);
+    }
+    if (!image.description) {
+      console.error(
+        `${image.id} is externally-sourced (see its "source" field) — nothing to generate.`,
+      );
+      process.exit(1);
+    }
+    imagesToGenerate = [image];
+    console.log(`Generating single image: ${image.id}`);
+  } else {
+    const externallySourced = manifest.images.filter(img => !img.description);
+    imagesToGenerate = manifest.images.filter(img => img.description);
+    if (externallySourced.length > 0) {
+      console.log(
+        `Skipping ${externallySourced.length} externally-sourced image(s): ${externallySourced.map(img => img.id).join(", ")}`,
+      );
+    }
+    console.log(`Generating all ${imagesToGenerate.length} images`);
+  }
+
+  if (args.skipExisting) {
+    const before = imagesToGenerate.length;
+    const filteredImages: DrgImage[] = [];
+    for (const image of imagesToGenerate) {
+      const pngPath = path.join(outputDir, `${image.id}.png`);
+      if (!(await Bun.file(pngPath).exists())) {
+        filteredImages.push(image);
+      }
+    }
+    imagesToGenerate = filteredImages;
+    const skipped = before - imagesToGenerate.length;
+    if (skipped > 0) {
+      console.log(`Skipping ${skipped} existing images`);
+    }
+  }
+
+  if (imagesToGenerate.length === 0) {
+    console.log("Nothing to generate — all images already exist.");
+    return;
+  }
+
+  console.log(`\nOutput directory: ${outputDir}`);
+  console.log(`Images to generate: ${imagesToGenerate.length}\n`);
+
+  const results: { id: string; success: boolean }[] = [];
+
+  for (let i = 0; i < imagesToGenerate.length; i++) {
+    const image = imagesToGenerate[i]!;
+    const pngPath = path.join(outputDir, `${image.id}.png`);
+    const progress = `[${i + 1}/${imagesToGenerate.length}]`;
+
+    console.log(
+      `${progress} Generating: ${image.id} (${image.style ?? "photo"})...`,
+    );
+
+    const pngBuffer = await generateImage(
+      image,
+      manifest.style_context,
+      reference,
+    );
+    if (!pngBuffer) {
+      console.error(`${progress} ✗ Failed: ${image.id}`);
+      results.push({ id: image.id, success: false });
+      continue;
+    }
+
+    const saved = await savePng(pngBuffer, pngPath);
+    if (saved) {
+      const sizeKB = ((Bun.file(pngPath).size ?? 0) / 1024).toFixed(1);
+      console.log(`${progress} ✓ Saved: ${image.id}.png (${sizeKB} KB)`);
+      results.push({ id: image.id, success: true });
+    } else {
+      console.error(`${progress} ✗ Save failed: ${image.id}`);
+      results.push({ id: image.id, success: false });
+    }
+
+    if (i < imagesToGenerate.length - 1) {
+      await sleep(DELAY_MS);
+    }
+  }
+
+  const successful = results.filter(r => r.success);
+  const failed = results.filter(r => !r.success);
+
+  console.log(`\n${"=".repeat(50)}`);
+  console.log(`GENERATION COMPLETE — ${manifest.rank}`);
+  console.log(`${"=".repeat(50)}`);
+  console.log(`Successful: ${successful.length}/${results.length}`);
+
+  if (failed.length > 0) {
+    console.log(`\nFailed images:`);
+    for (const f of failed) {
+      console.log(`  - ${f.id}`);
+    }
+  }
+}
+
+main().catch(error => {
+  console.error("Fatal error:", error);
+  process.exit(1);
+});

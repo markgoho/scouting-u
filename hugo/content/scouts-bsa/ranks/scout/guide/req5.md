@@ -24,9 +24,13 @@ A pocketknife is one of the first genuinely dangerous tools most Scouts are trus
 - **Pass it closed, handle first.** Never hand someone an open blade.
 - **Sit down to use it**, if possible — a stable position reduces the chance of a slip.
 
+{{< drg/image src="images/pocketknife-passing-handle-first.png" alt="A Scout handing a closed pocketknife handle-first to another Scout" >}}
+
 ## Using It Responsibly
 
 A pocketknife is a tool, not a toy. Use it for real tasks — whittling, cutting cord, food prep — not for throwing, prying, or showing off. Keep the blade clean and dry to prevent rust, and keep it sharp: a dull blade actually causes more injuries than a sharp one, because it takes more force and is more likely to slip.
+
+{{< drg/image src="images/pocketknife-cutting-technique.png" alt="A Scout whittling a stick, cutting away from his body with his free hand held well clear of the blade" >}}
 
 {{< drg/safety-first >}}
 If you cut yourself, stop immediately, apply direct pressure to the wound, and tell an adult leader right away — even for a small cut. Never keep using a knife through pain or bleeding.

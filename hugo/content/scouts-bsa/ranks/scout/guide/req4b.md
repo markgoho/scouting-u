@@ -20,6 +20,8 @@ A rope with a frayed, unraveling end is a rope on its way to being useless — a
 
 **Fusing** works on synthetic rope, like nylon or polypropylene. Carefully pass the cut end through a flame just long enough to melt the fibers together into a sealed cap, then let it cool before handling. This only works because synthetic fibers melt instead of burning to ash.
 
+{{< drg/image src="images/whip-fuse-rope-ends.png" alt="A whipped natural-fiber rope end next to a fused synthetic rope end, side by side" >}}
+
 {{< drg/safety-first >}}
 Fusing rope means working with an open flame. Do this only with an adult present, keep the flame moving instead of holding it in one spot, and let the melted end cool completely before you touch it — melted nylon holds heat and can cause a serious burn.
 {{< /drg/safety-first >}}

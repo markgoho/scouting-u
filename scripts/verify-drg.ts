@@ -71,6 +71,7 @@ async function verifyDrg(): Promise<void> {
   checkGuideNavAndChain({ pages, failures: structuralFailures });
   checkPlaceholders({ pages, failures: placeholderFailures });
   checkVocabulary({ pages, failures: vocabularyFailures });
+  await checkImages({ pages, failures: structuralFailures });
 
   report({ structuralFailures, placeholderFailures, vocabularyFailures });
 }
@@ -250,6 +251,65 @@ function checkVocabulary({
           `${pageSlugFromFile(page.file) || "_index"}: internal vocabulary "${term}" appears outside a [PLACEHOLDER: ...] marker.`,
         );
       }
+    }
+  }
+}
+
+async function checkImages({
+  pages,
+  failures,
+}: {
+  pages: GuidePageFile[];
+  failures: string[];
+}): Promise<void> {
+  const manifestPath = join(guideDirectory, "images.json");
+  const manifestFile = Bun.file(manifestPath);
+  if (!(await manifestFile.exists())) {
+    return;
+  }
+
+  const manifest = JSON.parse(await manifestFile.text()) as {
+    images: Array<{ id: string }>;
+  };
+  const manifestIds = manifest.images.map(image => image.id);
+  const seenIds = new Set<string>();
+  for (const id of manifestIds) {
+    if (seenIds.has(id)) {
+      failures.push(`images.json: duplicate id "${id}".`);
+    }
+    seenIds.add(id);
+  }
+
+  const srcCounts = new Map<string, number>();
+  for (const page of pages) {
+    const orphanPlaceholders = (page.content.match(/<!-- IMAGE:/g) ?? []).length;
+    if (orphanPlaceholders > 0) {
+      failures.push(
+        `${pageSlugFromFile(page.file) || "_index"}: ${orphanPlaceholders} unconverted <!-- IMAGE: --> placeholder(s) remain — images.json exists, so these should already be drg/image shortcodes.`,
+      );
+    }
+    for (const match of page.content.matchAll(/{{<\s*drg\/image\s+src="([^"]+)"/g)) {
+      const src = match[1]!;
+      srcCounts.set(src, (srcCounts.get(src) ?? 0) + 1);
+    }
+  }
+
+  for (const [src, count] of srcCounts) {
+    if (count > 1) {
+      failures.push(`drg/image src "${src}" is used ${count} times — every src must be unique across the guide.`);
+    }
+    const id = src.replace(/^images\//, "").replace(/\.(avif|png)$/, "");
+    if (!seenIds.has(id)) {
+      failures.push(`drg/image src "${src}" (id: ${id}) has no entry in images.json.`);
+    }
+  }
+
+  for (const id of manifestIds) {
+    const referenced = [...srcCounts.keys()].some(
+      src => src.replace(/^images\//, "").replace(/\.(avif|png)$/, "") === id,
+    );
+    if (!referenced) {
+      failures.push(`images.json id "${id}" has no drg/image shortcode referencing it.`);
     }
   }
 }
