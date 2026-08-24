@@ -27,6 +27,8 @@ This requirement is done with a helper and a practice victim — someone acting 
 
 You have to demonstrate both roles — don't stop after doing just one.
 
+{{< drg/image src="images/line-rescue-tender-position.png" alt="A tender braced low on shore holding the rescue line looped against the body, never wrapped around a hand or wrist" >}}
+
 ## Reach, Throw, Row, Go
 
 A line rescue is part of a larger hierarchy rescuers are taught: reach for the victim if possible, throw something if you can't reach, row or paddle a craft to them if throwing won't work, and only go into the water yourself as an absolute last resort, with flotation and training. The line rescue you're demonstrating here is the "throw" step — and it's why so much rescue training pushes it as the preferred method whenever it's an option.

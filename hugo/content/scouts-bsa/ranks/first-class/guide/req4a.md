@@ -28,7 +28,11 @@ At some point on the course, you'll measure the height or width of something —
 
 **Measuring height (the stick method):** Hold a stick vertically at arm's length. Walk backward from the object until the top of the stick, as you see it, lines up with the top of the object and the bottom of the stick lines up with its base. The distance from your feet to the base of the object is a close estimate of the object's height, if your arm length and the stick's length above your fist are roughly equal — this is the same principle as similar triangles.
 
+{{< drg/image src="images/height-measurement-stick-method.png" alt="A Scout sighting a tree's height using the stick method, with sightlines from the eye to the stick's top and the tree's top" >}}
+
 **Measuring width (the baseline method):** Pick a point directly across from a landmark on the far side (a tree, a rock). Walk a measured baseline at a right angle to your sightline — say, 60 feet — and place a stake. From that stake, sight a line to a second reference point that, combined with your original position and the landmark, forms a right triangle you can solve. Simpler in the field: pace off a baseline, then use your compass to sight the angle to the landmark from both ends and apply basic trigonometry, or estimate proportionally if your troop hasn't covered the math yet.
+
+{{< drg/image src="images/width-measurement-baseline-method.png" alt="Overhead diagram of the baseline-and-sighting right triangle used to estimate a landmark's width across a gap" >}}
 
 {{< drg/tip >}}
 Practice the height and width methods in your backyard or a local park before you're on the actual course — trying geometry for the first time while also navigating between orienteering points is more than you need to juggle at once.

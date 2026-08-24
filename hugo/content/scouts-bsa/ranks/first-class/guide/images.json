@@ -1,0 +1,105 @@
+{
+  "rank": "first-class",
+  "style_context": "Camping, cooking, tools, navigation, nature, aquatics, first aid, and fitness skills for the First Class rank",
+  "images": [
+    {
+      "id": "height-measurement-stick-method",
+      "file": "req4a.md",
+      "style": "annotated-photo",
+      "verb_family": "describe",
+      "description": "A Scout standing in a grassy field, holding a straight stick vertically at arm's length, one eye closed, sighting so the stick appears to align with a tall tree some distance away. A dashed sightline arrow runs from the Scout's eye past the top of the stick to the top of the tree, and a second dashed line runs from the base of the stick down to the base of the tree. One callout label reads 'Stick length = arm length' near the raised hand, and a second callout label reads 'Distance to tree = tree height' along the ground between the Scout and the tree.",
+      "value": "Shows the exact sighting alignment and stick-to-object relationship the similar-triangles estimate depends on, which is hard to picture from a written description alone.",
+      "width": 1376,
+      "height": 768,
+      "v": "b3039d4c"
+    },
+    {
+      "id": "width-measurement-baseline-method",
+      "file": "req4a.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "Clean overhead diagram (bird's-eye view) showing a landmark tree on the far side of a stream, with a right triangle drawn on the near bank: a starting point directly across from the tree, a measured baseline running at a right angle away from that sightline to a second point, and a dashed sighting line from the second point back to the landmark tree, forming the triangle. Label the right-angle corner, label the baseline 'measured baseline', and label the dashed sighting line 'sight to landmark'. Simple top-down icons, muted natural color palette, no people.",
+      "value": "Shows the right-triangle geometry and sighting lines the baseline method depends on — a spatial relationship that's difficult to follow from text alone.",
+      "width": 1376,
+      "height": 768,
+      "v": "ef67ef59"
+    },
+    {
+      "id": "canoe-parts-labeled",
+      "file": "req6c.md",
+      "style": "diagram",
+      "verb_family": "identify",
+      "description": "Clean side-view labeled diagram of a canoe resting on calm water. Label with leader lines: 'Bow' at the front tip, 'Stern' at the back tip, 'Hull' along the main body, 'Gunwale' along the top edge of the side, 'Keel' as a subtle ridge line along the centerline of the bottom, and 'Thwart' as a crossbar spanning the canoe's width partway along its length. Simple, clean vector-like illustration, muted natural color palette, no people, no water splashes.",
+      "value": "Shows exactly where each named part sits on a real boat, letting the reader match a term to its physical location rather than imagining it from a list.",
+      "width": 1376,
+      "height": 768,
+      "v": "fe58c4b5"
+    },
+    {
+      "id": "paddle-oar-parts-labeled",
+      "file": "req6c.md",
+      "style": "diagram",
+      "verb_family": "identify",
+      "description": "Clean diagram showing a canoe paddle and a rowing oar side by side, both laid horizontally, for direct comparison. On the paddle, label 'Grip' at the top-end handle, 'Shaft' along the long middle section, 'Throat' where the shaft meets the blade, and 'Blade' at the flat working end. On the oar, label the same 'Blade', 'Shaft', and 'Grip' positions, plus one additional label 'Oarlock' pointing to a pivot fitting partway down the oar's shaft that the paddle does not have. Simple vector-like illustration, muted natural color palette, no people, no boat.",
+      "value": "Shows where each named part sits on both a paddle and an oar side by side, including the oarlock the paddle lacks — a comparison that's hard to visualize from a bulleted list alone.",
+      "width": 1376,
+      "height": 768,
+      "v": "cba333a9"
+    },
+    {
+      "id": "canoe-body-position-comparison",
+      "file": "req6d.md",
+      "style": "comparison",
+      "verb_family": "describe",
+      "description": "Split-frame comparison inside a canoe on calm water. Left side labeled 'Correct': a Scout sitting low on the canoe seat, weight centered along the boat's centerline, shoulders relaxed, canoe sitting level and stable in the water. Right side labeled 'Incorrect': a Scout standing up in the canoe, leaning to one side and reaching outside the gunwale, the canoe visibly tilted toward that side with water close to the gunwale edge. Same canoe, same lighting, clear side-by-side contrast.",
+      "value": "Shows the exact difference between a stable low-centered position and an unstable standing/leaning one, and how it visibly tips the boat — something a written description of 'stay low and centered' can't fully convey.",
+      "width": 1376,
+      "height": 768,
+      "v": "33138c90"
+    },
+    {
+      "id": "line-rescue-tender-position",
+      "file": "req6e.md",
+      "style": "annotated-photo",
+      "verb_family": "show",
+      "description": "A Scout kneeling low on a shoreline in a braced stance, both hands holding a coiled throw-rope line looped loosely across the body and braced against the torso, clearly not wrapped around either hand or wrist. A dashed line extends from the rope out toward a distant swimmer in the water. One callout label reads 'Braced low, line against body' pointing to the kneeling stance and how the rope crosses the torso, and a second callout label reads 'Never wrap around hand or wrist' pointing to the open hand holding the rope loosely.",
+      "value": "Shows the specific braced stance and hand position that keeps a tender safe if the line goes taut suddenly — a safety detail that's easy to get wrong from text alone.",
+      "width": 1376,
+      "height": 768,
+      "v": "a9cbf12c"
+    },
+    {
+      "id": "sling-and-swathe-bandage",
+      "file": "req7a.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "Close-up photo of a Scout with a completed sling-and-swathe bandage on one arm: a triangular bandage sling supporting the forearm across the chest at roughly a right angle, and a second wide swathe bandage wrapped around the torso and upper arm, binding the arm snugly against the body. Clean uniform shirt, clear view of both bandage layers.",
+      "value": "Shows the finished, correctly layered position of the sling and swathe together, which is easy to get backward from a text description of two separate wraps.",
+      "width": 1376,
+      "height": 768,
+      "v": "3c18ec53"
+    },
+    {
+      "id": "smoke-room-transport-techniques",
+      "file": "req7b.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "Two-panel image showing low-crouched rescue transport techniques in a dim indoor room. Left panel: a Scout alone, crouched low, dragging a practice victim by gripping the victim's shirt collar and shoulders, both bodies close to the floor. Right panel: two Scouts together, each supporting one side of a practice victim under the arms, all three crouched low as they move. Both panels show clear low-to-the-ground posture.",
+      "value": "Shows the specific low-crouched grip and carry positions for both the solo and two-person techniques, which text describing hand placement alone can't fully convey.",
+      "width": 1376,
+      "height": 768,
+      "v": "7d541e42"
+    },
+    {
+      "id": "sprained-ankle-transport-techniques",
+      "file": "req7b.md",
+      "style": "photo",
+      "verb_family": "show",
+      "description": "Two-panel image showing transport techniques for a person with a sprained ankle, outdoors on a trail. Left panel: a Scout supporting a practice victim under one arm with their shoulder taking the weight, the victim hopping on their uninjured leg while the injured ankle stays lifted off the ground. Right panel: two Scouts, one on each side, each supporting an arm over their shoulders, walking the victim between them with the injured leg barely touching the ground.",
+      "value": "Shows exactly how the human-crutch and two-person-assist positions support an injured ankle differently than reading the two descriptions separately would convey.",
+      "width": 1376,
+      "height": 768,
+      "v": "cc7ecaf6"
+    }
+  ]
+}

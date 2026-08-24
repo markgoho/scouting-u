@@ -26,6 +26,8 @@ A canoe or kayak is far less stable than solid ground, and where you put your bo
 
 A boat's stability depends on keeping its center of gravity low and centered. Standing up, leaning out over the side, or shifting weight suddenly all raise or shift that center of gravity — and on the water, that's often the difference between a stable boat and a capsized one. The size and type of the vessel changes exactly how you sit, but the underlying goal never changes: stay low, stay centered, and move deliberately.
 
+{{< drg/image src="images/canoe-body-position-comparison.png" alt="Split-frame comparison of a stable low-centered canoe position versus an unstable standing/leaning position that tips the boat" >}}
+
 {{< drg/safety-first >}}
 Never stand up in a canoe or kayak while it's on the water, and never lean out past the gunwale to reach for something. Both raise the boat's center of gravity right when you can least afford it.
 {{< /drg/safety-first >}}

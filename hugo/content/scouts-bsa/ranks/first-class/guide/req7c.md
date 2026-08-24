@@ -38,7 +38,9 @@ CPR keeps blood moving to the brain and organs when the heart has stopped, buyin
 4. If trained, give two rescue breaths after every 30 compressions. If untrained or unwilling to give breaths, continuous compressions alone still help.
 5. Continue cycles of compressions (and breaths) until the person responds, an AED is ready to use, or emergency responders take over.
 
-<!-- VIDEO: CPR chest compression technique and rate, showing hand placement and depth on an adult -->
+{{< drg/video
+    title="How to do Compression-Only CPR — American Red Cross"
+    url="https://www.youtube.com/watch?v=VZqG-tcZvfE" >}}
 
 {{< drg/did-you-know >}}
 A well-known trick for keeping compression rate on target: the beat of "Stayin' Alive" by the Bee Gees runs almost exactly 100 beats per minute — right at the bottom of the CPR range.

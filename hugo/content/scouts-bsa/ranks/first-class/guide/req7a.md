@@ -20,7 +20,9 @@ A bandage does two jobs: it holds a dressing in place, and it supports an injure
 
 Wrap a roller bandage or elastic wrap starting at the base of the toes, working up and around the foot and ankle in a figure-eight pattern, overlapping each layer by about half its width. Snug, not tight — you should still be able to slip a finger under the wrap, and toes should stay warm and normally colored.
 
-<!-- IMAGE: Diagram or photo sequence showing the figure-eight wrap pattern for a sprained ankle, from toe to ankle -->
+{{< drg/video
+    title="Bandages for Sprained Ankle, Head, Upper Arm, Collarbone — Scouting America"
+    url="https://www.youtube.com/watch?v=ybpr7nCelK0" >}}
 
 ### Bandage a head injury
 
@@ -34,7 +36,7 @@ Wrap a roller bandage in a spiral pattern up the arm, overlapping each turn, the
 
 A collarbone (clavicle) injury is usually immobilized with a sling and swathe: a sling supports the forearm, and a second wide bandage (the swathe) wraps around the body to pin the arm against the chest and stop it from swinging.
 
-<!-- IMAGE: Photo showing a completed sling-and-swathe bandage for a collarbone injury, with the sling supporting the forearm and the swathe binding the arm to the torso -->
+{{< drg/image src="images/sling-and-swathe-bandage.png" alt="A completed sling-and-swathe bandage for a collarbone injury, with the sling supporting the forearm and the swathe binding the arm to the torso" >}}
 
 {{< drg/tip >}}
 Practice each bandage on a real person, not a pillow or a chair. Cloth behaves differently against skin and joints than it does against a flat surface, and you won't know if a wrap is too loose or too tight until you feel it on an actual arm or ankle.

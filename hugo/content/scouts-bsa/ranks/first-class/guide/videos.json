@@ -1,0 +1,68 @@
+{
+  "rank": "first-class",
+  "videos": [
+    {
+      "id": "timber-hitch-tying",
+      "file": "req3b.md",
+      "url": "https://www.youtube.com/watch?v=LOnAUNz9RK8",
+      "title": "How to Tie a Timber Hitch — Scouting America",
+      "channel": "Scouting America",
+      "status": "working",
+      "value": "Shows the full tying motion — pass, tuck, twist, snug — that a Scout needs to see once before the timber hitch's quick-tie/quick-release pattern makes sense"
+    },
+    {
+      "id": "clove-hitch-tying",
+      "file": "req3b.md",
+      "url": "https://www.youtube.com/watch?v=RgV4Wm2vCaQ",
+      "title": "How to Tie a Clove Hitch — Scouting America",
+      "channel": "Scouting America",
+      "status": "working",
+      "value": "Shows the wrap-cross-wrap-tuck motion in real time, including how both ends are pulled together to tighten, which a written sequence can't fully convey"
+    },
+    {
+      "id": "square-lashing-tying",
+      "file": "req3c.md",
+      "url": "https://www.youtube.com/watch?v=3GVE0EPEc1o",
+      "title": "How to Tie the Square Lashing — AnimatedKnots",
+      "channel": "AnimatedKnots",
+      "status": "working",
+      "value": "Demonstrates the full alternating over-under wrap pattern and frapping turns for joining right-angle poles, timing that a still image can't carry"
+    },
+    {
+      "id": "shear-lashing-tying",
+      "file": "req3c.md",
+      "url": "https://www.youtube.com/watch?v=ZleaU84exEw",
+      "title": "How to Tie a Shear Lashing — Scouting America",
+      "channel": "Scouting America",
+      "status": "working",
+      "value": "Shows the loose parallel wraps and frapping turns needed for poles that must still pivot at the lashing point, such as tripod legs"
+    },
+    {
+      "id": "diagonal-lashing-tying",
+      "file": "req3c.md",
+      "url": "https://www.youtube.com/watch?v=F-RRn9ccf34",
+      "title": "How to Tie a Diagonal Lashing — Scouting America",
+      "channel": "Scouting America",
+      "status": "working",
+      "value": "Shows the initial timber hitch pulling two non-touching poles together before the crossing wraps and frapping turns, a step easy to miss in text alone"
+    },
+    {
+      "id": "ankle-figure-eight-wrap",
+      "file": "req7a.md",
+      "url": "https://www.youtube.com/watch?v=ybpr7nCelK0",
+      "title": "Bandages for Sprained Ankle, Head, Upper Arm, Collarbone — Scouting America",
+      "channel": "Scouting America",
+      "status": "working",
+      "value": "Demonstrates the figure-eight wrapping motion from toe to ankle from the official Scouting America source, showing overlap and tension a still image can't carry"
+    },
+    {
+      "id": "cpr-chest-compressions",
+      "file": "req7c.md",
+      "url": "https://www.youtube.com/watch?v=VZqG-tcZvfE",
+      "title": "How to do Compression-Only CPR — American Red Cross",
+      "channel": "American Red Cross",
+      "status": "working",
+      "value": "Shows hand placement, body position, and compression rate and depth from an authoritative safety source, a rhythm and pressure that words alone can't convey"
+    }
+  ]
+}

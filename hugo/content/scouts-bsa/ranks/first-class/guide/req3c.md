@@ -20,7 +20,9 @@ Each of these three lashings solves a different problem, based on how the poles 
 
 Use a square lashing when two poles cross and touch, forming a right angle — the classic joint for a camp table leg or a gateway crossbar.
 
-<!-- VIDEO: square-lashing-tying | Full tying motion for a square lashing joining two poles at a right angle, including frapping turns -->
+{{< drg/video
+    title="How to Tie the Square Lashing — AnimatedKnots"
+    url="https://www.youtube.com/watch?v=3GVE0EPEc1o" >}}
 
 1. Tie a [clove hitch](/scouts-bsa/ranks/first-class/guide/req3b/) around the base pole, just below where the second pole crosses it.
 2. Wrap the rope over the crossing pole, behind the base pole, over the crossing pole again, and behind the base pole again — repeat this pattern three or four times, keeping the wraps snug and in order.
@@ -31,7 +33,9 @@ Use a square lashing when two poles cross and touch, forming a right angle — t
 
 Use a shear lashing to join two or more poles running parallel to each other — the standard method for building a tripod's legs before you spread them apart, or for splicing two poles end to end for extra length.
 
-<!-- VIDEO: shear-lashing-tying | Full tying motion for a shear lashing joining two or more parallel poles, including frapping turns -->
+{{< drg/video
+    title="How to Tie a Shear Lashing — Scouting America"
+    url="https://www.youtube.com/watch?v=ZleaU84exEw" >}}
 
 1. Tie a clove hitch around both poles together.
 2. Wrap the rope around both poles seven or eight times, keeping the wraps loose enough to add frapping turns.
@@ -44,7 +48,9 @@ For a tripod, tie the shear lashing loosely enough that the poles can still pivo
 
 Use a diagonal lashing when two poles cross but have a gap between them at the crossing point — common in diagonal bracing, where the poles need to be pulled together before they'll hold.
 
-<!-- VIDEO: diagonal-lashing-tying | Full tying motion for a diagonal lashing pulling two crossing poles together, including frapping turns -->
+{{< drg/video
+    title="How to Tie a Diagonal Lashing — Scouting America"
+    url="https://www.youtube.com/watch?v=F-RRn9ccf34" >}}
 
 1. Tie a [timber hitch](/scouts-bsa/ranks/first-class/guide/req3b/) around both poles where they cross, then pull it tight to close the gap between them.
 2. Wrap the rope three or four times around one diagonal, then three or four times around the other diagonal.

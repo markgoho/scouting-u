@@ -20,7 +20,9 @@ Every lashing you'll tie for requirement 3c starts and ends with one of these tw
 
 The timber hitch grips a single pole tightly under a steady pull, but unlike the [taut-line hitch](/scouts-bsa/ranks/tenderfoot/guide/req3c/) you tied at Tenderfoot, it's not meant to hold that grip forever — it's designed to be started and finished quickly, which is exactly what you need at the start of a diagonal lashing.
 
-<!-- VIDEO: timber-hitch-tying | Full tying motion for the timber hitch around a single pole -->
+{{< drg/video
+    title="How to Tie a Timber Hitch — Scouting America"
+    url="https://www.youtube.com/watch?v=LOnAUNz9RK8" >}}
 
 1. Pass the rope around the pole.
 2. Tuck the working end back under the rope, then twist it around itself three or more times.
@@ -30,7 +32,9 @@ The timber hitch grips a single pole tightly under a steady pull, but unlike the
 
 The clove hitch is the workhorse of lashing — it starts most lashings, and often finishes them too, because it grips a pole firmly while staying easy to tie and untie by hand.
 
-<!-- VIDEO: clove-hitch-tying | Full tying motion for the clove hitch around a pole -->
+{{< drg/video
+    title="How to Tie a Clove Hitch — Scouting America"
+    url="https://www.youtube.com/watch?v=RgV4Wm2vCaQ" >}}
 
 1. Wrap the rope around the pole once.
 2. Cross over the first wrap and wrap around the pole a second time.
