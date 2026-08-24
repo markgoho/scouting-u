@@ -1,0 +1,83 @@
+{
+  "rank": "second-class",
+  "style_context": "Camping, fire building, navigation, wildlife, aquatics, and first aid skills for the Second Class rank",
+  "images": [
+    {
+      "id": "patrol-campsite-layout",
+      "file": "req1c.md",
+      "style": "diagram",
+      "verb_family": "create",
+      "description": "Clean overhead spatial diagram (bird's-eye plan view) of a wooded campsite clearing. A single tent icon sits on level ground near the center. Labeled distance indicators radiate outward: a wavy blue line labeled 'Water source — 200 ft' along one edge, a dashed brown line labeled 'Trail — 200 ft' along another edge, a small campfire icon labeled 'Kitchen area' at a moderate distance, and a small enclosure icon labeled 'Latrine' at a moderate distance on the opposite side from the kitchen. A dead tree icon with a small hazard mark is placed well outside the tent's radius, labeled 'Dead tree — avoid'. Simple top-down icons only, muted natural color palette, no photorealism, no people.",
+      "value": "Shows the spatial layout and relative distances between tent, water, trail, kitchen, and latrine that a bulleted list of rules cannot convey.",
+      "width": 1376,
+      "height": 768,
+      "v": "4b5282a7"
+    },
+    {
+      "id": "teepee-log-cabin-fire-lay",
+      "file": "req2c.md",
+      "style": "comparison",
+      "verb_family": "create",
+      "description": "Clean educational diagram, split-frame comparison of two fire lay structures built over a small tinder bundle in a fire ring: left panel shows a teepee fire lay, kindling sticks leaned together at an angle to form a cone shape, labeled 'Teepee'; right panel shows a log-cabin fire lay, kindling sticks stacked in alternating perpendicular layers forming a square structure, labeled 'Log Cabin'. Simple illustrated line-art style, muted natural wood tones, no flames yet, no people.",
+      "value": "Shows the two named wood-stacking shapes side by side, a spatial structure that the phrase 'a shape that lets air flow through' cannot convey on its own.",
+      "width": 1376,
+      "height": 768,
+      "v": "32396578"
+    },
+    {
+      "id": "compass-parts-labeled",
+      "file": "req3a.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "Clean educational diagram of a baseplate compass viewed from directly above on a flat surface, with three callout labels and lines pointing to distinct parts: the magnetized needle in the center, the rotating bezel ring marked with degree tick marks, and the clear rectangular baseplate edge. Exactly three labels total, simple and uncluttered, no hands, no map underneath.",
+      "value": "Shows the compass's three named parts in their actual spatial relationship, which a written description of a needle, bezel, and baseplate cannot convey as clearly as a labeled picture.",
+      "width": 1376,
+      "height": 768,
+      "v": "b3fa3bc3"
+    },
+    {
+      "id": "shadow-stick-method",
+      "file": "req3d.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "Clean educational diagram, overhead view of level ground with a single straight stick pushed vertically into the dirt, casting a shadow. Two small marks on the ground show the shadow tip at an earlier time and a later time, connected by a labeled straight line reading 'West' at one end and 'East' at the other. Simple illustrated style, muted earth tones, no people.",
+      "value": "Shows the two shadow-tip marks and the resulting east-west line in their actual spatial arrangement, which the written steps alone leave abstract.",
+      "width": 1376,
+      "height": 768,
+      "v": "3d6fd8a4"
+    },
+    {
+      "id": "polaris-big-dipper",
+      "file": "req3d.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "Clean night-sky diagram on a dark navy background showing the Big Dipper constellation as connected white dots, with the two outer 'pointer' stars of the cup highlighted and a dashed line extending from them, at roughly five times their separation, to a single labeled star reading 'Polaris'. Simple astronomical illustration style, no landscape or horizon.",
+      "value": "Shows the actual star pattern and sightline used to locate Polaris from the Big Dipper, a spatial relationship that a written description of 'five times the distance' cannot convey without seeing the sky.",
+      "width": 1376,
+      "height": 768,
+      "v": "46ca5b94"
+    },
+    {
+      "id": "common-animal-tracks",
+      "file": "req4.md",
+      "style": "comparison",
+      "verb_family": "identify",
+      "description": "Clean field-guide style illustrated comparison of four common North American mammal track prints side by side on a plain light background, each labeled with its animal name (for example: deer, raccoon, squirrel, coyote), each track drawn at accurate relative scale to the others and to a small ruler icon showing size in inches. Precise linework, no color photography, no people.",
+      "value": "Lets a Scout compare track shapes and relative sizes directly, since a written description of paw-print patterns is hard to distinguish between species without seeing them side by side.",
+      "width": 1376,
+      "height": 768,
+      "v": "d7b81f4e"
+    },
+    {
+      "id": "burn-severity-comparison",
+      "file": "req6a.md",
+      "style": "illustrated",
+      "verb_family": "describe",
+      "description": "Clean medical field-guide style illustrated comparison, three panels showing cross-section skin diagrams (not photographs of real injuries): left panel labeled 'First-degree' shows only the top skin layer reddened; middle panel labeled 'Second-degree' shows the top two skin layers affected with a small blister; right panel labeled 'Third-degree' shows all skin layers affected down to the tissue beneath, shown in a clinical anatomical illustration style, not graphic or realistic. Muted clinical color palette, no people, no real photographic injury imagery.",
+      "value": "Shows the layered skin depth that distinguishes each burn degree, a cross-section relationship that a written symptom list cannot convey as clearly as a diagram.",
+      "width": 1376,
+      "height": 768,
+      "v": "16d78f15"
+    }
+  ]
+}

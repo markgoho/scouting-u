@@ -1,0 +1,41 @@
+{
+  "rank": "second-class",
+  "videos": [
+    {
+      "id": "sheet-bend-tying",
+      "file": "req2f.md",
+      "url": "https://www.youtube.com/watch?v=vsj7riFkulE",
+      "title": "Sheet Bend Knot | How to tie a Sheet Bend Knot — AnimatedKnots",
+      "channel": "AnimatedKnots",
+      "status": "working",
+      "value": "Shows the full tying motion for joining two ropes of different thickness, including the tuck-and-snug step that a written sequence can't fully convey"
+    },
+    {
+      "id": "bowline-tying",
+      "file": "req2g.md",
+      "url": "https://www.youtube.com/watch?v=YXRnPES0Qec",
+      "title": "How to Tie a Bowline Knot — AnimatedKnots",
+      "channel": "AnimatedKnots",
+      "status": "working",
+      "value": "Shows the full tying motion for the bowline from a trusted knot reference, including how the loop is snugged so it holds under load but stays easy to untie"
+    },
+    {
+      "id": "reaching-throwing-rescue",
+      "file": "req5c.md",
+      "url": "https://www.youtube.com/watch?v=exhsd2YhO58",
+      "title": "Water Rescue Methods: Reach or Throw, Don't Go — American Red Cross",
+      "channel": "American Red Cross",
+      "status": "working",
+      "value": "Demonstrates braced arm-reach and throwing rescue technique from an authoritative safety source, showing body positioning that a still image can't capture"
+    },
+    {
+      "id": "direct-pressure-bleeding-control",
+      "file": "req6b.md",
+      "url": "https://www.youtube.com/watch?v=YJB3fI3T1oo",
+      "title": "How to use Direct Pressure to Control Life-Threatening Bleeding — American Red Cross",
+      "channel": "American Red Cross",
+      "status": "working",
+      "value": "Shows hand placement and continuous pressure technique for controlling severe bleeding from an authoritative safety source"
+    }
+  ]
+}
