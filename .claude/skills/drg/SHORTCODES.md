@@ -117,10 +117,9 @@ problem-solving. Aim for at least one or two per guide.
 - `drg/download` with `type="printable"` links to an internal worksheet
   page; omit `type` for an external downloadable file.
 - `drg/video` embeds YouTube via oEmbed-style iframe when the URL matches
-  `youtube.com`/`youtu.be`; any other URL falls back to a plain link.
-  There is no video-verification pipeline in this repo (rank JSON has no
-  `resources` field to source official videos from) — only link videos
-  you have independently confirmed exist and are embeddable.
+  `youtube.com`/`youtu.be`; any other URL falls back to a plain link. Don't
+  place one by hand while writing — see "Images and Videos" below and the
+  `drg-videos` skill for the discovery/verification pipeline.
 
 ## Extended Learning cards
 
@@ -169,13 +168,14 @@ only entry point.
 These mbu shortcodes/features do not apply to ranks and have no theme
 equivalent here — do not reference or attempt to use them:
 
-- Official per-requirement resources, `drg/video`/`drg/external-link` as
-  a *mandatory* per-requirement baseline, YouTube oEmbed verification —
-  rank JSON has no `resources` field (`rank.schema.json` forbids it).
+- Official per-requirement resources as a JSON-sourced baseline — rank
+  JSON has no `resources` field (`rank.schema.json` forbids it). `drg/video`
+  and `drg/external-link` are never a *mandatory* per-requirement baseline
+  here either; most pages have nothing that needs one.
 - `option` param on `drg/requirement`, "Choose One" overview pages,
   `subrequirement_mode` handling — every rank group is complete-all.
 
-## Images
+## Images and Videos
 
 ```markdown
 {{</* drg/image src="images/compass-parts-labeled.png" alt="Baseplate compass with all parts labeled" */>}}
@@ -183,6 +183,33 @@ equivalent here — do not reference or attempt to use them:
 
 `drg/image` resolves `src` against the guide's `images.json` manifest, not a
 local page resource — see the `drg-images` skill for placeholder syntax,
-the Image Value Test, and the full generation/upload workflow. Do not add
-image placeholders or shortcodes while writing content in this skill; that
-happens as a separate pass after a guide's text is finished.
+the Image Value Test, and the full generation/upload workflow.
+
+`drg/video` (or `drg/external-link` when embedding is disabled) points at a
+YouTube URL verified and placed by the `drg-videos` skill — see that skill
+for placeholder syntax, the Video Value Test, and discovery/verification.
+
+Do not add image or video placeholders or shortcodes while writing content
+in this skill; that happens as separate passes after a guide's text is
+finished.
+
+**Choosing image vs. video.** Both start from the same question — does this
+requirement have something worth showing, not just telling? — but split on
+what kind of thing it is:
+
+- **A single moment or spatial relationship** — labeled parts, a finished
+  state, a correct-vs-incorrect snapshot, a spatial layout — is an *image*.
+  A still frame conveys it completely.
+- **A multi-step motion or procedure where sequence, timing, or hand
+  movement matters** — tying a knot, a rescue technique, CPR compressions,
+  a casting stroke — is a *video candidate*, not a multi-panel image
+  sequence. Stringing several static panels together to fake motion is the
+  antipattern this rule exists to stop: it either omits the transitions
+  that are the actual hard part, or bloats into more panels than a reader
+  will study. If no authoritative video exists for the concept, fall back
+  to one image of the single most failure-prone moment in the motion (per
+  the `drg-videos` skill's "no video found" guidance) rather than leaving
+  the concept uncovered.
+
+When in doubt while writing, drop whichever placeholder matches, and let
+the dedicated skill make the final call.

@@ -22,6 +22,10 @@ Each of these three knots does a different job, and knowing which one to reach f
 
 - **Taut-line hitch** — a sliding knot that holds firm under load but can be adjusted by hand without untying it. This is the knot behind almost every tent guyline, letting you tighten or loosen the line as the wind picks up or the ground shifts overnight.
 
+{{< drg/video
+    title="Scout 4a. Knots (Square Knot, Two Half-Hitches, and Taut-Line Hitch) — Scouting 101"
+    url="https://www.youtube.com/watch?v=yJtD2SR-L2k" >}}
+
 {{< drg/tip >}}
 Learn these by feel, not just by sight. Practice tying each one with your eyes closed once you have the steps down — that's closer to what it's actually like tying a taut-line hitch on a tent in the dark.
 {{< /drg/tip >}}

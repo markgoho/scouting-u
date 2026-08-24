@@ -36,12 +36,23 @@ requirement pages (Scout spirit, board of review, position of
 responsibility) have nothing visual to teach at all.
 
 **High-value:** a labeled diagram (First Class badge parts), correct-vs-incorrect
-comparison (proper knot dressing vs. a slipped one), a step-by-step
-technique sequence (tying a square knot), or a spatial diagram (campsite
-layout). **Low-value:** a generic activity photo, a mood/scene-setting shot,
-or anything redundant with text already on the page. See
+comparison (proper knot dressing vs. a slipped one), an annotated single
+moment (hand position and blade angle mid-cut), or a spatial diagram
+(campsite layout). **Low-value:** a generic activity photo, a mood/scene-setting
+shot, or anything redundant with text already on the page. See
 `IMAGE-STYLES.md` for the full comparison table and which visual style each
 case calls for.
+
+**Not an image at all — a video candidate.** If what needs teaching is a
+multi-step motion or procedure where sequence, timing, or hand movement
+matters (tying a knot start to finish, a rescue technique, CPR
+compressions), a static image can't carry it and a strip of panels is the
+wrong fix — stringing stills together drops the transitions, which are
+usually the actual hard part. Drop a `<!-- VIDEO: -->` placeholder instead
+and leave it for the `drg-videos` skill; see `SHORTCODES.md`'s "Choosing
+image vs. video" for the full decision rule. Only fall back to a single
+annotated image of the failure-prone moment if `drg-videos` can't find an
+authoritative video for it.
 
 **Placement rule:** every image appears **immediately after the paragraph
 or section it illustrates**, never clustered at the bottom of a page before

@@ -10,9 +10,8 @@ idea passes the Value Test.
 |---|---|---|
 | Labeled diagram | First Class badge with trefoil/eagle/scroll/knot/stars labeled | Reader learns part names by studying the image |
 | Correct vs incorrect | Proper vs. loose square-knot dressing, side-by-side | Reader immediately sees what to do and what to avoid |
-| Step-by-step sequence | 4 panels showing how to tie a bowline | Reader can follow the procedure |
 | Spatial diagram | Campsite layout with tent/fire/latrine distances | Spatial relationships impossible to convey in text |
-| Annotated technique | Compass bearing with arrow showing sighting line | Reader learns the physical motion |
+| Annotated single moment | Compass bearing with arrow showing sighting line, or a hand mid-cut with blade angle called out | Reader learns the physical position or motion at its most important instant |
 
 | Type | Example | Why it fails |
 |---|---|---|
@@ -20,6 +19,7 @@ idea passes the Value Test.
 | Mood/scene-setting | "Beautiful campsite at sunset" | Decorative, adds no educational content |
 | Redundant to text | Photo of a packed backpack after every item is already listed | Reader already has the information |
 | Decorated text | Colored bars restating a list already in prose | Visual formatting of content already on the page |
+| Multi-panel motion sequence | 4 panels showing how to tie a bowline start to finish | This is a *video* candidate, not an image — see the `drg-videos` skill. Panels drop the transitions between steps, which is usually the hard part |
 
 ## Style selection
 
@@ -40,10 +40,12 @@ Showing people doing things → `photo`/`annotated-photo`. Contrasting two
 things → `comparison`.
 
 Verb-family defaults (from a placeholder's `verb:` hint or a requirement's
-own wording): `show` → step-wise photo/annotated-photo; `describe` →
-labeled diagram/cross-section; `identify` → identification grid/comparison;
-`create` → spatial diagram/before-after. Defaults, not rigid rules — cut an
-image even with a `verb:` hint if it fails the Value Test.
+own wording): `show` → posed photo/annotated-photo at a single key moment
+(a multi-step `show` is a `drg-videos` candidate instead — see the Video
+Value Test note above); `describe` → labeled diagram/cross-section;
+`identify` → identification grid/comparison; `create` → spatial
+diagram/before-after. Defaults, not rigid rules — cut an image even with a
+`verb:` hint if it fails the Value Test.
 
 ## Generator quirks — write descriptions around these
 

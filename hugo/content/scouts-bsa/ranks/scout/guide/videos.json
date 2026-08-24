@@ -1,0 +1,23 @@
+{
+  "rank": "scout",
+  "videos": [
+    {
+      "id": "square-knot-two-half-hitches-taut-line-tying",
+      "file": "req4a.md",
+      "url": "https://www.youtube.com/watch?v=yJtD2SR-L2k",
+      "title": "Scout 4a. Knots (Square Knot, Two Half-Hitches, and Taut-Line Hitch) — Scouting 101",
+      "channel": "Scouting 101",
+      "status": "working",
+      "value": "Shows the full tying motion for all three knots in sequence, including the transitions a static image would skip"
+    },
+    {
+      "id": "whip-fuse-rope-ends",
+      "file": "req4b.md",
+      "url": "https://www.youtube.com/watch?v=CTcXPfFph5Y",
+      "title": "WILDsides: How to Whip and Fuse a Rope — WILDerland",
+      "channel": "WILDerland",
+      "status": "working",
+      "value": "Shows the wrapping and tucking motion of whipping and the timing of fusing over a flame, both of which a still image can't carry"
+    }
+  ]
+}

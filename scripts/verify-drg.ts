@@ -72,6 +72,7 @@ async function verifyDrg(): Promise<void> {
   checkPlaceholders({ pages, failures: placeholderFailures });
   checkVocabulary({ pages, failures: vocabularyFailures });
   await checkImages({ pages, failures: structuralFailures });
+  await checkVideos({ pages, failures: structuralFailures });
 
   report({ structuralFailures, placeholderFailures, vocabularyFailures });
 }
@@ -310,6 +311,64 @@ async function checkImages({
     );
     if (!referenced) {
       failures.push(`images.json id "${id}" has no drg/image shortcode referencing it.`);
+    }
+  }
+}
+
+async function checkVideos({
+  pages,
+  failures,
+}: {
+  pages: GuidePageFile[];
+  failures: string[];
+}): Promise<void> {
+  const manifestPath = join(guideDirectory, "videos.json");
+  const manifestFile = Bun.file(manifestPath);
+  if (!(await manifestFile.exists())) {
+    return;
+  }
+
+  const manifest = JSON.parse(await manifestFile.text()) as {
+    videos: Array<{ id: string; url: string }>;
+  };
+  const seenIds = new Set<string>();
+  for (const video of manifest.videos) {
+    if (seenIds.has(video.id)) {
+      failures.push(`videos.json: duplicate id "${video.id}".`);
+    }
+    seenIds.add(video.id);
+  }
+
+  const urlCounts = new Map<string, number>();
+  for (const page of pages) {
+    const orphanPlaceholders = (page.content.match(/<!-- VIDEO:/g) ?? []).length;
+    if (orphanPlaceholders > 0) {
+      failures.push(
+        `${pageSlugFromFile(page.file) || "_index"}: ${orphanPlaceholders} unconverted <!-- VIDEO: --> placeholder(s) remain — videos.json exists, so these should already be drg/video or drg/external-link shortcodes.`,
+      );
+    }
+    for (const match of page.content.matchAll(/{{<\s*drg\/(?:video|external-link)\b[\s\S]*?>}}/g)) {
+      const urlMatch = match[0].match(/url="([^"]+)"/);
+      if (!urlMatch) continue;
+      const url = urlMatch[1]!;
+      if (!/youtube\.com|youtu\.be/.test(url)) continue;
+      urlCounts.set(url, (urlCounts.get(url) ?? 0) + 1);
+    }
+  }
+
+  const manifestUrls = new Set(manifest.videos.map(video => video.url));
+  for (const [url, count] of urlCounts) {
+    if (count > 1) {
+      failures.push(`video url "${url}" is used ${count} times — every url must be unique across the guide.`);
+    }
+    if (!manifestUrls.has(url)) {
+      failures.push(`video url "${url}" has no entry in videos.json.`);
+    }
+  }
+
+  for (const video of manifest.videos) {
+    if (!urlCounts.has(video.url)) {
+      failures.push(`videos.json id "${video.id}" has no drg/video or drg/external-link shortcode referencing it.`);
     }
   }
 }
