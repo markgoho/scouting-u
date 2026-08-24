@@ -1,0 +1,129 @@
+{
+  "rank": "tenderfoot",
+  "style_context": "Camping, cooking, tools, first aid, hiking, and fitness skills for the Tenderfoot rank",
+  "images": [
+    {
+      "id": "packed-backpack-layout",
+      "file": "req1a.md",
+      "style": "annotated-photo",
+      "description": "Photorealistic photo of an ordinary soft-sided backpack (no external frame, no hip belt) on a picnic table, viewed from a three-quarter angle, unzipped to show its main compartment: folded clothing (a t-shirt and socks) filling most of the visible space, with the top of a stuffed sleeping bag visible packed down low at the bottom near the back panel. A rolled sleeping pad is strapped to the outside top of the pack with external compression straps. A water bottle sits in an external mesh side pocket on the outside of the pack. A folded map peeks out of the top lid pocket. EXACTLY four callout labels total, each pointing to a different single item, and no other labels of any kind: 'Clothing' pointing to the folded clothes inside; 'Sleeping bag, packed low inside' pointing to the bag at the bottom; 'Sleeping pad, strapped outside' pointing to the rolled pad on the exterior; 'Water bottle, side pocket' pointing to the bottle in the mesh pocket. CRITICAL: each callout box contains its short label text exactly ONCE, on one or two lines — never repeat any word or line within the same callout box. Do not add any other callouts — no labels about straps, comfort, or any other feature.",
+      "value": "Shows exactly where each category of gear belongs inside the pack, a spatial layout that a bulleted packing list cannot convey.",
+      "width": 1376,
+      "height": 768,
+      "v": "6db76dba"
+    },
+    {
+      "id": "three-pot-dishwashing-method",
+      "file": "req2b.md",
+      "style": "diagram",
+      "verb_family": "describe",
+      "description": "Clean educational diagram of three cooking pots arranged in a row on a picnic table or the ground, viewed from a slight angle, connected by simple left-to-right flow arrows: Pot 1 labeled 'Wash' showing soapy bubbles and a sponge; Pot 2 labeled 'Rinse' showing a plate half-submerged in plain clear water; Pot 3 labeled 'Sanitize' showing a single white sanitizing tablet being dropped into water. Exactly three pots, exactly three labels total, and nothing else — do NOT include a page title, heading, or banner of any kind above or around the pots.",
+      "value": "Shows all three pots side by side with what belongs in each, a sequence that's easy to lose track of from a numbered list alone.",
+      "width": 1376,
+      "height": 768,
+      "v": "47eb54fb"
+    },
+    {
+      "id": "tent-rainfly-clearance",
+      "file": "req1b.md",
+      "style": "comparison",
+      "description": "Photorealistic side-by-side photo comparison of a real two-person dome tent: left photo shows the rainfly sagging and touching the tent body at multiple points, labeled INCORRECT; right photo shows the same tent with the rainfly properly staked out with a clear air gap all around, labeled CORRECT. Real outdoor daytime campsite setting, no people.",
+      "value": "Makes the rainfly contact problem, invisible in a written description, immediately visible side by side with the correct result.",
+      "width": 1376,
+      "height": 768,
+      "v": "8e8013ab"
+    },
+    {
+      "id": "blood-circle-safety-zone",
+      "file": "req3d.md",
+      "style": "annotated-photo",
+      "description": "Photorealistic overhead photo of a Scout in a clean field uniform crouched and whittling with a knife on the ground, with a dashed circle overlay drawn around them at arm's-length radius labeled 'clearance zone', and another person standing safely outside the circle.",
+      "value": "Shows the actual size and shape of the safety clearance radius from a bird's-eye view, which a phrase like 'an arm's length' cannot convey spatially.",
+      "width": 1376,
+      "height": 768,
+      "v": "6ba5db32"
+    },
+    {
+      "id": "knife-sharpening-angle",
+      "file": "req3d.md",
+      "style": "annotated-photo",
+      "description": "Photorealistic close-up photo of a hand drawing a knife blade across a whetstone during sharpening, with a small angle-indicator overlay showing the blade held at roughly 15-20 degrees from the stone's surface, and an arrow overlay showing the direction of the stroke. Hand and knife only, no face.",
+      "value": "Shows the actual sharpening angle against the stone, a precise spatial relationship that a number like '15-20 degrees' is hard to picture without seeing it.",
+      "width": 1376,
+      "height": 768,
+      "v": "697e86be"
+    },
+    {
+      "id": "nosebleed-head-position-comparison",
+      "file": "req4a.md",
+      "style": "comparison",
+      "description": "Photorealistic side-by-side photo comparison, side profile view: left photo shows a person's correct position for a nosebleed, head tilted forward, pinching the soft part of the nose, labeled CORRECT; right photo shows the incorrect position, head tilted back, labeled INCORRECT. Plain neutral background.",
+      "value": "Makes the head-tilt direction, the one detail people get backward, immediately visible side by side with the wrong version.",
+      "width": 1376,
+      "height": 768,
+      "v": "67cdabbc"
+    },
+    {
+      "id": "tick-removal-technique",
+      "file": "req4a.md",
+      "style": "comparison",
+      "verb_family": "show",
+      "description": "Photorealistic side-by-side close-up photo comparison of a hand using fine-tipped tweezers on skin: left photo shows the correct technique, tweezers grasping close to the skin with a straight upward pull, labeled CORRECT; right photo shows the incorrect technique, a twisting motion, labeled INCORRECT. Close-up on hand and tweezers only, no face.",
+      "value": "Makes the straight-pull versus twisting distinction visible at a glance, a fine hand-motion detail that written instructions are easy to misjudge.",
+      "width": 1376,
+      "height": 768,
+      "v": "ce3b3410"
+    },
+    {
+      "id": "heimlich-maneuver-hand-position",
+      "file": "req4a.md",
+      "style": "annotated-photo",
+      "verb_family": "show",
+      "description": "Photorealistic macro close-up photo, framed as a tight torso-only crop: a pair of clasped fists positioned just above the navel of a shirt-covered stomach, forearms wrapping in from behind, in the Heimlich maneuver grip. The photograph shows ONLY a narrow horizontal band of the body from mid-chest to hips — no shoulders, no neck, no head, no face of either person anywhere in the frame, as if the camera were held at stomach height a few inches away. Two callout labels with arrows: one marking the fist placement, one marking the upward-and-inward thrust direction. No names, ages, or other demographic descriptors anywhere in the image; callout labels name only the technique.",
+      "value": "Shows the exact fist position and thrust angle relative to the body that a written description like 'above the navel' leaves ambiguous.",
+      "width": 1376,
+      "height": 768,
+      "v": "1e1fbf37"
+    },
+    {
+      "id": "poison-ivy-oak-sumac-leaf-comparison",
+      "file": "req4b.md",
+      "style": "comparison",
+      "description": "Photorealistic three-panel close-up botanical photo comparison of real leaves on a plain neutral background: poison ivy's glossy three-leaflet cluster, poison oak's lobed three-leaflet cluster, and poison sumac's row of paired leaflets ending in a single leaflet. Each panel labeled with the plant name. Natural lighting, no people.",
+      "value": "Lets a Scout compare the three plants' leaf shapes directly, since 'leaves of three' alone doesn't distinguish poison ivy from oak or explain why sumac looks different.",
+      "width": 1376,
+      "height": 768,
+      "v": "f8e74197"
+    },
+    {
+      "id": "road-hiking-position-diagram",
+      "file": "req5c.md",
+      "style": "photo",
+      "description": "TRUE NADIR drone photo: camera pointing straight down at the ground with zero tilt, as if mounted on the belly of a drone hovering directly above — NOT an oblique or angled aerial view. The road must render as a perfectly straight vertical band running top to bottom with its two edges parallel to each other (no perspective convergence, no vanishing point, no visible horizon or tree canopy — this is a top-down plan view, not a 3/4 aerial shot). The road has a paved travel lane with a painted white edge line, and beyond that edge line, a gravel or dirt shoulder bordered by grass. A line of Scouts in bright or reflective vests walks in strict single file on the unpaved gravel/dirt shoulder, entirely OUTSIDE and to the left of the white edge line — none of them are on the paved travel lane. A car occupies the paved lane, positioned ahead of the line of Scouts. The gap between the Scouts (on the shoulder) and the car (on the pavement) must be clearly visible.",
+      "value": "Shows the correct positioning relative to the road and oncoming traffic from above, a spatial layout hard to picture from a text rule alone.",
+      "width": 1376,
+      "height": 768,
+      "v": "cfc37a17"
+    },
+    {
+      "id": "sit-and-reach-test-position",
+      "file": "req6a.md",
+      "style": "photo",
+      "description": "Photorealistic side-view photo of a Scout seated on the ground in the back-saver sit-and-reach test position: one leg extended straight forward, the other leg bent with the foot flat, reaching forward with both hands toward the extended foot, back straight.",
+      "value": "Shows the correct seated leg and reach position for the test, a body posture that's easy to get wrong without seeing it.",
+      "width": 1376,
+      "height": 768,
+      "v": "b1b3ae5c"
+    },
+    {
+      "id": "flag-display-union-position",
+      "file": "req7a.md",
+      "style": "annotated-photo",
+      "description": "Photorealistic photo of a real American flag displayed flat against a wall, viewed from the observer's perspective, with the blue star field (the union) correctly positioned in the upper left corner from the viewer's point of view, and a small label overlay marking 'observer's left'.",
+      "value": "Shows exactly which corner the union belongs in from the viewer's perspective, a spatial rule that's easy to flip backward without seeing it.",
+      "width": 1376,
+      "height": 768,
+      "v": "81a8ca83"
+    }
+  ]
+}

@@ -84,6 +84,35 @@ A requirement's `list` field (present on some leaves, e.g. Tenderfoot
 shortcode block — no shortcode wraps it. Write teaching content addressing
 each list item; don't just repeat the list back.
 
+## Strict Requirement-Verb Interpretation
+
+Read every requirement's verb literally and hold your own advice to it —
+don't let teaching content drift toward adjacent, easier, or more
+convenient actions that don't actually satisfy the text. "Assist in
+preparing a meal" means hands in the actual cooking (chopping, mixing,
+tending heat) — it does not mean planning the menu beforehand or serving
+the food afterward, even though both are real patrol jobs that happen
+around the same meal. "Show" means demonstrate physically, not describe.
+"Explain" or "describe" does not license "and also do the thing" unless
+the requirement separately says so. When a body section lists ways to
+satisfy a requirement, each one must independently pass a strict reading
+of the requirement's own verb and object — if an example only relates to
+the topic rather than the specific action required, cut it, and say
+explicitly when a nearby-but-different action (planning, serving,
+watching) does *not* count, so the reader doesn't substitute it by
+mistake.
+
+The same discipline applies to any quantity, distance, duration, or count
+a requirement states — never add to it or take away from it. A stated
+number is a floor, not a target: "walk one mile" is satisfied by one mile
+or more, never by three-quarters of a mile, and the guide must not imply
+otherwise in either direction. Don't round a number up ("plan for at
+least 90 minutes" when the text says one hour) to sound thorough, and
+don't round it down or soften it ("a good chunk of a mile," "close to an
+hour") to sound achievable. State the requirement's own number plainly,
+and if you note that exceeding it is fine, don't imply that falling short
+of it is also fine.
+
 ## Named Artifact Investigation
 
 Some requirements name a formal artifact — a code, oath, law, acronym, or
@@ -122,13 +151,23 @@ just prose describing them abstractly.
 
 ## Worksheets
 
-`.req-worksheet` is styled and ready in uni-theme's `drg-print.css`. Use
-the test: would a Scout actually print this, fill it in, and bring it to a
-conversation? "Keep a log," "plan a menu," "prepare a budget" -type
-requirements are textbook triggers. Never inline a fillable template as a
-markdown table with blank cells or underscore blanks — that's a sign a
-worksheet page is needed instead. See SHORTCODES.md for the worksheet file
-convention.
+**Not currently viable in scouting-u.** `.req-worksheet` markup (divs,
+tables, a print button) is raw HTML, and this repo has neither goldmark's
+`unsafe` render option nor `.html` content files enabled (`security.
+allowContent` in `hugo.toml` blocks `text/html`) — any raw HTML written
+into a `.md` body is silently stripped by Hugo's default markdown
+renderer, collapsing the whole worksheet to bare text. Confirmed by
+building a real worksheet page for Tenderfoot 6a/6b/6c and inspecting the
+rendered output. Don't build one without first fixing this at the theme/
+config level (a real change, not a content-authoring one) and confirming
+a test worksheet survives a real `hugo --minify` build.
+
+Until then, when a requirement would otherwise earn a worksheet ("keep a
+log," "plan a menu," "prepare a budget" -type asks), tell the Scout to
+keep their own log or notes rather than inlining a fillable template as a
+markdown table with blank cells or underscore blanks — that table-with-
+blanks pattern is still wrong for the same reason it always was (it reads
+as a workbook), just don't reach for a worksheet page as the fix here.
 
 ## Reader-Facing Copy Safety Check
 
