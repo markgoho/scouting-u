@@ -71,6 +71,10 @@ Choking cuts off breathing fast, and hesitation costs time you don't have.
 
 {{< drg/image src="images/heimlich-maneuver-hand-position.png" alt="Annotated photo showing correct hand position, fist placement above the navel, and upward thrust angle for abdominal thrusts on a choking person" >}}
 
+{{< drg/video
+    title="What to Do When an Adult is Choking (Responsive) — American Red Cross"
+    url="https://www.youtube.com/watch?v=8R3RWC-xx1I" >}}
+
 {{< drg/did-you-know >}}
 Good Samaritan laws in most states protect you from liability when you help someone in a medical emergency in good faith — as long as you don't go beyond what your training covers.
 {{< /drg/did-you-know >}}

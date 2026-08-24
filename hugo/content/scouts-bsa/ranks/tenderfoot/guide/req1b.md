@@ -29,6 +29,10 @@ Pitching your own tent is what turns "I have a tent" into "I can shelter myself.
 3. Stake out the corners first, then the rainfly, pulling guy lines taut but not overstretched.
 4. Check that the rainfly doesn't touch the tent body anywhere — contact points let rain soak through.
 
+{{< drg/video
+    title="How to pitch a tent (in 5 minutes!) | Fjällräven Campfire Academy — Fjällräven"
+    url="https://www.youtube.com/watch?v=tZUOQPS8dPQ" >}}
+
 {{< drg/image src="images/tent-rainfly-clearance.png" alt="Side-by-side comparison of a tent with the rainfly sagging against the tent body (wrong) versus a properly staked rainfly with a clear air gap (correct)" >}}
 
 {{< drg/tip >}}

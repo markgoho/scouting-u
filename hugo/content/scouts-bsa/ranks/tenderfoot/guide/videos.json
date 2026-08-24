@@ -1,0 +1,59 @@
+{
+  "rank": "tenderfoot",
+  "videos": [
+    {
+      "id": "tent-pitching",
+      "file": "req1b.md",
+      "url": "https://www.youtube.com/watch?v=tZUOQPS8dPQ",
+      "title": "How to pitch a tent (in 5 minutes!) | Fjällräven Campfire Academy",
+      "channel": "Fjällräven",
+      "status": "working",
+      "value": "Shows the full multi-step process of pitching a tent alone — poles, footprint, staking corners, then the rainfly — a sequence a still image only shows the end result of."
+    },
+    {
+      "id": "square-knot-tying",
+      "file": "req3a.md",
+      "url": "https://www.youtube.com/watch?v=8SgNwPElhdA",
+      "title": "Scouting America: How to Tie and Use a Square Knot (Basic Approach)",
+      "channel": "Troop Leader (Scouting America)",
+      "status": "working",
+      "value": "Shows the full tying motion for the square knot and a practical use, hand movements a static diagram doesn't capture."
+    },
+    {
+      "id": "two-half-hitches-tying",
+      "file": "req3b.md",
+      "url": "https://www.youtube.com/watch?v=sHFvwiIV9W8",
+      "title": "Scouting America: How to Tie Two Half Hitches",
+      "channel": "Troop Leader (Scouting America)",
+      "status": "working",
+      "value": "Shows the full tying motion for two half-hitches and how each hitch snugs against the one before it as it's tied."
+    },
+    {
+      "id": "taut-line-hitch-tying",
+      "file": "req3c.md",
+      "url": "https://www.youtube.com/watch?v=ZO3rXliroZc",
+      "title": "Scouting America: How to Tie a Taut-Line Hitch",
+      "channel": "Troop Leader (Scouting America)",
+      "status": "working",
+      "value": "Shows the full tying motion for the taut-line hitch and how sliding it along the main line adjusts tension, a dynamic action a still image can't convey."
+    },
+    {
+      "id": "heimlich-maneuver",
+      "file": "req4a.md",
+      "url": "https://www.youtube.com/watch?v=8R3RWC-xx1I",
+      "title": "What to Do When an Adult is Choking (Responsive)",
+      "channel": "American Red Cross",
+      "status": "working",
+      "value": "Shows the full grip, positioning behind the person, and the repeated upward-and-inward thrust motion for abdominal thrusts, timing a still photo can't convey."
+    },
+    {
+      "id": "flag-folding",
+      "file": "req7a.md",
+      "url": "https://www.youtube.com/watch?v=NguyAvD4Dp8",
+      "title": "Folding the American Flag - Boy Scouts of America Handbook Hacks",
+      "channel": "BSA Communications",
+      "status": "working",
+      "value": "Shows the full triangular folding sequence performed by two people from start to finish, a multi-step process a single photo can't capture."
+    }
+  ]
+}

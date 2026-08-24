@@ -16,6 +16,10 @@ Demonstrate a practical use of the square knot.
 
 You tied the square knot for [Scout requirement 4a](/scouts-bsa/ranks/scout/guide/req4a/) to earn Scout rank. Here, tying it correctly on flat ground isn't enough — you need to put it to work joining two ropes of the same thickness for a real job.
 
+{{< drg/video
+    title="Scouting America: How to Tie and Use a Square Knot (Basic Approach) — Troop Leader"
+    url="https://www.youtube.com/watch?v=8SgNwPElhdA" >}}
+
 ## A Practical Use
 
 Good options for this requirement include:

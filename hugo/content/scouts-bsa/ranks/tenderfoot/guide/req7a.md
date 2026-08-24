@@ -34,6 +34,11 @@ The American flag carries a set of etiquette rules that go well beyond "hang it 
 
 The flag is folded into a triangle, star field showing, through a series of repeated triangular folds starting from the striped end. Practice this with a partner — one person holds one end while the other folds — since it's difficult to do cleanly alone.
 
+{{< drg/video
+    title="Folding the American Flag - Boy Scouts of America Handbook Hacks — BSA Communications"
+    url="https://www.youtube.com/watch?v=NguyAvD4Dp8" >}}
+
+
 {{< drg/tip >}}
 Practice the fold with an old or practice flag first. Folding a flag incorrectly in front of a group is a common — and easily avoidable — first-time mistake.
 {{< /drg/tip >}}

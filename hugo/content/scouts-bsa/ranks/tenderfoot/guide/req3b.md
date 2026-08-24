@@ -16,6 +16,10 @@ Demonstrate a practical use of two half-hitches.
 
 Two half-hitches — a knot you also tied for [Scout requirement 4a](/scouts-bsa/ranks/scout/guide/req4a/) — is one of the most useful knots in camp because it holds firm under a steady pull but still unties easily by hand, even after that pull has been on it for hours.
 
+{{< drg/video
+    title="Scouting America: How to Tie Two Half Hitches — Troop Leader"
+    url="https://www.youtube.com/watch?v=sHFvwiIV9W8" >}}
+
 ## A Practical Use
 
 Try one of these real applications:

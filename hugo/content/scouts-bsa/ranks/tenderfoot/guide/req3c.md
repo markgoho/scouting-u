@@ -16,6 +16,10 @@ Demonstrate a practical use of the taut-line hitch.
 
 The taut-line hitch — the third knot from [Scout requirement 4a](/scouts-bsa/ranks/scout/guide/req4a/) — earns its keep on exactly one job: holding a line taut while still letting you adjust that tension by hand, without ever untying it.
 
+{{< drg/video
+    title="Scouting America: How to Tie a Taut-Line Hitch — Troop Leader"
+    url="https://www.youtube.com/watch?v=ZO3rXliroZc" >}}
+
 ## A Practical Use
 
 The classic application is guying out a tent or tarp:
