@@ -14,26 +14,46 @@ next_title: "Explain hiking on durable surfaces"
 Explain the rules of safe and responsible hiking, both on the highway and cross-country, during the day and at night.
 {{< /drg/requirement >}}
 
-The rules change depending on where you're hiking and when — a rule that keeps you safe on a forest trail at noon can get you hit by a car on a road at night. This requirement asks you to explain the differences, not just recite one generic set of rules.
+Hiking safely requires different habits depending on whether you are walking along a paved road, hiking a rugged mountain trail, moving in broad daylight, or navigating under the cover of darkness. Understanding these rules protects both you and your patrol.
 
-## On the Highway
+## Highway and Road Hiking
 
-- Walk facing traffic, on the left side of the road, single file.
-- Wear bright or reflective clothing, especially at dawn, dusk, or night.
-- Step off the road entirely when a vehicle passes, rather than assuming the driver sees you.
+Walking along roads shared with motor vehicles carries unique risks. Follow these strict safety protocols:
+
+- **Face oncoming traffic**: Walk on the **left side of the road** so you can see approaching vehicles and take evasive action if a driver swerves or fails to see you.
+- **Walk single file**: Stay in a straight, orderly line along the shoulder or as far off the pavement as practical. Never walk two or three abreast on a roadway.
+- **Yield to vehicles**: Step completely off the pavement onto the dirt shoulder or grass whenever a car or truck approaches, rather than assuming the driver will give you room.
+- **Never hitchhike**: Do not accept rides from strangers or hitchhike under any circumstances.
+- **Cross cautiously**: Cross roadways only at marked crosswalks or where visibility is clear in both directions for several hundred yards. The entire group should cross together upon a leader's command.
 
 {{< drg/image src="images/road-hiking-position-diagram.png" alt="Diagram of Scouts walking single file facing oncoming traffic on the left shoulder of a road" >}}
 
-## Cross-Country
+## Cross-Country and Trail Hiking
 
-- Stay with your group and buddy; don't range ahead or fall far behind.
-- Watch your footing on uneven terrain — twisted ankles are the most common cross-country injury.
-- Know your route and check it periodically against a map or landmarks.
+When hiking through backcountry trails, forests, or open terrain:
 
-## Day vs. Night
+- **Stay on established trails**: Follow marked paths to prevent trail widening and avoid cutting switchbacks on steep hillsides, which causes severe soil erosion and damage to delicate vegetation.
+- **Set the pace to the slowest hiker**: The patrol leader or designated pace-setter walks at the front, matching a steady, sustainable pace to the slowest member of the group. An experienced Scout acts as "sweep" at the rear to ensure no one falls behind.
+- **Trail right-of-way courtesy**:
+  - **Uphill hikers have the right-of-way**: When descending, step aside onto rock or bare dirt to let ascending hikers continue their rhythm.
+  - **Pack stock (horses and mules)**: When horses or pack animals approach, step off the trail on the **downhill side**, stand quietly, and speak in a calm, normal tone so the animals know you are human and are not startled.
+- **Watch your footing**: Step over obstacles like logs and rocks rather than on top of them (which can be slippery or roll). Avoid loose shale and wet roots.
 
-Night hiking changes the rules on both kinds of terrain: visibility drops, so a flashlight or headlamp becomes mandatory, reflective gear matters even more on roads, and cross-country pace should slow down since hazards (roots, drop-offs, wildlife) are much harder to spot.
+## Day vs. Night Hiking
+
+Hiking in the dark transforms familiar terrain into a disorienting environment with hidden tripping hazards.
+
+| Daylight Hiking | Nighttime Hiking |
+| :--- | :--- |
+| **Visibility**: High visibility of trail blazes, landmarks, and terrain hazards. | **Reduced Depth Perception**: Shadows and darkness hide roots, rocks, and drop-offs. |
+| **Gear**: Sun protection (hat, sunscreen, sunglasses), standard water bottles. | **Lighting**: Headlamp or flashlight with fresh batteries plus a spare set; use red-light mode in camp to preserve night vision. |
+| **Road Visibility**: Brightly colored clothing or patrol neckerchiefs. | **Road Visibility**: Wear reflective vests, clip reflective bands to packs, and tie a **white cloth around your right arm or leg**. |
+| **Group Spacing**: Normal hiking intervals (about 4 to 6 paces apart). | **Group Spacing**: Tighter formation; maintain constant voice contact and check buddy pairs frequently. |
 
 {{< drg/safety-first >}}
-Always let someone outside your hiking group know your planned route and expected return time before you set out — on a road hike or a cross-country one, day or night.
+Before leaving for any hike—day or night, road or trail—always leave a detailed **trip plan** (route, participants, and expected return time) with a responsible adult at home.
 {{< /drg/safety-first >}}
+
+{{< drg/tip >}}
+When night hiking, give your eyes 15 to 20 minutes in the dark to build natural night vision. Avoid looking directly into white flashlight beams.
+{{< /drg/tip >}}

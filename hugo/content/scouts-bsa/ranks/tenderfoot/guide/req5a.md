@@ -14,20 +14,38 @@ next_title: "Explain what to do if lost"
 Explain the importance of the buddy system as it relates to your personal safety on outings and where you live. Use the buddy system while on a troop or patrol outing.
 {{< /drg/requirement >}}
 
-Getting hurt or lost alone is far more dangerous than getting hurt or lost with someone else nearby. The buddy system is Scouting's answer to that simple fact: nobody goes anywhere alone.
+Getting hurt or lost alone is far more dangerous than encountering an emergency with a partner nearby. The buddy system is one of Scouting's foundational safety rules: **nobody goes anywhere alone**.
 
-## Why It Matters
+## Why the Buddy System Matters on Outings
 
-- **A buddy notices problems first** — a twisted ankle, heat exhaustion, disorientation — often before the person experiencing it does.
-- **A buddy can go for help** while you stay with an injured Scout, or vice versa, instead of one person trying to do everything alone.
-- **A buddy keeps you accountable** to the group's plan, so nobody wanders off without anyone noticing.
+On a campout, hike, or outdoor activity, having a dedicated buddy provides constant mutual protection and accountability:
 
-This isn't just an outdoors rule. The same principle applies where you live — walking with a friend, checking in with someone when you're out, letting people know where you're headed — for the same reasons: a second person catches problems and can get help.
+- **Immediate emergency assistance**: If you slip, twist an ankle, get stung by wasps, or suffer an injury, your buddy can provide first aid, call for help, or go to alert adult leaders while staying in communication.
+- **Early detection of health hazards**: You cannot easily see a tick on the back of your neck or notice your own face turning pale from heat exhaustion or hypothermia. A buddy notices changes in your energy, speech, hydration, or gait before serious symptoms take hold.
+- **Group accountability**: When a patrol moves along a trail, buddies keep track of each other. If one person steps off the trail to adjust a backpack strap or tie a bootlace, their buddy stays with them so nobody gets left behind or separated.
+- **Everyday camp tasks**: The buddy rule applies 24 hours a day in camp. Even simple trips to fetch water from a spigot, gather firewood, or visit the latrine at night require going with your buddy.
 
-## Using It on an Outing
+## Applying the Buddy System Where You Live
 
-Pair up with a buddy at the start of every activity, not just hikes — swimming, exploring camp, even trips to the latrine at night. Check in with your buddy regularly, and if you separate for any reason, know exactly where and when you'll reunite.
+The buddy system is not just for the wilderness—it is equally valuable in your neighborhood and daily life:
+
+- **Neighborhood safety**: Walking or biking to school, public parks, or after-school activities with a friend makes you far less vulnerable to strangers, traffic hazards, or sudden accidents.
+- **Safety checks and communication**: Always let a parent or guardian know where you are going, who your buddy is, the exact route you will take, and what time you expect to return.
+- **Public spaces and transit**: When visiting shopping centers, amusement parks, or riding public transit, sticking with a buddy ensures you always have support if you get separated or need help.
+
+## How to Execute the Buddy System in Practice
+
+1. **Pair up before starting**: At the beginning of every outing, meeting, or activity, pair up with a fellow Scout in your patrol. Make sure both buddies agree on the pairing.
+2. **Stay within sight and normal voice range**: A buddy who is 50 yards ahead or out of sight around a trail bend cannot help you in an emergency. Stay close enough to communicate without shouting.
+3. **Respond to "Buddy Calls" immediately**:
+   - When a leader or senior patrol leader shouts **"Buddies!"**, immediately grab your buddy's hand, raise your joined hands high in the air, and freeze in place silently.
+   - Leaders will count pairs to verify that 100% of Scouts are present and accounted for within seconds.
+4. **Waterfront safety**: At pools, lakes, or swimming areas, the buddy system is strictly enforced with buddy tags and frequent "buddy checks" called by lifeguards every 10 to 15 minutes.
+
+{{< drg/safety-first >}}
+Never leave your buddy behind, even for a moment. If your buddy needs to stop, rest, or adjust gear, you stop too. If a buddy pair must separate for any reason, report to an adult leader or the Senior Patrol Leader first.
+{{< /drg/safety-first >}}
 
 {{< drg/tip >}}
-Agree on a simple check-in phrase or hand signal with your buddy before you start — something quick that means "I'm okay" without needing a full conversation.
+Agree on a quick check-in habit with your buddy before you start a hike. Ask each other simple questions every half-hour: *"How are your feet feeling?"* and *"When was your last drink of water?"*
 {{< /drg/tip >}}
