@@ -14,34 +14,52 @@ next_title: "Serve as campout cook"
 Demonstrate the procedures to follow in the safe handling and storage of fresh meats, dairy products, eggs, vegetables, and other perishable food products. Show how to properly dispose of camp garbage, cans, plastic containers, waste water and other rubbish.
 {{< /drg/requirement >}}
 
-This requirement has two halves: keeping raw food safe before it's cooked, and getting rid of what's left over afterward. Both matter — mishandled food makes people sick, and mishandled trash damages the site for the next group to use it.
+Proper food handling protects your patrol from severe foodborne illnesses, while ethical waste disposal keeps wild animals wild and preserves pristine campsites. This requirement tests your mastery of food storage chemistry, kitchen sanitation, and Leave No Trace waste disposal.
 
-## Handling and Storing Perishables
+## Safe Handling and Storage of Perishable Foods
 
-- **Fresh meats**: keep raw meat in a sealed container or bag, separate from every other food, and packed at the coldest point in your cooler.
-- **Dairy products and eggs**: keep cold the entire trip — dairy and eggs are among the fastest foods to spoil once they warm up.
-- **Vegetables**: don't need refrigeration as strictly as meat or dairy, but should still be kept clean and protected from contamination by raw meat juices.
-- **General rule**: raw meat never touches, drips on, or shares a cutting board or utensil with food that won't be cooked again before eating.
+Bacteria multiply rapidly within the **Temperature Danger Zone (40°F to 140°F)**. Follow these strict storage and handling protocols for each food group:
+
+### 1. Fresh Meats and Poultry
+- **Storage:** Double-bag raw meat in heavy-duty zip-top bags and place it at the very bottom of the cooler directly against solid ice blocks (< 40°F).
+- **Separation:** Never let raw meat juices touch other foods. Designate a specific cutting board and knife strictly for raw meats.
+- **Safe Internal Cooking Temperatures:**
+  - *Poultry (Chicken/Turkey):* **165°F**
+  - *Ground Meats (Burgers/Chili):* **160°F**
+  - *Whole Beef, Pork, and Fish:* **145°F** with a 3-minute rest
+
+### 2. Dairy Products & Eggs
+- **Dairy:** Keep milk, cheese, butter, and sour cream packed on ice below 40°F. Always use pasteurized dairy products.
+- **Eggs:** Transport fresh shell eggs in durable, padded camp egg-holders to prevent cracking. Cook eggs until both yolks and whites are completely firm (never runny if unpasteurized).
+
+### 3. Fresh Vegetables and Fruits
+- **Wash with Potable Water:** Always wash fruits and vegetables with clean, treated drinking water before slicing—even produce you intend to peel (such as melons or onions), as knife blades push surface bacteria into the flesh.
+- **Storage:** Store produce in clean bags above the ice to prevent them from soaking in melted cooler water.
+
+---
+
+## Wildlife Protection and Food Storage at Night
+
+Food smells ("smellables") attract bears, raccoons, mice, and skunks. In camp:
+
+- **The "Bearmuda Triangle":** Pitch sleeping tents at least **100 to 200 feet upwind** from the kitchen prep table, bear bag tree, and greywater sump.
+- **Bear Bag Suspension (The 12-6-6 Rule):** When bear hanging is required, suspend your food sack from a tree limb so the bag is at least:
+  - **12 feet** off the ground,
+  - **6 feet** below the supporting branch, and
+  - **6 feet** away from the tree trunk.
+- **Bear Canisters:** In designated national parks and wilderness zones, store all food, trash, and toiletries inside approved rigid bear-resistant canisters placed on flat ground 100 feet downwind from tents.
+
+---
+
+## Proper Disposal of Camp Garbage, Greywater, and Rubbish
+
+| Waste Type | Field Procedure |
+| :--- | :--- |
+| **Garbage & Food Scraps** | Scrape every scrap of food from pots and plates directly into heavy-duty patrol trash bags. Pack out 100% of garbage. Never bury food scraps (animals dig them up). |
+| **Metal Cans & Plastic Containers** | Rinse thoroughly with hot wash water to remove food odor, crush flat to save space, and pack out in the recycling/trash bag. |
+| **Campfire Trash Prohibition** | **Never burn plastics, foil, metal cans, Styrofoam, or food packaging in a campfire.** Burning trash releases toxic chemicals, creates foul smoke, and leaves hazardous unburnt debris in the fire pit. |
+| **Greywater (Wastewater)** | Pour wash and rinse water through a fine mesh strainer to catch food particles. Pack the strained food particles out in your trash, and broadcast or pour the greywater into a sump pit **200 feet away from lakes, streams, and sleeping tents**. |
 
 {{< drg/safety-first >}}
-Keep your cooler below 40°F whenever possible, and never leave perishable food sitting out at camp temperature for more than two hours — foodborne bacteria multiply fastest in that window.
+Never leave garbage bags out in camp overnight. Fasten trash securely inside bear canisters, suspend it in the bear bag, or lock it inside a hard-sided vehicle trunk.
 {{< /drg/safety-first >}}
-
-## Demonstrating Safe Handling
-
-Be ready to show, not just describe: wash your hands or use hand sanitizer before handling food, keep raw meat's juices from touching anything else, and use a food thermometer or visual check (no pink in poultry, firm eggs) to confirm food is fully cooked before serving.
-
-## Disposing of Camp Waste
-
-- **Garbage and food scraps**: pack out everything — nothing edible gets buried or left behind, since buried food attracts wildlife and undoes the [Leave No Trace principle of disposing of waste properly](/scouts-bsa/ranks/second-class/guide/req1b/).
-- **Cans and plastic containers**: rinse if needed, then pack out for recycling or trash.
-- **Waste water**: strain food particles out with a mesh strainer, pack those particles out with your trash, and scatter the strained gray water well away from camp, trails, and any water source.
-- **Other rubbish**: sort what can be packed out for recycling from what's simple trash, and never burn plastic or food packaging in a campfire — it can release harmful fumes and leaves partially melted debris behind.
-
-{{< drg/be-prepared title="Your Cooler Isn't Cold Enough Anymore" >}}
-You check your cooler midway through a warm-weather campout and the ice has mostly melted.
-
-- **Check temperature first**: if perishables have been above 40°F for more than two hours, don't cook or serve them — discard them.
-- **Prioritize what's left**: shift to foods that don't require refrigeration for the rest of the trip.
-- **Tell an adult leader**: a spoiled cooler affects the whole patrol's meal plan, not just one meal.
-{{< /drg/be-prepared >}}

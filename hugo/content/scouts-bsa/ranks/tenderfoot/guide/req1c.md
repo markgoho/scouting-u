@@ -14,20 +14,33 @@ next_title: "Cooking and Meal Preparation"
 Explain how you demonstrated the Outdoor Code and Leave No Trace on campouts or outings.
 {{< /drg/requirement >}}
 
-You memorized the [Outdoor Code and the Leave No Trace principles](/scouts-bsa/ranks/scout/guide/req1e/) as a Scout. Now you have to prove they mean something: point to specific things you actually did on a real campout that put those words into practice.
+While you memorized the [Outdoor Code and the Leave No Trace principles](/scouts-bsa/ranks/scout/guide/req1e/) for your Scout rank, Tenderfoot requirement 1c asks you to show how these principles actively shaped your decisions and behavior on a real patrol or troop outing.
 
-## Connecting Words to Actions
+## The Outdoor Code in Action
 
-The Outdoor Code is four short promises — being conservation-minded, being careful with fire, being considerate in the outdoors, and being a good camper. Leave No Trace breaks that down into seven concrete practices. For this requirement, match at least a few of your own actions to specific principles. Some examples:
+| Outdoor Code Promise | Real-World Campout Demonstration |
+| :--- | :--- |
+| **As an American, I will do my best to be clean in my outdoor manners...** | You picked up micro-trash around the campsite (breadcrumbs, twist ties, wrapper corners) and kept your gear organized rather than scattering it across the site. |
+| **...be careful with fire...** | You maintained a 10-foot cleared safety perimeter around the fire ring, never left a fire unattended, and made sure embers were completely cold to the touch before sleeping. |
+| **...be considerate in the outdoors...** | You respected quiet hours after lights out, kept voices at a conversational level, yielded trail right-of-way to uphill hikers, and avoided shining flashlights into other tents. |
+| **...and be conservation-minded.** | You protected living vegetation by never chopping green trees, stayed on established trails to prevent soil erosion, and left natural artifacts where you found them. |
 
-- **Plan ahead and prepare** → You checked the weather and packed for it (tying back to requirement 1a).
-- **Travel and camp on durable surfaces** → You pitched your tent on bare ground or an established site instead of on plants.
-- **Dispose of waste properly** → You packed out every piece of trash, including food scraps.
-- **Respect wildlife** → You stored food away from your sleeping area and didn't approach animals.
-- **Be considerate of other visitors** → You kept noise down after dark and yielded the trail to others.
+## The 7 Leave No Trace Principles Applied
+
+When discussing this requirement, highlight 3 to 4 specific examples from your recent outings:
+
+1. **Plan Ahead and Prepare:** You repackaged patrol food at home into reusable plastic bags or airtight containers, cutting down on bulky packaging and potential campout garbage before leaving.
+2. **Travel and Camp on Durable Surfaces:** You pitched your tent on established gravel or compacted dirt tent pads instead of trampling delicate wildflowers, grass, or moss. On trails, you walked single-file through muddy spots rather than walking around them (which widens trails into scars).
+3. **Dispose of Waste Properly ("Pack It In, Pack It Out"):** You strained dishwater through a mesh screen before disposing of it, packed out all food scraps in sealed patrol trash bags, and followed the **200-foot (approx. 75 adult paces)** rule away from lakes and streams for wastewater and catholes.
+4. **Leave What You Find:** You admired interesting rocks, pinecones, feathers, and historical artifacts without collecting them or taking them home, leaving them undisturbed for the next visitor.
+5. **Minimize Campfire Impacts:** You used a lightweight backpacking stove for quick meal cooking to reduce wood consumption, and when having a patrol fire, used an established fire ring and gathered only fallen wood that could be broken by hand.
+6. **Respect Wildlife:** You kept all food, snacks, and toiletries out of sleeping tents, secured all "smellables" in a patrol bear hang or bear canister at least 100–200 feet away, and observed wildlife from a safe, quiet distance without feeding them.
+7. **Be Considerate of Other Visitors:** You kept headlamp beams aimed down at the trail rather than blinding fellow campers, minimized shouting across camp, and preserved the quiet sounds of nature for nearby groups.
 
 {{< drg/did-you-know >}}
-A banana peel left on a trail can take up to two years to break down, and an orange peel isn't far behind — "natural" doesn't mean fast in most climates.
+Organic food waste like banana peels and orange rinds can take up to two years to decompose in temperate climates, and apple cores take months. In arid desert or alpine environments, food scraps can mummify and remain preserved for decades. Always pack out every scrap of food waste.
 {{< /drg/did-you-know >}}
 
-You don't need to hit all seven principles from one trip. Pick the ones you can genuinely describe, with real details — where you were, what you did, and why it mattered — rather than reciting the list from memory.
+{{< drg/tip >}}
+When reviewing this with your Scoutmaster or senior patrol leader, be ready to tell specific stories: name the campout location, what your patrol did, and how your personal actions protected the environment and other campers.
+{{< /drg/tip >}}

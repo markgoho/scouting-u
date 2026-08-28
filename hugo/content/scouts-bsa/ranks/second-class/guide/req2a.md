@@ -14,24 +14,37 @@ next_title: "Prepare fire materials"
 Explain when it is appropriate to use a fire for cooking or other purposes and when it would not be appropriate to do so.
 {{< /drg/requirement >}}
 
-Before you strike a match, you have to decide whether a fire is the right tool at all — plenty of experienced backpackers cook every meal on a stove and never build a wood fire. Knowing when a fire actually earns its impact is the judgment call behind everything else in this requirement.
+Before striking a match, an ethical Scout must evaluate whether a wood campfire is the right tool for the situation. While campfires are a cherished outdoor tradition, modern camp stoves are faster, cleaner, more fuel-efficient, and leave zero impact on the land. Knowing when to build a fire and when to rely on a camp stove is a critical outdoor judgment call.
 
-## When a Fire Makes Sense
+## When It Is Appropriate to Use a Fire
 
-- **Cooking a meal that benefits from a bed of coals**, like a foil dinner or a dish that needs long, even heat.
-- **A designated fire ring or fire pan is available**, so you're not creating new ground impact.
-- **Weather and fire restrictions allow it** — no local burn ban, and conditions aren't dry, windy, or drought-stricken.
-- **Warmth or a gathering point** is genuinely needed, such as a cold-weather campout.
+A wood or charcoal fire is appropriate when **all** of the following conditions are met:
 
-## When to Skip the Fire
+- **Cooking Style Demands Coals:** You are baking with a Dutch oven (requiring heat from coals placed on the lid and beneath the pot) or cooking foil dinner packets directly in embers.
+- **Permitted by Land Managers:** The campground or backcountry area explicitly permits open fires, and there are no active local, state, or federal fire bans (such as Stage 1 or Stage 2 fire restrictions).
+- **Established Fire Rings Exist:** An existing, designated metal fire ring, stone fire ring, or elevated fire pan is available, preventing new ground scarring.
+- **Abundant Dead and Down Wood:** There is plenty of fallen wood on the ground that can be broken by hand. You never cut live branches or strip standing dead trees.
+- **Safe Weather Conditions:** Winds are light or calm, humidity is reasonable, and there is no Red Flag Warning in effect.
+- **Adequate Extinguishing Water & Tools:** You have a full bucket of water and a camp shovel standing by at the fire ring *before* lighting.
 
-- **A local or regional fire restriction is in effect.** These override personal judgment — no exceptions.
-- **High wind, dry vegetation, or drought conditions** make an escaped fire more likely.
-- **No established fire ring exists** and building one would scar undisturbed ground — this is where [Leave No Trace's Minimize Campfire Impacts principle](/scouts-bsa/ranks/second-class/guide/req1b/) applies directly.
-- **A stove would do the job just as well**, with less setup, less cleanup, and no lasting mark on the site.
+## When It Is NOT Appropriate to Use a Fire
+
+A campfire should **not** be built under any of the following circumstances:
+
+- **Active Fire Restrictions or Burn Bans:** During dry seasons or droughts, forest services frequently issue fire restrictions that strictly prohibit open flames and wood fires. These rules are legally binding.
+- **High Winds and Dry Conditions:** Strong gusts can carry burning embers and sparks hundreds of yards into dry brush, igniting catastrophic wildfires.
+- **Alpine & Sensitive Habitats:** At high altitudes (above treeline), in arid deserts, or in fragile riparian zones, wood grows very slowly. Fallen wood is scarce and provides vital shelter and nutrients for plants and wildlife.
+- **Heavily Used Backcountry Sites:** In high-use wilderness areas, collecting firewood strips the surrounding landscape and creates unsightly soot scars and ash piles.
+- **Quick Meals or Backcountry Travel:** When preparing a quick breakfast or boiling water for dehydrated backpacking meals, a lightweight canister stove boils water in minutes without smoke, soot, or lengthy coal preparation.
+- **Lack of Time to Fully Extinguish:** If you are leaving camp shortly or do not have enough water to drown the embers until cold to the touch, do not start a fire.
+
+| Feature | Campfire (Wood / Charcoal) | Camp Stove (Canister / Propane) |
+| :--- | :--- | :--- |
+| **Best For** | Dutch oven baking, foil dinners, evening troop programs | Boiling water, sautéing, quick breakfasts, all-weather cooking |
+| **Environmental Impact** | Consumes natural wood, produces ash, blackens cookware | Zero ground scarring, leaves no soot, highly efficient |
+| **Setup & Cleanup Time** | 45–60 mins to build, establish coals, and extinguish cold | Lights in seconds; shuts off instantly when finished |
+| **Fire Ban Compliance** | Frequently prohibited during dry months | Usually permitted under most Stage 1 restrictions |
 
 {{< drg/safety-first >}}
-Fire restrictions are legally binding, not a suggestion. Always check current conditions with the campground, ranger district, or land manager before assuming a fire is allowed.
+Never light a fire unless you have verified local regulations and have the resources to put it out completely. Always keep a bucket of water and a shovel directly beside the fire site before lighting.
 {{< /drg/safety-first >}}
-
-Fire is a genuinely useful skill, but it's not the default. The Scouts who impress a Scoutmaster conference are the ones who can explain why they chose *not* to build a fire just as clearly as why they would.

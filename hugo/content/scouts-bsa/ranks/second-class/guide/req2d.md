@@ -14,27 +14,44 @@ next_title: "Plan and cook a meal"
 Explain when it is appropriate to use a lightweight stove and when it is appropriate to use a propane stove. Set up a lightweight stove or propane stove. Unless prohibited by local fire restrictions, light the stove. Describe the safety procedures for using these types of stoves.
 {{< /drg/requirement >}}
 
-When a fire isn't the right call — under a burn ban, on a windy ridge, or when you just need water boiling fast — a stove does the job with a fraction of the setup and none of the cleanup.
+Camp stoves provide reliable, fast, and clean heat in all weather conditions without scorching the earth or consuming firewood. This requirement tests your ability to choose the right stove for your outing, inspect and assemble it safely, light it properly, and recite essential chemical fuel safety rules.
 
-## Lightweight Stove vs. Propane Stove
+## Comparing Camp Stove Types
 
-- **Lightweight backpacking stoves** (canister or liquid-fuel) are compact and fast to set up, making them the right choice for backpacking trips or any time weight and pack space matter.
-- **Propane stoves** are heavier and bulkier but often more stable and easier to control at the burner, making them a better fit for car camping or patrol cooking where weight isn't the limiting factor.
+| Stove Type | Fuel Used | Best Use Cases | Advantages & Limitations |
+| :--- | :--- | :--- | :--- |
+| **Lightweight Backcountry Stove** | Isobutane/propane screw-on canister or white gas (liquid fuel) | Backpacking treks, high-adventure outings, trail lunches, boiling water quickly | **Pros:** Weighs only a few ounces, compact (packs inside a cook pot), fast boil times.<br>**Cons:** Narrow pot supports (prone to tipping with large pots), limited simmer control, sensitive to high winds. |
+| **Two-Burner Propane Stove** | 1-lb disposable propane cylinders or bulk propane tanks with regulator | Troop base camps, patrol weekend campouts, car camping | **Pros:** Sturdy grates support large 8-qt pots and griddles, built-in windscreens, two adjustable burners for cooking full patrol meals.<br>**Cons:** Heavy (10–15+ lbs), bulky, not practical for backpacking. |
 
-## Setting Up and Lighting
+---
 
-Set up your stove on level, stable, non-flammable ground, well clear of tents and dry vegetation. Check fuel connections for a secure seal before lighting. Unless a fire restriction prohibits it, light the stove using the manufacturer's procedure and a lighter or match held at arm's length.
+## Step-by-Step Setup and Lighting Procedures
+
+### Setting Up a Lightweight Canister Stove
+1. **Choose a Stable Surface:** Find a level, non-flammable surface on the ground or a camp table away from dry leaves, tents, and overhead tarps.
+2. **Inspect the O-Ring:** Check the rubber O-ring inside the stove threads for cracks, tears, or dirt. A damaged O-ring can leak flammable gas.
+3. **Attach the Canister:** Screw the stove burner onto the isobutane canister smoothly. Do not cross-thread or overtighten. Listen and smell for gas leaks.
+4. **Stabilize:** Fold out the pot support arms fully. Use a plastic canister tripod base if available for increased stability.
+5. **Lighting:** Hold a lit match or lighter right beside the burner rim, then slowly turn the stove valve counter-clockwise until gas hisses and ignites. Adjust the flame to the desired level.
+
+### Setting Up a Two-Burner Propane Stove
+1. **Level the Stove:** Place the stove on a sturdy, level camp kitchen table. Open the lid and lock the side wind-guards in place.
+2. **Connect the Regulator:** Screw the metal regulator tube into the side of the stove until finger-tight.
+3. **Attach Propane Cylinder:** Screw the 1-lb propane cylinder firmly into the regulator at an angle. Ensure the seal is tight (never cross-thread).
+4. **Lighting:** Ensure both burner knobs are in the **OFF** position. Light a match or long-reach lighter, hold it directly next to the primary burner head, and then slowly turn the corresponding burner knob to **HIGH** until it ignites. Light the second burner in the same manner.
+
+---
+
+## Essential Camp Stove Safety Rules
+
+Follow these rules on every campout to protect yourself and your patrol:
+
+- **Never Use Stoves Inside a Tent:** Never light or operate a camp stove inside a tent, vestibule, dining canopy enclosure, or vehicle. Burning fuel consumes oxygen and generates lethal, odorless **carbon monoxide gas**, in addition to posing an extreme fire hazard.
+- **Never Leave a Lit Stove Unattended:** Always have a Scout actively monitoring the stove while lit.
+- **Cool Before Packing:** Allow burners and pot supports to cool completely to room temperature before touching, disconnecting fuel canisters, or packing into storage boxes.
+- **Never Refill Disposable Canisters:** Do not attempt to refill standard single-use 1-lb propane or backpacking isobutane canisters.
+- **Safe Fuel Storage:** Store all chemical fuel cylinders and canisters upright in a cool, shaded, well-ventilated area outside of sleeping tents and vehicles, away from direct sunlight and sparks.
 
 {{< drg/safety-first >}}
-Never operate a stove inside a tent — carbon monoxide and fire risk make this one of the most dangerous mistakes a camper can make. Always cook in a ventilated area, away from tent walls and gear.
+If you ever smell gas, hear a hissing leak, or see flames around the canister connection, immediately shut off the valve (if safe to reach) or step back and let the gas dissipate. Never attempt to light a leaking stove.
 {{< /drg/safety-first >}}
-
-## Safety Procedures to Know
-
-- Check fuel canisters or bottles for damage or leaks before connecting them.
-- Keep the stove on a flat, stable surface so it can't tip while lit or while a pot is on it.
-- Never refuel a stove while it's lit or still hot.
-- Have a way to shut off the fuel supply quickly if something goes wrong.
-- Keep loose clothing and long hair away from the flame.
-
-Being able to describe these procedures clearly is as much a part of this requirement as lighting the stove itself.

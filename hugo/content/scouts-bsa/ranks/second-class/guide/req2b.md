@@ -14,26 +14,50 @@ next_title: "Build and extinguish fire"
 Use a pocketknife, and a saw or axe if needed, to prepare tinder, kindling, and fuel wood for a cooking fire.
 {{< /drg/requirement >}}
 
-A fire needs three different sizes of wood, in the right order, or it won't catch — this requirement is about cutting and preparing all three, using your pocketknife and, if the wood calls for it, a saw or axe.
+Every successful campfire depends on proper preparation before striking a match. If you try to light large logs directly, or run out of intermediate sticks while the flame is fragile, the fire will fail. This requirement is about selecting, sizing, and safely preparing the three essential stages of fire materials using your woods tools.
 
-## The Three Fire Materials
+## The Three Fire Materials: Sizing and Selection
 
-- **Tinder**: material that catches from a single spark or match — dry grass, bark shavings, or fine wood curls you cut with your knife. Tinder should be thin enough to catch instantly.
-- **Kindling**: pencil-thin to finger-thick sticks that catch from burning tinder and build the fire up. A saw or axe often works faster than a knife for kindling-sized wood.
-- **Fuel wood**: wrist-thick or larger pieces that keep the fire burning once it's established. This is where a saw is usually the right tool, and an axe if you need to split larger pieces.
+| Category | Size & Thickness | Best Materials | Role in the Fire |
+| :--- | :--- | :--- | :--- |
+| **1. Tinder** | Thinner than a matchstick (hair-fine) | Dry pine needles, paper birch bark shavings, cedar inner bark, dry milkweed down, or feather sticks whittled with a pocketknife | Catches immediately from a single match flame or ferrocerium spark. |
+| **2. Kindling** | Pencil-thin to thumb-thick (1/4" to 1" diameter), 6–12" long | Small dead twigs snapped from lower dead branches, dry split sticks, or batoned wood | Sustains the initial flame from the tinder and builds enough heat to ignite large fuel logs. |
+| **3. Fuel Wood** | Wrist-thick to forearm-thick (1" to 3" diameter), 12–18" long | Fallen, dead hardwood branches (oak, maple, ash, hickory) or dry softwood (pine, fir) | Provides sustained heat, flame, and a durable bed of glowing coals for cooking. |
 
-## Using Each Tool Correctly
+---
 
-You [cared for a pocketknife, saw, and axe at Tenderfoot](/scouts-bsa/ranks/tenderfoot/guide/req3d/); here you put that care into practice. Keep your knife's cutting edge angled away from your body, work seated or braced, and give yourself a clear "blood circle" — an arm's length in every direction — before you start cutting.
+## Preparing Materials with Your Woods Tools
+
+### 1. Whittle Feather Sticks (Fuzz Sticks) with a Pocketknife
+When natural tinder is damp from rain or dew, the dry interior wood of a stick is your best friend:
+- Take a dry stick about thumb-thickness and 10 inches long.
+- Use your pocketknife to shave thin, curling slivers down the length of the stick without cutting them completely off the wood.
+- Work around the stick until you create a bushy "feather stick" that catches fire instantly.
+- **Safety Rule:** Always carve *away* from your body and hands, maintaining a clear blood circle (arm's length in every direction).
+
+### 2. Sizing Wood with a Camp Saw
+- Cut larger fallen limbs into manageable 12- to 18-inch fuel logs.
+- Support the log firmly on the ground or a chopping block. Never hold wood with your hand close to the saw blade. Use smooth, full-length strokes.
+
+### 3. Splitting Kindling with a Hatchet or Ax (If Needed)
+- Use the **contact method** to split small sticks: hold the blade edge against the top of the wood, and bring both tool and stick down together onto a solid wooden chopping block.
+- Never hold a stick upright with your fingers while swinging an ax.
 
 {{< drg/safety-first >}}
-Only use a saw or axe if the wood genuinely needs it — the requirement says "if needed." Never use a tool bigger than the job calls for, and never let anyone stand inside your swing radius when you're using a saw or axe.
+**Tool Safety Protocol:**
+- Check your **Blood Circle** (an arm-and-tool length 360 degrees around you) before swinging or cutting.
+- Work inside an established troop ax yard when using full-sized axes and saws.
+- Always sheath tools or close knife blades immediately after preparing wood.
 {{< /drg/safety-first >}}
 
-## Gathering Responsibly
+## Firewood Ethics and Types of Wood
 
-Collect only dead, downed wood — never cut branches from living trees. Gather more than you think you'll need for each category; running out of kindling mid-fire is a common way a fire-building attempt fails.
+- **Collect Dead and Downed Wood:** Gather only wood that is already dead, dry, and lying on the ground. Never break branches off live trees or strip bark from living birch trees (which kills or damages the tree).
+- **Test for Dryness:** Dry firewood snaps cleanly with a crisp sound when broken. Damp wood bends without snapping and creates heavy, choking smoke.
+- **Hardwood vs. Softwood for Cooking:**
+  - *Hardwoods (Oak, Hickory, Ash, Maple):* Burn slowly, produce minimal smoke, and yield a dense bed of long-lasting, even-heat coals ideal for Dutch oven baking and griddle cooking.
+  - *Softwoods (Pine, Fir, Cedar, Spruce):* Ignite easily and burn fast and bright, making them excellent for kindling, but they pop, spit sparks, and burn down to light ash quickly without forming durable coals.
 
 {{< drg/tip >}}
-Sort your tinder, kindling, and fuel wood into three separate piles before you build the fire in requirement 2c. Reaching for the wrong size at the wrong moment is one of the easiest ways to smother a fire you just got started.
+**The "Three-Pile Rule":** Before lighting your fire, sort your tinder, kindling, and fuel into three separate, neat piles right next to your fire ring, and gather twice as much kindling as you think you will need. Having materials ready keeps you from scrambling while your tinder is burning.
 {{< /drg/tip >}}

@@ -14,29 +14,50 @@ next_title: "Handle food safely"
 Show which pans, utensils, and other gear will be needed to cook and serve these meals.
 {{< /drg/requirement >}}
 
-With your menu and shopping list finished, this requirement asks you to show — physically point out or lay out — the actual pans, utensils, and other gear each meal in your [menu](/scouts-bsa/ranks/first-class/guide/req2a/) requires. A written list satisfies the planning step, but the requirement itself is about showing the real equipment, not just naming it.
+A well-planned menu is only as good as the equipment you bring to prepare it. Arriving at camp without a can opener, pot holder, or the right-sized skillet can delay meals or ruin food. For this requirement, you must physically assemble and demonstrate the exact pans, utensils, heat sources, and cleanup gear needed to execute your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/).
 
-## Working Meal by Meal
+## Comprehensive Patrol Cook Kit & Gear Checklist
 
-Go through your three-meal menu one dish at a time and identify what it takes to cook and serve it:
+### 1. Pots, Pans, and Cookware
+- **8-Quart Stock Pot with Lid:** Essential for boiling pasta, heating large volumes of wash water, or simmering soups and chili.
+- **10-Inch or 12-Inch Frying Pan / Skillet:** For scrambling eggs, searing meats, and sautéing vegetables.
+- **Griddle (Optional):** Sits across two stove burners for cooking pancakes or grilled sandwiches for the entire patrol simultaneously.
+- **2- to 3-Quart Saucepan with Lid:** For preparing side dishes, warming sauces, or heating cocoa.
+- **Dutch Oven (if baking):** Cast iron Dutch oven with legs, tight-fitting flanged lid, lid lifter, and lid stand.
 
-- **Cookware**: pots, pans, a Dutch oven, or a griddle, sized to the quantities from requirement 2b.
-- **Utensils**: spatula, tongs, a stirring spoon, a can opener, a cutting board and knife.
-- **Heat source gear**: a stove and fuel, or the fire-building tools you've used since [Tenderfoot](/scouts-bsa/ranks/tenderfoot/guide/req3d/) and [Second Class](/scouts-bsa/ranks/second-class/guide/req2b/).
-- **Serving and cleanup gear**: plates, cups, serving utensils, a wash basin, dish soap, and a way to store or dispose of trash and waste water.
+### 2. Food Prep & Cooking Utensils
+- **Cutting Boards:** Bring at least two plastic cutting boards (one dedicated to raw meats, one for vegetables and cooked foods to prevent cross-contamination).
+- **Knives with Protective Sheaths:** Paring knife and prep knife (never transport unsheathed knives).
+- **Pancake Turner / Spatula:** Heat-resistant spatula for flipping eggs, burgers, and pancakes.
+- **Large Cooking Spoons:** Solid and slotted long-handled spoons for stirring pots without burning hands.
+- **Kitchen Tongs:** Long metal tongs for turning meats and grabbing hot items safely.
+- **Manual Can Opener:** A sturdy, reliable handheld can opener.
+- **Measuring Cups & Spoons:** For accurate recipe proportions.
+- **Ladle:** For serving soups, chili, and stews evenly.
+- **Pot Grips & Insulated Oven Mitts:** Heat-resistant gloves for handling hot metal handles.
 
-## Showing, Not Just Listing
+### 3. Heat Sources and Stove Equipment
+- **Camp Stove & Fuel:** 2-burner propane stove with regulator tube and verified fuel cylinders, or lightweight backpacking canister stoves.
+- **Ignition:** Waterproof matches, piezo click-igniter, or long-reach butane lighter.
+- **Windscreen:** To protect the flame from wind and conserve fuel.
 
-Lay the gear out — on a table, a tarp, or in labeled bins by meal — so you can walk someone through exactly what each meal needs and why. Matching each item back to a specific dish is what turns a pile of camp kitchen equipment into a demonstration of planning.
+### 4. Serving, Sanitation, and Cleanup Gear
+- **Personal Mess Kits:** Plates, bowls, cups, and forks/spoons for each Scout.
+- **Three Wash Basins / Pots:** Sized for the 3-pot dishwashing method (wash, rinse, sanitize).
+- **Biodegradable Dish Soap & Sanitizer:** CampSuds and sanitizing tablets (or unscented bleach).
+- **Scrubbers & Rubber Scraper:** Sponge, nylon scrub pad, and rubber spatula for scraping plates clean.
+- **Mesh Dunk Bags:** For hang-drying clean dishes in the sun and wind.
+- **Greywater Mesh Strainer:** To filter solid food bits out of dishwater.
+- **Heavy-Duty Trash Bags:** To pack out all garbage and food waste.
 
-{{< drg/checklist title="Cooking Gear" subtitle="One set per meal" >}}
+---
 
-- Cookware sized for the quantities you're preparing.
-- Prep and serving utensils.
-- Stove and fuel, or fire-building tools.
-- Cleanup gear: wash basin, soap, trash and waste-water plan.
-{{< /drg/checklist >}}
+## How to Demonstrate Your Gear
+
+To fulfill the requirement:
+1. **Lay out the gear systematically:** Organize items on a clean picnic table or ground tarp, grouped by category (Cookware, Utensils, Heat Source, Cleanup).
+2. **Walk through the menu meal-by-meal:** Explain to your leader exactly which pot and tool will be used for each dish (e.g., *"For Saturday breakfast, we will use the 10-inch skillet and spatula for the eggs, the 2-quart pot for hot cocoa, and the cutting board and paring knife to slice the oranges"*).
 
 {{< drg/tip >}}
-Pack gear in the order you'll use it — breakfast items on top, dinner items on the bottom — so you're not digging through the whole box at every meal.
+Keep your patrol's "Chuck Box" (patrol kitchen box) neatly organized with a laminated inventory sheet taped inside the lid. This makes checking gear before departure fast and foolproof.
 {{< /drg/tip >}}

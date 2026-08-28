@@ -14,28 +14,44 @@ next_title: "Clean cooking and eating gear"
 On the campout, assist in preparing one of the meals. Tell why it is important for each patrol member to share in meal preparation and cleanup.
 {{< /drg/requirement >}}
 
-Camp cooking isn't about being a chef — it's about pitching in. This requirement asks you to do real cooking work on a real trip, then explain why that work shouldn't fall on just one or two people.
+Camp cooking is a cornerstone of the patrol method. It isn't about culinary perfection—it is about teamwork, organization, and practical self-reliance. This requirement has two parts: actively assisting in cooking a meal on a campout, and explaining why distributing meal duties across the entire patrol is essential.
 
-## What "Assisting in Preparing" Looks Like
+## What "Assisting in Preparing" Means
 
-The requirement is specific: you need to help *prepare* the meal, not just be present while it happens or help afterward. That means hands-on work in the actual cooking, such as:
+To fulfill this requirement, you must take an active, hands-on role during food preparation and cooking. Tasks include:
 
-- Prepping ingredients — chopping, measuring, opening cans.
-- Mixing, seasoning, or combining food as the recipe calls for.
-- Tending the stove or fire and watching cook times.
-
-Planning the menu ahead of time or serving the food once it's cooked are both useful patrol jobs, but neither one satisfies "preparing" on its own — make sure your hands are actually in the cooking itself.
+- **Personal Hygiene Setup:** Washing your hands thoroughly with biodegradable soap and clean water before touching food, tying back long hair, and rolling up loose sleeves.
+- **Ingredient Preparation:** Measuring ingredients, chopping vegetables, opening canned goods safely, and setting out cooking utensils.
+- **Active Cooking:** Operating the camp stove under supervision, stirring pots to prevent food from burning or sticking to the bottom, flipping food on a griddle, or monitoring Dutch oven temperatures.
+- **Timing & Coordination:** Helping the head cook ensure that all elements of the meal (main dish, sides, warm drinks) finish cooking at the same time.
 
 {{< drg/safety-first >}}
-Keep loose sleeves, drawstrings, and long hair away from open flames and camp stoves. Use a pot grip or glove when handling hot cookware, and never leave a lit stove unattended.
+**Kitchen Safety Fundamentals:**
+- Always handle hot pots with dedicated pot grips or insulated camp gloves.
+- Keep raw meats separate from vegetables, breads, and cooked foods to prevent cross-contamination.
+- Never leave a lit stove or open fire unattended.
+- Keep all aerosol sprays (like non-stick cooking spray) and fuel bottles away from heat sources.
 {{< /drg/safety-first >}}
 
-## Why Sharing the Work Matters
+## The Patrol Duty Roster & Why Sharing Duties Is Vital
 
-A patrol that leaves cooking to the same one or two Scouts every trip burns those Scouts out — and everyone else misses out on learning a basic outdoor skill. Rotating who cooks, who preps, and who cleans up means:
+In a well-functioning patrol, the Patrol Leader posts a **Patrol Duty Roster** that assigns specific roles for each meal (Friday dinner through Sunday breakfast):
 
-- No single person carries the whole meal on their shoulders.
-- Every Scout eventually learns to cook for a group, not just themselves.
-- Meals get made faster when the work is split up.
+| Role | Core Responsibilities |
+| :--- | :--- |
+| **Head Cook** | Leads the meal, directs recipe execution, coordinates timing, and manages primary seasoning. |
+| **Assistant Cook (You)** | Preps ingredients, tends the heat source, stirs dishes, and assists the head cook. |
+| **Fire & Water Crew** | Retrieves fresh potable water, sets up the stove/fuel or preheats charcoal, and sets up wash water. |
+| **Cleanup & Sanitation** | Clears the table, scrapes food scraps into trash, washes dishes using the 3-pot method, and sanitizes surfaces. |
 
-Be ready to explain this in your own words when asked — not just that sharing is "nice," but what actually goes wrong for the patrol when it doesn't happen.
+### Why Every Member Must Pitch In
+
+When explaining why sharing kitchen duties is important, focus on three key realities:
+
+1. **Prevents Burnout and Resentment:** If the same one or two Scouts always cook and clean, they become exhausted while others sit idle, which destroys patrol morale.
+2. **Builds Equal Competence:** Rotating roles ensures every Scout learns essential outdoor living skills—from backcountry stove safety to nutritional meal timing.
+3. **Efficiency and Group Success:** When everyone executes their assigned job, meals are prepared on time, allowing the patrol to stay on schedule for hikes, pioneering projects, and troop activities.
+
+{{< drg/tip >}}
+In camp cooking, only the **Head Cook** should add salt and spices. If multiple Scouts add seasoning independently without checking, the meal can easily be ruined with too much salt or spice.
+{{< /drg/tip >}}

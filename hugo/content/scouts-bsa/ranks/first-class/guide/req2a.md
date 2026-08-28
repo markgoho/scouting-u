@@ -14,32 +14,57 @@ next_title: "Develop menu budget"
 Help plan a menu for one of the above campouts that includes at least one breakfast, one lunch, and one dinner, and that requires cooking at least two of the meals. Tell how the menu includes the foods from MyPlate or the current USDA nutritional model and how it meets nutritional needs for the planned activity or campout.
 {{< /drg/requirement >}}
 
-At Second Class, you [planned one hot meal using MyPlate](/scouts-bsa/ranks/second-class/guide/req2e/). Here you help plan an entire day: breakfast, lunch, and dinner, with at least two of those three meals actually requiring cooking. The third can be a no-cook meal like sandwiches or trail food — the requirement doesn't ask you to cook all three, only at least two.
+Planning a full day of meals for your patrol requires balancing nutrition, taste, packability, cooking logistics, and budget. At First Class, you take the lead in designing a balanced three-meal menu (Breakfast, Lunch, Dinner) where at least two meals require cooking, ensuring every Scout has the energy to thrive on the campout.
 
-## Building the Full-Day Menu
+## Full-Day Sample Menu with MyPlate Breakdown
 
-Work with your patrol to plan all three meals together, not in isolation — a heavy dinner plans differently after a light lunch than after a big one. For each meal, decide:
+Here is an example of a balanced, practical patrol menu for an active campout:
 
-- What you're eating.
-- Whether it requires cooking (at least two of the three meals must).
-- What the activity level looks like around that meal — a hike right after breakfast calls for something different than a lazy morning in camp.
+| Meal | Menu Items | Preparation Type | MyPlate Food Groups Covered |
+| :--- | :--- | :--- | :--- |
+| **Breakfast** *(Cooked)* | Scrambled eggs with cheddar cheese, whole wheat English muffins, orange wedges, hot cocoa | Stove (Skillet & Pot) | **Protein** (eggs), **Dairy** (cheese, milk in cocoa), **Grains** (muffins), **Fruit** (oranges) |
+| **Lunch** *(Trail/No-Cook)* | Turkey & provolone cheese pita pockets with lettuce and tomato, crisp apple slices, trail mix (nuts/raisins), water | No-Cook Assembly | **Protein** (turkey, nuts), **Dairy** (provolone), **Grains** (pita), **Vegetables** (lettuce, tomato), **Fruit** (apple, raisins) |
+| **Dinner** *(Cooked)* | Dutch oven beef chili with kidney beans, cornbread, garden salad with vinaigrette, fresh watermelon slices | Dutch Oven / Camp Stove | **Protein** (ground beef, beans), **Grains** (cornbread), **Vegetables** (tomatoes, peppers, mixed greens), **Fruit** (watermelon) |
 
-## Meeting MyPlate Guidance
+---
 
-[MyPlate](https://www.myplate.gov/) groups food into fruits, vegetables, grains, protein, and dairy. Build each meal so it draws from several of those groups rather than leaning on one — a dinner of pasta with vegetables and a protein, plus a side of fruit, covers more ground than plain noodles alone.
+## Standard Serving Sizes for Menu Calculations
 
-## Explaining Nutritional Fit
+When planning ingredient quantities for your patrol, use standard individual portion estimates:
 
-Be ready to explain, meal by meal, which MyPlate categories it covers and why that combination meets the group's needs for the specific activity or campout you're planning — a strenuous hiking trip needs more carbohydrates and calories overall than a low-key weekend at a fixed campsite, and your menu should reflect that difference, not just check the MyPlate boxes in the abstract.
+- **Eggs:** 2 eggs per Scout per meal
+- **Bacon / Sausage:** 2–3 oz (3–4 strips) per Scout
+- **Pancake Mix / Rolled Oats:** 2–3 oz dry mix per Scout
+- **Pasta:** 3 oz dry noodles per Scout (expands to ~1.5 cups cooked)
+- **Rice:** 1/2 cup uncooked rice (or 1.5 oz instant rice) per Scout
+- **Meat / Poultry / Ground Beef:** 4–6 oz raw weight per Scout for main dishes
+- **Fresh Fruit / Vegetables:** 1 medium piece (apple, orange, potato, carrot) per Scout
 
-{{< drg/checklist title="Menu Plan" subtitle="Work through this for all three meals" >}}
+---
 
-- Breakfast, lunch, and dinner are all planned.
-- At least two of the three require cooking.
-- Each meal lists the MyPlate food groups it covers.
-- The overall menu matches the activity level of the campout.
+## Matching Nutrition to Campout Activities and Climate
+
+When explaining how your menu meets the physical demands of your campout, discuss these key factors:
+
+### 1. Activity Level & Calorie Output
+- **Base Camp / Skill Outing (~2,200–2,800 kcal):** Moderate calorie demand. Focus on balanced meals with steady digestion and minimal rushing.
+- **Strenuous Trekking / Pioneering (~3,500–4,500 kcal):** High energy burn. Increase complex carbohydrates (pasta, rice, oatmeal) to keep glycogen stores full and prevent trail fatigue ("bonking").
+
+### 2. Climate and Weather Considerations
+- **Cold-Weather Camping:** The human body burns extra calories simply shivering and maintaining core body temperature. Add healthy fats and proteins (cheese, nuts, butter) to evening meals—digesting fats at night generates internal metabolic heat while you sleep.
+- **Hot-Weather Outings:** Emphasize high-water-content fruits (oranges, melons), salty snacks, and electrolyte replenishment to avoid heat exhaustion and dehydration cramps.
+
+### 3. Special Dietary Needs
+Always survey your patrol members during the planning phase for food allergies (peanuts, tree nuts, shellfish), lactose intolerance, gluten sensitivity (celiac), or religious dietary rules (kosher, halal, vegetarian), and adjust recipes or provide safe alternatives.
+
+{{< drg/checklist title="Menu Plan Review" subtitle="Verify your menu before budgeting" >}}
+- [ ] Includes breakfast, lunch, and dinner.
+- [ ] At least two meals require hands-on cooking.
+- [ ] Incorporates all 5 MyPlate food groups across the day.
+- [ ] Portions match the patrol headcount and activity level.
+- [ ] Accounted for all patrol member food allergies and dietary needs.
 {{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Write the finished menu down before you move to requirement 2b — you'll need it to build your shopping list and budget.
+Keep your written menu safe—you will use it directly in Requirement 2b to build the patrol shopping list and cost budget!
 {{< /drg/tip >}}
