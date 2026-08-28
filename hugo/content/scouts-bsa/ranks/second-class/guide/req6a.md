@@ -48,14 +48,14 @@ Watch for heavy sweating, weakness, cool clammy skin, and nausea. Move the perso
 
 ## Shock
 
-Signs include pale or clammy skin, rapid weak pulse, and confusion. Lay the person down, keep them warm, and treat any underlying injury — shock often accompanies another emergency, so keep watching for the cause.
+Signs of shock include pale, cold, or clammy skin, rapid shallow breathing, a fast and weak pulse, nausea, and restlessness or confusion. Lay the person flat on their back. If you are certain there are no head, neck, back, pelvic, or leg injuries, elevate their feet about 12 inches to improve blood flow to vital organs. Insulate them with blankets underneath and on top to preserve body heat. Do not give them anything to eat or drink.
 
 ## Heatstroke, Dehydration, Hypothermia, and Hyperventilation
 
-- **Heatstroke**: hot, dry or flushed skin and confusion — a life-threatening emergency. Cool the person immediately by any means available and get emergency help.
-- **Dehydration**: thirst, dry mouth, and dark urine. Rehydrate gradually with water.
-- **Hypothermia**: shivering, confusion, and slurred speech. Get the person dry, insulated, and warmed gradually — never rub cold skin briskly.
-- **Hyperventilation**: rapid breathing and lightheadedness. Help the person calm down and slow their breathing.
+- **Heatstroke**: A life-threatening failure of the body's cooling system. Symptoms include extremely hot, red, dry (or heavily sweating) skin, rapid pulse, disorientation, or unconsciousness. Call 911 immediately and cool the person aggressively by any means: immerse in cool water, wet their clothing, or place ice/cold packs on the neck, armpits, and groin.
+- **Dehydration**: Thirst, dry mouth, headache, and dark urine. Rehydrate gradually with cool water or electrolyte fluids.
+- **Hypothermia**: Shivering, confusion, lethargy, slurred speech, and loss of coordination (the "umbles"). Get the person out of wet clothes, wrap them in dry layers and wind protection, insulate from the cold ground, and warm them gradually — never rub cold skin briskly.
+- **Hyperventilation**: Rapid breathing, dizziness, tingling in fingers, and lightheadedness. Help the person sit quietly, calm down, and breathe slowly through pursed lips or a single nostril.
 
 {{< drg/safety-first >}}
 Heatstroke and severe hypothermia are medical emergencies. Cool or warm the person while someone else calls for help — don't wait to see if it resolves on its own.

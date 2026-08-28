@@ -32,11 +32,20 @@ If you or someone with you shows these signs, call 911 immediately. Don't wait t
 
 CPR keeps blood moving to the brain and organs when the heart has stopped, buying time until emergency responders or an AED (automated external defibrillator) can restart it.
 
-1. Check the scene for safety, then check if the person responds. If not, call 911 (or have someone else call) and get an AED if one is available.
-2. Position the person on their back on a firm surface.
-3. Give chest compressions: push hard and fast in the center of the chest, about two inches deep, at a rate of 100 to 120 compressions per minute.
-4. If trained, give two rescue breaths after every 30 compressions. If untrained or unwilling to give breaths, continuous compressions alone still help.
-5. Continue cycles of compressions (and breaths) until the person responds, an AED is ready to use, or emergency responders take over.
+1. **Check the scene and the person**: Ensure the area is safe. Tap the person's shoulder and shout, "Are you OK?" Check for breathing or signs of life for no more than 10 seconds.
+2. **Call 911 and get an AED**: If the person is unresponsive and not breathing (or only gasping), send someone immediately to call 911 and retrieve an automated external defibrillator (AED).
+3. **Position on a firm surface**: Place the person flat on their back on the ground or a firm surface.
+4. **Give 30 chest compressions**: Place the heel of one hand in the center of the chest, place your other hand on top, and interlace your fingers. Push hard and fast at a rate of 100 to 120 compressions per minute:
+   - **Adult**: Compress at least 2 inches deep.
+   - **Child**: Compress about 2 inches deep (using one or two hands).
+   - **Infant**: Compress about 1.5 inches deep (using 2 or 3 fingers).
+   - Allow the chest to return completely to its normal position (recoil) between compressions.
+5. **Give 2 rescue breaths**: Open the airway using the head-tilt/chin-lift maneuver (press gently on the forehead while lifting the chin). Using a breathing barrier, pinch the nose and blow into the mouth for about 1 second, watching for the chest to rise. Give two breaths, taking no more than 10 seconds total.
+6. **Repeat cycles**: Continue repeating 30 compressions followed by 2 rescue breaths until:
+   - An AED arrives and is ready to analyze or shock.
+   - The person shows obvious signs of life.
+   - Emergency medical responders or another trained first-aider takes over.
+   - You become too exhausted to continue.
 
 {{< drg/video
     title="How to do Compression-Only CPR — American Red Cross"

@@ -31,7 +31,7 @@ Clean the wound with water, apply an antiseptic if available, and cover with a s
 
 ### Show first aid for blisters on the hand and foot
 
-Cover an unbroken blister with moleskin or a padded bandage to reduce friction. Don't intentionally pop it — an open blister is an open door for infection. If it's already broken, clean it and cover it like an open wound.
+Cover an unbroken blister with moleskin or a padded bandage to reduce friction: cut a "doughnut" hole in a piece of moleskin slightly larger than the blister so the pad cushions the hot spot without sticking to the blister itself. Don't intentionally pop it — an open blister is an open door for infection. If it's already broken, wash it gently with soap and water, apply an antiseptic, and cover it like an open wound.
 
 ### Show first aid for minor burns or scalds
 
@@ -46,7 +46,7 @@ For a sting, scrape out the stinger with a straight edge (don't pinch it, which 
 ### Show first aid for a venomous snakebite
 
 {{< drg/safety-first >}}
-Keep the Scout calm and still, remove tight jewelry or clothing near the bite before swelling starts, and get emergency medical help immediately. Do not cut the wound, apply a tourniquet, or try to suck out the venom — none of these help, and some make it worse.
+Call 911 immediately. Keep the person calm and still to slow venom circulation, and keep the bitten limb resting level with or slightly below heart level. Strip away tight jewelry or clothing near the bite before swelling starts. Wash the bite gently with soap and water. Do not apply a tourniquet, cut the wound, use suction or ice, or give caffeine or pain medicine — none of these help, and they make the injury worse.
 {{< /drg/safety-first >}}
 
 ### Show first aid for a nosebleed
@@ -57,7 +57,7 @@ Sit the person forward (not tilted back), and pinch the soft part of the nose fo
 
 ### Show first aid for frostbite and sunburn
 
-For frostbite, warm the area gradually with body heat or warm (not hot) water — never rub the skin, which can cause more tissue damage. For sunburn, cool the skin and keep it covered from further sun exposure.
+For frostbite, move the person into shelter and warm the frozen skin gradually using skin-to-skin warmth (like placing hands under armpits) or warm water (100°F–105°F). Never rub frostbitten skin, don't pop frostbite blisters, and keep away from direct heat sources like campfires, which can severely burn numb tissue. For sunburn, apply cool damp cloths and aloe vera lotion, drink plenty of fluids, and protect the skin from any further sun exposure.
 
 ### Show first aid for choking
 
@@ -65,7 +65,7 @@ For frostbite, warm the area gradually with body heat or warm (not hot) water �
 Choking cuts off breathing fast, and hesitation costs time you don't have.
 
 - **Step one**: Ask "Are you choking?" If they can't speak or cough, act immediately.
-- **Step two**: Give abdominal thrusts (the Heimlich maneuver) from behind, above the navel, until the object clears.
+- **Step two**: Stand behind the person, wrap your arms around their waist, place the thumb-side of your fist against their abdomen just above the navel (well below the rib cage), grasp your fist with your other hand, and give quick inward-and-upward abdominal thrusts (the Heimlich maneuver) until the object clears.
 - **Step three**: If they become unconscious, lower them to the ground and begin CPR, sending someone to call for emergency help.
 {{< /drg/be-prepared >}}
 
