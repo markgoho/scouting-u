@@ -20,19 +20,23 @@ You tied the square knot for [Scout requirement 4a](/scouts-bsa/ranks/scout/guid
     title="Scouting America: How to Tie and Use a Square Knot (Basic Approach) — Troop Leader"
     url="https://www.youtube.com/watch?v=8SgNwPElhdA" >}}
 
-## A Practical Use
+## Practical Uses in Camp and First Aid
 
-Good options for this requirement include:
+Because the square knot lies remarkably flat against surfaces, it is the standard choice for:
 
-- Joining two ropes of equal diameter to make one longer line.
-- Tying a bundle closed — rolled gear, a bag of firewood, a rolled tarp.
-- Finishing off the end of a lashing.
+- **First Aid Bandaging:** Securing triangular bandages, splints, or dressings against a patient's limb without creating uncomfortable pressure points or digging into skin.
+- **Tying Bundles and Gear:** Securing rolled sleeping pads, firewood bundles, or tarps.
+- **Reefing Sails / Shortening Lines:** Traditional sailing use (also called the "reef knot") for tying down excess canvas.
 
 {{< drg/safety-first >}}
-The square knot is not designed to hold a heavy or shifting load — never use it for anything you'd be unhappy to see come loose, like securing a hammock or anything a person's weight depends on.
+The square knot is **not a load-bearing bend** and should never be used for critical safety lines, climbing, overhead lifting, or joining ropes of unequal thickness. Under heavy strain or when shaken, a square knot can capsize (spill) into a slip knot and pull completely apart.
 {{< /drg/safety-first >}}
 
-## Checking Your Knot
+## Checking and Dressing Your Knot
 
-A correctly tied square knot lies flat against itself. If it twists into a lopsided shape that slips when you pull the ends, you've likely tied a "granny knot" instead — the second half of the knot was tied the wrong way around. Retie it and check that both loops nest together symmetrically before you call it done.
+A properly dressed square knot consists of two interlocking bights that lie flat and symmetrical. 
+
+- **Granny Knot Warning:** If you tie "right over left" and then "right over left" again, you produce a granny knot. It curls diagonally, slips under load, and jams tightly when pulled.
+- **Thief Knot Warning:** If the running ends emerge from opposite sides of the knot rather than the same side, you have tied a thief knot, which fails almost immediately under tension.
+- **Surgeon's Knot Variant:** Adding an extra twist on the first wrap creates a surgeon's knot, which adds friction to hold tension while you complete the second half of the knot.
 

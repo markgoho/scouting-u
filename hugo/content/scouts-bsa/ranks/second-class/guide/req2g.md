@@ -14,26 +14,36 @@ next_title: "Navigation"
 Demonstrate tying the bowline knot. Describe a situation in which you would use this knot.
 {{< /drg/requirement >}}
 
-Sailors, climbers, and rescue crews all rely on the same knot when a rope has to hold a fixed loop under real weight without slipping tighter or jamming loose: the bowline.
+Sailors, climbers, and rescue personnel all rely on the same essential knot whenever a rope needs a secure, non-slip fixed loop: the **bowline** (often called the "King of Knots").
 
 ## Tying the Bowline
 
-The classic memory trick is "the rabbit comes out of the hole, around the tree, and back down the hole":
+The classic mnemonic is *"the rabbit comes out of the hole, goes around the tree, and hops back down the hole"*:
 
-1. Form a small loop ("the hole") in the standing part of the rope, leaving enough working end for a loop.
-2. Pass the working end ("the rabbit") up through the small loop.
-3. Wrap the working end around the standing part ("around the tree").
-4. Bring the working end back down through the small loop ("back down the hole").
-5. Pull the standing part and the loop to snug the knot, leaving a fixed loop that won't shrink or grow under load.
+1. Form a small overhand loop (the "hole") in the standing part of the rope, keeping the working end longer than the loop you intend to create.
+2. Bring the working end (the "rabbit") **up through the loop** from underneath.
+3. Pass the working end around the standing line (the "tree") from behind.
+4. Push the working end **back down through the loop** in the direction it came.
+5. Grasp the loop and the running end in one hand and the standing line in the other; pull firmly to snug and dress the knot.
+
+> [!TIP]
+> **Tail Inside the Loop:** When properly dressed, the short working tail should rest on the *inside* of the main loop. This ensures it won't snag on branches or gear.
 
 {{< drg/video
     title="How to Tie a Bowline Knot — AnimatedKnots"
     url="https://www.youtube.com/watch?v=YXRnPES0Qec" >}}
 
-## When to Use It
+## Practical Applications
 
-The bowline creates a loop that holds its size under load but unties easily once the tension is off — reach for it whenever you need a secure loop that won't jam, such as tying a rope around your waist for a rescue line, securing a rope to a post or tree by its loop, or hoisting a bucket where you need the loop to stay open.
+- **Rescue Line:** Forming a fixed loop thrown to a swimmer or lowered to someone in distress. Because the loop will never tighten or constrict under tension, it will not crush the person's chest or waist.
+- **Halyards & Rigging:** Hoisting gear, lanterns, or bear bags into trees.
+- **Mooring & Guy Lines:** Anchoring a fixed loop around a tree or dock piling.
 
-{{< drg/did-you-know >}}
-The bowline is sometimes called the "king of knots" because it holds securely under heavy load but can still be untied by hand even after being under tension all day — most knots that strong get nearly impossible to loosen.
-{{< /drg/did-you-know >}}
+## How to Untie It: "Breaking the Knot"
+
+Unlike many heavy-duty knots that weld tight and jam under heavy loads, a bowline can always be released with ease. 
+
+To untie a heavily loaded bowline:
+1. Turn the knot over to find the "collar" (the loop wrapping around the standing line).
+2. Push the collar back over the standing line (similar to bending the tab on an aluminum can).
+3. The knot instantly "breaks" loose, allowing the strands to slide apart freely by hand.

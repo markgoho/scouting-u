@@ -14,24 +14,31 @@ next_title: "Personal Protection"
 Tell what you need to know about using a pocketknife safely and responsibly.
 {{< /drg/requirement >}}
 
-A pocketknife is one of the first genuinely dangerous tools most Scouts are trusted with, which is exactly why this requirement comes before you're ever handed one on a campout.
+A pocketknife is one of the most useful and versatile tools in Scouting, but it requires strict discipline and respect to handle safely.
 
-## Handling It Safely
+## Safe Knife Use Checklist
 
-- **Keep it closed except when in use.** Open the blade only when you're actively using it, and close it again the moment you're done.
-- **Cut away from your body**, never toward it, and keep your free hand well clear of the blade's path.
-- **Give yourself space.** Before opening a blade, check that no one is within arm's reach — an elbow bump at the wrong moment is how most knife injuries happen.
-- **Pass it closed, handle first.** Never hand someone an open blade.
-- **Sit down to use it**, if possible — a stable position reduces the chance of a slip.
+- **Keep blades closed** whenever the knife is not actively being used or cleaned.
+- **Open only one blade at a time.** Never leave a tool with multiple blades exposed.
+- **Always cut away from yourself**, never toward your body or hands. Keep your non-cutting hand completely behind the blade's path.
+- **Establish your safety zone (blood circle).** Before opening a blade, extend your arm in a full circle around you (or hold the closed knife and sweep your arms). If anyone is within reach, ask them to step back.
+- **Pass it closed, handle first.** Never pass an open knife. When handing a closed tool to another Scout, wait until they have a secure hold and say "Thank you" before you release your grip.
+- **Never throw a knife** or use the point of a blade as a prying tool (it can snap or bend).
+- **Never strike a blade** with another tool or baton.
+- **Know the rules:** Obey all regulations regarding knives in public places, schools, and airports. Always carry your knife closed in your pocket or pack sheath.
 
 {{< drg/image src="images/pocketknife-passing-handle-first.png" alt="A Scout handing a closed pocketknife handle-first to another Scout" >}}
 
-## Using It Responsibly
+## Caring for Your Knife
 
-A pocketknife is a tool, not a toy. Use it for real tasks — whittling, cutting cord, food prep — not for throwing, prying, or showing off. Keep the blade clean and dry to prevent rust, and keep it sharp: a dull blade actually causes more injuries than a sharp one, because it takes more force and is more likely to slip.
+A well-maintained tool is both safer and more effective to use:
+
+- **Keep it sharp:** A sharp blade slices cleanly with minimal effort. A dull blade requires excessive force, slips unpredictably, and is the primary cause of whittling accidents.
+- **Cleaning:** Open the blades and wrap a small piece of clean cloth around the tip of a wooden toothpick. Moisten the cloth and wipe lint and grit out of the inner casing channel.
+- **Food prep hygiene:** If you use your knife to slice food or spread peanut butter, wash the blades thoroughly in hot, soapy dishwater, dry completely, and add a single drop of light mineral oil to the pivot joints.
 
 {{< drg/image src="images/pocketknife-cutting-technique.png" alt="A Scout whittling a stick, cutting away from his body with his free hand held well clear of the blade" >}}
 
 {{< drg/safety-first >}}
-If you cut yourself, stop immediately, apply direct pressure to the wound, and tell an adult leader right away — even for a small cut. Never keep using a knife through pain or bleeding.
+If you cut yourself, stop immediately, apply direct pressure to the wound with clean gauze, elevate the area if possible, and tell an adult leader right away — even for minor nicks.
 {{< /drg/safety-first >}}

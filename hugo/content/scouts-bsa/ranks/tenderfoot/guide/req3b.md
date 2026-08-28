@@ -14,25 +14,29 @@ next_title: "Demonstrate taut-line hitch"
 Demonstrate a practical use of two half-hitches.
 {{< /drg/requirement >}}
 
-Two half-hitches — a knot you also tied for [Scout requirement 4a](/scouts-bsa/ranks/scout/guide/req4a/) — is one of the most useful knots in camp because it holds firm under a steady pull but still unties easily by hand, even after that pull has been on it for hours.
+Two half-hitches — a knot you also tied for [Scout requirement 4a](/scouts-bsa/ranks/scout/guide/req4a/) — is one of the most dependable hitches in camp because it holds firm under steady tension but still unties effortlessly by hand, even after being loaded for days.
 
 {{< drg/video
     title="Scouting America: How to Tie Two Half Hitches — Troop Leader"
     url="https://www.youtube.com/watch?v=sHFvwiIV9W8" >}}
 
-## A Practical Use
+## Practical Camp Applications
 
-Try one of these real applications:
+- **Dining Fly and Tarp Rigging:** Anchoring guy lines to grommets, trees, or corner posts.
+- **Camp Clothesline or Bear Bag Line:** Tying off high-tension horizontal lines between trees.
+- **Mooring Watercraft:** Securing a canoe or rowboat painter line to a dock ring or post.
 
-- Tying a clothesline or bear-bag line between two trees.
-- Securing a tarp corner to a stake or tree.
-- Tying off a canoe or boat to a dock cleat.
+## Tying and Dressing the Hitch
 
-## Why It Works
+1. Pass the running end around the post, tree, or through the grommet.
+2. Bring the end over and around the standing line to make the **first half-hitch**.
+3. Continue in the **exact same direction** around the standing line further down to make the **second half-hitch**.
+4. Slide the hitches snug against each other and pull tight.
 
-The first half-hitch grips the rope; the second locks the first in place. Under load, the hitches tighten around the rope they're tied to — but because they're just wraps and loops, not a friction jam, they still loosen easily when you're ready to take the line down. That combination — secure under tension, easy to release — is what makes it the go-to knot for tying off to a fixed point.
+> [!TIP]
+> **Direction matters:** Both half-hitches must be tied in the same direction around the standing part. Tied correctly, they form a clove hitch around the standing rope itself. If you reverse directions on the second hitch, the knot loses friction and can work loose.
 
-{{< drg/tip >}}
-Snug each half-hitch against the one before it as you tie. A loose first hitch lets the whole knot slip before the second hitch can lock it down.
-{{< /drg/tip >}}
+## The Roundturn Variation
+
+If you are anchoring a line under heavy strain (like a heavily loaded clothesline or mooring a boat in current), take a **roundturn** (two full wraps around the post) before tying your two half-hitches. The roundturn absorbs the friction and pull from the load, allowing you to tie or untie the half-hitches easily without fighting the line's tension.
 

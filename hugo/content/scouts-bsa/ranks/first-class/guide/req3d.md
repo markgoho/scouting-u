@@ -14,33 +14,30 @@ next_title: "Navigation"
 Use lashings to make a useful camp gadget or structure.
 {{< /drg/requirement >}}
 
-This is where the three lashings from [requirement 3c](/scouts-bsa/ranks/first-class/guide/req3c/) stop being a demonstration and start being useful — build something your patrol will actually use at camp.
+This requirement puts the foundational lashings from [requirement 3c](/scouts-bsa/ranks/first-class/guide/req3c/) to practical use in the field by building a useful, durable structure for your patrol campsite.
 
-## Ideas to Get You Started
+## Practical Camp Gadget Ideas
 
-Any of these puts multiple lashings to real work, but the specific project is yours to design:
+- **Camp Washstand / Basin Holder:** A stable tripod made with a shear or tripod lashing, reinforced with three crossbars near the bottom joined by square lashings to hold a water basin.
+- **Camp Table & Bench:** Two A-trestles (shear legs with diagonal cross-bracing) supporting parallel stringers, with a tabletop secured using **floor lashings**.
+- **Patrol Tool Rack:** An A-frame rack with horizontal crossbars to keep axes, shovels, and saws off wet ground and safely stored in camp.
+- **Campsite Gateway & Sign Frame:** Upright staves supporting a patrol sign, braced with diagonal lashings to prevent racking in the wind.
+- **Dish-Drying Rack:** A raised rectangular frame with small floor spars allowing plates and utensils to air-dry cleanly away from dirt and critters.
 
-- A camp table or shelf, using square lashings at the leg joints.
-- A tripod for hanging a wash basin or lantern, using shear lashings on the legs.
-- A gateway or sign frame for your campsite, combining square and diagonal lashings for the bracing.
-- A dish-drying rack, raised off the ground with square-lashed legs.
+## Structural Integrity: Building for Stability
 
-## What "Useful" Means Here
+1. **Triangulate the Base:** A three-legged tripod can splay out under weight if the legs are on smooth ground. Always add three horizontal crossbars near the bottom connected with square lashings to lock the leg geometry in place.
+2. **Floor Lashing for Surfaces:** To create a solid platform for a table or rack, lay floor spars across two parallel stringers. Secure them using a continuous floor lashing (looping a bight over each floor spar on the inside and outside of the stringer, finishing with a clove hitch).
+3. **Inspect and Re-cinch:** Camp gadgets settle after hours of use. If a joint begins to wobble, inspect the **frapping turns** first — retighten the fraps or retie the joint if the wood has shifted.
 
-Pick something your patrol will genuinely use, not just something that stands up long enough to be inspected. A structure that wobbles the first time someone leans on it hasn't really proven your lashings hold — build with the same care you'd want if you were the one relying on it.
+{{< drg/be-prepared title="A Lashing Loosens After Heavy Rain" >}}
+Natural fiber ropes expand when wet and contract as they dry, while synthetic ropes stretch under sustained load.
 
-## Choosing and Checking Your Materials
-
-Reuse the judgment from [requirement 3a](/scouts-bsa/ranks/first-class/guide/req3a/): use dead, downed wood, straight and free of rot, sized to what the structure needs to hold. Before you call the project finished, test every lashing by hand — push and pull on each joint and confirm nothing shifts or loosens.
-
-{{< drg/be-prepared title="A Lashing Loosens After Use" >}}
-Your camp table has been in use for a day, and one of the leg joints has started to wobble.
-
-- **Check the frapping turns first** — these are usually what loosens first under repeated use.
-- **Retighten by hand**, pulling the frapping turns snug again the same way you did when you first tied it.
-- **Retie from scratch** if the wraps themselves have loosened, rather than adding more rope on top of a failing lashing.
+- **Check frapping turns** periodically during multi-day campouts.
+- **Snug the clove hitch finish** and add an extra half-hitch if the tail has slipped.
+- **Disassemble completely** at the end of camp: untie every lashing, coil all ropes neatly, and store dry spars off the ground.
 {{< /drg/be-prepared >}}
 
 {{< drg/tip >}}
-Photograph or sketch your finished project before you take it apart — it's an easy way to show your Scoutmaster exactly what you built and which lashings you used where.
+Take a photograph or make a quick sketch of your completed camp gadget in your Scout handbook or patrol log to document your design for your Scoutmaster conference.
 {{< /drg/tip >}}

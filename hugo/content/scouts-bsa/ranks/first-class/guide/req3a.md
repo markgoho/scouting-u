@@ -14,24 +14,29 @@ next_title: "Tie timber and clove hitch"
 Discuss when you should and should not use lashings.
 {{< /drg/requirement >}}
 
-Before you tie a single lashing, this requirement asks you to think about when lashing is actually the right tool for the job — not every situation that involves two poles calls for one.
+Before you tie a single lashing, this requirement asks you to understand when lashing is appropriate, how structures achieve rigidity, and the critical safety rules governing pioneering.
 
 ## When Lashings Make Sense
 
-- **Building camp gadgets and structures** that need to hold their shape under light, steady loads — a camp table, a tripod for a wash basin, a gateway for your campsite.
-- **No nails, screws, or hardware are practical or allowed** — lashings let you build a rigid structure from raw poles using only rope, which is exactly what backcountry and campsite building call for.
-- **The structure needs to come apart again.** A well-tied lashing can be untied and the poles reused for something else, unlike a nailed joint that damages the wood.
-- **The poles are straight, sound, and roughly matched in size**, which lets the wraps grip evenly and hold real tension.
+- **Building useful camp gadgets and campsite structures** that support light-to-moderate, steady loads — camp tables, washstands, tool racks, dish-drying racks, and campsite gateway markers.
+- **Building without hardware:** Lashings join raw timber and staves without requiring nails, screws, or bolts, preventing permanent damage to reusable spars.
+- **Temporary, leave-no-trace projects:** Lashings can be untied and disassembled cleanly, leaving the campsite in its natural state and allowing the timber and rope to be reused for future projects.
+- **Using straight, sound timber:** Lashings work best on straight, matched spars where wrapping and frapping turns can grip firmly without slipping.
 
-## When to Skip Lashings
+## When to Skip Lashings & Safety Rules
 
-- **The load will bear real weight from a person**, such as a structure someone will climb on or stand on top of — that kind of load-bearing structure needs engineering and materials well beyond a basic camp lashing, and building one is not something a lashing alone makes safe.
-- **The poles are rotten, cracked, or unevenly sized.** A lashing is only as strong as the wood it grips; a lashing on weak poles fails at the wood, not the rope.
-- **A simpler solution already does the job.** If a single hitch, a bungee cord, or a stake would hold something in place just as well, a full lashing is more time and rope than the task needs.
-- **The materials would require cutting live trees or saplings.** Sourcing dead, downed wood keeps this in line with the [Leave No Trace principles](/scouts-bsa/ranks/second-class/guide/req1b/) you've already learned.
+- **The 6-Foot Height Safety Rule:** According to BSA pioneering safety guidelines, youth-built pioneering structures must **never exceed 6 feet in height** without specialized adult supervision, safety harnesses, and council approval. Never build unauthorized climbing towers, rope swings, or high monkey bridges.
+- **Human load-bearing structures:** Lashings should never be used as the sole support for structures carrying critical human weight overhead.
+- **Cracked or decaying wood:** A lashing is only as strong as the timber beneath it. Decayed, insect-bored, or brittle branches will snap regardless of how well the knot was tied.
+- **Damaging live timber:** Never chop down live trees or strip saplings for pioneering timber. Use troop-supplied reusable spars or legally gathered dead-and-downed wood.
 
-{{< drg/tip >}}
-Before lashing anything, give the poles a firm shake and check for rot, cracks, or insect damage. A lashing tied perfectly on a weak pole is still a weak structure.
-{{< /drg/tip >}}
+## Pioneering Engineering: The Triangulation Principle
 
-Be ready to explain both sides of this — not just what a lashing can do, but what situation would make you choose something else instead.
+A square or rectangle made of four lashed poles has flexible joints that can easily twist or collapse ("rack") under pressure. A triangle, however, is a geometrically rigid shape that cannot change its form without bending or breaking the sides.
+
+All stable pioneering structures rely on **triangulation** (such as A-trestles, X-trestles, and diagonal cross-braces) to lock the joints and keep the frame rigid.
+
+## Preserving Pioneering Spars and Rope
+
+- **Spar Care:** For troop-owned spars, shave the bark off freshly harvested poles before storage. Bark traps moisture against the wood and harbors wood-boring insects, leading to rot. Store spars elevated off the ground under a dry shelter.
+- **Rope Care:** Coil ropes properly after use. Protect natural fibers (like manila or sisal) from moisture and mildew; store synthetic ropes (like nylon or polypropylene) away from direct sunlight and UV degradation.

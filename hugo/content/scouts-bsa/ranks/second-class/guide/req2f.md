@@ -14,24 +14,29 @@ next_title: "Demonstrate bowline knot"
 Demonstrate tying the sheet bend knot. Describe a situation in which you would use this knot.
 {{< /drg/requirement >}}
 
-You already know the square knot ties two ropes of the same thickness together. But tie a square knot with a thick rope and a thin cord and it slips apart under load — the sheet bend is the knot built specifically to join ropes of different sizes.
+You already know the [square knot](/scouts-bsa/ranks/tenderfoot/guide/req3a/) joins two ropes of the same thickness. But tie a square knot with ropes of unequal diameter or slick synthetic material, and it capsizes and pulls apart under load. The **sheet bend** is the field-tested standard for securely joining two ropes of different diameters or materials.
 
 ## Tying the Sheet Bend
 
-1. Form a bight (a U-shaped loop) in the thicker rope.
-2. Pass the thinner rope up through the bight.
-3. Wrap the thin rope around behind both legs of the bight.
-4. Tuck the thin rope's working end back under itself, on the same side it came in from.
-5. Pull all four ends to snug the knot down.
+1. **Form a bight** (a simple U-shaped bend) in the **thicker** rope first.
+2. Pass the running end of the thinner rope up through the center of the bight.
+3. Bring the thin rope around behind both legs of the bight.
+4. Tuck the thin rope's working end under itself (across the top of the bight), on the same side it entered.
+5. Pull both standing parts and running ends to dress and snug the knot down evenly.
+
+> [!IMPORTANT]
+> **Check Strand Alignment:** When properly tied, the short running ends of both ropes must emerge on the **same side** of the knot. If they end up on opposite sides (creating a "left-handed sheet bend"), the knot loses up to 50% of its holding power and can slip under strain.
 
 {{< drg/video
     title="Sheet Bend Knot | How to tie a Sheet Bend Knot — AnimatedKnots"
     url="https://www.youtube.com/watch?v=vsj7riFkulE" >}}
 
-## When to Use It
+## Practical Applications
 
-Reach for a sheet bend whenever you need to join two ropes of noticeably different thickness or material — extending a clothesline with spare cord, tying a thin lashing rope to a thicker guyline, or joining rope to a smaller cord for rigging a tarp. A square knot in that same situation would work loose under tension; the sheet bend holds.
+- **Extending Lines:** Joining a thin guyline to a thicker utility rope to reach a distant anchor tree.
+- **Tarp & Sail Rigging:** Tying a line to a grommet or through the corner loop of a canvas tarp or sail (the knot's historic naval use).
+- **Joining Dissimilar Materials:** Connecting synthetic nylon cord to natural fiber rope.
 
 {{< drg/tip >}}
-If you'll be putting real load on the joint — like rigging a tarp in wind — tie a double sheet bend by wrapping the thin rope around the bight twice before tucking it. It holds even more securely.
+**The Double Sheet Bend:** If there is a massive difference in thickness (e.g., paracord to heavy dock rope) or if the ropes are wet and slick, take two complete wraps with the thinner rope around the bight before tucking it under itself. This "double sheet bend" provides maximum friction and security.
 {{< /drg/tip >}}

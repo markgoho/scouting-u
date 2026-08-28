@@ -14,53 +14,60 @@ next_title: "Lash a camp gadget"
 Demonstrate tying the square, shear, and diagonal lashings by joining two or more poles or staves together.
 {{< /drg/requirement >}}
 
-Each of these three lashings solves a different problem, based on how the poles meet. Learn which lashing fits which situation, and the choice becomes automatic once you're actually holding the poles.
+Lashings join poles and spars together using only rope. Every lashing relies on two distinct actions:
+- **Wrapping turns:** Loop around both spars to hold them in position.
+- **Frapping turns:** Wrap *between* the spars around the wrapping turns, pulling the rope incredibly tight to lock the joint into a rigid structure.
 
-## Square Lashing — Poles Crossing at a Right Angle
+---
 
-Use a square lashing when two poles cross and touch, forming a right angle — the classic joint for a camp table leg or a gateway crossbar.
+## 1. Square Lashing — Touching Poles Crossing at 45° to 90°
+
+Use the square lashing to join two poles that touch and cross at a right or near-right angle (such as table legs, gateway rails, or crossbars).
 
 {{< drg/video
     title="How to Tie the Square Lashing — AnimatedKnots"
     url="https://www.youtube.com/watch?v=3GVE0EPEc1o" >}}
 
-1. Tie a [clove hitch](/scouts-bsa/ranks/first-class/guide/req3b/) around the base pole, just below where the second pole crosses it.
-2. Wrap the rope over the crossing pole, behind the base pole, over the crossing pole again, and behind the base pole again — repeat this pattern three or four times, keeping the wraps snug and in order.
-3. Add two or three frapping turns — wraps that go *between* the poles, around the wrapping turns themselves — and pull them tight to cinch everything down.
-4. Finish with another clove hitch around whichever pole is convenient.
+1. **Start:** Tie a [clove hitch](/scouts-bsa/ranks/first-class/guide/req3b/) around the bottom (vertical) pole directly beneath the cross pole. Wrap the short running tail around the standing line to lock it.
+2. **Wraps (3 turns):** Bring the rope over the top pole, around the back of the bottom pole, over the top pole, and behind the bottom pole. Make **three complete wrapping turns**. Lay each turn neatly alongside the previous turn (*outside* the previous wrap on the top pole, and *inside* on the bottom pole).
+3. **Fraps (2 turns):** Take **two tight frapping turns** between the two poles, wrapping directly around the rope wraps. Pull each frapping turn as tight as possible.
+4. **Finish:** Tie off with a clove hitch around the top (horizontal) pole, snug against the frapping.
 
-## Shear Lashing — Poles Running Side by Side
+---
 
-Use a shear lashing to join two or more poles running parallel to each other — the standard method for building a tripod's legs before you spread them apart, or for splicing two poles end to end for extra length.
+## 2. Shear Lashing — Parallel Poles & A-Frames
+
+Use a shear lashing to join two spars running side by side, either to form the legs of an A-frame (shear legs) or to splice two poles together.
 
 {{< drg/video
     title="How to Tie a Shear Lashing — Scouting America"
     url="https://www.youtube.com/watch?v=ZleaU84exEw" >}}
 
-1. Tie a clove hitch around both poles together.
-2. Wrap the rope around both poles seven or eight times, keeping the wraps loose enough to add frapping turns.
-3. Add two or three frapping turns between the poles and pull tight.
-4. Finish with a clove hitch around the other pole.
+1. **Start:** Lay the two spars side by side. Tie a clove hitch around one of the spars and wrap the short tail around the standing rope.
+2. **Wraps (5 to 10 turns):** Make **5 to 10 neat wrapping turns** around both poles together. Keep the wraps snug but not overly tight (space is needed for frapping).
+3. **Fraps (2 turns):** Make **two tight frapping turns** between the spars, cinching the wraps firmly.
+4. **Finish:** Finish with a clove hitch on the *opposite* spar from where you started.
+5. **Spread the Legs:** For an A-frame or tripod legs, spread the lower ends of the poles apart. Spreading the legs further tightens the frapping turns, locking the structure solid.
 
-For a tripod, tie the shear lashing loosely enough that the poles can still pivot at the lashing point, then spread the legs into a stand after the lashing is tied.
+---
 
-## Diagonal Lashing — Poles That Don't Touch
+## 3. Diagonal Lashing — Crossing Poles with a Gap
 
-Use a diagonal lashing when two poles cross but have a gap between them at the crossing point — common in diagonal bracing, where the poles need to be pulled together before they'll hold.
+Use a diagonal lashing when two poles cross at an angle but do not touch (such as diagonal cross-braces on an X-trestle). The lashing pulls the separated poles together into contact.
 
 {{< drg/video
     title="How to Tie a Diagonal Lashing — Scouting America"
     url="https://www.youtube.com/watch?v=F-RRn9ccf34" >}}
 
-1. Tie a [timber hitch](/scouts-bsa/ranks/first-class/guide/req3b/) around both poles where they cross, then pull it tight to close the gap between them.
-2. Wrap the rope three or four times around one diagonal, then three or four times around the other diagonal.
-3. Add two or three frapping turns and pull tight.
-4. Finish with a clove hitch around whichever pole is convenient.
+1. **Start:** Tie a [timber hitch](/scouts-bsa/ranks/first-class/guide/req3b/) around **both poles** at the crossing point. Pull the standing line firmly to cinch the poles together into contact.
+2. **First Diagonal Wraps (3 turns):** Take **three wraps** around the poles along one diagonal axis of the fork. Pull each wrap tight.
+3. **Second Diagonal Wraps (3 turns):** Cross over and make **three wraps** around the opposite diagonal axis.
+4. **Fraps (2 turns):** Take **two tight frapping turns** between the poles, around all the wrapping turns.
+5. **Finish:** Tie off with a clove hitch around either pole, adding a half-hitch for extra security.
 
-{{< drg/tip >}}
-"Tight" is the word that matters most in all three lashings. A loose lashing looks finished but shifts under any real load — keep tension on the rope with every single wrap, not just at the end.
-{{< /drg/tip >}}
+> [!TIP]
+> Keep constant tension on the rope with every wrap. If you let slack enter during the wrapping stage, frapping turns won't be able to recover full rigidity.
 
 {{< drg/safety-first >}}
-Never put your fingers between the rope and the pole while pulling a wrap tight — a hand caught under a tightening lashing can get pinched hard enough to injure.
+Never wrap rope around your fingers or hand to gain leverage while pulling a lashing tight. A sudden slip can cause severe rope burns or pinch injuries. Use a smooth wooden toggle stick to pull heavy tension.
 {{< /drg/safety-first >}}
