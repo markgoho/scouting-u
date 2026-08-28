@@ -14,27 +14,38 @@ next_title: "Explain safe trip afloat"
 Successfully complete the BSA swimmer test.<sup><a href="#fn-4">4</a>, <a href="#fn-5">5</a></sup>
 {{< /drg/requirement >}}
 
-You passed the [BSA beginner test for Second Class](/scouts-bsa/ranks/second-class/guide/req5b/) — a short swim proving you can handle yourself in the water. The swimmer test is a different level entirely: it's the classification that opens the door to deep water, boating, and most other aquatics activities in Scouting.
+The BSA swimmer test is the essential milestone that qualifies a Scout for deep-water swimming, open-water activities, canoeing, kayaking, sailing, and aquatic high-adventure trips.
 
-## The BSA Swimmer Test
+## The Complete BSA Swimmer Test Sequence
 
-Under the supervision of a certified lifeguard or aquatics instructor, you must complete all of the following in one continuous swim, without stopping to rest, and including at least one sharp turn:
+Under the direct supervision of a certified lifeguard or aquatics instructor, the test must be completed in one continuous swim, without stopping, standing, or holding onto the side of the pool:
 
-1. **Jump feetfirst into water over your head in depth.**
-2. **Swim 75 yards** using strong, steady strokes — sidestroke, breaststroke, trudgen, or crawl, in any combination.
-3. **Swim an additional 25 yards** using an easy, resting backstroke — for a total of 100 yards.
-4. **Rest by floating** at the end of the swim.
+### 1. Jump Feetfirst into Deep Water
+- Jump feetfirst into water over your head in depth.
+- Level off smoothly and transition into swimming position on the surface without touching the edge or bottom.
 
-The whole thing has to happen without touching the bottom or the side of the pool, and without pausing between the strong-stroke and resting-stroke portions.
+### 2. Swim 75 Yards in a Strong Manner
+- Swim 75 yards continuously on the surface using one or more of the following strong, propulsive strokes:
+  - **Front Crawl (Freestyle)**: Overhand arm recovery with high elbow, continuous flutter kick from the hips, and rhythmic side-breathing.
+  - **Breaststroke**: Synchronized pull-breathe-kick-glide sequence. Arms sweep out and back to shoulder level as the head lifts to breathe; legs draw up for a powerful frog/whip kick as the arms thrust forward into a streamlined glide.
+  - **Sidestroke**: Body positioned on the side with face out of water. Lead arm reaches forward while trailing arm pulls along the torso, powered by a wide scissor kick snapped shut into an energy-saving glide.
+  - **Trudgen**: Overhand crawl arm stroke paired with an alternating scissor kick performed each time the body rolls to breathe.
 
-## Why the Test Exists
+### 3. Swim 25 Yards of Resting Backstroke
+- Transition directly into an easy, energy-conserving resting backstroke for the final 25 yards (completing 100 yards total).
+- **Elementary Backstroke**: Float faceup on your back. Hands slide up along the sides of the torso to the armpits, reach straight out to a "T" position, and sweep down against the hips while executing a smooth whip kick, finishing in an extended resting glide.
 
-This isn't an arbitrary hurdle. The BSA sorts swimmers into three classifications — nonswimmer, beginner, and swimmer — specifically so that leaders know, before anyone gets in the water, who can handle deep water unsupervised and who needs to stay in shallow or closely supervised areas. Passing swimmer classification is what qualifies you for canoeing, kayaking, and most other watercraft activities later in this requirement and beyond.
+### 4. Continuous Execution and Sharp Turn
+- The entire 100-yard swim must be completed without stopping or resting on the bottom or pool edge.
+- The swim must include at least one sharp, intentional 180-degree turn.
+
+### 5. Rest by Floating
+- Immediately upon finishing the 100-yard swim, demonstrate your ability to rest by floating faceup or survival floating with minimal movement for **1 full minute**.
 
 {{< drg/tip >}}
-The resting backstroke at the end is there on purpose — it proves you can recover and conserve energy in the water, not just power through a sprint. Practice it separately if it's your weaker stroke.
+The resting backstroke and 1-minute float at the end are not an afterthought — they test your ability to conserve energy and stay calm when fatigued, which is the most critical survival skill in open water.
 {{< /drg/tip >}}
 
 {{< drg/safety-first >}}
-The swimmer test must be given by a currently certified BSA aquatics supervisor or lifeguard, following current Safe Swim Defense guidelines. Never attempt it, or supervise it, without that certified oversight in place.
+The swimmer test must be administered under current Safe Swim Defense guidelines by a qualified aquatics instructor or lifeguard. All Scout swimmer classifications are re-tested annually.
 {{< /drg/safety-first >}}

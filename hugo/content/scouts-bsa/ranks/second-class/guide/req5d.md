@@ -14,18 +14,39 @@ next_title: "First Aid and Emergency Preparedness"
 Explain why swimming rescues should not be attempted when a reaching or throwing rescue is possible. Explain why and how a rescue swimmer should avoid contact with the victim.
 {{< /drg/requirement >}}
 
-A panicked, drowning person doesn't behave rationally — they will grab, climb, and push down on anything within reach, including a rescuer, which is why swimming out to help someone is the most dangerous rescue option and always the last one to consider.
+Entering the water to perform a swimming rescue is the absolute last resort in the rescue hierarchy (**Reach, Throw, Row, Go**). It carries severe, life-threatening risks to both the rescuer and the victim.
 
 ## Why Reaching and Throwing Come First
 
-Reaching and throwing rescues, from [requirement 5c](/scouts-bsa/ranks/second-class/guide/req5c/), keep the rescuer out of the water and out of the drowning person's grasp entirely. A swimming rescue puts the rescuer in the water alongside a panicking person who may be strong enough, in that moment, to pull even a trained swimmer under. Every rescue method should be tried in order — reach, throw, row, then go — and a swimming rescue is only for a trained rescuer, and only after the other options have failed or clearly won't reach in time.
+1. **The Instinctive Drowning Response**: A person who is actively drowning cannot control their movements or think rationally. Driven by basic survival panic, they will attempt to climb on top of anything that offers support to keep their mouth and nose above water.
+2. **Rescuer Danger**: In this panicked state, even a child or small swimmer can produce astonishing strength, easily dragging down an adult or strong swimmer. If a rescuer enters the water without equipment, they risk becoming a second victim.
+3. **Loss of Leverage**: On land or a dock, you can brace yourself with solid leverage. In the water, you have no solid footing to push against while trying to support another person's weight.
+
+Whenever reaching or throwing is possible, it keeps the rescuer safe on dry ground, provides immediate support, and eliminates in-water grappling.
+
+## Why and How a Rescuer Avoids Contact
+
+If a swimming rescue becomes unavoidable (the "Go" step), it should **only** be attempted by a strong swimmer trained in lifesaving techniques, and always with **Go (with support)** principles:
+
+### 1. Always Bring Flotation Between You and the Victim
+Never swim out empty-handed. Take a buoyant aid with you:
+- Life jacket (PFD)
+- Ring buoy or rescue tube
+- Kickboard, air mattress, or foam sleeping pad
+- Canoe paddle or boat oar
+
+### 2. Present the Flotation Device from a Safe Distance
+- Approach the victim using the breaststroke or head-up crawl so you keep continuous visual contact.
+- Stop when you are still 5 to 10 feet away — well outside their grasping reach.
+- Push or extend the flotation device toward them, telling them firmly and calmly: *"Take hold of this life jacket!"*
+- Allow them to grab the far side of the object, keeping the device between your body and theirs as a protective barrier.
+
+### 3. Defensive Escape Maneuvers
+If a panicked victim lunges and grabs you:
+- **Tuck and submerge**: Take a breath, tuck your chin down against your chest to protect your airway, and **dive straight down underwater**. Because drowning victims are desperately trying to climb *up* to the air, they will instinctively let go of anything being pulled downward.
+- **Push away**: Push the victim away at their hips or chest while submerged, swim a few yards underwater away from them, and surface out of their reach.
+- **Re-evaluate**: Push the flotation device back toward them from a safe distance once they have calmed.
 
 {{< drg/safety-first >}}
-Drowning people often cannot follow instructions or cooperate, even briefly — panic and the instinct to reach the surface override everything else. Treat every in-water rescue as if the victim may grab you the moment you're close enough.
+Never attempt a direct physical contact rescue without formal lifesaving training (such as the BSA Lifeguard certification or Lifesaving merit badge). Even professional lifeguards rely on rescue tubes to maintain a buoyant barrier between themselves and the victim.
 {{< /drg/safety-first >}}
-
-## Avoiding Contact with the Victim
-
-A trained rescue swimmer approaches from behind or below the victim whenever possible, never head-on, and stays out of direct grabbing range until they can control the situation — often by pushing a flotation device or rescue tube toward the victim to hold onto instead of the rescuer's own body. If the victim does grab on, the rescuer's first move is to break free, submerging briefly if needed, rather than trying to fight the grip while still on the surface.
-
-This requirement is about understanding the danger, not performing an in-water rescue yourself — that level of training comes later, through programs like BSA Lifeguard or a lifeguarding certification.

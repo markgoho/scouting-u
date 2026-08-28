@@ -14,28 +14,49 @@ next_title: "Identify boat and paddle parts"
 Tell what precautions must be taken for a safe trip afloat.
 {{< /drg/requirement >}}
 
-Water doesn't forgive a missed precaution the way solid ground often does. Every BSA activity on the water — canoeing, kayaking, rafting, sailing — runs under a single safety plan called Safety Afloat, and this requirement asks you to know its precautions well enough to explain them.
+Any activity involving small watercraft — canoeing, kayaking, rowing, rafting, or sailing — must follow the nine-point safety standard of **BSA Safety Afloat**.
 
-## Safety Afloat's Nine Points
+## The Nine Points of Safety Afloat
 
-1. **Qualified Supervision** — every outing is supervised by a mature adult, trained in Safety Afloat, who understands the risks of the specific activity.
-2. **Personal Health Review** — participants confirm they're fit for the activity; anyone with a health concern that affects swimming or water activity gets appropriate accommodation.
-3. **Swimming Ability** — only swimmers (not beginners or nonswimmers) may go on trips afloat in a craft, except under closely supervised conditions with appropriate flotation.
-4. **Life Jackets** — properly fitted, U.S. Coast Guard-approved life jackets are worn by every person on board any craft, at all times, no exceptions.
-5. **Buddy System** — every participant has an assigned buddy, and buddies are accounted for regularly throughout the activity.
-6. **Skill Proficiency** — everyone taking part has training appropriate to the craft and the water conditions before departure.
-7. **Planning** — the trip is planned in advance, including float plans, weather checks, and knowledge of the specific waterway.
-8. **Equipment** — all craft and gear are suited to the activity and in good repair, and appropriate rescue equipment is on hand.
-9. **Discipline** — everyone knows and follows the rules; a leader has the authority to end the activity if rules aren't followed.
+### 1. Qualified Supervision
+All trips afloat must be supervised by a mature adult leader (at least 21 years old) who is currently trained in Safety Afloat (renewed every two years). The supervisor must be experienced in operating the specific watercraft used, knowledgeable in water safety and accident prevention, and prepared for emergency rescue procedures. Maintain at least one supervisor for every 10 participants (with more supervisors in whitewater or challenging conditions).
 
-## Tell It in Your Own Words
+### 2. Personal Health Review
+Each participant must provide a current, completed Annual Health and Medical Record. The leader reviews medical histories to be aware of any health conditions (such as asthma, allergies, seizures, or diabetes) that require extra precautions or accommodation on the water.
 
-You don't need to recite these nine points word for word. Be ready to explain, in a conversation, what precautions matter most for a specific trip — say, a canoe outing on a lake — and why. A Scoutmaster conference is more likely to ask "what would you check before you got in the boat" than "list the nine points of Safety Afloat."
+### 3. Swimming Ability
+All persons operating or paddling a boat must have passed the official BSA swimmer classification test. Those who are classified as beginners or nonswimmers may only ride as passengers in a boat operated by skilled adult/swimmer personnel in calm, controlled conditions.
+
+### 4. Life Jackets (PFDs)
+Properly fitted, U.S. Coast Guard–approved life jackets must be worn by **every person** participating in boating activities at all times while on the water or near dangerous rapids — no exceptions.
+- **Type III life jackets** (vest-style flotation aids) are strongly recommended for general recreational paddling because they allow full arm mobility.
+- **Proper Fit & The Shoulder Pull Test**: Fasten all buckles, zippers, and cinch straps snugly. Have a partner grasp the shoulder straps of your life jacket and pull upward firmly. The jacket should not ride up over your chin, nose, or ears; if it slips upward, tighten the straps or switch to a smaller size.
+
+### 5. Buddy System
+Every person must have an assigned buddy, and every boat on the water must have a **buddy boat**. A minimum of two watercraft must travel together within visual and voice range to assist one another in case of capsizing or equipment failure. Buddy checks are conducted at regular intervals throughout the trip.
+
+### 6. Skill Proficiency
+All participants must receive instruction and demonstrate basic handling skills before embarking, including:
+- Boarding and exiting safely.
+- Basic propulsion and turning strokes.
+- Trimming the boat for stability.
+- Emergency procedures and self-rescue techniques (such as what to do during a capsize).
+
+### 7. Planning
+A comprehensive **Float Plan** must be developed and reviewed before departure:
+- **Itinerary & Route**: Define clear put-in points, take-out locations, estimated paddling times, rest stops, and alternate takeout points.
+- **Notification**: File a copy of the float plan with parents, the local council service center (if traveling on open or moving water), and local park rangers/authorities. Designate an adult on shore to contact emergency services if check-ins are overdue.
+- **Weather & Water Conditions**: Monitor current weather forecasts and river flow gauges. Anticipate changes and bring all craft ashore immediately if severe weather or thunderstorms approach. Wait **at least 30 minutes** after the last lightning flash or sound of thunder before returning to the water.
+- **Contingencies**: Identify nearest medical facilities, ranger stations, and emergency communication methods.
+
+### 8. Proper Equipment
+- All watercraft must be sound, clean, and structurally suited for the waterway.
+- Provide properly sized paddles or oars, plus at least **one spare paddle per boat**.
+- Equip each boat with essential gear: a bailer or sponge, a painter (bow and stern lines), a throw bag or rescue line, a first aid kit, extra drinking water, and dry bags for spare clothing.
+
+### 9. Discipline
+Scouts respect the rules and obey instructions from the trip supervisor and adult leaders immediately and without hesitation. Leaders have full authority to alter or cancel a trip if safety standards are not being met.
 
 {{< drg/safety-first >}}
-Life jackets are the one precaution with zero exceptions: worn by everyone, on the water, the entire time a craft is underway — not just kept nearby, and not removed once the trip feels calm.
+Life jackets must remain zipped, buckled, and worn the entire time you are afloat. Keeping a life jacket under your seat or in the bottom of the boat provides zero protection during a sudden capsize.
 {{< /drg/safety-first >}}
-
-{{< drg/did-you-know >}}
-Safety Afloat has a sibling plan for swimming, called Safe Swim Defense — the one behind the buddy system and lifeguard rules you learned for [Second Class](/scouts-bsa/ranks/second-class/guide/req5a/). Both plans share the same core idea: qualified supervision plus known swimming ability plus discipline prevents almost every water accident before it starts.
-{{< /drg/did-you-know >}}
