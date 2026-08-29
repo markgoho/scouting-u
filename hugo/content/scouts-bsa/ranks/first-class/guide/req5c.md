@@ -14,26 +14,67 @@ next_title: "Describe local extreme weather"
 Describe at least three natural indicators of impending hazardous weather, the potential dangerous events that might result from such weather conditions, and the appropriate actions to take.
 {{< /drg/requirement >}}
 
-Long before a storm shows up on a forecast, the sky, the air, and the animals around you are already giving warnings. Reading those signs is a skill that works even when you have no signal and no radio — this requirement asks you to describe at least three of them, along with what they can lead to and what you should do about it.
+Long before a storm registers on digital radar, the sky, air pressure, wind, and animal behavior provide clear natural warnings of changing atmospheric conditions. For this requirement, you must describe at least **three natural indicators of impending hazardous weather**, identify the **dangerous events** that could follow, and state the **appropriate actions** your patrol must take.
 
-## Natural Warning Signs
+## The Three-Part Framework
 
-Describe at least three. Some of the most reliable:
+Whenever you explain a natural weather sign, organize your response into three clear steps:
+1. **Natural Indicator**: What you observe in the clouds, wind, temperature, barometric pressure, or wildlife.
+2. **Dangerous Event**: What hazardous weather condition is developing.
+3. **Appropriate Action**: What immediate safety precautions your patrol takes to prevent injury or hypothermia.
 
-- **Towering, dark cumulonimbus clouds building quickly** — a sign of a developing thunderstorm. Can lead to lightning, hail, high wind, and flash flooding. Action: seek sturdy shelter immediately, get off high ground and away from water.
-- **A sudden drop in temperature or a strong, shifting wind** — often signals an approaching cold front or storm. Can lead to fast-moving severe weather. Action: check the forecast, prepare to move to shelter.
-- **A greenish tint to the sky** — associated with severe thunderstorms and sometimes tornadoes. Can lead to hail or tornado formation. Action: monitor conditions closely and move toward sturdy shelter.
-- **A rapid drop in barometric pressure** (if you're carrying an altimeter/barometer watch) — signals an incoming storm system. Action: cut the activity short and head for shelter.
-- **Animals going quiet or behaving unusually** — many animals react to pressure and atmospheric changes before humans notice them. Not a reliable stand-alone signal, but worth noticing alongside the others.
+---
 
-## From Signal to Action
+## Key Natural Indicators of Hazardous Weather
 
-Notice that each of these signs has the same three-part shape: what you observe, what it might lead to, and what you do next. When you describe your three, use that structure — a warning sign is only useful if it changes your next move.
+### 1. Rapidly Towering Cumulonimbus Clouds (Anvil Heads)
+- **Natural Indicator**: Fluffy white cumulus clouds rapidly billowing upward into vertical towers on hot, humid afternoons, with dark boiling bases and a flat, fibrous anvil-shaped top spreading across the upper atmosphere.
+- **Impending Dangerous Event**: **Severe Thunderstorms**, capable of producing dangerous cloud-to-ground lightning, microburst winds exceeding 50 mph, large hail, and localized flash flooding.
+- **Appropriate Action**:
+  - Immediately descend from mountain summits, exposed ridges, and open plateaus below the safety of the treeline.
+  - Exit lakes, rivers, and swimming areas immediately.
+  - Seek shelter in a substantial enclosed building or hardtop vehicle.
+  - If caught in the backcountry without buildings: seek a uniform stand of low trees or shrubs in a valley; avoid tall, isolated trees, ridgelines, and rock overhangs (which create dangerous ground-current arcs).
+  - Spread patrol members **20 to 30 feet apart** so a single ground strike cannot affect multiple people. If caught in the open with hair standing on end, assume the **lightning crouch**: squat low on the balls of your feet with heels touching, head down, and hands over ears to minimize contact with the ground.
+
+### 2. Systematic Cloud Progression (Cirrus to Nimbostratus)
+- **Natural Indicator**: High, feathery cirrus clouds ("mare's tails") thickening over several hours into a thin, milky veil of cirrostratus (often creating a visible halo around the sun or moon), followed by a lowering sheet of gray altostratus, and finally dark, heavy, low-hanging **nimbostratus clouds**.
+- **Impending Dangerous Event**: **Approaching Warm Front**, bringing prolonged, steady rain or snow lasting 12 to 24 hours or longer, leading to soaked gear, slippery trail conditions, and high risk of **hypothermia**.
+- **Appropriate Action**:
+  - Don waterproof breathable hard-shell jackets and pack rain covers *before* precipitation begins.
+  - Set up a camp rain tarp with adequate drainage slope to create a dry cooking and living space.
+  - Ensure tent rainflies are securely guyed out and taut so fabric does not touch the inner tent body.
+  - Elevate sleeping bags and dry clothes off the tent floor inside waterproof dry bags.
+
+### 3. Abrupt Wind Shift and Rapid Temperature Drop
+- **Natural Indicator**: A sudden, gusty shift in wind direction accompanied by an immediate 10-to-20-degree drop in air temperature (an outflow boundary or gust front).
+- **Impending Dangerous Event**: **Fast-Moving Cold Front or Squall Line**, producing intense squalls, sudden blinding downpours, gale-force wind gusts, and rapid temperature plunges.
+- **Appropriate Action**:
+  - Immediately secure camp: double-stake tent guyouts, face tent rear profiles into the incoming wind, and lash down lightweight cooking gear and camp furniture.
+  - Inspect the campsite canopy and avoid pitching tents beneath dead trees or dead overhead limbs ("widow-makers").
+  - Put on warm insulating mid-layers (fleece or wool) beneath rain shells to protect against sudden chilling.
+
+### 4. Flattened Campfire Smoke and Low-Flying Swallows (Barometric Drop)
+- **Natural Indicator**: Campfire smoke that refuses to rise into the sky, instead swirling downward and hugging the ground; swallows, swifts, and bats skimming just inches above the grass; or a wrist altimeter indicating increased elevation while remaining stationary.
+- **Impending Dangerous Event**: **Severe Low-Pressure System**, indicating turbulent air, rising humidity, and incoming storm fronts. Low atmospheric pressure and dense humid air keep smoke low and force flying insects to fly close to the ground on moisture-laden wings.
+- **Appropriate Action**:
+  - Check your NOAA Weather Radio or weather radar for active storm advisories.
+  - Re-evaluate the day's itinerary, shortening high-risk exposed hikes and planning early turnaround times.
+
+### 5. Bruised Greenish Sky, Roaring Sound, and Large Hail
+- **Natural Indicator**: A dark, stormy sky taking on a distinctive greenish-black or bruised yellow hue, frequent continuous in-cloud lightning, large hail falling, followed by a continuous deep roar resembling a freight train or jet engine.
+- **Impending Dangerous Event**: **Supercell Thunderstorm / Impending Tornado or Derecho**.
+- **Appropriate Action**:
+  - Evacuate tents immediately—tents offer zero protection against tornado winds and falling timber.
+  - In a built environment, move to the lowest interior room or basement, away from windows.
+  - In the backcountry, seek a low-lying ravine, ditch, or depression away from trees and vehicles. Lie flat face down and protect the back of your head and neck with your hands and a backpack.
+
+---
+
+## The 30-30 Rule for Lightning Safety
 
 {{< drg/safety-first >}}
-When you see multiple warning signs stacking up — building dark clouds plus a sudden temperature drop plus shifting wind — don't wait for confirmation. Move to sturdy shelter, away from open ground, tall isolated trees, and water, before the storm arrives.
+Lightning is one of the most common outdoor weather hazards. Follow the **30-30 Rule**:
+- **First 30 (Flash-to-Bang)**: Sound travels approximately 1 mile every 5 seconds ($1\text{ mile} \approx 5\text{ seconds}$). When you see lightning, count the seconds until you hear thunder. If the count is **30 seconds or less** (meaning the strike is within 6 miles), you are in immediate danger. Seek safe shelter immediately.
+- **Second 30 (All Clear)**: Once the storm passes, remain inside your shelter for a **full 30 minutes after the last heard rumble of thunder or seen lightning flash** before resuming outdoor activities.
 {{< /drg/safety-first >}}
-
-{{< drg/tip >}}
-The "30-30 rule" for lightning: if you count 30 seconds or less between seeing a lightning flash and hearing the thunder, seek shelter immediately, and stay there until 30 minutes after the last flash or thunder.
-{{< /drg/tip >}}
