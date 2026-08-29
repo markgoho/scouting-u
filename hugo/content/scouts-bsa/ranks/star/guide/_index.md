@@ -12,39 +12,6 @@ identity:
   micro_tag: "SCOUTS BSA RANK"
 next: "/scouts-bsa/ranks/star/guide/req1/"
 next_title: "Be active 4 months"
-guide_nav:
-  - group_title: "Getting Started"
-    items:
-      - title: "Introduction & Overview"
-        url: "/scouts-bsa/ranks/star/guide/"
-  - group_title: ""
-    items:
-      - title: "1. Be active 4 months"
-        url: "/scouts-bsa/ranks/star/guide/req1/"
-      - title: "2. Demonstrate Scout spirit"
-        url: "/scouts-bsa/ranks/star/guide/req2/"
-      - title: "3. Earn 6 merit badges"
-        url: "/scouts-bsa/ranks/star/guide/req3/"
-      - title: "4. Complete 6 hours of service"
-        url: "/scouts-bsa/ranks/star/guide/req4/"
-      - title: "5. Serve in position of responsibility"
-        url: "/scouts-bsa/ranks/star/guide/req5/"
-  - group_title: "6. Personal Protection"
-    items:
-      - title: "a Complete child protection exercises"
-        url: "/scouts-bsa/ranks/star/guide/req6a/"
-      - title: "b View Personal Safety Awareness videos"
-        url: "/scouts-bsa/ranks/star/guide/req6b/"
-  - group_title: "Advancement & Review"
-    items:
-      - title: "7. Complete Scoutmaster conference"
-        url: "/scouts-bsa/ranks/star/guide/req7/"
-      - title: "8. Complete board of review"
-        url: "/scouts-bsa/ranks/star/guide/req8/"
-  - group_title: "Beyond the Rank"
-    items:
-      - title: "Extended Learning"
-        url: "/scouts-bsa/ranks/star/guide/extended-learning/"
 ---
 
 ## Overview
