@@ -48,5 +48,5 @@ If a panicked victim lunges and grabs you:
 - **Re-evaluate**: Push the flotation device back toward them from a safe distance once they have calmed.
 
 {{< drg/safety-first >}}
-Never attempt a direct physical contact rescue without formal lifesaving training (such as the BSA Lifeguard certification or Lifesaving merit badge). Even professional lifeguards rely on rescue tubes to maintain a buoyant barrier between themselves and the victim.
+Never attempt a direct physical contact rescue without formal lifesaving training (such as the Lifeguard certification or Lifesaving merit badge). Even professional lifeguards rely on rescue tubes to maintain a buoyant barrier between themselves and the victim.
 {{< /drg/safety-first >}}

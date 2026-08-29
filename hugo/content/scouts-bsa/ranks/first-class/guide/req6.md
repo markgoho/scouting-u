@@ -18,13 +18,13 @@ Work through each child requirement below in order. Use this page as your roadma
 
 ## What You'll Complete
 
-- 6a. **[Pass BSA swimmer test](/scouts-bsa/ranks/first-class/guide/req6a/)**: Swim the full BSA swimmer test — the highest of the BSA's three swim classifications.
-- 6b. **[Explain safe trip afloat](/scouts-bsa/ranks/first-class/guide/req6b/)**: Tell what precautions keep a trip on the water safe, grounded in the BSA's Safety Afloat plan.
-- 6c. **[Identify boat and paddle parts](/scouts-bsa/ranks/first-class/guide/req6c/)**: Name the basic parts of a canoe, kayak, or other boat, and of a paddle or oar.
-- 6d. **[Describe boat body position](/scouts-bsa/ranks/first-class/guide/req6d/)**: Describe how you should sit or position yourself in a watercraft, and why it matters.
-- 6e. **[Show line rescue](/scouts-bsa/ranks/first-class/guide/req6e/)**: With a helper, demonstrate a line rescue as both tender and rescuer.
+- 6a. **[Pass BSA swimmer test](/scouts-bsa/ranks/first-class/guide/req6a/)**: Swim the full swimmer test — the highest of Scouting America's three swim classifications.
+- 6b. **[Explain safe trip afloat](/scouts-bsa/ranks/first-class/guide/req6b/)**: Tell what precautions keep a trip on the water safe, grounded in the Safety Afloat plan.
+- 6c. **[Identify watercraft parts](/scouts-bsa/ranks/first-class/guide/req6c/)**: Identify the bow, stern, port, starboard, and other basic parts of a canoe, kayak, or other boat.
+- 6d. **[Describe body positioning](/scouts-bsa/ranks/first-class/guide/req6d/)**: Explain proper body positioning and balance in a watercraft.
+- 6e. **[Rescue line demonstration](/scouts-bsa/ranks/first-class/guide/req6e/)**: Demonstrate how to throw and reel in a 40-foot line to a person in the water.
 
-You built swimming safety awareness at Second Class with the BSA beginner test and safe swim precautions. First Class raises the bar to the swimmer level and adds boats: the parts of a craft, how to sit in one, and how to rescue someone from shore with a line. Work through 6a first — passing the swimmer test is what opens the door to safely working on the water at all.
+You built swimming safety awareness at Second Class with the beginner test and safe swim precautions. First Class raises the bar to the swimmer level and adds boats: the parts of a craft, how to sit in one, and how to rescue someone from shore with a line. Work through 6a first — passing the swimmer test is what opens the door to safely working on the water at all.
 
 {{< drg/next-page
     text="Everything else in this requirement builds from your swimming ability."

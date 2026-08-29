@@ -107,7 +107,7 @@ In Scouting, being a leader means helping your team succeed:
 
 {{< drg/safety-first >}}
 **Youth Protection & Safe Scouting**:
-All youth leaders must respect BSA Youth Protection rules. Never enter another Scout's tent uninvited, never allow hazing or teasing, and always stay in sight of adult leaders with a buddy.
+All youth leaders must respect Scouting America Youth Protection rules. Never enter another Scout's tent uninvited, never allow hazing or teasing, and always stay in sight of adult leaders with a buddy.
 {{< /drg/safety-first >}}
 
 ## New Leader Checklist

@@ -11,14 +11,14 @@ Your job is not to do all the physical work alone—your job is to be the leader
 
 ## What Counts as an Eagle Project?
 
-Before you write your proposal, make sure your idea meets national BSA standards:
+Before you write your proposal, make sure your idea meets national Scouting America standards:
 
 ### Good Projects vs. Projects That Won't Qualify
 
 | Project Category | Great Eagle Project Examples | Projects That Do Not Qualify |
 | :--- | :--- | :--- |
 | **Parks & Outdoors** | Building hiking trails, footbridges, outdoor classrooms, or community gardens | **Routine Chores**: Mowing grass, pulling weeds, or basic maintenance an organization normally does |
-| **Community Centers** | Fixing up a food pantry, animal shelter room, or museum display | **BSA Projects**: Improvements to your troop room, scout camp, or council property |
+| **Community Centers** | Fixing up a food pantry, animal shelter room, or museum display | **Scouting Projects**: Improvements to your troop room, scout camp, or council property |
 | **Schools & Safety** | Making sensory rooms for schools or emergency supply kits for the town | **For-Profit Work**: Any project that helps a private business make money |
 | **Public Benches & Boxes** | Building park benches, trail kiosks, or flag retirement boxes for public parks or houses of worship | **Just Raising Money**: A project that only collects money with no hands-on leadership |
 
@@ -39,7 +39,7 @@ You must fill out the **Project Proposal** section in the official *Eagle Scout 
 | **1st Signature** | **Beneficiary Representative** | Confirms the project helps their organization and gives you permission to work | Must sign first before your Scoutmaster |
 | **2nd Signature** | **Scoutmaster / Unit Leader** | Confirms the project idea is solid and that you are an active Life Scout | Signs after the beneficiary approves |
 | **3rd Signature** | **Troop Committee Chair** | Confirms the troop supports your safety plan and adult supervision | Signs after your Scoutmaster |
-| **4th Signature** | **District Advancement Chair** | Makes sure your project meets national BSA guidelines | **Must have this signature before you buy materials, raise money, or do any work!** |
+| **4th Signature** | **District Advancement Chair** | Makes sure your project meets national Scouting America guidelines | **Must have this signature before you buy materials, raise money, or do any work!** |
 
 {{< drg/safety-first >}}
 **Do Not Start Work Early**:
@@ -66,14 +66,14 @@ Any leftover money raised for your project belongs to the **beneficiary organiza
 
 ## Tool Safety and Age Rules
 
-Keep all your volunteers safe by following BSA tool safety rules:
+Keep all your volunteers safe by following Scouting America tool safety rules:
 
 | Volunteer Age Group | Tools They Can Use | Tools They Cannot Use |
 | :--- | :--- | :--- |
 | **Youth Under 14** | Hand tools only (screwdrivers, hammers, hand saws, rakes, paintbrushes, shovels) | Any power tools, power mowers, string trimmers, power drills |
 | **Youth 14 – 15** | Cordless power drills, sanders, small hand power tools (with 1-on-1 adult supervision) | Circular saws, table saws, chainsaws, motorized augers, nail guns |
 | **Youth 16 – 17** | Lawn mowers, string trimmers, light power tools with eye protection | Chainsaws, log splitters, commercial trenchers, working higher than 6 feet off the ground |
-| **Adults 18+ Only** | Circular saws, miter saws, nail guns, tillers, post-hole augers | Chainsaws (require special BSA certified chainsaw training) |
+| **Adults 18+ Only** | Circular saws, miter saws, nail guns, tillers, post-hole augers | Chainsaws (require specialized chainsaw safety training) |
 
 ## How to Lead on Project Workday
 

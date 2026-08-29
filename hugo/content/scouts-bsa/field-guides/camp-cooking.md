@@ -38,11 +38,11 @@ Bacteria double every 20 minutes in this temperature range. Never leave perishab
 - **Layering Order:** Place block ice on the bottom, raw meat double-sealed in heavy-duty zip bags directly on the ice, dairy and vegetables in the middle, and delicate items (bread, eggs) in elevated dry racks on top.
 - **Do Not Drain Meltwater Continuously (Unless Submerging Open Bags):** Cold meltwater insulates the remaining ice better than warm ambient air.
 
-## The BSA 3-Pot Sanitation Dishwashing System
+## The 3-Pot Dishwashing Sanitation System
 
-Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks (e.g., *Norovirus*, *Campylobacter*, *E. coli*) that can compromise a trek.
+Proper dishwashing in the field prevents gastrointestinal illnesses (such as *Norovirus* or *Campylobacter*) that can ruin a campout.
 
-![The BSA 3-Pot Dishwashing Sanitation System](/img/diagrams/three-pot-sanitation.png)
+![The 3-Pot Dishwashing Sanitation System](/img/diagrams/three-pot-sanitation.png)
 
 ### Step-by-Step Execution
 

@@ -93,7 +93,7 @@ Keeping food cold and washing dishes properly keeps your whole patrol healthy on
 
 Wash dishes right after every meal using three pots:
 
-![The BSA 3-Pot Dishwashing Sanitation System](/img/diagrams/three-pot-sanitation.png)
+![The 3-Pot Dishwashing Sanitation System](/img/diagrams/three-pot-sanitation.png)
 
 1. **Scrape Dishes First**: Scrape every bit of leftover food into the trash before dishes go into the water.
 2. **Pot 1 (Hot Wash)**: Warm soapy water. Scrub grease and food off dishes with a sponge.

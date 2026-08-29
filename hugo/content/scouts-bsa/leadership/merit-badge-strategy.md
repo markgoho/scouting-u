@@ -88,7 +88,7 @@ The Blue Card (or its digital Scoutbook record) is your official proof that you 
 
 {{< drg/safety-first >}}
 **Always Use the Buddy System**:
-Whenever meeting with a Merit Badge Counselor—in person, over Zoom, or by email—you must **always** have a buddy with you. This can be another Scout, a parent, or an adult leader. One-on-one contact with an adult is never allowed under BSA Youth Protection rules.
+Whenever meeting with a Merit Badge Counselor—in person, over Zoom, or by email—you must **always** have a buddy with you. This can be another Scout, a parent, or an adult leader. One-on-one contact with an adult is never allowed under Scouting America Youth Protection rules.
 {{< /drg/safety-first >}}
 
 ## Sample Merit Badge Tracker
@@ -98,7 +98,7 @@ Keep a chart like this in your binder to stay on track:
 | Merit Badge | Eagle-Required? | Counselor Name | Date Started | Current Progress | Target Finish Date | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **First Aid** | Yes | Mr. Davis | Oct 12 | Done with rank first aid | Nov 30 | **Completed** |
-| **Swimming** | Yes | Camp Aquatics Dir | Jul 15 | Passed BSA Swimmer Test | Jul 20 | **Completed** |
+| **Swimming** | Yes | Camp Aquatics Dir | Jul 15 | Passed Swimmer Test | Jul 20 | **Completed** |
 | **Camping** | Yes | Mrs. Jenkins | Jan 10 | 16 of 20 nights logged | Oct 15 | In Progress (80%) |
 | **Personal Mgmt**| Yes | Mr. Vance | Feb 01 | Week 4 of 13 budget log | May 30 | In Progress (30%) |
 | **Family Life** | Yes | Dr. Walker | Feb 01 | Day 25 of 90 chore log | Jun 01 | In Progress (28%) |

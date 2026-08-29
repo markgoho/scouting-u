@@ -4,6 +4,10 @@ A site that renders Scouts BSA rank requirements, pulled from Scouting America's
 
 ## Language
 
+**Organization**:
+**Scouting America** (formerly Boy Scouts of America / BSA, officially rebranded in 2024/2025). The national chartered organization governing all programs, advancement policies, safety guidelines, and leadership standards. Use "Scouting America" for organizational, national, and policy references; avoid legacy "BSA" terminology (see ADR 0013).
+_Avoid_: BSA, Boy Scouts of America (except when citing historical documents or legacy legal titles)
+
 **Program**:
 One of Scouting America's four program tracks (Scouts BSA, Cub Scouting, Sea Scouting, Venturing). This MVP covers Scouts BSA only; the URL hierarchy is program-first (`/scouts-bsa/...`) to leave room for the others.
 _Avoid_: Track, division

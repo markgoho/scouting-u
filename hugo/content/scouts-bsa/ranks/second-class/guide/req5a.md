@@ -61,9 +61,12 @@ Scouts are paired in buddy teams within the same ability group. If buddies have 
   4. Lifeguards and the lookout quickly count all pairs to confirm everyone is present and accounted for.
   5. The all-clear signal is sounded to resume swimming.
 
-### Discipline
-Scouts understand and respect all swimming rules. Clear instructions from supervisors and lifeguards must be obeyed instantly and without argument. Rules must be applied consistently and impartially to everyone.
+### Swim Classification Tests
+Swimmers must take the official swim classification tests annually to determine their group. Swimmers may only swim in areas permitted for their classification.
 
-{{< drg/safety-first >}}
-Safe Swim Defense applies to every BSA swimming outing — whether at a Scout summer camp, a public municipal pool, a backyard pool, or a backcountry lake. Drowning is usually rapid and silent. The lookout and buddy system exist specifically to detect distress before it turns fatal.
-{{< /drg/safety-first >}}
+### Discipline
+Scouts must follow all safety rules, buddy signals, and supervisor instructions immediately and without argument.
+
+{{< drg/did-you-know >}}
+Safe Swim Defense applies to every Scouting swimming outing — whether at a Scout summer camp, a public municipal pool, a backyard pool, or a backcountry lake. Drowning is usually rapid and silent. The lookout and buddy system exist specifically to detect distress before it turns fatal.
+{{< /drg/did-you-know >}}

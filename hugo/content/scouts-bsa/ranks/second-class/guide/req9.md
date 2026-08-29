@@ -22,6 +22,6 @@ You watched the Personal Safety Awareness videos as a Scout. This requirement pu
 - 9b. **[Describe bullying response](/scouts-bsa/ranks/second-class/guide/req9b/)**: Know what bullying is and how to respond to it.
 
 {{< drg/next-page
-    text="Start with the 3 R's"
-    teaser="Learn the framework behind BSA's personal safety training."
+    text="Start with the three actions that form the backbone of personal safety."
+    teaser="Learn the framework behind personal safety training."
     url="/scouts-bsa/ranks/second-class/guide/req9a/" >}}

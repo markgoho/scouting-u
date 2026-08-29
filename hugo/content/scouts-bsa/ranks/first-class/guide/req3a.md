@@ -25,7 +25,7 @@ Before you tie a single lashing, this requirement asks you to understand when la
 
 ## When to Skip Lashings & Safety Rules
 
-- **The 6-Foot Height Safety Rule:** According to BSA pioneering safety guidelines, youth-built pioneering structures must **never exceed 6 feet in height** without specialized adult supervision, safety harnesses, and council approval. Never build unauthorized climbing towers, rope swings, or high monkey bridges.
+- **The 6-Foot Height Safety Rule:** According to Scouting America pioneering safety guidelines, youth-built pioneering structures must **never exceed 6 feet in height** without specialized adult supervision, safety harnesses, and council approval. Never build unauthorized climbing towers, rope swings, or high monkey bridges.
 - **Human load-bearing structures:** Lashings should never be used as the sole support for structures carrying critical human weight overhead.
 - **Cracked or decaying wood:** A lashing is only as strong as the timber beneath it. Decayed, insect-bored, or brittle branches will snap regardless of how well the knot was tied.
 - **Damaging live timber:** Never chop down live trees or strip saplings for pioneering timber. Use troop-supplied reusable spars or legally gathered dead-and-downed wood.
