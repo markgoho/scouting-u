@@ -2,7 +2,7 @@
 title: "Teach a skill using EDGE"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 8"
+group_title: ""
 req_number: "8"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req7b/"
 prev_title: "Complete 1 hour of service"

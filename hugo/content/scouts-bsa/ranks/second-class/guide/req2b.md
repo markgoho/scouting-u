@@ -2,7 +2,7 @@
 title: "Prepare fire materials"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Tools"
 req_number: "2b"
 prev: "/scouts-bsa/ranks/second-class/guide/req2a/"
 prev_title: "Explain when to use a fire"

@@ -2,7 +2,7 @@
 title: "Describe hazardous weather signs"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 5"
+group_title: "5. Nature"
 req_number: "5c"
 prev: "/scouts-bsa/ranks/first-class/guide/req5b/"
 prev_title: "Obtain weather forecast"

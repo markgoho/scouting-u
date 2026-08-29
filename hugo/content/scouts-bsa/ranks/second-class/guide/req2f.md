@@ -2,7 +2,7 @@
 title: "Demonstrate sheet bend knot"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Tools"
 req_number: "2f"
 prev: "/scouts-bsa/ranks/second-class/guide/req2e/"
 prev_title: "Plan and cook a meal"

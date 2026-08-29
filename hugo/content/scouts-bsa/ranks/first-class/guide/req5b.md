@@ -2,7 +2,7 @@
 title: "Obtain weather forecast"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 5"
+group_title: "5. Nature"
 req_number: "5b"
 prev: "/scouts-bsa/ranks/first-class/guide/req5a/"
 prev_title: "Identify 10 native plants"

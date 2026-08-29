@@ -5,8 +5,6 @@ rank_slug: "eagle"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/eagle/guide/req7/"
 prev_title: "Complete board of review"
-next: "/scouts-bsa/ranks/eagle/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations on Earning Eagle Scout!

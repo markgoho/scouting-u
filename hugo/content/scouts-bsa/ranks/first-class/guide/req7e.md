@@ -2,7 +2,7 @@
 title: "Develop home emergency plan"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 7"
+group_title: "7. First Aid and Emergency Preparedness"
 req_number: "7e"
 prev: "/scouts-bsa/ranks/first-class/guide/req7d/"
 prev_title: "Describe utility hazards"

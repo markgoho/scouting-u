@@ -2,12 +2,12 @@
 title: "Set a fitness goal"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 8"
+group_title: "8. Fitness"
 req_number: "8b"
 prev: "/scouts-bsa/ranks/first-class/guide/req8a/"
 prev_title: "Be physically active 4 weeks"
-next: "/scouts-bsa/ranks/first-class/guide/req9/"
-next_title: "Citizenship"
+next: "/scouts-bsa/ranks/first-class/guide/req9a/"
+next_title: "Discuss citizen rights and duties"
 ---
 
 {{< drg/requirement number="8b" text_format="html" >}}

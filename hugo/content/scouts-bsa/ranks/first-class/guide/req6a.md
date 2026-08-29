@@ -2,10 +2,10 @@
 title: "Pass BSA swimmer test"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 6"
+group_title: "6. Aquatics"
 req_number: "6a"
-prev: "/scouts-bsa/ranks/first-class/guide/req6/"
-prev_title: "Aquatics"
+prev: "/scouts-bsa/ranks/first-class/guide/req5d/"
+prev_title: "Describe local extreme weather"
 next: "/scouts-bsa/ranks/first-class/guide/req6b/"
 next_title: "Explain safe trip afloat"
 ---

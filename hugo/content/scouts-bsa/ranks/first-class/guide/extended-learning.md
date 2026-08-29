@@ -5,8 +5,6 @@ rank_slug: "first-class"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/first-class/guide/req13/"
 prev_title: "Complete board of review"
-next: "/scouts-bsa/ranks/first-class/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations!
@@ -23,8 +21,8 @@ First Class is a real milestone — it's historically the rank where a majority 
 
 ## Try This Next
 
-- Take a longer trip using the navigation skills from [requirement 4](/scouts-bsa/ranks/first-class/guide/req4/) — a multi-leg orienteering course or a backcountry hike where GPS and a map both matter.
-- Ask your troop's aquatics-certified adults what BSA Lifeguard training involves, as a next step beyond the swimmer test and line rescue from [requirement 6](/scouts-bsa/ranks/first-class/guide/req6/).
+- Take a longer trip using the navigation skills from [requirement 4](/scouts-bsa/ranks/first-class/guide/req4a/) — a multi-leg orienteering course or a backcountry hike where GPS and a map both matter.
+- Ask your troop's aquatics-certified adults what BSA Lifeguard training involves, as a next step beyond the swimmer test and line rescue from [requirement 6](/scouts-bsa/ranks/first-class/guide/req6a/).
 - Look into becoming a den chief or patrol leader — First Class is when many troops start considering Scouts for their first position of responsibility, which becomes a requirement at Star.
 
 {{< drg/experience-card

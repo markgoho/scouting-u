@@ -2,7 +2,7 @@
 title: "Prevent outdoor injuries"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 4"
+group_title: "4. First Aid and Nature"
 req_number: "4c"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req4b/"
 prev_title: "Identify hazardous plants"

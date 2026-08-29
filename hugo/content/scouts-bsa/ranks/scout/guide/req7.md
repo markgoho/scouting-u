@@ -2,7 +2,7 @@
 title: "Complete Scoutmaster conference"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 7"
+group_title: "Advancement & Review"
 req_number: "7"
 prev: "/scouts-bsa/ranks/scout/guide/req6b/"
 prev_title: "View Personal Safety Awareness videos"

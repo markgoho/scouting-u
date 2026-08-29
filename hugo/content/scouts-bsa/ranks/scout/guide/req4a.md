@@ -2,10 +2,10 @@
 title: "Tie 3 basic knots"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 4"
+group_title: "4. Knots and Ropework"
 req_number: "4a"
-prev: "/scouts-bsa/ranks/scout/guide/req4/"
-prev_title: "Knots and Ropework"
+prev: "/scouts-bsa/ranks/scout/guide/req3b/"
+prev_title: "Explain patrol spirit"
 next: "/scouts-bsa/ranks/scout/guide/req4b/"
 next_title: "Whip and fuse rope ends"
 ---

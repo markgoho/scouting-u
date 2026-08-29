@@ -2,7 +2,7 @@
 title: "Tie 3 lashings"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3c"
 prev: "/scouts-bsa/ranks/first-class/guide/req3b/"
 prev_title: "Tie timber and clove hitch"

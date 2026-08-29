@@ -2,7 +2,7 @@
 title: "Develop menu budget"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking"
 req_number: "2b"
 prev: "/scouts-bsa/ranks/first-class/guide/req2a/"
 prev_title: "Plan campout menu"

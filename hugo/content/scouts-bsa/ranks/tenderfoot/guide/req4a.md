@@ -2,10 +2,10 @@
 title: "Show basic first aid"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 4"
+group_title: "4. First Aid and Nature"
 req_number: "4a"
-prev: "/scouts-bsa/ranks/tenderfoot/guide/req4/"
-prev_title: "First Aid and Nature"
+prev: "/scouts-bsa/ranks/tenderfoot/guide/req3d/"
+prev_title: "Care for knife, saw, and ax"
 next: "/scouts-bsa/ranks/tenderfoot/guide/req4b/"
 next_title: "Identify hazardous plants"
 ---

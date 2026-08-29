@@ -2,7 +2,7 @@
 title: "Explain what to do if lost"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 5"
+group_title: "5. Hiking"
 req_number: "5b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req5a/"
 prev_title: "Use buddy system"

@@ -2,7 +2,7 @@
 title: "Recite Leave No Trace principles"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1b"
 prev: "/scouts-bsa/ranks/second-class/guide/req1a/"
 prev_title: "Participate in 5 activities"

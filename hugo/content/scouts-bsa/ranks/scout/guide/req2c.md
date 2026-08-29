@@ -2,7 +2,7 @@
 title: "Describe Scouts BSA ranks"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 2"
+group_title: "2. Scouting Program"
 req_number: "2c"
 prev: "/scouts-bsa/ranks/scout/guide/req2b/"
 prev_title: "Describe 4 advancement steps"

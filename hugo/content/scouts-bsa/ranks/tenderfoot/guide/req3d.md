@@ -2,12 +2,12 @@
 title: "Care for knife, saw, and ax"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3d"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req3c/"
 prev_title: "Demonstrate taut-line hitch"
-next: "/scouts-bsa/ranks/tenderfoot/guide/req4/"
-next_title: "First Aid and Nature"
+next: "/scouts-bsa/ranks/tenderfoot/guide/req4a/"
+next_title: "Show basic first aid"
 ---
 
 {{< drg/requirement number="3d" text_format="html" >}}

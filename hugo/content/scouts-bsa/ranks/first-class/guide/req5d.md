@@ -2,12 +2,12 @@
 title: "Describe local extreme weather"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 5"
+group_title: "5. Nature"
 req_number: "5d"
 prev: "/scouts-bsa/ranks/first-class/guide/req5c/"
 prev_title: "Describe hazardous weather signs"
-next: "/scouts-bsa/ranks/first-class/guide/req6/"
-next_title: "Aquatics"
+next: "/scouts-bsa/ranks/first-class/guide/req6a/"
+next_title: "Pass BSA swimmer test"
 ---
 
 {{< drg/requirement number="5d" text_format="html" >}}

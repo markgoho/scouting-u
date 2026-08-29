@@ -2,7 +2,7 @@
 title: "Describe utility hazards"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 7"
+group_title: "7. First Aid and Emergency Preparedness"
 req_number: "7d"
 prev: "/scouts-bsa/ranks/first-class/guide/req7c/"
 prev_title: "Explain heart attack and CPR"

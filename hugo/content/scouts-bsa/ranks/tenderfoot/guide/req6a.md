@@ -2,10 +2,10 @@
 title: "Record fitness benchmark"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 6"
+group_title: "6. Fitness"
 req_number: "6a"
-prev: "/scouts-bsa/ranks/tenderfoot/guide/req6/"
-prev_title: "Fitness"
+prev: "/scouts-bsa/ranks/tenderfoot/guide/req5d/"
+prev_title: "Explain hiking on durable surfaces"
 next: "/scouts-bsa/ranks/tenderfoot/guide/req6b/"
 next_title: "Develop improvement plan"
 ---

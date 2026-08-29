@@ -2,12 +2,12 @@
 title: "Assemble first-aid kit"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 4"
+group_title: "4. First Aid and Nature"
 req_number: "4d"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req4c/"
 prev_title: "Prevent outdoor injuries"
-next: "/scouts-bsa/ranks/tenderfoot/guide/req5/"
-next_title: "Hiking"
+next: "/scouts-bsa/ranks/tenderfoot/guide/req5a/"
+next_title: "Use buddy system"
 ---
 
 {{< drg/requirement number="4d" text_format="html" >}}

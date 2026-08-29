@@ -2,7 +2,7 @@
 title: "Complete board of review"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 8"
+group_title: "Advancement & Review"
 req_number: "8"
 prev: "/scouts-bsa/ranks/life/guide/req7/"
 prev_title: "Complete Scoutmaster conference"

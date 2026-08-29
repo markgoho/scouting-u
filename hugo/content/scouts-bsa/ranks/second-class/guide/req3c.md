@@ -2,7 +2,7 @@
 title: "Describe hike hazards"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 3"
+group_title: "3. Navigation"
 req_number: "3c"
 prev: "/scouts-bsa/ranks/second-class/guide/req3b/"
 prev_title: "Hike 5 miles"

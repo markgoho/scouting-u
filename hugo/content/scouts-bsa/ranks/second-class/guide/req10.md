@@ -2,7 +2,7 @@
 title: "Demonstrate Scout spirit"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 10"
+group_title: "Advancement & Review"
 req_number: "10"
 prev: "/scouts-bsa/ranks/second-class/guide/req9b/"
 prev_title: "Describe bullying response"

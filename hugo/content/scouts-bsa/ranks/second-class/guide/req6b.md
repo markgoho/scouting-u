@@ -2,7 +2,7 @@
 title: "Treat hurry cases"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 6"
+group_title: "6. First Aid and Emergency Preparedness"
 req_number: "6b"
 prev: "/scouts-bsa/ranks/second-class/guide/req6a/"
 prev_title: "Demonstrate first aid"

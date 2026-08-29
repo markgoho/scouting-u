@@ -2,7 +2,7 @@
 title: "Complete board of review"
 layout: "guide"
 rank_slug: "star"
-group_title: "Requirement 8"
+group_title: ""
 req_number: "8"
 prev: "/scouts-bsa/ranks/star/guide/req7/"
 prev_title: "Complete Scoutmaster conference"

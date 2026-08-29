@@ -2,10 +2,10 @@
 title: "Explain when to use a fire"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Tools"
 req_number: "2a"
-prev: "/scouts-bsa/ranks/second-class/guide/req2/"
-prev_title: "Cooking and Tools"
+prev: "/scouts-bsa/ranks/second-class/guide/req1c/"
+prev_title: "Select patrol campsite"
 next: "/scouts-bsa/ranks/second-class/guide/req2b/"
 next_title: "Prepare fire materials"
 ---

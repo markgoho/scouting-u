@@ -2,7 +2,7 @@
 title: "Develop improvement plan"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 6"
+group_title: "6. Fitness"
 req_number: "6b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req6a/"
 prev_title: "Record fitness benchmark"

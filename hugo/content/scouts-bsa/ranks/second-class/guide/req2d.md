@@ -2,7 +2,7 @@
 title: "Set up camp stove"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Tools"
 req_number: "2d"
 prev: "/scouts-bsa/ranks/second-class/guide/req2c/"
 prev_title: "Build and extinguish fire"

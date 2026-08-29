@@ -2,7 +2,7 @@
 title: "Reduce outing waste"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 9"
+group_title: "9. Citizenship"
 req_number: "9c"
 prev: "/scouts-bsa/ranks/first-class/guide/req9b/"
 prev_title: "Investigate environmental issue"

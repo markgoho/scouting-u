@@ -2,7 +2,7 @@
 title: "Complete board of review"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 11"
+group_title: "Advancement & Review"
 req_number: "11"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req10/"
 prev_title: "Complete Scoutmaster conference"

@@ -2,7 +2,7 @@
 title: "Describe boat body position"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 6"
+group_title: "6. Aquatics"
 req_number: "6d"
 prev: "/scouts-bsa/ranks/first-class/guide/req6c/"
 prev_title: "Identify boat and paddle parts"

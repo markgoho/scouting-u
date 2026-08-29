@@ -2,12 +2,12 @@
 title: "Explain pocketknife safety"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 5"
+group_title: ""
 req_number: "5"
 prev: "/scouts-bsa/ranks/scout/guide/req4b/"
 prev_title: "Whip and fuse rope ends"
-next: "/scouts-bsa/ranks/scout/guide/req6/"
-next_title: "Personal Protection"
+next: "/scouts-bsa/ranks/scout/guide/req6a/"
+next_title: "Complete child protection exercises"
 ---
 
 {{< drg/requirement number="5" text_format="html" >}}

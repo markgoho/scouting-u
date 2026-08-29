@@ -36,13 +36,18 @@
   {{ if $found }}
     {{ $href = $found.RelPermalink }}
   {{ else }}
-    {{ range $guide.RegularPages }}
-      {{ if not $href }}
-        {{ $reqNumber := .Params.req_number | default "" }}
-        {{ if and $reqNumber (strings.HasPrefix $dotsRemoved $reqNumber) }}
-          {{ $boundary := substr $dotsRemoved (len $reqNumber) 1 }}
-          {{ if not (findRE "[0-9]" $boundary) }}
-            {{ $href = printf "%s#%s" .RelPermalink $dotsRemoved }}
+    {{ $firstChild := $guide.GetPage (printf "req%sa" $dotsRemoved) }}
+    {{ if $firstChild }}
+      {{ $href = $firstChild.RelPermalink }}
+    {{ else }}
+      {{ range $guide.RegularPages }}
+        {{ if not $href }}
+          {{ $reqNumber := .Params.req_number | default "" }}
+          {{ if and $reqNumber (strings.HasPrefix $dotsRemoved $reqNumber) }}
+            {{ $boundary := substr $dotsRemoved (len $reqNumber) 1 }}
+            {{ if not (findRE "[0-9]" $boundary) }}
+              {{ $href = printf "%s#%s" .RelPermalink $dotsRemoved }}
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}

@@ -2,10 +2,10 @@
 title: "Describe troop leadership structure"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 2"
+group_title: "2. Scouting Program"
 req_number: "2a"
-prev: "/scouts-bsa/ranks/scout/guide/req2/"
-prev_title: "Scouting Program"
+prev: "/scouts-bsa/ranks/scout/guide/req1f/"
+prev_title: "Recite Pledge of Allegiance"
 next: "/scouts-bsa/ranks/scout/guide/req2b/"
 next_title: "Describe 4 advancement steps"
 ---

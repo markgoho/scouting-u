@@ -2,7 +2,7 @@
 title: "View Personal Safety Awareness videos"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 6"
+group_title: "6. Personal Protection"
 req_number: "6b"
 prev: "/scouts-bsa/ranks/scout/guide/req6a/"
 prev_title: "Complete child protection exercises"

@@ -2,12 +2,12 @@
 title: "Select patrol campsite"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1c"
 prev: "/scouts-bsa/ranks/second-class/guide/req1b/"
 prev_title: "Recite Leave No Trace principles"
-next: "/scouts-bsa/ranks/second-class/guide/req2/"
-next_title: "Cooking and Tools"
+next: "/scouts-bsa/ranks/second-class/guide/req2a/"
+next_title: "Explain when to use a fire"
 ---
 
 {{< drg/requirement number="1c" text_format="html" >}}

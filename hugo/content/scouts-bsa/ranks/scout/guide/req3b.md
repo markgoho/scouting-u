@@ -2,12 +2,12 @@
 title: "Explain patrol spirit"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 3"
+group_title: "3. Patrol Method"
 req_number: "3b"
 prev: "/scouts-bsa/ranks/scout/guide/req3a/"
 prev_title: "Explain patrol method and types"
-next: "/scouts-bsa/ranks/scout/guide/req4/"
-next_title: "Knots and Ropework"
+next: "/scouts-bsa/ranks/scout/guide/req4a/"
+next_title: "Tie 3 basic knots"
 ---
 
 {{< drg/requirement number="3b" text_format="html" >}}

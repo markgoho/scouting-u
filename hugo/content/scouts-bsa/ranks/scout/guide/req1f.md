@@ -2,12 +2,12 @@
 title: "Recite Pledge of Allegiance"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 1"
+group_title: "1. Scout Spirit and Basics"
 req_number: "1f"
 prev: "/scouts-bsa/ranks/scout/guide/req1e/"
 prev_title: "Repeat Outdoor Code"
-next: "/scouts-bsa/ranks/scout/guide/req2/"
-next_title: "Scouting Program"
+next: "/scouts-bsa/ranks/scout/guide/req2a/"
+next_title: "Describe troop leadership structure"
 ---
 
 {{< drg/requirement number="1f" text_format="html" >}}

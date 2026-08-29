@@ -2,12 +2,12 @@
 title: "Respond to vehicle accident"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 6"
+group_title: "6. First Aid and Emergency Preparedness"
 req_number: "6e"
 prev: "/scouts-bsa/ranks/second-class/guide/req6d/"
 prev_title: "Explain emergency response"
-next: "/scouts-bsa/ranks/second-class/guide/req7/"
-next_title: "Fitness"
+next: "/scouts-bsa/ranks/second-class/guide/req7a/"
+next_title: "Be physically active 4 weeks"
 ---
 
 {{< drg/requirement number="6e" text_format="html" >}}

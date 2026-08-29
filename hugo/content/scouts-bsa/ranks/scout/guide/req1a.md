@@ -2,10 +2,10 @@
 title: "Repeat Scout Oath and Law"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 1"
+group_title: "1. Scout Spirit and Basics"
 req_number: "1a"
-prev: "/scouts-bsa/ranks/scout/guide/req1/"
-prev_title: "Scout Spirit and Basics"
+prev: "/scouts-bsa/ranks/scout/guide/"
+prev_title: "Introduction & Overview"
 next: "/scouts-bsa/ranks/scout/guide/req1b/"
 next_title: "Explain Scout spirit"
 ---

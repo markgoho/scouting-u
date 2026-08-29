@@ -2,10 +2,10 @@
 title: "Show and pack camping gear"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1a"
-prev: "/scouts-bsa/ranks/tenderfoot/guide/req1/"
-prev_title: "Camping and Outdoor Ethics"
+prev: "/scouts-bsa/ranks/tenderfoot/guide/"
+prev_title: "Introduction & Overview"
 next: "/scouts-bsa/ranks/tenderfoot/guide/req1b/"
 next_title: "Sleep in a tent you pitch"
 ---

@@ -2,7 +2,7 @@
 title: "Sleep in a tent you pitch"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req1a/"
 prev_title: "Show and pack camping gear"

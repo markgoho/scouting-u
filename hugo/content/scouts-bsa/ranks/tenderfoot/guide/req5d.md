@@ -2,12 +2,12 @@
 title: "Explain hiking on durable surfaces"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 5"
+group_title: "5. Hiking"
 req_number: "5d"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req5c/"
 prev_title: "Explain safe hiking rules"
-next: "/scouts-bsa/ranks/tenderfoot/guide/req6/"
-next_title: "Fitness"
+next: "/scouts-bsa/ranks/tenderfoot/guide/req6a/"
+next_title: "Record fitness benchmark"
 ---
 
 {{< drg/requirement number="5d" text_format="html" >}}

@@ -2,7 +2,7 @@
 title: "Complete Scoutmaster conference"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 11"
+group_title: "Advancement & Review"
 req_number: "11"
 prev: "/scouts-bsa/ranks/second-class/guide/req10/"
 prev_title: "Demonstrate Scout spirit"

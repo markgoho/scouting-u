@@ -2,7 +2,7 @@
 title: "Demonstrate Scout spirit"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 2"
+group_title: ""
 req_number: "2"
 prev: "/scouts-bsa/ranks/life/guide/req1/"
 prev_title: "Be active 6 months"

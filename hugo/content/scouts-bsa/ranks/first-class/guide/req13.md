@@ -2,7 +2,7 @@
 title: "Complete board of review"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 13"
+group_title: "Advancement & Review"
 req_number: "13"
 prev: "/scouts-bsa/ranks/first-class/guide/req12/"
 prev_title: "Complete Scoutmaster conference"

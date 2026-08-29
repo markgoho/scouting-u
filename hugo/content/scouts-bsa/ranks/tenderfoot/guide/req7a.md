@@ -2,10 +2,10 @@
 title: "Demonstrate American flag etiquette"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 7"
+group_title: "7. Citizenship"
 req_number: "7a"
-prev: "/scouts-bsa/ranks/tenderfoot/guide/req7/"
-prev_title: "Citizenship"
+prev: "/scouts-bsa/ranks/tenderfoot/guide/req6c/"
+prev_title: "Show fitness improvement"
 next: "/scouts-bsa/ranks/tenderfoot/guide/req7b/"
 next_title: "Complete 1 hour of service"
 ---

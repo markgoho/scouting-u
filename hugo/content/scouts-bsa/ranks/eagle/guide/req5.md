@@ -2,7 +2,7 @@
 title: "Lead Eagle service project"
 layout: "guide"
 rank_slug: "eagle"
-group_title: "Requirement 5"
+group_title: ""
 req_number: "5"
 prev: "/scouts-bsa/ranks/eagle/guide/req4/"
 prev_title: "Serve in position of responsibility"

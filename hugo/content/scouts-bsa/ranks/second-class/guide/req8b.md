@@ -2,7 +2,7 @@
 title: "Explain flag etiquette"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 8"
+group_title: "8. Citizenship"
 req_number: "8b"
 prev: "/scouts-bsa/ranks/second-class/guide/req8a/"
 prev_title: "Participate in flag ceremony"

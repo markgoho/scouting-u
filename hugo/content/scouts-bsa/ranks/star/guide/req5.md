@@ -2,12 +2,12 @@
 title: "Serve in position of responsibility"
 layout: "guide"
 rank_slug: "star"
-group_title: "Requirement 5"
+group_title: ""
 req_number: "5"
 prev: "/scouts-bsa/ranks/star/guide/req4/"
 prev_title: "Complete 6 hours of service"
-next: "/scouts-bsa/ranks/star/guide/req6/"
-next_title: "Personal Protection"
+next: "/scouts-bsa/ranks/star/guide/req6a/"
+next_title: "Complete child protection exercises"
 ---
 
 {{< drg/requirement number="5" text_format="html" >}}

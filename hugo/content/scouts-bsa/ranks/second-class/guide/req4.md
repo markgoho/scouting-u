@@ -2,12 +2,12 @@
 title: "Identify 10 wild animals"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 4"
+group_title: ""
 req_number: "4"
 prev: "/scouts-bsa/ranks/second-class/guide/req3d/"
 prev_title: "Find directions without compass"
-next: "/scouts-bsa/ranks/second-class/guide/req5/"
-next_title: "Aquatics"
+next: "/scouts-bsa/ranks/second-class/guide/req5a/"
+next_title: "Explain safe swim precautions"
 ---
 
 {{< drg/requirement number="4" text_format="html" >}}

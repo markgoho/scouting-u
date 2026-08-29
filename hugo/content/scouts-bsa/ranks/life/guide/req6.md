@@ -2,7 +2,7 @@
 title: "Teach a Scout using EDGE"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 6"
+group_title: ""
 req_number: "6"
 prev: "/scouts-bsa/ranks/life/guide/req5/"
 prev_title: "Serve in position of responsibility"

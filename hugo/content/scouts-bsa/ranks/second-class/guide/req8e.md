@@ -2,12 +2,12 @@
 title: "Complete 2 hours of service"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 8"
+group_title: "8. Citizenship"
 req_number: "8e"
 prev: "/scouts-bsa/ranks/second-class/guide/req8d/"
 prev_title: "Compare prices at 3 places"
-next: "/scouts-bsa/ranks/second-class/guide/req9/"
-next_title: "Personal Safety Awareness"
+next: "/scouts-bsa/ranks/second-class/guide/req9a/"
+next_title: "Explain 3 R's of safety"
 ---
 
 {{< drg/requirement number="8e" text_format="html" >}}

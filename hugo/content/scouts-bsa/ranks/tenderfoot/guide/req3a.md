@@ -2,10 +2,10 @@
 title: "Demonstrate square knot"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3a"
-prev: "/scouts-bsa/ranks/tenderfoot/guide/req3/"
-prev_title: "Tools"
+prev: "/scouts-bsa/ranks/tenderfoot/guide/req2c/"
+prev_title: "Explain patrol meal importance"
 next: "/scouts-bsa/ranks/tenderfoot/guide/req3b/"
 next_title: "Demonstrate two half-hitches"
 ---
