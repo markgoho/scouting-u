@@ -45,18 +45,18 @@ Every job in a troop helps you build real-world leadership skills:
 
 | Position | Primary Role | What You Do | Ideal Rank & Experience |
 | :--- | :--- | :--- | :--- |
-| **Senior Patrol Leader (SPL)** | Troop Leader | Runs troop meetings, leads the Patrol Leaders' Council (PLC), and works with the Scoutmaster. | First Class or above; 2+ years in troop |
-| **Assistant Senior Patrol Leader (ASPL)** | Assistant Leader | Helps the SPL, leads troop meetings when SPL is away, and supports troop staff. | First Class or above; former Patrol Leader |
-| **Patrol Leader (PL)** | Patrol Leader | Represents patrol on the PLC, leads patrol meetings, makes duty rosters, and plans campout menus. | Tenderfoot or above; elected by patrol |
-| **Assistant Patrol Leader (APL)** | Patrol Helper | Helps the PL and steps in when the PL is away. *(Note: Does not count for Star/Life/Eagle rank leadership).* | Any rank; appointed by Patrol Leader |
-| **Troop Guide** | New Scout Coach | Welcomes new Scouts, teaches basic rank skills, and helps new Patrol Leaders learn the ropes. | First Class or above; good teacher |
-| **Troop Quartermaster** | Gear Manager | Takes care of troop tents, stoves, and trailers; keeps gear checked in and organized. | Tenderfoot or above; dependable |
-| **Troop Scribe** | Record Keeper | Takes meeting notes at the PLC, tracks attendance, and helps track dues and records. | Any rank; neat note-taker |
-| **Den Chief** | Cub Scout Helper | Helps a Cub Scout den leader with fun games, crafts, and outdoor activities. | First Class or above; completed training |
-| **Troop Instructor** | Skills Teacher | Teaches knots, first aid, cooking, or map skills to patrols using the EDGE method. | First Class or above; skilled in outdoors |
-| **Chaplain Aide** | Scout Spirit | Leads simple, respectful prayers and reflection services on campouts. | Any rank; respectful and positive |
-| **Outdoor Ethics Guide** | Nature Guide | Reminds Scouts to follow Leave No Trace and Tread Lightly! rules on campouts. | Any rank; cares about nature |
-| **Order of the Arrow Rep** | OA Link | Shares OA news and encourages Scouts to take part in camping and cheerful service. | OA member in good standing |
+| Senior Patrol Leader (SPL) | Troop Leader | Runs troop meetings, leads the Patrol Leaders' Council (PLC), and works with the Scoutmaster. | First Class or above; 2+ years in troop |
+| Assistant Senior Patrol Leader (ASPL) | Assistant Leader | Helps the SPL, leads troop meetings when SPL is away, and supports troop staff. | First Class or above; former Patrol Leader |
+| Patrol Leader (PL) | Patrol Leader | Represents patrol on the PLC, leads patrol meetings, makes duty rosters, and plans campout menus. | Tenderfoot or above; elected by patrol |
+| Assistant Patrol Leader (APL) | Patrol Helper | Helps the PL and steps in when the PL is away. *(Note: Does not count for Star/Life/Eagle rank leadership).* | Any rank; appointed by Patrol Leader |
+| Troop Guide | New Scout Coach | Welcomes new Scouts, teaches basic rank skills, and helps new Patrol Leaders learn the ropes. | First Class or above; good teacher |
+| Troop Quartermaster | Gear Manager | Takes care of troop tents, stoves, and trailers; keeps gear checked in and organized. | Tenderfoot or above; dependable |
+| Troop Scribe | Record Keeper | Takes meeting notes at the PLC, tracks attendance, and helps track dues and records. | Any rank; neat note-taker |
+| Den Chief | Cub Scout Helper | Helps a Cub Scout den leader with fun games, crafts, and outdoor activities. | First Class or above; completed training |
+| Troop Instructor | Skills Teacher | Teaches knots, first aid, cooking, or map skills to patrols using the EDGE method. | First Class or above; skilled in outdoors |
+| Chaplain Aide | Scout Spirit | Leads simple, respectful prayers and reflection services on campouts. | Any rank; respectful and positive |
+| Outdoor Ethics Guide | Nature Guide | Reminds Scouts to follow Leave No Trace and Tread Lightly! rules on campouts. | Any rank; cares about nature |
+| Order of the Arrow Rep | OA Link | Shares OA news and encourages Scouts to take part in camping and cheerful service. | OA member in good standing |
 
 {{< drg/did-you-know >}}
 The **Assistant Patrol Leader (APL)** role is very important for helping your patrol, but it does **not** count toward the leadership requirement for Star, Life, or Eagle rank. If you serve as APL, make sure your next position is an eligible role like Patrol Leader, Scribe, Quartermaster, or Troop Guide.
@@ -68,9 +68,9 @@ The Patrol Leaders' Council (PLC) is the team of youth leaders who run the troop
 
 | Leadership Group | Who Is In It | What They Focus On |
 | :--- | :--- | :--- |
-| **Troop Executive Team** | Senior Patrol Leader (SPL) & Assistant SPLs | Run troop meetings, lead PLC, set calendar goals |
-| **Patrol Leadership** | Patrol Leaders (PLs) | Bring ideas from their patrols, organize meals and duty rosters |
-| **Troop Support Officers** | Quartermaster, Scribe, Troop Guide, Instructors | Manage troop equipment, take attendance, teach outdoor skills |
+| Troop Executive Team | Senior Patrol Leader (SPL) & Assistant SPLs | Run troop meetings, lead PLC, set calendar goals |
+| Patrol Leadership | Patrol Leaders (PLs) | Bring ideas from their patrols, organize meals and duty rosters |
+| Troop Support Officers | Quartermaster, Scribe, Troop Guide, Instructors | Manage troop equipment, take attendance, teach outdoor skills |
 
 ### Sample 45-Minute Monthly PLC Meeting
 
