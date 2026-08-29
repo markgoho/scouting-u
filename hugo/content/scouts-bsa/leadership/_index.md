@@ -1,11 +1,11 @@
 ---
 title: "Youth Leadership Hub"
-description: "How youth leadership works in Scouts BSA: patrol roles, troop meetings, the PLC, the EDGE method, and guides for Patrol Leaders and Eagle candidates."
+description: "How youth leadership works in Scouting America: patrol roles, troop meetings, the PLC, the EDGE method, and guides for Patrol Leaders and Eagle candidates."
 ---
 
 "The patrol method is not a way to run a troop; it is the *only* way." — Robert Baden-Powell
 
-In Scouts BSA, youth lead the troop. Adult leaders are there to keep things safe, provide transportation, and offer coaching. But Scouts plan the meetings, choose the campouts, teach skills to newer Scouts, and take care of the troop gear.
+In Scouting America, youth lead the troop. Adult leaders are there to keep things safe, provide transportation, and offer coaching. But Scouts plan the meetings, choose the campouts, teach skills to newer Scouts, and take care of the troop gear.
 
 This hub gives you the tools, templates, and advice you need to be a confident youth leader.
 

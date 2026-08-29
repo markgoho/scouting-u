@@ -1,9 +1,9 @@
 ---
 title: "Field Guides & Outdoor Skills"
-description: "Quick-reference outdoor guides for Scouts BSA: knots and lashings, wilderness first aid, camp cooking, Dutch ovens, map navigation, and weather."
+description: "Quick-reference outdoor guides for Scouting America: knots and lashings, wilderness first aid, camp cooking, Dutch ovens, map navigation, and weather."
 ---
 
-Welcome to the **Scouts BSA Field Guides**. Whether you are a new Scout practicing for your next rank, a Patrol Leader organizing a campout, or getting ready for a big backpacking trek, these guides give you quick, practical answers in the field.
+Welcome to the **Scouting America Field Guides**. Whether you are a new Scout practicing for your next rank, a Patrol Leader organizing a campout, or getting ready for a big backpacking trek, these guides give you quick, practical answers in the field.
 
 Each guide includes step-by-step instructions, clear diagrams, and helpful pro tips.
 

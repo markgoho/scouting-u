@@ -1,4 +1,4 @@
 +++
 title = 'Scouting University'
-description = 'Scouts BSA rank requirements, from Join Scouting to Eagle.'
+description = 'Scouting America rank requirements, from Scout to Eagle.'
 +++
