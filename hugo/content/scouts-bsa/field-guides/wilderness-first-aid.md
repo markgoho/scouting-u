@@ -25,14 +25,13 @@ Before rushing toward an injured person, stop and evaluate the entire scene. Res
 
 In wilderness medicine, catastrophic external bleeding kills faster than an airway compromise. Use the military-derived **MARCH** protocol for the initial 60-second survey:
 
-1. **M – Massive Bleeding:** Immediately check for life-threatening arterial spurting or heavy pooling blood. Control instantaneously with direct bone-pressing pressure, wound packing, or a commercial tourniquet.
-2. **A – Airway & C-Spine:** If the patient experienced high-velocity trauma (fall > body height, diving accident, impact):
-   - Maintain manual in-line cervical spine stabilization.
-   - Open the airway using the **Jaw-Thrust maneuver** without extending the neck.
-   - Clear vomit, blood, or foreign matter with a gloved finger sweep.
-3. **R – Respiration:** Check breathing rate and effort (look, listen, feel). Inspect the bare chest for asymmetrical rise, paradoxical movement (flail chest), or penetrating punctures. Seal any sucking chest wounds immediately.
-4. **C – Circulation:** Check radial pulse (wrist). If absent, check carotid pulse (neck). Note rate, strength (strong vs. thready/weak), and skin color/temperature (pale, cool, clammy indicates early shock). Check capillary refill on fingernails (< 2 seconds is normal).
-5. **H – Hypothermia & Exposure Prevention:** Even in moderate 65°F (18°C) weather, an injured, shock-compromised patient lying on cold ground will rapidly develop hypothermia. Immediately slide an insulated sleeping pad and sleeping bag underneath them.
+| Phase | Assessment Target | Critical Life Threat | Immediate Field Action |
+| :--- | :--- | :--- | :--- |
+| **M – Massive Bleeding** | Extremities & junctional zones | Arterial spurting or pooling blood | Direct bone-pressing pressure, wound packing, or commercial CAT tourniquet |
+| **A – Airway & C-Spine** | Airway patency & spinal stability | Occluded airway, trauma spinal compromise | Jaw-thrust maneuver without neck extension; clear airway with gloved sweep |
+| **R – Respiration** | Chest rise & breath sounds | Sucking chest wound, flail chest, tension pneumo | Seal open chest wounds with vented chest seal; monitor bilateral breath sounds |
+| **C – Circulation** | Radial & carotid pulses, skin perfusion | Shock, internal hemorrhage, weak pulse | Check radial pulse, capillary refill (<2s), skin temp/color; manage shock |
+| **H – Hypothermia & Head** | Core temp & neurological status | Environmental cooling, cold ground heat loss | Insulate from ground immediately with foam pad & winter sleeping bag wrap |
 
 ---
 
@@ -45,61 +44,37 @@ In wilderness medicine, catastrophic external bleeding kills faster than an airw
 | **Category C: Non-Urgent / Self-Evac** | Walk out / Patrol Escort | Minor closed sprains, small 1st-degree burns, controlled mild asthma, mild altitude headache | Patrol accompanies patient walking out to trailhead |
 
 ### Emergency Backcountry Communication Methods
-- **Cell Phone / SMS:** Dial 911. If voice calls drop due to weak signal, **send an SMS text to 911**. Text packets require only millisecond burst connections to cellular towers.
-- **Satellite Communicators (Garmin inReach, ZOLEO, ACR Bivy Stick, Apple Satellite SOS):** Two-way messaging with GEOS/IERCC emergency dispatch. Send patient GPS coordinates, age, chief complaint, and vital trends.
-- **Personal Locator Beacons (PLB - 406 MHz):** High-powered direct distress signal to NOAA/COSPAS-SARSAT satellites. Non-cancelable; activate only in imminent loss-of-life situations.
-- **Auditory / Visual Distress Signals:**
-  - **Rule of Threes:** Three sharp whistle blasts, three smoke fires in a triangle, three flashes of a signal mirror, or three rifle shots. Responders acknowledge with two signals.
-  - **Ground-to-Air Signals:** Trample huge 10-foot letters in snow or lay logs:
-    - **`V`** = Require Assistance
-    - **`X`** = Require Medical Assistance
-    - **`N`** = No / Negative
-    - **`Y`** = Yes / Affirmative
+
+| Channel / Tool | Technology / Band | Coverage & Reliability | Best-Practice Protocol |
+| :--- | :--- | :--- | :--- |
+| **Cell Phone / SMS** | Cellular towers (Voice/Text) | Spotty in canyons/valleys | If voice calls drop, **send an SMS text to 911** (text packets require millisecond connections). |
+| **Satellite Messenger** | Iridium / Globalstar network | Global 2-way messaging | Send GPS coordinates, age, chief complaint, vital signs, and SAR extraction request. |
+| **Personal Locator Beacon** | 406 MHz NOAA Satellites | Direct distress beacon | Non-cancelable; activate ONLY in imminent loss-of-life or limb scenarios. |
+| **Ground-to-Air Signals** | Visual markers (10ft letters) | Aircraft visual search | Trample `V` (Need Assistance), `X` (Medical Assistance), or build 3 fires in a triangle. |
 
 ---
 
 ## 3. Wilderness SOAP Note Documentation
 
-A SOAP note provides a structured format to document findings and communicate seamlessly with emergency medical services (EMS) and Search & Rescue (SAR).
+A SOAP note provides a structured format to document findings and communicate seamlessly with emergency medical services (EMS) and Search & Rescue (SAR):
 
-```
-========================= WILDERNESS S.O.A.P. NOTE =========================
-S - SUBJECTIVE
-    - Patient Name, Age, Sex, Date & Time of Incident
-    - Chief Complaint (in patient's own words)
-    - Mechanism of Injury (MOI) or History of Present Illness (HPI)
-    - S.A.M.P.L.E. History:
-      * S - Signs & Symptoms
-      * A - Allergies (Meds, environment, foods)
-      * M - Medications (Prescriptions, OTC, supplements)
-      * P - Pertinent Medical History (Cardiac, asthma, diabetes)
-      * L - Last Intake / Output (Food, water, urination, bowel)
-      * E - Events leading up to the incident
+| SOAP Section | Component Details | What to Record |
+| :--- | :--- | :--- |
+| **S – Subjective** | Patient Story & History | Patient name, age, incident time, chief complaint, mechanism of injury (MOI), and **SAMPLE** history (Signs/Symptoms, Allergies, Medications, Pertinent history, Last intake/output, Events leading up). |
+| **O – Objective** | Physical Findings & Vitals | Head-to-toe **DOTS** exam (Deformities, Open wounds, Tenderness, Swelling) and dated Vital Sign trends (Time, LOC via AVPU, Heart Rate, Resp Rate, Skin color/temp, Pupils). |
+| **A – Assessment** | Problem List | Numbered clinical problems in order of severity (e.g. 1: Closed tibia fracture; 2: Mild hypothermia; 3: Anticipated shock). |
+| **P – Plan** | Treatment & Evacuation Plan | Specific interventions applied (splints, bandages, hypo wrap), evacuation route/SAR method, and reassessment schedule (every 15 min for unstable, 30 min for stable). |
 
-O - OBJECTIVE
-    - Head-to-Toe Physical Exam findings (DOTS: Deformities, Open wounds,
-      Tenderness, Swelling)
-    - Vital Sign Trends (Record every 15 min for unstable, 30 min for stable):
-      * Time | LOC (AVPU) | HR (bpm) | RR (bpm) | Skin (C/W/D) | Pupils (PEERL)
+---
 
-A - ASSESSMENT
-    - Problem #1 (e.g., Closed fracture right mid-shaft tibia/fibula)
-    - Problem #2 (e.g., Mild hypothermia secondary to exposure)
-    - Problem #3 (e.g., Anticipated shock)
+### Level of Consciousness (AVPU Scale)
 
-P - PLAN
-    - Treatment given (Splinted with SAM splint, elevated, cold compress)
-    - Hypothermia wrap initiated (Sleeping bag + closed-cell pad)
-    - Evacuation plan (Calling county SAR via satellite messenger for litter evac)
-    - Reassessment schedule (Check CSMs every 15 minutes)
-============================================================================
-```
-
-### AVPU Scale for Level of Consciousness (LOC)
-- **A – Alert:** Awake, responds promptly, knows person, place, time, and event (Alert & Oriented x 4).
-- **V – Verbal:** Not fully awake; opens eyes or speaks only when spoken to loudly.
-- **P – Pain:** Responds only to painful stimuli (sternal rub, pinching trapezius).
-- **U – Unresponsive:** Completely unconscious; no response to voice or pain.
+| Score | Clinical State | Patient Response | Assessment Technique |
+| :--- | :--- | :--- | :--- |
+| **A – Alert** | Fully conscious | Responds promptly; knows person, place, time, and event | Confirm Alert & Oriented $\times$ 4 |
+| **V – Verbal** | Lethargic / Drowsy | Opens eyes or speaks only when addressed loudly | Speak loudly near patient's ear |
+| **P – Pain** | Stuporous | Responds only to painful stimuli; does not speak | Apply sternal rub or trapezius squeeze |
+| **U – Unresponsive**| Comatose | Completely unconscious; zero verbal/motor response | Check carotid pulse; manage airway immediately |
 
 ---
 

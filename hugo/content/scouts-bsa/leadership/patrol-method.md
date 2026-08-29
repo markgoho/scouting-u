@@ -33,11 +33,13 @@ A successful duty roster rotates roles **every single meal**, ensuring fairness,
 
 ### The 5 Core Campout Roles
 
-1. **Head Cook (Chefs)**: Leads meal prep, controls burner temperatures, seasons food, and ensures food is served hot on time.
-2. **Assistant Cook / Fire Master**: Sets up camp stoves or builds/tends cooking fires; assists with chopping and ingredient staging; boils water for cooking.
-3. **Scullery Master (Dishwasher 1)**: Heats water for the 3-pot system; washes all cookware, cutting boards, and serving utensils using hot soapy water.
-4. **Scullery Assistant (Dishwasher 2)**: Rinses and sanitizes all dishes in sanitizing water; air-dries and stores cookware back into the patrol chuck box.
-5. **Quartermaster & Water Master**: Fetches clean potable water for drinking and scullery; empties grease/gray water in approved sump; inspects patrol site cleanliness.
+| Role Title | Primary Responsibilities | Safety & Sanitation Focus | Key Tools & Equipment |
+| :--- | :--- | :--- | :--- |
+| **Head Cook (Chef)** | Leads meal prep, controls stove temperatures, seasons food, and serves on time | Enforces handwashing, monitors meat internal temps (meat thermometer) | Camp stoves, chef knife, cutting board, spatula |
+| **Assistant Cook & Fire Master** | Sets up stoves or builds/tends cooking fires, chops veggies, boils water | Manages propane safety, monitors fire safety radius, maintains fuel supply | Fire gloves, charcoal chimney, matches, tongs |
+| **Scullery Master (Wash)** | Preheats wash water, scrapes leftover bits, scrubs pots and plates | Maintains Pot 1 at 110°F–120°F with biodegradable soap | Scrubbers, wash tub, biodegradable soap, spatula |
+| **Scullery Assistant (Sanitize)** | Manages rinse and sanitation tanks, dunks dishes, hangs mesh drying bag | Ensures Pot 3 sanitizer contact time (30–60 sec); prevents towel drying | Sanitizing tabs / bleach, dunk bag, tongs |
+| **Water Master & Quartermaster** | Fetches clean potable water for drinking and scullery; empties gray water | Disposes gray water 200ft away via broadcast or camp sump | 5-gal water jugs, sump strainer screen, trash bags |
 
 ---
 
@@ -144,10 +146,12 @@ A well-ordered campsite prevents accidents, keeps wild animals away, and ensures
 
 ![Patrol Campsite Layout and Safety Zoning Masterplan](/img/diagrams/campsite-zoning-masterplan.png)
 
-1. **The Kitchen Triangle**: Place the food prep table, camp stoves, and 3-pot scullery in a triangle at least 100 feet downwind from tents (in bear country, 200+ feet).
-2. **The Tent City**: Pitch tents in orderly rows or a semi-circle with doorways facing away from prevailing winds. Keep pathways clear of guy lines.
-3. **The Ax Yard**: A cordoned-off safety zone (using stakes and rope) for chopping wood. Only one Scout with proper safety gear (boots, eye protection) allowed inside at a time.
-4. **Smellables & Wildlife Storage**: All toothpaste, deodorant, food, snacks, and trash must be locked in a trailer, vehicle, or hung in a bear bag at night. Never allow food inside sleeping tents.
+| Campsite Zone | Separation Distance | Functional Setup | Safety & LNT Mandate |
+| :--- | :--- | :--- | :--- |
+| **Tent City / Sleeping** | Upwind from kitchen | Tents pitched in orderly rows/semi-circle; doorways away from wind | **Strict Zero Food Rule**: No snacks, wrappers, or smellable toiletries inside tents. |
+| **Patrol Kitchen** | 100–200 ft downwind | Prep table, camp stoves, 3-pot scullery line, chuck box | Keep food elevated off ground; wash hands before all food handling. |
+| **Food Storage & Sump** | 200 ft from tents/kitchen | Bear canisters, Ursacks, or counterbalance PCT bear hangs | Hang food 12ft high and 6ft out from trunk; strain gray water solids. |
+| **Ax Yard** | Cordoned safety zone | Chopping block, tool rack, clearance circle | One Scout inside at a time; mandatory boots and eye protection. |
 
 ---
 

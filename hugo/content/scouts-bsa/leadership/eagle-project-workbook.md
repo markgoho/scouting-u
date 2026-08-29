@@ -15,17 +15,14 @@ This is not simply a service project—it is a comprehensive leadership practicu
 
 Before drafting a proposal, ensure the project meets national advancement standards outlined in the *Guide to Advancement* (Topics 9.0.2.0 – 9.0.2.16):
 
-### Acceptable Projects
-- Construction of trails, footbridges, outdoor classrooms, or community gardens.
-- Renovation of a community food pantry, animal shelter facility, or historical museum archive.
-- Creating disaster preparedness kits or sensory rooms for schools.
-- Building durable equipment (benches, kiosks, flag disposal boxes) for public parks or houses of worship.
+### Project Evaluation Criteria
 
-### Unacceptable Projects
-- **Routine Maintenance**: Simple mowing, weeding, painting over existing paint, or standard cleaning that an organization normally handles.
-- **Projects Benefiting BSA**: Improvements to your troop meeting room, local scout camp, or council property.
-- **Commercial or For-Profit Ventures**: Projects that enhance private businesses.
-- **Pure Fundraising**: Projects consisting solely of raising money without hands-on leadership of physical work.
+| Category | Acceptable Project Examples | Unacceptable Disqualifiers |
+| :--- | :--- | :--- |
+| **Community Infrastructure** | Construction of trails, footbridges, outdoor classrooms, or community gardens | **Routine Maintenance**: Simple mowing, weeding, or re-painting over existing paint |
+| **Civic & Historical** | Renovation of a community food pantry, animal shelter facility, or historical museum archive | **BSA Beneficiary**: Improvements to troop rooms, local scout camps, or council property |
+| **Safety & Preparedness** | Creating disaster preparedness kits or sensory rooms for elementary schools | **Commercial / For-Profit**: Projects that enhance or benefit private businesses |
+| **Public Amenities** | Building durable benches, kiosks, or flag retirement boxes for public parks or houses of worship | **Pure Fundraising**: Projects consisting solely of raising money without hands-on leadership |
 
 {{< drg/did-you-know >}}
 There is no minimum number of hours required for an Eagle Scout Service Project. Council committees look for adequate *scope*, *planning depth*, and clear opportunity to *demonstrate leadership to others*, not an arbitrary hour quota.
@@ -43,10 +40,12 @@ There is no minimum number of hours required for an Eagle Scout Service Project.
 
 You must complete the **Project Proposal** section of the official *Eagle Scout Service Project Workbook* (BSA Publication No. 512-927) and obtain four mandatory signatures in strict sequential order before doing any project work:
 
-1. **Beneficiary Representative**: Confirms the project meets their needs and grants permission to work on their property.
-2. **Scoutmaster / Unit Leader**: Confirms the project idea is sound and you are registered as a Life Scout.
-3. **Unit Committee Chair**: Confirms the unit committee supports the project logistics and adult supervision.
-4. **Council or District Advancement Representative**: Validates that the project meets national standards.
+| Sequence | Approver Role | Key Review Focus | Timing Mandate |
+| :--- | :--- | :--- | :--- |
+| **1st Signature** | **Beneficiary Representative** | Confirms the project meets their organizational needs and grants site access | Must sign first before unit leader review |
+| **2nd Signature** | **Scoutmaster / Unit Leader** | Confirms the project idea is sound and you are actively registered as Life | Signs after beneficiary grants permission |
+| **3rd Signature** | **Unit Committee Chair** | Confirms unit supports project logistics, adult supervision, and safety | Signs after unit leader approval |
+| **4th Signature** | **District / Council Advancement Chair** | Validates that project meets national advancement standards | **Absolute requirement before any work or fundraising begins** |
 
 {{< drg/safety-first >}}
 **Strict No-Work Directives Before Approvals**:
@@ -92,21 +91,12 @@ You must protect all volunteers by enforcing the *Guide to Safe Scouting* tool u
 
 On project day, the Eagle candidate is the project manager, not the primary laborer.
 
-```
-┌────────────────────────────────────────────────────────┐
-│                   EAGLE CANDIDATE                      │
-│     (Supervising, Inspecting Quality, Managing Time)   │
-└──────────┬─────────────────────────────────┬───────────┘
-           │                                 │
-┌──────────┴───────────┐         ┌───────────┴───────────┐
-│     Crew Leader 1    │         │     Crew Leader 2     │
-│   (Digging & Posts)  │         │  (Cutting & Assembly) │
-└──────────┬───────────┘         └───────────┬───────────┘
-           │                                 │
- ┌─────────┴────────┐              ┌─────────┴────────┐
- │ Volunteers (3-4) │              │ Volunteers (3-4) │
- └──────────────────┘              └──────────────────┘
-```
+| Workday Leadership Role | Primary Responsibilities | Key Oversight Duties |
+| :--- | :--- | :--- |
+| **Eagle Project Manager (Candidate)** | Overall site supervision, schedule tracking, safety oversight | Walks site continuously, verifies quality, coaches crew leaders, handles logistics |
+| **Crew Leader 1 (e.g. Groundwork)** | Directs 3–4 youth volunteers on site prep and digging | Enforces safety perimeter, monitors utility markings, checks hole depth |
+| **Crew Leader 2 (e.g. Assembly)** | Directs 3–4 youth volunteers on measuring, cutting, and joints | Enforces eye protection, double-checks measurements, ensures square joints |
+| **Troop Scribe / Registrar** | Registration desk check-in, hours tracking, emergency contact sheet | Records arrival/departure times, coordinates water/snack distribution |
 
 ### The Workday Morning Playbook
 

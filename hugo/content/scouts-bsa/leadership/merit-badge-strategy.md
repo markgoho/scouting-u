@@ -50,21 +50,12 @@ If you earn more than one badge in a choice group (e.g., you earn both *Swimming
 
 The most dangerous bottleneck in Scouting advancement is the **Time-Lock Quad**. These four badges cannot be completed over a single weekend or summer camp week because their requirements mandate months of continuous tracking:
 
-### 1. Personal Management (Requirement 2)
-- **The Requirement**: Prepare a budget and track every penny of income and expenditure for **13 consecutive weeks (approx. 90 days)**.
-- **The Strategy**: Start this badge immediately upon reaching Star rank. Use a dedicated notebook or spreadsheet. Record allowance, gifts, lunch money, and chore earnings.
-
-### 2. Family Life (Requirement 3)
-- **The Requirement**: Prepare a list of regular home duties, track your completion of these chores for **90 consecutive days**, and conduct two structured family meetings.
-- **The Strategy**: Post a physical chore chart on your refrigerator. Have a parent initial weekly progress to avoid forgotten logs.
-
-### 3. Personal Fitness (Requirements 7 & 8)
-- **The Requirement**: Complete a comprehensive baseline physical test, design a 12-week conditioning program, and log workouts **3 times per week for 12 consecutive weeks**, followed by a post-program fitness test.
-- **The Strategy**: Align this badge with your school sports season (track, soccer, swimming, cross country) or gym routine to streamline workout tracking.
-
-### 4. Camping (Requirement 9)
-- **The Requirement**: Camp out a minimum of **20 days and 20 nights** at designated Scouting activities (one long-term summer camp of up to 6 consecutive nights counts; the remaining 14+ nights must be weekend campouts).
-- **The Strategy**: Maintain an individual camping logbook from your very first Tenderfoot campout. Record dates, locations, tent-mate names, and weather conditions.
+| Badge | Requirement & Duration | Tracking Mandate | Optimal Starting Window | Best-Practice Strategy |
+| :--- | :--- | :--- | :--- | :--- |
+| **Personal Management** | **13 consecutive weeks** (Req 2) | Track every penny of income and expenditure with written budget | Immediately upon reaching Star rank | Use a dedicated notebook or spreadsheet. Record allowance, gifts, lunch money, and chore earnings weekly. |
+| **Family Life** | **90 consecutive days** (Req 3) | Track regular home chores and lead 2 structured family meetings | Star rank (concurrent with Personal Mgmt) | Post a physical chore chart on your refrigerator. Have a parent initial weekly progress to avoid forgotten logs. |
+| **Personal Fitness** | **12 consecutive weeks** (Reqs 7 & 8) | Baseline physical test, 3 workouts/week log, post-fitness test | Life rank (or during high school sports season) | Align this badge with your school sports season (track, soccer, swimming, cross country) or gym routine. |
+| **Camping** | **20 days & 20 nights** (Req 9) | 1 long-term camp (max 6 nights) + 14+ weekend campout nights | Scout rank through Life rank (cumulative) | Maintain an individual camping logbook from your very first Tenderfoot campout with dates, sites, and weather. |
 
 {{< drg/be-prepared title="The 17.5-Year-Old Advancement Crisis" >}}
 Every year, thousands of Life Scouts turn 17.5 years old and realize they have not started Personal Management or Personal Fitness. Because these badges require 90 to 100 days of active logs plus counselor review time, starting them less than 4 months before your 18th birthday creates severe risk of missing the Eagle deadline.
@@ -88,28 +79,10 @@ Choose the badge in each option group that matches your physical capabilities, f
 
 | Rank Target | Eagle-Required Focus | Electives Focus | Key Strategic Milestone |
 | :--- | :--- | :--- | :--- |
-| **Scout to First Class** (Ages 11–12) | Master First Aid skills, earn **Swimming** at summer camp | 1–2 outdoor electives (e.g. Fishing, Wood Carving) | Complete core rank outdoor requirements. |
-| **Star Rank** (Ages 12–14) | **First Aid**, **Citizenship in Society**, **Camping** | 2 high-interest electives | Serve 4 months in leadership; log service hours. |
-| **Life Rank** (Ages 14–15) | **Citizenship in Community**, **Citizenship in Nation**, **Emerg. Prep/Lifesaving** | 2 merit badges | **Launch 90-day Time-Lock logs (Personal Mgmt / Fitness / Family Life)!** |
-| **Eagle Scout** (Ages 15–17) | Finish Time-Locks, **Communication**, **Cooking**, **Citizenship in World** | 3 electives (21 total) | Execute Eagle Scout Service Project and complete Board of Review. |
-
-### Stage 1: Scout to First Class (Ages 11–12)
-- **Primary Focus**: Master foundational outdoor, knotting, navigation, and camping skills.
-- **Badges to Target**: **First Aid** (builds directly on tenderfoot/second class/first class first aid) and **Swimming** (at summer camp).
-
-### Stage 2: First Class to Star (Needs 4 Eagle-Req + 2 Electives = 6 Total)
-- **Eagle Badges**: First Aid, Citizenship in Society, Camping, Environmental Science.
-- **Electives**: Two high-interest badges (e.g., Robotics, Woodwork, Archery, Wilderness Survival).
-- **Milestone**: Complete 4 months of active tenure and hold a troop leadership position.
-
-### Stage 3: Star to Life (Needs 3 more Eagle-Req + 2 Electives = 11 Total)
-- **Eagle Badges**: Citizenship in the Community, Citizenship in the Nation, Emergency Preparedness.
-- **Action Item**: **Initiate Personal Management, Family Life, or Personal Fitness logs!**
-- **Milestone**: Complete 6 months of active tenure and 6 hours of service.
-
-### Stage 4: Life to Eagle (Needs 7 more Eagle-Req + 3 Electives = 21 Total)
-- **Eagle Badges**: Complete the 90-day Time-Lock logs (Personal Mgmt, Family Life, Personal Fitness), Cooking, Communication, Citizenship in the World, and remaining choice badges.
-- **Milestone**: Execute the Eagle Scout Service Project and prepare for the Eagle Board of Review.
+| **Stage 1: Scout to First Class** (Ages 11–12) | Master First Aid skills, earn **Swimming** at summer camp | 1–2 outdoor electives (e.g. Fishing, Wood Carving) | Complete core rank outdoor requirements. |
+| **Stage 2: First Class to Star** (Ages 12–14) | **First Aid**, **Citizenship in Society**, **Camping**, **Env. Science** | 2 high-interest electives (6 total) | Serve 4 months in leadership; complete 6 service hours. |
+| **Stage 3: Star to Life** (Ages 14–15) | **Citizenship in Community**, **Citizenship in Nation**, **Emerg. Prep/Lifesaving** | 2 electives (11 total) | **Launch 90-day Time-Lock logs (Personal Mgmt / Fitness / Family Life)!** |
+| **Stage 4: Life to Eagle** (Ages 15–17) | Finish Time-Locks, **Communication**, **Cooking**, **Citizenship in World** | 3 electives (21 total) | Execute Eagle Scout Service Project and complete Board of Review. |
 
 ---
 
@@ -117,11 +90,13 @@ Choose the badge in each option group that matches your physical capabilities, f
 
 The BSA Application for Merit Badge (the "Blue Card") or its Scoutbook digital equivalent is the official legal record of merit badge completion. Always follow the 5-step process:
 
-1. **Scoutmaster Conference & Blue Card Issuance:** Discuss your interest with your Scoutmaster to receive an authorized Blue Card (or Scoutbook digital connection) and counselor recommendation.
-2. **Connect with Registered Merit Badge Counselor (MBC):** Reach out to the approved counselor with your buddy.
-3. **Work on Requirements with a Buddy (Youth Protection):** Learn the skills, complete research, and log required tracker days.
-4. **Complete Demonstrations & Secure Counselor Signature:** Meet with the counselor to review completed work and demonstrate mastery.
-5. **Return Signed Blue Card to Troop Advancement Chair:** Submit the applicant record to the unit advancement coordinator for formal recording and council submission.
+| Step | Phase Name | Primary Action | Key Participants | Best Practice |
+| :--- | :--- | :--- | :--- | :--- |
+| **Step 1** | **Scoutmaster Conference** | Discuss interest and obtain authorized Blue Card | Scout & Scoutmaster | Secure counselor recommendations and verify prerequisites. |
+| **Step 2** | **Counselor Connection** | Introduce yourself and schedule initial meeting | Scout, Buddy & Counselor | Confirm current requirement edition before beginning work. |
+| **Step 3** | **Requirement Completion** | Complete skill demonstrations and log tracking | Scout & Buddy | Maintain continuous dated logs; never complete items solo. |
+| **Step 4** | **Counselor Review & Sign-off**| Final review of requirements and sign-off | Scout, Buddy & Counselor | Secure counselor signature on all three sections of the Blue Card. |
+| **Step 5** | **Unit Advancement Submission**| Submit signed applicant record to troop | Scout & Advancement Chair | Keep Scout portion permanently filed in personal binder. |
 
 {{< drg/safety-first >}}
 **Youth Protection & The Buddy System**:
