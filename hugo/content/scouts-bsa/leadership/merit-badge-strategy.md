@@ -13,16 +13,13 @@ Earning 21 badges is not merely a test of endurance—it is an exercise in long-
 
 Every Eagle candidate must earn 14 Eagle-required badges across specific categories, plus 7 electives:
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    21 TOTAL MERIT BADGES FOR EAGLE                      │
-├───────────────────────────────────────────┬─────────────────────────────┤
-│      14 EAGLE-REQUIRED BADGES             │     7 ELECTIVE BADGES       │
-│  • 11 Fixed Required Badges               │  • Any non-required badges  │
-│  • 3 Choice-Group Badges                  │  • Career, hobby, STEM,     │
-│    (Emergency/Life, Env/Sust, Swim/Hike)  │    and outdoor adventures   │
-└───────────────────────────────────────────┴─────────────────────────────┘
-```
+| Advancement Tier | Eagle-Required Badges Needed | Elective Badges Needed | Cumulative Total Badges |
+| :--- | :--- | :--- | :--- |
+| **Star Rank** | 4 Eagle-Required | 2 Electives | **6 Total Badges** |
+| **Life Rank** | 3 additional (7 total) | 2 additional (4 total) | **11 Total Badges** |
+| **Eagle Scout** | 7 additional (14 total) | 3 additional (7 total) | **21 Total Badges** |
+
+---
 
 ### The 14 Eagle-Required Badges Categorized
 
@@ -79,35 +76,22 @@ Every year, thousands of Life Scouts turn 17.5 years old and realize they have n
 
 Choose the badge in each option group that matches your physical capabilities, facilities, and personal interests:
 
-```
-CHOICE GROUP 1: Emergency Preparedness vs. Lifesaving
-├── Emergency Preparedness ──> Best for: Scouts interested in first responder drills, disaster plans, tabletop scenarios.
-└── Lifesaving             ──> Best for: Strong swimmers; requires retrieving a 10lb brick from 8ft deep and practicing conscious/unconscious rescues.
-
-CHOICE GROUP 2: Environmental Science vs. Sustainability
-├── Environmental Science  ──> Best for: Summer camp setting; involves field plot studies, pollution experiments, and ecosystem modeling.
-└── Sustainability         ──> Best for: Home/community setting; involves household energy audits, water consumption tracking, and reducing food waste.
-
-CHOICE GROUP 3: Swimming vs. Hiking vs. Cycling
-├── Swimming               ──> Fastest: Can be completed during a 1-week summer camp aquatics block.
-├── Hiking                 ──> Rugged: Requires one 5-mile, three 10-mile, one 15-mile, and one continuous 20-mile hike.
-└── Cycling                ──> Equipment-heavy: Requires two 10-mile, two 15-mile, two 25-mile, and one continuous 50-mile road ride (or rigorous mountain bike trails).
-```
+| Choice Group | Option A | Option B | Option C | Recommendation |
+| :--- | :--- | :--- | :--- | :--- |
+| **Group 1: Emergency & Rescue** | **Emergency Preparedness** (Disaster planning, drills, tabletop scenarios) | **Lifesaving** (Water rescue, 10lb brick recovery, conscious/unconscious tows) | — | Take *Lifesaving* if you are a strong swimmer at summer camp; otherwise take *Emergency Preparedness*. |
+| **Group 2: Environment & Science** | **Environmental Science** (Field plots, ecology experiments, pollution studies) | **Sustainability** (Home utility audits, food waste tracking, community design) | — | Take *Environmental Science* at summer camp; take *Sustainability* if working at home. |
+| **Group 3: Outdoor Travel** | **Swimming** (Completed in 1 week at summer camp aquatics dock) | **Hiking** (One 5-mile, three 10-mile, one 15-mile, one 20-mile continuous trek) | **Cycling** (Two 10-mile, two 15-mile, two 25-mile, one 50-mile road ride) | *Swimming* is by far the fastest. *Hiking* and *Cycling* require high endurance and extensive weekend commitments. |
 
 ---
 
 ## 4. Rank-by-Rank Strategic Progression Timeline
 
-```
-SCOUT -> FIRST CLASS          STAR RANK                  LIFE RANK                  EAGLE RANK
-┌──────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐    ┌─────────────────────┐
-│ • Focus: Rank Skills │ -> │ • First Aid         │ -> │ • Citizenship (Nat) │ -> │ • Personal Mgmt     │
-│ • First Aid (start)  │    │ • Citizenship (Soc) │    │ • Citizenship (Com) │    │ • Family Life       │
-│ • Swimming           │    │ • Camping (ongoing) │    │ • Emerg. Prep / Life│    │ • Personal Fitness  │
-│ • 1-2 Electives      │    │ • 2 Electives       │    │ • 2 Electives       │    │ • Communication     │
-│                      │    │                     │    │ • Launch 90-day logs│    │ • Eagle Project     │
-└──────────────────────┘    └─────────────────────┘    └─────────────────────┘    └─────────────────────┘
-```
+| Rank Target | Eagle-Required Focus | Electives Focus | Key Strategic Milestone |
+| :--- | :--- | :--- | :--- |
+| **Scout to First Class** (Ages 11–12) | Master First Aid skills, earn **Swimming** at summer camp | 1–2 outdoor electives (e.g. Fishing, Wood Carving) | Complete core rank outdoor requirements. |
+| **Star Rank** (Ages 12–14) | **First Aid**, **Citizenship in Society**, **Camping** | 2 high-interest electives | Serve 4 months in leadership; log service hours. |
+| **Life Rank** (Ages 14–15) | **Citizenship in Community**, **Citizenship in Nation**, **Emerg. Prep/Lifesaving** | 2 merit badges | **Launch 90-day Time-Lock logs (Personal Mgmt / Fitness / Family Life)!** |
+| **Eagle Scout** (Ages 15–17) | Finish Time-Locks, **Communication**, **Cooking**, **Citizenship in World** | 3 electives (21 total) | Execute Eagle Scout Service Project and complete Board of Review. |
 
 ### Stage 1: Scout to First Class (Ages 11–12)
 - **Primary Focus**: Master foundational outdoor, knotting, navigation, and camping skills.
@@ -133,17 +117,11 @@ SCOUT -> FIRST CLASS          STAR RANK                  LIFE RANK              
 
 The BSA Application for Merit Badge (the "Blue Card") or its Scoutbook digital equivalent is the official legal record of merit badge completion. Always follow the 5-step process:
 
-```
-1. Scoutmaster Conference & Blue Card Issuance
-   │
-2. Connect with Registered Merit Badge Counselor (MBC)
-   │
-3. Work on Requirements with a Buddy (Youth Protection)
-   │
-4. Complete Demonstrations & Secure Counselor Signature
-   │
-5. Return Signed Blue Card to Troop Advancement Chair
-```
+1. **Scoutmaster Conference & Blue Card Issuance:** Discuss your interest with your Scoutmaster to receive an authorized Blue Card (or Scoutbook digital connection) and counselor recommendation.
+2. **Connect with Registered Merit Badge Counselor (MBC):** Reach out to the approved counselor with your buddy.
+3. **Work on Requirements with a Buddy (Youth Protection):** Learn the skills, complete research, and log required tracker days.
+4. **Complete Demonstrations & Secure Counselor Signature:** Meet with the counselor to review completed work and demonstrate mastery.
+5. **Return Signed Blue Card to Troop Advancement Chair:** Submit the applicant record to the unit advancement coordinator for formal recording and council submission.
 
 {{< drg/safety-first >}}
 **Youth Protection & The Buddy System**:

@@ -11,15 +11,7 @@ Ropework is one of the foundational disciplines of outdoor mastery. Whether pitc
 
 Understanding how a rope behaves requires knowing standard nautical and mountaineering terms.
 
-```
-          [Standing Part / Running Line]
-===================================================+
-                                                   |
-                                                   |  [Bight / Turn]
-                                                   \____
-                                                        \  [Working End]
-                                                         ======>
-```
+![Parts of a Rope](/img/diagrams/rope-anatomy.png)
 
 - **Working End (Bitter End):** The active end of the line used to tie the knot.
 - **Standing Part:** The inactive section of the rope between the working end and the anchor or opposite end.
@@ -65,34 +57,18 @@ Whipping binds the strands using strong, wax-treated twine (sailmaker's twine or
 6. Pull firmly on the initial short end extending from the bottom of the wrap. This draws the loop (and the active end) halfway under the protective coil.
 7. Trim both twine ends flush with the whipping coil.
 
-```
-American Whipping Diagram:
-   Rope End
-   |===|   <-- Twine Loop
-   |===|====== [Tightly wound parallel wraps]
-   |===|======
-   |===|   <-- Pull lower tail to draw loop halfway inside wrap
-   Rope Body
-```
-
 ---
 
 ## 3. The Core Six Advancement Knots & Hitches
 
 These six knots form the backbone of Scouts BSA rank advancement from Scout to First Class.
 
+![Core Foundational Scouting Knots](/img/diagrams/core-scout-knots.png)
+
 ---
 
 ### A. Square Knot (Reef Knot)
 *Classification:* Binding Knot (Joining two ends of a single line around an object).
-
-```
-        +-------+
-===>----+   +---+---->
-        |   |
-<---+---+   +-------<===
-    +-------+
-```
 
 - **Primary Use:** Tying packages, securing sail covers (reefing), tying shoelaces, and securing triangular bandages.
 - **How to Tie:**
@@ -118,18 +94,6 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
 ### C. Taut-Line Hitch
 *Classification:* Friction Hitch (Adjustable loop knot).
 
-```
-   Anchor Post
-       (O)
-        |
-        | [Loop under tension]
-        |
-    (2 internal wraps + 1 external half-hitch)
-        |
-        | [Standing line to tent]
-        V
-```
-
 - **Primary Use:** Tent guylines, dining fly ridge lines, and adjustable lashings. Allows the line to slide freely when adjusted manually, but jams under tension.
 - **How to Tie:**
   1. Pass the working end around the tent stake or anchor point and bring it back parallel to the standing part.
@@ -148,18 +112,6 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
 
 ### D. Bowline
 *Classification:* Fixed Loop Knot ("The King of Knots").
-
-```
-             [Fixed Loop]
-               /       \
-              /         \
-             +-----------+
-             |   +---+   |
-             |   | O |   |  <-- "Rabbit out of hole"
-    =========+===+ | +===+========= [Standing Line]
-                   |
-            [Working End tucked]
-```
 
 - **Primary Use:** Creating a secure, non-slip fixed loop at the end of a line. Used for boat mooring lines, rescue loops around a waist, and hoisting equipment.
 - **Key Advantage:** Will not slip or cinch down under maximum tension, yet unties instantly by snapping the collar backward ("breaking the back").
@@ -192,12 +144,6 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
 ### F. Sheet Bend & Double Sheet Bend
 *Classification:* Bend (Joining two separate ropes).
 
-```
-Thick Rope (Bight):    ========\____/========
-                                  ||
-Thin Rope (Weave):     -----\====/  \========>
-```
-
 - **Primary Use:** Joining two ropes of unequal diameter, or joining two wet/slippery ropes.
 - **How to Tie:**
   1. Form a bight in the **thicker** (or stiffer) rope.
@@ -222,12 +168,7 @@ Thin Rope (Weave):     -----\====/  \========>
 ### Figure-Eight Knot Family
 1. **Figure-Eight Stopper:** A non-jamming stopper knot at the end of a line that prevents the rope from pulling through a pulley, eyelet, or belay device. Outperforms an overhand knot because it does not jam under extreme tension.
 2. **Figure-Eight on a Bight:** Quickly creates a strong, reliable fixed loop in the middle or end of a climbing line.
-3. **Figure-Eight Follow-Through (Re-threaded):** The gold standard for tying directly into a climbing harness. Retains approximately 75–80% of rope strength.
-
-```
-Figure-Eight Path:
-  Down, around the back, over the front, and through the top loop.
-```
+3. **Figure-Eight Follow-Through (Re-threaded):** The gold standard for tying directly into a climbing harness. Retains approximately 75–80% of rope strength. (Tying path: Down, around the back, over the front, and through the top loop).
 
 ### Prusik Hitch (Friction / Ascending Hitch)
 *Primary Use:* Ascending climbing ropes, hauling systems, adjustable tarp ridge lines, self-rescue.
@@ -261,12 +202,11 @@ Figure-Eight Path:
 
 ## 5. Pioneering Structural Lashings
 
-Lashings join wooden spars (timber poles) into rigid structural frameworks—such as bridges, towers, signal masts, camp tables, and washbasins—without nails or metal hardware.
+## 5. Structural Pioneering Lashings
+Lashing is the art of joining timber spars using rope to build rigid structures (pioneering towers, signal towers, monkey bridges, camp tables, and raft frames) without nails or bolts.
 
-### Structural Principles of Lashing
-- **Wraps vs. Fraps:**
-  - **Wraps (3–4 turns):** Wind around both spars to hold them in position. Keep wraps neat, parallel, and tight.
-  - **Fraps (2–3 turns):** Wind *between* the spars, encircling the wraps perpendicularly. Frapping turns pull the wraps toward each other, generating immense clamping pressure.
+![Structural Pioneering Lashings](/img/diagrams/pioneering-lashings.png)
+
 - **Rule of Thumb:** *“Wraps position the poles; Fraps provide the structural tension.”*
 - **Sisal / Manila Cordage:** Traditional 1/4-inch 3-strand manila or sisal is the preferred pioneering cordage because its natural fiber surface texture creates superior friction without slipping.
 
@@ -274,14 +214,6 @@ Lashings join wooden spars (timber poles) into rigid structural frameworks—suc
 
 ### A. Square Lashing
 *Use:* Joining two spars that cross at right angles (or 45°–90°) where one spar rests on top of the other, supporting downward loads.
-
-```
-       |   |
-       |   |
-  =====+===+=====  <-- Horizontal Spar
-       |   |
-       |   |       <-- Vertical Spar
-```
 
 1. **Start:** Tie a **Clove Hitch** around the vertical spar directly beneath the horizontal spar. Twist the short tail into the standing line.
 2. **Wrapping (3 turns):**
@@ -296,14 +228,6 @@ Lashings join wooden spars (timber poles) into rigid structural frameworks—suc
 ### B. Diagonal Lashing
 *Use:* Joining two spars that cross at an angle, especially where the spars are under cross-tension or tend to spring apart (cross-bracing).
 
-```
-        \   /
-         \ /
-          X
-         / \
-        /   \
-```
-
 1. **Start:** Tie a **Timber Hitch** around *both* intersecting spars, pulling them firmly together.
 2. **Cross Wraps (3 turns each direction):**
    - Take 3 tight wraps around both spars across one diagonal fork.
@@ -316,13 +240,6 @@ Lashings join wooden spars (timber poles) into rigid structural frameworks—suc
 
 ### C. Shear Lashing (Shear Legs & A-Frames)
 *Use:* Joining two spars parallel to create an A-frame or bipod legs that spread at the bottom, or extending a spar's length.
-
-```
-          / \     <-- Clove Hitch on one spar, wraps around both
-         /   \
-        /     \
-       /       \  <-- Spread legs apart (tautens the wraps)
-```
 
 1. **Start:** Lay two spars side-by-side. Tie a **Clove Hitch** around one spar.
 2. **Wrapping (6–8 loose turns):**
@@ -348,13 +265,6 @@ Lashings join wooden spars (timber poles) into rigid structural frameworks—suc
 
 ### E. Tripod Lashing
 *Use:* Joining three spars to construct self-standing tripods for washbasins, pioneering towers, cooking spits, and signal towers.
-
-```
-    Spar 1    Spar 2    Spar 3
-      ||        ||        ||
-      ||========||========||  <-- Alternating Figure-8 weaving
-      ||        ||        ||  <-- 2 sets of frapping turns
-```
 
 1. Lay three spars parallel on the ground, alternating butt ends (e.g., Center butt pointing down, outer butts pointing up, or all butts aligned with small spacers between them).
 2. Tie a **Clove Hitch** to an outside spar.

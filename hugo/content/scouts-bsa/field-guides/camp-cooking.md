@@ -11,21 +11,7 @@ Great camp cooking is the engine of high patrol morale. A well-run patrol kitche
 
 A campsite kitchen must be organized systematically to prevent foodborne illness, avoid cross-contamination, and protect food from wildlife.
 
-```
-                  THE BACKCOUNTRY BEAR TRIANGLE
-                          (200-Foot Separation)
-
-                                [SLEEPING ZONE]
-                                 (Tents & Gear)
-                                     /    \
-                                    /      \
-                                   /        \
-                                  /          \
-                                 /            \
-       [CAMP KITCHEN & STOVES]  /              \  [FOOD STORAGE & SUMP]
-       (Prep table, 3-pot wash) <--------------> (Bear hangs, Ursacks, Gray water)
-                                  200 Feet
-```
+![The Backcountry Bear Triangle](/img/diagrams/bear-triangle.png)
 
 ### The 200-Foot Bear Triangle Rule
 In bear and critter territory, establish three distinct areas separated by at least **200 feet (70 paces)** in a triangular layout:
@@ -62,21 +48,7 @@ Bacteria double every 20 minutes in this temperature range. Never leave perishab
 
 Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks (e.g., *Norovirus*, *Campylobacter*, *E. coli*) that can compromise a trek.
 
-```
-                          THE 3-POT SANITATION METHOD
-                                        
-   [PRE-SCRAPE]       [POT 1: HOT WASH]    [POT 2: HOT RINSE]   [POT 3: SANITIZE]
-+----------------+   +-----------------+  +------------------+  +-----------------+
-| Scrape all     |   | Hot Water       |  | Clean Hot Rinse  |  | Warm/Cold Rinse |
-| food scraps    |-->| 110°F - 120°F   |->| 120°F - 140°F    |->| Sanitizing Tab/ |
-| into trash bag |   | Biodegradable   |  | Clear water to   |  | Bleach or 180°F |
-| (Rubber scraper|   | Soap + Sponge   |  | remove all suds  |  | dip for 30 sec  |
-+----------------+   +-----------------+  +------------------+  +-----------------+
-                                                                         |
-                                                                         v
-                                                                 [AIR DRY IN MESH]
-                                                                 Hang in breeze/sun
-```
+![The BSA 3-Pot Dishwashing Sanitation System](/img/diagrams/three-pot-sanitation.png)
 
 ### Step-by-Step Execution
 
@@ -113,19 +85,7 @@ Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks
 
 A standard cast iron Dutch oven is an outdoor convection oven. The flanged lid holds burning charcoal briquettes, allowing top and bottom heat distribution for roasting, simmering, frying, and baking.
 
-```
-                 DUTCH OVEN ANATOMY & HEAT DISTRIBUTION
-                          
-                     [Charcoal Briquettes on Lid]
-                       o   o   o   o   o   o
-                    +=====================+  <-- Flanged Rim Lid
-                    |                     |
-                    |     [Baking Cavity] |
-                    |                     |
-                    +=====================+
-                       /   |         |   \   <-- Three Integral Legs
-                      o    o         o    o  <-- Charcoal Briquettes on Ground
-```
+![Cast Iron Dutch Oven Anatomy and Heat Distribution](/img/diagrams/dutch-oven-heat-distribution.png)
 
 ### Sizing & Capacity Guide
 
@@ -144,26 +104,12 @@ A standard cast iron Dutch oven is an outdoor convection oven. The flanged lid h
 - **The Fundamental Formula:** Total Briquettes = **$2 \times \text{Diameter of the Oven (in inches)}$**
   - *Example:* A 12-inch Dutch oven requires $2 \times 12 = 24$ total briquettes for a standard $350^\circ\text{F}$ bake.
 
-```
-========================= COOKING MODES MATRIX =========================
-1. BAKING (Breads, Cakes, Cobblers, Biscuits):
-   - Heat Ratio: 2/3 on Lid (Top), 1/3 on Bottom
-   - Formula: Top = Diameter + 3  |  Bottom = Diameter - 3
-   - (For 12" @ 350°F: 15 on Top, 9 on Bottom)
-
-2. ROASTING (Meats, Poultry, Whole Vegetables):
-   - Heat Ratio: 1/2 on Lid (Top), 1/2 on Bottom (Even distribution)
-   - (For 12" @ 350°F: 12 on Top, 12 on Bottom)
-
-3. STEWING / SIMMERING (Chili, Soups, Gumbo):
-   - Heat Ratio: 1/3 on Lid (Top), 2/3 on Bottom
-   - Formula: Top = Diameter - 3  |  Bottom = Diameter + 3
-   - (For 12" @ 350°F: 9 on Top, 15 on Bottom)
-
-4. FRYING / BOILING (Pancakes, Bacon, Boiling Pasta):
-   - Heat Ratio: 100% on Bottom (No coals on lid)
-========================================================================
-```
+| Cooking Mode | Primary Dishes | Heat Ratio (Top / Bottom) | Rule-of-Thumb Formula | 12-Inch @ 350°F Example |
+| :--- | :--- | :--- | :--- | :--- |
+| **Baking** | Breads, Cakes, Cobblers, Biscuits | **2/3 on Lid (Top), 1/3 on Bottom** | Top = $D + 3$ \| Bottom = $D - 3$ | **15 on Top, 9 on Bottom** |
+| **Roasting** | Whole Chicken, Beef Roast, Pork Loin | **1/2 on Lid (Top), 1/2 on Bottom** | Top = $D$ \| Bottom = $D$ | **12 on Top, 12 on Bottom** |
+| **Stewing / Simmering** | Chili, Soups, Gumbo, Beans | **1/3 on Lid (Top), 2/3 on Bottom** | Top = $D - 3$ \| Bottom = $D + 3$ | **9 on Top, 15 on Bottom** |
+| **Frying / Boiling** | Pancakes, Bacon, Pasta Water | **100% on Bottom** (no coals on lid) | All coals under oven base | **24 on Bottom** |
 
 ---
 

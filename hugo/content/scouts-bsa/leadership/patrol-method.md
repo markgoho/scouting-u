@@ -67,19 +67,14 @@ Planning campout meals is a core First Class requirement and the heart of patrol
 
 ### The 3-Week Campout Planning Timeline
 
-```
-  3 WEEKS OUT              2 WEEKS OUT               1 WEEK OUT              CAMPOUT WEEKEND
-┌──────────────┐         ┌──────────────┐         ┌──────────────┐         ┌─────────────────┐
-│ PLC Meeting  │ ──────> │ Patrol Menu  │ ──────> │ Grocery Run  │ ──────> │ Execute Roster  │
-│ Set Theme &  │         │ Planning &   │         │ Grubmaster   │         │ 3-Pot Scullery  │
-│ Schedule     │         │ Headcount    │         │ Checks Food  │         │ Site Teardown   │
-└──────────────┘         └──────────────┘         └──────────────┘         └─────────────────┘
-```
+| Milestone | Target Tasks & Roles | Key Deliverables |
+| :--- | :--- | :--- |
+| **3 Weeks Out (PLC Meeting)** | Patrol Leader attends Patrol Leaders' Council | Receives theme, campout location, activity schedule, and equipment assignments from Senior Patrol Leader. |
+| **2 Weeks Out (Patrol Meeting)** | Complete 3-Meal Menu Plan with patrol members | Confirm attendance headcount, dietary needs/allergies, calculate total food budget, and assign Grubmaster. |
+| **1 Week Out (Troop Meeting)** | Collect grocery funds ($12–$18 per Scout) | Grubmaster receives grocery budget; inspects patrol chuck box (propane, sponges, soap, utensils). |
+| **2 Days Out** | Grubmaster shops for ingredients | Packs dry goods in durable bins; freezes meats to double as cooler ice packs. |
+| **Campout Weekend** | Execute rotating Duty Roster | Cook meals, operate 3-pot scullery line, maintain campsite sanitation, and pack up gear cleanly. |
 
-- **3 Weeks Out (PLC Meeting)**: Patrol Leader receives event theme, schedule, and campsite details from SPL.
-- **2 Weeks Out (Patrol Meeting)**: Complete the 3-Meal Menu Plan. Confirm headcount and dietary needs (allergies, religious restrictions). Calculate budget.
-- **1 Week Out (Troop Meeting)**: Collect food money from attending Scouts ($12–$18 per Scout for a standard weekend). Grubmaster is assigned and given the funds.
-- **2 Days Out**: Grubmaster purchases groceries, packs dry goods in sturdy bins, and freezes meats to double as ice packs.
 - **Friday Departure**: Grubmaster loads cooler into troop trailer with temperature monitoring.
 
 ---
@@ -110,14 +105,7 @@ Outdoor food safety is critical. Improper handling of raw meat or inadequate dis
 
 Every patrol campsite must operate a clean, 3-pot scullery line immediately after every meal:
 
-```
-  ┌──────────────┐         ┌──────────────┐         ┌──────────────┐
-  │  POT 1: WASH │         │ POT 2: RINSE │         │POT 3:SANITIZE│
-  │ Hot Water    │ ──────> │ Clean Hot    │ ──────> │ Boiling Water│
-  │ + Soap       │         │ Clear Water  │         │ or Bleach/Tab│
-  │ (~110°-120°F)│         │ (~120°F)     │         │ (~170°F)     │
-  └──────────────┘         └──────────────┘         └──────────────┘
-```
+![The BSA 3-Pot Dishwashing Sanitation System](/img/diagrams/three-pot-sanitation.png)
 
 1. **Pre-Clean Scraping**: Before dishes enter Pot 1, each Scout uses a rubber spatula or paper napkin to scrape food waste into the trash bag.
 2. **Pot 1 (Hot Wash)**: Hot water mixed with a few drops of biodegradable soap (e.g., CampSuds). Use a scrubber sponge to clean away grease.
@@ -153,6 +141,8 @@ When severe rain, snow, or high winds hit your campout:
 ## 6. Campsite Organization & Zoning
 
 A well-ordered campsite prevents accidents, keeps wild animals away, and ensures fast setup and teardown:
+
+![Patrol Campsite Layout and Safety Zoning Masterplan](/img/diagrams/campsite-zoning-masterplan.png)
 
 1. **The Kitchen Triangle**: Place the food prep table, camp stoves, and 3-pot scullery in a triangle at least 100 feet downwind from tents (in bear country, 200+ feet).
 2. **The Tent City**: Pitch tents in orderly rows or a semi-circle with doorways facing away from prevailing winds. Keep pathways clear of guy lines.

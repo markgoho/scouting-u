@@ -11,18 +11,7 @@ Precision navigation and weather awareness are the core survival skills of the w
 
 Topographic maps represent the three-dimensional shapes of the Earth’s surface on a flat two-dimensional plane using **contour lines**.
 
-```
-                CONTOUR LINES TO TERRAIN CROSS-SECTION
-
-      Map View:                                 Profile View:
-    /-----------\                                     ^ Elevation
-   /   /-----\   \                                60' |     /\
-  |   | ( 60 )|   |                               40' |    /  \
-  |   |  \---/ |  |                               20' |   /    \
-   \   \-----/   /                                 0' +--/------\-->
-    \-----------/                                      [Cross Section]
-   0'   20' 40'  0'
-```
+![Topographic Map Contour Lines and 3D Terrain Profiles](/img/diagrams/topo-contour-profiles.png)
 
 ### USGS 1:24,000 Quadrangle Scale
 The standard United States Geological Survey (USGS) 7.5-minute quadrangle map uses a representative fraction of **1:24,000**:
@@ -41,16 +30,6 @@ The standard United States Geological Survey (USGS) 7.5-minute quadrangle map us
   - *Widely spaced contours:* Flat terrain, broad valleys, gentle meadows.
   - *Closely spaced contours:* Steep hillsides, cliffs, canyons.
   - *Contour lines touching or merging:* Vertical cliff face or escarpment.
-
-```
-========================= TOPOGRAPHIC TERRAIN SIGNATURES =========================
-1. RIDGELINE:   Contour V's or U's pointing DOWNHILL away from the summit.
-2. VALLEY/DRAW: Contour V's pointing UPHILL toward high ground (streams flow inside).
-3. SADDLE (COL):An hourglass low point between two higher elevation peaks.
-4. DEPRESSION:  Closed concentric circles with internal hachure tick marks pointing in.
-5. SPUR:        A prominent lateral projection of high ground extending off a ridge.
-==================================================================================
-```
 
 ---
 
@@ -71,26 +50,7 @@ The UTM grid system divides the globe into 60 zones of 6° longitude each and ov
 
 A standard baseplate (orienteering) compass is a precision navigational instrument.
 
-```
-                      BASEPLATE COMPASS ANATOMY
-                   
-                           [Direction of Travel Arrow]
-                                      ^
-                                      |
-                       +--------------|---------------+
-                       |  [Ruler]     |      [Roamer] |
-                       |              |               |
-                       |       /------------\         |
-                       |      /      N       \        |
-                       |     |   +-------+    |       |
-                       |  W  |   | [RED] |    |  E    | <-- Rotating Bezel
-                       |     |   |   |   |    |       |     (0° - 360°)
-                       |      \  +-------+   /        |
-                       |       \-----S------/         |
-                       |              |               |
-                       |       [Index Line]           |
-                       +------------------------------+
-```
+![Anatomy of an Orienteering Baseplate Compass](/img/diagrams/orienteering-compass-anatomy.png)
 
 ### Key Components
 1. **Baseplate:** Clear acrylic base with straight measuring edges and scales.
@@ -130,29 +90,17 @@ A standard baseplate (orienteering) compass is a precision navigational instrume
 
 **Magnetic Declination** is the angle between **True North** (the geographic North Pole) and **Magnetic North** (where the compass needle points toward the Earth's magnetic core).
 
-```
-         True North (TN / Grid North)
-                   \
-                    \     Magnetic North (MN)
-                     \   /
-                      \ /  <-- Declination Angle (e.g., 14° West)
-                       *
-```
+![Magnetic Declination: True North vs Magnetic North](/img/diagrams/magnetic-declination.png)
 
 ### The Declination Conversion Rules
 
-```
-=================== MAP TO FIELD (Grid to Magnetic) ===================
-  - WEST Declination:  ADD Declination to Map Bearing  (Grid + Declination = Magnetic)
-  - EAST Declination:  SUBTRACT Declination from Map   (Grid - Declination = Magnetic)
-  
-  Mnemonic: "MAP TO FIELD: East is Least (Subtract), West is Best (Add)"
-
-=================== FIELD TO MAP (Magnetic to Grid) ===================
-  - WEST Declination:  SUBTRACT Declination from Field (Magnetic - Declination = Grid)
-  - EAST Declination:  ADD Declination to Field        (Magnetic + Declination = Grid)
-=======================================================================
-```
+- **Map to Field (Grid to Magnetic):**
+  - *West Declination:* **ADD** declination to map bearing (*Grid + Declination = Magnetic*).
+  - *East Declination:* **SUBTRACT** declination from map (*Grid - Declination = Magnetic*).
+  - **Mnemonic:** *"MAP TO FIELD: East is Least (Subtract), West is Best (Add)"*
+- **Field to Map (Magnetic to Grid):**
+  - *West Declination:* **SUBTRACT** declination from field (*Magnetic - Declination = Grid*).
+  - *East Declination:* **ADD** declination to field (*Magnetic + Declination = Grid*).
 
 #### Worked Example:
 - You calculate a grid bearing of **$085^\circ$** on a USGS map in Maine (where declination is **$15^\circ\text{ West}$**).
@@ -200,20 +148,6 @@ Night / darkness navigation  x 1.15                    69 paces / 100m
 ### A. Triangulation / Resection (Finding Your Unknown Position)
 When you are lost on a map but can see two or three identifiable landmarks on the horizon:
 
-```
-     Peak A (Azimuth 040°)            Fire Tower B (Azimuth 130°)
-           \                                   /
-            \                                 /
-             \                               /
-              \  [Back-Azimuth: 220°]       /  [Back-Azimuth: 310°]
-               \                           /
-                \                         /
-                 \                       /
-                  +---------------------+
-                  |   YOU ARE HERE      |  <-- Intersection Point
-                  +---------------------+
-```
-
 1. Shoot a magnetic bearing to **Landmark A** and convert to a Grid Bearing.
 2. Calculate the **Back-Azimuth** (the reverse bearing):
    - *If bearing is $< 180^\circ$:* $\text{Back-Azimuth} = \text{Bearing} + 180^\circ$.
@@ -230,38 +164,12 @@ When navigating toward a specific linear point feature (e.g., a footbridge, trai
 - **The Problem:** If you aim directly at the bridge and reach the creek, you will not know whether the bridge is upstream to your left or downstream to your right.
 - **The Solution:** Deliberately aim **3° to 5° to the right (or left)** of the bridge. When you hit the creek, you know with 100% certainty that the bridge is to your left. Turn left and follow the creek bank directly to the target.
 
-```
-       [Target: Footbridge]
-                |
-     ===========[===]==================  <-- Creek (Linear Feature)
-              /   ^
-             /    | (Did you drift left or right?)
-            /     
-           /  [Aim Off Intentionally to the Right]
-          /
-        (Start Point)
-```
-
 ---
 
 ### C. Boxing an Obstacle (90° Offset Method)
 When an impassable obstacle (swamp, cliff, deep pond) blocks your direct bearing:
 
-```
-                      [IMPASSABLE SWAMP]
-                +----------------------------+
-                |                            |
-  [Turn Left]   |                            |   [Turn Right]
-  90° / 50 paces|                            |   90° / 50 paces
-  <-------------+                            +------------->
-  |                                                        |
-  | (Original Heading: 000°)                               | (Original Heading: 000°)
-  | Pace Count Paused                                      | Resume Pace Count
-  ^                                                        ^
-(Start)                                                 (Destination)
-```
-
-1. Stop at the obstacle edge. Note your pace count.
+1. Stop at the obstacle edge. Note your master pace count.
 2. Turn **90° Left** (or Right) and walk a clear distance (e.g., 50 paces).
 3. Turn **90° Right** (resuming your original compass heading) and walk past the obstacle, counting these forward paces.
 4. Turn **90° Right** and walk the exact same offset distance (**50 paces**).
@@ -275,19 +183,7 @@ Weather in mountainous and backcountry environments changes violently. Knowing h
 
 ### Cloud Classification & Meteorological Significance
 
-```
-High Altitude    CIRRUS (Thin wisps, ice crystals)
-(20,000+ ft)     CIRROSTRATUS (Halo around Sun/Moon -> Warm Front in 12-24 hrs)
----------------------------------------------------------------------------------
-Mid Altitude     ALTOCUMULUS ("Mackerel sky", rolled patches -> Instability)
-(6,500 - 20,000) ALTOSTRATUS (Gray sheet, sun dimly visible -> Approaching rain)
----------------------------------------------------------------------------------
-Low Altitude     STRATUS (Flat low gray ceiling, continuous drizzle)
-(Surface - 6,500)CUMULUS (Fluffy cotton puffs, flat bases -> Fair weather)
----------------------------------------------------------------------------------
-Vertical         CUMULONIMBUS (Thunderhead, dark anvil top -> Severe storms,
-Development      lightning, microbursts, hail, flash flooding)
-```
+![Cloud Classification and Weather Forecasting Chart](/img/diagrams/cloud-types-weather.png)
 
 ---
 

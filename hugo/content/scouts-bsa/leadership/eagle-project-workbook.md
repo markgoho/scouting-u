@@ -35,23 +35,7 @@ There is no minimum number of hours required for an Eagle Scout Service Project.
 
 ## 2. The 8-Phase Eagle Project Roadmap
 
-```
-PHASE 1: Idea & Beneficiary Consultation
-   │
-PHASE 2: Project Proposal & The 4 Approval Signatures
-   │
-PHASE 3: Fundraising Application (if required)
-   │
-PHASE 4: Detailed Final Plan & Safety Analysis
-   │
-PHASE 5: Workday Execution & Hands-on Leadership
-   │
-PHASE 6: Project Report & Beneficiary Completion Sign-off
-   │
-PHASE 7: Eagle Application & Scoutmaster Conference
-   │
-PHASE 8: Eagle Scout Board of Review
-```
+![The 8-Phase Eagle Scout Service Project Lifecycle](/img/diagrams/eagle-project-phases.png)
 
 ---
 

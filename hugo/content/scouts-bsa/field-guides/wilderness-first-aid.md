@@ -17,24 +17,7 @@ Before rushing toward an injured person, stop and evaluate the entire scene. Res
 - **O – Observe:** Determine the mechanism of injury (MOI), number of patients, and available resources.
 - **P – Plan:** Formulate an organized approach, don personal protective equipment (PPE / nitrile gloves), and assign roles to patrol members.
 
-```
-       [SCENE SIZE-UP: Danger? PPE on? Number of Patients?]
-                             |
-                             v
-           [PRIMARY ASSESSMENT (MARCH / ABCDE)]
-           M: Massive Bleeding? ----------> Apply Tourniquet / Direct Pressure
-           A: Airway & C-Spine? ----------> Open Airway (Jaw-thrust if trauma)
-           R: Respiration & Chest? -------> Seal Sucking Chest Wounds
-           C: Circulation & Pulses? ------> Check Radial Pulse & Perfusion
-           H: Hypothermia & Exposure? ----> Insulate from ground immediately
-                             |
-                             v
-                  [SECONDARY ASSESSMENT]
-           - Full Head-to-Toe Physical Exam (DOTS)
-           - Complete Baseline Vital Signs
-           - SAMPLE Medical History
-           - Fill out Wilderness SOAP Note
-```
+![Backcountry Wilderness First Aid Primary Assessment (MARCH PAWS)](/img/diagrams/march-paws-flowchart.png)
 
 ---
 
@@ -55,19 +38,11 @@ In wilderness medicine, catastrophic external bleeding kills faster than an airw
 
 ## 2. Wilderness Evacuation Decision Matrix
 
-```
-                             [EVACUATION DECISION TREE]
-                                          |
-        +---------------------------------+---------------------------------+
-        |                                 |                                 |
-   [CATEGORY A]                      [CATEGORY B]                      [CATEGORY C]
-Immediate Life Threat              Urgent Evacuation                 Non-Urgent / Self-Evac
-(Evacuate ASAP / SAR)              (Evacuate within 6-12 hrs)        (Walk out / Patrol Escort)
-- Uncontrolled Hemorrhage          - Reduced/Splinted Fractures      - Minor closed sprains
-- Core Temp < 90°F or > 104°F      - Persistent AMS (mild)           - 1st-degree small burns
-- Altered Mental Status (GCS < 13) - Progressive Spreading Infection - Controlled mild asthma
-- Severe Chest Pain / Dyspnea      - Dislocations unable to reduce   - Mild altitude headache
-```
+| Category | Urgency Level | Criteria & Clinical Triggers | Action Plan |
+| :--- | :--- | :--- | :--- |
+| **Category A: Immediate Life Threat** | Evacuate ASAP / SAR Emergency | Uncontrolled hemorrhage, core temp <90°F or >104°F, GCS <13, severe chest pain/dyspnea, uncorrectable airway compromise | Activate satellite SOS / 911, establish LZ for helicopter evacuation |
+| **Category B: Urgent Evacuation** | Evacuate within 6–12 Hours | Reduced/splinted fractures, persistent mild AMS, progressive spreading infection, dislocations unable to reduce | Litter carry or coordinated ground SAR evacuation |
+| **Category C: Non-Urgent / Self-Evac** | Walk out / Patrol Escort | Minor closed sprains, small 1st-degree burns, controlled mild asthma, mild altitude headache | Patrol accompanies patient walking out to trailhead |
 
 ### Emergency Backcountry Communication Methods
 - **Cell Phone / SMS:** Dial 911. If voice calls drop due to weak signal, **send an SMS text to 911**. Text packets require only millisecond burst connections to cellular towers.
@@ -205,17 +180,7 @@ Hypothermia occurs when the core body temperature drops below 95°F (35°C).
 | **Moderate** | 82°F – 90°F (28°C – 32°C) | Violent shivering ceases, irrational behavior, apathy, slurred speech, ataxia | Full Hypo Wrap, chemical heat packs to torso, NO active exercise, handle very gently |
 | **Severe** | < 82°F (< 28°C) | Unconscious, barely detectable pulse (< 30 bpm), shallow breathing, rigid muscles | Immediate Hypo Wrap, avoid rough handling (triggers ventricular fibrillation), urgent SAR evac |
 
-```
-                 HYPOTHERMIA "BURRITO WRAP" LAYERS
-========================================================================
-[Top Layer]     Tarp / Plastic Vapor Barrier (Waterproof & Windproof)
-[Mid Layer]     Insulating Sleeping Bag / Down Quilt
-[Core Layer]    Active Heat Packs (Armpits, Groin, Upper Chest - wrapped in cloth)
-[Patient]       Dry Wool/Synthetic Base Layer (Strip all wet clothing!)
-[Under Layer]   Closed-cell Foam Sleeping Pad (Isolates from freezing ground)
-[Base Layer]    Ground Tarp
-========================================================================
-```
+![Hypothermia Hypo-Wrap ('Burrito Wrap') System](/img/diagrams/hypothermia-burrito-wrap.png)
 
 {{< drg/safety-first >}}
 **Preventing Afterdrop:** Never place hot packs directly on cold hands or feet. Warming cold extremities first causes cold, acid-laden peripheral blood to rush back to the heart core, causing a lethal temperature plunge and cardiac arrest ("Afterdrop"). Always warm the **central torso and armpits** first.
@@ -227,20 +192,10 @@ Hypothermia occurs when the core body temperature drops below 95°F (35°C).
 
 Heat stroke is an immediate, life-threatening medical emergency.
 
-```
-       [HEAT EXHAUSTION]                     [HEAT STROKE (LIFE THREAT!)]
-- Core Temp < 104°F (40°C)             - Core Temp > 104°F (40°C)
-- Heavy sweating, pale/cool skin       - Hot, red skin (SWEATING MAY CEASE)
-- Headache, nausea, dizziness          - Altered mental status, delirium, seizures, coma
-- Normal mental status                 - Rapid, bounding pulse transitioning to weak
-
-         TREATMENT:                             TREATMENT:
-1. Rest in shade.                      1. COOL FIRST, TRANSPORT SECOND!
-2. Loosen tight clothing.              2. Rapid ice-water immersion OR continuous
-3. Sip cool electrolyte fluids.           dousing with water while fanning aggressively.
-4. Cool misting and fanning.           3. Place ice packs on neck, armpits, groin.
-                                       4. Cease cooling when core reaches 102°F.
-```
+| Condition | Core Temperature & Signs | Mental Status & Skin | Immediate Action |
+| :--- | :--- | :--- | :--- |
+| **Heat Exhaustion** | Core temp < 104°F (40°C), heavy sweating, headache, nausea | Normal mental status, pale/cool/clammy skin | Rest in shade, loosen tight clothing, sip cool electrolyte fluids, mist and fan |
+| **Heat Stroke (Life Threat!)** | Core temp > 104°F (40°C), hot red skin (sweating may cease) | Altered mental status, delirium, seizures, coma, rapid pulse | **Cool First, Transport Second!** Rapid ice-water immersion or aggressive dousing/fanning, ice packs on neck/armpits/groin, call 911/SAR |
 
 ---
 
