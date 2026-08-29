@@ -1,126 +1,36 @@
 ---
 title: "How to Plan Your Eagle Merit Badges"
-description: "A step-by-step guide to earning all 21 merit badges for Eagle Scout: tackling the 90-day time-lock badges, choosing electives, and using Blue Cards."
+description: "Learn how to plan and pace your 21 merit badges for Eagle Scout on our sister site, Merit Badge University."
 ---
 
-To reach the rank of Eagle Scout, you need to earn at least **21 merit badges**. That includes **14 Eagle-required badges** and **7 elective badges**.
+To earn the rank of Eagle Scout, you need at least **21 merit badges**—including **14 specific Eagle-required badges** and **7 electives**.
 
-Earning 21 badges takes time and planning. If you wait until your last year before turning 18, you can get trapped by badges that take 3 months of daily tracking. Planning ahead helps you earn your badges with confidence and zero panic.
+Because several Eagle-required badges require **90+ days of continuous tracking**, planning your roadmap early is the key to finishing Eagle smoothly without rushing before your 18th birthday.
 
-## The 21 Merit Badges You Need for Eagle
+{{< drg/external-link
+    title="Eagle Scout Merit Badge Strategy & Planning Guide"
+    description="Read the full guide on Merit Badge University with 90-day time-lock planning, choice group breakdowns, Blue Card steps, and rank-by-rank roadmaps."
+    url="https://merit-badge.university/merit-badges/eagle-required/strategy/"
+>}}
 
-Every Eagle Scout earns 14 Eagle-required badges and 7 electives:
+## What You'll Learn in the Full Guide
 
-| Rank You Are Working On | Eagle-Required Badges Needed | Electives Needed | Total Badges for This Rank |
-| :--- | :--- | :--- | :--- |
-| **Star Rank** | 4 Eagle-Required | 2 Electives | **6 Total Badges** |
-| **Life Rank** | 3 more (7 total) | 2 more (4 total) | **11 Total Badges** |
-| **Eagle Scout** | 7 more (14 total) | 3 more (7 total) | **21 Total Badges** |
+Head over to **[Merit Badge University](https://merit-badge.university/merit-badges/eagle-required/strategy/)** to explore:
 
-### The 14 Eagle-Required Badges
+- **The 4 Time-Lock Badges**: How to manage *Personal Management*, *Family Life*, *Personal Fitness*, and *Camping* without missing deadlines.
+- **Choice Group Comparisons**: How to choose between *Lifesaving vs. Emergency Preparedness*, *Environmental Science vs. Sustainability*, and *Swimming vs. Hiking vs. Cycling*.
+- **Rank-by-Rank Roadmap**: Which badges to focus on at each rank from Scout to Life.
+- **The 5-Step Blue Card Workflow**: Step-by-step instructions for getting counselor sign-offs and tracking completions.
+- **Sample Tracker Matrix & Checklist**: Ready-to-use planning templates for your binder.
 
-| Badge | What You Learn | Where Most Scouts Earn It | What Makes It Challenging |
-| :--- | :--- | :--- | :--- |
-| **First Aid** | How to handle serious injuries | Troop meetings or clinics | Hands-on CPR, bandaging, and splinting. |
-| **Citizenship in Society** | Inclusion, leadership, and discussion | Small-group discussions | Thoughtful reflection and group conversations. |
-| **Citizenship in the Community**| Local town government and service | On your own in your hometown | Going to a real city or town council meeting. |
-| **Citizenship in the Nation** | U.S. government and history | School civics class or summer camp | Visiting a federal facility or historic site. |
-| **Citizenship in the World** | World affairs and international trade | Merit badge college or online clinic | Learning about treaties and global issues. |
-| **Communication** | Public speaking and writing | Troop meetings or speech class | Giving a 5-minute speech and running a court of honor. |
-| **Cooking** | Nutrition, camp stoves, Dutch ovens | Troop campouts and home kitchen | Cooking 10 meals across camp, trail, and home. |
-| **Camping** | Wilderness camping and Leave No Trace | Troop campouts over 2+ years | Logging 20 days and 20 nights in tents. |
-| **Personal Fitness** *(Time-Lock)* | Fitness and workout routines | On your own with a counselor | **12-week workout program (3 workouts/week).** |
-| **Family Life** *(Time-Lock)* | Family duties and home projects | At home with your family | **90-day chore log and 2 family meetings.** |
-| **Personal Management** *(Time-Lock)*| Money, budgets, and time | On your own with a counselor | **13-week budget and expense tracking log.** |
-| **Choice 1**: Emerg. Prep *OR* Lifesaving | Disaster response or water rescue | Troop clinic or Summer Camp | Lifesaving requires strong swimming stamina. |
-| **Choice 2**: Env. Science *OR* Sustainability | Ecology experiments or green living | Summer Camp or home research | Env Science requires outdoor nature study plots. |
-| **Choice 3**: Swimming *OR* Hiking *OR* Cycling | Outdoor travel and endurance | Summer camp or weekend trips | Hiking includes a 20-mile hike; Cycling includes 50 miles. |
+{{< drg/external-link
+    title="Open Full Guide on Merit Badge University →"
+    description="Visit merit-badge.university for the complete interactive strategy playbook, requirement breakdowns, and printable worksheets."
+    url="https://merit-badge.university/merit-badges/eagle-required/strategy/"
+>}}
 
-{{< drg/did-you-know >}}
-If you earn more than one badge in a choice group (like earning both *Swimming* and *Hiking*), one counts as Eagle-required and the second automatically counts as an elective badge!
-{{< /drg/did-you-know >}}
+## Related Leadership & Field Guides
 
-## The 4 Badges That Take 90+ Days
-
-These four "time-lock" badges cannot be finished in a single weekend or summer camp week. Their requirements mandate months of continuous tracking:
-
-| Badge | How Long It Takes | What You Must Track | When to Start | Best Advice |
-| :--- | :--- | :--- | :--- | :--- |
-| **Personal Management** | **13 weeks** (Req 2) | Write down every dollar you make and spend | As soon as you reach Star rank | Use a simple notebook or spreadsheet. Log allowances, gifts, and chores every weekend. |
-| **Family Life** | **90 days** (Req 3) | Do your chores daily and lead 2 family meetings | Star rank (at the same time as Personal Mgmt) | Put a chore chart on the fridge. Have a parent initial it weekly so you don't forget. |
-| **Personal Fitness** | **12 weeks** (Reqs 7 & 8) | Baseline test, 3 workouts/week, final test | Life rank (or during a school sports season) | Match this with your track, soccer, cross country, or swim season to make logging easy. |
-| **Camping** | **20 days & nights** (Req 9) | 1 summer camp (max 6 nights) + 14 weekend nights | Start counting from your first campout! | Keep a camp logbook from day one with dates, locations, and weather. |
-
-{{< drg/be-prepared title="Don't Wait Until Age 17.5" >}}
-Every year, Scouts turn 17.5 years old and realize they haven't started Personal Management or Personal Fitness. Because these badges take at least 90 to 100 days to log plus counselor review time, starting them less than 4 months before your 18th birthday puts your Eagle rank at serious risk.
-{{< /drg/be-prepared >}}
-
-## How to Pick Your Choice Badges
-
-For the three option groups, pick the badge that fits your skills, interests, and schedule:
-
-| Choice Group | Option A | Option B | Option C | Recommendation |
-| :--- | :--- | :--- | :--- | :--- |
-| **Group 1: Emergency & Rescue** | **Emergency Preparedness** (Disaster planning, drills, first response) | **Lifesaving** (Water rescues, 10-lb brick dive, towing swimmers) | — | Take *Lifesaving* if you are a strong swimmer at summer camp; otherwise take *Emergency Preparedness*. |
-| **Group 2: Environment & Science** | **Environmental Science** (Nature plots, ecology experiments) | **Sustainability** (Home energy audits, waste reduction) | — | Take *Environmental Science* at summer camp; take *Sustainability* if you prefer working at home. |
-| **Group 3: Outdoor Travel** | **Swimming** (Finished in 1 week at summer camp) | **Hiking** (One 5-mile, three 10-mile, one 15-mile, one 20-mile hike) | **Cycling** (Two 10-mile, two 15-mile, two 25-mile, one 50-mile bike ride) | *Swimming* is by far the fastest. *Hiking* and *Cycling* require great endurance and multiple full days on trails. |
-
-## When to Earn Each Badge (Rank by Rank)
-
-| Your Rank Goal | Eagle Badges to Focus On | Elective Badges to Try | What to Accomplish |
-| :--- | :--- | :--- | :--- |
-| **Scout to First Class** (Ages 11–12) | Learn First Aid skills; earn **Swimming** at summer camp | 1–2 fun electives (e.g. Fishing, Wood Carving) | Master basic outdoor, knot, and camp skills. |
-| **First Class to Star** (Ages 12–14) | **First Aid**, **Citizenship in Society**, **Camping**, **Env. Science** | 2 electives you enjoy (6 total) | Serve 4 months in a troop leadership role; do 6 hours of service. |
-| **Star to Life** (Ages 14–15) | **Citizenship in Community**, **Citizenship in Nation**, **Emerg. Prep/Lifesaving** | 2 electives (11 total) | **Start your 90-day logs for Personal Mgmt, Family Life, or Fitness!** |
-| **Life to Eagle** (Ages 15–17) | Finish the 90-day logs, **Communication**, **Cooking**, **Citizenship in World** | 3 electives (21 total) | Complete your Eagle Project and prepare for your Board of Review. |
-
-## How to Start and Finish a Merit Badge (The Blue Card)
-
-The Blue Card (or its digital Scoutbook record) is your official proof that you earned a badge. Follow these 5 simple steps:
-
-| Step | What You Do | Who Is Involved | Helpful Tip |
-| :--- | :--- | :--- | :--- |
-| **Step 1: Talk to Your Scoutmaster** | Ask for a Blue Card and counselor recommendation | You & Scoutmaster | Make sure you have your Scoutmaster's approval before contacting a counselor. |
-| **Step 2: Contact the Counselor** | Reach out with your buddy to introduce yourself | You, Buddy & Counselor | Confirm you are using the newest badge requirements. |
-| **Step 3: Complete Requirements** | Do the activities, demonstrations, and logs | You & Buddy | Keep neat, dated notes so you can easily show your work. |
-| **Step 4: Review with Counselor** | Show your completed work and get signed off | You, Buddy & Counselor | Make sure the counselor signs all sections of the card. |
-| **Step 5: Turn in Your Card** | Give the signed card to your troop advancement chair | You & Advancement Chair | Keep your signed "Applicant" stub safe in your binder forever! |
-
-{{< drg/safety-first >}}
-**Always Use the Buddy System**:
-Whenever meeting with a Merit Badge Counselor—in person, over Zoom, or by email—you must **always** have a buddy with you. This can be another Scout, a parent, or an adult leader. One-on-one contact with an adult is never allowed under Scouting America Youth Protection rules.
-{{< /drg/safety-first >}}
-
-## Sample Merit Badge Tracker
-
-Keep a chart like this in your binder to stay on track:
-
-| Merit Badge | Eagle-Required? | Counselor Name | Date Started | Current Progress | Target Finish Date | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **First Aid** | Yes | Mr. Davis | Oct 12 | Done with rank first aid | Nov 30 | **Completed** |
-| **Swimming** | Yes | Camp Aquatics Dir | Jul 15 | Passed Swimmer Test | Jul 20 | **Completed** |
-| **Camping** | Yes | Mrs. Jenkins | Jan 10 | 16 of 20 nights logged | Oct 15 | In Progress (80%) |
-| **Personal Mgmt**| Yes | Mr. Vance | Feb 01 | Week 4 of 13 budget log | May 30 | In Progress (30%) |
-| **Family Life** | Yes | Dr. Walker | Feb 01 | Day 25 of 90 chore log | Jun 01 | In Progress (28%) |
-| **Personal Fitness**| Yes | Coach Taylor | Mar 01 | Baseline test finished | Jun 15 | In Progress (10%) |
-| **Robotics** | No (Elective)| Ms. Adams | Sep 05 | Built robot chassis | Dec 12 | **Completed** |
-
-## Eagle Merit Badge Checklist
-
-{{< drg/checklist title="Merit Badge Game Plan Checklist" subtitle="Use these steps to stay ahead on your trail to Eagle" >}}
-- Check your advancement record in Scoutbook with your Troop Advancement Chair.
-- Count your total camping nights to see how close you are to 20 nights for Camping merit badge.
-- Choose which option badges you want to take (Lifesaving vs Emerg Prep; Env Sci vs Sustainability; Swimming vs Hiking vs Cycling).
-- Get a signed Blue Card from your Scoutmaster before starting any new badge.
-- Start your 13-week budget log for Personal Management as a Star Scout.
-- Put up your 90-day chore chart for Family Life.
-- Do your baseline fitness test with your Personal Fitness counselor.
-- Sign up for summer camp badges that need camp gear (like swimming, boating, shooting sports).
-- Put your signed Blue Card stubs in a plastic page protector in your binder.
-{{< /drg/checklist >}}
-
-## Related Guides
-
-- [Eagle Scout Service Project Guide: How to Plan and Lead Your Project](/scouts-bsa/leadership/eagle-project-workbook/)
 - [Patrol Leader Guide: How to Run a Great Patrol](/scouts-bsa/leadership/patrol-method/)
-- [Youth Leadership & Patrol Toolkit Hub](/scouts-bsa/leadership/)
+- [Eagle Scout Service Project Guide: How to Plan and Lead Your Project](/scouts-bsa/leadership/eagle-project-workbook/)
+- [Youth Leadership Hub](/scouts-bsa/leadership/)
