@@ -14,28 +14,59 @@ next_title: "Set a fitness goal"
 After completing Second Class requirement 7a, be physically active at least 30 minutes each day for five days a week for four weeks. Keep track of your activities.
 {{< /drg/requirement >}}
 
-You already ran [this exact four-week standard once for Second Class](/scouts-bsa/ranks/second-class/guide/req7a/). First Class doesn't raise the bar on the numbers — it asks you to prove the habit holds up a second time, with a fresh log.
+As a candidate for First Class, your physical conditioning directly impacts your ability to lead patrol hikes, navigate rugged terrain, manage backcountry campouts, and perform emergency rescues. Requirement 8a reinforces your daily fitness habits by requiring a second four-week activity tracking cycle.
 
-## The Standard
+---
 
-- **30 minutes minimum** per active day — running, biking, swimming, sports practice, or anything that gets your heart rate up counts.
-- **Five days a week**, not necessarily the same five days every week.
-- **Four full weeks in a row.**
+## The Four-Week Standard for First Class
 
-This must start only *after* [Second Class requirement 7a](/scouts-bsa/ranks/second-class/guide/req7a/) is complete — confirm that's finished before you count your first day here.
+To satisfy Requirement 8a, you must fulfill four explicit criteria:
 
-## Keeping Track
+1. **Prerequisite**: This four-week cycle must take place **after completing Second Class Requirement 7a**. (You cannot count the same four weeks for both ranks).
+2. **Daily Minimum**: Be physically active for **at least 30 minutes each day**.
+3. **Weekly Frequency**: Log at least **5 active days per week**.
+4. **Duration**: Maintain this discipline for **four consecutive weeks** (at least 20 logged days and 600 total minutes of activity).
 
-Keep your own daily log of the date, activity, and duration — a simple running list is enough. You'll need this record to reflect honestly in [requirement 8b](/scouts-bsa/ranks/first-class/guide/req8b/), so track it as you go rather than trying to reconstruct four weeks from memory afterward.
+---
 
-{{< drg/checklist title="4-Week Activity Log" subtitle="Track each active day" >}}
+## Elevating Your Fitness for First Class Adventures
 
-- Week 1: five active days logged, each 30+ minutes.
-- Week 2: five active days logged, each 30+ minutes.
-- Week 3: five active days logged, each 30+ minutes.
-- Week 4: five active days logged, each 30+ minutes.
+Because First Class Scouts participate in more demanding wilderness outings—such as multi-mile backpacking trips, extended canoeing expeditions, and pioneering projects—use this second four-week cycle to elevate your physical capabilities:
+
+### 1. Backcountry Aerobic Conditioning
+- **Trail Running & Pack Hikes**: Practice hiking with a weighted daypack (10–15 lbs) over uneven terrain and elevation gains.
+- **Interval Training**: Alternate between fast-paced sprints and steady jogging during runs or bike rides to build cardiovascular recovery efficiency.
+- **Lap Swimming & Water Aerobics**: Swim continuous laps using the crawl, breaststroke, and sidestroke to build upper-body endurance for water rescue skills (Requirement 6e).
+
+### 2. Functional Muscular Strength
+- **Compound Calisthenics**: Push-ups, pull-ups, chin-ups, walking lunges, and bodyweight squats build the muscular strength needed to hoist canoes, haul heavy gear, and construct campsite structures.
+- **Core Stability**: Extended plank holds, flutter kicks, and hanging leg raises stabilize your lower back and improve pack-carrying balance.
+
+### 3. Agility, Coordination, and Team Sports
+- Active participation in organized athletics (soccer, basketball, tennis, martial arts, rowing, cross-country track) builds foot speed, spatial awareness, and team communication.
+
+---
+
+## Maintaining Your First Class Activity Log
+
+Keep a daily log throughout the four weeks that records your exercise sessions. You will use these records in **Requirement 8b** to reflect on your physical growth.
+
+{{< drg/checklist title="First Class 4-Week Activity Log Structure" subtitle="Log 5 active days of 30+ minutes each week" >}}
+- **Week 1**: 5 active days logged (Date, Activity, Duration, Intensity)
+- **Week 2**: 5 active days logged (Date, Activity, Duration, Intensity)
+- **Week 3**: 5 active days logged (Date, Activity, Duration, Intensity)
+- **Week 4**: 5 active days logged (Date, Activity, Duration, Intensity)
 {{< /drg/checklist >}}
 
+### Sample First Class Activity Entry
+| Day / Date | Specific Conditioning Activity | Duration | Heart Rate / Intensity | Outdoor Application |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tue, Nov 3** | 4-mile trail run with hill climbs | 35 min | High | Cardiovascular stamina |
+| **Wed, Nov 4** | Calisthenics: 3x20 push-ups, 3x25 sit-ups, pull-ups | 30 min | Moderate | Upper-body strength |
+| **Fri, Nov 6** | 500-yard lap swimming (freestyle & breaststroke) | 35 min | High | Aquatic rescue readiness |
+| **Sat, Nov 7** | 5-mile patrol mountain bike ride | 60 min | Moderate | Leg power and trail agility |
+| **Sun, Nov 8** | Pack hike with 15 lb daypack + stretching | 45 min | Moderate | Backpacking posture & endurance |
+
 {{< drg/tip >}}
-If your Second Class cycle leaned heavily on one activity, use this cycle to try something different. A varied log makes for a more honest reflection in 8b than four weeks of the exact same routine.
+Use this four-week cycle to test your readiness for Eagle-required merit badges like **Personal Fitness**, **Swimming**, **Hiking**, or **Cycling**.
 {{< /drg/tip >}}

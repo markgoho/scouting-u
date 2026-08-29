@@ -15,26 +15,79 @@ Participate in a school, community, or troop program on the dangers of using dru
 
 {{< /drg/requirement >}}
 
-This requirement has three separate parts, all of which have to happen: attend a real program, talk about it with your family, and connect what you learned back to the Scout Oath and Law with an adult leader.
+Living a healthy, adventurous life requires protecting your body and mind from substances that cause addiction, illness, and injury. This requirement has three distinct milestones: participating in an educational prevention program, discussing substance abuse risks with your family, and reporting to an adult leader on how what you learned connects directly to the Scout Oath and Scout Law.
 
-## Finding a Program
+---
 
-Look for an existing program rather than trying to build one from scratch — many schools run drug and alcohol education as part of health class, and many troops or councils schedule a session specifically for this requirement. Ask your Scoutmaster what your troop has planned, or check with your school counselor about what's already available.
+## Part 1: Participating in an Educational Program
 
-## What the Danger Actually Is
+Attend an approved program that covers the health, legal, and social dangers of drug, alcohol, and tobacco use. Common options include:
+- A school-based health, physical education, or prevention curriculum (such as D.A.R.E. or Red Ribbon Week presentations).
+- A community or youth group seminar led by medical professionals, public health educators, or law enforcement officers.
+- A troop-organized workshop featuring a qualified guest speaker or merit badge counselor for Personal Fitness or Medicine.
 
-Substances like drugs, alcohol, and tobacco can create both a physical dependence, where the body adapts and craves the substance, and a psychological one, where using becomes a coping habit that's hard to break. Addiction changes how the brain processes reward, which is why it's described as a disease rather than simply a bad choice — understanding that distinction matters for how you talk about it with your family.
+---
 
-## The Family Conversation
+## Part 2: Understanding Harmful Substances & Addiction
 
-Bring what you learned home and actually talk about it — not just mention that you attended a program, but discuss what stood out, what surprised you, and why avoiding these substances matters to you.
+To discuss substance abuse intelligently with your family and Scoutmaster, understand how these chemicals affect the human body and brain:
 
-## Connecting It to Scout Values
+### 1. Tobacco, Nicotine, and Vaping
+- **Nicotine**: A highly addictive stimulant chemical found in tobacco leaves and e-cigarette liquids. It increases heart rate and blood pressure while rapidly rewiring the brain to demand constant intake.
+- **E-Cigarettes & Vaping Devices**: Electronic nicotine delivery systems (vapes, pods, e-pens) heat flavored e-liquids into an aerosol containing nicotine, heavy metals (lead, nickel), and toxic chemical solvents. Inhaling these vapors damages lung tissue and causes severe respiratory illness.
+- **Long-Term Health Risks**: Traditional tobacco (cigarettes, cigars, spit tobacco) contains thousands of carcinogens, leading to lung cancer, oral cancer, chronic obstructive pulmonary disease (COPD/emphysema), and heart attacks.
+- **Scouting America Policy**: All tobacco products, electronic cigarettes, and vaporizers are strictly prohibited on all Scouting activities involving youth participants.
 
-Report to your Scoutmaster or another adult leader on which parts of the Scout Oath and Law relate to what you learned. A few natural connections:
+### 2. Alcohol
+- **Biological Impact**: Alcohol is a central nervous system depressant. It interferes with brain neurotransmitters (such as glutamate and serotonin), slowing reaction times, clouding judgment, impairing motor coordination, and causing memory blackouts.
+- **Adolescent Vulnerability**: Because the human brain continues developing until approximately age 25, alcohol consumption during teenage years permanently alters cognitive architecture and significantly increases the lifetime risk of alcoholism.
+- **Impaired Driving Hazard**: Alcohol is a leading cause of fatal automobile crashes among teenagers and young adults. **Safety rule**: Never ride in a vehicle operated by someone who has been drinking. Maintain an agreed-upon emergency plan with your parents to call for a safe ride home anytime.
 
-- **"To keep myself physically strong, mentally awake, and morally straight"** (Scout Oath) — directly opposed to what substance use does to the body and mind.
-- **Clean** — living free of substances that could harm your health.
-- **Trustworthy** — being honest with yourself and others about risk and pressure.
+### 3. Illicit Drugs and Prescription Drug Misuse
+- **Illegal Narcotics**: Drugs such as methamphetamine, cocaine, heroin, LSD, ecstasy, and inhalants hijack the brain's dopamine reward pathway, causing rapid physical destruction, paranoia, organ failure, and lethal overdose.
+- **Prescription Drug Misuse**: Medications (such as opioid pain relievers, prescription stimulants, or sedatives) are formulated for a specific individual under strict medical supervision. Taking someone else's medication, taking larger doses, or using prescriptions for non-medical reasons is illegal and extremely dangerous.
 
-Pick the connections that feel genuine to you rather than reciting a list — this conversation works best when it's your own reasoning, not a memorized answer.
+### 4. The Mechanics of Addiction
+- **Physical Dependence (Tolerance & Withdrawal)**: Over repeated use, the body adapts to the substance. The user requires progressively higher doses to achieve the same effect (tolerance) and experiences painful physical sickness (nausea, tremors, severe anxiety) when the drug leaves their system (withdrawal).
+- **Psychological Addiction**: The brain develops an overwhelming emotional craving and compulsion to obtain the drug, leading individuals to neglect family, friendships, school, and their own survival.
+
+---
+
+## Part 3: Practicing Refusal Skills Under Peer Pressure
+
+When faced with peer pressure to experiment with tobacco, vaping, alcohol, or drugs, remember these core refusal strategies:
+1. **Clear and Direct "No"**: Look the person in the eye and say "No, thanks" with confidence.
+2. **Offer a Healthy Alternative**: "I'm heading over to the basketball court / bike trail—let's go shoot hoops instead."
+3. **Use a Pre-Planned Exit Reason**: "I have an early track meet / Scout hike tomorrow morning and need to stay sharp."
+4. **Remove Yourself from the Situation**: If pressure persists, walk away and join friends who respect your healthy choices.
+
+---
+
+## Part 4: The Family Discussion
+
+Sit down with your parents or guardians to review what you learned in your program:
+- Share surprising facts or statistics that made an impression on you.
+- Discuss family history and expectations regarding tobacco, alcohol, and drug prevention.
+- Reconfirm an open, trusted plan for what to do if you ever find yourself at a party or in a car where substances are present.
+
+---
+
+## Part 5: Connecting to the Scout Oath and Scout Law
+
+Report to your Scoutmaster or designated adult leader on how avoiding substance abuse directly fulfills your Scout promises:
+
+- **The Scout Oath**:
+  - *"To keep myself physically strong"*: Substances damage internal organs, weaken heart and lung capacity, and destroy athletic conditioning.
+  - *"Mentally awake"*: Drugs and alcohol cloud judgment, impair decision-making, and destroy memory.
+  - *"Morally straight"*: Maintaining personal integrity means having the character to obey laws and make ethical choices even when no one is watching.
+- **The Scout Law**:
+  - **Clean**: Keeping your body, mind, and personal habits free from destructive substances.
+  - **Trustworthy**: Keeping the trust your parents, leaders, and patrol members place in you.
+  - **Brave**: Having the moral courage to stand up to peer pressure and say "no," even when popular crowds urge you to follow along.
+
+{{< drg/be-prepared title="The Four Pillars of Clean Living" >}}
+1. **Educate**: Understand the biological and legal consequences of harmful substances.
+2. **Communicate**: Maintain open, honest conversations with your family and trusted adults.
+3. **Decide in Advance**: Make your decision to stay substance-free *before* you are ever confronted with peer pressure.
+4. **Live the Oath**: Take pride in keeping your body strong, your mind sharp, and your character clean.
+{{< /drg/be-prepared >}}
