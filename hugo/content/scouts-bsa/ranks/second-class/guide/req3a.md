@@ -2,10 +2,10 @@
 title: "Orient map with compass"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 3"
+group_title: "3. Navigation"
 req_number: "3a"
-prev: "/scouts-bsa/ranks/second-class/guide/req3/"
-prev_title: "Navigation"
+prev: "/scouts-bsa/ranks/second-class/guide/req2g/"
+prev_title: "Demonstrate bowline knot"
 next: "/scouts-bsa/ranks/second-class/guide/req3b/"
 next_title: "Hike 5 miles"
 ---

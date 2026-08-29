@@ -2,12 +2,12 @@
 title: "Explain camping impacts"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1b"
 prev: "/scouts-bsa/ranks/first-class/guide/req1a/"
 prev_title: "Participate in 10 activities"
-next: "/scouts-bsa/ranks/first-class/guide/req2/"
-next_title: "Cooking"
+next: "/scouts-bsa/ranks/first-class/guide/req2a/"
+next_title: "Plan campout menu"
 ---
 
 {{< drg/requirement number="1b" text_format="html" >}}

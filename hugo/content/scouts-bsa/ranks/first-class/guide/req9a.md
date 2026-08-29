@@ -2,10 +2,10 @@
 title: "Discuss citizen rights and duties"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 9"
+group_title: "9. Citizenship"
 req_number: "9a"
-prev: "/scouts-bsa/ranks/first-class/guide/req9/"
-prev_title: "Citizenship"
+prev: "/scouts-bsa/ranks/first-class/guide/req8b/"
+prev_title: "Set a fitness goal"
 next: "/scouts-bsa/ranks/first-class/guide/req9b/"
 next_title: "Investigate environmental issue"
 ---

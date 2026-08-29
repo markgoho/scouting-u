@@ -2,7 +2,7 @@
 title: "Prevent outdoor injuries"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 6"
+group_title: "6. First Aid and Emergency Preparedness"
 req_number: "6c"
 prev: "/scouts-bsa/ranks/second-class/guide/req6b/"
 prev_title: "Treat hurry cases"

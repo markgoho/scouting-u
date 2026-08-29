@@ -2,12 +2,12 @@
 title: "Demonstrate bowline knot"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Tools"
 req_number: "2g"
 prev: "/scouts-bsa/ranks/second-class/guide/req2f/"
 prev_title: "Demonstrate sheet bend knot"
-next: "/scouts-bsa/ranks/second-class/guide/req3/"
-next_title: "Navigation"
+next: "/scouts-bsa/ranks/second-class/guide/req3a/"
+next_title: "Orient map with compass"
 ---
 
 {{< drg/requirement number="2g" text_format="html" >}}

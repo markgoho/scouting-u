@@ -5,8 +5,6 @@ rank_slug: "second-class"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/second-class/guide/req12/"
 prev_title: "Complete board of review"
-next: "/scouts-bsa/ranks/second-class/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations!

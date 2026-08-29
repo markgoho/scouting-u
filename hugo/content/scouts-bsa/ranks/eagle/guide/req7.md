@@ -2,7 +2,7 @@
 title: "Complete board of review"
 layout: "guide"
 rank_slug: "eagle"
-group_title: "Requirement 7"
+group_title: "Advancement & Review"
 req_number: "7"
 prev: "/scouts-bsa/ranks/eagle/guide/req6/"
 prev_title: "Complete Scoutmaster conference"

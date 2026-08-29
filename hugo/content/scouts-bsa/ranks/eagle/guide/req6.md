@@ -2,7 +2,7 @@
 title: "Complete Scoutmaster conference"
 layout: "guide"
 rank_slug: "eagle"
-group_title: "Requirement 6"
+group_title: "Advancement & Review"
 req_number: "6"
 prev: "/scouts-bsa/ranks/eagle/guide/req5/"
 prev_title: "Lead Eagle service project"

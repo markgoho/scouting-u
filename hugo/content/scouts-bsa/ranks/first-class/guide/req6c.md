@@ -2,7 +2,7 @@
 title: "Identify boat and paddle parts"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 6"
+group_title: "6. Aquatics"
 req_number: "6c"
 prev: "/scouts-bsa/ranks/first-class/guide/req6b/"
 prev_title: "Explain safe trip afloat"

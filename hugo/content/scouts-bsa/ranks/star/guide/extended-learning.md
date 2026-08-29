@@ -5,8 +5,6 @@ rank_slug: "star"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/star/guide/req8/"
 prev_title: "Complete board of review"
-next: "/scouts-bsa/ranks/star/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations on Earning Star Scout!

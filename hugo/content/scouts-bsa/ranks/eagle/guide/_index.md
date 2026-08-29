@@ -17,33 +17,21 @@ guide_nav:
     items:
       - title: "Introduction & Overview"
         url: "/scouts-bsa/ranks/eagle/guide/"
-  - group_title: "Requirement 1"
+  - group_title: "Advancement & Review"
     items:
-      - title: "Be active 6 months"
+      - title: "1. Be active 6 months"
         url: "/scouts-bsa/ranks/eagle/guide/req1/"
-  - group_title: "Requirement 2"
-    items:
-      - title: "Demonstrate Scout spirit"
+      - title: "2. Demonstrate Scout spirit"
         url: "/scouts-bsa/ranks/eagle/guide/req2/"
-  - group_title: "Requirement 3"
-    items:
-      - title: "Earn 21 merit badges"
+      - title: "3. Earn 21 merit badges"
         url: "/scouts-bsa/ranks/eagle/guide/req3/"
-  - group_title: "Requirement 4"
-    items:
-      - title: "Serve in position of responsibility"
+      - title: "4. Serve in position of responsibility"
         url: "/scouts-bsa/ranks/eagle/guide/req4/"
-  - group_title: "Requirement 5"
-    items:
-      - title: "Lead Eagle service project"
+      - title: "5. Lead Eagle service project"
         url: "/scouts-bsa/ranks/eagle/guide/req5/"
-  - group_title: "Requirement 6"
-    items:
-      - title: "Complete Scoutmaster conference"
+      - title: "6. Complete Scoutmaster conference"
         url: "/scouts-bsa/ranks/eagle/guide/req6/"
-  - group_title: "Requirement 7"
-    items:
-      - title: "Complete board of review"
+      - title: "7. Complete board of review"
         url: "/scouts-bsa/ranks/eagle/guide/req7/"
   - group_title: "Beyond the Rank"
     items:

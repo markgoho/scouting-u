@@ -2,7 +2,7 @@
 title: "Be active 4 months"
 layout: "guide"
 rank_slug: "star"
-group_title: "Requirement 1"
+group_title: ""
 req_number: "1"
 prev: "/scouts-bsa/ranks/star/guide/"
 prev_title: "Introduction & Overview"

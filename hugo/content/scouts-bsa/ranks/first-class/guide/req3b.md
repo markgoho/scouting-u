@@ -2,7 +2,7 @@
 title: "Tie timber and clove hitch"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3b"
 prev: "/scouts-bsa/ranks/first-class/guide/req3a/"
 prev_title: "Discuss lashing uses"

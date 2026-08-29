@@ -2,7 +2,7 @@
 title: "Complete Scoutmaster conference"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 10"
+group_title: "Advancement & Review"
 req_number: "10"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req9/"
 prev_title: "Demonstrate Scout spirit"

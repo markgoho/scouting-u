@@ -2,7 +2,7 @@
 title: "Explain emergency response"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 6"
+group_title: "6. First Aid and Emergency Preparedness"
 req_number: "6d"
 prev: "/scouts-bsa/ranks/second-class/guide/req6c/"
 prev_title: "Prevent outdoor injuries"

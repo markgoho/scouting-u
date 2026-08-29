@@ -2,12 +2,12 @@
 title: "Describe merit badges"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 2"
+group_title: "2. Scouting Program"
 req_number: "2d"
 prev: "/scouts-bsa/ranks/scout/guide/req2c/"
 prev_title: "Describe Scouts BSA ranks"
-next: "/scouts-bsa/ranks/scout/guide/req3/"
-next_title: "Patrol Method"
+next: "/scouts-bsa/ranks/scout/guide/req3a/"
+next_title: "Explain patrol method and types"
 ---
 
 {{< drg/requirement number="2d" text_format="html" >}}

@@ -2,7 +2,7 @@
 title: "Investigate environmental issue"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 9"
+group_title: "9. Citizenship"
 req_number: "9b"
 prev: "/scouts-bsa/ranks/first-class/guide/req9a/"
 prev_title: "Discuss citizen rights and duties"

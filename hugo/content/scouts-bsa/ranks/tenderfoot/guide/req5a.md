@@ -2,10 +2,10 @@
 title: "Use buddy system"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 5"
+group_title: "5. Hiking"
 req_number: "5a"
-prev: "/scouts-bsa/ranks/tenderfoot/guide/req5/"
-prev_title: "Hiking"
+prev: "/scouts-bsa/ranks/tenderfoot/guide/req4d/"
+prev_title: "Assemble first-aid kit"
 next: "/scouts-bsa/ranks/tenderfoot/guide/req5b/"
 next_title: "Explain what to do if lost"
 ---

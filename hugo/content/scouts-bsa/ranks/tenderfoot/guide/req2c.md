@@ -2,12 +2,12 @@
 title: "Explain patrol meal importance"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Meal Preparation"
 req_number: "2c"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req2b/"
 prev_title: "Clean cooking and eating gear"
-next: "/scouts-bsa/ranks/tenderfoot/guide/req3/"
-next_title: "Tools"
+next: "/scouts-bsa/ranks/tenderfoot/guide/req3a/"
+next_title: "Demonstrate square knot"
 ---
 
 {{< drg/requirement number="2c" text_format="html" >}}

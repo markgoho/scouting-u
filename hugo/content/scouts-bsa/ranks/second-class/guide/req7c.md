@@ -2,12 +2,12 @@
 title: "Learn substance abuse dangers"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 7"
+group_title: "7. Fitness"
 req_number: "7c"
 prev: "/scouts-bsa/ranks/second-class/guide/req7b/"
 prev_title: "Set a fitness goal"
-next: "/scouts-bsa/ranks/second-class/guide/req8/"
-next_title: "Citizenship"
+next: "/scouts-bsa/ranks/second-class/guide/req8a/"
+next_title: "Participate in flag ceremony"
 ---
 
 {{< drg/requirement number="7c" text_format="html" >}}

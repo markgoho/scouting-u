@@ -2,12 +2,12 @@
 title: "Show line rescue"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 6"
+group_title: "6. Aquatics"
 req_number: "6e"
 prev: "/scouts-bsa/ranks/first-class/guide/req6d/"
 prev_title: "Describe boat body position"
-next: "/scouts-bsa/ranks/first-class/guide/req7/"
-next_title: "First Aid and Emergency Preparedness"
+next: "/scouts-bsa/ranks/first-class/guide/req7a/"
+next_title: "Apply bandages"
 ---
 
 {{< drg/requirement number="6e" text_format="html" >}}

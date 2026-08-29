@@ -2,10 +2,10 @@
 title: "Complete child protection exercises"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 6"
+group_title: "6. Personal Protection"
 req_number: "6a"
-prev: "/scouts-bsa/ranks/scout/guide/req6/"
-prev_title: "Personal Protection"
+prev: "/scouts-bsa/ranks/scout/guide/req5/"
+prev_title: "Explain pocketknife safety"
 next: "/scouts-bsa/ranks/scout/guide/req6b/"
 next_title: "View Personal Safety Awareness videos"
 ---

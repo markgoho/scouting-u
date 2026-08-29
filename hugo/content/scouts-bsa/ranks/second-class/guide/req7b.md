@@ -2,7 +2,7 @@
 title: "Set a fitness goal"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 7"
+group_title: "7. Fitness"
 req_number: "7b"
 prev: "/scouts-bsa/ranks/second-class/guide/req7a/"
 prev_title: "Be physically active 4 weeks"

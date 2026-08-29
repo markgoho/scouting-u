@@ -127,9 +127,12 @@ function collectAllRequirementPaths({
 }): string[] {
   const paths: string[] = [];
   const visit = (requirement: RankRequirement): void => {
-    paths.push(requirement.path);
-    for (const child of requirement.children ?? []) {
-      visit(child);
+    if (requirement.children && requirement.children.length > 0) {
+      for (const child of requirement.children) {
+        visit(child);
+      }
+    } else {
+      paths.push(requirement.path);
     }
   };
   for (const requirement of rank.requirements) {

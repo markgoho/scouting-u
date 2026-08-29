@@ -5,8 +5,6 @@ rank_slug: "tenderfoot"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req11/"
 prev_title: "Complete board of review"
-next: "/scouts-bsa/ranks/tenderfoot/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations!

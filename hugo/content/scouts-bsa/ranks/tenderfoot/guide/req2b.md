@@ -2,7 +2,7 @@
 title: "Clean cooking and eating gear"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 2"
+group_title: "2. Cooking and Meal Preparation"
 req_number: "2b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req2a/"
 prev_title: "Help cook a meal"

@@ -2,7 +2,7 @@
 title: "Pass BSA beginner test"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 5"
+group_title: "5. Aquatics"
 req_number: "5b"
 prev: "/scouts-bsa/ranks/second-class/guide/req5a/"
 prev_title: "Explain safe swim precautions"

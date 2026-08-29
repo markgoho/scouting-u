@@ -2,7 +2,7 @@
 title: "Demonstrate two half-hitches"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req3a/"
 prev_title: "Demonstrate square knot"

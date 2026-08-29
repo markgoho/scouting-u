@@ -17,37 +17,23 @@ guide_nav:
     items:
       - title: "Introduction & Overview"
         url: "/scouts-bsa/ranks/life/guide/"
-  - group_title: "Requirement 1"
+  - group_title: "Advancement & Review"
     items:
-      - title: "Be active 6 months"
+      - title: "1. Be active 6 months"
         url: "/scouts-bsa/ranks/life/guide/req1/"
-  - group_title: "Requirement 2"
-    items:
-      - title: "Demonstrate Scout spirit"
+      - title: "2. Demonstrate Scout spirit"
         url: "/scouts-bsa/ranks/life/guide/req2/"
-  - group_title: "Requirement 3"
-    items:
-      - title: "Earn 5 more merit badges"
+      - title: "3. Earn 5 more merit badges"
         url: "/scouts-bsa/ranks/life/guide/req3/"
-  - group_title: "Requirement 4"
-    items:
-      - title: "Complete 6 hours of service"
+      - title: "4. Complete 6 hours of service"
         url: "/scouts-bsa/ranks/life/guide/req4/"
-  - group_title: "Requirement 5"
-    items:
-      - title: "Serve in position of responsibility"
+      - title: "5. Serve in position of responsibility"
         url: "/scouts-bsa/ranks/life/guide/req5/"
-  - group_title: "Requirement 6"
-    items:
-      - title: "Teach a Scout using EDGE"
+      - title: "6. Teach a Scout using EDGE"
         url: "/scouts-bsa/ranks/life/guide/req6/"
-  - group_title: "Requirement 7"
-    items:
-      - title: "Complete Scoutmaster conference"
+      - title: "7. Complete Scoutmaster conference"
         url: "/scouts-bsa/ranks/life/guide/req7/"
-  - group_title: "Requirement 8"
-    items:
-      - title: "Complete board of review"
+      - title: "8. Complete board of review"
         url: "/scouts-bsa/ranks/life/guide/req8/"
   - group_title: "Beyond the Rank"
     items:

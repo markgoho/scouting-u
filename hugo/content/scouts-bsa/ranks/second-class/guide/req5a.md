@@ -2,10 +2,10 @@
 title: "Explain safe swim precautions"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 5"
+group_title: "5. Aquatics"
 req_number: "5a"
-prev: "/scouts-bsa/ranks/second-class/guide/req5/"
-prev_title: "Aquatics"
+prev: "/scouts-bsa/ranks/second-class/guide/req4/"
+prev_title: "Identify 10 wild animals"
 next: "/scouts-bsa/ranks/second-class/guide/req5b/"
 next_title: "Pass BSA beginner test"
 ---

@@ -2,7 +2,7 @@
 title: "Describe First Class badge"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 1"
+group_title: "1. Scout Spirit and Basics"
 req_number: "1d"
 prev: "/scouts-bsa/ranks/scout/guide/req1c/"
 prev_title: "Demonstrate Scout sign, salute, handshake"

@@ -2,7 +2,7 @@
 title: "Describe bullying response"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 9"
+group_title: "9. Personal Safety Awareness"
 req_number: "9b"
 prev: "/scouts-bsa/ranks/second-class/guide/req9a/"
 prev_title: "Explain 3 R's of safety"

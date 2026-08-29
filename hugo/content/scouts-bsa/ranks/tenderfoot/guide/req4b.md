@@ -2,7 +2,7 @@
 title: "Identify hazardous plants"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 4"
+group_title: "4. First Aid and Nature"
 req_number: "4b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req4a/"
 prev_title: "Show basic first aid"

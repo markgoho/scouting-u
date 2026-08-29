@@ -30,18 +30,18 @@ files and resume from their current state (see Resume Behavior below).
 
 ## What the scaffold already decided — do not re-litigate
 
-- **Page granularity.** Every top-level requirement with children — however
-  few — gets an overview page plus one dedicated page per child; there is no
-  combined-page threshold. A requirement with no children is a plain leaf
+- **Page granularity.** Requirements with children get one dedicated page per
+  child under a subsection named after the parent requirement stem; there are
+  no parent overview pages. A requirement with no children is a plain leaf
   page. This is already built into the generated file tree — keep it unless
   there's a deliberate editorial reason to merge pages, and if you do,
   update `guide_nav` and every `prev`/`next` link consistently.
-- **Titles.** Every `title` and `guide_nav` entry is the requirement's
-  curated `short` field (ADR 0011) — never invent or rewrite one. If a
-  `short` reads badly as a page title, that's a signal to fix the rank
-  JSON label per ADR 0011's own convention (Title Case noun phrases for
-  group stems, sentence-case verb-first imperatives for leaves), not to
-  write around it here.
+- **Titles.** Every `title` and `guide_nav` entry is formatted with the dotted
+  requirement path followed by the requirement's curated `short` field
+  (e.g., `1.a Participate in 10 activities`, `10. Invite someone to Scouting`)
+  — never invent or rewrite one. If a `short` reads badly as a label, that's a
+  signal to fix the rank JSON label per ADR 0011's convention, not to write
+  around it here.
 - **Every child page uses `drg/requirement`, never `drg/inherited-requirement`.**
   Every requirement with children now gets one dedicated page per child
   (see Page granularity above), and a dedicated child page's lead quote

@@ -2,10 +2,10 @@
 title: "Explain patrol method and types"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 3"
+group_title: "3. Patrol Method"
 req_number: "3a"
-prev: "/scouts-bsa/ranks/scout/guide/req3/"
-prev_title: "Patrol Method"
+prev: "/scouts-bsa/ranks/scout/guide/req2d/"
+prev_title: "Describe merit badges"
 next: "/scouts-bsa/ranks/scout/guide/req3b/"
 next_title: "Explain patrol spirit"
 ---

@@ -2,12 +2,12 @@
 title: "Explain emergency water sourcing"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 7"
+group_title: "7. First Aid and Emergency Preparedness"
 req_number: "7f"
 prev: "/scouts-bsa/ranks/first-class/guide/req7e/"
 prev_title: "Develop home emergency plan"
-next: "/scouts-bsa/ranks/first-class/guide/req8/"
-next_title: "Fitness"
+next: "/scouts-bsa/ranks/first-class/guide/req8a/"
+next_title: "Be physically active 4 weeks"
 ---
 
 {{< drg/requirement number="7f" text_format="html" >}}

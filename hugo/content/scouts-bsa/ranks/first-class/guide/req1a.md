@@ -2,10 +2,10 @@
 title: "Participate in 10 activities"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1a"
-prev: "/scouts-bsa/ranks/first-class/guide/req1/"
-prev_title: "Camping and Outdoor Ethics"
+prev: "/scouts-bsa/ranks/first-class/guide/"
+prev_title: "Introduction & Overview"
 next: "/scouts-bsa/ranks/first-class/guide/req1b/"
 next_title: "Explain camping impacts"
 ---

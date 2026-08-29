@@ -2,12 +2,12 @@
 title: "Explain outdoor ethics"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 1"
+group_title: "1. Camping and Outdoor Ethics"
 req_number: "1c"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req1b/"
 prev_title: "Sleep in a tent you pitch"
-next: "/scouts-bsa/ranks/tenderfoot/guide/req2/"
-next_title: "Cooking and Meal Preparation"
+next: "/scouts-bsa/ranks/tenderfoot/guide/req2a/"
+next_title: "Help cook a meal"
 ---
 
 {{< drg/requirement number="1c" text_format="html" >}}

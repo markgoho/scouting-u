@@ -2,7 +2,7 @@
 title: "Complete 6 hours of service"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 4"
+group_title: ""
 req_number: "4"
 prev: "/scouts-bsa/ranks/life/guide/req3/"
 prev_title: "Earn 5 more merit badges"

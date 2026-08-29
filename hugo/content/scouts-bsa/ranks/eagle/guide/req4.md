@@ -2,7 +2,7 @@
 title: "Serve in position of responsibility"
 layout: "guide"
 rank_slug: "eagle"
-group_title: "Requirement 4"
+group_title: ""
 req_number: "4"
 prev: "/scouts-bsa/ranks/eagle/guide/req3/"
 prev_title: "Earn 21 merit badges"

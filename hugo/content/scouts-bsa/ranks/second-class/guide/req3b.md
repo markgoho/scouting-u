@@ -2,7 +2,7 @@
 title: "Hike 5 miles"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 3"
+group_title: "3. Navigation"
 req_number: "3b"
 prev: "/scouts-bsa/ranks/second-class/guide/req3a/"
 prev_title: "Orient map with compass"

@@ -2,10 +2,10 @@
 title: "Explain 3 R's of safety"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 9"
+group_title: "9. Personal Safety Awareness"
 req_number: "9a"
-prev: "/scouts-bsa/ranks/second-class/guide/req9/"
-prev_title: "Personal Safety Awareness"
+prev: "/scouts-bsa/ranks/second-class/guide/req8e/"
+prev_title: "Complete 2 hours of service"
 next: "/scouts-bsa/ranks/second-class/guide/req9b/"
 next_title: "Describe bullying response"
 ---

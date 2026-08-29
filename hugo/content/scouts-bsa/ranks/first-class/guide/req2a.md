@@ -2,10 +2,10 @@
 title: "Plan campout menu"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking"
 req_number: "2a"
-prev: "/scouts-bsa/ranks/first-class/guide/req2/"
-prev_title: "Cooking"
+prev: "/scouts-bsa/ranks/first-class/guide/req1b/"
+prev_title: "Explain camping impacts"
 next: "/scouts-bsa/ranks/first-class/guide/req2b/"
 next_title: "Develop menu budget"
 ---

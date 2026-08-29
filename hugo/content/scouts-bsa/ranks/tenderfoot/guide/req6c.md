@@ -2,12 +2,12 @@
 title: "Show fitness improvement"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 6"
+group_title: "6. Fitness"
 req_number: "6c"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req6b/"
 prev_title: "Develop improvement plan"
-next: "/scouts-bsa/ranks/tenderfoot/guide/req7/"
-next_title: "Citizenship"
+next: "/scouts-bsa/ranks/tenderfoot/guide/req7a/"
+next_title: "Demonstrate American flag etiquette"
 ---
 
 {{< drg/requirement number="6c" >}}

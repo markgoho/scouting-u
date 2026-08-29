@@ -2,7 +2,7 @@
 title: "Whip and fuse rope ends"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 4"
+group_title: "4. Knots and Ropework"
 req_number: "4b"
 prev: "/scouts-bsa/ranks/scout/guide/req4a/"
 prev_title: "Tie 3 basic knots"

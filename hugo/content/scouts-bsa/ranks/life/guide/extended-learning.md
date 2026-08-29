@@ -5,8 +5,6 @@ rank_slug: "life"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/life/guide/req8/"
 prev_title: "Complete board of review"
-next: "/scouts-bsa/ranks/life/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations on Achieving Life Scout!

@@ -2,10 +2,10 @@
 title: "Complete child protection exercises"
 layout: "guide"
 rank_slug: "star"
-group_title: "Requirement 6"
+group_title: "6. Personal Protection"
 req_number: "6a"
-prev: "/scouts-bsa/ranks/star/guide/req6/"
-prev_title: "Personal Protection"
+prev: "/scouts-bsa/ranks/star/guide/req5/"
+prev_title: "Serve in position of responsibility"
 next: "/scouts-bsa/ranks/star/guide/req6b/"
 next_title: "View Personal Safety Awareness videos"
 ---

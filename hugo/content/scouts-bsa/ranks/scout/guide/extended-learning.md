@@ -5,8 +5,6 @@ rank_slug: "scout"
 group_title: "Beyond the Rank"
 prev: "/scouts-bsa/ranks/scout/guide/req7/"
 prev_title: "Complete Scoutmaster conference"
-next: "/scouts-bsa/ranks/scout/guide/print/"
-next_title: "Complete Digital Requirements Guide"
 ---
 
 ## Congratulations!

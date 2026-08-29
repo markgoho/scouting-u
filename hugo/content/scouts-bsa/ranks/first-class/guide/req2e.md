@@ -2,12 +2,12 @@
 title: "Serve as campout cook"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 2"
+group_title: "2. Cooking"
 req_number: "2e"
 prev: "/scouts-bsa/ranks/first-class/guide/req2d/"
 prev_title: "Handle food safely"
-next: "/scouts-bsa/ranks/first-class/guide/req3/"
-next_title: "Tools"
+next: "/scouts-bsa/ranks/first-class/guide/req3a/"
+next_title: "Discuss lashing uses"
 ---
 
 {{< drg/requirement number="2e" text_format="html" >}}

@@ -2,7 +2,7 @@
 title: "Complete 1 hour of service"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 7"
+group_title: "7. Citizenship"
 req_number: "7b"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req7a/"
 prev_title: "Demonstrate American flag etiquette"

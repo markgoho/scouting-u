@@ -2,10 +2,10 @@
 title: "Apply bandages"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 7"
+group_title: "7. First Aid and Emergency Preparedness"
 req_number: "7a"
-prev: "/scouts-bsa/ranks/first-class/guide/req7/"
-prev_title: "First Aid and Emergency Preparedness"
+prev: "/scouts-bsa/ranks/first-class/guide/req6e/"
+prev_title: "Show line rescue"
 next: "/scouts-bsa/ranks/first-class/guide/req7b/"
 next_title: "Transport an injured person"
 ---

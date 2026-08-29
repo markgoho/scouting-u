@@ -2,7 +2,7 @@
 title: "Find directions without compass"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 3"
+group_title: "3. Navigation"
 req_number: "3d"
 prev: "/scouts-bsa/ranks/second-class/guide/req3c/"
 prev_title: "Describe hike hazards"

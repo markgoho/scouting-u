@@ -17,41 +17,29 @@ guide_nav:
     items:
       - title: "Introduction & Overview"
         url: "/scouts-bsa/ranks/star/guide/"
-  - group_title: "Requirement 1"
+  - group_title: ""
     items:
-      - title: "Be active 4 months"
+      - title: "1. Be active 4 months"
         url: "/scouts-bsa/ranks/star/guide/req1/"
-  - group_title: "Requirement 2"
-    items:
-      - title: "Demonstrate Scout spirit"
+      - title: "2. Demonstrate Scout spirit"
         url: "/scouts-bsa/ranks/star/guide/req2/"
-  - group_title: "Requirement 3"
-    items:
-      - title: "Earn 6 merit badges"
+      - title: "3. Earn 6 merit badges"
         url: "/scouts-bsa/ranks/star/guide/req3/"
-  - group_title: "Requirement 4"
-    items:
-      - title: "Complete 6 hours of service"
+      - title: "4. Complete 6 hours of service"
         url: "/scouts-bsa/ranks/star/guide/req4/"
-  - group_title: "Requirement 5"
-    items:
-      - title: "Serve in position of responsibility"
+      - title: "5. Serve in position of responsibility"
         url: "/scouts-bsa/ranks/star/guide/req5/"
-  - group_title: "Requirement 6"
+  - group_title: "6. Personal Protection"
     items:
-      - title: "Personal Protection"
-        url: "/scouts-bsa/ranks/star/guide/req6/"
-      - title: "Complete child protection exercises"
+      - title: "a Complete child protection exercises"
         url: "/scouts-bsa/ranks/star/guide/req6a/"
-      - title: "View Personal Safety Awareness videos"
+      - title: "b View Personal Safety Awareness videos"
         url: "/scouts-bsa/ranks/star/guide/req6b/"
-  - group_title: "Requirement 7"
+  - group_title: "Advancement & Review"
     items:
-      - title: "Complete Scoutmaster conference"
+      - title: "7. Complete Scoutmaster conference"
         url: "/scouts-bsa/ranks/star/guide/req7/"
-  - group_title: "Requirement 8"
-    items:
-      - title: "Complete board of review"
+      - title: "8. Complete board of review"
         url: "/scouts-bsa/ranks/star/guide/req8/"
   - group_title: "Beyond the Rank"
     items:
@@ -74,7 +62,7 @@ To earn the Star rank, you will complete eight core requirements organized aroun
 3. **Merit Badge Exploration ([Requirement 3](/scouts-bsa/ranks/star/guide/req3/))**: Earn six merit badges, including at least four from the Eagle-required list.
 4. **Community Service ([Requirement 4](/scouts-bsa/ranks/star/guide/req4/))**: Give at least six hours of Scoutmaster-approved service to your community, school, or chartered organization.
 5. **Leadership & Responsibility ([Requirement 5](/scouts-bsa/ranks/star/guide/req5/))**: Serve actively for at least four months in an approved youth leadership position within your troop, crew, ship, or community.
-6. **Personal Protection ([Requirements 6, 6a, 6b](/scouts-bsa/ranks/star/guide/req6/))**: Complete child abuse prevention exercises with your parent or guardian and review Personal Safety Awareness materials.
+6. **Personal Protection ([Requirements 6, 6a, 6b](/scouts-bsa/ranks/star/guide/req6a/))**: Complete child abuse prevention exercises with your parent or guardian and review Personal Safety Awareness materials.
 7. **Mentorship & Evaluation ([Requirements 7 & 8](/scouts-bsa/ranks/star/guide/req7/))**: Complete a Scoutmaster conference and successfully participate in a board of review.
 
 ## Strategy for Success

@@ -2,7 +2,7 @@
 title: "Explain safe hiking rules"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 5"
+group_title: "5. Hiking"
 req_number: "5c"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req5b/"
 prev_title: "Explain what to do if lost"

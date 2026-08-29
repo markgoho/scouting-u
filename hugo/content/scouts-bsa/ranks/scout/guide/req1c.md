@@ -2,7 +2,7 @@
 title: "Demonstrate Scout sign, salute, handshake"
 layout: "guide"
 rank_slug: "scout"
-group_title: "Requirement 1"
+group_title: "1. Scout Spirit and Basics"
 req_number: "1c"
 prev: "/scouts-bsa/ranks/scout/guide/req1b/"
 prev_title: "Explain Scout spirit"

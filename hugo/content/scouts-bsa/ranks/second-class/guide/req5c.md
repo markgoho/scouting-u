@@ -2,7 +2,7 @@
 title: "Demonstrate reaching rescues"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 5"
+group_title: "5. Aquatics"
 req_number: "5c"
 prev: "/scouts-bsa/ranks/second-class/guide/req5b/"
 prev_title: "Pass BSA beginner test"

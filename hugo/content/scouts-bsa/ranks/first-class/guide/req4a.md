@@ -2,10 +2,10 @@
 title: "Complete orienteering course"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 4"
+group_title: "4. Navigation"
 req_number: "4a"
-prev: "/scouts-bsa/ranks/first-class/guide/req4/"
-prev_title: "Navigation"
+prev: "/scouts-bsa/ranks/first-class/guide/req3d/"
+prev_title: "Lash a camp gadget"
 next: "/scouts-bsa/ranks/first-class/guide/req4b/"
 next_title: "Navigate with GPS"
 ---

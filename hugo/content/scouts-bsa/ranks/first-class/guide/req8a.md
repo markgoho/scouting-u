@@ -2,10 +2,10 @@
 title: "Be physically active 4 weeks"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 8"
+group_title: "8. Fitness"
 req_number: "8a"
-prev: "/scouts-bsa/ranks/first-class/guide/req8/"
-prev_title: "Fitness"
+prev: "/scouts-bsa/ranks/first-class/guide/req7f/"
+prev_title: "Explain emergency water sourcing"
 next: "/scouts-bsa/ranks/first-class/guide/req8b/"
 next_title: "Set a fitness goal"
 ---

@@ -2,7 +2,7 @@
 title: "Serve in position of responsibility"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 5"
+group_title: ""
 req_number: "5"
 prev: "/scouts-bsa/ranks/life/guide/req4/"
 prev_title: "Complete 6 hours of service"

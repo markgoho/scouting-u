@@ -2,12 +2,12 @@
 title: "Navigate with GPS"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 4"
+group_title: "4. Navigation"
 req_number: "4b"
 prev: "/scouts-bsa/ranks/first-class/guide/req4a/"
 prev_title: "Complete orienteering course"
-next: "/scouts-bsa/ranks/first-class/guide/req5/"
-next_title: "Nature"
+next: "/scouts-bsa/ranks/first-class/guide/req5a/"
+next_title: "Identify 10 native plants"
 ---
 
 {{< drg/requirement number="4b" text_format="html" >}}

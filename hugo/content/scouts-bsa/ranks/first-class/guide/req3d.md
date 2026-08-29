@@ -2,12 +2,12 @@
 title: "Lash a camp gadget"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3d"
 prev: "/scouts-bsa/ranks/first-class/guide/req3c/"
 prev_title: "Tie 3 lashings"
-next: "/scouts-bsa/ranks/first-class/guide/req4/"
-next_title: "Navigation"
+next: "/scouts-bsa/ranks/first-class/guide/req4a/"
+next_title: "Complete orienteering course"
 ---
 
 {{< drg/requirement number="3d" text_format="html" >}}

@@ -2,7 +2,7 @@
 title: "Complete 3 hours of service"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 9"
+group_title: "9. Citizenship"
 req_number: "9d"
 prev: "/scouts-bsa/ranks/first-class/guide/req9c/"
 prev_title: "Reduce outing waste"

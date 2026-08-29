@@ -2,7 +2,7 @@
 title: "Complete Scoutmaster conference"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 7"
+group_title: "Advancement & Review"
 req_number: "7"
 prev: "/scouts-bsa/ranks/life/guide/req6/"
 prev_title: "Teach a Scout using EDGE"

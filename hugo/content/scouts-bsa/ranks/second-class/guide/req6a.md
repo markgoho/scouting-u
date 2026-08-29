@@ -2,10 +2,10 @@
 title: "Demonstrate first aid"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 6"
+group_title: "6. First Aid and Emergency Preparedness"
 req_number: "6a"
-prev: "/scouts-bsa/ranks/second-class/guide/req6/"
-prev_title: "First Aid and Emergency Preparedness"
+prev: "/scouts-bsa/ranks/second-class/guide/req5d/"
+prev_title: "Explain swimming rescue risks"
 next: "/scouts-bsa/ranks/second-class/guide/req6b/"
 next_title: "Treat hurry cases"
 ---

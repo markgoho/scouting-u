@@ -2,7 +2,7 @@
 title: "Earn 21 merit badges"
 layout: "guide"
 rank_slug: "eagle"
-group_title: "Requirement 3"
+group_title: ""
 req_number: "3"
 prev: "/scouts-bsa/ranks/eagle/guide/req2/"
 prev_title: "Demonstrate Scout spirit"

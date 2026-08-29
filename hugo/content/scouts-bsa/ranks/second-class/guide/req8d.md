@@ -2,7 +2,7 @@
 title: "Compare prices at 3 places"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 8"
+group_title: "8. Citizenship"
 req_number: "8d"
 prev: "/scouts-bsa/ranks/second-class/guide/req8c/"
 prev_title: "Plan to earn money"

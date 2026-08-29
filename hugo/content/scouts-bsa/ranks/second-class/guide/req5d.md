@@ -2,12 +2,12 @@
 title: "Explain swimming rescue risks"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 5"
+group_title: "5. Aquatics"
 req_number: "5d"
 prev: "/scouts-bsa/ranks/second-class/guide/req5c/"
 prev_title: "Demonstrate reaching rescues"
-next: "/scouts-bsa/ranks/second-class/guide/req6/"
-next_title: "First Aid and Emergency Preparedness"
+next: "/scouts-bsa/ranks/second-class/guide/req6a/"
+next_title: "Demonstrate first aid"
 ---
 
 {{< drg/requirement number="5d" text_format="html" >}}

@@ -2,7 +2,7 @@
 title: "Demonstrate taut-line hitch"
 layout: "guide"
 rank_slug: "tenderfoot"
-group_title: "Requirement 3"
+group_title: "3. Tools"
 req_number: "3c"
 prev: "/scouts-bsa/ranks/tenderfoot/guide/req3b/"
 prev_title: "Demonstrate two half-hitches"

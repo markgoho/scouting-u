@@ -48,6 +48,7 @@ type GuidePage = {
   fileName: string;
   pageSlug: string;
   title: string;
+  navTitle?: string;
   groupTitle: string;
   reqNumber?: string;
   body: string;
@@ -126,10 +127,8 @@ async function loadRankData({
 
 /**
  * Page-granularity rule: a top-level requirement with no children is a
- * plain leaf page. Any requirement with children -- however few -- gets an
- * overview page plus one dedicated page per child; there is no combined-page
- * threshold. Group widths vary a lot across ranks (second-class req 2 has 7
- * children, first-class req 6 has 6), but the split is now unconditional.
+ * plain leaf page. Any requirement with children gets one dedicated page per
+ * child under a subsection named after the parent requirement stem.
  */
 function buildRequirementPages({ rank }: { rank: RankData }): GuidePage[] {
   const pages: GuidePage[] = [];
@@ -142,7 +141,6 @@ function buildRequirementPages({ rank }: { rank: RankData }): GuidePage[] {
       continue;
     }
 
-    pages.push(buildOverviewPage({ requirement, children }));
     for (const child of children) {
       pages.push(buildDedicatedChildPage({ requirement, child }));
     }
@@ -162,7 +160,8 @@ function buildLeafPage({
     fileName: `req${reqNumber}.md`,
     pageSlug: `req${reqNumber}`,
     title: requirementTitle({ requirement }),
-    groupTitle: `Requirement ${requirement.req_id}`,
+    navTitle: `${requirement.req_id}. ${requirementTitle({ requirement })}`,
+    groupTitle: "",
     reqNumber,
     body: [
       buildRequirementShortcodeBlock({
@@ -178,63 +177,6 @@ function buildLeafPage({
   };
 }
 
-function buildOverviewPage({
-  requirement,
-  children,
-}: {
-  requirement: RankRequirement;
-  children: RankRequirement[];
-}): GuidePage {
-  const reqNumber = compactPath({ path: requirement.path });
-  const targetSummaries = children
-    .map(child => {
-      const url = pageUrl({
-        slug: rankSlug(),
-        pageSlug: `req${compactPath({ path: child.path })}`,
-      });
-      const title = child.short || `Requirement ${compactPath({ path: child.path })}`;
-      const rawLabel = child.list_number || compactPath({ path: child.path });
-      const label = rawLabel.endsWith(".") ? rawLabel : `${rawLabel}.`;
-      return `- ${label} **[${title}](${url})**: [PLACEHOLDER: Summarize what the Scout will do and gain on this page.]`;
-    })
-    .join("\n");
-  const firstChildPageSlug = `req${compactPath({ path: children[0]!.path })}`;
-
-  return {
-    kind: "requirement",
-    fileName: `req${reqNumber}.md`,
-    pageSlug: `req${reqNumber}`,
-    title: requirementTitle({ requirement }),
-    groupTitle: `Requirement ${requirement.req_id}`,
-    reqNumber,
-    body: [
-      buildRequirementShortcodeBlock({
-        number: reqNumber,
-        text: stripFootnoteMarkers({ text: requirement.text }),
-      }),
-      "Work through each child requirement below in order. Use this page as your roadmap before you open the first detailed child page.",
-      "## What You'll Complete",
-      targetSummaries,
-      "[PLACEHOLDER: Add orienting context, sequencing advice, or quick preparation notes for this requirement.]",
-      buildNextPageShortcode({
-        targetPageSlug: firstChildPageSlug,
-        text: "[PLACEHOLDER: Transition text]",
-        teaser: "[PLACEHOLDER: Preview the first child requirement page]",
-      }),
-    ].join("\n\n"),
-  };
-}
-
-/**
- * A dedicated child page (split, >=4-child group) is its own page, so its
- * lead `drg/requirement` call must be the one whose `number` equals the
- * page's own `req_number` -- that equality is what makes uni-theme's
- * shortcode treat it as the page's lead (title-dedup + the `.req-rail`
- * Page.Store write). `drg/inherited-requirement` never does that write, so
- * it can't be used for a page's own lead even when the child's text reads
- * as a bare topic; the parent-stem merge for such a child is left to the
- * page's own prose, not the scaffold.
- */
 function buildDedicatedChildPage({
   requirement,
   child,
@@ -248,7 +190,8 @@ function buildDedicatedChildPage({
     fileName: `req${reqNumber}.md`,
     pageSlug: `req${reqNumber}`,
     title: requirementTitle({ requirement: child }),
-    groupTitle: `Requirement ${requirement.req_id}`,
+    navTitle: `${child.req_id} ${requirementTitle({ requirement: child })}`,
+    groupTitle: `${requirement.req_id}. ${requirementTitle({ requirement })}`,
     reqNumber,
     body: [
       buildRequirementShortcodeBlock({
@@ -457,25 +400,34 @@ function buildGuideNav({
   guidePages: GuidePage[];
   rank: RankData;
 }): { groupTitle: string; items: { title: string; url: string }[] }[] {
-  const groups = new Map<string, { title: string; url: string }[]>();
+  const groups: { groupTitle: string; items: { title: string; url: string }[] }[] = [];
 
   for (const guidePage of guidePages) {
     if (guidePage.kind === "print") {
       continue;
     }
 
-    const items = groups.get(guidePage.groupTitle) ?? [];
-    items.push({
-      title: guidePage.title,
-      url: pageUrl({ slug: rank.slug, pageSlug: guidePage.pageSlug }),
-    });
-    groups.set(guidePage.groupTitle, items);
+    const itemTitle = guidePage.navTitle ?? guidePage.title;
+    const currentGroup = groups[groups.length - 1];
+    if (currentGroup && currentGroup.groupTitle === guidePage.groupTitle) {
+      currentGroup.items.push({
+        title: itemTitle,
+        url: pageUrl({ slug: rank.slug, pageSlug: guidePage.pageSlug }),
+      });
+    } else {
+      groups.push({
+        groupTitle: guidePage.groupTitle,
+        items: [
+          {
+            title: itemTitle,
+            url: pageUrl({ slug: rank.slug, pageSlug: guidePage.pageSlug }),
+          },
+        ],
+      });
+    }
   }
 
-  return Array.from(groups.entries()).map(([groupTitle, items]) => ({
-    groupTitle,
-    items,
-  }));
+  return groups;
 }
 
 function renderPage({

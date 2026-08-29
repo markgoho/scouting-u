@@ -2,7 +2,7 @@
 title: "Earn 5 more merit badges"
 layout: "guide"
 rank_slug: "life"
-group_title: "Requirement 3"
+group_title: ""
 req_number: "3"
 prev: "/scouts-bsa/ranks/life/guide/req2/"
 prev_title: "Demonstrate Scout spirit"

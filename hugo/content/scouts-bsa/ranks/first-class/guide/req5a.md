@@ -2,10 +2,10 @@
 title: "Identify 10 native plants"
 layout: "guide"
 rank_slug: "first-class"
-group_title: "Requirement 5"
+group_title: "5. Nature"
 req_number: "5a"
-prev: "/scouts-bsa/ranks/first-class/guide/req5/"
-prev_title: "Nature"
+prev: "/scouts-bsa/ranks/first-class/guide/req4b/"
+prev_title: "Navigate with GPS"
 next: "/scouts-bsa/ranks/first-class/guide/req5b/"
 next_title: "Obtain weather forecast"
 ---

@@ -2,7 +2,7 @@
 title: "Complete board of review"
 layout: "guide"
 rank_slug: "second-class"
-group_title: "Requirement 12"
+group_title: "Advancement & Review"
 req_number: "12"
 prev: "/scouts-bsa/ranks/second-class/guide/req11/"
 prev_title: "Complete Scoutmaster conference"
