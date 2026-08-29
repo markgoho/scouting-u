@@ -14,28 +14,67 @@ next_title: "Explain Scout spirit"
 Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In your own words, explain their meaning.
 {{< /drg/requirement >}}
 
-Four short pieces of text hold up the entire Scouting program. You will say at least one of them out loud at almost every troop meeting for as long as you stay a Scout, so it is worth understanding them now instead of just memorizing sounds.
+The foundation of all Scouting is built on four core principles: the Scout Oath, the Scout Law, the Scout Motto, and the Scout Slogan. These are not merely words to memorize—they form a lifelong code of conduct that guides how you treat others, care for yourself, and serve your community.
 
-**The Scout Oath:**
+---
 
-> On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.
+## 1. The Scout Oath
 
-**The Scout Law:** A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.
+> **On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.**
 
-**The Scout motto:** Be Prepared.
+The Scout Oath contains three distinct promises, moving outward from your community to your neighbors, and finally to your personal character:
 
-**The Scout slogan:** Do a Good Turn Daily.
+- **Duty to God and Country**: Fulfilling your obligations to your faith, honoring your nation, being a responsible citizen, and obeying laws and the Scout Law.
+- **Duty to Others ("To help other people at all times")**: Actively looking for ways to assist family, friends, and strangers without waiting to be asked or expecting a reward.
+- **Duty to Self**:
+  - *Physically Strong*: Exercising regularly, eating nutritious food, getting enough sleep, and keeping your body free from harmful substances.
+  - *Mentally Awake*: Staying curious, working hard in school, practicing observation skills, and keeping your mind sharp to solve problems and make sound decisions.
+  - *Morally Straight*: Living with honesty and integrity, treating all people with respect, and choosing the right path even when it is difficult or unpopular.
 
-## What Each One Is Really Asking
+---
 
-The Oath breaks into three promises: to your duty (to God, country, and the Scout Law), to other people, and to yourself (staying strong, alert, and honest). Notice the order — the Oath asks you to look outward before it asks you to take care of yourself.
+## 2. The Scout Law
 
-The Law is twelve separate standards, not one vague idea of "being good." When you explain it to your Scoutmaster, pick a couple of the traits and give a real example of each — "obedient" might mean following your patrol leader's instructions on a hike even when you'd rather do something else; "thrifty" might mean not wasting food at a campout.
+> **A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent.**
 
-The motto, Be Prepared, is not just about packing a rain jacket. Founder Robert Baden-Powell explained it as always having your mind and body ready to do the right thing at the right moment — for a Scout, that includes being ready to act, not just ready with gear.
+Each of the twelve points represents a specific standard of character:
 
-The slogan is the most action-oriented of the four: it asks for one specific helpful act, every day, without being asked.
+1. **Trustworthy**: A Scout tells the truth and keeps promises. Honesty is part of their code of behavior.
+2. **Loyal**: A Scout is true to family, friends, Scout leaders, school, and nation.
+3. **Helpful**: A Scout cares about other people, willingly volunteering to assist without expecting pay or reward.
+4. **Friendly**: A Scout is a friend to all and a brother or sister to every other Scout, welcoming newcomers and seeking to understand others.
+5. **Courteous**: A Scout is polite and respectful to everyone, regardless of age, background, or point of view. Good manners make daily life smoother.
+6. **Kind**: A Scout understands that there is strength in being gentle. A Scout treats animals humanely and never harms or bullies living things without cause.
+7. **Obedient**: A Scout follows the rules of their family, school, troop, and community. If rules seem unfair, a Scout works to change them in an orderly way rather than disobeying them.
+8. **Cheerful**: A Scout looks for the bright side of life, cheerfully performing tasks and uplifting others even during difficult or rainy situations.
+9. **Thrifty**: A Scout works to pay their own way, uses time and property wisely, protects natural resources, and avoids waste.
+10. **Brave**: A Scout faces difficult situations with courage even when afraid, and has the moral backbone to stand up for what is right despite peer pressure.
+11. **Clean**: A Scout keeps body and mind fit and clean, maintains neat personal habits, uses clean language, and leaves campsites cleaner than they were found.
+12. **Reverent**: A Scout is faithful in religious duties, respects the beliefs of others, and honors the spiritual convictions of everyone.
+
+---
+
+## 3. The Scout Motto
+
+> **Be Prepared.**
+
+Created by Scouting founder Robert Baden-Powell, "Be Prepared" means always being in a state of readiness in your **mind, body, and spirit**:
+- **In Mind**: Thinking ahead, learning practical outdoor and first aid skills, and knowing how to respond calmly in emergencies.
+- **In Body**: Keeping physically conditioned and packing the necessary gear so you can handle unexpected weather or tough trail conditions.
+- **In Spirit**: Having the moral confidence and resolve to do the right thing whenever the situation demands.
+
+---
+
+## 4. The Scout Slogan
+
+> **Do a Good Turn Daily.**
+
+A "Good Turn" is an unselfish act of kindness or assistance performed for someone else without expecting praise, payment, or recognition. It can be as simple as holding a door for someone carrying heavy groceries, picking up litter along a trail, or helping a classmate who is struggling with homework. 
+
+{{< drg/did-you-know >}}
+**The Good Turn Knot**: Early Scouts tied a loose knot in the tail of their neckerchief each morning. The knot served as a physical reminder throughout the day; once the Scout performed their daily Good Turn, they untied the knot!
+{{< /drg/did-you-know >}}
 
 {{< drg/tip >}}
-Practice explaining the Oath and Law in your own words out loud, not just reciting them silently. Your Scoutmaster is listening for understanding, not word-for-word memorization of a definition.
+When meeting with your Scoutmaster for your conference, do not just recite the words from memory. Be ready to give a real-life example of how you applied one point of the Scout Law or performed a Good Turn during the past week.
 {{< /drg/tip >}}

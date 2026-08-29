@@ -14,29 +14,45 @@ next_title: "Complete Scoutmaster conference"
 Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived four different points of the Scout Law in your everyday life.
 {{< /drg/requirement >}}
 
-You [repeated the Scout Oath and Law from memory](/scouts-bsa/ranks/scout/guide/req1a/) and [explained what Scout spirit means](/scouts-bsa/ranks/scout/guide/req1b/) to earn Scout rank. Tenderfoot raises the bar: instead of explaining the idea, you have to show it happened, in your actual life, with specifics.
+For Tenderfoot, demonstrating Scout spirit moves from understanding definitions to providing tangible evidence of how the Scout Oath and Scout Law guide your daily choices. In this requirement, you must explain to your Scoutmaster how you have fulfilled your **Duty to God** and how you have lived **four specific points of the Scout Law** in your everyday life.
 
-## The Words You're Living
+---
 
-**The Scout Oath**: "On my honor, I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight."
+## 1. Fulfilling Your Duty to God
 
-**The Scout Law**: "A Scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent."
+Scouting America is non-sectarian and respects every Scout's personal faith tradition and family beliefs. The first promise of the Scout Oath is to do your "duty to God," and the twelfth point of the Scout Law states that "A Scout is reverent."
 
-## Duty to God
+### How to Discuss Duty to God in Your Conference
+Be prepared to describe how your faith and spiritual values guide your life. Concrete examples might include:
+- Participating in regular worship services, prayer, study, or religious education with your family or congregation.
+- Living the moral teachings and ethical principles of your faith in how you treat your peers and family.
+- Practicing personal reflection, gratitude, or prayer before meals and at bedtime.
+- Participating in your faith community's service projects or pursuing your religious organization's **Religious Emblems program**.
+- Showing reverence in the outdoors by appreciating the beauty of nature and caring for creation.
 
-This part of the requirement is personal and depends on your own faith tradition or beliefs. Be ready to describe something concrete — attending services, a practice from your family's faith, a value you've acted on — rather than a vague statement that you "believe in God."
+---
 
-## Four Points of the Law, Lived
+## 2. Living Four Points of the Scout Law
 
-Pick four different points from the twelve and think of a real, recent example for each — not a hypothetical. For example:
+Choose **four different points** from the twelve points of the Scout Law. For each point, prepare a specific, recent, real-world story showing how you put that virtue into practice in your daily life:
 
-- **Trustworthy**: You told a leader about a mistake instead of hiding it.
-- **Helpful**: You assisted a younger Scout with a skill without being asked.
-- **Cheerful**: You stayed positive during a hard, wet, or cold moment on a campout.
-- **Thrifty**: You took care of gear instead of letting it get lost or damaged.
+### Example Discussion Framework
+
+| Point of the Law | Real-Life Situation & Action | Why It Showed Scout Spirit |
+| :--- | :--- | :--- |
+| **1. Trustworthy** | *"I accidentally broke a tool in the garage while working on a school project. Instead of hiding it, I immediately told my parents and offered to help pay for a replacement."* | Took personal accountability and told the truth even when it was difficult. |
+| **2. Courteous** | *"A new student joined our class who seemed overwhelmed. I introduced myself, showed them to their next classroom, and invited them to sit with my friends at lunch."* | Treated a stranger with welcoming kindness and respect. |
+| **3. Cheerful** | *"During a rainy troop campout when our tent flooded, I helped my tentmate move gear to dry ground and kept a positive attitude rather than complaining."* | Uplifted others and maintained high morale during a challenging situation. |
+| **4. Thrifty** | *"I saved part of my allowance over several months to buy my own backpacking sleeping pad instead of asking my parents to pay for everything."* | Managed personal money responsibly and worked to pay my own way. |
+
+---
+
+## Preparing for Your Scoutmaster Conference
+
+1. **Review All Twelve Points**: Select four points that genuinely resonated with your experiences over the past few weeks or months.
+2. **Write Down Brief Notes**: Jot down the four points and your real-life stories in your handbook or notebook before scheduling your conference.
+3. **Speak Honestly**: Your Scoutmaster is not looking for perfection; they want to hear honest reflections on your character, your successes, and areas where you are working to improve.
 
 {{< drg/tip >}}
-Write down your four points and examples before your Scoutmaster conference. Trying to come up with real examples on the spot is much harder than recalling ones you've already thought through.
+Avoid generic hypothetical statements like "I am always nice to people." Give a specific date, person, or moment: *"Last Tuesday in science lab, when..."*
 {{< /drg/tip >}}
-
-This requirement isn't graded on which four points you pick — it's graded on whether your examples are real and specific enough to show you've actually lived them, not just memorized them.

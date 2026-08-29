@@ -14,30 +14,56 @@ next_title: "Reduce outing waste"
 Investigate an environmental issue affecting your community. Share what you learned about that issue with your patrol or troop. Tell what, if anything, could be done by you or your community to address the concern.
 {{< /drg/requirement >}}
 
-"The environment" is a huge, abstract topic. This requirement asks you to shrink it down to something specific and local — a real issue affecting the place you actually live.
+As a First Class candidate, your leadership expands to environmental stewardship. Requirement 9b asks you to investigate an environmental issue affecting your local community, share your findings in a presentation to your patrol or troop, and propose actionable solutions.
 
-## Pick a Local Issue
+---
 
-Look for something concrete and nearby rather than a global topic you can't investigate firsthand. Possibilities include:
+## Step 1: Identifying a Real Local Environmental Issue
 
-- Water quality in a local stream, lake, or reservoir.
-- Air quality from traffic, industry, or wildfire smoke in your region.
-- Invasive species affecting local parks or waterways.
-- Waste management, recycling access, or landfill capacity in your county.
-- Development or habitat loss affecting a nearby natural area.
+Choose a specific, tangible issue in your geographic area rather than a broad, global concept:
 
-## Investigate It
+### Common Local Environmental Topics
+- **Watershed & Water Quality**: Stormwater runoff carrying pesticides, lawn fertilizers, and road salt into local creeks, rivers, or reservoirs; algal blooms causing fish kills.
+- **Invasive Species Outbreaks**: Non-native plants (such as kudzu, English ivy, Japanese knotweed, garlic mustard) or aquatic organisms (zebra mussels, hydrilla, snakehead fish) outcompeting native wildlife.
+- **Habitat Loss & Stream Bank Erosion**: Overdevelopment removing vegetative buffers along streams, causing bank collapse and sediment pollution.
+- **Waste Management & Recycling**: Contamination in local municipal recycling streams, illegal dumping in open spaces, or shrinking landfill capacity.
+- **Air Quality & Wildfire Management**: High ozone alerts in urban centers or accumulated forest debris increasing the risk of catastrophic wildfire in nearby woodlands.
 
-Go beyond a single search result. Talk to a local expert — a park ranger, a conservation district employee, a science teacher — read local news coverage, or visit the affected area yourself if it's safe and accessible to do so.
+---
 
-## Share What You Learned
+## Step 2: Investigating the Issue
 
-Present what you found to your patrol or troop — not just the facts, but why the issue matters to your community specifically.
+Go beyond a quick internet search to gather firsthand local facts:
+- **Consult Local Experts**: Interview a county agricultural extension agent, state park ranger, watershed manager, environmental science teacher, or municipal stormwater engineer.
+- **Review Local Public Data**: Look at city or county water quality reports, local conservation district newsletters, or town hall meeting minutes.
+- **Field Observation**: If safe and accessible, visit the affected park, creek, or natural area to take photographs and observe the conditions directly.
 
-## Tell What Could Be Done
+---
 
-Close with concrete ideas, not vague hope. What could you personally do — reduce your own impact, volunteer, raise awareness? What could your community do — a policy change, a cleanup effort, better infrastructure? Ground your suggestions in what you actually learned, not general environmentalism.
+## Step 3: Structuring Your Presentation to Your Troop or Patrol
+
+Prepare a concise, engaging 3- to 5-minute presentation for an upcoming troop meeting or patrol gathering:
+
+### Presentation Outline
+1. **The Issue & Location**: What is the problem, and where is it happening in our community?
+2. **The Root Causes**: What human actions or environmental factors are driving the issue?
+3. **The Local Impact**: How does this affect native wildlife, water supplies, public health, or outdoor recreation?
+4. **Actionable Solutions**: What specific steps can be taken?
+
+---
+
+## Step 4: Proposing Solutions (Individual & Community Level)
+
+A complete presentation must propose practical solutions:
+
+- **What You and Your Troop Can Do**:
+  - Organize a conservation service project (e.g., planting willow saplings along an eroded creek bank, participating in a river clean-up, or removing invasive vines).
+  - Adopt water-conservation or eco-friendly practices at home and during troop campouts.
+- **What Your Community Can Do**:
+  - Upgrade municipal stormwater drain filtration.
+  - Implement community education on responsible fertilizer and pesticide use.
+  - Establish protected greenway corridors and buffer zones along waterways.
 
 {{< drg/tip >}}
-An issue you can see or visit yourself makes a more convincing presentation than one you only read about. If there's a local stream, park, or landfill connected to your topic, go take a look before you present.
+Bring visual aids to your presentation—print out a map of the local watershed or bring before-and-after photographs of the impacted area. Visual evidence keeps your patrol focused and engaged.
 {{< /drg/tip >}}

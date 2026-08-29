@@ -14,29 +14,45 @@ next_title: "Demonstrate Scout spirit"
 Describe bullying; tell what the appropriate response is to someone who is bullying you or another person.
 {{< /drg/requirement >}}
 
-Bullying is repeated, intentional behavior meant to hurt, intimidate, or control someone else — physically, verbally, or online — and it's different from a one-time disagreement or conflict between equals.
+Bullying contradicts the core values of the Scout Oath and Scout Law—especially the promises to be *Friendly*, *Courteous*, *Kind*, and *Brave*. Second Class Requirement 9b asks you to understand what bullying is, recognize its various forms, and know how to respond effectively whether it happens to you or to someone else.
 
-## Recognizing Bullying
+---
 
-- **Physical**: hitting, shoving, or damaging someone's belongings.
-- **Verbal**: name-calling, threats, or repeated insults.
-- **Social**: deliberately excluding someone or spreading rumors.
-- **Cyberbullying**: harassment, threats, or humiliation carried out online or through text.
+## What Is Bullying?
 
-What separates bullying from ordinary conflict is the pattern — it's repeated, and there's usually a real or perceived imbalance of power between the person doing it and the target.
+Bullying is defined as **unwanted, aggressive behavior** among peers that involves a real or perceived **power imbalance** (such as differences in physical size, age, social status, or numbers) and is **repeated over time** (or has the high potential to be repeated).
 
-## Responding If It's Happening to You
+### The Four Major Forms of Bullying
 
-Apply the [three R's from requirement 9a](/scouts-bsa/ranks/second-class/guide/req9a/): recognize that what's happening isn't okay, resist by not engaging or escalating, and report it to a trusted adult right away.
+1. **Physical Bullying**: Hitting, kicking, pushing, tripping, pinching, spitting, blocking someone's path, or intentionally damaging and stealing property.
+2. **Verbal Bullying**: Name-calling, hurtful teasing, insults, derogatory or discriminatory remarks, taunting, and verbal threats of harm.
+3. **Social and Relational Bullying**: Intentionally excluding someone from a group, lunch table, or game; spreading malicious rumors; telling others not to be friends with someone; or publicly humiliating a peer.
+4. **Cyberbullying**: Using digital devices, text messaging, gaming chats, or social media platforms to send cruel messages, post rumors, share private or embarrassing photos/videos without permission, or create fake profiles to harass someone.
 
-## Responding If You See It Happen to Someone Else
+---
 
-- **Don't join in or laugh along**, even under peer pressure — that reinforces the bullying.
-- **Support the person being targeted** directly if it's safe to do so, or afterward in private.
-- **Report it to a trusted adult**, even if it wasn't directed at you. Staying silent as a bystander lets the behavior continue.
+## How to Respond If You Are Being Bullied
+
+1. **Stay Calm and Do Not Retaliate**: Bullies look for an angry, fearful, or emotional reaction. Fighting back physically or shouting insults often escalates the conflict and puts you at risk of discipline.
+2. **Speak Firmly and Assertively**: Look the bully in the eye and state in a clear, direct voice: *"Stop doing that. It is not okay,"* or *"Leave me alone."*
+3. **Walk Away Immediately**: Disengage and walk toward a safe, populated area with adults or supportive friends.
+4. **Online / Cyberbullying Response**:
+   - **Do Not Respond**: Never reply to hateful online comments or texts.
+   - **Save the Evidence**: Take screenshots of threatening messages, comments, or posts with dates and usernames.
+   - **Block and Report**: Block the bully's account and report the harassment to the platform administrator.
+5. **Report to a Trusted Adult**: Tell a parent, teacher, school counselor, or Scoutmaster right away.
+
+---
+
+## Being an "Upstander," Not a Passive Bystander
+
+When you witness someone else being bullied, having the courage to act is a direct demonstration of the tenth point of the Scout Law: **A Scout is Brave**.
+
+- **Do Not Join In**: Never laugh, cheer, or forward mean posts or videos. Passive laughter rewards the bully's behavior.
+- **Support the Target**: If it is safe, speak up: *"Hey, that's uncalled for—leave them alone."* Or walk up to the target and invite them to leave with you: *"Come on, let's go over here."*
+- **Comfort the Victim**: Check in on the person in private: *"I saw what happened. That was wrong, and I'm on your side."*
+- **Report the Incident**: Tell an adult authority immediately. Reporting bullying is not "snitching"—it is protecting a fellow human being from harm.
 
 {{< drg/safety-first >}}
-Never try to physically intervene in a bullying situation yourself — that can put you at risk and escalate the conflict. Report to a trusted adult instead, every time.
+Scouting America enforces a strict **Zero-Tolerance Policy** regarding bullying, hazing, cyberbullying, physical punishment, and initiation rituals. Any such behavior at a troop meeting or campout must be reported immediately to the Scoutmaster.
 {{< /drg/safety-first >}}
-
-Be ready to describe a real or hypothetical situation and walk through exactly what you'd do, step by step, using the three R's as your framework.

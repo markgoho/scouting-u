@@ -14,24 +14,55 @@ next_title: "Compare prices at 3 places"
 With your parents or guardian, decide on an amount of money that you would like to earn, based on the cost of a specific item you would like to purchase. Develop a written plan to earn the amount agreed upon and follow that plan; it is acceptable to make changes to your plan along the way. Discuss any changes made to your original plan and whether you met your goal.
 {{< /drg/requirement >}}
 
-This is a real earn-and-track exercise, not a hypothetical — pick a specific item you actually want, agree on a dollar amount with your parent or guardian, then earn it through a plan you write yourself and follow.
+The ninth point of the Scout Law states that **"A Scout is Thrifty."** Being thrifty means working to pay your own way, managing money responsibly, and planning ahead. In Requirement 8c, you will partner with your parent or guardian to select a specific item you want to purchase, create a written earning plan, execute that plan, and reflect on the outcome.
 
-## Choosing the Item and Amount
+---
 
-Pick something concrete with a real price tag — a piece of gear, a bike, a game — rather than a vague amount of money. Talk with your parent or guardian about what amount makes sense to earn, given the item's actual cost.
+## Step 1: Selecting a Specific Purchase Goal
 
-## Writing the Plan
+Choose a concrete item with a real price tag rather than a vague amount of money. Good examples include:
+- A piece of personal outdoor gear (e.g., a backpacking headlamp, sleeping pad, compass, or pocketknife).
+- Scout uniform components or part of your summer camp registration fee.
+- A personal hobby or school item (e.g., bicycle accessories, books, or sports gear).
 
-A written plan should name how you'll earn the money — chores, a small job, selling something you've made — and roughly when you expect to reach the goal. Keep your own notes on this in a notebook or document rather than filling in a printed template; the requirement asks for a plan you develop, not one you complete by filling in blanks.
+Sit down with your parent or guardian to confirm the estimated cost and agree on an achievable target amount to earn.
 
-## Following It, and Adjusting When Needed
+---
 
-The requirement explicitly allows changes along the way — if your original plan isn't working, adjust it and keep going. What matters is that you can explain what changed and why.
+## Step 2: Developing Your Written Plan
+
+Write out your plan on paper or in your notebook. A complete plan must answer:
+1. **Target Goal**: What item are you saving for, and what is its exact target dollar amount?
+2. **Earning Activities**: What specific tasks or jobs will you perform to earn the money?
+   - *Household Chores Beyond Normal Expectations*: Deep-cleaning the garage, washing windows, mowing lawns.
+   - *Neighborhood & Family Jobs*: Pet sitting, dog walking, raking leaves, washing family cars, shoveling snow.
+   - *Entrepreneurial Projects*: Selling handmade crafts, baked goods, or yard-sale items.
+3. **Timeline**: How many weeks will your plan take, and how much do you plan to earn per week?
+
+---
+
+## Step 3: Following the Plan and Keeping an Earning Log
+
+Track your progress as you work. Keeping a simple written log proves that you followed your plan:
+
+### Sample Earning Log
+| Date | Task / Job Performed | Client / Person Paid By | Hours Worked | Amount Earned | Running Total |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Oct 5** | Raked neighbor's front yard and bagged leaves | Mr. Davis | 2 hrs | $25.00 | $25.00 |
+| **Oct 12** | Washed and vacuumed two family cars | Parents | 1.5 hrs | $20.00 | $45.00 |
+| **Oct 19** | Walked neighbor's dog (4 days) | Mrs. Higgins | 2 hrs | $20.00 | $65.00 |
+
+---
+
+## Step 4: Adapting to Changes and Evaluating Success
+
+Real life rarely goes 100% according to schedule. The requirement specifically notes that **it is acceptable to make changes to your plan along the way**:
+- Did rainy weather cancel your scheduled yard work?
+- Did a job take longer or earn more/less than you initially estimated?
+- Did you find an additional odd job to reach your goal faster?
+
+Be prepared to discuss these changes honestly with your parent and your Scoutmaster. Whether you hit your exact dollar goal or fell short, the value is in having created, followed, and evaluated a real financial plan.
 
 {{< drg/tip >}}
-Write down each earning session as it happens — what you did and how much you earned. That running log makes the "discuss any changes" part of this requirement much easier when you sit down with your Scoutmaster.
+Bring your written plan and earning log with you to your Scoutmaster Conference. Seeing your real notes and calculations makes for a fantastic discussion about personal thriftiness.
 {{< /drg/tip >}}
-
-## Discussing the Outcome
-
-Be ready to talk honestly about whether you met your goal, what changed from your original plan, and why. Falling short and explaining what happened is a legitimate answer here — this requirement is checking that you engaged with a real plan, not that you hit a perfect number.

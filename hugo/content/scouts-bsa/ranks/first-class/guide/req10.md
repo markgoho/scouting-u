@@ -14,22 +14,51 @@ next_title: "Demonstrate Scout spirit"
 Tell someone who is eligible to join Scouts BSA, or an inactive Scout, about your Scouting activities. Invite this person to an outing, activity, service project, or meeting. Provide information on how to join, or encourage the inactive Scout to become active. Share your efforts with your Scoutmaster or other adult leader.
 {{< /drg/requirement >}}
 
-This requirement is new at First Class — it's the first time the rank requirements ask you to actively grow or rebuild the program itself, instead of just growing your own skills.
+As an experienced First Class candidate, you are an ambassador for the Scouting movement. Requirement 10 is the first rank requirement that asks you to actively strengthen and grow your troop by sharing your outdoor experiences with a non-Scout or encouraging an inactive Scout to return.
 
-## Two People Who Qualify
+---
 
-- **Someone eligible to join Scouts BSA** who hasn't yet — a friend, classmate, or sibling in the right age range.
-- **An inactive Scout** — someone already registered who's stopped showing up to meetings and outings.
+## 1. Choosing Who to Approach
 
-## What to Do
+The requirement allows you to reach out to either of two individuals:
 
-1. **Tell them about your Scouting activities.** Talk about what you've actually done — a campout, a skill you learned, a trip you took — not a generic sales pitch for the program.
-2. **Invite them to something specific.** An outing, an activity, a service project, or a meeting — a real, named event they could actually show up to, not a vague "you should join sometime."
-3. **Give them next steps.** For someone new, that means how to join — who to contact, what a first meeting looks like. For an inactive Scout, that means encouragement to come back, and maybe an offer to go with them.
-4. **Share your efforts with your Scoutmaster or another adult leader**, so they know who you invited and what happened.
+### Option A: A Friend Eligible to Join Scouts BSA
+- A classmate, neighborhood friend, sports teammate, or family member who is at least **11 years old**, or has completed the **fifth grade**, or has earned the **Arrow of Light Award** (and is under 18).
+- Look for someone who enjoys the outdoors, camping, sports, building things, or learning practical skills.
+
+### Option B: An Inactive Scout
+- A registered member of your troop or another unit who has stopped attending weekly meetings, campouts, or troop activities.
+- Reaching out shows genuine brotherhood and patrol loyalty—letting them know that their patrol misses them and wants them back around the campfire.
+
+---
+
+## 2. How to Share Your Scouting Journey
+
+Avoid giving a formal or rehearsed sales pitch. Instead, talk about your real, firsthand adventures:
+
+- **Specific High-Adventure Highlights**: Tell them about your favorite campout, cooking over an open fire, canoeing down a river, rock climbing, or sleeping under the stars.
+- **Cool Skills Learned**: Explain how you learned to use a compass, sharpen a pocketknife, lash a pioneer tower, or build a campfire in the rain.
+- **Patrol Comradery**: Describe the fun of working as a team with your patrol and meeting new friends.
+
+---
+
+## 3. Extending a Concrete Invitation
+
+A vague invitation (*"You should join Scouts sometime"*) rarely works. Give them a specific, welcoming opportunity:
+
+1. **Pick a Fun Upcoming Event**: Invite them to an exciting troop meeting (such as a knot-tying relay, outdoor cooking demonstration, or pioneering night) or a community service project.
+2. **Provide Concrete Details**: Give them the exact date, time, meeting location, what to wear, and offer to introduce them to the Senior Patrol Leader and Scoutmaster.
+3. **Connect Their Family**: Provide contact information for your Scoutmaster or Committee Chair so their parents can ask questions and learn about troop registration.
+
+---
+
+## 4. Reporting Back to Your Scoutmaster
+
+After making your invitation, sit down with your Scoutmaster or another adult leader to discuss your efforts:
+- Who did you speak with, and what did you share?
+- What was their reaction?
+- Did they attend a meeting or express interest in upcoming outings?
 
 {{< drg/tip >}}
-Pick someone you'd genuinely like to see in your troop, not just the easiest person to ask. A real invitation lands better than a requirement you're rushing to check off.
+Your advancement does not depend on whether the person actually registers or returns. The requirement is fulfilled by making a genuine, well-prepared effort to share Scouting and inviting them to experience the program.
 {{< /drg/tip >}}
-
-Whether or not the person actually joins or returns isn't what's being measured here — the requirement is about making a genuine invitation and following through on telling your leader about it.
