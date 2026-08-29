@@ -50,8 +50,6 @@ A well-planned menu is only as good as the equipment you bring to prepare it. Ar
 - **Greywater Mesh Strainer:** To filter solid food bits out of dishwater.
 - **Heavy-Duty Trash Bags:** To pack out all garbage and food waste.
 
----
-
 ## How to Demonstrate Your Gear
 
 To fulfill the requirement:

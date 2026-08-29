@@ -16,8 +16,6 @@ After completing Second Class requirement 7a, be physically active at least 30 m
 
 As a candidate for First Class, your physical conditioning directly impacts your ability to lead patrol hikes, navigate rugged terrain, manage backcountry campouts, and perform emergency rescues. Requirement 8a reinforces your daily fitness habits by requiring a second four-week activity tracking cycle.
 
----
-
 ## The Four-Week Standard for First Class
 
 To satisfy Requirement 8a, you must fulfill four explicit criteria:
@@ -26,8 +24,6 @@ To satisfy Requirement 8a, you must fulfill four explicit criteria:
 2. **Daily Minimum**: Be physically active for **at least 30 minutes each day**.
 3. **Weekly Frequency**: Log at least **5 active days per week**.
 4. **Duration**: Maintain this discipline for **four consecutive weeks** (at least 20 logged days and 600 total minutes of activity).
-
----
 
 ## Elevating Your Fitness for First Class Adventures
 
@@ -44,8 +40,6 @@ Because First Class Scouts participate in more demanding wilderness outings—su
 
 ### 3. Agility, Coordination, and Team Sports
 - Active participation in organized athletics (soccer, basketball, tennis, martial arts, rowing, cross-country track) builds foot speed, spatial awareness, and team communication.
-
----
 
 ## Maintaining Your First Class Activity Log
 

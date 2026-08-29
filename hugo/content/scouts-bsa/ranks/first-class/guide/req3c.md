@@ -18,8 +18,6 @@ Lashings join poles and spars together using only rope. Every lashing relies on 
 - **Wrapping turns:** Loop around both spars to hold them in position.
 - **Frapping turns:** Wrap *between* the spars around the wrapping turns, pulling the rope incredibly tight to lock the joint into a rigid structure.
 
----
-
 ## 1. Square Lashing — Touching Poles Crossing at 45° to 90°
 
 Use the square lashing to join two poles that touch and cross at a right or near-right angle (such as table legs, gateway rails, or crossbars).
@@ -32,8 +30,6 @@ Use the square lashing to join two poles that touch and cross at a right or near
 2. **Wraps (3 turns):** Bring the rope over the top pole, around the back of the bottom pole, over the top pole, and behind the bottom pole. Make **three complete wrapping turns**. Lay each turn neatly alongside the previous turn (*outside* the previous wrap on the top pole, and *inside* on the bottom pole).
 3. **Fraps (2 turns):** Take **two tight frapping turns** between the two poles, wrapping directly around the rope wraps. Pull each frapping turn as tight as possible.
 4. **Finish:** Tie off with a clove hitch around the top (horizontal) pole, snug against the frapping.
-
----
 
 ## 2. Shear Lashing — Parallel Poles & A-Frames
 
@@ -48,8 +44,6 @@ Use a shear lashing to join two spars running side by side, either to form the l
 3. **Fraps (2 turns):** Make **two tight frapping turns** between the spars, cinching the wraps firmly.
 4. **Finish:** Finish with a clove hitch on the *opposite* spar from where you started.
 5. **Spread the Legs:** For an A-frame or tripod legs, spread the lower ends of the poles apart. Spreading the legs further tightens the frapping turns, locking the structure solid.
-
----
 
 ## 3. Diagonal Lashing — Crossing Poles with a Gap
 

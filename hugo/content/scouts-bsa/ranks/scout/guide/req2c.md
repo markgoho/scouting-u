@@ -16,8 +16,6 @@ Describe the Scouts BSA ranks and how they are earned.
 
 The trail to Eagle Scout is a structured path of seven ranks, each designed to progressively build your outdoor self-reliance, leadership capabilities, and service to your community.
 
----
-
 ## The Seven Ranks of Scouts BSA
 
 ```
@@ -32,8 +30,6 @@ During the first four ranks, you master the foundational outdoor and life skills
 3. **[Second Class](/scouts-bsa/ranks/second-class/)**: Expands your wilderness skills: map and compass navigation, building wood campfires, completing a 5-mile hike, identifying 10 wild animals, passing basic swimming water-entry tests, expanded first aid, 4 weeks of physical activity, and substance abuse prevention.
 4. **[First Class](/scouts-bsa/ranks/first-class/)**: The benchmark rank of the fully self-reliant outdoorsperson. You master pioneering lashings, 10 native plants, weather prediction, emergency water purification, GPS navigation, water rescue assists, advanced first aid, local civic governance, and leading camp cooking.
 
----
-
 ### The Advanced Ranks (Leadership, Merit Badges, and Service)
 Once you earn First Class, the focus shifts toward troop leadership, specialized merit badge study, and community service:
 
@@ -45,8 +41,6 @@ Once you earn First Class, the focus shifts toward troop leadership, specialized
    - Serve in a troop position of responsibility for at least 6 months as a Life Scout.
    - Plan, develop, and lead others in a major community service project (the **Eagle Scout Service Project**).
    - Successfully pass an Eagle Scout Board of Review before their 18th birthday.
-
----
 
 ## How Ranks Are Earned: Sequence and Rules
 

@@ -16,8 +16,6 @@ Describe the First Class Scout badge and tell what each part stands for. Explain
 
 Even before earning the First Class rank, every Scout in Scouts BSA wears the First Class emblem on their uniform hat, belt buckle, and council shoulder strips. The First Class badge is the universal symbol of the Scouting movement in the United States, carefully designed with rich historical symbolism in every element.
 
----
-
 ## The Parts of the First Class Badge and Their Meanings
 
 {{< drg/image src="images/first-class-badge-parts.png" alt="Diagram of the First Class badge with the trefoil outline, eagle and shield, scroll, knot, and two stars labeled" >}}
@@ -43,8 +41,6 @@ Even before earning the First Class rank, every Scout in Scouts BSA wears the Fi
 
 ### 5. The Knotted Cord at the Bottom
 - **The Scout Slogan**: Suspended from the bottom center of the scroll is an overhand knot. It serves as a constant physical reminder of the Scout Slogan: **"Do a Good Turn Daily."**
-
----
 
 ## The Progressive Ranks Built on the Badge
 

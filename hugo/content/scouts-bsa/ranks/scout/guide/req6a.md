@@ -16,15 +16,11 @@ With your parent or guardian, complete the exercises in the pamphlet<i> How to P
 
 Personal safety and protection are foundational to everything in Scouting. Scouting America requires every youth joining the program to complete the exercises in the parent guide pamphlet bound inside the front of the *Scouts BSA Handbook*.
 
----
-
 ## Purpose of the Parent's Guide
 
 This requirement is unique: **it is completed entirely at home with your parent or guardian**, rather than with your Scoutmaster or troop leaders. 
 
 The goal is to foster open, trusting family communication about personal safety, healthy boundaries, and what to do if you ever feel uncomfortable or unsafe in any environment—whether at school, sports, online, or in youth organizations.
-
----
 
 ## Key Safety Concepts to Discuss with Your Family
 
@@ -44,8 +40,6 @@ When working through the pamphlet exercises together, focus on these essential p
 
 ### 4. Establishing a Network of Trusted Adults
 - Identify at least three to five trusted adults outside your immediate family (such as teachers, school counselors, religious leaders, or Scout leaders) whom you can turn to if you ever need help or need to report unsafe behavior.
-
----
 
 ## Completing the Requirement
 

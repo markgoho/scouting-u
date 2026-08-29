@@ -16,8 +16,6 @@ Participate in a flag ceremony for your school, religious institution, chartered
 
 While Tenderfoot taught you the physical skills of handling, hoisting, and folding the flag, Second Class Requirement 8a asks you to take an active role in a formal **Flag Ceremony** in front of your troop, school, place of worship, chartered organization, or civic community.
 
----
-
 ## Roles on a Color Guard
 
 Serving on a **Color Guard** is an honor that requires teamwork, crisp marching, and precision:
@@ -26,8 +24,6 @@ Serving on a **Color Guard** is an honor that requires teamwork, crisp marching,
 - **Color Bearer (American Flag Bearer)**: Carries the United States flag. The U.S. flag is always carried on the right of the color guard (or slightly in front/center if there are multiple flags).
 - **Unit/State Flag Bearer**: Carries the troop, state, or organizational flag on the left of the U.S. flag.
 - **Color Guards (Escorts)**: Unarmed Scouts who march on the outside flanks of the flag bearers to protect and assist the flags.
-
----
 
 ## Standard Commands for a Troop Flag Ceremony
 
@@ -46,8 +42,6 @@ Whether opening a troop meeting or presenting colors at a community assembly, co
 7. **"Two!"**: The command to end the salute (everyone drops their hand smartly to their side).
 8. **"Color Guard, Reform!"**: The color guard steps back into formation facing the commander.
 9. **"Color Guard, Dismissed!"**: The guard marches smartly out of the room or returns to their seats.
-
----
 
 ## Participating in Other Settings
 

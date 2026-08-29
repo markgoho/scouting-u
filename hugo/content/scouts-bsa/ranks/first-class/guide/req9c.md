@@ -16,8 +16,6 @@ On a Scouting or family outing, take note of the trash and garbage you produce. 
 
 Living out the Outdoor Code and Leave No Trace principles means taking active responsibility for the waste we generate in camp. Requirement 9c is a hands-on, two-outing comparative experiment where you conduct a waste audit on a baseline outing, implement the **Three R's (Reduce, Recycle, Repurpose)**, and measure your results on a subsequent outing.
 
----
-
 ## Outing 1: Conducting Your Baseline Waste Audit
 
 On an initial troop campout or family outdoor excursion, observe and document the total amount of waste your group generates:
@@ -27,8 +25,6 @@ On an initial troop campout or family outdoor excursion, observe and document th
 - **Food Packaging**: Individual snack wrappers, juice boxes, frozen meal pouches, cardboard cartons.
 - **Organic Waste**: Leftover food scraps, potato peels, fruit rinds.
 - **Estimated Total Volume**: Count the number of full garbage bags filled over the weekend (or measure weight if scales are available).
-
----
 
 ## Developing Your Reduction Action Plan
 
@@ -48,8 +44,6 @@ Between your first and second outing, formulate a specific plan to tackle each c
 - **Gear Organization**: Use clean plastic food tubs with lids to organize patrol matches, spices, or small repair kits.
 - **Wash and Reuse**: Wash and dry heavy-duty freezer bags to use for multiple campouts.
 
----
-
 ## Outing 2: Putting the Plan into Action & Comparing Results
 
 Execute your plan on a similar second outing (e.g., a similar 2-day troop campout or day hike). Record your final waste metrics and create a comparison:
@@ -61,8 +55,6 @@ Execute your plan on a similar second outing (e.g., a similar 2-day troop campou
 | **Disposable Water Bottles** | 18 single-use bottles | 0 (all reusable canteens) | **100% eliminated** |
 | **Sorted Recyclables** | 0 lbs (all thrown in trash) | 6 lbs clean aluminum/cans | **6 lbs diverted from landfill** |
 | **Paper Plates Used** | 45 paper plates | 0 (used washable mess kits) | **100% eliminated** |
-
----
 
 ## Reflecting with Your Scoutmaster
 

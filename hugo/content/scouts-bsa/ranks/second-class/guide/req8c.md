@@ -16,8 +16,6 @@ With your parents or guardian, decide on an amount of money that you would like 
 
 The ninth point of the Scout Law states that **"A Scout is Thrifty."** Being thrifty means working to pay your own way, managing money responsibly, and planning ahead. In Requirement 8c, you will partner with your parent or guardian to select a specific item you want to purchase, create a written earning plan, execute that plan, and reflect on the outcome.
 
----
-
 ## Step 1: Selecting a Specific Purchase Goal
 
 Choose a concrete item with a real price tag rather than a vague amount of money. Good examples include:
@@ -26,8 +24,6 @@ Choose a concrete item with a real price tag rather than a vague amount of money
 - A personal hobby or school item (e.g., bicycle accessories, books, or sports gear).
 
 Sit down with your parent or guardian to confirm the estimated cost and agree on an achievable target amount to earn.
-
----
 
 ## Step 2: Developing Your Written Plan
 
@@ -39,8 +35,6 @@ Write out your plan on paper or in your notebook. A complete plan must answer:
    - *Entrepreneurial Projects*: Selling handmade crafts, baked goods, or yard-sale items.
 3. **Timeline**: How many weeks will your plan take, and how much do you plan to earn per week?
 
----
-
 ## Step 3: Following the Plan and Keeping an Earning Log
 
 Track your progress as you work. Keeping a simple written log proves that you followed your plan:
@@ -51,8 +45,6 @@ Track your progress as you work. Keeping a simple written log proves that you fo
 | **Oct 5** | Raked neighbor's front yard and bagged leaves | Mr. Davis | 2 hrs | $25.00 | $25.00 |
 | **Oct 12** | Washed and vacuumed two family cars | Parents | 1.5 hrs | $20.00 | $45.00 |
 | **Oct 19** | Walked neighbor's dog (4 days) | Mrs. Higgins | 2 hrs | $20.00 | $65.00 |
-
----
 
 ## Step 4: Adapting to Changes and Evaluating Success
 

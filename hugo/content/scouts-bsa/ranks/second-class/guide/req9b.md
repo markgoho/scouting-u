@@ -16,8 +16,6 @@ Describe bullying; tell what the appropriate response is to someone who is bully
 
 Bullying contradicts the core values of the Scout Oath and Scout Law—especially the promises to be *Friendly*, *Courteous*, *Kind*, and *Brave*. Second Class Requirement 9b asks you to understand what bullying is, recognize its various forms, and know how to respond effectively whether it happens to you or to someone else.
 
----
-
 ## What Is Bullying?
 
 Bullying is defined as **unwanted, aggressive behavior** among peers that involves a real or perceived **power imbalance** (such as differences in physical size, age, social status, or numbers) and is **repeated over time** (or has the high potential to be repeated).
@@ -29,8 +27,6 @@ Bullying is defined as **unwanted, aggressive behavior** among peers that involv
 3. **Social and Relational Bullying**: Intentionally excluding someone from a group, lunch table, or game; spreading malicious rumors; telling others not to be friends with someone; or publicly humiliating a peer.
 4. **Cyberbullying**: Using digital devices, text messaging, gaming chats, or social media platforms to send cruel messages, post rumors, share private or embarrassing photos/videos without permission, or create fake profiles to harass someone.
 
----
-
 ## How to Respond If You Are Being Bullied
 
 1. **Stay Calm and Do Not Retaliate**: Bullies look for an angry, fearful, or emotional reaction. Fighting back physically or shouting insults often escalates the conflict and puts you at risk of discipline.
@@ -41,8 +37,6 @@ Bullying is defined as **unwanted, aggressive behavior** among peers that involv
    - **Save the Evidence**: Take screenshots of threatening messages, comments, or posts with dates and usernames.
    - **Block and Report**: Block the bully's account and report the harassment to the platform administrator.
 5. **Report to a Trusted Adult**: Tell a parent, teacher, school counselor, or Scoutmaster right away.
-
----
 
 ## Being an "Upstander," Not a Passive Bystander
 

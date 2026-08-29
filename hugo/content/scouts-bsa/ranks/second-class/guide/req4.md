@@ -27,8 +27,6 @@ The requirement encompasses both **vertebrates** (animals with a backbone) and *
 5. **Fish**: Cold-blooded aquatic vertebrates that breathe through gills and maneuver with fins (e.g., largemouth bass, bluegill sunfish, brook trout, channel catfish).
 6. **Mollusks & Arthropods**: Invertebrates including shelled mollusks (freshwater mussels, land snails) and arthropods with jointed exoskeletons (dragonflies, butterflies, crayfish, orb-weaver spiders).
 
----
-
 ## Gathering Evidence: The Four Senses
 
 {{< drg/image src="images/common-animal-tracks.png" alt="Side-by-side comparison of common mammal track patterns, sized and labeled by species" >}}
@@ -59,8 +57,6 @@ When searching for wildlife in your community or on the trail, employ four obser
   - *Carnivore Scat*: Tapered, cylindrical droppings containing fur, feathers, and small bone fragments (e.g., foxes, bobcats, owls).
   - *Omnivore Scat*: Irregular droppings containing a mix of berry seeds, insect exoskeletons, plant matter, and animal hair (e.g., raccoons, coyotes, black bears).
 
----
-
 ## Reading and Preserving Animal Tracks
 
 Tracks reveal not just an animal's species, but its speed, direction, weight, and behavior.
@@ -79,8 +75,6 @@ Preserving a clean track creates a permanent record for your wildlife log:
 3. **Mix the Plaster**: In a clean disposable container, add Plaster of Paris to clean water, stirring until it reaches the consistency of smooth, thick pancake batter (no lumps).
 4. **Pour the Cast**: Pour the plaster mixture gently inside the cardboard ring, letting it flow into the depressions of the track without splashing or dislodging fine soil details. Fill the collar to a depth of about 1 inch.
 5. **Cure and Finish**: Allow the cast to harden undisturbed for **15 to 20 minutes**. Once firm, gently dig beneath the collar and lift the cast out. Allow it to fully dry for several hours, then brush away remaining soil under running water. On the back, use a waterproof marker to record the date, location, habitat type, and animal species.
-
----
 
 ## Outdoor Ethics and Safe Stalking
 

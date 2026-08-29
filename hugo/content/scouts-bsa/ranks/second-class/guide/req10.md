@@ -16,8 +16,6 @@ Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you ha
 
 For Second Class, demonstrating Scout spirit continues your personal reflection on how the Scout Oath and Scout Law shape your character. Requirement 10 asks you to tell your Scoutmaster how you have fulfilled your **Duty to God** and how you have lived **four new, different points of the Scout Law** that you did not use for your Tenderfoot conference.
 
----
-
 ## 1. Fulfilling Your Duty to God
 
 Scouting respects the personal faith traditions and spiritual convictions of all members. The Scout Oath begins with the promise to do your "duty to God," and the twelfth point of the Scout Law affirms that "A Scout is reverent."
@@ -28,8 +26,6 @@ Be prepared to discuss how your spiritual values guide your daily life:
 - Living the moral principles of your faith in how you treat family, classmates, and neighbors.
 - Experiencing reverence in the outdoors—stopping to appreciate the beauty of sunrise, starry skies, or mountain summits on troop campouts.
 - Working toward or earning your religious organization's **Religious Emblems Award**.
-
----
 
 ## 2. Living Four NEW Points of the Scout Law
 
@@ -51,8 +47,6 @@ Review your notes from your [Tenderfoot Requirement 9](/scouts-bsa/ranks/tenderf
 - **Obedient**: *"Even when I really wanted to stay out late with friends, I respected my parents' curfew and arrived home on time."*
 - **Brave**: *"I raised my hand in class to admit that I made an error on our group presentation rather than letting my group take the blame."*
 - **Clean**: *"I spent extra time at the end of our patrol campout picking up micro-trash and cleaning out the patrol cookbox so everything was sanitary."*
-
----
 
 ## Preparing for Your Conference
 

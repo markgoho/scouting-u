@@ -24,8 +24,6 @@ Building, managing, and completely extinguishing a campfire is one of the most f
 4. **Inspect Overhead Clearance:** Ensure there are no low-hanging branches, tree canopies, or dining tarps within 15 feet overhead.
 5. **Safety Tools on Standby:** Have a full bucket of water and a camp shovel standing right next to the fire ring *before* striking a match.
 
----
-
 ## Fire Lay Structures
 
 {{< drg/image src="images/teepee-log-cabin-fire-lay.png" alt="Side-by-side comparison of a teepee fire lay and a log-cabin fire lay, both built around a tinder bundle" >}}
@@ -46,16 +44,12 @@ Building, managing, and completely extinguishing a campfire is one of the most f
 - Place your tinder nest underneath the angled stick.
 - Lean small kindling sticks against the support stick over the tinder. The support stick shields the delicate flame from strong wind gusts while drawing airflow upward.
 
----
-
 ## Lighting and the 2-Minute Burn
 
 1. **Light from the Bottom Upwind:** Crouch with your back to the wind to shield the match. Reach through the opening and light the bottom of the tinder bundle.
 2. **Give It Air:** Fire requires oxygen. If the flame flickers, blow gently at the very base of the tinder to help it catch the kindling.
 3. **Feed Gradually:** As the kindling catches, add slightly larger sticks one by one. Never dump a heavy log onto a fledgling fire.
 4. **Monitor Safely for 2 Minutes:** Stand or sit behind the safety ring and watch the flames burn steadily and under control for at least two minutes without leaving the perimeter.
-
----
 
 ## Extinguishing the Fire: The "Cold Out" Standard
 

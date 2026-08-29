@@ -16,8 +16,6 @@ Develop and describe a plan for improvement in each of the activities listed in 
 
 A baseline number from Requirement 6a is only a starting point. Requirement 6b is where you translate your baseline into an actionable, daily physical fitness plan and prove your commitment by tracking your activity for at least **30 consecutive days**.
 
----
-
 ## Designing Your Plan: The F.I.T.T. Principle
 
 Athletes and fitness trainers design effective conditioning programs using the **F.I.T.T. Principle**:
@@ -26,8 +24,6 @@ Athletes and fitness trainers design effective conditioning programs using the *
 - **Intensity**: How hard you work during exercise (e.g., moderate effort where your heart rate elevates and breathing quickens, but you can still speak in short sentences).
 - **Time (Duration)**: How long each session lasts (e.g., 20 to 45 minutes per workout).
 - **Type**: The specific variety of exercise chosen to target each fitness component.
-
----
 
 ## Specific Action Plans for the Four Fitness Areas
 
@@ -57,8 +53,6 @@ Your 30-day plan must include specific training activities for each of the four 
 - **Progression**: If running a full mile without stopping is challenging, use a **run/walk interval method**: alternate running for 1 to 2 minutes with walking briskly for 1 minute for a total of 20–30 minutes. Gradually lengthen the running intervals and shorten the walking breaks until you can jog or run the full mile continuously.
 - **Cross-Training**: Bicycling, swimming laps, playing active sports (soccer, basketball), or hiking with a daypack.
 
----
-
 ## Supporting Your Fitness: Nutrition, Hydration, and Sleep
 
 Physical exercise breaks down muscle tissue; proper nutrition, hydration, and rest rebuild it stronger.
@@ -66,8 +60,6 @@ Physical exercise breaks down muscle tissue; proper nutrition, hydration, and re
 - **Balanced Nutrition**: Fuel your body with nutrient-dense foods across all major food groups: lean proteins (chicken, fish, beans, eggs) for muscle repair; complex carbohydrates (brown rice, whole-grain bread, oats) for sustained energy; healthy fats (nuts, seeds, olive oil); and fresh fruits and vegetables for vital micronutrients and fiber.
 - **Consistent Hydration**: Drink water steadily throughout the day. Dehydration reduces muscle endurance, causes cramping, and impairs concentration.
 - **9 to 10 Hours of Sleep**: Growing adolescents require **9 to 10 hours of quality sleep each night**. Essential human growth hormones are released during deep sleep cycles to repair muscle tissue, strengthen bones, and refresh mental alertness. Turn off electronic screens (phones, tablets, TV) at least 1 hour before bed to prevent blue light from suppressing natural melatonin production.
-
----
 
 ## Keeping Your 30-Day Activity Log
 

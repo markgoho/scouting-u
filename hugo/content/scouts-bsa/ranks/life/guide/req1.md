@@ -16,8 +16,6 @@ Be active in your troop for at least six months as a Star Scout.
 
 Star required four months of active tenure. Life extends that commitment to **at least six months** as an active Star Scout. This six-month tenure reflects the maturity and sustained dedication expected of a senior candidate preparing for the highest ranks in Scouting.
 
----
-
 ## 1. What "Active Participation" Means at the Life Level
 
 Under the *Guide to Advancement* (topic 4.2.3.1), active participation is evaluated using three standard criteria:
@@ -30,15 +28,11 @@ Under the *Guide to Advancement* (topic 4.2.3.1), active participation is evalua
 As a Star Scout advancing to Life, active participation goes beyond merely showing up. You are expected to set a positive example for younger Scouts, assist in meeting setup and breakdown, participate in troop ceremonies, and support the Senior Patrol Leader and patrol leaders.
 {{< /drg/did-you-know >}}
 
----
-
 ## 2. Calculating the Six-Month Clock
 
 - **Start Date**: The six-month clock begins on the day you successfully completed your **Star Board of Review**.
 - **Example**: If you earned Star on March 10, your earliest eligible date for a Life board of review is September 10 of that year.
 - **Concurrent Requirements**: All other Life requirements—such as earning merit badges, performing conservation service, serving in a leadership position, and teaching with the EDGE method—can be completed concurrently during this six-month period.
-
----
 
 ## 3. Balancing School, Sports, and Scouting
 

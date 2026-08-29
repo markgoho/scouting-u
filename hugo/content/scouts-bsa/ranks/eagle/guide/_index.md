@@ -57,8 +57,6 @@ Eagle Scout is the highest and most revered rank in Scouts BSA, earned by only a
 
 The Eagle Scout journey brings together every skill and value you have cultivated since joining Scouting. You will complete 21 merit badges, serve actively for at least six months in an approved youth leadership position, conceptualize, plan, fund, and lead an extensive service project for your community, prepare written statements and references, complete a comprehensive Scoutmaster conference, and successfully pass an Eagle Scout Board of Review.
 
----
-
 ## The Seven Requirements for Eagle Scout
 
 1. **Active Tenure as a Life Scout ([Requirement 1](/scouts-bsa/ranks/eagle/guide/req1/))**: Be active in your troop, crew, or ship for at least six months after earning the Life rank.
@@ -68,8 +66,6 @@ The Eagle Scout journey brings together every skill and value you have cultivate
 5. **The Eagle Scout Service Project ([Requirement 5](/scouts-bsa/ranks/eagle/guide/req5/))**: Plan, develop, and give leadership to others in a service project helpful to a religious institution, school, or community organization using the official workbook.
 6. **Scoutmaster Conference ([Requirement 6](/scouts-bsa/ranks/eagle/guide/req6/))**: Complete a unit leader conference reviewing your readiness and application packet.
 7. **Eagle Scout Board of Review ([Requirement 7](/scouts-bsa/ranks/eagle/guide/req7/))**: Submit a Statement of Ambitions and Life Purpose, leadership/honors listing, and successfully pass an Eagle Scout Board of Review.
-
----
 
 ## The Eagle Roadmap & Timeline
 

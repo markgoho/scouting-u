@@ -16,16 +16,12 @@ Do the following:
 
 Personal safety and youth protection are foundational to every activity in Scouting America. Requirement 6 ensures that as you mature into a senior Scout and leader, you and your family maintain open communication about personal boundaries, online safety, and recognizing potential risks.
 
----
-
 ## The Sub-Requirements
 
 Requirement 6 is divided into two focused sections:
 
 1. **[Requirement 6a: Child Protection Exercises](/scouts-bsa/ranks/star/guide/req6a/)**: Complete the family exercises in the pamphlet *How to Protect Your Children from Child Abuse: A Parent's Guide* together with your parent or guardian.
 2. **[Requirement 6b: Personal Safety Awareness Videos](/scouts-bsa/ranks/star/guide/req6b/)**: Watch and discuss the official Scouting America Personal Safety Awareness videos with your parent or guardian's permission.
-
----
 
 ## How to Complete This Requirement
 

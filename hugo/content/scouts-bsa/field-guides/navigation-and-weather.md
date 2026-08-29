@@ -5,8 +5,6 @@ description: "A comprehensive backcountry navigation and meteorology manual cove
 
 Precision navigation and weather awareness are the core survival skills of the wilderness traveler. Being able to read the land, plot an accurate course across trackless terrain, and predict approaching storms from cloud and barometric cues keeps a patrol safe and self-reliant.
 
----
-
 ## 1. Topographic Map Fundamentals
 
 Topographic maps represent the three-dimensional shapes of the Earth’s surface on a flat two-dimensional plane using **contour lines**.
@@ -19,8 +17,6 @@ The standard United States Geological Survey (USGS) 7.5-minute quadrangle map us
 - **$1\text{ centimeter on map} = 240\text{ meters on ground}$**
 - **$2.64\text{ inches on map} = 1\text{ statute mile}$**
 
----
-
 ### Reading Contour Lines & Terrain Features
 
 - **Index Contours:** Heavy, bold brown lines with elevation numbers printed periodically (typically every 5th line, e.g., 1,000 ft, 1,100 ft).
@@ -30,8 +26,6 @@ The standard United States Geological Survey (USGS) 7.5-minute quadrangle map us
   - *Widely spaced contours:* Flat terrain, broad valleys, gentle meadows.
   - *Closely spaced contours:* Steep hillsides, cliffs, canyons.
   - *Contour lines touching or merging:* Vertical cliff face or escarpment.
-
----
 
 ### UTM (Universal Transverse Mercator) & MGRS Grid Coordinates
 
@@ -43,8 +37,6 @@ The UTM grid system divides the globe into 60 zones of 6° longitude each and ov
   - Northing (3 digits): `735` (Row line `73` plus `500` meters north).
   - Combined Coordinate: `482 735` (Pinpoints a 100m x 100m square).
 - **Using a Corner Roamer / Coordinate Scale:** Place the corner of a 1:24,000 metric roamer on the target point and read the precise meters from the grid lines.
-
----
 
 ## 2. Compass Mechanics & Bearing Mastery
 
@@ -60,8 +52,6 @@ A standard baseplate (orienteering) compass is a precision navigational instrume
 5. **Orienting Arrow ("The Shed"):** Outline arrow inside the housing floor.
 6. **Orienting Lines:** Parallel lines aligned with map North-South grid lines.
 7. **Index Mark:** The fixed line at the top of the housing where bearings are read.
-
----
 
 ### Step-by-Step Bearing Protocols
 
@@ -83,8 +73,6 @@ A standard baseplate (orienteering) compass is a precision navigational instrume
 - Sight along the Direction of Travel Arrow to identify a distinct intermediate landmark on the horizon (e.g., a lightning-struck pine, unique rock boulder).
 - Walk directly to that intermediate landmark without looking at the compass.
 - Repeat the process from that landmark to the next waypoint.
-
----
 
 ## 3. Magnetic Declination De-Mystified
 
@@ -109,8 +97,6 @@ A standard baseplate (orienteering) compass is a precision navigational instrume
 {{< drg/tip >}}
 **Adjustable Declination Compasses:** Always invest in a compass with an internal adjustable declination screw (e.g., Suunto MC-2, Brunton TruArc, Silva Ranger). Turn the gear on the back of the bezel to offset the orienting arrow by your local declination. Once set, **all conversions are completely automatic**—you can read map bearings directly without doing math in the field!
 {{< /drg/tip >}}
-
----
 
 ## 4. Pace Factor & Distance Estimation
 
@@ -139,11 +125,7 @@ Night / darkness navigation  x 1.15                    69 paces / 100m
 - **Upper Tier (4 beads):** When all 9 lower beads are down and you complete the 10th hundred-meter increment (1,000 meters / 1 km), slide all 9 lower beads back up and slide **one upper bead down**.
 - Total tracking capacity: $4\text{ km} + 900\text{ m} = 4.9\text{ km}$.
 
----
-
 ## 5. Advanced Wilderness Navigation Tactics
-
----
 
 ### A. Triangulation / Resection (Finding Your Unknown Position)
 When you are lost on a map but can see two or three identifiable landmarks on the horizon:
@@ -156,15 +138,11 @@ When you are lost on a map but can see two or three identifiable landmarks on th
 4. Shoot a bearing to a distant **Landmark B** (ideally 60° to 90° away from Landmark A) and draw its back-azimuth line.
 5. The point where the lines intersect is your precise map position. (A 3rd landmark forms a small "triangle of error" for confirmation).
 
----
-
 ### B. Aiming Off
 When navigating toward a specific linear point feature (e.g., a footbridge, trail junction, water spring on a creek) across dense forest or fog:
 
 - **The Problem:** If you aim directly at the bridge and reach the creek, you will not know whether the bridge is upstream to your left or downstream to your right.
 - **The Solution:** Deliberately aim **3° to 5° to the right (or left)** of the bridge. When you hit the creek, you know with 100% certainty that the bridge is to your left. Turn left and follow the creek bank directly to the target.
-
----
 
 ### C. Boxing an Obstacle (90° Offset Method)
 When an impassable obstacle (swamp, cliff, deep pond) blocks your direct bearing:
@@ -175,8 +153,6 @@ When an impassable obstacle (swamp, cliff, deep pond) blocks your direct bearing
 4. Turn **90° Right** and walk the exact same offset distance (**50 paces**).
 5. Turn **90° Left** to return to your original bearing line and resume your master pace count.
 
----
-
 ## 6. Backcountry Weather Forecasting Toolkit
 
 Weather in mountainous and backcountry environments changes violently. Knowing how to read clouds, wind shifts, and barometric pressure trends allows a patrol to seek shelter before disaster strikes.
@@ -185,16 +161,12 @@ Weather in mountainous and backcountry environments changes violently. Knowing h
 
 ![Cloud Classification and Weather Forecasting Chart](/img/diagrams/cloud-types-weather.png)
 
----
-
 ### Frontal Systems & Barometric Trends
 
 | Frontal Type | Cloud Sequence | Wind Behavior | Temperature & Pressure | Associated Weather |
 | :--- | :--- | :--- | :--- | :--- |
 | **Cold Front** | Cumulus $\rightarrow$ Rapid towering Cumulonimbus | Shifting sharply from **South/SW to West/NW** | Rapid drop in pressure, followed by rapid plunge in temp | Violent squall lines, intense downpours, lightning, followed by cold, crisp, clear high pressure |
 | **Warm Front** | Cirrus $\rightarrow$ Cirrostratus $\rightarrow$ Altostratus $\rightarrow$ Nimbostratus | Shifting gradually from **East/SE to South** | Slow steady pressure fall; steady temp rise | Widespread, prolonged steady rain/drizzle lasting 12 to 36 hours; low fog and poor visibility |
-
----
 
 ### Buys-Ballot's Law & Natural Weather Signs
 
@@ -206,8 +178,6 @@ Weather in mountainous and backcountry environments changes violently. Knowing h
    - *Smoke rises straight and tall:* Indicates stable high atmospheric pressure and fair weather.
    - *Smoke stays low, curls downward, or flattens:* Indicates low barometric pressure and humid air preceding an incoming storm.
 
----
-
 {{< drg/checklist title="Navigation & Route Plan Preparation Checklist" subtitle="Complete this navigational audit prior to stepping off on any backcountry trek" >}}
 - [ ] **Topographic Maps:** 1:24,000 USGS or waterproof trail maps covering entire trek route plus adjacent escape corridors; stored in heavy-duty waterproof clear map case.
 - [ ] **Magnetic Compass:** Sighting baseplate compass with liquid-filled capsule, 2° bezel graduations, magnifying lens, and adjustable declination pre-set for local magnetic zone.
@@ -216,8 +186,6 @@ Weather in mountainous and backcountry environments changes violently. Knowing h
 - [ ] **Route Plan & Intentions:** Written trip plan filed with Scoutmaster/parents and local ranger station, specifying route waypoints, planned campsites, emergency bail-out escape routes, and strict overdue SAR notification deadline.
 - [ ] **Altimeter & Barometer:** Calibrated digital barometric altimeter or watch to track elevation contours and barometric pressure drops.
 {{< /drg/checklist >}}
-
----
 
 {{< drg/safety-first >}}
 **Lightning Safety in the Backcountry (The 30-30 Rule):**

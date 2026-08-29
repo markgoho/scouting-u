@@ -65,8 +65,6 @@ Earning Star Scout marks a major turning point in your Scouting journey. The fir
 
 Star is the first of the three senior advancement ranks—Star, Life, and Eagle. Advancement is no longer measured solely by individual skill demonstrations; it is built on sustained active tenure, meaningful service, holding a position of responsibility, and earning merit badges toward the Eagle Scout rank.
 
----
-
 ## The Core Pillars of Star Scout
 
 To earn the Star rank, you will complete eight core requirements organized around five major areas of growth:
@@ -78,8 +76,6 @@ To earn the Star rank, you will complete eight core requirements organized aroun
 5. **Leadership & Responsibility ([Requirement 5](/scouts-bsa/ranks/star/guide/req5/))**: Serve actively for at least four months in an approved youth leadership position within your troop, crew, ship, or community.
 6. **Personal Protection ([Requirements 6, 6a, 6b](/scouts-bsa/ranks/star/guide/req6/))**: Complete child abuse prevention exercises with your parent or guardian and review Personal Safety Awareness materials.
 7. **Mentorship & Evaluation ([Requirements 7 & 8](/scouts-bsa/ranks/star/guide/req7/))**: Complete a Scoutmaster conference and successfully participate in a board of review.
-
----
 
 ## Strategy for Success
 

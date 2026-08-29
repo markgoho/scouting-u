@@ -16,8 +16,6 @@ Describe what merit badges are and how they are earned.
 
 Merit badges give Scouts the opportunity to explore more than 135 specialized subjects—from aviation and robotics to wilderness survival, scuba diving, and personal finance. They allow you to discover potential career paths, develop lifelong hobbies, and master essential life skills.
 
----
-
 ## Types of Merit Badges
 
 Merit badges are divided into two primary categories:
@@ -38,8 +36,6 @@ Merit badges are divided into two primary categories:
    - Camping
    - Family Life
 2. **Elective Merit Badges**: These badges feature a **green border** and cover hundreds of diverse disciplines (e.g., Archery, Astronomy, Woodwork, Game Design, Nuclear Science). You choose the subjects that match your personal passions.
-
----
 
 ## The Step-by-Step Process to Earn a Merit Badge
 

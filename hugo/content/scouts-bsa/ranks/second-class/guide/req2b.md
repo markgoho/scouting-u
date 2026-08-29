@@ -24,8 +24,6 @@ Every successful campfire depends on proper preparation before striking a match.
 | **2. Kindling** | Pencil-thin to thumb-thick (1/4" to 1" diameter), 6–12" long | Small dead twigs snapped from lower dead branches, dry split sticks, or batoned wood | Sustains the initial flame from the tinder and builds enough heat to ignite large fuel logs. |
 | **3. Fuel Wood** | Wrist-thick to forearm-thick (1" to 3" diameter), 12–18" long | Fallen, dead hardwood branches (oak, maple, ash, hickory) or dry softwood (pine, fir) | Provides sustained heat, flame, and a durable bed of glowing coals for cooking. |
 
----
-
 ## Preparing Materials with Your Woods Tools
 
 ### 1. Whittle Feather Sticks (Fuzz Sticks) with a Pocketknife

@@ -16,8 +16,6 @@ At a minimum of three locations, compare the cost of the item for which you are 
 
 Earning money through your own labor in [Requirement 8c](/scouts-bsa/ranks/second-class/guide/req8c/) is the first half of financial literacy. Requirement 8d teaches the second essential skill: **smart consumer comparison shopping** and making deliberate decisions about how to allocate your hard-earned funds.
 
----
-
 ## Part 1: Comparing Costs at Three Locations
 
 Before buying your target item, research its price across at least **three different retail sources**—such as a local specialty outfitter, a general department store, and an online merchant.
@@ -35,8 +33,6 @@ When comparing prices, look beyond the base shelf price to calculate the true fi
 | **1. Local Outdoor Shop** | Brick-and-mortar | $45.00 | +$3.15 tax | **$48.15** | Can try on in store; expert fitting advice; immediate pickup |
 | **2. Major Online Retailer** | Website | $38.99 | +$5.99 ship + $2.73 tax | **$47.71** | 5-day standard shipping delay |
 | **3. Discount Big-Box Store**| Department store | $42.00 | +$2.94 tax | **$44.94** | Generic store brand; 30-day return window |
-
----
 
 ## Part 2: Making Your Financial Decision
 

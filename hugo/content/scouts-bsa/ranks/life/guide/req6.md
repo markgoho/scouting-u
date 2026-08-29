@@ -23,8 +23,6 @@ While a Star Scout, use the Teaching EDGE method to teach another Scout (prefera
 7. First Class - 7a and 7b (first aid)
 8. Three requirements from one of the required for Eagle merit badges, as approved by your Scoutmaster
 
----
-
 ## 1. Understanding the Teaching EDGE Method
 
 The **Teaching EDGE** is Scouting America's official four-step instructional framework. It is designed to take a learner from complete unfamiliarity with a skill to confident, independent execution:
@@ -48,8 +46,6 @@ The **Teaching EDGE** is Scouting America's official four-step instructional fra
 {{< drg/did-you-know >}}
 Skipping any step of the EDGE method—such as jumping directly from Explain to Guide, or leaving out the independent Enable step—diminishes learning retention. All four steps must be executed in sequence.
 {{< /drg/did-you-know >}}
-
----
 
 ## 2. Comprehensive Breakdown of the Eight Skill Choices
 
@@ -85,8 +81,6 @@ You must select **ONE** of the following eight options to teach. Whichever choic
 
 ### Choice 8: Three Requirements from an Eagle-Required Merit Badge
 - Teach three specific requirements from an Eagle-required merit badge (such as First Aid, Camping, Cooking, or Emergency Preparedness), as approved in advance by your Scoutmaster.
-
----
 
 ## 3. The "Prepared to Pass" Standard
 

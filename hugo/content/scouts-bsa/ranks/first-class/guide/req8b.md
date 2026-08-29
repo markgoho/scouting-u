@@ -16,8 +16,6 @@ Share your challenges and successes in completing First Class requirement 8a. Se
 
 Requirement 8b represents a major milestone on your path through the foundational ranks of Scouting. Having completed both a 30-day improvement plan in Tenderfoot and two separate four-week activity cycles in Second Class and First Class, you have developed the self-discipline and habits needed to maintain lifelong physical fitness.
 
----
-
 ## Evaluating Your Progress: Second Class vs. First Class
 
 Before your Scoutmaster conference, review your activity logs from both Second Class (7a) and First Class (8a). Prepare to discuss:
@@ -31,8 +29,6 @@ Before your Scoutmaster conference, review your activity logs from both Second C
 - **Wilderness Readiness**: In what ways did your improved stamina and strength enhance your outdoor performance on hikes, campouts, and water activities?
 - **Holistic Health**: How did consistent exercise impact your sleep quality, stress levels, energy throughout the school day, and mental focus?
 
----
-
 ## Setting a Lifelong Physical Fitness Goal
 
 Now that rank requirements have established the exercise habit, Requirement 8b asks you to set a goal that ensures physical fitness remains part of your daily life indefinitely.
@@ -42,8 +38,6 @@ Now that rank requirements have established the exercise habit, Requirement 8b a
 - **Eagle-Required Merit Badge Readiness**: Using your fitness base to earn the **Personal Fitness**, **Swimming**, **Hiking**, or **Cycling** merit badges required for the Eagle Scout rank.
 - **Athletic and Outdoor Pursuits**: Committing to school or community athletic teams, cycling clubs, running 5K/10K races, or climbing expeditions.
 - **Daily Active Living**: Setting a permanent routine—such as walking or biking to school, dedicating 45 minutes to exercise 4 days a week, or leading weekly patrol fitness workouts.
-
----
 
 ## The Broader Picture: Lifelong Wellness
 

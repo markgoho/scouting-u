@@ -16,8 +16,6 @@ As a First Class Scout, demonstrate Scout spirit by living the Scout Oath and Sc
 
 For Tenderfoot, Second Class, and First Class, you selected four specific points of the Scout Law at each rank to illustrate how you practiced Scout spirit. At Star Scout, the expectation deepens: you are asked to demonstrate how the entire Scout Oath and Scout Law shape your everyday life and conduct.
 
----
-
 ## 1. Understanding Scout Spirit at the Star Level
 
 Scout spirit is not measured by reciting the Oath and Law from memory. It is demonstrated by your daily attitude, personal integrity, how you treat others, and how you uphold Scouting values when nobody is watching.
@@ -28,8 +26,6 @@ As a senior youth candidate, your actions directly influence newer Scouts in the
 - **In Extracurriculars & Athletics**: Exhibiting good sportsmanship, supporting teammates, showing grace in both victory and defeat, and giving full effort.
 - **Online & On Social Media**: Communicating respectfully, protecting personal privacy, refraining from cyberbullying or spreading rumors, and reflecting positive values in digital spaces.
 
----
-
 ## 2. Explaining Your Duty to God
 
 Scouting America embraces a broad, inclusive understanding of Duty to God, welcoming youth and families of all faiths, beliefs, and religious traditions. 
@@ -38,8 +34,6 @@ When discussing Duty to God with your Scoutmaster:
 - Reflect on your personal faith tradition, family values, or spiritual convictions.
 - Provide concrete examples: participating in religious services, offering prayers of gratitude, observing holy days, helping someone in need, caring for nature and creation, or demonstrating kindness and compassion as guided by your beliefs.
 - If your family does not belong to a formal religious congregation, describe how your family practices reverence, gratitude, ethical responsibility, and respect for others.
-
----
 
 ## 3. Preparing for Your Scoutmaster Discussion
 

@@ -16,8 +16,6 @@ Participate in two hours of service through one or more service projects approve
 
 Building on the single service hour you completed for [Tenderfoot Requirement 7b](/scouts-bsa/ranks/tenderfoot/guide/req7b/), Second Class Requirement 8e expands your civic contribution to **two hours of approved service** and asks you to reflect on how your work directly embodies the **Scout Oath**.
 
----
-
 ## 1. Planning and Scoutmaster Pre-Approval
 
 Just like all rank-advancement service in Scouting, your two hours must be **approved in advance by your Scoutmaster**. 
@@ -32,8 +30,6 @@ Just like all rank-advancement service in Scouting, your two hours must be **app
 - **Hunger Relief & Community Drives**: Sorting food at a food bank, organizing clothing collections, or packing holiday meal kits for families in need.
 - **Facility Maintenance**: Repairing benches, painting fences, or landscaping at your chartered organization or community center.
 - **Eagle Scout Service Projects**: Lending your labor and teamwork to an older Scout's Eagle project.
-
----
 
 ## 2. Connecting Your Service to the Scout Oath
 

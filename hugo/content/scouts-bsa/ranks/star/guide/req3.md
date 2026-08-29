@@ -16,8 +16,6 @@ Earn six merit badges, including any four from the required list for Eagle. You 
 
 Requirement 3 marks the beginning of the formal merit badge requirement path in Scouts BSA advancement. While you may have earned merit badges earlier in your Scouting career, Star is the first rank where earning merit badges is required to advance.
 
----
-
 ## 1. How Merit Badges Work
 
 The merit badge program introduces you to over 135 subjects ranging from outdoor survival and environmental science to aviation, robotics, personal finance, and public health.
@@ -27,8 +25,6 @@ The official process for earning any merit badge involves four key steps:
 2. **Connect with a Registered Counselor**: Your Scoutmaster or unit advancement coordinator will provide the contact details of a qualified, registered merit badge counselor.
 3. **Complete the Requirements**: Meet with your counselor (always following Youth Protection guidelines and the buddy system). Work through the requirements exactly as stated—nothing may be added, and nothing may be omitted.
 4. **Final Sign-Off & Recording**: Once all requirements are fulfilled to the counselor's satisfaction, the counselor signs the blue card or submits completion via Scoutbook. Turn in your completed record to your troop advancement coordinator.
-
----
 
 ## 2. Understanding the Eagle-Required Merit Badge Categories
 
@@ -51,8 +47,6 @@ Eagle Scout requires a total of 21 merit badges, of which 13 specific subjects/c
 {{< drg/did-you-know >}}
 Any merit badge you earned as a Scout, Tenderfoot, Second Class, or First Class counts toward your six merit badges for Star. You do not need to earn all six during your four months as a First Class Scout.
 {{< /drg/did-you-know >}}
-
----
 
 ## 3. Strategic Selection: Picking Your Four Eagle-Required Badges
 

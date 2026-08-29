@@ -16,8 +16,6 @@ Share your challenges and successes in completing Second Class requirement 7a. S
 
 Completing four weeks of consistent physical activity in [Requirement 7a](/scouts-bsa/ranks/second-class/guide/req7a/) proves that you can establish a healthy exercise habit. Requirement 7b is where you evaluate your journey, discuss your insights with your Scoutmaster or adult leader, and establish a long-term goal and plan to keep daily fitness an enduring part of your life.
 
----
-
 ## Reflecting on Challenges and Successes
 
 Review your 4-week activity log honestly before your conference. Be prepared to discuss concrete examples:
@@ -32,8 +30,6 @@ Review your 4-week activity log honestly before your conference. Be prepared to 
 - **Weather Disruptions**: What did you do when rain, extreme heat, or cold interfered with outdoor sports or cycling?
 - **Motivation & Fatigue**: How did you push through days when you felt tired or tempted to skip?
 
----
-
 ## Setting a S.M.A.R.T. Fitness Goal
 
 A vague wish like "I want to be more active" rarely leads to lasting change. Set a goal that follows the **S.M.A.R.T.** framework:
@@ -43,8 +39,6 @@ A vague wish like "I want to be more active" rarely leads to lasting change. Set
 - **A - Achievable**: Set a goal that challenges you but is realistically attainable given your current fitness and schedule.
 - **R - Relevant**: Choose a goal that connects to your outdoor interests, such as building endurance for a Philmont trek, a canoe expedition, or a 15-mile bike tour.
 - **T - Time-Bound**: Give yourself a clear timeline (e.g., "Over the next 8 weeks leading up to summer camp").
-
----
 
 ## Building Your Daily Action Plan
 

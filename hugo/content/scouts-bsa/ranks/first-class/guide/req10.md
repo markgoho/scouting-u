@@ -16,8 +16,6 @@ Tell someone who is eligible to join Scouts BSA, or an inactive Scout, about you
 
 As an experienced First Class candidate, you are an ambassador for the Scouting movement. Requirement 10 is the first rank requirement that asks you to actively strengthen and grow your troop by sharing your outdoor experiences with a non-Scout or encouraging an inactive Scout to return.
 
----
-
 ## 1. Choosing Who to Approach
 
 The requirement allows you to reach out to either of two individuals:
@@ -30,8 +28,6 @@ The requirement allows you to reach out to either of two individuals:
 - A registered member of your troop or another unit who has stopped attending weekly meetings, campouts, or troop activities.
 - Reaching out shows genuine brotherhood and patrol loyalty—letting them know that their patrol misses them and wants them back around the campfire.
 
----
-
 ## 2. How to Share Your Scouting Journey
 
 Avoid giving a formal or rehearsed sales pitch. Instead, talk about your real, firsthand adventures:
@@ -40,8 +36,6 @@ Avoid giving a formal or rehearsed sales pitch. Instead, talk about your real, f
 - **Cool Skills Learned**: Explain how you learned to use a compass, sharpen a pocketknife, lash a pioneer tower, or build a campfire in the rain.
 - **Patrol Comradery**: Describe the fun of working as a team with your patrol and meeting new friends.
 
----
-
 ## 3. Extending a Concrete Invitation
 
 A vague invitation (*"You should join Scouts sometime"*) rarely works. Give them a specific, welcoming opportunity:
@@ -49,8 +43,6 @@ A vague invitation (*"You should join Scouts sometime"*) rarely works. Give them
 1. **Pick a Fun Upcoming Event**: Invite them to an exciting troop meeting (such as a knot-tying relay, outdoor cooking demonstration, or pioneering night) or a community service project.
 2. **Provide Concrete Details**: Give them the exact date, time, meeting location, what to wear, and offer to introduce them to the Senior Patrol Leader and Scoutmaster.
 3. **Connect Their Family**: Provide contact information for your Scoutmaster or Committee Chair so their parents can ask questions and learn about troop registration.
-
----
 
 ## 4. Reporting Back to Your Scoutmaster
 

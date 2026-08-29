@@ -16,13 +16,9 @@ Repeat from memory the Pledge of Allegiance. In your own words, explain its mean
 
 The Pledge of Allegiance is a solemn declaration of patriotism, loyalty, and shared civic responsibility. While most Scouts have recited it in school classrooms since kindergarten, Requirement 1f asks you to understand the profound meaning behind every phrase and practice the proper flag etiquette when reciting it.
 
----
-
 ## The Text of the Pledge of Allegiance
 
 > **I pledge allegiance to the flag of the United States of America, and to the republic for which it stands, one nation under God, indivisible, with liberty and justice for all.**
-
----
 
 ## Phrase-by-Phrase Meaning
 
@@ -38,8 +34,6 @@ The Pledge of Allegiance is a solemn declaration of patriotism, loyalty, and sha
    - *Meaning*: Our union cannot be broken, divided, or torn apart. We are bound together as one united American people.
 6. **"with liberty and justice for all"**
    - *Meaning*: The core promise of American democracy—that freedom, fundamental human rights, and fair, equal protection under the law belong to every individual without exception.
-
----
 
 ## Proper Etiquette When Reciting the Pledge
 

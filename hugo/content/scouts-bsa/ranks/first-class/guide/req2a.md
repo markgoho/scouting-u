@@ -26,8 +26,6 @@ Here is an example of a balanced, practical patrol menu for an active campout:
 | **Lunch** *(Trail/No-Cook)* | Turkey & provolone cheese pita pockets with lettuce and tomato, crisp apple slices, trail mix (nuts/raisins), water | No-Cook Assembly | **Protein** (turkey, nuts), **Dairy** (provolone), **Grains** (pita), **Vegetables** (lettuce, tomato), **Fruit** (apple, raisins) |
 | **Dinner** *(Cooked)* | Dutch oven beef chili with kidney beans, cornbread, garden salad with vinaigrette, fresh watermelon slices | Dutch Oven / Camp Stove | **Protein** (ground beef, beans), **Grains** (cornbread), **Vegetables** (tomatoes, peppers, mixed greens), **Fruit** (watermelon) |
 
----
-
 ## Standard Serving Sizes for Menu Calculations
 
 When planning ingredient quantities for your patrol, use standard individual portion estimates:
@@ -39,8 +37,6 @@ When planning ingredient quantities for your patrol, use standard individual por
 - **Rice:** 1/2 cup uncooked rice (or 1.5 oz instant rice) per Scout
 - **Meat / Poultry / Ground Beef:** 4–6 oz raw weight per Scout for main dishes
 - **Fresh Fruit / Vegetables:** 1 medium piece (apple, orange, potato, carrot) per Scout
-
----
 
 ## Matching Nutrition to Campout Activities and Climate
 

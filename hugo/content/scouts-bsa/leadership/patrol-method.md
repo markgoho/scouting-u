@@ -7,8 +7,6 @@ The patrol is the fundamental unit of Scouting. A patrol is not just a group of 
 
 As Patrol Leader (PL), your mission is not to do all the work yourself—it is to organize your patrol so that every member contributes, learns outdoor skills, stays safe, and takes pride in their collective achievements.
 
----
-
 ## 1. Building Patrol Identity & Spirit
 
 A high-performing patrol is bound together by shared identity and pride. When new Scouts join or annual elections take place, immediately establish these core elements:
@@ -22,8 +20,6 @@ A high-performing patrol is bound together by shared identity and pride. When ne
 {{< drg/did-you-know >}}
 Lord Baden-Powell based the patrol method on natural youth peer groups. Studies consistently show that teams of 6 to 8 individuals possess the optimal balance of diverse skills without the communication bottlenecks of larger groups.
 {{< /drg/did-you-know >}}
-
----
 
 ## 2. The Patrol Duty Roster Framework
 
@@ -40,8 +36,6 @@ A successful duty roster rotates roles **every single meal**, ensuring fairness,
 | **Scullery Master (Wash)** | Preheats wash water, scrapes leftover bits, scrubs pots and plates | Maintains Pot 1 at 110°F–120°F with biodegradable soap | Scrubbers, wash tub, biodegradable soap, spatula |
 | **Scullery Assistant (Sanitize)** | Manages rinse and sanitation tanks, dunks dishes, hangs mesh drying bag | Ensures Pot 3 sanitizer contact time (30–60 sec); prevents towel drying | Sanitizing tabs / bleach, dunk bag, tongs |
 | **Water Master & Quartermaster** | Fetches clean potable water for drinking and scullery; empties gray water | Disposes gray water 200ft away via broadcast or camp sump | 5-gal water jugs, sump strainer screen, trash bags |
-
----
 
 ### Patrol Duty Roster Matrix Template
 
@@ -61,8 +55,6 @@ Copy this matrix for your patrol binder before every weekend campout. Assign mem
 Always enforce the rule that the Scouts who cooked the meal do not clean the pots and pans. This creates a strong incentive for the cooks to minimize messy burn-ins and keeps the cleaning workload balanced across the team.
 {{< /drg/tip >}}
 
----
-
 ## 3. The 3-Meal Menu Planning Blueprint
 
 Planning campout meals is a core First Class requirement and the heart of patrol morale. A cold, hungry patrol is a grumpy patrol.
@@ -79,8 +71,6 @@ Planning campout meals is a core First Class requirement and the heart of patrol
 
 - **Friday Departure**: Grubmaster loads cooler into troop trailer with temperature monitoring.
 
----
-
 ### Complete 3-Meal Campout Menu Template
 
 | Meal | Menu Items | Ingredients Required | Cooking Equipment | Est. Prep & Cook Time |
@@ -89,8 +79,6 @@ Planning campout meals is a core First Class requirement and the heart of patrol
 | **Saturday Lunch** | Turkey & Cheese Deli Wraps + Apple + Trail Mix + Electrolyte Drink | Tortillas/bread, deli turkey, cheese slices, mustard/mayo packets, apples, individual trail mix packs. | No-cook; cutting board, serrated knife, paper towels. | 15 mins |
 | **Saturday Dinner** | Dutch Oven Mountain Man Hash or Camp Tacos + Peach Cobbler | Ground beef/turkey (or soy crumbles), diced onions, taco seasoning, taco shells/chips, cheese, lettuce, salsa. Cobbler: canned peaches, cake mix, butter, cinnamon. | 10" or 12" Dutch oven, charcoal chimney, lid lifter, tongs, skillet. | 55 mins |
 | **Sunday Breakfast** | Loaded Oatmeal Bar or Bagels with Cream Cheese + Bananas | Instant rolled oats, brown sugar, dried cranberries, cinnamon, walnuts, bagels, cream cheese, bananas. | Large pot for boiling water, ladle. | 20 mins |
-
----
 
 ## 4. Kitchen Safety & The 3-Pot Dishwashing System
 
@@ -115,8 +103,6 @@ Every patrol campsite must operate a clean, 3-pot scullery line immediately afte
 4. **Pot 3 (Sanitize)**: Very hot water (170°F+) with a sanitizing tablet or 2 drops of unscented bleach per gallon. Immerse dishes for 60 seconds.
 5. **Air Drying**: Place sanitized dishes on a clean mesh drying hammock or clean towel. Never dry with a dirty dish rag.
 
----
-
 ## 5. Patrol Meeting Planning & Agenda
 
 A successful troop relies on productive weekly patrol meetings (often called "patrol corners") during the troop meeting. Avoid letting this time dissolve into idle chatter.
@@ -138,8 +124,6 @@ When severe rain, snow, or high winds hit your campout:
 - **Hypothermia Watch**: Keep Scouts hydrated and snacking on high-energy trail mix. Watch for the "Umbles": Stumbling, Mumbling, Fumbling, and Grumbling.
 {{< /drg/be-prepared >}}
 
----
-
 ## 6. Campsite Organization & Zoning
 
 A well-ordered campsite prevents accidents, keeps wild animals away, and ensures fast setup and teardown:
@@ -152,8 +136,6 @@ A well-ordered campsite prevents accidents, keeps wild animals away, and ensures
 | **Patrol Kitchen** | 100–200 ft downwind | Prep table, camp stoves, 3-pot scullery line, chuck box | Keep food elevated off ground; wash hands before all food handling. |
 | **Food Storage & Sump** | 200 ft from tents/kitchen | Bear canisters, Ursacks, or counterbalance PCT bear hangs | Hang food 12ft high and 6ft out from trunk; strain gray water solids. |
 | **Ax Yard** | Cordoned safety zone | Chopping block, tool rack, clearance circle | One Scout inside at a time; mandatory boots and eye protection. |
-
----
 
 ## 7. Patrol Leadership Action Checklist
 
@@ -169,8 +151,6 @@ A well-ordered campsite prevents accidents, keeps wild animals away, and ensures
 - [ ] First aid kit inspected and restocked in patrol daypack.
 - [ ] Post-campout: all patrol gear cleaned, dried, and returned to Quartermaster.
 {{< /drg/checklist >}}
-
----
 
 ## Next Steps in Your Leadership Journey
 

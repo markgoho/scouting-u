@@ -26,8 +26,6 @@ A **native plant** is a species that has grown and evolved naturally in a specif
 - **Adaptability**: Native species are naturally adapted to local soil types, winter freezes, and summer droughts, requiring no artificial watering or fertilizers once established.
 - **Contrasted with Non-Native & Invasive Species**: Non-native plants were brought from other parts of the world. While some non-native ornamentals remain harmless in gardens, **invasive species** (like kudzu, English ivy, and purple loosestrife) escape into the wild, aggressively outcompeting native plants and destroying natural habitats.
 
----
-
 ## How to Identify Plants: Using a Field Key
 
 Botanists and naturalists use a **dichotomous key**—a series of paired questions about physical features—to narrow down a plant's identity. When examining a wild tree or plant, check these characteristics:
@@ -60,8 +58,6 @@ Botanists and naturalists use a **dichotomous key**—a series of paired questio
 - **Bark Patterns**: Unique textures provide identification clues even in winter—shaggy curling strips (shagbark hickory), paper-thin peeling sheets (paper birch), diamond-furrowed patterns (white ash), or smooth gray bark resembling elephant hide (American beech).
 - **Fruit and Seeds**: Acorns (oaks), winged keys/samaras (maples and ashes), catkins (birches and willows), pods (locusts), and cones (pines).
 - **Distinctive Scent**: Crushed leaves of sassafras smell like sweet root beer; twigs of black birch produce a wintergreen aroma; mature bark of ponderosa pine smells of vanilla or butterscotch.
-
----
 
 ## Gathering Evidence While Respecting Nature
 

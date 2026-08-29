@@ -16,8 +16,6 @@ While a Star Scout, participate in a Scoutmaster conference.
 
 The Life Scoutmaster conference is a pivotal milestone in your advancement journey. As the final rank conference before Eagle Scout, this discussion focuses on leadership maturity, your teaching experience, and your roadmap for completing the Eagle Scout rank requirements.
 
----
-
 ## 1. Objectives of the Life Scoutmaster Conference
 
 During this conference, you and your Scoutmaster will explore several key topics:
@@ -27,16 +25,12 @@ During this conference, you and your Scoutmaster will explore several key topics
 - **Evaluating Scout Spirit & Duty to God**: Reviewing your living of the Scout Oath, Scout Law, and Duty to God ([Requirement 2](/scouts-bsa/ranks/life/guide/req2/)) in your home, school, and community life.
 - **The Trail to Eagle**: Mapping out your remaining 10 merit badges (reaching 21 total, with 13 Eagle-required) and discussing preliminary concepts for your **Eagle Scout Service Project**.
 
----
-
 ## 2. Advancement Guidelines and Policies
 
 Under the *Guide to Advancement* (topic 4.2.3.5):
 - The conference is a coaching and goal-setting dialogue, not an examination.
 - It can be held at any point during your time as a Star Scout, though it typically occurs toward the conclusion of your six-month tenure.
 - The Scoutmaster cannot deny a conference or use it as a pass/fail barrier. If further development is needed, constructive guidance is provided to help you succeed.
-
----
 
 ## 3. Preparation and Materials
 

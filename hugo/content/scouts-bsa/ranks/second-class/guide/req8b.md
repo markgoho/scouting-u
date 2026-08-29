@@ -16,8 +16,6 @@ Explain what respect is due the flag of the United States.
 
 The American flag is not merely a piece of decorated cloth; it is the living emblem of the United States of America. It represents the Constitution, the rule of law, national unity, and the sacrifices of generations of veterans and citizens. Second Class Requirement 8b asks you to explain the foundational principles of respect codified in the federal **United States Flag Code** (Title 4, United States Code).
 
----
-
 ## Core Principles of Flag Respect
 
 Under the U.S. Flag Code, the flag represents a living country and is itself considered a living thing. The following rules demonstrate that respect in everyday handling and formal ceremonies:
@@ -46,8 +44,6 @@ The flag should never be used in any manner for advertising purposes, printed on
 
 ### 8. Respectful Retirement of Worn Flags
 When a flag becomes worn, frayed, soiled, or torn to the point where it is no longer a fitting emblem for display, it should be destroyed in a dignified and reverent manner—preferably by **burning in a solemn retirement ceremony**.
-
----
 
 ## Respect During Ceremonies and Anthems
 

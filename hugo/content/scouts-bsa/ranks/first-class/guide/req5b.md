@@ -36,8 +36,6 @@ To satisfy this requirement, you must identify **two distinct methods** for obta
 - **Platform**: In-person check-in boards or phone hotlines at national park visitor centers, U.S. Forest Service ranger stations, and regional avalanche forecasting centers (such as `avalanche.org`).
 - **Why It's Useful**: Rangers provide ground-level updates on recent trail washouts, river crossing depths, snowpack stability, fire danger indices, and localized high-elevation wind forecasts.
 
----
-
 ## Why Weather Forecasts Are Vital in Event Planning
 
 Checking a forecast days ahead and re-checking it immediately before departure directly drives key safety and logistical decisions:
@@ -46,8 +44,6 @@ Checking a forecast days ahead and re-checking it immediately before departure d
 2. **Campsite Selection and Pitching**: Foreknowledge of heavy rain prevents pitching tents in natural drainage channels, dry desert washes, or low riverbanks subject to flash flooding. High wind forecasts mean selecting sheltered forested sites rather than exposed ridges or camping beneath dead overhanging tree limbs ("widow-makers").
 3. **Trail Routing and Timetables**: On alpine hikes, forecasters often predict afternoon thunderstorm development. A smart patrol starts at dawn ("alpine start") to summit and descend below the safety of the treeline before noon.
 4. **Establishing Contingency Plans (Plan B)**: If the forecast calls for severe thunderstorms, extreme heat advisories, or blizzard warnings, troop leadership can execute predefined alternate plans—such as shifting to a lower-elevation trail, switching to a cabin facility, or postponing the event.
-
----
 
 ## Understanding Key Forecast Terms
 

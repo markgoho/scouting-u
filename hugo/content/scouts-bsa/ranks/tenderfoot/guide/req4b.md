@@ -40,8 +40,6 @@ The three most widespread hazardous contact plants in North America are **poison
 - **Key Distinguishing Feature**: Poison sumac produces loose, hanging clusters of **white, ivory, or pale yellow berries** and smooth red leaf stems. By contrast, harmless sumacs (such as staghorn sumac or smooth sumac) produce tight, fuzzy, upright red cones of berries and have toothed leaflets.
 - **Habitat**: Restricted almost exclusively to saturated soils—swamps, bogs, marshes, and standing wetlands of the eastern and southern United States.
 
----
-
 ## Other Hazardous and Poisonous Plants
 
 Beyond urushiol-producing vines and shrubs, several other common wild plants present severe contact or ingestion risks:
@@ -50,8 +48,6 @@ Beyond urushiol-producing vines and shrubs, several other common wild plants pre
 - **Poison Hemlock (*Conium maculatum*) & Water Hemlock (*Cicuta*)**: Members of the carrot family with lacy, fern-like foliage, umbrella-shaped clusters of tiny white flowers (umbels), and smooth green stems marked with distinct **purple spots or splotches**. They contain deadly alkaloids (coniine and cicutoxin). Ingesting even tiny amounts causes paralysis, violent convulsions, and respiratory failure.
 - **Giant Hogweed (*Heracleum mantegazzianum*) & Wild Parsnip (*Pastinaca sativa*)**: Large plants whose clear sap contains phototoxic compounds (furocoumarins). When sap gets on skin and is exposed to natural sunlight or UV rays, it produces severe, blistering chemical burns and long-lasting dark scars (**phytophotodermatitis**).
 - **Deadly Nightshades, Foxglove, and Wild Mushrooms**: Many common garden and woodland plants (such as foxglove, jimsonweed, wisteria, and poisonous mushrooms) contain cardiac glycosides or neurotoxins. **Rule of the trail**: Never eat any wild berry, leaf, mushroom, or root unless positive identification has been confirmed by an expert instructor.
-
----
 
 ## Treatment for Plant Exposure
 

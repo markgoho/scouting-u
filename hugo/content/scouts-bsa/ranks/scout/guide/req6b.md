@@ -16,8 +16,6 @@ With your parent or guardian's permission, view the <i><a href="https://www.scou
 
 With your parent or guardian's permission, view the official Scouting America **Personal Safety Awareness Videos**. These age-appropriate instructional videos give Scouts concrete tools to identify unsafe situations, protect themselves and others, and take immediate action.
 
----
-
 ## The Three R's of Personal Safety
 
 The videos focus on three core life-saving actions:
@@ -41,8 +39,6 @@ Tell a trusted adult right away:
 - Go immediately to a parent, guardian, teacher, police officer, or Scout leader.
 - Keep telling trusted adults until someone takes action to help you.
 - Remember: **If someone violates your boundaries or mistreats you, it is NEVER your fault.**
-
----
 
 ## How to Access and Complete
 

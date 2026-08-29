@@ -61,8 +61,6 @@ Life Scout is the sixth rank in Scouts BSA and the final step before the Eagle S
 
 Earning the Life rank requires deep commitment across eight requirements. The timeframes and expectations expand significantly: your active tenure and leadership requirement both increase from four months to six months, your merit badge total reaches 11 (with at least seven from the Eagle-required list), your service hours incorporate a dedicated conservation focus, and you are called upon to teach outdoor and scoutcraft skills to another Scout using the Teaching EDGE method.
 
----
-
 ## The Core Pillars of Life Scout
 
 To earn the Life rank, you will complete eight core requirements organized into the following key domains:
@@ -74,8 +72,6 @@ To earn the Life rank, you will complete eight core requirements organized into 
 5. **Sustained Youth Leadership ([Requirement 5](/scouts-bsa/ranks/life/guide/req5/))**: Serve actively for six months in an approved youth position of responsibility.
 6. **Instruction & Mentorship ([Requirement 6](/scouts-bsa/ranks/life/guide/req6/))**: Use the four-step Teaching EDGE method (Explain, Demonstrate, Guide, Enable) to instruct another Scout in a core skill choice.
 7. **Advancement Review ([Requirements 7 & 8](/scouts-bsa/ranks/life/guide/req7/))**: Complete a Scoutmaster conference and successfully pass a board of review.
-
----
 
 ## Planning Your Path to Life
 

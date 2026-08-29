@@ -23,8 +23,6 @@ Camp stoves provide reliable, fast, and clean heat in all weather conditions wit
 | **Lightweight Backcountry Stove** | Isobutane/propane canister or white gas | Backpacking, high-adventure, boiling water | **Pros:** Weighs ounces, compact, fast boil times. **Cons:** Narrow pot supports, limited simmer control, wind sensitive. |
 | **Two-Burner Propane Stove** | 1-lb propane cylinders or bulk tank | Base camp, patrol campouts, car camping | **Pros:** Sturdy grates support large 8-qt pots, built-in windscreens, two adjustable burners. **Cons:** Heavy (10–15+ lbs), bulky. |
 
----
-
 ## Step-by-Step Setup and Lighting Procedures
 
 ### Setting Up a Lightweight Canister Stove
@@ -39,8 +37,6 @@ Camp stoves provide reliable, fast, and clean heat in all weather conditions wit
 2. **Connect the Regulator:** Screw the metal regulator tube into the side of the stove until finger-tight.
 3. **Attach Propane Cylinder:** Screw the 1-lb propane cylinder firmly into the regulator at an angle. Ensure the seal is tight (never cross-thread).
 4. **Lighting:** Ensure both burner knobs are in the **OFF** position. Light a match or long-reach lighter, hold it directly next to the primary burner head, and then slowly turn the corresponding burner knob to **HIGH** until it ignites. Light the second burner in the same manner.
-
----
 
 ## Essential Camp Stove Safety Rules
 

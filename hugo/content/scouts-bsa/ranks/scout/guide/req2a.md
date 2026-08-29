@@ -16,8 +16,6 @@ Describe how the Scouts in the troop provide its leadership.
 
 Scouts BSA is a **youth-led organization**. Unlike school classrooms or sports teams where adults call every play, Scouts plan their own meetings, organize their own campouts, elect their own leaders, and teach skills to newer members. This requirement explains how the **Patrol Method** and troop leadership structure empower youth to lead.
 
----
-
 ## The Foundation: The Patrol Method
 
 The **patrol** is the core building block of Scouting:
@@ -25,8 +23,6 @@ The **patrol** is the core building block of Scouting:
 - Each patrol elects its own **Patrol Leader (PL)** to represent them, coordinate camp chores, and assign duties on campouts (such as fire-builder, cook, water-gatherer, and cleanup).
 - The patrol selects an **Assistant Patrol Leader (APL)** to assist and step in when the Patrol Leader is absent.
 - Each patrol builds its own identity with a unique **patrol name, emblem patch, flag, and yell**.
-
----
 
 ## Troop Youth Leadership Structure
 
@@ -51,8 +47,6 @@ The PLC is the governing board of the troop. It is made up of the Senior Patrol 
 - **Chaplain Aide**: Coordinates interfaith morning reflections, meal graces, and Scout's Own worship services on campouts.
 - **Webmaster**: Helps maintain the troop's website and electronic communication channels.
 - **Junior Assistant Scoutmaster (JASM)**: An older Scout (at least age 16) who assists adult leaders in mentoring youth.
-
----
 
 ## The Role of Adult Leaders: Mentors and Coaches
 

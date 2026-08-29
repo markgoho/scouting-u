@@ -23,8 +23,6 @@ Whenever you explain a natural weather sign, organize your response into three c
 2. **Dangerous Event**: What hazardous weather condition is developing.
 3. **Appropriate Action**: What immediate safety precautions your patrol takes to prevent injury or hypothermia.
 
----
-
 ## Key Natural Indicators of Hazardous Weather
 
 ### 1. Rapidly Towering Cumulonimbus Clouds (Anvil Heads)
@@ -68,8 +66,6 @@ Whenever you explain a natural weather sign, organize your response into three c
   - Evacuate tents immediately—tents offer zero protection against tornado winds and falling timber.
   - In a built environment, move to the lowest interior room or basement, away from windows.
   - In the backcountry, seek a low-lying ravine, ditch, or depression away from trees and vehicles. Lie flat face down and protect the back of your head and neck with your hands and a backpack.
-
----
 
 ## The 30-30 Rule for Lightning Safety
 

@@ -30,8 +30,6 @@ As Head Cook, your primary responsibility is kitchen leadership and coordination
 Before allowing your assistant to light a stove or fire, verify the safety perimeter: confirm the fire bucket and shovel are on hand, check fuel connections for leaks, tie back long hair, and ensure no loose clothing can catch fire.
 {{< /drg/safety-first >}}
 
----
-
 ## Running the Three Meals
 
 ### Breakfast
@@ -46,8 +44,6 @@ Before allowing your assistant to light a stove or fire, verify the safety perim
 ### Dinner
 - Allow ample time for evening meal prep (especially for Dutch oven baking or charcoal cooking, which require 45–60 minutes of coal preparation).
 - Coordinate the main dish, warm sides, and dessert.
-
----
 
 ## Supervising the Three-Pot Cleanup & Kitchen Shutdown
 

@@ -16,8 +16,6 @@ Describe the steps in Scouting's EDGE method. Use the Teaching EDGE method to te
 
 Leadership in Scouting begins with the ability to teach others effectively. The **EDGE method** is Scouting's proven, four-step instructional framework used by youth and adult leaders across all training courses. Requirement 8 asks you to describe all four steps and use them to teach another person how to tie the square knot.
 
----
-
 ## The Four Steps of the EDGE Method
 
 ```
@@ -43,8 +41,6 @@ Leadership in Scouting begins with the ability to teach others effectively. The 
 - Step back and allow the learner to perform the skill completely independently.
 - Have them execute the task successfully several times without assistance or prompting.
 - The learner has now mastered the skill and is enabled to use it in camp or teach it to someone else.
-
----
 
 ## Putting EDGE into Practice: Teaching the Square Knot
 

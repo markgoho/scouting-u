@@ -13,8 +13,6 @@ next_title: "Complete Digital Requirements Guide"
 
 Earning Life Scout is an extraordinary accomplishment that distinguishes you as an experienced, capable leader in Scouts BSA. You are now positioned on the threshold of Eagle Scout—the culmination of your youth Scouting journey.
 
----
-
 ## Strategic Preparation for the Eagle Scout Rank
 
 The requirements for Eagle Scout demand comprehensive project management, deep personal reflection, and continued active leadership. Begin preparing immediately:

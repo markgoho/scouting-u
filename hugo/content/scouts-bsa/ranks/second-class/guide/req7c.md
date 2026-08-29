@@ -17,16 +17,12 @@ Participate in a school, community, or troop program on the dangers of using dru
 
 Living a healthy, adventurous life requires protecting your body and mind from substances that cause addiction, illness, and injury. This requirement has three distinct milestones: participating in an educational prevention program, discussing substance abuse risks with your family, and reporting to an adult leader on how what you learned connects directly to the Scout Oath and Scout Law.
 
----
-
 ## Part 1: Participating in an Educational Program
 
 Attend an approved program that covers the health, legal, and social dangers of drug, alcohol, and tobacco use. Common options include:
 - A school-based health, physical education, or prevention curriculum (such as D.A.R.E. or Red Ribbon Week presentations).
 - A community or youth group seminar led by medical professionals, public health educators, or law enforcement officers.
 - A troop-organized workshop featuring a qualified guest speaker or merit badge counselor for Personal Fitness or Medicine.
-
----
 
 ## Part 2: Understanding Harmful Substances & Addiction
 
@@ -51,8 +47,6 @@ To discuss substance abuse intelligently with your family and Scoutmaster, under
 - **Physical Dependence (Tolerance & Withdrawal)**: Over repeated use, the body adapts to the substance. The user requires progressively higher doses to achieve the same effect (tolerance) and experiences painful physical sickness (nausea, tremors, severe anxiety) when the drug leaves their system (withdrawal).
 - **Psychological Addiction**: The brain develops an overwhelming emotional craving and compulsion to obtain the drug, leading individuals to neglect family, friendships, school, and their own survival.
 
----
-
 ## Part 3: Practicing Refusal Skills Under Peer Pressure
 
 When faced with peer pressure to experiment with tobacco, vaping, alcohol, or drugs, remember these core refusal strategies:
@@ -61,16 +55,12 @@ When faced with peer pressure to experiment with tobacco, vaping, alcohol, or dr
 3. **Use a Pre-Planned Exit Reason**: "I have an early track meet / Scout hike tomorrow morning and need to stay sharp."
 4. **Remove Yourself from the Situation**: If pressure persists, walk away and join friends who respect your healthy choices.
 
----
-
 ## Part 4: The Family Discussion
 
 Sit down with your parents or guardians to review what you learned in your program:
 - Share surprising facts or statistics that made an impression on you.
 - Discuss family history and expectations regarding tobacco, alcohol, and drug prevention.
 - Reconfirm an open, trusted plan for what to do if you ever find yourself at a party or in a car where substances are present.
-
----
 
 ## Part 5: Connecting to the Scout Oath and Scout Law
 

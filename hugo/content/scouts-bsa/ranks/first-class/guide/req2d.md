@@ -36,8 +36,6 @@ Bacteria multiply rapidly within the **Temperature Danger Zone (40°F to 140°F)
 - **Wash with Potable Water:** Always wash fruits and vegetables with clean, treated drinking water before slicing—even produce you intend to peel (such as melons or onions), as knife blades push surface bacteria into the flesh.
 - **Storage:** Store produce in clean bags above the ice to prevent them from soaking in melted cooler water.
 
----
-
 ## Wildlife Protection and Food Storage at Night
 
 Food smells ("smellables") attract bears, raccoons, mice, and skunks. In camp:
@@ -48,8 +46,6 @@ Food smells ("smellables") attract bears, raccoons, mice, and skunks. In camp:
   - **6 feet** below the supporting branch, and
   - **6 feet** away from the tree trunk.
 - **Bear Canisters:** In designated national parks and wilderness zones, store all food, trash, and toiletries inside approved rigid bear-resistant canisters placed on flat ground 100 feet downwind from tents.
-
----
 
 ## Proper Disposal of Camp Garbage, Greywater, and Rubbish
 

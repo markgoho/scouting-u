@@ -16,8 +16,6 @@ Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In 
 
 The foundation of all Scouting is built on four core principles: the Scout Oath, the Scout Law, the Scout Motto, and the Scout Slogan. These are not merely words to memorize—they form a lifelong code of conduct that guides how you treat others, care for yourself, and serve your community.
 
----
-
 ## 1. The Scout Oath
 
 > **On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.**
@@ -30,8 +28,6 @@ The Scout Oath contains three distinct promises, moving outward from your commun
   - *Physically Strong*: Exercising regularly, eating nutritious food, getting enough sleep, and keeping your body free from harmful substances.
   - *Mentally Awake*: Staying curious, working hard in school, practicing observation skills, and keeping your mind sharp to solve problems and make sound decisions.
   - *Morally Straight*: Living with honesty and integrity, treating all people with respect, and choosing the right path even when it is difficult or unpopular.
-
----
 
 ## 2. The Scout Law
 
@@ -52,8 +48,6 @@ Each of the twelve points represents a specific standard of character:
 11. **Clean**: A Scout keeps body and mind fit and clean, maintains neat personal habits, uses clean language, and leaves campsites cleaner than they were found.
 12. **Reverent**: A Scout is faithful in religious duties, respects the beliefs of others, and honors the spiritual convictions of everyone.
 
----
-
 ## 3. The Scout Motto
 
 > **Be Prepared.**
@@ -62,8 +56,6 @@ Created by Scouting founder Robert Baden-Powell, "Be Prepared" means always bein
 - **In Mind**: Thinking ahead, learning practical outdoor and first aid skills, and knowing how to respond calmly in emergencies.
 - **In Body**: Keeping physically conditioned and packing the necessary gear so you can handle unexpected weather or tough trail conditions.
 - **In Spirit**: Having the moral confidence and resolve to do the right thing whenever the situation demands.
-
----
 
 ## 4. The Scout Slogan
 

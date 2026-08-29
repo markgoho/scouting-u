@@ -22,8 +22,6 @@ Before heading to the grocery store, check what supplies your troop or family al
 - **Pantry Staples:** Salt, black pepper, cooking oil, non-stick spray, spices, hot sauce, sugar, and syrup.
 - **Supplies:** Aluminum foil, paper towels, zip-top plastic bags, and dish soap.
 
----
-
 ## 2. Calculating Quantities & Building the Budget
 
 Scale your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/) for the exact number of people you are feeding (minimum 3 youth, typically a patrol of 4 to 8 Scouts).
@@ -46,8 +44,6 @@ Scale your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/) for
 | **Total Estimated Budget** | | | | **$36.73** |
 | **Cost Per Scout (4 Scouts)** | | | | **~$9.18 / Scout** |
 
----
-
 ## 3. Smart Grocery Shopping Strategies
 
 - **Compare Unit Prices:** Look at the small shelf sticker that displays "Price per Ounce" or "Price per Pound" to identify whether a larger package or store brand is the better value.
@@ -57,8 +53,6 @@ Scale your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/) for
   - *“Use-By” / “Best-By” Date:* The last date recommended for peak quality and freshness.
 - **Inspect Packaging for Safety:** Never purchase or use cans that are dented, swollen, rusted, or leaking (which can indicate lethal botulism contamination), or packages with broken seals.
 - **Shop Cold Items Last:** Pick up pantry goods and canned items first; grab refrigerated meats, eggs, and dairy at the very end of your store trip so they stay cold on the drive home.
-
----
 
 ## 4. Pre-Camp Repackaging at Home
 

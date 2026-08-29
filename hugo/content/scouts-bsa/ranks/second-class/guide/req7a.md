@@ -16,8 +16,6 @@ After completing Tenderfoot requirement 6c, be physically active at least 30 min
 
 Building on the 30-day foundation from Tenderfoot, Second Class Requirement 7a challenges you to establish a regular lifestyle pattern of daily physical fitness. Rather than preparing for a single testing day, you are building the stamina and habits that support all your future outdoor adventures.
 
----
-
 ## The Four-Week Activity Standard
 
 To fulfill this requirement, you must meet four explicit criteria:
@@ -26,8 +24,6 @@ To fulfill this requirement, you must meet four explicit criteria:
 2. **Daily Duration**: Be physically active for **at least 30 minutes each day**. (Sessions can be continuous 30-minute workouts or two 15-minute bouts of activity).
 3. **Weekly Frequency**: Achieve the 30-minute threshold on **at least 5 days out of every 7-day week**.
 4. **Consistency**: Maintain this standard for **four consecutive weeks** (a minimum of 20 total active days and 600 minutes of exercise).
-
----
 
 ## What Types of Activities Count?
 
@@ -46,8 +42,6 @@ Any activity that elevates your heart rate, causes you to breathe harder than no
 - **Team Sports & Patrol Activities**:
   - Soccer, basketball, baseball, softball, or tennis
   - Ultimate frisbee, track and field, or active troop wide games (such as capture the flag)
-
----
 
 ## Tracking Your Activities
 

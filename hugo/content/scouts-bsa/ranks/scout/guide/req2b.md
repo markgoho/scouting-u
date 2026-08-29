@@ -16,8 +16,6 @@ Describe the four steps of Scout advancement.
 
 Advancement is the Scouting method of encouraging personal growth, self-reliance, and leadership. Every rank and merit badge you earn follows the same **four fundamental steps of Scout advancement**.
 
----
-
 ## The Four Steps of Scout Advancement
 
 ### 1. The Scout Learns
@@ -36,8 +34,6 @@ After completing all requirements for a rank, you participate in two formal revi
 
 ### 4. The Scout Is Recognized
 Once you pass your review, you receive your new rank patch at the next troop meeting so you can wear it immediately. You are then formally presented with your rank certificate and recognized before your family, fellow Scouts, and community at the next quarterly **Troop Court of Honor**.
-
----
 
 ## Why the Four Steps Matter
 

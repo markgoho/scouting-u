@@ -18,8 +18,6 @@ Extreme weather varies significantly depending on your geographic region. A troo
 
 This requirement challenges you to perform a complete **four-step outdoor risk assessment** tailored specifically to the extreme weather conditions of your local area.
 
----
-
 ## Step 1: Identify Your Local Extreme Weather Hazards
 
 Discuss the specific severe weather events that occur in your region and the seasons they typically happen:
@@ -29,8 +27,6 @@ Discuss the specific severe weather events that occur in your region and the sea
 - **Extreme Heat & Arid Sun Exposure**: Prevalent in southern and southwestern climates during summer months. High ambient heat combined with high humidity (or desert dehydration) rapidly causes heat exhaustion and life-threatening heat stroke.
 - **Blizzards, Ice Storms, and Severe Wind Chill**: Widespread across northern latitudes and high alpine zones. Heavy snowfall, gale-force winds, sub-zero wind chills, and whiteout conditions destroy visibility and rapidly induce hypothermia and frostbite.
 - **Hurricanes & Coastal Gales**: Prevalent along Atlantic and Gulf Coast waterways. Destructive winds, storm surges, torrential rainfall, and widespread tree blowdowns.
-
----
 
 ## Step 2: Determine Risk Ahead of Time
 
@@ -44,8 +40,6 @@ Never rely on guesswork. Before embarking on an outing, use these official resou
    - *Heat Index* combines air temperature and relative humidity.
    - *Wind Chill* combines air temperature and sustained wind speeds.
 
----
-
 ## Step 3: Alternative Planning (Plan B Considerations)
 
 Proactive planning eliminates hazards before your patrol arrives at the trailhead:
@@ -54,8 +48,6 @@ Proactive planning eliminates hazards before your patrol arrives at the trailhea
 - **Route Relocation**: If high ridgelines or exposed passes carry severe wind or lightning threats, switch to a lower-elevation valley or forested loop trail.
 - **Campsite Selection**: Move tent sites out of low floodplains, riverbanks, and dry canyon bottoms. Avoid camping in dense groves of dead trees (such as beetle-killed pines) that can collapse in gusty winds.
 - **Go / No-Go Decision Triggers**: Establish clear, objective criteria with adult leaders and your patrol leader before leaving home (e.g., "If the NWS issues a Flash Flood Watch or Winter Storm Warning for our wilderness basin, we postpone the trip or move to an indoor Scout camp cabin").
-
----
 
 ## Step 4: Prepare and Respond in the Outdoors
 

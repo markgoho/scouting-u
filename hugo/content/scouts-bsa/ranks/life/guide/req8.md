@@ -16,8 +16,6 @@ Successfully complete your board of review for the Life rank.*<br> <br> *If the 
 
 The Life Scout Board of Review is your fifth board of review and the final unit-level review before embarking on the Eagle Scout rank. It serves to verify that all requirements have been completed according to national standards, evaluate your growth as a senior leader, and ensure you are prepared for the final ascent to Eagle.
 
----
-
 ## 1. Composition and Procedures
 
 Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0):
@@ -26,8 +24,6 @@ Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0):
 - **Format**: The board conducts an open-ended discussion (typically 20–30 minutes) reviewing your six months of active tenure, leadership accomplishments, service hours (including the conservation split), merit badge progression, and how you practice the Scout Oath and Law.
 - **No Retesting**: The board does not test skills or re-examine knowledge.
 
----
-
 ## 2. Core Topics of Discussion
 
 During your Life board of review, committee members will typically explore:
@@ -35,8 +31,6 @@ During your Life board of review, committee members will typically explore:
 - **Instructional Mastery**: How did your Teaching EDGE experience go? How did you adapt your teaching when the learner encountered difficulty?
 - **Service & Conservation**: What was the environmental impact of your conservation project? Why is conservation central to Scouting?
 - **Readiness for Eagle**: How are you planning your remaining merit badges? What type of organization or community need are you considering for your Eagle Scout Service Project?
-
----
 
 ## 3. Deliberation and Appeal Rights
 

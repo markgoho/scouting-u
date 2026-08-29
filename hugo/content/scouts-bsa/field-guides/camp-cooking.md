@@ -5,8 +5,6 @@ description: "A complete field guide to outdoor culinary mastery, patrol chuck b
 
 Great camp cooking is the engine of high patrol morale. A well-run patrol kitchen operates cleanly, safely, and efficiently, producing nutritious, high-calorie meals while upholding strict sanitation standards and Leave No Trace principles.
 
----
-
 ## 1. Patrol Kitchen Layout & Food Safety
 
 A campsite kitchen must be organized systematically to prevent foodborne illness, avoid cross-contamination, and protect food from wildlife.
@@ -18,8 +16,6 @@ In bear and critter territory, establish three distinct areas separated by at le
 1. **Sleeping Area:** Tents must contain zero food, scented toiletries, wrappers, or clothes worn while cooking ("smellables").
 2. **Kitchen & Cooking Area:** Downwind from the sleeping area. All cooking, prepping, and dishwashing occurs here.
 3. **Food Storage & Gray Water Sump:** Bear-resistant canisters, Ursacks, or counterbalance PCT bear hangs suspended 12 feet high and 6 feet out from tree trunks.
-
----
 
 ### Food Safety Temperatures & Cooler Management
 
@@ -41,8 +37,6 @@ Bacteria double every 20 minutes in this temperature range. Never leave perishab
 - **Pre-Chill Everything:** Chill both the cooler and all food items in a home refrigerator 24 hours prior to packing.
 - **Layering Order:** Place block ice on the bottom, raw meat double-sealed in heavy-duty zip bags directly on the ice, dairy and vegetables in the middle, and delicate items (bread, eggs) in elevated dry racks on top.
 - **Do Not Drain Meltwater Continuously (Unless Submerging Open Bags):** Cold meltwater insulates the remaining ice better than warm ambient air.
-
----
 
 ## 2. The BSA 3-Pot Sanitation Dishwashing System
 
@@ -69,8 +63,6 @@ Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks
    - Hang the bag from a clothesline in the sun and wind.
    - **Never dry dishes with a dish towel**, which transfers bacteria from plate to plate.
 
----
-
 ### Sump & Gray Water Disposal
 
 1. Pour the water from Pot 1 and Pot 2 through a fine wire mesh strainer (sump screen) into Pot 3 to catch all suspended food particulates.
@@ -78,8 +70,6 @@ Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks
 3. **Disposal Options:**
    - **Broadcast Method (Leave No Trace standard):** Walk at least **200 feet** away from campsites, trails, and natural water bodies. Swing the bucket in a wide arc to fling the gray water into a fine mist over durable soil, rocks, or brush.
    - **Sump Hole Method (Established high-use camps):** Pour gray water directly into a designated camp sump tube or a 1-foot-deep hole dug in mineral soil 200 feet from water.
-
----
 
 ## 3. Dutch Oven Mastery & Charcoal Calculator
 
@@ -97,8 +87,6 @@ A standard cast iron Dutch oven is an outdoor convection oven. The flanged lid h
 | **12-Inch Deep** | 8 Quarts | 10 – 14 | Whole chickens, large roasts, deep stews |
 | **14-Inch Regular** | 10 Quarts | 14 – 20 | Multi-patrol feasts, large roasts, whole turkeys |
 
----
-
 ### The Charcoal Rule of Thumb & Cooking Modes
 
 - **The Fundamental Formula:** Total Briquettes = **$2 \times \text{Diameter of the Oven (in inches)}$**
@@ -110,8 +98,6 @@ A standard cast iron Dutch oven is an outdoor convection oven. The flanged lid h
 | **Roasting** | Whole Chicken, Beef Roast, Pork Loin | **1/2 on Lid (Top), 1/2 on Bottom** | Top = $D$ \| Bottom = $D$ | **12 on Top, 12 on Bottom** |
 | **Stewing / Simmering** | Chili, Soups, Gumbo, Beans | **1/3 on Lid (Top), 2/3 on Bottom** | Top = $D - 3$ \| Bottom = $D + 3$ | **9 on Top, 15 on Bottom** |
 | **Frying / Boiling** | Pancakes, Bacon, Pasta Water | **100% on Bottom** (no coals on lid) | All coals under oven base | **24 on Bottom** |
-
----
 
 ### Complete Charcoal Heat Calculator Matrix
 
@@ -135,8 +121,6 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 - **Cold Ambient Temp (< 40°F / 4°C):** Add 2 briquettes to the top and 2 to the bottom.
 - **High Altitude (> 5,000 ft):** Liquid boils at lower temperatures and heat dissipates faster. Increase cooking time by 10–15% or add 2 briquettes.
 
----
-
 ### Cast Iron Care & Seasoning Protocol
 
 1. **Daily Cleaning in Camp:**
@@ -151,8 +135,6 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 4. **Storage:**
    - Place a folded paper towel or wooden clothespin between the lid and the pot to allow continuous airflow and prevent moisture condensation.
 
----
-
 ## 4. Backcountry Backpacking Stoves & Fuel Chemistry
 
 | Stove Category | Fuel Type | Cold Weather Performance | Simmer Control | Pros | Cons |
@@ -162,8 +144,6 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 | **Liquid Fuel (White Gas)** | Naphtha (Coleman Fuel) | **Flawless to -40°F (-40°C)** | Moderate to Poor | Extreme high BTU output; works at extreme altitude | Requires manual priming and pumping; heavier |
 | **Biomass / Twig Stove** | Dry twigs, pinecones | Dependent on dry fuel | None | Infinite free fuel; ultralight | Banned during wildfire burn bans; soots pots |
 
----
-
 {{< drg/checklist title="Patrol Chuck Box Inventory Checklist" subtitle="Standard equipment list for a patrol of 8 Scouts" >}}
 - [ ] **Cooking Hardware:** 1 12-inch Cast Iron Dutch Oven with lid lifter and lid stand, 1 large 2-burner propane camp stove with regulator hose and propane tanks, 2 nesting aluminum stockpots (6 qt & 8 qt) with lids, 1 heavy-duty 12" non-stick skillet.
 - [ ] **Sanitation & 3-Pot Station:** 3 large plastic or galvanized dishwashing tubs (labeled: Wash, Rinse, Sanitize), 1 bottle biodegradable camp soap, 1 bottle unscented chlorine bleach or sanitizing tablets, 2 nylon scrub pads, 2 fine mesh food sumps/strainers, 2 mesh dunk bags for air drying.
@@ -171,8 +151,6 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 - [ ] **Safety & Protection:** 1 ABC dry chemical fire extinguisher (2.5 lb), 2 pairs heavy-duty leather welding gloves (for hot Dutch ovens), 1 roll aluminum foil (heavy duty), 1 box 1-gallon heavy-duty freezer bags, 1 box 55-gallon contractor trash bags, 1 box nitrile gloves for food prep.
 - [ ] **Spice Kit & Condiments:** Salt, black pepper, garlic powder, onion powder, paprika, cinnamon, cooking oil (canola/olive), non-stick cooking spray.
 {{< /drg/checklist >}}
-
----
 
 {{< drg/did-you-know >}}
 The black non-stick patina on well-seasoned cast iron is not grease—it is **polymerized oil**. Under high heat, unsaturated fats chemically cross-link into a natural, rock-hard polymer ceramic bonded directly into the microscopic pores of the iron.

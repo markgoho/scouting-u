@@ -7,8 +7,6 @@ Welcome to the **Scouts BSA Field Guides & Reference Hubs**. These comprehensive
 
 Each guide is designed for high-yield field utility: clear step-by-step execution, technical formulas, visual quick-reference tables, and emergency decision trees.
 
----
-
 ## Field Reference Guides
 
 ### 1. [Knots, Hitches, Bends & Lashings Field Guide](/scouts-bsa/field-guides/knots-and-lashings/)
@@ -23,8 +21,6 @@ The ultimate camp kitchen manual. Details the official BSA 3-pot hot dishwashing
 ### 4. [Navigation, Topographic Maps & Weather Forecasting Toolkit](/scouts-bsa/field-guides/navigation-and-weather/)
 The backcountry navigator’s technical toolkit. Master 1:24,000 USGS topographic quadrangle interpretation, contour elevation math, 6-digit and 8-digit UTM coordinate plotting, baseplate compass mechanics, magnetic declination calculation formulas, pace factor calibration, triangulation, aiming off, and natural weather forecasting using barometric pressure trends, cloud classifications, and frontal wind shifts.
 
----
-
 {{< drg/be-prepared title="The 10 Outdoor Essentials for Every Outing" >}}
 Never leave the trailhead without every Scout carrying the Ten Essentials:
 1. **Navigation:** Topographic map, magnetic baseplate compass, and optional GPS/satellite communicator with offline maps.
@@ -38,8 +34,6 @@ Never leave the trailhead without every Scout carrying the Ten Essentials:
 9. **Extra Water:** Minimum 2 liters of water carrying capacity plus a reliable water purification method (filter or chemical).
 10. **Extra Clothes:** Moisture-wicking base layer, insulating mid-layer (fleece or down), and waterproof/windproof outer rain jacket (NO cotton).
 {{< /drg/be-prepared >}}
-
----
 
 ## Patrol Box Quick Reference
 

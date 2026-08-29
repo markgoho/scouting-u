@@ -13,8 +13,6 @@ next_title: "Complete Digital Requirements Guide"
 
 Earning the rank of Eagle Scout is a profound accomplishment that stays with you for the rest of your life. You have proven that you possess the grit, leadership capability, ethical integrity, and commitment to service required to make a lasting difference in the world.
 
----
-
 ## Continuing Your Journey Beyond Eagle
 
 Becoming an Eagle Scout is not the end of your Scouting career; it is the launchpad for a lifetime of leadership and service:

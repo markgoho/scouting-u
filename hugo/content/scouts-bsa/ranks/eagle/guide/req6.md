@@ -16,8 +16,6 @@ While a Life Scout, participate in a Scoutmaster conference.
 
 The Eagle Scoutmaster conference is the final unit-level conference in your Scouts BSA advancement journey. It represents an in-depth, reflective mentoring session with your Scoutmaster to review your overall Scouting career, evaluate your service project, audit your application packet, and confirm your readiness for the Eagle Scout Board of Review.
 
----
-
 ## 1. Objectives of the Eagle Scoutmaster Conference
 
 During this conference, you and your Scoutmaster will conduct a thorough review across several key areas:
@@ -27,16 +25,12 @@ During this conference, you and your Scoutmaster will conduct a thorough review 
 - **Reviewing Six Months of Leadership**: Evaluating your performance during your six months in an approved position of responsibility ([Requirement 4](/scouts-bsa/ranks/eagle/guide/req4/)).
 - **Verifying Advancement Credentials**: Conducting a line-by-line audit of your *Eagle Scout Rank Application*, merit badge dates, and reference contact information.
 
----
-
 ## 2. Policy: Timing and Completion Standards
 
 Under the *Guide to Advancement* (topics 4.2.3.5 and 9.0.1.5):
 - The Scoutmaster conference must take place **before your 18th birthday** (unless an official council extension has been granted under topic 9.0.4.0).
 - While the conference is traditionally held after all other requirements are completed, it can technically occur at any point while you are a Life Scout.
 - **Unit Leader Signature**: Upon completing the conference and verifying that all requirements have been met, your Scoutmaster signs page 2 of your *Eagle Scout Rank Application*. If a Scoutmaster refuses to sign, the Scout is still entitled to submit their application for a board of review under disputed circumstances (topic 8.0.3.2).
-
----
 
 ## 3. Preparation and Application Assembly
 

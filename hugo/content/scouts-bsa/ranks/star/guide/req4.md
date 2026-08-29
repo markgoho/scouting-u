@@ -16,8 +16,6 @@ While a First Class Scout, participate in six hours of service through one or mo
 
 Service is a core principle of Scouting, embodying the Scout slogan to "Do a Good Turn Daily." While Tenderfoot required one hour, Second Class required two, and First Class required three, Star raises the standard to **six hours of service**.
 
----
-
 ## 1. Rules and Standards for Service Hours
 
 To count toward Requirement 4, your service must satisfy specific criteria established by Scouting America:
@@ -26,8 +24,6 @@ To count toward Requirement 4, your service must satisfy specific criteria estab
 2. **Scoutmaster Approval**: The project must receive Scoutmaster approval *before* you participate. Retroactive approval is at the discretion of the Scoutmaster, so always verify beforehand.
 3. **Eligible Beneficiaries**: Projects may benefit your chartered organization, place of worship, school, local municipality, food bank, community park, conservation group, or an older Scout's Eagle Scout Service Project.
 4. **Ineligible Projects**: Service cannot benefit commercial, for-profit businesses, cannot involve personal favors for friends or family, and cannot be routine fundraising for your own troop (such as popcorn sales or car washes for unit funds).
-
----
 
 ## 2. Options for Completing Your Six Hours
 
@@ -40,8 +36,6 @@ You are not required to complete all six hours in a single day or project. You c
 {{< drg/did-you-know >}}
 Hours spent working on your own service requirement cannot be "double counted" toward school or other club requirements unless both your Scoutmaster and the other organization explicitly approve the dual reporting.
 {{< /drg/did-you-know >}}
-
----
 
 ## 3. Accurate Record-Keeping
 

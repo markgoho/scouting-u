@@ -28,8 +28,6 @@ Commit the seven principles to memory in order:
 6. **Respect Wildlife**
 7. **Be Considerate of Other Visitors**
 
----
-
 ## How to Follow the Seven Principles on Every Outing
 
 | Principle | Core Backcountry Standard | How to Demonstrate on Outings |

@@ -13,8 +13,6 @@ next_title: "Complete Digital Requirements Guide"
 
 Achieving the Star rank is a significant milestone that places you among the senior youth leaders in your troop. You have proven that you can sustain active commitment over four months, lead your peers in an official position of responsibility, contribute meaningful service to your community, and earn six merit badges toward Eagle.
 
----
-
 ## Expanding Your Leadership Horizons
 
 Now that you have achieved Star, take advantage of advanced leadership training and specialized Scouting programs designed for senior youth:
@@ -33,8 +31,6 @@ The Order of the Arrow is Scouting America's National Honor Society. Scouts who 
 
 ### 4. Den Chief Service & Training
 Serving as a Den Chief to a local Cub Scout pack connects you with younger youth, building your mentoring skills while strengthening the future pipeline of your troop. Den Chiefs can complete specialized online and in-person training modules to maximize their effectiveness.
-
----
 
 ## Next Steps Toward Life Scout
 

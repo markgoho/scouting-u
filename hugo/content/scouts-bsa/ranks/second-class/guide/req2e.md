@@ -31,16 +31,12 @@ Cooking a balanced, nutritious hot meal in the field requires thoughtful plannin
 - **Hearty Breakfast Scramble:** Scrambled eggs (Protein) with diced peppers and onions (Vegetables), shredded cheddar (Dairy), wrapped in whole wheat tortillas (Grains), served with an orange (Fruit).
 - **Patrol Campfire Lunch:** Grilled chicken breast strips (Protein) with sauteed bell peppers (Vegetables) on a whole grain roll (Grains), sliced provolone cheese (Dairy), and fresh apple slices (Fruit).
 
----
-
 ## Why Nutrition Matters in Camp
 
 Outdoor activities—like hiking with a heavy pack, pitching tents, chopping firewood, and cold-weather camping—burn significantly more calories than a typical school day. 
 - **Complex Carbohydrates** provide the steady, long-lasting energy needed to hike steep trails without "bonking" or running out of steam.
 - **Proteins and Healthy Fats** rebuild broken-down muscle tissues overnight and generate internal body heat to keep you warm in your sleeping bag.
 - **Electrolytes & Hydration** prevent muscle cramps, dehydration headaches, and heat exhaustion.
-
----
 
 ## Food Safety: Transporting, Storing, and Preparing
 

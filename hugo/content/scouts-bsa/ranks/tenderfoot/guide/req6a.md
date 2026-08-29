@@ -25,8 +25,6 @@ Physical fitness is essential for safe backcountry exploration, personal confide
 
 This baseline gives you a starting point so you can design a personal 30-day improvement plan in Requirement 6b and measure your real progress in Requirement 6c.
 
----
-
 ## Proper Form and Testing Procedures
 
 To make your 30-day comparison meaningful, you must perform each test using strict, correct form:
@@ -62,8 +60,6 @@ This test measures the flexibility of your hamstring muscles and lower back safe
 - **Course**: Run on a standard 400-meter track (4 laps plus approximately 10 yards) or a measured, flat 1-mile route on a trail or quiet neighborhood street mapped with an adult leader.
 - **Execution**: Complete the 1-mile distance as fast as you can safely manage. Pace yourself steadily from the start rather than sprinting and exhausting yourself early. You may alternate between running and brisk walking as needed to catch your breath.
 - **Scoring**: Record your total elapsed time in **minutes and seconds**.
-
----
 
 ## Warm-Up and Testing Safety
 

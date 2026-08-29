@@ -9,8 +9,6 @@ In Scouts BSA, youth do not merely participate in the program—they lead it. Ad
 
 This toolkit provides youth leaders and adult mentors with field-tested frameworks, structured templates, and comprehensive guides to run high-performing patrols and achieve the highest honors in Scouting.
 
----
-
 ## Core Toolkit Guides
 
 Explore the three comprehensive field manuals designed for patrol leaders, troop officers, and advancement candidates:
@@ -24,8 +22,6 @@ The complete operational manual for running a high-functioning patrol:
 
 [**Open Patrol Leader Field Guide &rarr;**](/scouts-bsa/leadership/patrol-method/)
 
----
-
 ### 🦅 [Eagle Scout Service Project Guide](/scouts-bsa/leadership/eagle-project-workbook/)
 Master Requirement 5 from initial idea through the Board of Review:
 - **Proposal Approvals**: The exact criteria needed to secure all 4 mandatory signatures before work begins.
@@ -35,8 +31,6 @@ Master Requirement 5 from initial idea through the Board of Review:
 
 [**Open Eagle Scout Service Project Guide &rarr;**](/scouts-bsa/leadership/eagle-project-workbook/)
 
----
-
 ### 🎯 [Strategic Merit Badge Roadmap](/scouts-bsa/leadership/merit-badge-strategy/)
 A systematic advancement roadmap from Scout to Eagle:
 - **The 4 Time-Lock Badges**: Managing 90+ day logs for *Personal Management*, *Family Life*, *Personal Fitness*, and *Camping*.
@@ -45,8 +39,6 @@ A systematic advancement roadmap from Scout to Eagle:
 - **Advancement Pacing**: Rank-by-rank badges to target at Star, Life, and Eagle.
 
 [**Open Strategic Merit Badge Roadmap &rarr;**](/scouts-bsa/leadership/merit-badge-strategy/)
-
----
 
 ## The Youth Leadership Structure
 
@@ -72,8 +64,6 @@ A Scouts BSA troop operates through a defined hierarchy of youth leadership. Eve
 {{< drg/did-you-know >}}
 The position of **Assistant Patrol Leader (APL)** is vital for patrol functioning, but it is **not** an eligible position of responsibility for the Star, Life, or Eagle rank leadership requirements (Requirement 4). If serving as APL, plan ahead for your next advancement cycle to hold an eligible position like Patrol Leader, Scribe, Quartermaster, or Troop Guide.
 {{< /drg/did-you-know >}}
-
----
 
 ## The Patrol Leaders' Council (PLC) Operating Model
 
@@ -126,8 +116,6 @@ During PLC post-event reviews, avoid vague complaints like "the food was bad." I
 - **Continue**: The Dutch oven peach cobbler recipe.
 {{< /drg/tip >}}
 
----
-
 ## Core Leadership Principles for Scouts
 
 ### 1. The EDGE Method of Instruction
@@ -148,8 +136,6 @@ True leadership in Scouting is measured not by how many people take orders from 
 All youth leaders must respect BSA Youth Protection guidelines. A youth leader never enters another Scout's tent uninvited, never permits hazing or initiation rituals under any guise, and always works in view of adult leaders and with designated buddies.
 {{< /drg/safety-first >}}
 
----
-
 ## Youth Leadership Action Checklist
 
 {{< drg/checklist title="New Leadership Position Launch Checklist" subtitle="Execute these steps within the first 14 days of taking office" >}}
@@ -161,8 +147,6 @@ All youth leaders must respect BSA Youth Protection guidelines. A youth leader n
 - [ ] Set three measurable goals for your 6-month term (e.g., "100% of patrol advances one rank", "Zero missing gear items after campouts").
 - [ ] Review your personal rank advancement roadmap and identify target merit badges.
 {{< /drg/checklist >}}
-
----
 
 ## Continue to Field Toolkits
 

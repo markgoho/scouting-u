@@ -16,8 +16,6 @@ Investigate an environmental issue affecting your community. Share what you lear
 
 As a First Class candidate, your leadership expands to environmental stewardship. Requirement 9b asks you to investigate an environmental issue affecting your local community, share your findings in a presentation to your patrol or troop, and propose actionable solutions.
 
----
-
 ## Step 1: Identifying a Real Local Environmental Issue
 
 Choose a specific, tangible issue in your geographic area rather than a broad, global concept:
@@ -29,16 +27,12 @@ Choose a specific, tangible issue in your geographic area rather than a broad, g
 - **Waste Management & Recycling**: Contamination in local municipal recycling streams, illegal dumping in open spaces, or shrinking landfill capacity.
 - **Air Quality & Wildfire Management**: High ozone alerts in urban centers or accumulated forest debris increasing the risk of catastrophic wildfire in nearby woodlands.
 
----
-
 ## Step 2: Investigating the Issue
 
 Go beyond a quick internet search to gather firsthand local facts:
 - **Consult Local Experts**: Interview a county agricultural extension agent, state park ranger, watershed manager, environmental science teacher, or municipal stormwater engineer.
 - **Review Local Public Data**: Look at city or county water quality reports, local conservation district newsletters, or town hall meeting minutes.
 - **Field Observation**: If safe and accessible, visit the affected park, creek, or natural area to take photographs and observe the conditions directly.
-
----
 
 ## Step 3: Structuring Your Presentation to Your Troop or Patrol
 
@@ -49,8 +43,6 @@ Prepare a concise, engaging 3- to 5-minute presentation for an upcoming troop me
 2. **The Root Causes**: What human actions or environmental factors are driving the issue?
 3. **The Local Impact**: How does this affect native wildlife, water supplies, public health, or outdoor recreation?
 4. **Actionable Solutions**: What specific steps can be taken?
-
----
 
 ## Step 4: Proposing Solutions (Individual & Community Level)
 
