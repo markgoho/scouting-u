@@ -12,31 +12,6 @@ identity:
   micro_tag: "SCOUTS BSA RANK"
 next: "/scouts-bsa/ranks/eagle/guide/req1/"
 next_title: "Be active 6 months"
-guide_nav:
-  - group_title: "Getting Started"
-    items:
-      - title: "Introduction & Overview"
-        url: "/scouts-bsa/ranks/eagle/guide/"
-  - group_title: "Advancement & Review"
-    items:
-      - title: "1. Be active 6 months"
-        url: "/scouts-bsa/ranks/eagle/guide/req1/"
-      - title: "2. Demonstrate Scout spirit"
-        url: "/scouts-bsa/ranks/eagle/guide/req2/"
-      - title: "3. Earn 21 merit badges"
-        url: "/scouts-bsa/ranks/eagle/guide/req3/"
-      - title: "4. Serve in position of responsibility"
-        url: "/scouts-bsa/ranks/eagle/guide/req4/"
-      - title: "5. Lead Eagle service project"
-        url: "/scouts-bsa/ranks/eagle/guide/req5/"
-      - title: "6. Complete Scoutmaster conference"
-        url: "/scouts-bsa/ranks/eagle/guide/req6/"
-      - title: "7. Complete board of review"
-        url: "/scouts-bsa/ranks/eagle/guide/req7/"
-  - group_title: "Beyond the Rank"
-    items:
-      - title: "Extended Learning"
-        url: "/scouts-bsa/ranks/eagle/guide/extended-learning/"
 ---
 
 ## Overview
