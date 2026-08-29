@@ -20,19 +20,19 @@ Checking weather forecasts is a fundamental element of outdoor trip planning and
 
 To satisfy this requirement, you must identify **two distinct methods** for obtaining a reliable weather forecast. Common and effective options include:
 
-### 1. National Weather Service (NWS / NOAA)
+### National Weather Service (NWS / NOAA)
 - **Platform**: `weather.gov` (National Oceanic and Atmospheric Administration).
 - **Why It's Reliable**: The NWS is the primary scientific agency responsible for weather forecasts across the United States. Unlike simplified automated weather widgets, the NWS website provides **localized "point forecasts"** for specific mountain peaks, lakes, and backcountry coordinates, along with hourly weather graphs, detailed meteorological discussion, and radar mosaics.
 
-### 2. NOAA Weather Radio All Hazards (NWR)
+### NOAA Weather Radio All Hazards (NWR)
 - **Platform**: Dedicated VHF radio receivers tuning into frequencies between 162.400 MHz and 162.550 MHz.
 - **Why It's Essential for Backcountry Outings**: NOAA Weather Radio broadcasts continuous, 24-hour localized weather updates directly from local NWS offices. Most emergency weather radios feature **SAME (Specific Area Message Encoding)** technology, which remains on standby and emits a loud audible siren tone the instant an emergency warning is issued for your specific county or wilderness area—functioning reliably even when cell phone towers and internet access are completely unavailable.
 
-### 3. Local Meteorologists & Verified Weather Radar Apps
+### Local Meteorologists & Verified Weather Radar Apps
 - **Platform**: Local television/radio broadcast meteorologists or mobile radar applications.
 - **Why It's Useful**: Local meteorologists understand unique regional microclimates (such as lake-effect snow, coastal sea breezes, or mountain valley thermal winds). Radar apps let you track real-time precipitation intensity and storm cell movement.
 
-### 4. Backcountry Ranger Stations & Avalanche Information Centers
+### Backcountry Ranger Stations & Avalanche Information Centers
 - **Platform**: In-person check-in boards or phone hotlines at national park visitor centers, U.S. Forest Service ranger stations, and regional avalanche forecasting centers (such as `avalanche.org`).
 - **Why It's Useful**: Rangers provide ground-level updates on recent trail washouts, river crossing depths, snowpack stability, fire danger indices, and localized high-elevation wind forecasts.
 

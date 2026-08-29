@@ -9,16 +9,16 @@ Each guide is designed for high-yield field utility: clear step-by-step executio
 
 ## Field Reference Guides
 
-### 1. [Knots, Hitches, Bends & Lashings Field Guide](/scouts-bsa/field-guides/knots-and-lashings/)
+### [Knots, Hitches, Bends & Lashings Field Guide](/scouts-bsa/field-guides/knots-and-lashings/)
 The complete technical reference for cordage and pioneering. Covers rope construction and materials, terminal whipping and fusing, the core advancement knots, high-strength climbing and utility bends, friction hitches, and all primary structural pioneering lashings (Square, Diagonal, Shear, Round, Tripod, and Floor) complete with wrap-to-frap tension ratios and pioneering safety inspections.
 
-### 2. [Wilderness First Aid & Outdoor Emergency Protocols](/scouts-bsa/field-guides/wilderness-first-aid/)
+### [Wilderness First Aid & Outdoor Emergency Protocols](/scouts-bsa/field-guides/wilderness-first-aid/)
 A tactical outdoor emergency reference built around the STOP and MARCH PAWS assessment models. Features backcountry evacuation decision protocols, the complete SOAP medical documentation template, traumatic injury management (combat tourniquets, SAM splinting, spinal clearance), environmental medicine (hypothermia burrito wraps, heat stroke active cooling, altitude illness), and an exhaustive expedition first-aid packing checklist.
 
-### 3. [Camp Kitchen, 3-Pot Sanitation & Dutch Oven Guide](/scouts-bsa/field-guides/camp-cooking/)
+### [Camp Kitchen, 3-Pot Sanitation & Dutch Oven Guide](/scouts-bsa/field-guides/camp-cooking/)
 The ultimate camp kitchen manual. Details the official BSA 3-pot hot dishwashing sanitation method, gray water sumping, chuck box management, food safety temperature control, and the complete Dutch Oven Charcoal Heat Calculator matrix (top and bottom coal counts from 8-inch to 16-inch ovens for 325°F through 450°F). Includes lightweight stove comparisons, cold-weather canister tricks, and backcountry meal planning.
 
-### 4. [Navigation, Topographic Maps & Weather Forecasting Toolkit](/scouts-bsa/field-guides/navigation-and-weather/)
+### [Navigation, Topographic Maps & Weather Forecasting Toolkit](/scouts-bsa/field-guides/navigation-and-weather/)
 The backcountry navigator’s technical toolkit. Master 1:24,000 USGS topographic quadrangle interpretation, contour elevation math, 6-digit and 8-digit UTM coordinate plotting, baseplate compass mechanics, magnetic declination calculation formulas, pace factor calibration, triangulation, aiming off, and natural weather forecasting using barometric pressure trends, cloud classifications, and frontal wind shifts.
 
 {{< drg/be-prepared title="The 10 Outdoor Essentials for Every Outing" >}}

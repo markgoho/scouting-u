@@ -26,19 +26,19 @@ The goal is to foster open, trusting family communication about personal safety,
 
 When working through the pamphlet exercises together, focus on these essential personal safety principles:
 
-### 1. Setting and Respecting Personal Boundaries
+### Setting and Respecting Personal Boundaries
 - Every person has a right to privacy and personal body boundaries.
 - Recognize that you have the right to say **"NO"** if anyone—peer, older youth, or adult—attempts to violate your personal boundaries or make you feel uncomfortable.
 
-### 2. Trusting Your Instincts (The "Uh-Oh" Feeling)
+### Trusting Your Instincts (The "Uh-Oh" Feeling)
 - Your body often senses danger before your mind fully processes it (e.g., butterflies in your stomach, racing heart, sudden anxiety).
 - If a person or situation makes you feel uneasy, trust your instincts and immediately remove yourself from the environment.
 
-### 3. Understanding Secrets vs. Surprises
+### Understanding Secrets vs. Surprises
 - A healthy surprise (like a birthday party or gift) is temporary and brings joy to others.
 - An unsafe "secret" involves someone asking you to hide behavior, promises of special favors, or threats not to tell your parents. **Never keep secrets about things that make you feel uncomfortable.**
 
-### 4. Establishing a Network of Trusted Adults
+### Establishing a Network of Trusted Adults
 - Identify at least three to five trusted adults outside your immediate family (such as teachers, school counselors, religious leaders, or Scout leaders) whom you can turn to if you ever need help or need to report unsafe behavior.
 
 ## Completing the Requirement

@@ -7,7 +7,7 @@ To achieve the rank of Eagle Scout, a Scout must earn a minimum of **21 merit ba
 
 Earning 21 badges is not merely a test of endurance—it is an exercise in long-term project management, time management, and goal setting. Scouts who approach merit badges opportunistically often find themselves trapped in their final year with multiple 90-day tracking logs. Scouts who follow a structured roadmap earn Eagle with confidence and less stress.
 
-## 1. The 21 Merit Badge Architecture
+## The 21 Merit Badge Architecture
 
 Every Eagle candidate must earn 14 Eagle-required badges across specific categories, plus 7 electives:
 
@@ -40,7 +40,7 @@ Every Eagle candidate must earn 14 Eagle-required badges across specific categor
 If you earn more than one badge in a choice group (e.g., you earn both *Swimming* and *Hiking*), one counts toward your 14 Eagle-required badges, and the second automatically counts as one of your 7 elective badges!
 {{< /drg/did-you-know >}}
 
-## 2. The 4 "Time-Lock" Badges (Require 90+ Days)
+## The 4 "Time-Lock" Badges (Require 90+ Days)
 
 The most dangerous bottleneck in Scouting advancement is the **Time-Lock Quad**. These four badges cannot be completed over a single weekend or summer camp week because their requirements mandate months of continuous tracking:
 
@@ -55,7 +55,7 @@ The most dangerous bottleneck in Scouting advancement is the **Time-Lock Quad**.
 Every year, thousands of Life Scouts turn 17.5 years old and realize they have not started Personal Management or Personal Fitness. Because these badges require 90 to 100 days of active logs plus counselor review time, starting them less than 4 months before your 18th birthday creates severe risk of missing the Eagle deadline.
 {{< /drg/be-prepared >}}
 
-## 3. Strategic Analysis of the 3 Choice Groups
+## Strategic Analysis of the 3 Choice Groups
 
 Choose the badge in each option group that matches your physical capabilities, facilities, and personal interests:
 
@@ -65,7 +65,7 @@ Choose the badge in each option group that matches your physical capabilities, f
 | **Group 2: Environment & Science** | **Environmental Science** (Field plots, ecology experiments, pollution studies) | **Sustainability** (Home utility audits, food waste tracking, community design) | — | Take *Environmental Science* at summer camp; take *Sustainability* if working at home. |
 | **Group 3: Outdoor Travel** | **Swimming** (Completed in 1 week at summer camp aquatics dock) | **Hiking** (One 5-mile, three 10-mile, one 15-mile, one 20-mile continuous trek) | **Cycling** (Two 10-mile, two 15-mile, two 25-mile, one 50-mile road ride) | *Swimming* is by far the fastest. *Hiking* and *Cycling* require high endurance and extensive weekend commitments. |
 
-## 4. Rank-by-Rank Strategic Progression Timeline
+## Rank-by-Rank Strategic Progression Timeline
 
 | Rank Target | Eagle-Required Focus | Electives Focus | Key Strategic Milestone |
 | :--- | :--- | :--- | :--- |
@@ -74,7 +74,7 @@ Choose the badge in each option group that matches your physical capabilities, f
 | **Stage 3: Star to Life** (Ages 14–15) | **Citizenship in Community**, **Citizenship in Nation**, **Emerg. Prep/Lifesaving** | 2 electives (11 total) | **Launch 90-day Time-Lock logs (Personal Mgmt / Fitness / Family Life)!** |
 | **Stage 4: Life to Eagle** (Ages 15–17) | Finish Time-Locks, **Communication**, **Cooking**, **Citizenship in World** | 3 electives (21 total) | Execute Eagle Scout Service Project and complete Board of Review. |
 
-## 5. The Blue Card Workflow & Merit Badge Process
+## The Blue Card Workflow & Merit Badge Process
 
 The BSA Application for Merit Badge (the "Blue Card") or its Scoutbook digital equivalent is the official legal record of merit badge completion. Always follow the 5-step process:
 
@@ -91,7 +91,7 @@ The BSA Application for Merit Badge (the "Blue Card") or its Scoutbook digital e
 Whenever meeting with a Merit Badge Counselor—whether in person, over Zoom, or via email—a Scout must **always** have a buddy present. This can be another Scout, a parent, or an adult leader. One-on-one contact without another individual present is strictly prohibited under BSA Youth Protection rules.
 {{< /drg/safety-first >}}
 
-## 6. Merit Badge Strategic Tracking Matrix
+## Merit Badge Strategic Tracking Matrix
 
 Copy this template into your advancement binder or digital notes to track every badge:
 
@@ -105,7 +105,7 @@ Copy this template into your advancement binder or digital notes to track every 
 | **Personal Fitness**| Yes | Coach Taylor | Mar 01, 2025 | Baseline test done | Jun 15, 2025 | In Progress (10%) |
 | **Robotics** | No (Elective)| Ms. Adams | Sep 05, 2024 | Built competition chassis | Dec 12, 2024 | **Completed** |
 
-## 7. Advancement Planning Action Checklist
+## Advancement Planning Action Checklist
 
 {{< drg/checklist title="Merit Badge Strategic Mastery Checklist" subtitle="Execute these steps to stay ahead of advancement deadlines" >}}
 - [ ] Review your current advancement record in Scoutbook with your Troop Advancement Chair.

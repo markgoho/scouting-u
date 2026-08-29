@@ -16,7 +16,7 @@ Repeat from memory the Outdoor Code. List the Leave No Trace Seven Principles. E
 
 Preserving the wilderness and practicing good outdoor citizenship is a cornerstone of Scouting. To complete this requirement, you must memorize the **Outdoor Code**, list the **Leave No Trace Seven Principles**, and explain the essential differences between the two frameworks.
 
-## 1. The Outdoor Code
+## The Outdoor Code
 
 > **As an American, I will do my best to—**
 > - **Be clean in my outdoor manners,**
@@ -30,7 +30,7 @@ Preserving the wilderness and practicing good outdoor citizenship is a cornersto
 - **Be Considerate in the Outdoors**: Respect fellow outdoor travelers. Keep voices and electronic noise down, yield trail right-of-way, leave natural objects intact, and preserve peace in camp.
 - **Be Conservation-Minded**: Learn about natural resources, protect native wildlife habitats, prevent trail and stream erosion, and support local conservation service projects.
 
-## 2. The Leave No Trace Seven Principles
+## The Leave No Trace Seven Principles
 
 Developed by the **Leave No Trace Center for Outdoor Ethics** in collaboration with public land agencies (such as the U.S. Forest Service, National Park Service, and Bureau of Land Management), these seven principles provide scientific guidance for reducing outdoor impact:
 
@@ -42,7 +42,7 @@ Developed by the **Leave No Trace Center for Outdoor Ethics** in collaboration w
 6. **Respect Wildlife**: Observe animals from a safe distance without following, crowding, or feeding them. Store food and smellables securely in bear-resistant canisters or bear bags hung 12 feet high.
 7. **Be Considerate of Other Visitors**: Maintain trail courtesy, yield to uphill hikers and horseback riders, camp away from other groups, and let the sounds of nature prevail.
 
-## 3. Explaining the Difference Between the Two
+## Explaining the Difference Between the Two
 
 While both frameworks share the ultimate goal of environmental stewardship, they serve different functions:
 

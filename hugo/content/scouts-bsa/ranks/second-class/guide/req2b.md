@@ -26,18 +26,18 @@ Every successful campfire depends on proper preparation before striking a match.
 
 ## Preparing Materials with Your Woods Tools
 
-### 1. Whittle Feather Sticks (Fuzz Sticks) with a Pocketknife
+### Whittle Feather Sticks (Fuzz Sticks) with a Pocketknife
 When natural tinder is damp from rain or dew, the dry interior wood of a stick is your best friend:
 - Take a dry stick about thumb-thickness and 10 inches long.
 - Use your pocketknife to shave thin, curling slivers down the length of the stick without cutting them completely off the wood.
 - Work around the stick until you create a bushy "feather stick" that catches fire instantly.
 - **Safety Rule:** Always carve *away* from your body and hands, maintaining a clear blood circle (arm's length in every direction).
 
-### 2. Sizing Wood with a Camp Saw
+### Sizing Wood with a Camp Saw
 - Cut larger fallen limbs into manageable 12- to 18-inch fuel logs.
 - Support the log firmly on the ground or a chopping block. Never hold wood with your hand close to the saw blade. Use smooth, full-length strokes.
 
-### 3. Splitting Kindling with a Hatchet or Ax (If Needed)
+### Splitting Kindling with a Hatchet or Ax (If Needed)
 - Use the **contact method** to split small sticks: hold the blade edge against the top of the wood, and bring both tool and stick down together onto a solid wooden chopping block.
 - Never hold a stick upright with your fingers while swinging an ax.
 

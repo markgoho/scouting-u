@@ -5,7 +5,7 @@ description: "A comprehensive field reference for wilderness emergency action, p
 
 Wilderness First Aid (WFA) differs fundamentally from urban emergency medicine. When access to definitive hospital care is hours or days away, outdoor leaders must stabilize patients, manage prolonged environmental exposure, improvise equipment, and make critical evacuation decisions under harsh conditions.
 
-## 1. Backcountry Scene Size-Up & Primary Assessment
+## Backcountry Scene Size-Up & Primary Assessment
 
 Before rushing toward an injured person, stop and evaluate the entire scene. Rescuer safety is always the highest priority.
 
@@ -29,7 +29,7 @@ In wilderness medicine, catastrophic external bleeding kills faster than an airw
 | **C – Circulation** | Radial & carotid pulses, skin perfusion | Shock, internal hemorrhage, weak pulse | Check radial pulse, capillary refill (<2s), skin temp/color; manage shock |
 | **H – Hypothermia & Head** | Core temp & neurological status | Environmental cooling, cold ground heat loss | Insulate from ground immediately with foam pad & winter sleeping bag wrap |
 
-## 2. Wilderness Evacuation Decision Matrix
+## Wilderness Evacuation Decision Matrix
 
 | Category | Urgency Level | Criteria & Clinical Triggers | Action Plan |
 | :--- | :--- | :--- | :--- |
@@ -46,7 +46,7 @@ In wilderness medicine, catastrophic external bleeding kills faster than an airw
 | **Personal Locator Beacon** | 406 MHz NOAA Satellites | Direct distress beacon | Non-cancelable; activate ONLY in imminent loss-of-life or limb scenarios. |
 | **Ground-to-Air Signals** | Visual markers (10ft letters) | Aircraft visual search | Trample `V` (Need Assistance), `X` (Medical Assistance), or build 3 fires in a triangle. |
 
-## 3. Wilderness SOAP Note Documentation
+## Wilderness SOAP Note Documentation
 
 A SOAP note provides a structured format to document findings and communicate seamlessly with emergency medical services (EMS) and Search & Rescue (SAR):
 
@@ -66,9 +66,9 @@ A SOAP note provides a structured format to document findings and communicate se
 | **P – Pain** | Stuporous | Responds only to painful stimuli; does not speak | Apply sternal rub or trapezius squeeze |
 | **U – Unresponsive**| Comatose | Completely unconscious; zero verbal/motor response | Check carotid pulse; manage airway immediately |
 
-## 4. Traumatic Emergencies Management
+## Traumatic Emergencies Management
 
-### A. Severe Hemorrhage & Commercial Tourniquet Application
+### Severe Hemorrhage & Commercial Tourniquet Application
 When direct bone-pressing pressure fails to stop severe arterial bleeding on an extremity:
 
 {{< drg/safety-first >}}
@@ -81,7 +81,7 @@ When direct bone-pressing pressure fails to stop severe arterial bleeding on an 
 6. **NEVER loosen or remove a tourniquet once applied in the field.** Only hospital surgical staff should release it.
 {{< /drg/safety-first >}}
 
-### B. Fractures, Sprains & Dislocations (CSM Assessment)
+### Fractures, Sprains & Dislocations (CSM Assessment)
 Before and after applying any splint, always assess **CSMs**:
 - **C – Circulation:** Check distal pulse (radial pulse for wrist/arm; dorsalis pedis / posterior tibial pulse for foot/leg). Check capillary refill and skin warmth.
 - **S – Sensation:** Touch the patient's toe or finger with their eyes closed: *"Which finger/toe am I touching?"* Check for numbness, tingling, or paresthesia.
@@ -101,7 +101,7 @@ Splinting Rules:
 - **Inverted-U Ankle Splint:** Form a stirrup under the heel coming up both sides of the calf.
 - **C-Curve Structural Rigidity:** Always bend a SAM splint along its longitudinal axis into a slight structural curve (like a gutter or roof tile). This creates immense rigidity from flexible aluminum.
 
-### C. Wilderness Spinal Clearance Protocol
+### Wilderness Spinal Clearance Protocol
 In an austere environment where professional rescue is hours away, you may evaluate an alert trauma patient using the **Wilderness Spinal Clearance Protocol**:
 
 {{< drg/be-prepared title="When Can You Clear a Spine in the Wilderness?" >}}
@@ -115,13 +115,13 @@ A patient's cervical spine may be cleared from manual immobilization ONLY if **A
 *If ANY criterion fails, maintain strict spinal motion restriction and prepare for litter evacuation.*
 {{< /drg/be-prepared >}}
 
-### D. Chest & Abdominal Trauma
+### Chest & Abdominal Trauma
 - **Sucking Chest Wound (Pneumothorax):** Air enters the pleural cavity through an open chest hole. Apply a commercial vented chest seal (or plastic wrapper taped on three sides). If the patient develops signs of a **Tension Pneumothorax** (extreme shortness of breath, tracheal deviation, jugular vein distension, cyanosis), temporarily lift/burp the seal to vent trapped high-pressure air.
 - **Flail Chest:** Two or more ribs broken in two or more places. Stabilize the paradoxical moving section by taping a bulky pad, folded fleece, or SAM splint over the unstable segment.
 
-## 5. Environmental Medicine
+## Environmental Medicine
 
-### A. Hypothermia Protocol & The "Burrito Wrap"
+### Hypothermia Protocol & The "Burrito Wrap"
 
 Hypothermia occurs when the core body temperature drops below 95°F (35°C).
 
@@ -137,7 +137,7 @@ Hypothermia occurs when the core body temperature drops below 95°F (35°C).
 **Preventing Afterdrop:** Never place hot packs directly on cold hands or feet. Warming cold extremities first causes cold, acid-laden peripheral blood to rush back to the heart core, causing a lethal temperature plunge and cardiac arrest ("Afterdrop"). Always warm the **central torso and armpits** first.
 {{< /drg/safety-first >}}
 
-### B. Hyperthermia: Heat Exhaustion vs. Heat Stroke
+### Hyperthermia: Heat Exhaustion vs. Heat Stroke
 
 Heat stroke is an immediate, life-threatening medical emergency.
 
@@ -146,7 +146,7 @@ Heat stroke is an immediate, life-threatening medical emergency.
 | **Heat Exhaustion** | Core temp < 104°F (40°C), heavy sweating, headache, nausea | Normal mental status, pale/cool/clammy skin | Rest in shade, loosen tight clothing, sip cool electrolyte fluids, mist and fan |
 | **Heat Stroke (Life Threat!)** | Core temp > 104°F (40°C), hot red skin (sweating may cease) | Altered mental status, delirium, seizures, coma, rapid pulse | **Cool First, Transport Second!** Rapid ice-water immersion or aggressive dousing/fanning, ice packs on neck/armpits/groin, call 911/SAR |
 
-### C. High Altitude Illness
+### High Altitude Illness
 
 Altitude illnesses occur due to decreased barometric pressure and hypoxia, typically above 8,000 feet (2,400 m).
 
@@ -155,7 +155,7 @@ Altitude illnesses occur due to decreased barometric pressure and hypoxia, typic
 - **HACE (High Altitude Cerebral Edema):** Brain swelling. Severe headache, ataxia (inability to walk heel-to-toe in a straight line), confusion, hallucination, coma.
 - **Golden Rule of Altitude Medicine:** **"DESCEND IMMEDIATELY!"** Descending 1,500–3,000 feet is the single most effective, lifesaving treatment for HAPE and HACE.
 
-### D. Envenomations & Bites
+### Envenomations & Bites
 
 #### North American Pit Viper (Rattlesnake, Copperhead, Cottonmouth)
 1. Keep the patient calm and completely still (running accelerates venom circulation).

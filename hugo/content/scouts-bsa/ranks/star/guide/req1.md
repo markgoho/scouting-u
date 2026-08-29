@@ -16,7 +16,7 @@ Be active in your troop for at least four months as a First Class Scout.
 
 The ranks leading to First Class were task-oriented: you mastered knots, navigated with map and compass, set up camp, and cooked meals. Star introduces a new dimension: **sustained active tenure**. Requirement 1 establishes a four-month period of continuous engagement in your troop as a First Class Scout.
 
-## 1. What "Active Participation" Means
+## What "Active Participation" Means
 
 According to the official *Guide to Advancement* (topic 4.2.3.1), active participation is evaluated using three clear, objective standards:
 
@@ -28,14 +28,14 @@ According to the official *Guide to Advancement* (topic 4.2.3.1), active partici
 "Active" does not demand 100% perfect attendance. Scouting recognizes that young people balance school obligations, athletics, family commitments, and religious activities. If you must miss several meetings due to a seasonal sport or academic demand, speak with your Scoutmaster beforehand to establish an agreed-upon plan for remaining connected.
 {{< /drg/did-you-know >}}
 
-## 2. Calculating the Four-Month Clock
+## Calculating the Four-Month Clock
 
 The four-month clock begins on the exact date you passed your **First Class Board of Review**, not the date you were recognized at a court of honor.
 
 - **Example**: If your First Class board of review took place on October 15, your earliest possible date for a Star board of review is February 15 of the following year (assuming all other requirements are completed).
 - **Concurrent Work**: You do not have to wait for the four months to finish before working on other Star requirements. You can earn merit badges, log service hours, and serve in your leadership position during this four-month window.
 
-## 3. Staying Engaged and Building Momentum
+## Staying Engaged and Building Momentum
 
 Use these four months to transition from being a Scout who participates in activities to one who helps lead and support others:
 

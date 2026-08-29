@@ -20,12 +20,12 @@ You must demonstrate both the role of the **tender** and the role of the **rescu
 
 ## The Line Tender Rescue Procedure
 
-### 1. Equipment and Preparation
+### Equipment and Preparation
 - A long rescue line (at least 50 feet of floating polypropylene rope).
 - A flotation device (such as a rescue tube, ring buoy, PFD, or kickboard).
 - Tie a large **bowline knot** in the working end of the rescue line to form a secure loop.
 
-### 2. Role of the Rescuer
+### Role of the Rescuer
 1. **Don the harness loop**: Place the bowline loop over one shoulder and under the opposite arm so it rests diagonally across your chest and back, leaving both arms completely free to swim.
 2. **Carry flotation**: Hold the flotation device securely in one hand or under your arm.
 3. **Swim out**: Enter the water and swim toward the practice victim using a breaststroke or head-up crawl, keeping your eyes on the victim at all times.
@@ -33,7 +33,7 @@ You must demonstrate both the role of the **tender** and the role of the **rescu
 5. **Signal the tender**: Once the victim has a firm grip on the flotation device, raise one arm overhead and call out clearly: *"PULL!"*
 6. **Support during retrieval**: Turn on your back or side, holding the flotation device with the victim, or supporting an unconscious victim's head above water, as the tender hauls both of you smoothly to shore.
 
-### 3. Role of the Tender
+### Role of the Tender
 1. **Anchor stance**: Stand or drop to one knee in a stable, braced position on the shoreline or dock.
 2. **Manage the line**: Arrange the line in clean, loose coils on the ground. Do not stand on the coils. Feed the line smoothly over your hands as the rescuer swims out, ensuring there are no snags, knots, or tangles.
 3. **Never wrap the line**: **Never wrap the rope around your hands, wrists, or waist.** A sudden pull could cause severe injury or drag you in.

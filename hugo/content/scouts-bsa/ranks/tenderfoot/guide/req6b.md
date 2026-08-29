@@ -29,17 +29,17 @@ Athletes and fitness trainers design effective conditioning programs using the *
 
 Your 30-day plan must include specific training activities for each of the four test areas:
 
-### 1. Push-Ups (Upper Body Strength & Endurance)
+### Push-Ups (Upper Body Strength & Endurance)
 - **Routine**: Complete 3 sets of push-ups, 3 to 4 days per week (e.g., Monday, Wednesday, Friday), with 1 to 2 minutes of rest between sets.
 - **Progression**: Start with manageable sets (e.g., 3 sets of 5 to 10 push-ups). If full push-ups are difficult, begin with knee push-ups or hands-elevated incline push-ups against a bench or wall. Add 1 to 2 repetitions to each set every week.
 - **Complementary Exercises**: Bench dips, bear crawls, and plank holds.
 
-### 2. Sit-Ups or Curl-Ups (Core Abdominal Strength)
+### Sit-Ups or Curl-Ups (Core Abdominal Strength)
 - **Routine**: Complete 3 sets of sit-ups or curl-ups, 3 to 4 days per week.
 - **Progression**: Focus on controlled, steady form rather than jerking upward. Start with sets of 10 to 15 reps, gradually increasing repetitions over the 30 days.
 - **Complementary Exercises**: Front planks (holding for 20–45 seconds), side planks, bird-dogs, and bridge holds.
 
-### 3. Back-Saver Sit-and-Reach (Flexibility)
+### Back-Saver Sit-and-Reach (Flexibility)
 - **Routine**: Perform a dedicated stretching session for **5 to 10 minutes every single day**, especially immediately following workouts when your muscles are already warm.
 - **Key Stretches**:
   - *Hamstring & Lower Back*: Seated one-leg reach and straddle stretch.
@@ -48,7 +48,7 @@ Your 30-day plan must include specific training activities for each of the four 
   - *Shoulder & Upper Body*: Cross-body arm pull.
 - **Technique**: Hold each stretch smoothly for **20 to 30 seconds**. **Never bounce**, which causes micro-tears in muscle fibers and triggers protective muscle tightening.
 
-### 4. One-Mile Walk/Run (Cardiorespiratory Aerobic Endurance)
+### One-Mile Walk/Run (Cardiorespiratory Aerobic Endurance)
 - **Routine**: Aerobic training 3 to 4 days per week.
 - **Progression**: If running a full mile without stopping is challenging, use a **run/walk interval method**: alternate running for 1 to 2 minutes with walking briskly for 1 minute for a total of 20–30 minutes. Gradually lengthen the running intervals and shorten the walking breaks until you can jog or run the full mile continuously.
 - **Cross-Training**: Bicycling, swimming laps, playing active sports (soccer, basketball), or hiking with a daypack.

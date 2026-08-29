@@ -26,16 +26,16 @@ A Scout with true Scout spirit does not simply put on good behavior while wearin
 
 When preparing to discuss Scout spirit with your Scoutmaster or during a Board of Review, think about concrete, real-life examples from your everyday routine:
 
-### 1. At Home with Your Family
+### At Home with Your Family
 - **Helpful & Cheerful**: Doing household chores, cleaning up after dinner, or helping care for younger siblings without having to be nagged or asked multiple times.
 - **Courteous & Obedient**: Respecting your parents' rules, listening attentively when family members speak, and resolving disagreements calmly.
 
-### 2. At School and in Sports
+### At School and in Sports
 - **Trustworthy**: Doing your own work with academic honesty, never cheating on tests or copying assignments.
 - **Friendly & Kind**: Reaching out to a classmate who is sitting alone at lunch or new to the school; encouraging teammates when they make a mistake instead of criticizing them.
 - **Brave**: Standing up for someone who is being teased or bullied, and refusing to participate in gossip or hurtful social media behavior.
 
-### 3. In Your Patrol and Troop
+### In Your Patrol and Troop
 - **Helpful & Thrifty**: Pitching in with fire building, cooking, and campsite cleanup on campouts without waiting for the patrol leader to assign tasks. Taking good care of troop tents and stoves to avoid damage.
 - **Loyal & Cheerful**: Showing up on time to meetings and outings, supporting your patrol leader's decisions, and maintaining a positive attitude when rain or cold weather challenges the troop.
 

@@ -16,7 +16,7 @@ Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you ha
 
 For Tenderfoot, demonstrating Scout spirit moves from understanding definitions to providing tangible evidence of how the Scout Oath and Scout Law guide your daily choices. In this requirement, you must explain to your Scoutmaster how you have fulfilled your **Duty to God** and how you have lived **four specific points of the Scout Law** in your everyday life.
 
-## 1. Fulfilling Your Duty to God
+## Fulfilling Your Duty to God
 
 Scouting America is non-sectarian and respects every Scout's personal faith tradition and family beliefs. The first promise of the Scout Oath is to do your "duty to God," and the twelfth point of the Scout Law states that "A Scout is reverent."
 
@@ -28,7 +28,7 @@ Be prepared to describe how your faith and spiritual values guide your life. Con
 - Participating in your faith community's service projects or pursuing your religious organization's **Religious Emblems program**.
 - Showing reverence in the outdoors by appreciating the beauty of nature and caring for creation.
 
-## 2. Living Four Points of the Scout Law
+## Living Four Points of the Scout Law
 
 Choose **four different points** from the twelve points of the Scout Law. For each point, prepare a specific, recent, real-world story showing how you put that virtue into practice in your daily life:
 

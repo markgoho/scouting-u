@@ -5,7 +5,7 @@ description: "A complete technical reference to cordage, rope mechanics, termina
 
 Ropework is one of the foundational disciplines of outdoor mastery. Whether pitching a storm-resistant tarp, hauling timber, securing a load, building pioneering structures, or executing a wilderness rescue, knowing the exact knot for the job—and tying it correctly under pressure—is essential.
 
-## 1. Anatomy of Rope & Cordage
+## Anatomy of Rope & Cordage
 
 Understanding how a rope behaves requires knowing standard nautical and mountaineering terms.
 
@@ -28,7 +28,7 @@ Understanding how a rope behaves requires knowing standard nautical and mountain
 | **Polypropylene** | Synthetic | Moderate-Low | Moderate (8–12%) | Completely hydrophobic; **floats on water** | Poor UV resistance; melts at ~320°F (160°C) | Waterfront throw bags, rescue lines, perimeter markers |
 | **UHMWPE (Dyneema/Spectra)** | Micro-Synthetic | Extreme | Minimal (<1%) | Hydrophobic; floats | Highly slick; poor heat resistance; melts at ~290°F | Ultralight tarp lines, winch lines, specialized cords |
 
-## 2. Rope Terminal Care: Whipping & Fusing
+## Rope Terminal Care: Whipping & Fusing
 
 Unprotected rope ends fray and unravel into useless strands. All ropes must have their ends secured immediately after cutting.
 
@@ -53,13 +53,13 @@ Whipping binds the strands using strong, wax-treated twine (sailmaker's twine or
 6. Pull firmly on the initial short end extending from the bottom of the wrap. This draws the loop (and the active end) halfway under the protective coil.
 7. Trim both twine ends flush with the whipping coil.
 
-## 3. The Core Six Advancement Knots & Hitches
+## The Core Six Advancement Knots & Hitches
 
 These six knots form the backbone of Scouts BSA rank advancement from Scout to First Class.
 
 ![Core Foundational Scouting Knots](/img/diagrams/core-scout-knots.png)
 
-### A. Square Knot (Reef Knot)
+### Square Knot (Reef Knot)
 *Classification:* Binding Knot (Joining two ends of a single line around an object).
 
 - **Primary Use:** Tying packages, securing sail covers (reefing), tying shoelaces, and securing triangular bandages.
@@ -68,7 +68,7 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
   2. Inspect the knot: Both loops must link cleanly, and both working ends must lie flat along the same side of the standing ropes.
 - **Critical Limitation:** The Square Knot is **NOT** a bend and must **NEVER** be used to join two separate ropes under critical tension. Under dynamic loads or when ropes are of different diameters, it capsizes into a slip knot and unties completely.
 
-### B. Two Half-Hitches
+### Two Half-Hitches
 *Classification:* Hitch (Securing a rope to a post, tree, ring, or standing spar).
 
 - **Primary Use:** Mooring small watercraft, securing clotheslines, and tying cargo down to vehicle anchor rings.
@@ -79,7 +79,7 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
   4. Pull the working end tight. Notice that the two half-hitches form a Clove Hitch around the standing part.
 - **Pro Tip:** For extra security under vibrating loads, add a third half-hitch or seize the working end.
 
-### C. Taut-Line Hitch
+### Taut-Line Hitch
 *Classification:* Friction Hitch (Adjustable loop knot).
 
 - **Primary Use:** Tent guylines, dining fly ridge lines, and adjustable lashings. Allows the line to slide freely when adjusted manually, but jams under tension.
@@ -96,7 +96,7 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
 **Midshipman’s Hitch Upgrade:** When using slick, modern synthetic braided cords (e.g., paracord, braided polyester), a standard Taut-Line can slip under heavy gusts. Tie a **Midshipman's Hitch** instead: place the second wrap *over* the first wrap inside the loop (an awning hitch structure) before finishing with the external half-hitch. It binds with significantly higher friction.
 {{< /drg/tip >}}
 
-### D. Bowline
+### Bowline
 *Classification:* Fixed Loop Knot ("The King of Knots").
 
 - **Primary Use:** Creating a secure, non-slip fixed loop at the end of a line. Used for boat mooring lines, rescue loops around a waist, and hoisting equipment.
@@ -108,7 +108,7 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
   4. Bring the working end back down into the original loop (the "rabbit goes back down the hole").
   5. Grasp the bight and working end together in one hand and the standing line in the other; pull in opposite directions to set.
 
-### E. Clove Hitch
+### Clove Hitch
 *Classification:* Hitch (Fast temporary grip on a cylinder).
 
 - **Primary Use:** Starting and ending almost all pioneering lashings; tying fenders to boat rails; securing lines to posts.
@@ -123,7 +123,7 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
   2. Slide the right loop behind the left loop.
   3. Drop both combined loops over the top of the post and cinch tight.
 
-### F. Sheet Bend & Double Sheet Bend
+### Sheet Bend & Double Sheet Bend
 *Classification:* Bend (Joining two separate ropes).
 
 - **Primary Use:** Joining two ropes of unequal diameter, or joining two wet/slippery ropes.
@@ -135,7 +135,7 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
   5. Pull both standing parts to set. Both working ends must finish on the **same side** of the bend.
 - **Double Sheet Bend:** For ropes of extreme thickness difference or slick synthetic lines, make a second full turn with the thin rope around the thick bight before tucking under its own standing line.
 
-## 4. Advanced & Utility Knots
+## Advanced & Utility Knots
 
 ### Timber Hitch & Killick Hitch
 *Primary Use:* Starting diagonal lashings; dragging heavy logs and tree trunks through woods.
@@ -178,9 +178,9 @@ These six knots form the backbone of Scouts BSA rank advancement from Scout to F
 4. Pull downward on the working end: this creates a **3:1 theoretical mechanical advantage** (ignoring friction).
 5. Lock off the tension using two half-hitches around the lower lines.
 
-## 5. Pioneering Structural Lashings
+## Pioneering Structural Lashings
 
-## 5. Structural Pioneering Lashings
+## Structural Pioneering Lashings
 Lashing is the art of joining timber spars using rope to build rigid structures (pioneering towers, signal towers, monkey bridges, camp tables, and raft frames) without nails or bolts.
 
 ![Structural Pioneering Lashings](/img/diagrams/pioneering-lashings.png)
@@ -188,7 +188,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
 - **Rule of Thumb:** *“Wraps position the poles; Fraps provide the structural tension.”*
 - **Sisal / Manila Cordage:** Traditional 1/4-inch 3-strand manila or sisal is the preferred pioneering cordage because its natural fiber surface texture creates superior friction without slipping.
 
-### A. Square Lashing
+### Square Lashing
 *Use:* Joining two spars that cross at right angles (or 45°–90°) where one spar rests on top of the other, supporting downward loads.
 
 1. **Start:** Tie a **Clove Hitch** around the vertical spar directly beneath the horizontal spar. Twist the short tail into the standing line.
@@ -199,7 +199,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
    - Bring the rope between the two spars and wrap it tightly around the wraps. Cinch each frapping turn with full body weight.
 4. **End:** Finish with a **Clove Hitch** on the horizontal spar.
 
-### B. Diagonal Lashing
+### Diagonal Lashing
 *Use:* Joining two spars that cross at an angle, especially where the spars are under cross-tension or tend to spring apart (cross-bracing).
 
 1. **Start:** Tie a **Timber Hitch** around *both* intersecting spars, pulling them firmly together.
@@ -210,7 +210,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
    - Make 2 to 3 frapping turns tightly between the spars around all the cross wraps.
 4. **End:** Finish with a **Clove Hitch** on either spar.
 
-### C. Shear Lashing (Shear Legs & A-Frames)
+### Shear Lashing (Shear Legs & A-Frames)
 *Use:* Joining two spars parallel to create an A-frame or bipod legs that spread at the bottom, or extending a spar's length.
 
 1. **Start:** Lay two spars side-by-side. Tie a **Clove Hitch** around one spar.
@@ -222,7 +222,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
 4. **End:** Finish with a **Clove Hitch** on the second spar.
 5. **Spread:** Spread the spar butts apart to form the A-frame legs; the spread wedges the wraps into extreme tension.
 
-### D. Round Lashing
+### Round Lashing
 *Use:* Fastening two spars strictly parallel to create an extended pole or flagpole.
 
 1. Lay the two spars overlapping by at least 2.5 to 3 feet.
@@ -231,7 +231,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
 4. Finish with a **Clove Hitch** around the second spar.
 5. Repeat the entire process at the opposite end of the overlap (two round lashings are required to prevent rotation). Wedges can be hammered between the spars between the lashings to lock tension.
 
-### E. Tripod Lashing
+### Tripod Lashing
 *Use:* Joining three spars to construct self-standing tripods for washbasins, pioneering towers, cooking spits, and signal towers.
 
 1. Lay three spars parallel on the ground, alternating butt ends (e.g., Center butt pointing down, outer butts pointing up, or all butts aligned with small spacers between them).
@@ -241,7 +241,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
 5. End with a **Clove Hitch** on the opposite outside spar.
 6. Cross the outer legs and lift the tripod into standing position.
 
-### F. Floor (Decking) Lashing
+### Floor (Decking) Lashing
 *Use:* Fastening walkway planks, tabletop poles, or raft decking across two structural side stringer spars.
 
 1. Anchor the rope center or end to one support spar with a Clove Hitch.
@@ -249,7 +249,7 @@ Lashing is the art of joining timber spars using rope to build rigid structures 
 3. Pass bights of rope over each pole end and loop underneath the supporting spar, chaining down the walkway.
 4. Tension with a final Clove Hitch or Taut-Line hitch at the terminal plank.
 
-## 6. Splicing Quick-Reference
+## Splicing Quick-Reference
 
 Splicing interweaves individual rope strands to create permanent joints with 90–95% of original line strength, far surpassing knotted cordage.
 

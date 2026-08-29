@@ -16,14 +16,14 @@ With your parent or guardian's permission, view the <i><a href="https://www.scou
 
 The Personal Safety Awareness videos for older youth address real-world situations you may encounter as you navigate middle school, high school, social media, and peer relationships.
 
-## 1. Accessing the Videos
+## Accessing the Videos
 
 The videos are hosted on the official Scouting America Youth Protection training portal:
 - Visit [scouting.org/training/youth-protection/scouts-bsa](https://www.scouting.org/training/youth-protection/scouts-bsa/).
 - Ensure you have your parent or guardian's permission before watching.
 - It is highly recommended to watch the videos alongside your parent or guardian so you can discuss the scenarios together.
 
-## 2. Key Video Modules and Themes
+## Key Video Modules and Themes
 
 The Star rank modules focus on advanced personal safety topics:
 
@@ -32,7 +32,7 @@ The Star rank modules focus on advanced personal safety topics:
 - **Bystander Intervention & Bullying**: Knowing how to safely intervene or report when you witness someone being bullied, harassed, or coerced in person or online.
 - **Support for Victims of Abuse**: Recognizing the emotional and behavioral signs of trauma in friends or peers, and understanding how to connect them with professional help and trusted adults.
 
-## 3. Discussion Points for You and Your Family
+## Discussion Points for You and Your Family
 
 After viewing the video modules, take time to discuss the following questions with your parent or guardian:
 

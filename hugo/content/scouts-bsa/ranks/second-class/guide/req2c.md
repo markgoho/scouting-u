@@ -28,18 +28,18 @@ Building, managing, and completely extinguishing a campfire is one of the most f
 
 {{< drg/image src="images/teepee-log-cabin-fire-lay.png" alt="Side-by-side comparison of a teepee fire lay and a log-cabin fire lay, both built around a tinder bundle" >}}
 
-### 1. The Teepee Fire Lay (Best for Quick Boiling & Light)
+### The Teepee Fire Lay (Best for Quick Boiling & Light)
 - Place your baseball-sized bundle of tinder in the center of the ring.
 - Lean small kindling sticks together over the tinder in a conical tepee shape, leaving an opening on the upwind side so air can enter and you can reach in with a match.
 - Add slightly thicker kindling around the outside. As it burns, the sticks fall inward, concentrating intense heat at the apex.
 
-### 2. The Log Cabin / Crisscross Fire Lay (Best for Cooking Coals)
+### The Log Cabin / Crisscross Fire Lay (Best for Cooking Coals)
 - Place your tinder bundle in the center with a light tepee of fine kindling directly over it.
 - Lay two small fuel logs parallel on either side of the tinder.
 - Lay two more sticks across them at right angles, building a square "cabin" framework 3 to 4 layers high.
 - Top with a layer of kindling across the opening. When lit, this structure collapses into a flat, uniform bed of glowing coals ideal for griddles and Dutch ovens.
 
-### 3. The Lean-To Fire Lay (Best for Windy Conditions)
+### The Lean-To Fire Lay (Best for Windy Conditions)
 - Push a medium dry stick into the ground at a 30-degree angle, pointing into the prevailing wind.
 - Place your tinder nest underneath the angled stick.
 - Lean small kindling sticks against the support stick over the tinder. The support stick shields the delicate flame from strong wind gusts while drawing airflow upward.

@@ -28,16 +28,16 @@ The **patrol** is the core building block of Scouting:
 
 {{< drg/image src="images/troop-leadership-org-chart.png" alt="Org chart showing patrol members reporting to patrol leaders, patrol leaders reporting to the senior patrol leader, and the Scoutmaster in an advisory role" >}}
 
-### 1. Senior Patrol Leader (SPL)
+### Senior Patrol Leader (SPL)
 Elected by all the Scouts in the troop, the SPL is the top youth executive. The SPL leads troop meetings, runs campouts, appoints troop staff, and chairs the Patrol Leaders' Council.
 
-### 2. Assistant Senior Patrol Leader (ASPL)
+### Assistant Senior Patrol Leader (ASPL)
 Appointed by the SPL, the ASPL assists the Senior Patrol Leader in running troop activities, directs troop staff officers, and assumes leadership if the SPL is away.
 
-### 3. The Patrol Leaders' Council (PLC)
+### The Patrol Leaders' Council (PLC)
 The PLC is the governing board of the troop. It is made up of the Senior Patrol Leader, Assistant Senior Patrol Leader, all Patrol Leaders, and troop guides. The PLC meets monthly to plan weekly meeting agendas, schedule upcoming campouts, and choose service projects.
 
-### 4. Key Troop Leadership Positions
+### Key Troop Leadership Positions
 - **Quartermaster**: Keeps troop camping gear, tents, stoves, and trailers organized, repaired, and inventoried.
 - **Scribe**: Takes meeting notes at the PLC, logs attendance, and assists with advancement records.
 - **Troop Guide**: An experienced older Scout assigned to mentor, coach, and teach basic outdoor skills to new Scouts.

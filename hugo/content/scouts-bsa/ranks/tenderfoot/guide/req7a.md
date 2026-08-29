@@ -16,7 +16,7 @@ Demonstrate how to display, raise, lower, and fold the American flag.
 
 The flag of the United States of America represents the nation's history, unity, and constitutional ideals. Respect for the flag is governed by the federal **United States Flag Code** (Title 4, United States Code). To complete Requirement 7a, you must demonstrate the proper protocols for displaying, raising, lowering, and folding the flag.
 
-## 1. Rules for Displaying the Flag
+## Rules for Displaying the Flag
 
 {{< drg/image src="images/flag-display-union-position.png" alt="Photo of the American flag displayed flat against a wall with the union correctly positioned to the observer's left" >}}
 
@@ -31,7 +31,7 @@ The flag of the United States of America represents the nation's history, unity,
 - **Grouped with State or Organization Flags**: When a group of flags is displayed on staffs, the U.S. flag should be at the **center and at the highest point** of the group.
 - **Speaker's Platform or Stage**: When displayed on a speaker's platform, the flag is placed on a stand to the **speaker's right** (the audience's left as they look at the stage).
 
-## 2. Raising and Lowering Protocols
+## Raising and Lowering Protocols
 
 Flags must be handled with deliberate ceremony and respect:
 
@@ -44,7 +44,7 @@ Flying the flag at half-staff is a national symbol of mourning ordered by the Pr
 1. **Raising to Half-Staff**: First, hoist the flag **briskly all the way to the peak for an instant**, then slowly lower it to the half-staff position (roughly halfway down the staff).
 2. **Retiring from Half-Staff**: At sunset (or at the end of the ceremony), first hoist the flag **briskly to the peak again**, and only then lower it slowly and respectfully all the way down.
 
-## 3. Step-by-Step Guide to Folding the Flag
+## Step-by-Step Guide to Folding the Flag
 
 Folding the flag requires **two Scouts** working as a synchronized team:
 

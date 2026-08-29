@@ -17,20 +17,20 @@ Earning the rank of Eagle Scout is a profound accomplishment that stays with you
 
 Becoming an Eagle Scout is not the end of your Scouting career; it is the launchpad for a lifetime of leadership and service:
 
-### 1. Earning Eagle Palms
+### Earning Eagle Palms
 If you remain registered in a troop, crew, or ship prior to your 18th birthday, you can earn **Eagle Palms** to recognize additional merit badges and continued leadership:
 - **Bronze Palm**: Represents 5 additional merit badges beyond the 21 required for Eagle, plus 3 months of active participation and leadership.
 - **Gold Palm**: Represents 10 additional merit badges (5 beyond Bronze), plus 3 months of active service.
 - **Silver Palm**: Represents 15 additional merit badges (5 beyond Gold), plus 3 months of active service.
 - *(Note: Any excess merit badges earned prior to your Eagle board of review may be instantly awarded as Palms at your initial Eagle court of honor).*
 
-### 2. National Eagle Scout Association (NESA)
+### National Eagle Scout Association (NESA)
 Join the **National Eagle Scout Association** ([nesa.org](https://www.nesa.org/)), a worldwide fellowship of Eagle Scouts. NESA provides exclusive academic scholarships, career networking, fellowship events, and opportunities to stay connected with fellow Eagles throughout your adult life.
 
-### 3. Mentoring the Next Generation
+### Mentoring the Next Generation
 As an Eagle Scout, your example in the troop is powerful. Consider serving as a **Junior Assistant Scoutmaster**, **Troop Guide**, or **Eagle Project Coach** to help younger Scouts navigate their own path to Eagle.
 
-### 4. Planning Your Eagle Scout Court of Honor
+### Planning Your Eagle Scout Court of Honor
 Work with your family and troop committee to design a meaningful Eagle Court of Honor ceremony. Celebrate the leaders, parents, mentors, and fellow Scouts who supported you along your journey.
 
 {{< drg/experience-card

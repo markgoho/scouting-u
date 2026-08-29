@@ -16,7 +16,7 @@ Demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you ha
 
 Demonstrating Scout spirit for First Class represents a major milestone in your Scouting journey. Having previously covered four points of the Scout Law for [Tenderfoot](/scouts-bsa/ranks/tenderfoot/guide/req9/) and four different points for [Second Class](/scouts-bsa/ranks/second-class/guide/req10/), Requirement 11 asks you to explain how you have fulfilled your **Duty to God** and how you have lived the **final four remaining points of the Scout Law**—completing all twelve points across your foundational advancement!
 
-## 1. The Twelve-Point Milestone of the Scout Law
+## The Twelve-Point Milestone of the Scout Law
 
 By the time you sit down for your First Class Scoutmaster Conference, you will have lived and reported on every single point of the Scout Law:
 
@@ -38,7 +38,7 @@ By the time you sit down for your First Class Scoutmaster Conference, you will h
 11. **Clean**
 12. **Reverent**
 
-## 2. Fulfilling Your Duty to God
+## Fulfilling Your Duty to God
 
 Scouting America maintains that the recognition of God as the ruling and leading power in the universe is fundamental to the best type of citizenship. The Scout Oath begins with "duty to God," and the final point of the Scout Law is "A Scout is reverent."
 
@@ -49,7 +49,7 @@ Be prepared to share how your personal spiritual life and moral foundation have 
 - Fulfilling service obligations through your religious institution or earning your faith's **Religious Emblems Award**.
 - Practicing reverence in the backcountry—taking moments of silence to appreciate the wonder, majesty, and beauty of nature on high-adventure treks.
 
-## 3. Living Your Final Four Points
+## Living Your Final Four Points
 
 Identify the **four remaining points** of the Scout Law that you have not yet used for Tenderfoot or Second Class. For each point, prepare a specific, real-world experience from your recent life:
 

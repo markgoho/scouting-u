@@ -16,7 +16,7 @@ While a Life Scout, serve actively in your troop for six months in one or more o
 
 Leadership is the hallmark of an Eagle Scout. Requirement 4 mandates that you serve actively for **at least six full months** in an approved youth leadership position of responsibility while holding the rank of Life Scout.
 
-## 1. Approved Leadership Roles for Scout Troops
+## Approved Leadership Roles for Scout Troops
 
 Scouting America maintains a strict list of qualifying youth leadership positions for the Eagle Scout rank:
 
@@ -36,7 +36,7 @@ Scouting America maintains a strict list of qualifying youth leadership position
 - **Instructor**: Instructs Scouts in specific scoutcraft, pioneering, navigation, or first aid skills.
 - **Den Chief**: Serves as a youth leader and role model assisting a Cub Scout den leader with weekly den meetings and activities.
 
-## 2. Critical Exclusions for the Eagle Rank
+## Critical Exclusions for the Eagle Rank
 
 The rules for Eagle Scout leadership are strictly defined in **Footnote 11** and the *Guide to Advancement* (topic 4.2.3.4.4):
 
@@ -46,13 +46,13 @@ The rules for Eagle Scout leadership are strictly defined in **Footnote 11** and
 - **No Leadership Projects**: Unlike Star and Life, a Scoutmaster-approved leadership project **CANNOT** be used as a substitute for serving in a position of responsibility for the Eagle Scout rank.
 {{< /drg/did-you-know >}}
 
-## 3. Venturing, Sea Scout, and Lone Scout Positions
+## Venturing, Sea Scout, and Lone Scout Positions
 
 - **Venturing Crew**: President, Vice-President, Secretary, Historian, Den Chief, Treasurer, Guide, Quartermaster, Chaplain Aide, or Outdoor Ethics Guide.
 - **Sea Scout Ship**: Boatswain, Boatswain's Mate, Storekeeper, Purser, Yeoman, Crew Leader, Media Specialist, Specialist, Den Chief, or Chaplain Aide.
 - **Lone Scout**: Leadership responsibility in your school (e.g., student body officer), religious institution, club, or community organization.
 
-## 4. Demonstrating "Active Service" Over Six Months
+## Demonstrating "Active Service" Over Six Months
 
 Serving actively requires executing the duties of your office with consistency, diligence, and accountability:
 1. **Understand Your Position**: Work with your Scoutmaster or SPL to clarify all expectations at the beginning of your term.

@@ -16,7 +16,7 @@ Successfully complete your board of review for the Eagle Scout rank.<sup><a href
 
 The Eagle Scout Board of Review is the final, defining step in your journey to becoming an Eagle Scout. It is a formal evaluation of your character, citizenship, leadership maturity, and lifelong commitment to Scouting ideals.
 
-## 1. Preparing the Required Statements & Leadership Profile
+## Preparing the Required Statements & Leadership Profile
 
 Before your board of review meets, you must prepare and attach two written documents to your *Eagle Scout Rank Application*:
 
@@ -36,7 +36,7 @@ A comprehensive, organized résumé of your leadership outside of your troop:
 Type your Statement of Ambitions and Leadership Listing on clean stationery. Format them with clear headings and proofread carefully for grammar and clarity.
 {{< /drg/tip >}}
 
-## 2. Structure and Composition of the Eagle Board of Review
+## Structure and Composition of the Eagle Board of Review
 
 Under the *Guide to Advancement* (topics 8.0.3.0 through 8.0.3.2):
 
@@ -45,7 +45,7 @@ Under the *Guide to Advancement* (topics 8.0.3.0 through 8.0.3.2):
 - **Strict Exclusions**: The Scoutmaster, Assistant Scoutmasters, parents/guardians, and relatives of the candidate **cannot** participate as board members.
 - **Focus of the Review**: The board conducts an in-depth, 30-to-45-minute discussion on your Eagle service project, your understanding of the Scout Oath and Law, your leadership journey, your Statement of Ambitions, and your future contributions to society. It is never a retest of knowledge or scoutcraft skills.
 
-## 3. Critical Age and Timing Rules
+## Critical Age and Timing Rules
 
 {{< drg/did-you-know >}}
 **The 24-Month Post-18 Rule (*Guide to Advancement* topic 8.0.3.1)**:
@@ -57,7 +57,7 @@ All rank requirements (Requirements 1 through 6, your Eagle project, application
 - **Scouts with Disabilities (Section 10)**: Qualified Scouts with permanent physical or cognitive disabilities may receive council authorization to work toward rank advancement beyond age 18.
 - **Board Under Disputed Circumstances (Topic 8.0.3.2)**: If a unit leader or committee refuses to approve an application or sign off on a conference, a Scout has the absolute right to request an Eagle Scout Board of Review under disputed circumstances through their council advancement committee.
 
-## 4. Deliberation and Official Recognition
+## Deliberation and Official Recognition
 
 - **Unanimous Decision**: Approval for the rank of Eagle Scout must be **unanimous** among all board members.
 - **Council & National Certification**: Following board approval, your application and project credentials are submitted to your local council service center and forwarded to the National Advancement Program Team for final certification.

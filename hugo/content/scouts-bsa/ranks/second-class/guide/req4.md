@@ -33,7 +33,7 @@ The requirement encompasses both **vertebrates** (animals with a backbone) and *
 
 When searching for wildlife in your community or on the trail, employ four observational senses:
 
-### 1. Looking (Visual Evidence)
+### Looking (Visual Evidence)
 - **Direct Sighting**: Observing the animal itself. Look along forest edges, tree canopies, pond margins, and brush piles. Use binoculars to scan distant ridges and shorelines.
 - **Tracks & Footprints**: Imprints left in soft mud, wet sand, snow, or dusty trail beds.
 - **Feeding Signs**: Gnawed pinecones (squirrels), stripped tree bark or felled saplings (beavers), clipped twigs with a clean 45-degree angle cut (rabbits) or torn ragged edges (deer), cracked nutshells, or woodpecker drilling holes in dead snags.
@@ -41,16 +41,16 @@ When searching for wildlife in your community or on the trail, employ four obser
 - **Shelters & Homes**: Nests, hollow-tree cavities, underground burrows, beaver lodges, or spider webs.
 - **Remains**: Shed snake skins, molted feathers, tufts of hair snagged on barbed wire or thorny briars, or owl pellets (compact regurgitated masses containing rodent skulls and bones).
 
-### 2. Listening (Auditory Evidence)
+### Listening (Auditory Evidence)
 - **Vocalizations & Songs**: Identifying bird species by distinct calls (such as the rhythmic "who-cooks-for-you" of a barred owl or the harsh cawing of an American crow).
 - **Mating & Territorial Choruses**: Spring choruses of tree frogs, spring peepers, and bullfrogs near standing water.
 - **Alarm & Warning Signals**: The chattering bark of a gray squirrel alerting the forest to a predator, the loud slap of a beaver's tail against the water surface, or the sudden alarm shrieks of blue jays.
 - **Physical Movement**: Rustling in dry forest leaves, crashing brush, or the splashing of fish surfacing at dawn and dusk.
 
-### 3. Smelling (Olfactory Evidence)
+### Smelling (Olfactory Evidence)
 - Scent marking is a primary communication tool in the animal kingdom. Notice the distinct pungent sulfurous odor of a striped skunk, the musky aroma of a fox den, or the strong territorial scent marks of deer scrapes and beaver castoreum mounds along waterways.
 
-### 4. Touching & Examining
+### Touching & Examining
 - Touch and examine textures of fallen feathers, shed skins, and animal bedding depressions in tall grass.
 - **Scat (Dropping) Analysis**: Examining animal droppings provides vital clues about an animal's identity and diet. **Safety rule: Never touch scat with your bare hands; use a clean stick to inspect it.**
   - *Herbivore Scat*: Composed entirely of digested plant fibers, seeds, and wood pulp. Deer and rabbits produce distinct round, pellet-like droppings.

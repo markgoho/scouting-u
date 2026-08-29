@@ -20,12 +20,12 @@ Completing four weeks of consistent physical activity in [Requirement 7a](/scout
 
 Review your 4-week activity log honestly before your conference. Be prepared to discuss concrete examples:
 
-### 1. Identifying Your Successes
+### Identifying Your Successes
 - **Physical Adaptations**: Did you notice that hikes felt less exhausting, your recovery time improved, or you had more stamina during sports practices?
 - **Mental & Energy Benefits**: Did regular exercise improve your daily focus, elevate your mood, or help you fall asleep faster and sleep more soundly at night?
 - **Habit Formation**: Which activities became enjoyable routines rather than feeling like chores?
 
-### 2. Overcoming Real-World Challenges
+### Overcoming Real-World Challenges
 - **Time Management & Busy Schedules**: How did you fit 30 minutes of activity into days with heavy homework, family commitments, or troop meetings?
 - **Weather Disruptions**: What did you do when rain, extreme heat, or cold interfered with outdoor sports or cycling?
 - **Motivation & Fatigue**: How did you push through days when you felt tired or tempted to skip?

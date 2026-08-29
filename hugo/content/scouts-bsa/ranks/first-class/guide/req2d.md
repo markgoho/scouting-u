@@ -20,7 +20,7 @@ Proper food handling protects your patrol from severe foodborne illnesses, while
 
 Bacteria multiply rapidly within the **Temperature Danger Zone (40°F to 140°F)**. Follow these strict storage and handling protocols for each food group:
 
-### 1. Fresh Meats and Poultry
+### Fresh Meats and Poultry
 - **Storage:** Double-bag raw meat in heavy-duty zip-top bags and place it at the very bottom of the cooler directly against solid ice blocks (< 40°F).
 - **Separation:** Never let raw meat juices touch other foods. Designate a specific cutting board and knife strictly for raw meats.
 - **Safe Internal Cooking Temperatures:**
@@ -28,11 +28,11 @@ Bacteria multiply rapidly within the **Temperature Danger Zone (40°F to 140°F)
   - *Ground Meats (Burgers/Chili):* **160°F**
   - *Whole Beef, Pork, and Fish:* **145°F** with a 3-minute rest
 
-### 2. Dairy Products & Eggs
+### Dairy Products & Eggs
 - **Dairy:** Keep milk, cheese, butter, and sour cream packed on ice below 40°F. Always use pasteurized dairy products.
 - **Eggs:** Transport fresh shell eggs in durable, padded camp egg-holders to prevent cracking. Cook eggs until both yolks and whites are completely firm (never runny if unpasteurized).
 
-### 3. Fresh Vegetables and Fruits
+### Fresh Vegetables and Fruits
 - **Wash with Potable Water:** Always wash fruits and vegetables with clean, treated drinking water before slicing—even produce you intend to peel (such as melons or onions), as knife blades push surface bacteria into the flesh.
 - **Storage:** Store produce in clean bags above the ice to prevent them from soaking in melted cooler water.
 

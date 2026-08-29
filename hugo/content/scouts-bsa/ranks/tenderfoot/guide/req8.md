@@ -22,22 +22,22 @@ Leadership in Scouting begins with the ability to teach others effectively. The 
 [EXPLAIN] ➔ [DEMONSTRATE] ➔ [GUIDE] ➔ [ENABLE]
 ```
 
-### 1. EXPLAIN (Talk Through the Concept)
+### EXPLAIN (Talk Through the Concept)
 - Describe the skill clearly in words.
 - Explain **why** the skill is important and when it is used.
 - Break the process down into manageable, logical steps without overwhelming the learner with technical jargon.
 
-### 2. DEMONSTRATE (Show the Skill)
+### DEMONSTRATE (Show the Skill)
 - Perform the skill slowly and deliberately in front of the learner.
 - Position yourself so the learner has the same viewpoint (e.g., sitting side-by-side rather than facing backwards).
 - Narrate your actions as you perform them, pointing out key details and common pitfalls.
 
-### 3. GUIDE (Coach While They Practice)
+### GUIDE (Coach While They Practice)
 - Hand the materials to the learner and have them attempt the skill.
 - Provide immediate, positive encouragement and gentle corrections as they work.
 - **Resist the temptation to take over!** If they struggle, guide them with questions ("Which working end goes over first?") rather than doing the step for them.
 
-### 4. ENABLE (Step Back for Mastery)
+### ENABLE (Step Back for Mastery)
 - Step back and allow the learner to perform the skill completely independently.
 - Have them execute the task successfully several times without assistance or prompting.
 - The learner has now mastered the skill and is enabled to use it in camp or teach it to someone else.

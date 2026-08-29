@@ -17,19 +17,19 @@ Achieving the Star rank is a significant milestone that places you among the sen
 
 Now that you have achieved Star, take advantage of advanced leadership training and specialized Scouting programs designed for senior youth:
 
-### 1. Introduction to Leadership Skills for Troops (ILST)
+### Introduction to Leadership Skills for Troops (ILST)
 ILST is a troop-level training course led by senior youth and Scoutmasters. It provides intensive instruction across three vital leadership modules:
 - **Troop Organization**: Understanding roles, responsibilities, and the patrol method.
 - **Tools of the Trade**: Communication, meeting planning, delegating, and the Teaching EDGE method.
 - **Leadership & Teamwork**: Conflict resolution, ethical decision-making, and servant leadership.
 
-### 2. National Youth Leadership Training (NYLT)
+### National Youth Leadership Training (NYLT)
 NYLT is an immersive, week-long council-level outdoor leadership experience. It simulates an elite high-performing troop environment, teaching advanced project management, communication frameworks, problem-solving models, and servant leadership skills that will benefit you in Scouting, school, and your future career.
 
-### 3. The Order of the Arrow (OA)
+### The Order of the Arrow (OA)
 The Order of the Arrow is Scouting America's National Honor Society. Scouts who exemplify the Scout Oath and Law in their daily lives are elected by their peers. OA members focus on cheerful service, camp conservation, and brotherhood.
 
-### 4. Den Chief Service & Training
+### Den Chief Service & Training
 Serving as a Den Chief to a local Cub Scout pack connects you with younger youth, building your mentoring skills while strengthening the future pipeline of your troop. Den Chiefs can complete specialized online and in-person training modules to maximize their effectiveness.
 
 ## Next Steps Toward Life Scout

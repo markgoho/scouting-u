@@ -30,16 +30,16 @@ On an initial troop campout or family outdoor excursion, observe and document th
 
 Between your first and second outing, formulate a specific plan to tackle each category of waste using the Three R's:
 
-### 1. REDUCE (Bring Less Trash to Camp)
+### REDUCE (Bring Less Trash to Camp)
 - **Repackage in Bulk**: Buy snacks (nuts, trail mix, pretzels) in bulk containers and pack meal portions into reusable silicone bags or washable containers before leaving home, eliminating individual plastic wrappers.
 - **Eliminate Single-Use Plates and Cutlery**: Require every patrol member to use their personal washable Scout mess kit, camp mug, and utensil set.
 - **Refillable Hydration**: Use personal reusable canteens or hydration bladders rather than purchasing disposable plastic water bottles.
 
-### 2. RECYCLE (Sort and Divert Materials)
+### RECYCLE (Sort and Divert Materials)
 - **Camp Sorting Station**: Set up a designated patrol recycling bin alongside the main trash bag to separate aluminum beverage cans, clean tin food cans, and recyclable plastics (#1 and #2).
 - **Pack It Out**: Carry sorted recyclables home to place in your municipal curbside recycling bin.
 
-### 3. REPURPOSE (Give Materials a Second Life)
+### REPURPOSE (Give Materials a Second Life)
 - **Camp Fire Starters**: Save cardboard egg cartons and dryer lint to make wax fire-starter cups for campfires.
 - **Gear Organization**: Use clean plastic food tubs with lids to organize patrol matches, spices, or small repair kits.
 - **Wash and Reuse**: Wash and dry heavy-duty freezer bags to use for multiple campouts.

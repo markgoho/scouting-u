@@ -118,14 +118,14 @@ During PLC post-event reviews, avoid vague complaints like "the food was bad." I
 
 ## Core Leadership Principles for Scouts
 
-### 1. The EDGE Method of Instruction
+### The EDGE Method of Instruction
 Every effective youth leader uses the EDGE model to train peers:
 - **E — Explain**: Verbally describe what you are doing and why it matters (e.g., how a taut-line hitch adjusts tension).
 - **D — Demonstrate**: Show the exact step-by-step physical action while explaining key moves in slow motion.
 - **G — Guide**: Place the materials in the Scout's hands; let them perform the skill while you coach gently.
 - **E — Enable**: Step back and let the Scout execute the skill independently in real camp conditions.
 
-### 2. Servant Leadership
+### Servant Leadership
 True leadership in Scouting is measured not by how many people take orders from you, but by how well you equip your patrol to succeed:
 - The leader eats last after ensuring the patrol is fed.
 - The leader ensures the newest Scout has a dry tent and adequate cold-weather layers before setting up their own gear.

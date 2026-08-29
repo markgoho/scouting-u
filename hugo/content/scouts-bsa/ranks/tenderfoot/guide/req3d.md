@@ -24,7 +24,7 @@ You covered [basic pocketknife safety](/scouts-bsa/ranks/scout/guide/req5/) as a
 | **Camp Saw** (Folding or Bow) | Cutting branches, logs, and downed timber to length | Fine carving, felling live trees without permission |
 | **Ax / Hatchet** | Limbing downed branches, bucking logs, splitting kindling | Cutting fine rope, pounding stakes with the side, close-quarters carving |
 
-## 1. Pocketknife Care and Sharpening
+## Pocketknife Care and Sharpening
 
 - **Sharpening on a Whetstone:**
   1. Moisten the whetstone with water or a few drops of light mineral oil (or use dry if designed for dry honing).
@@ -35,7 +35,7 @@ You covered [basic pocketknife safety](/scouts-bsa/ranks/scout/guide/req5/) as a
 
 {{< drg/image src="images/knife-sharpening-angle.png" alt="Diagram showing a knife blade held at the correct 25 degree angle against a whetstone during sharpening" >}}
 
-## 2. Camp Saw Care and Safety
+## Camp Saw Care and Safety
 
 - **Saw Types:** Folding saws fold into their handles for compact packing; bow saws use a rigid metal frame to hold a tensioned blade for heavier cutting.
 - **Sheaths and Care:** Always store saw blades in a sheath. You can make an inexpensive bow saw guard by slitting a section of old garden hose lengthwise and securing it over the teeth with cord or duct tape.
@@ -44,7 +44,7 @@ You covered [basic pocketknife safety](/scouts-bsa/ranks/scout/guide/req5/) as a
   - **The Undercut:** When removing a branch from a trunk or log, make a small undercut on the bottom side first before cutting down from the top. This prevents the falling branch from tearing bark off the tree.
   - Cut branches flush to avoid leaving sharp "hat racks" that snag packs or clothing. Cut saplings level with the ground to eliminate tripping stumps.
 
-## 3. Ax and Hatchet Care and Field Techniques
+## Ax and Hatchet Care and Field Techniques
 
 ### Ax Anatomy and Safe Ax Checklist
 

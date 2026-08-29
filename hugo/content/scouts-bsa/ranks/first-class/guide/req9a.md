@@ -16,7 +16,7 @@ Visit and discuss with a selected individual approved by your leader (for exampl
 
 Good citizenship is one of the three primary aims of Scouting. In Requirement 9a, you will arrange a personal interview with an approved civic leader, educator, legal professional, or public official to explore what it means to possess constitutional rights and uphold the obligations of United States citizenship.
 
-## 1. Selecting and Getting Approval for Your Interviewee
+## Selecting and Getting Approval for Your Interviewee
 
 Before reaching out, obtain **approval from your Scoutmaster or designated adult leader**. Suitable individuals include:
 - **Elected Officials**: City council member, mayor, county commissioner, state representative, or school board trustee.
@@ -28,7 +28,7 @@ Before reaching out, obtain **approval from your Scoutmaster or designated adult
 When conducting the interview, ensure you adhere to Scouting's **Two-Deep Youth Protection guidelines**: bring a parent, guardian, or fellow Scout with you to the meeting.
 {{< /drg/safety-first >}}
 
-## 2. Core Concepts: Rights vs. Obligations
+## Core Concepts: Rights vs. Obligations
 
 Prepare for your conversation by reviewing the foundational rights and duties of American citizens:
 
@@ -53,7 +53,7 @@ Rights cannot survive without active, responsible citizens. Obligations are divi
    - **Staying Informed**: Reading reliable news, understanding local community issues, and holding elected officials accountable.
    - **Community Service**: Volunteering time and energy to uplift neighborhood organizations and help those in need.
 
-## 3. High-Yield Interview Questions
+## High-Yield Interview Questions
 
 Bring a notebook with prepared questions to guide your discussion:
 1. *"In your daily work, how do you see the U.S. Constitution or local laws protecting ordinary citizens?"*

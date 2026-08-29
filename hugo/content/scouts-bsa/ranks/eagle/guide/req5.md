@@ -16,7 +16,7 @@ While a Life Scout, plan, develop, and give leadership to others in a service pr
 
 The Eagle Scout Service Project is the defining challenge of the Eagle Scout rank. It is the program's ultimate demonstration of your ability to plan, develop, fund, and **give leadership to others** in executing a project of lasting significance to your community.
 
-## 1. Core Principles: Plan, Develop, Give Leadership
+## Core Principles: Plan, Develop, Give Leadership
 
 Under the *Guide to Advancement* (topics 9.0.2.0 through 9.0.2.16), the Eagle project is designed to test your executive and servant leadership skills:
 
@@ -26,7 +26,7 @@ Under the *Guide to Advancement* (topics 9.0.2.0 through 9.0.2.16), the Eagle pr
   - **Ineligible Beneficiaries**: The project **cannot** benefit Scouting America, your local council, your chartered organization solely for unit purposes, or any private, commercial, for-profit business.
   - **Ineligible Project Types**: The project cannot be routine maintenance (e.g., standard lawn mowing or recurring weeding) and cannot be solely a fundraising drive (e.g., raising money without a tangible service outcome).
 
-## 2. The Official Workbook Structure
+## The Official Workbook Structure
 
 You must use the official **Eagle Scout Service Project Workbook** (BSA publication No. 512-927). The workbook is divided into distinct sections:
 
@@ -35,7 +35,7 @@ You must use the official **Eagle Scout Service Project Workbook** (BSA publicat
 3. **Fundraising Application**: Required if you solicit funds from sources outside your unit, chartered organization, parents, or beneficiary.
 4. **Project Report**: Completed after the physical work is finished, summarizing hours, expenditures, leadership challenges, and final approvals.
 
-## 3. The Four Mandatory Proposal Approvals
+## The Four Mandatory Proposal Approvals
 
 {{< drg/safety-first >}}
 **STRICT ADVANCEMENT RULE**: You cannot begin physical project work, purchase materials, or conduct outside fundraising until ALL FOUR proposal approvals are secured in writing. Any work performed prior to district/council approval will not count.
@@ -48,7 +48,7 @@ Your Project Proposal must be signed in the following exact sequence:
 3. **Unit Committee Chair Approval**: Confirms unit committee support and logistical readiness.
 4. **Council or District Advancement Committee Approval**: The official district/council advancement representative reviews and authorizes you to proceed.
 
-## 4. The Final Plan and Project Coach
+## The Final Plan and Project Coach
 
 After your Proposal is approved, you will complete the **Final Plan** in your workbook:
 - **Scope & Logistics**: Step-by-step construction/execution procedures, permits, site prep, weather contingency plans.
@@ -56,14 +56,14 @@ After your Proposal is approved, you will complete the **Final Plan** in your wo
 - **Safety & First Aid Plan**: Emergency contacts, first aid station setup, hydration plan, hazard mitigations, and personal protective equipment (PPE).
 - **Working with an Eagle Project Coach**: Your unit or district will designate an experienced adult Eagle Project Coach to review your Final Plan and offer mentoring advice.
 
-## 5. Fundraising Rules and Guidelines
+## Fundraising Rules and Guidelines
 
 Under *Guide to Advancement* topic 9.0.2.10:
 - **No Approval Needed**: Fundraising is exempt from a separate application if funds come entirely from the beneficiary, your unit, your chartered organization, yourself, or your parents/relatives.
 - **Fundraising Application Required**: If you plan to solicit donations of cash or materials from the general public, local businesses, or civic groups, you must complete the *Eagle Scout Service Project Fundraising Application* in the workbook and obtain approval from your council advancement committee before soliciting.
 - **Handling Excess Funds**: Any leftover funds raised for the project must be transferred directly to the benefiting organization or your unit (if agreed upon with the beneficiary). No funds may be retained by the Scout.
 
-## 6. Execution, Leadership, and Safety on the Workday
+## Execution, Leadership, and Safety on the Workday
 
 On the day(s) of project execution, you transition into the role of active project director:
 
@@ -74,7 +74,7 @@ On the day(s) of project execution, you transition into the role of active proje
   - **Youth 14–17**: May operate small handheld power drills, orbital sanders, and non-powered hand tools under strict adult supervision.
   - All volunteers must wear appropriate PPE (safety glasses, ear protection, work gloves, closed-toe boots).
 
-## 7. The Project Report and Final Sign-Offs
+## The Project Report and Final Sign-Offs
 
 Once all physical work and site cleanup are complete:
 

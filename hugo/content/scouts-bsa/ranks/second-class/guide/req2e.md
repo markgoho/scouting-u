@@ -40,7 +40,7 @@ Outdoor activities—like hiking with a heavy pack, pitching tents, chopping fir
 
 ## Food Safety: Transporting, Storing, and Preparing
 
-### 1. Transporting & Storing: The Temperature Danger Zone
+### Transporting & Storing: The Temperature Danger Zone
 Bacteria grow most rapidly in the **Temperature Danger Zone between 40°F and 140°F**. Perishable items must be kept at **40°F or colder** until cooking.
 
 - **Use Block Ice:** Block ice lasts 2–3 times longer than cubed ice. Freeze water solid in clean 1/2-gallon plastic milk jugs at home.
@@ -48,7 +48,7 @@ Bacteria grow most rapidly in the **Temperature Danger Zone between 40°F and 14
 - **Keep Coolers Latched and Shaded:** Store coolers out of direct sunlight and keep the lid tightly latched to conserve cold air.
 - **Backcountry Non-Perishables:** On backpacking trips without coolers, choose shelf-stable items such as dried eggs, tuna pouches, shelf-stable cheeses, nuts, and dehydrated veggies.
 
-### 2. Preparing and Cooking
+### Preparing and Cooking
 - **Wash Hands First:** Wash hands with clean water and biodegradable soap before touching any food.
 - **Prevent Cross-Contamination:** Never place cooked food back onto a cutting board or plate that previously held raw meat.
 - **Cook Thoroughly:** Cook eggs until the yolk and whites are firm (never runny if unpasteurized). Cook poultry to 165°F and ground beef to 160°F.

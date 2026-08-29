@@ -16,7 +16,7 @@ Demonstrate the Scout sign, salute, and handshake. Explain when they should be u
 
 The Scout sign, salute, and handshake are universal customs shared by millions of Scouts around the world. These three gestures identify you as a member of the global Scouting movement and provide an orderly way to communicate and show respect.
 
-## 1. The Scout Sign
+## The Scout Sign
 
 {{< drg/image src="images/scout-sign-hand-position.png" alt="A diagram of a right hand showing the Scout sign, with the three raised fingers and the thumb pinning the little finger labeled" >}}
 
@@ -35,7 +35,7 @@ The Scout sign, salute, and handshake are universal customs shared by millions o
 - When joining in the Scout rank investiture ceremony.
 - **Calling for Attention ("Signs Up")**: Whenever a leader or Scout raises the Scout sign, every other Scout who sees it must immediately stop talking, raise their own Scout sign, and pay attention. In Scouting, meetings become quiet without anyone needing to shout.
 
-## 2. The Scout Salute
+## The Scout Salute
 
 {{< drg/image src="images/scout-salute-hand-position.png" alt="Diagram of a hand in the three-finger position touching the outer edge of the eyebrow" >}}
 
@@ -49,7 +49,7 @@ The Scout sign, salute, and handshake are universal customs shared by millions o
 - When saluting the **United States flag** during the Pledge of Allegiance, the national anthem, or troop flag raising and lowering ceremonies (when in full Scout uniform).
 - When reporting formally to an adult leader or the Senior Patrol Leader during an opening ceremony or Court of Honor.
 
-## 3. The Scout Handshake
+## The Scout Handshake
 
 {{< drg/image src="images/scout-handshake-grip.png" alt="Diagram of two hands clasped in the Scout handshake, using the left hand on both sides" >}}
 

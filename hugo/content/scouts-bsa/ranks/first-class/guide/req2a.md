@@ -42,15 +42,15 @@ When planning ingredient quantities for your patrol, use standard individual por
 
 When explaining how your menu meets the physical demands of your campout, discuss these key factors:
 
-### 1. Activity Level & Calorie Output
+### Activity Level & Calorie Output
 - **Base Camp / Skill Outing (~2,200–2,800 kcal):** Moderate calorie demand. Focus on balanced meals with steady digestion and minimal rushing.
 - **Strenuous Trekking / Pioneering (~3,500–4,500 kcal):** High energy burn. Increase complex carbohydrates (pasta, rice, oatmeal) to keep glycogen stores full and prevent trail fatigue ("bonking").
 
-### 2. Climate and Weather Considerations
+### Climate and Weather Considerations
 - **Cold-Weather Camping:** The human body burns extra calories simply shivering and maintaining core body temperature. Add healthy fats and proteins (cheese, nuts, butter) to evening meals—digesting fats at night generates internal metabolic heat while you sleep.
 - **Hot-Weather Outings:** Emphasize high-water-content fruits (oranges, melons), salty snacks, and electrolyte replenishment to avoid heat exhaustion and dehydration cramps.
 
-### 3. Special Dietary Needs
+### Special Dietary Needs
 Always survey your patrol members during the planning phase for food allergies (peanuts, tree nuts, shellfish), lactose intolerance, gluten sensitivity (celiac), or religious dietary rules (kosher, halal, vegetarian), and adjust recipes or provide safe alternatives.
 
 {{< drg/checklist title="Menu Plan Review" subtitle="Verify your menu before budgeting" >}}

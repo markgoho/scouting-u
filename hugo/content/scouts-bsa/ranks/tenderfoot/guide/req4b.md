@@ -22,19 +22,19 @@ The three most widespread hazardous contact plants in North America are **poison
 
 {{< drg/image src="images/poison-ivy-oak-sumac-leaf-comparison.png" alt="Comparison illustration of poison ivy, poison oak, and poison sumac leaves side by side, with distinguishing features labeled" >}}
 
-### 1. Poison Ivy (*Toxicodendron radicans*)
+### Poison Ivy (*Toxicodendron radicans*)
 - **Leaf Structure**: Grows with three leaflets per stem ("leaves of three, let it be"). The middle leaflet has a distinct, longer stem (petiole) than the two side leaflets. Leaf edges can be smooth, slightly wavy, or irregularly notched, but are not deeply lobed.
 - **Growth Form**: Highly adaptable—grows as a trailing ground vine, an upright standalone shrub, or a thick, climbing woody vine anchored to trees with thousands of tiny, hairy aerial rootlets ("hairy vine, no friend of mine").
 - **Seasonal Color**: Leaves emerge reddish in spring, mature to glossy or dull dark green in summer, and turn vivid yellow, orange, and red in autumn. Clusters of small, waxy, cream-to-gray berries persist into winter.
 - **Habitat**: Common along forest borders, trail edges, clearings, and fence lines where sunlight breaks through the canopy.
 
-### 2. Poison Oak (*Toxicodendron diversilobum* / *toxicarium*)
+### Poison Oak (*Toxicodendron diversilobum* / *toxicarium*)
 - **Leaf Structure**: Also grows in three leaflets (rarely 5 to 7), but the leaflets feature rounded lobes and scalloped edges that closely resemble the leaves of a white oak tree. The upper leaf surface is dull or shiny green, while the underside is paler and covered with velvety hairs.
 - **Growth Form**: Typically grows as an upright woody shrub up to several feet high in open sunny spaces, or as an extensive climbing vine in shaded woodlands.
 - **Seasonal Color**: Turns brilliant red, orange, or bronze in late summer and autumn before dropping its leaves. Produces greenish-tan or yellow berries.
 - **Habitat**: Widespread in the Pacific West (Pacific poison oak) and Southeast (Atlantic poison oak), favoring dry open fields, barrens, coastal scrub, and woodlands.
 
-### 3. Poison Sumac (*Toxicodendron vernix*)
+### Poison Sumac (*Toxicodendron vernix*)
 - **Leaf Structure**: Distinctly different from ivy and oak. Each leaf is pinnately compound, containing **7 to 13 oblong, smooth-edged leaflets** arranged in opposite pairs along a central red or purplish stem, with a single leaflet at the tip.
 - **Growth Form**: Woody shrub or small tree growing 6 to 20 feet tall with smooth, pale bark.
 - **Key Distinguishing Feature**: Poison sumac produces loose, hanging clusters of **white, ivory, or pale yellow berries** and smooth red leaf stems. By contrast, harmless sumacs (such as staghorn sumac or smooth sumac) produce tight, fuzzy, upright red cones of berries and have toothed leaflets.

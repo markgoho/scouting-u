@@ -20,19 +20,19 @@ Selecting a campsite is one of the most critical decisions on any outdoor trip. 
 
 When evaluating potential patrol campsites, assess these primary factors:
 
-### 1. Water & Drainage
+### Water & Drainage
 - **High, Gently Sloping Ground:** Pitch on slightly elevated, well-drained ground. Never set up tents in depressions, gullies, dry creek beds, or low valleys where rain pools or flash floods occur.
 - **200-Foot Water Buffer:** Following Leave No Trace, select a site at least **200 feet (about 75 adult paces)** away from lakes, rivers, streams, and natural springs to protect sensitive riparian habitats and allow wildlife free access to water.
 
-### 2. Wind & Weather
+### Wind & Weather
 - **Natural Windbreaks:** Position your camp where natural features—such as a small ridge, boulder outcropping, or dense stand of mature trees—break strong prevailing winds. Avoid wind tunnels (such as canyon mouths or narrow mountain saddles).
 - **Sun & Temperature Management:** In cold weather, look for a spot that catches early morning sun to warm tents and dry condensation; in hot weather, choose a spot with afternoon shade.
 
-### 3. Widow-Makers & Overhead Hazards
+### Widow-Makers & Overhead Hazards
 - **Look Up Before Unpacking:** Thoroughly inspect the tree canopy above every tent site. Avoid dead trees, hanging dead limbs ("widow-makers"), trees with heavy fungal rot, or leaning trunks that could snap and fall in wind, snow, or rain.
 - **Lightning Exposure:** Avoid pitching on exposed mountaintops, open ridges, or directly under the tallest solitary tree in an open field.
 
-### 4. Wildlife & Camp Layout (Zoning)
+### Wildlife & Camp Layout (Zoning)
 - **Camp Kitchen Separation:** Position the cooking and food storage area at least **100 to 200 feet downwind** from all sleeping tents.
 - **Animal Corridors:** Avoid placing tents directly across game trails or near animal dens.
 

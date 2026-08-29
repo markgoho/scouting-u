@@ -30,22 +30,22 @@ A **native plant** is a species that has grown and evolved naturally in a specif
 
 Botanists and naturalists use a **dichotomous key**—a series of paired questions about physical features—to narrow down a plant's identity. When examining a wild tree or plant, check these characteristics:
 
-### 1. Conifer vs. Broadleaf
+### Conifer vs. Broadleaf
 - **Conifers (Gymnosperms)**: Trees with needle-like or scale-like foliage that typically stay green year-round (evergreens), such as white pine, ponderosa pine, eastern hemlock, spruce, and bald cypress (a deciduous conifer). They produce seeds inside wooden cones.
 - **Broadleaf Trees (Angiosperms)**: Trees with flat, broad leaves that typically turn color and drop each autumn (deciduous), such as oaks, maples, birches, and poplars.
 
-### 2. Leaf Structure: Simple vs. Compound
+### Leaf Structure: Simple vs. Compound
 - **Simple Leaf**: A single, undivided leaf blade attached to a twig by its stem (petiole). Examples: Red maple, white oak, American beech, river birch.
 - **Compound Leaf**: A leaf whose blade is divided into several distinct **leaflets** sharing a single central stalk (rachis).
   - *Pinnately Compound*: Leaflets arranged in opposite rows along the stalk like a feather (e.g., black walnut, green ash, shagbark hickory).
   - *Palmately Compound*: Leaflets radiating outward from a single central point like fingers from a palm (e.g., Ohio buckeye, horse chestnut).
 
-### 3. Leaf Arrangement on the Twig
+### Leaf Arrangement on the Twig
 - **Alternate**: Leaves grow staggered singly at alternating points along the branch (most North American trees, including oaks, birches, cherries, and elms).
 - **Opposite**: Leaves grow in directly opposing pairs across from each other on the stem. Remember the acronym **"MAD Horse"** to identify common opposite-branching broadleaf trees: **M**aple, **A**sh, **D**ogwood, and **Horse** chestnut.
 - **Whorled**: Three or more leaves radiating from a single node around the stem (e.g., southern catalpa).
 
-### 4. Leaf Margins (Edges)
+### Leaf Margins (Edges)
 - **Entire (Smooth)**: The leaf edge is completely smooth with no teeth, notches, or serrations (e.g., flowering dogwood, redbud, live oak).
 - **Toothed (Serrated)**: The edge has sharp, saw-like teeth pointing toward the tip.
   - *Single-toothed*: Cherry, beech, chestnut.
@@ -54,7 +54,7 @@ Botanists and naturalists use a **dichotomous key**—a series of paired questio
   - *Pinnately lobed*: Lobes arranged along a central midrib (e.g., white oak with rounded lobes; red/pin oak with bristle-tipped lobes).
   - *Palmately lobed*: Lobes radiating from the base like fingers (e.g., sugar maple, red maple, sweetgum).
 
-### 5. Bark, Flowers, Fruit, and Aroma
+### Bark, Flowers, Fruit, and Aroma
 - **Bark Patterns**: Unique textures provide identification clues even in winter—shaggy curling strips (shagbark hickory), paper-thin peeling sheets (paper birch), diamond-furrowed patterns (white ash), or smooth gray bark resembling elephant hide (American beech).
 - **Fruit and Seeds**: Acorns (oaks), winged keys/samaras (maples and ashes), catkins (birches and willows), pods (locusts), and cones (pines).
 - **Distinctive Scent**: Crushed leaves of sassafras smell like sweet root beer; twigs of black birch produce a wintergreen aroma; mature bark of ponderosa pine smells of vanilla or butterscotch.

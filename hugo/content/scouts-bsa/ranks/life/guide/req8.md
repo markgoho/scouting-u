@@ -16,7 +16,7 @@ Successfully complete your board of review for the Life rank.*<br> <br> *If the 
 
 The Life Scout Board of Review is your fifth board of review and the final unit-level review before embarking on the Eagle Scout rank. It serves to verify that all requirements have been completed according to national standards, evaluate your growth as a senior leader, and ensure you are prepared for the final ascent to Eagle.
 
-## 1. Composition and Procedures
+## Composition and Procedures
 
 Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0):
 - **Board Panel**: The board consists of at least three and no more than six members of the troop committee.
@@ -24,7 +24,7 @@ Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0):
 - **Format**: The board conducts an open-ended discussion (typically 20–30 minutes) reviewing your six months of active tenure, leadership accomplishments, service hours (including the conservation split), merit badge progression, and how you practice the Scout Oath and Law.
 - **No Retesting**: The board does not test skills or re-examine knowledge.
 
-## 2. Core Topics of Discussion
+## Core Topics of Discussion
 
 During your Life board of review, committee members will typically explore:
 - **Leadership Development**: How did you guide and mentor other Scouts during your six months in your position of responsibility? What leadership challenges did you overcome?
@@ -32,7 +32,7 @@ During your Life board of review, committee members will typically explore:
 - **Service & Conservation**: What was the environmental impact of your conservation project? Why is conservation central to Scouting?
 - **Readiness for Eagle**: How are you planning your remaining merit badges? What type of organization or community need are you considering for your Eagle Scout Service Project?
 
-## 3. Deliberation and Appeal Rights
+## Deliberation and Appeal Rights
 
 - **Unanimous Approval**: Approval of advancement must be unanimous among the board members. Once approved, your official Life Scout date is the date the board of review took place.
 - **Adverse Decision & Appeal**: If the board does not approve advancement, the chair must provide a clear written explanation of the deficiencies and what steps are required. Under *Guide to Advancement* topic 8.0.4.0, a Scout has the right to appeal the decision to the district or council advancement committee.

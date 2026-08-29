@@ -16,13 +16,13 @@ Using the menu planned in First Class requirement 2a, make a list showing a budg
 
 Turning a camp menu into a reality requires calculating exact ingredient quantities, establishing a patrol budget, checking what supplies are already on hand, and executing a grocery shopping trip. This requirement tests your practical budgeting, consumer shopping, and logistics skills.
 
-## 1. Check Existing Patrol Inventory First
+## Check Existing Patrol Inventory First
 
 Before heading to the grocery store, check what supplies your troop or family already has on hand. Buying full new packages of every staple for every campout wastes patrol dues.
 - **Pantry Staples:** Salt, black pepper, cooking oil, non-stick spray, spices, hot sauce, sugar, and syrup.
 - **Supplies:** Aluminum foil, paper towels, zip-top plastic bags, and dish soap.
 
-## 2. Calculating Quantities & Building the Budget
+## Calculating Quantities & Building the Budget
 
 Scale your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/) for the exact number of people you are feeding (minimum 3 youth, typically a patrol of 4 to 8 Scouts).
 
@@ -44,7 +44,7 @@ Scale your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/) for
 | **Total Estimated Budget** | | | | **$36.73** |
 | **Cost Per Scout (4 Scouts)** | | | | **~$9.18 / Scout** |
 
-## 3. Smart Grocery Shopping Strategies
+## Smart Grocery Shopping Strategies
 
 - **Compare Unit Prices:** Look at the small shelf sticker that displays "Price per Ounce" or "Price per Pound" to identify whether a larger package or store brand is the better value.
 - **Store Brands vs. Name Brands:** Buying store-brand items (like flour, pasta, beans, sugar, and spices) often saves 20% to 40% with identical nutritional quality.
@@ -54,7 +54,7 @@ Scale your [Requirement 2a menu](/scouts-bsa/ranks/first-class/guide/req2a/) for
 - **Inspect Packaging for Safety:** Never purchase or use cans that are dented, swollen, rusted, or leaking (which can indicate lethal botulism contamination), or packages with broken seals.
 - **Shop Cold Items Last:** Pick up pantry goods and canned items first; grab refrigerated meats, eggs, and dairy at the very end of your store trip so they stay cold on the drive home.
 
-## 4. Pre-Camp Repackaging at Home
+## Pre-Camp Repackaging at Home
 
 Before packing your food into patrol chuck boxes and coolers:
 - **Eliminate Bulky Cardboard:** Remove inner plastic bags from outer cereal/cracker boxes to save space and reduce trash at camp.

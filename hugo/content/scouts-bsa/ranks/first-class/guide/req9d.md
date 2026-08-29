@@ -16,7 +16,7 @@ Participate in three hours of service through one or more service projects appro
 
 Service to the community is a lifelong commitment of every First Class Scout. Requirement 9d expands your volunteer efforts to **three hours of approved service** and asks you to analyze how your actions directly reflect the twelve points of the **Scout Law**.
 
-## 1. Rules for First Class Service Hours
+## Rules for First Class Service Hours
 
 To fulfill this requirement, your project must satisfy four core conditions:
 
@@ -25,7 +25,7 @@ To fulfill this requirement, your project must satisfy four core conditions:
 3. **Time Requirement**: Complete at least **three full hours** of service (which can be completed in a single project or divided across multiple distinct sessions).
 4. **The Cumulative Milestone**: Earning First Class brings your cumulative service total to **six hours** (1 hr for Tenderfoot + 2 hrs for Second Class + 3 hrs for First Class).
 
-## 2. High-Impact Service Opportunities
+## High-Impact Service Opportunities
 
 Look for meaningful projects that allow you to practice leadership, teamwork, and practical skills:
 - **Conservation & Environmental Restoration**: Building erosion-control check dams, planting native trees, clearing overgrown trails in municipal or national parks, or building bat houses and bird nesting boxes.
@@ -33,7 +33,7 @@ Look for meaningful projects that allow you to practice leadership, teamwork, an
 - **Civic & Youth Support**: Assisting at a local public library book sale, setting up equipment for community youth sports events, or leading crafts at a children's shelter.
 - **Eagle Scout Projects**: Lending hands-on labor and construction assistance to a fellow troop member's Eagle Scout Service Project.
 
-## 3. Connecting Your Service to the Scout Law
+## Connecting Your Service to the Scout Law
 
 During your Scoutmaster Conference, you will explain how your service directly connects to specific points of the Scout Law:
 

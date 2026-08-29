@@ -16,7 +16,7 @@ While a First Class Scout, serve actively in your troop for four months in one o
 
 Requirement 5 introduces youth leadership as a mandatory advancement criterion. As a Star Scout candidate, you transition from being guided by older Scouts to taking active responsibility for the operation, morale, and success of your unit.
 
-## 1. Approved Positions of Responsibility for Scout Troops
+## Approved Positions of Responsibility for Scout Troops
 
 Scouting America establishes a defined list of youth leadership positions that qualify for rank advancement. Each role serves a distinct and vital function within the troop:
 
@@ -41,14 +41,14 @@ Scouting America establishes a defined list of youth leadership positions that q
 **Assistant Patrol Leader (APL) is NOT an approved position for rank advancement** for Star, Life, or Eagle (as specified in Footnote 6 and the *Guide to Advancement* topic 4.2.3.4.4). While APL is a valuable role for patrol leadership, it does not fulfill this advancement requirement.
 {{< /drg/did-you-know >}}
 
-## 2. Venturing, Sea Scout, and Lone Scout Positions
+## Venturing, Sea Scout, and Lone Scout Positions
 
 If you are dual-registered or advancing within a Venturing crew, Sea Scout ship, or Lone Scout arrangement:
 - **Venturing Crew**: President, Vice President, Secretary, Treasurer, Den Chief, Historian, Guide, Quartermaster, Chaplain Aide, or Outdoor Ethics Guide.
 - **Sea Scout Ship**: Boatswain, Boatswain's Mate, Purser, Yeoman, Storekeeper, Crew Leader, Media Specialist, Specialist, Den Chief, or Chaplain Aide.
 - **Lone Scout**: Demonstrating significant leadership responsibility in your school (e.g., student government, club officer), religious organization (e.g., youth group officer), or community organization.
 
-## 3. What "Serve Actively" Means
+## What "Serve Actively" Means
 
 Holding a leadership patch is not enough; you must actively perform the responsibilities of the role throughout the four-month period:
 
@@ -57,7 +57,7 @@ Holding a leadership patch is not enough; you must actively perform the responsi
 3. **Communicate & Delegate**: If you encounter difficulties, communicate early with your SPL or Scoutmaster rather than letting your duties lapse.
 4. **Combining Positions**: You may combine time served across more than one position to reach your four-month total (e.g., two months as Patrol Leader followed by two months as Scribe), provided you served actively in each.
 
-## 4. The Scoutmaster-Approved Leadership Project
+## The Scoutmaster-Approved Leadership Project
 
 If no approved youth leadership position is available in your unit, your Scoutmaster may assign a specific **leadership project** to help the troop. 
 

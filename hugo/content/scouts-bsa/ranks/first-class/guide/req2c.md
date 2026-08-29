@@ -18,14 +18,14 @@ A well-planned menu is only as good as the equipment you bring to prepare it. Ar
 
 ## Comprehensive Patrol Cook Kit & Gear Checklist
 
-### 1. Pots, Pans, and Cookware
+### Pots, Pans, and Cookware
 - **8-Quart Stock Pot with Lid:** Essential for boiling pasta, heating large volumes of wash water, or simmering soups and chili.
 - **10-Inch or 12-Inch Frying Pan / Skillet:** For scrambling eggs, searing meats, and sautéing vegetables.
 - **Griddle (Optional):** Sits across two stove burners for cooking pancakes or grilled sandwiches for the entire patrol simultaneously.
 - **2- to 3-Quart Saucepan with Lid:** For preparing side dishes, warming sauces, or heating cocoa.
 - **Dutch Oven (if baking):** Cast iron Dutch oven with legs, tight-fitting flanged lid, lid lifter, and lid stand.
 
-### 2. Food Prep & Cooking Utensils
+### Food Prep & Cooking Utensils
 - **Cutting Boards:** Bring at least two plastic cutting boards (one dedicated to raw meats, one for vegetables and cooked foods to prevent cross-contamination).
 - **Knives with Protective Sheaths:** Paring knife and prep knife (never transport unsheathed knives).
 - **Pancake Turner / Spatula:** Heat-resistant spatula for flipping eggs, burgers, and pancakes.
@@ -36,12 +36,12 @@ A well-planned menu is only as good as the equipment you bring to prepare it. Ar
 - **Ladle:** For serving soups, chili, and stews evenly.
 - **Pot Grips & Insulated Oven Mitts:** Heat-resistant gloves for handling hot metal handles.
 
-### 3. Heat Sources and Stove Equipment
+### Heat Sources and Stove Equipment
 - **Camp Stove & Fuel:** 2-burner propane stove with regulator tube and verified fuel cylinders, or lightweight backpacking canister stoves.
 - **Ignition:** Waterproof matches, piezo click-igniter, or long-reach butane lighter.
 - **Windscreen:** To protect the flame from wind and conserve fuel.
 
-### 4. Serving, Sanitation, and Cleanup Gear
+### Serving, Sanitation, and Cleanup Gear
 - **Personal Mess Kits:** Plates, bowls, cups, and forks/spoons for each Scout.
 - **Three Wash Basins / Pots:** Sized for the 3-pot dishwashing method (wash, rinse, sanitize).
 - **Biodegradable Dish Soap & Sanitizer:** CampSuds and sanitizing tablets (or unscented bleach).

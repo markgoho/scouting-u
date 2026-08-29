@@ -16,7 +16,7 @@ As a Life Scout, demonstrate Scout Spirit by living the Scout Oath and Scout Law
 
 Requirement 2 evaluates your personal character, ethical integrity, and adherence to Scouting's highest ideals. At the Eagle level, this requirement encompasses two essential components: articulating your living of the Scout Oath and Law (past, present, and future) and providing personal references on your official application.
 
-## 1. Living the Scout Oath and Law: Past, Present, and Future
+## Living the Scout Oath and Law: Past, Present, and Future
 
 Unlike earlier ranks where Scout spirit was primarily evaluated through past actions, Eagle Scout asks you to look forward into your adult life:
 
@@ -24,7 +24,7 @@ Unlike earlier ranks where Scout spirit was primarily evaluated through past act
 - **Living the Oath and Law in Everyday Life**: Provide concrete, real-life examples from your home life, academic pursuits, sports, employment, and digital interactions where you chose integrity, kindness, loyalty, and courage.
 - **Guiding Your Future Life**: Explain how the principles of the Scout Oath and Scout Law will direct your future educational choices, career goals, personal relationships, civic responsibilities, and leadership roles as an adult citizen.
 
-## 2. Listing Reference Individuals on Your Application
+## Listing Reference Individuals on Your Application
 
 On page 1 of your official *Eagle Scout Rank Application*, you must list the names, mailing addresses, email addresses, and telephone numbers of individuals who know you personally and can provide a confidential recommendation regarding your character:
 
@@ -38,7 +38,7 @@ On page 1 of your official *Eagle Scout Rank Application*, you must list the nam
 Under the *Guide to Advancement* (topic 9.0.1.7), letters of recommendation are confidential and are requested by the unit committee, district, or council—not by the Scout directly. Recommendation letters are reviewed solely by the members of your Eagle Scout Board of Review and are kept confidential or destroyed after the review.
 {{< /drg/did-you-know >}}
 
-## 3. Best Practices for Securing References
+## Best Practices for Securing References
 
 - **Ask in Advance**: Contact each potential reference personally (in person or via a polite phone call or email) before listing their name on your application. Ask: *"Would you be willing to serve as a personal reference for my Eagle Scout Rank Application?"*
 - **Provide Accurate Contact Info**: Verify that all phone numbers, postal addresses, and email addresses are up to date and legible.

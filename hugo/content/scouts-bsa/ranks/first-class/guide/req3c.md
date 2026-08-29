@@ -18,7 +18,7 @@ Lashings join poles and spars together using only rope. Every lashing relies on 
 - **Wrapping turns:** Loop around both spars to hold them in position.
 - **Frapping turns:** Wrap *between* the spars around the wrapping turns, pulling the rope incredibly tight to lock the joint into a rigid structure.
 
-## 1. Square Lashing — Touching Poles Crossing at 45° to 90°
+## Square Lashing — Touching Poles Crossing at 45° to 90°
 
 Use the square lashing to join two poles that touch and cross at a right or near-right angle (such as table legs, gateway rails, or crossbars).
 
@@ -31,7 +31,7 @@ Use the square lashing to join two poles that touch and cross at a right or near
 3. **Fraps (2 turns):** Take **two tight frapping turns** between the two poles, wrapping directly around the rope wraps. Pull each frapping turn as tight as possible.
 4. **Finish:** Tie off with a clove hitch around the top (horizontal) pole, snug against the frapping.
 
-## 2. Shear Lashing — Parallel Poles & A-Frames
+## Shear Lashing — Parallel Poles & A-Frames
 
 Use a shear lashing to join two spars running side by side, either to form the legs of an A-frame (shear legs) or to splice two poles together.
 
@@ -45,7 +45,7 @@ Use a shear lashing to join two spars running side by side, either to form the l
 4. **Finish:** Finish with a clove hitch on the *opposite* spar from where you started.
 5. **Spread the Legs:** For an A-frame or tripod legs, spread the lower ends of the poles apart. Spreading the legs further tightens the frapping turns, locking the structure solid.
 
-## 3. Diagonal Lashing — Crossing Poles with a Gap
+## Diagonal Lashing — Crossing Poles with a Gap
 
 Use a diagonal lashing when two poles cross at an angle but do not touch (such as diagonal cross-braces on an X-trestle). The lashing pulls the separated poles together into contact.
 

@@ -29,16 +29,16 @@ To satisfy Requirement 8a, you must fulfill four explicit criteria:
 
 Because First Class Scouts participate in more demanding wilderness outings—such as multi-mile backpacking trips, extended canoeing expeditions, and pioneering projects—use this second four-week cycle to elevate your physical capabilities:
 
-### 1. Backcountry Aerobic Conditioning
+### Backcountry Aerobic Conditioning
 - **Trail Running & Pack Hikes**: Practice hiking with a weighted daypack (10–15 lbs) over uneven terrain and elevation gains.
 - **Interval Training**: Alternate between fast-paced sprints and steady jogging during runs or bike rides to build cardiovascular recovery efficiency.
 - **Lap Swimming & Water Aerobics**: Swim continuous laps using the crawl, breaststroke, and sidestroke to build upper-body endurance for water rescue skills (Requirement 6e).
 
-### 2. Functional Muscular Strength
+### Functional Muscular Strength
 - **Compound Calisthenics**: Push-ups, pull-ups, chin-ups, walking lunges, and bodyweight squats build the muscular strength needed to hoist canoes, haul heavy gear, and construct campsite structures.
 - **Core Stability**: Extended plank holds, flutter kicks, and hanging leg raises stabilize your lower back and improve pack-carrying balance.
 
-### 3. Agility, Coordination, and Team Sports
+### Agility, Coordination, and Team Sports
 - Active participation in organized athletics (soccer, basketball, tennis, martial arts, rowing, cross-country track) builds foot speed, spatial awareness, and team communication.
 
 ## Maintaining Your First Class Activity Log

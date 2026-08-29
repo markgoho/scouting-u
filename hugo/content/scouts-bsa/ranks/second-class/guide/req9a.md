@@ -16,7 +16,7 @@ Explain the three R's of personal safety and protection.
 
 Personal safety awareness is designed to empower you with the judgment, confidence, and courage to protect yourself and others from harm. Second Class Requirement 9a asks you to explain the **Three R's of Personal Safety and Protection**: **Recognize**, **Resist**, and **Report**.
 
-## 1. RECOGNIZE (Identify the Threat)
+## RECOGNIZE (Identify the Threat)
 
 The first step in staying safe is recognizing when a situation, request, or environment is inappropriate or dangerous:
 
@@ -25,7 +25,7 @@ The first step in staying safe is recognizing when a situation, request, or envi
 - **Digital & Online Red Flags**: Strangers online asking for your real name, location, school, phone number, passwords, or personal photos, or asking you to keep online conversations hidden.
 - **Physical & Intuitive Warning Signs**: Pay attention to your body's natural warning signals—a sudden uneasy feeling in your stomach (the "uh-oh" feeling), a racing heartbeat, or sudden fear. Trust your instincts!
 
-## 2. RESIST (Defend Your Boundaries)
+## RESIST (Defend Your Boundaries)
 
 When confronted with an unsafe or uncomfortable situation, take immediate, decisive action to resist:
 
@@ -34,7 +34,7 @@ When confronted with an unsafe or uncomfortable situation, take immediate, decis
 - **Escape to Safety**: Immediately put physical distance between yourself and the threat. Run toward a populated area, a public building, or a group of people.
 - **Online Defense**: Never engage with bullies or predators. Immediately log off, take a screenshot of the message if possible, and block the user.
 
-## 3. REPORT (Tell a Trusted Adult)
+## REPORT (Tell a Trusted Adult)
 
 Reporting unsafe behavior is an act of bravery that protects yourself and other potential victims:
 

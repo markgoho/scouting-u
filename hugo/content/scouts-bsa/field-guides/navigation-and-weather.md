@@ -5,7 +5,7 @@ description: "A comprehensive backcountry navigation and meteorology manual cove
 
 Precision navigation and weather awareness are the core survival skills of the wilderness traveler. Being able to read the land, plot an accurate course across trackless terrain, and predict approaching storms from cloud and barometric cues keeps a patrol safe and self-reliant.
 
-## 1. Topographic Map Fundamentals
+## Topographic Map Fundamentals
 
 Topographic maps represent the three-dimensional shapes of the Earth’s surface on a flat two-dimensional plane using **contour lines**.
 
@@ -38,7 +38,7 @@ The UTM grid system divides the globe into 60 zones of 6° longitude each and ov
   - Combined Coordinate: `482 735` (Pinpoints a 100m x 100m square).
 - **Using a Corner Roamer / Coordinate Scale:** Place the corner of a 1:24,000 metric roamer on the target point and read the precise meters from the grid lines.
 
-## 2. Compass Mechanics & Bearing Mastery
+## Compass Mechanics & Bearing Mastery
 
 A standard baseplate (orienteering) compass is a precision navigational instrument.
 
@@ -55,26 +55,26 @@ A standard baseplate (orienteering) compass is a precision navigational instrume
 
 ### Step-by-Step Bearing Protocols
 
-#### A. Taking a Field Bearing (Sighting an Object)
+#### Taking a Field Bearing (Sighting an Object)
 1. Point the **Direction of Travel Arrow** directly at the distant target (mountain peak, lone tree, fire tower).
 2. Hold the compass flat at waist level (or at eye level if equipped with a sighting mirror).
 3. Rotate the compass bezel until the red orienting arrow aligns underneath the red magnetic needle (*"Put Red in the Shed"*).
 4. Read the exact numeric degree value at the **Index Line**. This is your magnetic bearing.
 
-#### B. Taking a Map Bearing (From Point A to Point B)
+#### Taking a Map Bearing (From Point A to Point B)
 1. Lay the compass on the map with the baseplate edge connecting your current position (**Point A**) to your destination (**Point B**).
 2. Ensure the **Direction of Travel Arrow** points toward Point B.
 3. Keep the baseplate firmly pinned in place. Rotate the bezel until the internal orienting lines run **strictly parallel to the map's North-South grid lines** (with the 'N' pointing toward the top of the map).
 4. Read the **Grid Bearing** at the Index Line.
 5. Apply magnetic declination before following this bearing in the field with your compass.
 
-#### C. Walking on a Bearing (Preventing Lateral Drift)
+#### Walking on a Bearing (Preventing Lateral Drift)
 - Do **not** walk with your eyes glued to the compass needle.
 - Sight along the Direction of Travel Arrow to identify a distinct intermediate landmark on the horizon (e.g., a lightning-struck pine, unique rock boulder).
 - Walk directly to that intermediate landmark without looking at the compass.
 - Repeat the process from that landmark to the next waypoint.
 
-## 3. Magnetic Declination De-Mystified
+## Magnetic Declination De-Mystified
 
 **Magnetic Declination** is the angle between **True North** (the geographic North Pole) and **Magnetic North** (where the compass needle points toward the Earth's magnetic core).
 
@@ -98,7 +98,7 @@ A standard baseplate (orienteering) compass is a precision navigational instrume
 **Adjustable Declination Compasses:** Always invest in a compass with an internal adjustable declination screw (e.g., Suunto MC-2, Brunton TruArc, Silva Ranger). Turn the gear on the back of the bezel to offset the orienting arrow by your local declination. Once set, **all conversions are completely automatic**—you can read map bearings directly without doing math in the field!
 {{< /drg/tip >}}
 
-## 4. Pace Factor & Distance Estimation
+## Pace Factor & Distance Estimation
 
 A **Pace** is defined as two natural walking steps (every time your dominant foot strikes the ground).
 
@@ -125,9 +125,9 @@ Night / darkness navigation  x 1.15                    69 paces / 100m
 - **Upper Tier (4 beads):** When all 9 lower beads are down and you complete the 10th hundred-meter increment (1,000 meters / 1 km), slide all 9 lower beads back up and slide **one upper bead down**.
 - Total tracking capacity: $4\text{ km} + 900\text{ m} = 4.9\text{ km}$.
 
-## 5. Advanced Wilderness Navigation Tactics
+## Advanced Wilderness Navigation Tactics
 
-### A. Triangulation / Resection (Finding Your Unknown Position)
+### Triangulation / Resection (Finding Your Unknown Position)
 When you are lost on a map but can see two or three identifiable landmarks on the horizon:
 
 1. Shoot a magnetic bearing to **Landmark A** and convert to a Grid Bearing.
@@ -138,13 +138,13 @@ When you are lost on a map but can see two or three identifiable landmarks on th
 4. Shoot a bearing to a distant **Landmark B** (ideally 60° to 90° away from Landmark A) and draw its back-azimuth line.
 5. The point where the lines intersect is your precise map position. (A 3rd landmark forms a small "triangle of error" for confirmation).
 
-### B. Aiming Off
+### Aiming Off
 When navigating toward a specific linear point feature (e.g., a footbridge, trail junction, water spring on a creek) across dense forest or fog:
 
 - **The Problem:** If you aim directly at the bridge and reach the creek, you will not know whether the bridge is upstream to your left or downstream to your right.
 - **The Solution:** Deliberately aim **3° to 5° to the right (or left)** of the bridge. When you hit the creek, you know with 100% certainty that the bridge is to your left. Turn left and follow the creek bank directly to the target.
 
-### C. Boxing an Obstacle (90° Offset Method)
+### Boxing an Obstacle (90° Offset Method)
 When an impassable obstacle (swamp, cliff, deep pond) blocks your direct bearing:
 
 1. Stop at the obstacle edge. Note your master pace count.
@@ -153,7 +153,7 @@ When an impassable obstacle (swamp, cliff, deep pond) blocks your direct bearing
 4. Turn **90° Right** and walk the exact same offset distance (**50 paces**).
 5. Turn **90° Left** to return to your original bearing line and resume your master pace count.
 
-## 6. Backcountry Weather Forecasting Toolkit
+## Backcountry Weather Forecasting Toolkit
 
 Weather in mountainous and backcountry environments changes violently. Knowing how to read clouds, wind shifts, and barometric pressure trends allows a patrol to seek shelter before disaster strikes.
 

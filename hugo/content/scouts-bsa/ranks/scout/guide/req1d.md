@@ -20,26 +20,26 @@ Even before earning the First Class rank, every Scout in Scouts BSA wears the Fi
 
 {{< drg/image src="images/first-class-badge-parts.png" alt="Diagram of the First Class badge with the trefoil outline, eagle and shield, scroll, knot, and two stars labeled" >}}
 
-### 1. The Trefoil (Fleur-de-lis / Three-Pointed Design)
+### The Trefoil (Fleur-de-lis / Three-Pointed Design)
 - **The Compass Needle**: The three-pointed shape is styled after the traditional arrowhead on early mariner's compasses. It symbolizes that a Scout leads the way and points the true path in life as dependably as a compass points north.
 - **The Three Points**: Directly correspond to the three promises of the **Scout Oath**:
   - *Center Point*: Duty to God and Country.
   - *Left Point*: Duty to Others (helping other people at all times).
   - *Right Point*: Duty to Self (keeping physically strong, mentally awake, and morally straight).
 
-### 2. The Two Stars
+### The Two Stars
 - **Truth and Knowledge**: The two five-pointed stars represent the guiding lights of Truth and Knowledge, helping Scouts make wise moral choices.
 - **The Outdoor Life**: They also symbolize the stars of the night sky, recalling Scouting's outdoor spirit and wilderness adventure.
 
-### 3. The Eagle and Shield
+### The Eagle and Shield
 - **National Freedom**: The American Bald Eagle and the red, white, and blue shield are the national emblems of the United States.
 - **Patriotism & Service**: They stand for freedom, good citizenship, and a Scout's readiness to defend liberty and serve the nation.
 
-### 4. The Scroll with the Scout Motto
+### The Scroll with the Scout Motto
 - **The Motto**: The ribbon banner at the bottom carries the Scout Motto: **"Be Prepared."**
 - **The Scout's Smile**: The ends of the scroll are intentionally turned upward in a curve, symbolizing that a Scout performs their duties and serves others with a **cheerful smile**.
 
-### 5. The Knotted Cord at the Bottom
+### The Knotted Cord at the Bottom
 - **The Scout Slogan**: Suspended from the bottom center of the scroll is an overhand knot. It serves as a constant physical reminder of the Scout Slogan: **"Do a Good Turn Daily."**
 
 ## The Progressive Ranks Built on the Badge

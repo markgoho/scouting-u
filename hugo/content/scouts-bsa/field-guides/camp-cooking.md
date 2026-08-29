@@ -5,7 +5,7 @@ description: "A complete field guide to outdoor culinary mastery, patrol chuck b
 
 Great camp cooking is the engine of high patrol morale. A well-run patrol kitchen operates cleanly, safely, and efficiently, producing nutritious, high-calorie meals while upholding strict sanitation standards and Leave No Trace principles.
 
-## 1. Patrol Kitchen Layout & Food Safety
+## Patrol Kitchen Layout & Food Safety
 
 A campsite kitchen must be organized systematically to prevent foodborne illness, avoid cross-contamination, and protect food from wildlife.
 
@@ -38,7 +38,7 @@ Bacteria double every 20 minutes in this temperature range. Never leave perishab
 - **Layering Order:** Place block ice on the bottom, raw meat double-sealed in heavy-duty zip bags directly on the ice, dairy and vegetables in the middle, and delicate items (bread, eggs) in elevated dry racks on top.
 - **Do Not Drain Meltwater Continuously (Unless Submerging Open Bags):** Cold meltwater insulates the remaining ice better than warm ambient air.
 
-## 2. The BSA 3-Pot Sanitation Dishwashing System
+## The BSA 3-Pot Sanitation Dishwashing System
 
 Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks (e.g., *Norovirus*, *Campylobacter*, *E. coli*) that can compromise a trek.
 
@@ -71,7 +71,7 @@ Proper dishwashing in the field prevents debilitating gastrointestinal outbreaks
    - **Broadcast Method (Leave No Trace standard):** Walk at least **200 feet** away from campsites, trails, and natural water bodies. Swing the bucket in a wide arc to fling the gray water into a fine mist over durable soil, rocks, or brush.
    - **Sump Hole Method (Established high-use camps):** Pour gray water directly into a designated camp sump tube or a 1-foot-deep hole dug in mineral soil 200 feet from water.
 
-## 3. Dutch Oven Mastery & Charcoal Calculator
+## Dutch Oven Mastery & Charcoal Calculator
 
 A standard cast iron Dutch oven is an outdoor convection oven. The flanged lid holds burning charcoal briquettes, allowing top and bottom heat distribution for roasting, simmering, frying, and baking.
 
@@ -135,7 +135,7 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 4. **Storage:**
    - Place a folded paper towel or wooden clothespin between the lid and the pot to allow continuous airflow and prevent moisture condensation.
 
-## 4. Backcountry Backpacking Stoves & Fuel Chemistry
+## Backcountry Backpacking Stoves & Fuel Chemistry
 
 | Stove Category | Fuel Type | Cold Weather Performance | Simmer Control | Pros | Cons |
 | :--- | :--- | :--- | :--- | :--- | :--- |

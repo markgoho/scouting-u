@@ -16,7 +16,7 @@ While a First Class Scout, participate in a Scoutmaster conference.
 
 The Scoutmaster conference is a supportive, one-on-one conversation between you and your Scoutmaster (or an assistant Scoutmaster designated by the Scoutmaster). It is not an examination or a re-test of your skills; rather, it is a mentoring session to evaluate your progress, reflect on your growth, and chart your course toward Life and Eagle.
 
-## 1. The Purpose of the Star Scoutmaster Conference
+## The Purpose of the Star Scoutmaster Conference
 
 At Star Scout, the conference transitions from checking basic scoutcraft skills to discussing your development as a leader and a person:
 
@@ -25,13 +25,13 @@ At Star Scout, the conference transitions from checking basic scoutcraft skills 
 - **Assessing Scout Spirit & Duty to God**: Reviewing your real-world examples of living the Scout Oath and Law ([Requirement 2](/scouts-bsa/ranks/star/guide/req2/)).
 - **Goal Setting for Life and Eagle**: Looking ahead to the Life rank, mapping out your next five merit badges, planning conservation service hours, and preparing for the Teaching EDGE method.
 
-## 2. Policy: When the Conference Can Occur
+## Policy: When the Conference Can Occur
 
 According to the official *Guide to Advancement* (topic 4.2.3.5):
 - The Scoutmaster conference may take place at any time during your tenure as a First Class Scout. While it is often the final step before the board of review, it does not have to be the last requirement completed.
 - A Scoutmaster conference cannot be used to "fail" a Scout or deny advancement arbitrarily. If areas of growth are identified, the Scoutmaster provides clear guidance on how to fulfill the rank expectations.
 
-## 3. How to Prepare
+## How to Prepare
 
 Approach the conference with professionalism and thoughtful reflection:
 

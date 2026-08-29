@@ -16,7 +16,7 @@ Earn a total of 21 merit badges (10 more than required for the Life rank), inclu
 
 Requirement 3 represents the culmination of your merit badge career in Scouts BSA: earning a minimum of **21 total merit badges**, encompassing all **13 required categories**.
 
-## 1. Comprehensive Breakdown of the 13 Eagle-Required Categories
+## Comprehensive Breakdown of the 13 Eagle-Required Categories
 
 Every candidate for Eagle Scout must complete merit badges covering the following 13 specific subjects/categories:
 
@@ -44,7 +44,7 @@ Every candidate for Eagle Scout must complete merit badges covering the followin
 12. **(l) Camping**: Low-impact outdoor living, wilderness campcraft, campsite planning, and completing at least **20 days and nights of scout camping**.
 13. **(m) Family Life**: Family communication, roles, home safety, family projects, and a **90-day tracking of personal and family household responsibilities**.
 
-## 2. Optional Merit Badges (8 Electives)
+## Optional Merit Badges (8 Electives)
 
 To reach the required 21 total merit badges:
 - 13 badges must satisfy the specific categories listed above.
@@ -55,7 +55,7 @@ To reach the required 21 total merit badges:
 **Alternative Merit Badges for Scouts with Disabilities**: Under *Guide to Advancement* Section 10, a Scout with a permanent physical or cognitive disability that prevents completing specific required merit badges (e.g., Swimming or Lifesaving) may apply for council approval to complete alternative merit badges. The application must be approved by the council advancement committee before work on alternative badges begins.
 {{< /drg/did-you-know >}}
 
-## 3. Auditing and Recording Your Badges
+## Auditing and Recording Your Badges
 
 Before completing your Eagle Scout Rank Application, perform a meticulous audit of your merit badge records:
 

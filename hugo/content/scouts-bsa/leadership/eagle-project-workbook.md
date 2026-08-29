@@ -9,7 +9,7 @@ The Eagle Scout Service Project is the capstone leadership experience in Scouts 
 
 This is not simply a service project—it is a comprehensive leadership practicum. Your job is not to provide free manual labor; your job is to lead a multi-phase operation from concept through completion.
 
-## 1. What Makes an Acceptable Eagle Project?
+## What Makes an Acceptable Eagle Project?
 
 Before drafting a proposal, ensure the project meets national advancement standards outlined in the *Guide to Advancement* (Topics 9.0.2.0 – 9.0.2.16):
 
@@ -26,11 +26,11 @@ Before drafting a proposal, ensure the project meets national advancement standa
 There is no minimum number of hours required for an Eagle Scout Service Project. Council committees look for adequate *scope*, *planning depth*, and clear opportunity to *demonstrate leadership to others*, not an arbitrary hour quota.
 {{< /drg/did-you-know >}}
 
-## 2. The 8-Phase Eagle Project Roadmap
+## The 8-Phase Eagle Project Roadmap
 
 ![The 8-Phase Eagle Scout Service Project Lifecycle](/img/diagrams/eagle-project-phases.png)
 
-## 3. Securing the 4 Crucial Approval Signatures
+## Securing the 4 Crucial Approval Signatures
 
 You must complete the **Project Proposal** section of the official *Eagle Scout Service Project Workbook* (BSA Publication No. 512-927) and obtain four mandatory signatures in strict sequential order before doing any project work:
 
@@ -53,7 +53,7 @@ District advancement chairs most commonly request revisions for these proposal g
 - **Beneficiary Ownership Ambiguity**: Failing to clarify who owns and maintains the completed structure after the project.
 {{< /drg/be-prepared >}}
 
-## 4. Fundraising Rules & Financial Planning
+## Fundraising Rules & Financial Planning
 
 Financial management must follow strict BSA advancement and tax policies:
 
@@ -64,7 +64,7 @@ Financial management must follow strict BSA advancement and tax policies:
 ### Leftover Funds Policy
 All remaining funds raised for an Eagle project belong to the **beneficiary organization** or the troop's project fund, as designated in the fundraising application. Under no circumstances may leftover funds be kept by the Scout or their family.
 
-## 5. Age-Appropriate Tool & Safety Guidelines
+## Age-Appropriate Tool & Safety Guidelines
 
 You must protect all volunteers by enforcing the *Guide to Safe Scouting* tool use policies:
 
@@ -75,7 +75,7 @@ You must protect all volunteers by enforcing the *Guide to Safe Scouting* tool u
 | **Youth 16 – 17** | Mowers, string trimmers, non-commercial power equipment with proper PPE. | Chainsaws, log splitters, commercial trenchers, working above 6 feet off ground. |
 | **Adults 18+ Only** | Circular saws, miter saws, pneumatic nail guns, tillers, post-hole augers. | Chainsaws (require specialized BSA chainsaw training certification). |
 
-## 6. Execution Day: Leading the Workday
+## Execution Day: Leading the Workday
 
 On project day, the Eagle candidate is the project manager, not the primary laborer.
 
@@ -99,7 +99,7 @@ On project day, the Eagle candidate is the project manager, not the primary labo
 If you spend four hours holding a paintbrush, you cannot see that another crew is assembling a table backwards or that a volunteer is showing signs of heat exhaustion. Step back, maintain high-level awareness, and lead.
 {{< /drg/tip >}}
 
-## 7. The Project Report & Financial Summary
+## The Project Report & Financial Summary
 
 Upon completing the physical work, complete the **Project Report** section of the workbook:
 
@@ -116,7 +116,7 @@ Upon completing the physical work, complete the **Project Report** section of th
 | **Volunteer Refreshments**| $75.00 | $68.00 | -$7.00 | Parent Bake Sale |
 | **TOTAL** | **$685.00** | **$647.50** | **-$37.50** | *Balanced* |
 
-## 8. Master Eagle Project Checklist
+## Master Eagle Project Checklist
 
 {{< drg/checklist title="Eagle Scout Service Project Milestone Checklist" subtitle="Track your path from concept to council approval" >}}
 - [ ] Life Scout rank earned and recorded in Scoutbook.

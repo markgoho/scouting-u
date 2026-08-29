@@ -28,20 +28,20 @@ Whenever reaching or throwing is possible, it keeps the rescuer safe on dry grou
 
 If a swimming rescue becomes unavoidable (the "Go" step), it should **only** be attempted by a strong swimmer trained in lifesaving techniques, and always with **Go (with support)** principles:
 
-### 1. Always Bring Flotation Between You and the Victim
+### Always Bring Flotation Between You and the Victim
 Never swim out empty-handed. Take a buoyant aid with you:
 - Life jacket (PFD)
 - Ring buoy or rescue tube
 - Kickboard, air mattress, or foam sleeping pad
 - Canoe paddle or boat oar
 
-### 2. Present the Flotation Device from a Safe Distance
+### Present the Flotation Device from a Safe Distance
 - Approach the victim using the breaststroke or head-up crawl so you keep continuous visual contact.
 - Stop when you are still 5 to 10 feet away — well outside their grasping reach.
 - Push or extend the flotation device toward them, telling them firmly and calmly: *"Take hold of this life jacket!"*
 - Allow them to grab the far side of the object, keeping the device between your body and theirs as a protective barrier.
 
-### 3. Defensive Escape Maneuvers
+### Defensive Escape Maneuvers
 If a panicked victim lunges and grabs you:
 - **Tuck and submerge**: Take a breath, tuck your chin down against your chest to protect your airway, and **dive straight down underwater**. Because drowning victims are desperately trying to climb *up* to the air, they will instinctively let go of anything being pulled downward.
 - **Push away**: Push the victim away at their hips or chest while submerged, swim a few yards underwater away from them, and surface out of their reach.

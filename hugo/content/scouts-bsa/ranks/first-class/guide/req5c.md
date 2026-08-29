@@ -25,7 +25,7 @@ Whenever you explain a natural weather sign, organize your response into three c
 
 ## Key Natural Indicators of Hazardous Weather
 
-### 1. Rapidly Towering Cumulonimbus Clouds (Anvil Heads)
+### Rapidly Towering Cumulonimbus Clouds (Anvil Heads)
 - **Natural Indicator**: Fluffy white cumulus clouds rapidly billowing upward into vertical towers on hot, humid afternoons, with dark boiling bases and a flat, fibrous anvil-shaped top spreading across the upper atmosphere.
 - **Impending Dangerous Event**: **Severe Thunderstorms**, capable of producing dangerous cloud-to-ground lightning, microburst winds exceeding 50 mph, large hail, and localized flash flooding.
 - **Appropriate Action**:
@@ -35,7 +35,7 @@ Whenever you explain a natural weather sign, organize your response into three c
   - If caught in the backcountry without buildings: seek a uniform stand of low trees or shrubs in a valley; avoid tall, isolated trees, ridgelines, and rock overhangs (which create dangerous ground-current arcs).
   - Spread patrol members **20 to 30 feet apart** so a single ground strike cannot affect multiple people. If caught in the open with hair standing on end, assume the **lightning crouch**: squat low on the balls of your feet with heels touching, head down, and hands over ears to minimize contact with the ground.
 
-### 2. Systematic Cloud Progression (Cirrus to Nimbostratus)
+### Systematic Cloud Progression (Cirrus to Nimbostratus)
 - **Natural Indicator**: High, feathery cirrus clouds ("mare's tails") thickening over several hours into a thin, milky veil of cirrostratus (often creating a visible halo around the sun or moon), followed by a lowering sheet of gray altostratus, and finally dark, heavy, low-hanging **nimbostratus clouds**.
 - **Impending Dangerous Event**: **Approaching Warm Front**, bringing prolonged, steady rain or snow lasting 12 to 24 hours or longer, leading to soaked gear, slippery trail conditions, and high risk of **hypothermia**.
 - **Appropriate Action**:
@@ -44,7 +44,7 @@ Whenever you explain a natural weather sign, organize your response into three c
   - Ensure tent rainflies are securely guyed out and taut so fabric does not touch the inner tent body.
   - Elevate sleeping bags and dry clothes off the tent floor inside waterproof dry bags.
 
-### 3. Abrupt Wind Shift and Rapid Temperature Drop
+### Abrupt Wind Shift and Rapid Temperature Drop
 - **Natural Indicator**: A sudden, gusty shift in wind direction accompanied by an immediate 10-to-20-degree drop in air temperature (an outflow boundary or gust front).
 - **Impending Dangerous Event**: **Fast-Moving Cold Front or Squall Line**, producing intense squalls, sudden blinding downpours, gale-force wind gusts, and rapid temperature plunges.
 - **Appropriate Action**:
@@ -52,14 +52,14 @@ Whenever you explain a natural weather sign, organize your response into three c
   - Inspect the campsite canopy and avoid pitching tents beneath dead trees or dead overhead limbs ("widow-makers").
   - Put on warm insulating mid-layers (fleece or wool) beneath rain shells to protect against sudden chilling.
 
-### 4. Flattened Campfire Smoke and Low-Flying Swallows (Barometric Drop)
+### Flattened Campfire Smoke and Low-Flying Swallows (Barometric Drop)
 - **Natural Indicator**: Campfire smoke that refuses to rise into the sky, instead swirling downward and hugging the ground; swallows, swifts, and bats skimming just inches above the grass; or a wrist altimeter indicating increased elevation while remaining stationary.
 - **Impending Dangerous Event**: **Severe Low-Pressure System**, indicating turbulent air, rising humidity, and incoming storm fronts. Low atmospheric pressure and dense humid air keep smoke low and force flying insects to fly close to the ground on moisture-laden wings.
 - **Appropriate Action**:
   - Check your NOAA Weather Radio or weather radar for active storm advisories.
   - Re-evaluate the day's itinerary, shortening high-risk exposed hikes and planning early turnaround times.
 
-### 5. Bruised Greenish Sky, Roaring Sound, and Large Hail
+### Bruised Greenish Sky, Roaring Sound, and Large Hail
 - **Natural Indicator**: A dark, stormy sky taking on a distinctive greenish-black or bruised yellow hue, frequent continuous in-cloud lightning, large hail falling, followed by a continuous deep roar resembling a freight train or jet engine.
 - **Impending Dangerous Event**: **Supercell Thunderstorm / Impending Tornado or Derecho**.
 - **Appropriate Action**:

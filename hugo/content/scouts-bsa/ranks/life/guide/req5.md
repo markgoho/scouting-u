@@ -16,7 +16,7 @@ While a Star Scout, serve actively in your troop for six months in one or more o
 
 Leadership at the Life Scout rank requires increased dedication, accountability, and maturity. While Star required four months, Life extends the leadership commitment to **six full months** of active service in an approved position of responsibility.
 
-## 1. Approved Youth Leadership Roles in a Scout Troop
+## Approved Youth Leadership Roles in a Scout Troop
 
 The following positions of responsibility are officially approved by Scouting America for the Life rank:
 
@@ -41,20 +41,20 @@ The following positions of responsibility are officially approved by Scouting Am
 **Assistant Patrol Leader (APL) is NOT an approved position of responsibility** for rank advancement (as noted in Footnote 9 and *Guide to Advancement* topic 4.2.3.4.4).
 {{< /drg/did-you-know >}}
 
-## 2. Venturing, Sea Scout, and Lone Scout Roles
+## Venturing, Sea Scout, and Lone Scout Roles
 
 - **Venturing Crew**: President, Vice President, Secretary, Treasurer, Den Chief, Historian, Guide, Quartermaster, Chaplain Aide, or Outdoor Ethics Guide.
 - **Sea Scout Ship**: Boatswain, Boatswain's Mate, Purser, Yeoman, Storekeeper, Crew Leader, Media Specialist, Specialist, Den Chief, or Chaplain Aide.
 - **Lone Scout**: Significant leadership responsibility in school, religious organization, club, or community organization.
 
-## 3. What "Active Service" Requires
+## What "Active Service" Requires
 
 To meet the standard of serving actively:
 1. **Understand Expectations**: Review the written duties of your role with your Scoutmaster or SPL at the start of your six-month term.
 2. **Execute Consistently**: Regularly attend troop meetings, PLC meetings, and campouts, actively carrying out your duties throughout the six months.
 3. **Continuous Term or Combined Roles**: You may serve six months in a single role or combine time across multiple approved roles (e.g., three months as Patrol Leader followed by three months as Troop Guide).
 
-## 4. The Scoutmaster-Approved Leadership Project
+## The Scoutmaster-Approved Leadership Project
 
 If no approved position is available in your unit, your Scoutmaster may assign a substantial **leadership project** to help the troop:
 - The project must involve real leadership, planning, and execution over an extended duration.

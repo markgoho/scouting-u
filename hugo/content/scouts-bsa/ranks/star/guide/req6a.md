@@ -16,11 +16,11 @@ With your parent or guardian, complete the exercises in the pamphlet<i> How to P
 
 The pamphlet *How to Protect Your Children from Child Abuse: A Parent's Guide* is a critical resource created by Scouting America to help families identify, prevent, and respond to potential abuse and exploitation.
 
-## 1. Finding the Pamphlet
+## Finding the Pamphlet
 
 This guide is bound into the front section of your rank requirements literature and is also available digitally through the official Scouting America Youth Protection portal. 
 
-## 2. Core Topics Covered in the Exercises
+## Core Topics Covered in the Exercises
 
 Completing the exercises with your parent or guardian involves reading through the material together and discussing practical safety scenarios:
 
@@ -32,7 +32,7 @@ Completing the exercises with your parent or guardian involves reading through t
 - **Digital Boundaries**: Navigating social media, text messages, gaming chat rooms, and private messaging safely. Understanding the risks of sharing photos, passwords, or personal location details.
 - **Peer-to-Peer Safety**: Recognizing bullying, hazing, cyberbullying, or harassment among peers, and knowing how to be an active upstander rather than a passive bystander.
 
-## 3. Completing the Family Discussion
+## Completing the Family Discussion
 
 Set aside quiet, uninterrupted time with your parent or guardian to work through the discussion checklists and review the scenarios in the guide.
 

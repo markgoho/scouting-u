@@ -16,7 +16,7 @@ While a Star Scout, participate in six hours of service through one or more serv
 
 Requirement 4 maintains the six-hour service standard from the Star rank, but introduces a new, specialized requirement: **at least three of the six hours must be conservation-related**.
 
-## 1. What Qualifies as Conservation-Related Service?
+## What Qualifies as Conservation-Related Service?
 
 Conservation service involves hands-on work that directly benefits the natural environment, preserves wildlife habitats, protects ecosystems, or promotes environmental sustainability:
 
@@ -32,7 +32,7 @@ Conservation service involves hands-on work that directly benefits the natural e
 - General landscaping, lawn mowing, or weeding at a church or civic building.
 - Non-environmental community service, such as food sorting or blood drive support (which qualify for general service hours, but not the 3-hour conservation minimum).
 
-## 2. Structuring Your Six Hours
+## Structuring Your Six Hours
 
 You can fulfill your six hours in several ways:
 - **Option A (Full Conservation)**: Complete all six hours on one or more conservation projects.
@@ -42,7 +42,7 @@ You can fulfill your six hours in several ways:
 Hours spent working on conservation service for Life rank can also contribute toward prestigious Scouting conservation honors, including the Scouting America Conservation Good Turn Award and the Distinguished Conservationist Award.
 {{< /drg/did-you-know >}}
 
-## 3. Finding and Logging Projects
+## Finding and Logging Projects
 
 Work with your Scoutmaster to identify suitable opportunities:
 - Local municipal parks departments, county forest preserves, state parks, and national wildlife refuges regularly host volunteer workdays.

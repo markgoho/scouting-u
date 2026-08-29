@@ -20,21 +20,21 @@ With your parent or guardian's permission, view the official Scouting America **
 
 The videos focus on three core life-saving actions:
 
-### 1. RECOGNIZE
+### RECOGNIZE
 Learn to identify warning signs in people and situations:
 - **Boundary Violations**: Anyone who touches you inappropriately, asks you to take off clothing, makes unwanted physical contact, or asks to take photos of you in private.
 - **Unsafe Secrecy**: Anyone who tells you "Don't tell your parents," offers excessive gifts, or tries to isolate you from your friends or family.
 - **Digital Red Flags**: Strangers online asking for your real name, phone number, home address, school, or passwords, or asking you to move to a private messaging app or webcam chat.
 - **Bullying and Harassment**: Verbal abuse, physical intimidation, hazing, or online cyberbullying targeting you or a peer.
 
-### 2. RESIST
+### RESIST
 Take immediate, decisive steps to refuse and escape:
 - Say **"NO"** loudly, clearly, and firmly.
 - Do not worry about being polite or hurting someone's feelings if they cross boundaries.
 - Physically walk or run away to a public, populated area or find a trusted friend or leader.
 - Online: Use privacy tools to immediately **Stop, Block, and Log Off**. Do not respond to harassing or predatory messages.
 
-### 3. REPORT
+### REPORT
 Tell a trusted adult right away:
 - Go immediately to a parent, guardian, teacher, police officer, or Scout leader.
 - Keep telling trusted adults until someone takes action to help you.

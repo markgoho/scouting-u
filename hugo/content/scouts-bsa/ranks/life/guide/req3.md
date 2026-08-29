@@ -16,7 +16,7 @@ Earn five more merit badges (so that you have 11 in all) including any number mo
 
 Requirement 3 advances your merit badge progression from the Star rank milestone (6 badges, at least 4 Eagle-required) to the Life rank milestone: **11 total merit badges, with at least 7 from the Eagle-required list**.
 
-## 1. Understanding the Advancement Mathematics
+## Understanding the Advancement Mathematics
 
 The requirement focuses on cumulative totals rather than a strict breakdown of your next five badges:
 
@@ -32,7 +32,7 @@ The requirement focuses on cumulative totals rather than a strict breakdown of y
 Earning more than the required minimum of Eagle badges now puts you ahead for the Eagle Scout rank, where all 13 required categories must be completed. Nothing you earn is ever lost or wasted.
 {{< /drg/did-you-know >}}
 
-## 2. The 13 Eagle-Required Categories
+## The 13 Eagle-Required Categories
 
 The list of Eagle-required merit badge categories includes:
 
@@ -50,7 +50,7 @@ The list of Eagle-required merit badge categories includes:
 12. **Camping** *(requires 20 days and nights of scout camping)*
 13. **Family Life** *(requires a 90-day tracking of family chores and projects)*
 
-## 3. Strategic Planning for Eagle
+## Strategic Planning for Eagle
 
 As a Life Scout candidate, you should strategically prioritize the merit badges that require extended tracking or multi-month commitments:
 

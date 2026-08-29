@@ -28,22 +28,22 @@ Attend an approved program that covers the health, legal, and social dangers of 
 
 To discuss substance abuse intelligently with your family and Scoutmaster, understand how these chemicals affect the human body and brain:
 
-### 1. Tobacco, Nicotine, and Vaping
+### Tobacco, Nicotine, and Vaping
 - **Nicotine**: A highly addictive stimulant chemical found in tobacco leaves and e-cigarette liquids. It increases heart rate and blood pressure while rapidly rewiring the brain to demand constant intake.
 - **E-Cigarettes & Vaping Devices**: Electronic nicotine delivery systems (vapes, pods, e-pens) heat flavored e-liquids into an aerosol containing nicotine, heavy metals (lead, nickel), and toxic chemical solvents. Inhaling these vapors damages lung tissue and causes severe respiratory illness.
 - **Long-Term Health Risks**: Traditional tobacco (cigarettes, cigars, spit tobacco) contains thousands of carcinogens, leading to lung cancer, oral cancer, chronic obstructive pulmonary disease (COPD/emphysema), and heart attacks.
 - **Scouting America Policy**: All tobacco products, electronic cigarettes, and vaporizers are strictly prohibited on all Scouting activities involving youth participants.
 
-### 2. Alcohol
+### Alcohol
 - **Biological Impact**: Alcohol is a central nervous system depressant. It interferes with brain neurotransmitters (such as glutamate and serotonin), slowing reaction times, clouding judgment, impairing motor coordination, and causing memory blackouts.
 - **Adolescent Vulnerability**: Because the human brain continues developing until approximately age 25, alcohol consumption during teenage years permanently alters cognitive architecture and significantly increases the lifetime risk of alcoholism.
 - **Impaired Driving Hazard**: Alcohol is a leading cause of fatal automobile crashes among teenagers and young adults. **Safety rule**: Never ride in a vehicle operated by someone who has been drinking. Maintain an agreed-upon emergency plan with your parents to call for a safe ride home anytime.
 
-### 3. Illicit Drugs and Prescription Drug Misuse
+### Illicit Drugs and Prescription Drug Misuse
 - **Illegal Narcotics**: Drugs such as methamphetamine, cocaine, heroin, LSD, ecstasy, and inhalants hijack the brain's dopamine reward pathway, causing rapid physical destruction, paranoia, organ failure, and lethal overdose.
 - **Prescription Drug Misuse**: Medications (such as opioid pain relievers, prescription stimulants, or sedatives) are formulated for a specific individual under strict medical supervision. Taking someone else's medication, taking larger doses, or using prescriptions for non-medical reasons is illegal and extremely dangerous.
 
-### 4. The Mechanics of Addiction
+### The Mechanics of Addiction
 - **Physical Dependence (Tolerance & Withdrawal)**: Over repeated use, the body adapts to the substance. The user requires progressively higher doses to achieve the same effect (tolerance) and experiences painful physical sickness (nausea, tremors, severe anxiety) when the drug leaves their system (withdrawal).
 - **Psychological Addiction**: The brain develops an overwhelming emotional craving and compulsion to obtain the drug, leading individuals to neglect family, friendships, school, and their own survival.
 

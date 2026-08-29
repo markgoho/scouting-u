@@ -29,13 +29,13 @@ This baseline gives you a starting point so you can design a personal 30-day imp
 
 To make your 30-day comparison meaningful, you must perform each test using strict, correct form:
 
-### 1. Push-Ups (Upper-Body Muscular Endurance)
+### Push-Ups (Upper-Body Muscular Endurance)
 - **Starting Position**: Lie face down with hands flat on the floor, slightly wider than shoulder-width, fingers pointing forward. Straighten your legs with toes tucked under, holding your body rigid in a straight line from heels to the crown of your head (a full plank). Do not allow your hips to sag or your buttocks to pike upward.
 - **Movement**: Lower your entire body until your elbows bend to at least a **90-degree right angle** (upper arms parallel to the ground). Push back up smoothly until your arms are fully extended.
 - **Scoring**: Count the number of correctly performed push-ups completed in **60 seconds**. (Resting is permitted only in the upright plank position).
 - *Training Modification*: If you cannot yet complete full push-ups, you may practice knee push-ups (keeping your spine and thighs in a straight line), working up toward full plank push-ups for the official test.
 
-### 2. Sit-Ups or Curl-Ups (Core Strength & Endurance)
+### Sit-Ups or Curl-Ups (Core Strength & Endurance)
 Choose either sit-ups or curl-ups:
 - **Sit-Ups**:
   - Lie flat on your back on a mat with knees bent at a 90-degree angle and feet flat on the floor, held securely by a buddy.
@@ -46,7 +46,7 @@ Choose either sit-ups or curl-ups:
   - Lie on your back with knees bent and feet unheld, resting your hands flat beside your hips.
   - Curl your head and shoulders up, sliding your fingertips forward about 4.5 inches along the floor, hold briefly, then lower back down.
 
-### 3. Back-Saver Sit-and-Reach (Flexibility)
+### Back-Saver Sit-and-Reach (Flexibility)
 This test measures the flexibility of your hamstring muscles and lower back safely, testing **one leg at a time** to prevent lower spine strain and hyperextension.
 
 {{< drg/image src="images/sit-and-reach-test-position.png" alt="Diagram showing the correct seated position for the back-saver sit-and-reach fitness test, one leg extended, reaching forward" >}}
@@ -56,7 +56,7 @@ This test measures the flexibility of your hamstring muscles and lower back safe
 - **Execution**: Place one hand directly over the other, palms facing down with fingers aligned. Reach smoothly forward along the ruler **four times**. On the fourth reach, **hold the position for at least 1 full second** and record the distance reached in inches.
 - **Repeat for Both Legs**: Switch legs and record your measurement for both your **Right** and **Left** legs separately.
 
-### 4. One-Mile Walk/Run (Cardiorespiratory Aerobic Endurance)
+### One-Mile Walk/Run (Cardiorespiratory Aerobic Endurance)
 - **Course**: Run on a standard 400-meter track (4 laps plus approximately 10 yards) or a measured, flat 1-mile route on a trail or quiet neighborhood street mapped with an adult leader.
 - **Execution**: Complete the 1-mile distance as fast as you can safely manage. Pace yourself steadily from the start rather than sprinting and exhausting yourself early. You may alternate between running and brisk walking as needed to catch your breath.
 - **Scoring**: Record your total elapsed time in **minutes and seconds**.

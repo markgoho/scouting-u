@@ -18,7 +18,7 @@ When someone is struggling in the water, every second counts, but rushing into t
 
 This requirement focuses on **Reaching** and **Throwing** rescues — the safest methods because you remain securely on dry land or a dock.
 
-## 1. Reaching Rescues (First Choice)
+## Reaching Rescues (First Choice)
 
 Many water emergencies occur within arm's reach or a few yards of a dock, pool edge, or shoreline.
 
@@ -38,7 +38,7 @@ If the person is just beyond arm's length, use an object to extend your reach wi
     title="Water Rescue Methods: Reach or Throw, Don't Go — American Red Cross"
     url="https://www.youtube.com/watch?v=exhsd2YhO58" >}}
 
-## 2. Throwing Rescues (Second Choice)
+## Throwing Rescues (Second Choice)
 
 When a swimmer is too far from shore to reach with a pole or paddle (typically 10 to 40 feet out), throw a floating object or a rescue line.
 

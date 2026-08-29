@@ -16,7 +16,7 @@ Demonstrate tying the timber hitch and clove hitch.
 
 Every lashing you'll tie for [requirement 3c](/scouts-bsa/ranks/first-class/guide/req3c/) starts and finishes with one of these two foundational hitches. Mastering their tying mechanics makes pioneering fast, secure, and intuitive.
 
-## 1. The Clove Hitch
+## The Clove Hitch
 
 The name comes from the Old English word *cleave*, meaning "to hold fast." The clove hitch is the universal starting and finishing hitch for square, shear, and round lashings.
 
@@ -36,7 +36,7 @@ The name comes from the Old English word *cleave*, meaning "to hold fast." The c
 2. Place the right loop behind the left loop.
 3. Drop both interlocking loops directly over the top of the pole and pull both ends tight.
 
-## 2. The Timber Hitch
+## The Timber Hitch
 
 The timber hitch is a friction-grip hitch designed to haul logs and start **diagonal lashings**. It holds with immense force under a steady diagonal pull, but unties instantly once the tension is released.
 

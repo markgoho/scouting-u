@@ -16,7 +16,7 @@ Successfully complete your board of review for the Star rank.<sup><a href="#fn-8
 
 The Board of Review is the final requirement for earning the Star Scout rank. It serves as an official review by the troop committee to ensure all requirements have been completed, assess the health and morale of the unit, and celebrate your advancement.
 
-## 1. Composition and Rules of the Board of Review
+## Composition and Rules of the Board of Review
 
 Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0), specific rules govern how a Board of Review is conducted:
 
@@ -24,7 +24,7 @@ Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0), specific rule
 - **Adult Leader Exclusion**: The Scoutmaster and Assistant Scoutmasters **cannot** sit on a Scout's board of review. Relatives and guardians are also excluded from sitting on their own Scout's board.
 - **Not a Retest**: A board of review is **never a retest of knowledge or skills**. The board members do not ask you to tie knots or recite first aid steps. Instead, they ask open-ended questions about your experiences, your leadership, your understanding of the Scout Oath and Law, and your future goals.
 
-## 2. What to Expect During the Review
+## What to Expect During the Review
 
 The review typically lasts 15 to 20 minutes and focuses on three main areas:
 
@@ -33,7 +33,7 @@ The review typically lasts 15 to 20 minutes and focuses on three main areas:
 3. **Troop Assessment & Feedback**: Asking for your perspective on how the troop is running—what activities you enjoyed most, how patrol spirit is developing, and suggestions for future outings.
 4. **Looking Toward Life & Eagle**: Discussing your goals for the Life rank, leadership aspirations, and potential Eagle Scout project ideas.
 
-## 3. Deliberation and Appeals
+## Deliberation and Appeals
 
 After the conversation, you will step out of the room while the committee deliberates:
 - **Decision Standard**: The decision must be **unanimous** among the board members.

@@ -20,12 +20,12 @@ Requirement 8b represents a major milestone on your path through the foundationa
 
 Before your Scoutmaster conference, review your activity logs from both Second Class (7a) and First Class (8a). Prepare to discuss:
 
-### 1. Challenges Overcome
+### Challenges Overcome
 - **Consistency Over Time**: How did maintaining an active routine across multiple months compare to your initial 30-day sprint in Tenderfoot?
 - **Schedule Management**: What specific strategies helped you protect 30 minutes of daily exercise when schoolwork, extracurriculars, or troop leadership responsibilities piled up?
 - **Plateaus and Motivation**: How did you push through days when enthusiasm waned or progress felt slow?
 
-### 2. Successes and Tangible Growth
+### Successes and Tangible Growth
 - **Wilderness Readiness**: In what ways did your improved stamina and strength enhance your outdoor performance on hikes, campouts, and water activities?
 - **Holistic Health**: How did consistent exercise impact your sleep quality, stress levels, energy throughout the school day, and mental focus?
 

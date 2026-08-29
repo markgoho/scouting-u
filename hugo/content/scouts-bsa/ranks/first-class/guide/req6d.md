@@ -18,7 +18,7 @@ Small watercraft like canoes, kayaks, and rowboats have a narrow beam and high s
 
 ## Body Positioning by Craft
 
-### 1. Canoe Positioning
+### Canoe Positioning
 - **Tandem Paddling (Two people)**:
   - The **bow paddler** sits on the front seat facing forward, keeping weight centered.
   - The **stern paddler** sits on the rear seat facing forward, controlling the boat's direction and steering.
@@ -28,12 +28,12 @@ Small watercraft like canoes, kayaks, and rowboats have a narrow beam and high s
 - **Solo Paddling**:
   - When paddling a canoe alone, sitting in the stern causes the bow to point high in the air (catching the wind like a sail). Instead, sit or kneel backwards on the bow seat facing toward the stern (which now becomes the front), positioning your body closer to the center of the canoe to maintain level balance.
 
-### 2. Kayak Positioning
+### Kayak Positioning
 - Sit upright in the bottom of the cockpit with your lower back pressed comfortably against the backband or seat.
 - Place the balls of your feet on the foot pegs/braces with knees bent slightly outward, resting snugly beneath the thigh braces under the deck.
 - This creates an integrated "three-point contact" (hips, thighs, and feet) that allows you to control the boat's tilt and balance using your core and lower body.
 
-### 3. Rowboat Positioning
+### Rowboat Positioning
 - The **rower** sits centered on the midship (middle) seat **facing aft** (toward the stern/rear), with feet firmly braced against a stretcher or foot brace. Rowing is performed looking backward over your shoulder.
 - The **coxswain** (pronounced *"coxsun"*) or passenger sits on the aft seat facing forward, steering or giving directions to the rower.
 

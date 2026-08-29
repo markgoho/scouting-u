@@ -28,17 +28,17 @@ A GPS receiver calculates its exact position by measuring the time it takes for 
 
 To complete this requirement on a real hike or campout, follow this three-step sequence:
 
-### 1. Find and Verify Your Current Location
+### Find and Verify Your Current Location
 - Power on your GPS receiver or open your navigation app (e.g., Gaia GPS, AllTrails, or Avenza Maps).
 - Wait in an open area with a clear view of the sky until the unit achieves an accurate satellite fix.
 - View your location screen to read your coordinates and altitude. Cross-reference these numbers with your paper topographic map to verify that your digital location matches the physical terrain around you.
 
-### 2. Select a Destination and Plan a Route
+### Select a Destination and Plan a Route
 - Choose a meaningful destination on your hike (such as a scenic overlook, trail junction, water source, or campsite).
 - Create a **Waypoint** (a saved coordinate point with a label like "LUNCH_SPOT" or "CAMP_WATER").
 - Create a route or direct navigation line ("Go To" function) to that waypoint. The device will calculate your **bearing (direction to travel)**, **distance remaining**, and estimated time of arrival.
 
-### 3. Follow the Route to Your Destination
+### Follow the Route to Your Destination
 - Use the navigation screen / digital compass pointer to guide your heading along the designated trail.
 - Monitor your progress on the map display or track-log screen.
 - Hike the route with your patrol until you arrive at the designated waypoint.

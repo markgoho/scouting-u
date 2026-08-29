@@ -16,7 +16,7 @@ As a Star Scout, demonstrate Scout spirit by living the Scout Oath and Scout Law
 
 Demonstrating Scout spirit at the Life rank reflects a mature embodiment of Scouting's core principles. As a Life Scout, you are expected to be a servant leader whose daily actions demonstrate character, ethical decision-making, and genuine care for others.
 
-## 1. Living the Scout Oath and Law as a Senior Scout
+## Living the Scout Oath and Law as a Senior Scout
 
 At the Life rank, Scout spirit is evaluated by how your actions influence the people and environments around you:
 
@@ -25,7 +25,7 @@ At the Life rank, Scout spirit is evaluated by how your actions influence the pe
 - **Everyday Integrity**: At school, do you uphold academic honesty and stand up against gossip, exclusion, and bullying? At home, do you contribute positively to family life and support your parents and siblings?
 - **Digital Citizenship**: Do you maintain respect, kindness, and safety in group chats, social media, and gaming communities?
 
-## 2. Duty to God
+## Duty to God
 
 Scouting America emphasizes that spirituality, ethical living, and reverence are central to personal character:
 
@@ -33,7 +33,7 @@ Scouting America emphasizes that spirituality, ethical living, and reverence are
 - **Concrete Examples**: Describe specific practices such as participating in religious observances, showing reverence for the natural world during outdoor adventures, offering prayers or moments of gratitude, or engaging in acts of charity and kindness.
 - **Respect for Others**: A Scout is reverent toward God and respects the religious convictions and spiritual expressions of others.
 
-## 3. Preparing for Your Scoutmaster Conference Discussion
+## Preparing for Your Scoutmaster Conference Discussion
 
 Your Scoutmaster will engage you in a meaningful dialogue about your personal growth since earning Star:
 
