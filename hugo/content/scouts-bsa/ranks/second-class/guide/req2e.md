@@ -58,9 +58,9 @@ Discard any perishable food (meat, dairy, opened mayonnaise) that has remained i
 {{< /drg/safety-first >}}
 
 {{< drg/checklist title="Meal Planning Checklist" subtitle="Review these steps before buying food" >}}
-- [ ] Select a hot breakfast or lunch recipe that hits at least 4 of the 5 MyPlate groups.
-- [ ] Calculate ingredient quantities based on patrol headcount.
-- [ ] Check for patrol food allergies (nuts, dairy, gluten).
-- [ ] Pack a cooler with block ice and double-bagged raw meats.
-- [ ] Pack necessary cook kit items (stove, fuel, skillet, spatula, pot holders).
+- Select a hot breakfast or lunch recipe that hits at least 4 of the 5 MyPlate groups.
+- Calculate ingredient quantities based on patrol headcount.
+- Check for patrol food allergies (nuts, dairy, gluten).
+- Pack a cooler with block ice and double-bagged raw meats.
+- Pack necessary cook kit items (stove, fuel, skillet, spatula, pot holders).
 {{< /drg/checklist >}}

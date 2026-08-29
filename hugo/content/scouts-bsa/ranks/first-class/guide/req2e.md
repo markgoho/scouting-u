@@ -57,11 +57,11 @@ Your job is not finished when the food is eaten. As Head Cook, you must supervis
 6. **Camp Shutdown & Wildlife Security:** Make sure all food boxes are locked, coolers are shaded and latched, cooking tables are wiped clean with sanitizer, and trash bags are secured in bear hangs, canisters, or troop trailers.
 
 {{< drg/checklist title="Head Cook Daily Checklist" subtitle="Execute across Breakfast, Lunch, and Dinner" >}}
-- [ ] Ingredients and equipment staged before cooking begins.
-- [ ] Assistant cook briefed on safety, knife handling, and heat source tasks.
-- [ ] Food cooked to safe internal temperatures and seasoned properly.
-- [ ] Wash water heated before patrol finishes eating.
-- [ ] Three-pot dishwashing line executed and supervised.
-- [ ] Greywater strained and disposed of 200 feet away.
-- [ ] Food, trash, and smellables locked away securely.
+- Ingredients and equipment staged before cooking begins.
+- Assistant cook briefed on safety, knife handling, and heat source tasks.
+- Food cooked to safe internal temperatures and seasoned properly.
+- Wash water heated before patrol finishes eating.
+- Three-pot dishwashing line executed and supervised.
+- Greywater strained and disposed of 200 feet away.
+- Food, trash, and smellables locked away securely.
 {{< /drg/checklist >}}

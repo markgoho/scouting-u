@@ -332,6 +332,10 @@
         border: var(--border-width-sm) solid var(--accent);
         border-radius: var(--radius-sm);
       }
+
+      & input[type="checkbox"] {
+        display: none;
+      }
     }
   }
 }

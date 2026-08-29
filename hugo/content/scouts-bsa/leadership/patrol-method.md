@@ -136,16 +136,16 @@ A clean campsite keeps everyone safe, keeps animals away, and makes packing up e
 ## Patrol Leader Checklist
 
 {{< drg/checklist title="Patrol Leader Campout Checklist" subtitle="Check these off before your patrol heads out" >}}
-- [ ] Patrol attendance headcount given to Senior Patrol Leader.
-- [ ] 3-Meal Menu Plan approved by your Scoutmaster or Patrol Advisor.
-- [ ] Food allergies and dietary needs checked for all patrol members.
-- [ ] Food money collected and given to the Grubmaster.
-- [ ] Duty Roster filled out and taped inside your patrol chuck box.
-- [ ] Patrol chuck box checked: full propane, soap, sponges, sanitizer tabs, matches, utensils.
-- [ ] Tents, rainflys, and ground cloths checked out from Troop Quartermaster.
-- [ ] Patrol flag packed for opening formation.
-- [ ] Patrol first aid kit packed in daypack.
-- [ ] Post-campout: all patrol gear cleaned, dried, and returned to Quartermaster.
+- Patrol attendance headcount given to Senior Patrol Leader.
+- 3-Meal Menu Plan approved by your Scoutmaster or Patrol Advisor.
+- Food allergies and dietary needs checked for all patrol members.
+- Food money collected and given to the Grubmaster.
+- Duty Roster filled out and taped inside your patrol chuck box.
+- Patrol chuck box checked: full propane, soap, sponges, sanitizer tabs, matches, utensils.
+- Tents, rainflys, and ground cloths checked out from Troop Quartermaster.
+- Patrol flag packed for opening formation.
+- Patrol first aid kit packed in daypack.
+- Post-campout: all patrol gear cleaned, dried, and returned to Quartermaster.
 {{< /drg/checklist >}}
 
 ## Related Guides

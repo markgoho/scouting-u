@@ -136,16 +136,16 @@ When hiking above 8,000 feet, thinner air can cause altitude sickness:
 ## Patrol First Aid Kit Checklist
 
 {{< drg/checklist title="Patrol Wilderness First Aid Kit Checklist" subtitle="Pack these items in your patrol first aid pouch" >}}
-- [ ] 6 pairs of nitrile gloves (non-latex) and CPR face shield.
-- [ ] 1 commercial tourniquet (CAT or SOFTT-W) and trauma shears.
-- [ ] 2 pressure bandages and 10 sterile gauze pads.
-- [ ] 1 SAM Splint (36-inch) and 2 triangular bandages (cravats).
-- [ ] 1 roll of elastic athletic wrap (Ace bandage) and medical tape.
-- [ ] Blister moleskin, hydrocolloid pads, and assorted band-aids.
-- [ ] Antiseptic wipes, clean water flush syringe, and triple antibiotic ointment.
-- [ ] Waterproof notebook and pencil for SOAP notes.
-- [ ] Tick tweezers and digital thermometer.
-- [ ] Emergency space blanket or thermal bivvy.
+- 6 pairs of nitrile gloves (non-latex) and CPR face shield.
+- 1 commercial tourniquet (CAT or SOFTT-W) and trauma shears.
+- 2 pressure bandages and 10 sterile gauze pads.
+- 1 SAM Splint (36-inch) and 2 triangular bandages (cravats).
+- 1 roll of elastic athletic wrap (Ace bandage) and medical tape.
+- Blister moleskin, hydrocolloid pads, and assorted band-aids.
+- Antiseptic wipes, clean water flush syringe, and triple antibiotic ointment.
+- Waterproof notebook and pencil for SOAP notes.
+- Tick tweezers and digital thermometer.
+- Emergency space blanket or thermal bivvy.
 {{< /drg/checklist >}}
 
 {{< drg/tip >}}

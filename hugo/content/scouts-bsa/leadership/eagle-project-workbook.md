@@ -119,23 +119,23 @@ Once the physical work is complete, finish the **Project Report** in your workbo
 ## Eagle Project Checklist
 
 {{< drg/checklist title="Eagle Scout Service Project Checklist" subtitle="Track your steps from first idea to final approval" >}}
-- [ ] Reach the rank of Life Scout.
-- [ ] Download the official *Eagle Scout Service Project Workbook*.
-- [ ] Meet with your beneficiary to find a project that helps their organization.
-- [ ] Write your Project Proposal with supply lists, safety notes, and cost estimates.
-- [ ] Get Beneficiary Representative signature.
-- [ ] Get Scoutmaster signature.
-- [ ] Get Troop Committee Chair signature.
-- [ ] Submit your proposal to District Advancement and get their signature.
-- [ ] Write your detailed Project Plan with measurements, diagrams, and steps.
-- [ ] Submit a Fundraising Application (if raising money from outside sources).
-- [ ] Order supplies, gather tools, and recruit youth and adult volunteers.
-- [ ] Hold your workdays; log all volunteer hours.
-- [ ] Clean up the site and return borrowed equipment.
-- [ ] Fill out the Project Report and final cost sheet.
-- [ ] Get Beneficiary Representative final signature.
-- [ ] Get Scoutmaster final signature.
-- [ ] Turn in your Eagle application and get ready for your Board of Review!
+- Reach the rank of Life Scout.
+- Download the official *Eagle Scout Service Project Workbook*.
+- Meet with your beneficiary to find a project that helps their organization.
+- Write your Project Proposal with supply lists, safety notes, and cost estimates.
+- Get Beneficiary Representative signature.
+- Get Scoutmaster signature.
+- Get Troop Committee Chair signature.
+- Submit your proposal to District Advancement and get their signature.
+- Write your detailed Project Plan with measurements, diagrams, and steps.
+- Submit a Fundraising Application (if raising money from outside sources).
+- Order supplies, gather tools, and recruit youth and adult volunteers.
+- Hold your workdays; log all volunteer hours.
+- Clean up the site and return borrowed equipment.
+- Fill out the Project Report and final cost sheet.
+- Get Beneficiary Representative final signature.
+- Get Scoutmaster final signature.
+- Turn in your Eagle application and get ready for your Board of Review!
 {{< /drg/checklist >}}
 
 ## Related Guides

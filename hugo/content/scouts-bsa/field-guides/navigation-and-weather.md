@@ -179,12 +179,12 @@ Weather in mountainous and backcountry environments changes violently. Knowing h
    - *Smoke stays low, curls downward, or flattens:* Indicates low barometric pressure and humid air preceding an incoming storm.
 
 {{< drg/checklist title="Navigation & Route Plan Preparation Checklist" subtitle="Complete this navigational audit prior to stepping off on any backcountry trek" >}}
-- [ ] **Topographic Maps:** 1:24,000 USGS or waterproof trail maps covering entire trek route plus adjacent escape corridors; stored in heavy-duty waterproof clear map case.
-- [ ] **Magnetic Compass:** Sighting baseplate compass with liquid-filled capsule, 2° bezel graduations, magnifying lens, and adjustable declination pre-set for local magnetic zone.
-- [ ] **Coordinate & Distance Tools:** Metric 1:24,000 UTM roamer scale card, mechanical pencil, waterproof field notepad, pace count ranger beads attached to pack strap.
-- [ ] **Electronic Backup & Power:** GPS / Satellite messenger with pre-cached offline topographic maps, fully charged external battery bank (10,000+ mAh), charging cable wrapped in waterproof zip bag.
-- [ ] **Route Plan & Intentions:** Written trip plan filed with Scoutmaster/parents and local ranger station, specifying route waypoints, planned campsites, emergency bail-out escape routes, and strict overdue SAR notification deadline.
-- [ ] **Altimeter & Barometer:** Calibrated digital barometric altimeter or watch to track elevation contours and barometric pressure drops.
+- **Topographic Maps:** 1:24,000 USGS or waterproof trail maps covering entire trek route plus adjacent escape corridors; stored in heavy-duty waterproof clear map case.
+- **Magnetic Compass:** Sighting baseplate compass with liquid-filled capsule, 2° bezel graduations, magnifying lens, and adjustable declination pre-set for local magnetic zone.
+- **Coordinate & Distance Tools:** Metric 1:24,000 UTM roamer scale card, mechanical pencil, waterproof field notepad, pace count ranger beads attached to pack strap.
+- **Electronic Backup & Power:** GPS / Satellite messenger with pre-cached offline topographic maps, fully charged external battery bank (10,000+ mAh), charging cable wrapped in waterproof zip bag.
+- **Route Plan & Intentions:** Written trip plan filed with Scoutmaster/parents and local ranger station, specifying route waypoints, planned campsites, emergency bail-out escape routes, and strict overdue SAR notification deadline.
+- **Altimeter & Barometer:** Calibrated digital barometric altimeter or watch to track elevation contours and barometric pressure drops.
 {{< /drg/checklist >}}
 
 {{< drg/safety-first >}}

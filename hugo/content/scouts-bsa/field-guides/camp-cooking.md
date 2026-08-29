@@ -145,11 +145,11 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 | **Biomass / Twig Stove** | Dry twigs, pinecones | Dependent on dry fuel | None | Infinite free fuel; ultralight | Banned during wildfire burn bans; soots pots |
 
 {{< drg/checklist title="Patrol Chuck Box Inventory Checklist" subtitle="Standard equipment list for a patrol of 8 Scouts" >}}
-- [ ] **Cooking Hardware:** 1 12-inch Cast Iron Dutch Oven with lid lifter and lid stand, 1 large 2-burner propane camp stove with regulator hose and propane tanks, 2 nesting aluminum stockpots (6 qt & 8 qt) with lids, 1 heavy-duty 12" non-stick skillet.
-- [ ] **Sanitation & 3-Pot Station:** 3 large plastic or galvanized dishwashing tubs (labeled: Wash, Rinse, Sanitize), 1 bottle biodegradable camp soap, 1 bottle unscented chlorine bleach or sanitizing tablets, 2 nylon scrub pads, 2 fine mesh food sumps/strainers, 2 mesh dunk bags for air drying.
-- [ ] **Utensils & Prep:** 2 high-density polyethylene cutting boards (color-coded: red for raw meats, green for vegetables), 2 chef knives with protective sheaths, 2 locking metal tongs, 2 large silicone spatulas, 2 long serving spoons, 1 stainless steel ladle, 1 digital instant-read food thermometer, 1 heavy-duty can opener.
-- [ ] **Safety & Protection:** 1 ABC dry chemical fire extinguisher (2.5 lb), 2 pairs heavy-duty leather welding gloves (for hot Dutch ovens), 1 roll aluminum foil (heavy duty), 1 box 1-gallon heavy-duty freezer bags, 1 box 55-gallon contractor trash bags, 1 box nitrile gloves for food prep.
-- [ ] **Spice Kit & Condiments:** Salt, black pepper, garlic powder, onion powder, paprika, cinnamon, cooking oil (canola/olive), non-stick cooking spray.
+- **Cooking Hardware:** 1 12-inch Cast Iron Dutch Oven with lid lifter and lid stand, 1 large 2-burner propane camp stove with regulator hose and propane tanks, 2 nesting aluminum stockpots (6 qt & 8 qt) with lids, 1 heavy-duty 12" non-stick skillet.
+- **Sanitation & 3-Pot Station:** 3 large plastic or galvanized dishwashing tubs (labeled: Wash, Rinse, Sanitize), 1 bottle biodegradable camp soap, 1 bottle unscented chlorine bleach or sanitizing tablets, 2 nylon scrub pads, 2 fine mesh food sumps/strainers, 2 mesh dunk bags for air drying.
+- **Utensils & Prep:** 2 high-density polyethylene cutting boards (color-coded: red for raw meats, green for vegetables), 2 chef knives with protective sheaths, 2 locking metal tongs, 2 large silicone spatulas, 2 long serving spoons, 1 stainless steel ladle, 1 digital instant-read food thermometer, 1 heavy-duty can opener.
+- **Safety & Protection:** 1 ABC dry chemical fire extinguisher (2.5 lb), 2 pairs heavy-duty leather welding gloves (for hot Dutch ovens), 1 roll aluminum foil (heavy duty), 1 box 1-gallon heavy-duty freezer bags, 1 box 55-gallon contractor trash bags, 1 box nitrile gloves for food prep.
+- **Spice Kit & Condiments:** Salt, black pepper, garlic powder, onion powder, paprika, cinnamon, cooking oil (canola/olive), non-stick cooking spray.
 {{< /drg/checklist >}}
 
 {{< drg/did-you-know >}}

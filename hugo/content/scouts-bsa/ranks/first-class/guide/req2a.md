@@ -54,11 +54,11 @@ When explaining how your menu meets the physical demands of your campout, discus
 Always survey your patrol members during the planning phase for food allergies (peanuts, tree nuts, shellfish), lactose intolerance, gluten sensitivity (celiac), or religious dietary rules (kosher, halal, vegetarian), and adjust recipes or provide safe alternatives.
 
 {{< drg/checklist title="Menu Plan Review" subtitle="Verify your menu before budgeting" >}}
-- [ ] Includes breakfast, lunch, and dinner.
-- [ ] At least two meals require hands-on cooking.
-- [ ] Incorporates all 5 MyPlate food groups across the day.
-- [ ] Portions match the patrol headcount and activity level.
-- [ ] Accounted for all patrol member food allergies and dietary needs.
+- Includes breakfast, lunch, and dinner.
+- At least two meals require hands-on cooking.
+- Incorporates all 5 MyPlate food groups across the day.
+- Portions match the patrol headcount and activity level.
+- Accounted for all patrol member food allergies and dietary needs.
 {{< /drg/checklist >}}
 
 {{< drg/tip >}}

@@ -113,12 +113,12 @@ All youth leaders must respect Scouting America Youth Protection rules. Never en
 ## New Leader Checklist
 
 {{< drg/checklist title="New Leadership Position Checklist" subtitle="Steps to take in your first two weeks as a leader" >}}
-- [ ] Talk with your Scoutmaster or Assistant Scoutmaster about your new role.
-- [ ] Take Introduction to Leadership Skills for Troops (ILST) with your troop.
-- [ ] Get a notebook or binder to keep meeting agendas, rosters, and notes.
-- [ ] Set three simple goals for your term (like *every patrol member earns a rank* or *all gear returned clean*).
-- [ ] Get contact info (phone or email) for all the Scouts in your patrol or team.
-- [ ] Plan your next rank requirements and merit badges.
+- Talk with your Scoutmaster or Assistant Scoutmaster about your new role.
+- Take Introduction to Leadership Skills for Troops (ILST) with your troop.
+- Get a notebook or binder to keep meeting agendas, rosters, and notes.
+- Set three simple goals for your term (like *every patrol member earns a rank* or *all gear returned clean*).
+- Get contact info (phone or email) for all the Scouts in your patrol or team.
+- Plan your next rank requirements and merit badges.
 {{< /drg/checklist >}}
 
 ## Related Guides

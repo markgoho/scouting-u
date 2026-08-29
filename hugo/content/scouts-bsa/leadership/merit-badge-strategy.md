@@ -108,15 +108,15 @@ Keep a chart like this in your binder to stay on track:
 ## Eagle Merit Badge Checklist
 
 {{< drg/checklist title="Merit Badge Game Plan Checklist" subtitle="Use these steps to stay ahead on your trail to Eagle" >}}
-- [ ] Check your advancement record in Scoutbook with your Troop Advancement Chair.
-- [ ] Count your total camping nights to see how close you are to 20 nights for Camping merit badge.
-- [ ] Choose which option badges you want to take (Lifesaving vs Emerg Prep; Env Sci vs Sustainability; Swimming vs Hiking vs Cycling).
-- [ ] Get a signed Blue Card from your Scoutmaster before starting any new badge.
-- [ ] Start your 13-week budget log for Personal Management as a Star Scout.
-- [ ] Put up your 90-day chore chart for Family Life.
-- [ ] Do your baseline fitness test with your Personal Fitness counselor.
-- [ ] Sign up for summer camp badges that need camp gear (like swimming, boating, shooting sports).
-- [ ] Put your signed Blue Card stubs in a plastic page protector in your binder.
+- Check your advancement record in Scoutbook with your Troop Advancement Chair.
+- Count your total camping nights to see how close you are to 20 nights for Camping merit badge.
+- Choose which option badges you want to take (Lifesaving vs Emerg Prep; Env Sci vs Sustainability; Swimming vs Hiking vs Cycling).
+- Get a signed Blue Card from your Scoutmaster before starting any new badge.
+- Start your 13-week budget log for Personal Management as a Star Scout.
+- Put up your 90-day chore chart for Family Life.
+- Do your baseline fitness test with your Personal Fitness counselor.
+- Sign up for summer camp badges that need camp gear (like swimming, boating, shooting sports).
+- Put your signed Blue Card stubs in a plastic page protector in your binder.
 {{< /drg/checklist >}}
 
 ## Related Guides

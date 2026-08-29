@@ -260,13 +260,13 @@ Splicing interweaves individual rope strands to create permanent joints with 90�
 | **Back Splice** | Permanent fray-prevention rope end | Form Crown Knot at bitter end; tuck strands backward down the standing line | ~95% |
 
 {{< drg/checklist title="Pioneering & Lashing Safety Inspection" subtitle="Run through this mandatory safety checklist before loading any pioneering project" >}}
-- [ ] **Spar Integrity:** All wooden spars inspected for dry rot, deep longitudinal splits, bug infestations, and excessive bowing.
-- [ ] **Cordage Inspection:** Sisal/Manila cordage checked for mold, chemical damage, mildew, broken internal core fibers, and adequate thickness (minimum 1/4" for load-bearing structures).
-- [ ] **Knot Correctness:** Every lashing begins and ends with properly dressed Clove Hitches or Timber Hitches.
-- [ ] **Wrap & Frap Tension:** Wraps are parallel (uncrossed), and frapping turns are cinched tight without slack.
-- [ ] **Ground Anchoring:** Pioneering towers and bridges over 6 feet tall are guyed out to 3-2-1 pickets or deadman log anchors buried at a 45° angle.
-- [ ] **Safety Perimeter:** A designated drop zone perimeter is marked with safety tape during all building phases.
-- [ ] **Fall Protection & Load Testing:** No Scout climbs onto an untested structure. Adult leader or Senior Patrol Leader performs ground-level load verification.
+- **Spar Integrity:** All wooden spars inspected for dry rot, deep longitudinal splits, bug infestations, and excessive bowing.
+- **Cordage Inspection:** Sisal/Manila cordage checked for mold, chemical damage, mildew, broken internal core fibers, and adequate thickness (minimum 1/4" for load-bearing structures).
+- **Knot Correctness:** Every lashing begins and ends with properly dressed Clove Hitches or Timber Hitches.
+- **Wrap & Frap Tension:** Wraps are parallel (uncrossed), and frapping turns are cinched tight without slack.
+- **Ground Anchoring:** Pioneering towers and bridges over 6 feet tall are guyed out to 3-2-1 pickets or deadman log anchors buried at a 45° angle.
+- **Safety Perimeter:** A designated drop zone perimeter is marked with safety tape during all building phases.
+- **Fall Protection & Load Testing:** No Scout climbs onto an untested structure. Adult leader or Senior Patrol Leader performs ground-level load verification.
 {{< /drg/checklist >}}
 
 {{< drg/did-you-know >}}
