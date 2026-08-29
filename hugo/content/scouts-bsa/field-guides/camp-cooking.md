@@ -1,6 +1,6 @@
 ---
-title: "Camp Kitchen, 3-Pot Sanitation & Dutch Oven Guide"
-description: "A complete field guide to outdoor culinary mastery, patrol chuck box management, the BSA 3-pot dishwashing sanitation method, cast iron care, and the Dutch oven charcoal calculator."
+title: "Camp Cooking & Kitchen Guide: Stoves, Dutch Ovens & Clean-Up"
+description: "How to cook great meals at camp: kitchen setup, the 200-foot bear triangle, 3-pot dishwashing, and Dutch oven heat charts."
 ---
 
 Great camp cooking is the engine of high patrol morale. A well-run patrol kitchen operates cleanly, safely, and efficiently, producing nutritious, high-calorie meals while upholding strict sanitation standards and Leave No Trace principles.

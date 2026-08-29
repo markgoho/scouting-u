@@ -1,146 +1,145 @@
 ---
-title: "Eagle Scout Service Project Guide: Proposal, Planning, Leadership & Board of Review"
-description: "The definitive guide to Requirement 5: Navigating the official Eagle Scout Service Project Workbook, securing approvals, fundraising rules, workday leadership, and Board of Review preparation."
+title: "Eagle Scout Service Project Guide: How to Plan and Lead Your Project"
+description: "Everything you need to know about Requirement 5: filling out the project workbook, getting approvals, leading volunteers on workday, and finishing your report."
 ---
 
-The Eagle Scout Service Project is the capstone leadership experience in Scouts BSA. Requirement 5 states:
+The Eagle Scout Service Project is your chance to lead a major project from start to finish. Requirement 5 states:
 
 > *"While a Life Scout, plan, develop, and give leadership to others in a service project helpful to any religious institution, any school, or your community. (The project must benefit an organization other than the Boy Scouts of America.) A project proposal must be approved by the organization benefiting from the effort, your Scoutmaster and unit committee, and the council or district before you start."*
 
-This is not simply a service project—it is a comprehensive leadership practicum. Your job is not to provide free manual labor; your job is to lead a multi-phase operation from concept through completion.
+Your job is not to do all the physical work alone—your job is to be the leader who plans the project, organizes the supplies, and directs volunteers.
 
-## What Makes an Acceptable Eagle Project?
+## What Counts as an Eagle Project?
 
-Before drafting a proposal, ensure the project meets national advancement standards outlined in the *Guide to Advancement* (Topics 9.0.2.0 – 9.0.2.16):
+Before you write your proposal, make sure your idea meets national BSA standards:
 
-### Project Evaluation Criteria
+### Good Projects vs. Projects That Won't Qualify
 
-| Category | Acceptable Project Examples | Unacceptable Disqualifiers |
+| Project Category | Great Eagle Project Examples | Projects That Do Not Qualify |
 | :--- | :--- | :--- |
-| **Community Infrastructure** | Construction of trails, footbridges, outdoor classrooms, or community gardens | **Routine Maintenance**: Simple mowing, weeding, or re-painting over existing paint |
-| **Civic & Historical** | Renovation of a community food pantry, animal shelter facility, or historical museum archive | **BSA Beneficiary**: Improvements to troop rooms, local scout camps, or council property |
-| **Safety & Preparedness** | Creating disaster preparedness kits or sensory rooms for elementary schools | **Commercial / For-Profit**: Projects that enhance or benefit private businesses |
-| **Public Amenities** | Building durable benches, kiosks, or flag retirement boxes for public parks or houses of worship | **Pure Fundraising**: Projects consisting solely of raising money without hands-on leadership |
+| **Parks & Outdoors** | Building hiking trails, footbridges, outdoor classrooms, or community gardens | **Routine Chores**: Mowing grass, pulling weeds, or basic maintenance an organization normally does |
+| **Community Centers** | Fixing up a food pantry, animal shelter room, or museum display | **BSA Projects**: Improvements to your troop room, scout camp, or council property |
+| **Schools & Safety** | Making sensory rooms for schools or emergency supply kits for the town | **For-Profit Work**: Any project that helps a private business make money |
+| **Public Benches & Boxes** | Building park benches, trail kiosks, or flag retirement boxes for public parks or houses of worship | **Just Raising Money**: A project that only collects money with no hands-on leadership |
 
 {{< drg/did-you-know >}}
-There is no minimum number of hours required for an Eagle Scout Service Project. Council committees look for adequate *scope*, *planning depth*, and clear opportunity to *demonstrate leadership to others*, not an arbitrary hour quota.
+There is no minimum number of hours required for an Eagle project. Council committees care about your *planning*, *safety*, and *leadership*, not an arbitrary hour quota.
 {{< /drg/did-you-know >}}
 
-## The 8-Phase Eagle Project Roadmap
+## The 8 Steps to Complete Your Project
 
 ![The 8-Phase Eagle Scout Service Project Lifecycle](/img/diagrams/eagle-project-phases.png)
 
-## Securing the 4 Crucial Approval Signatures
+## The 4 Signatures You Need Before Starting
 
-You must complete the **Project Proposal** section of the official *Eagle Scout Service Project Workbook* (BSA Publication No. 512-927) and obtain four mandatory signatures in strict sequential order before doing any project work:
+You must fill out the **Project Proposal** section in the official *Eagle Scout Service Project Workbook* and get four signatures in this exact order before doing any project work:
 
-| Sequence | Approver Role | Key Review Focus | Timing Mandate |
+| Order | Who Signs | What They Check | When They Sign |
 | :--- | :--- | :--- | :--- |
-| **1st Signature** | **Beneficiary Representative** | Confirms the project meets their organizational needs and grants site access | Must sign first before unit leader review |
-| **2nd Signature** | **Scoutmaster / Unit Leader** | Confirms the project idea is sound and you are actively registered as Life | Signs after beneficiary grants permission |
-| **3rd Signature** | **Unit Committee Chair** | Confirms unit supports project logistics, adult supervision, and safety | Signs after unit leader approval |
-| **4th Signature** | **District / Council Advancement Chair** | Validates that project meets national advancement standards | **Absolute requirement before any work or fundraising begins** |
+| **1st Signature** | **Beneficiary Representative** | Confirms the project helps their organization and gives you permission to work | Must sign first before your Scoutmaster |
+| **2nd Signature** | **Scoutmaster / Unit Leader** | Confirms the project idea is solid and that you are an active Life Scout | Signs after the beneficiary approves |
+| **3rd Signature** | **Troop Committee Chair** | Confirms the troop supports your safety plan and adult supervision | Signs after your Scoutmaster |
+| **4th Signature** | **District Advancement Chair** | Makes sure your project meets national BSA guidelines | **Must have this signature before you buy materials, raise money, or do any work!** |
 
 {{< drg/safety-first >}}
-**Strict No-Work Directives Before Approvals**:
-You may NOT purchase materials, raise external funds, solicit businesses for donations, or begin construction until the District Advancement Representative has signed and dated your proposal. Any work performed before that date will NOT count toward the requirement.
+**Do Not Start Work Early**:
+You may NOT buy materials, raise money, ask local stores for donations, or start building until the District Advancement Chair has signed your proposal. Any work done before that date cannot count toward your requirement.
 {{< /drg/safety-first >}}
 
-{{< drg/be-prepared title="Proposal Rejection & Revision Traps" >}}
-District advancement chairs most commonly request revisions for these proposal gaps:
-- **Vague Leadership Description**: Writing "I will help build benches" instead of "I will assign and supervise two crews of youth cutting lumber and assembling joints."
-- **Inadequate Safety Planning**: Failing to identify hazards such as buried utility lines (call 811 before you dig), heat exhaustion, eye protection, or power tool restrictions.
-- **Beneficiary Ownership Ambiguity**: Failing to clarify who owns and maintains the completed structure after the project.
+{{< drg/be-prepared title="Common Proposal Mistakes to Avoid" >}}
+District advancement chairs most often ask Scouts to rewrite proposals for these reasons:
+- **Unclear Leadership**: Writing "I will build benches" instead of "I will direct two teams of youth cutting wood and fastening joints."
+- **Missing Safety Plans**: Forgetting to mention calling 811 before digging, eye protection, water breaks, or tool age rules.
+- **Unclear Ownership**: Not explaining who will own and maintain the finished project once it is built.
 {{< /drg/be-prepared >}}
 
-## Fundraising Rules & Financial Planning
+## Raising Money and Buying Supplies
 
-Financial management must follow strict BSA advancement and tax policies:
+Follow these simple rules when funding your project:
 
-### When a Fundraising Application is Required
-- **Exempt (No Form Needed)**: Contributions directly from the beneficiary, yourself, your parents/relatives, your troop/unit, or your chartered organization.
-- **Application Required**: Car washes, bake sales, restaurant spirit nights, or solicitations of local businesses and civic groups. The application must be approved by the beneficiary, unit leader, and district advancement committee *before* soliciting funds.
+### When You Need a Fundraising Form
+- **No Form Needed**: Donations coming directly from the beneficiary, yourself, your parents, your troop, or your chartered organization.
+- **Fundraising Form Required**: Car washes, bake sales, restaurant nights, or asking local businesses for money or materials. You must get the form signed by your beneficiary, Scoutmaster, and district chair *before* asking for money.
 
-### Leftover Funds Policy
-All remaining funds raised for an Eagle project belong to the **beneficiary organization** or the troop's project fund, as designated in the fundraising application. Under no circumstances may leftover funds be kept by the Scout or their family.
+### Leftover Money Rule
+Any leftover money raised for your project belongs to the **beneficiary organization** or the troop project fund. You and your family can never keep leftover funds.
 
-## Age-Appropriate Tool & Safety Guidelines
+## Tool Safety and Age Rules
 
-You must protect all volunteers by enforcing the *Guide to Safe Scouting* tool use policies:
+Keep all your volunteers safe by following BSA tool safety rules:
 
-| Volunteer Age Group | Permitted Tools & Equipment | Prohibited Equipment |
+| Volunteer Age Group | Tools They Can Use | Tools They Cannot Use |
 | :--- | :--- | :--- |
-| **Youth Under 14** | Hand tools only (screwdrivers, hammers, hand saws, rakes, paintbrushes, shovels). | Any powered machinery, power mowers, string trimmers, power drills. |
-| **Youth 14 – 15** | Cordless power drills, sanders, small hand power tools under direct 1-on-1 adult supervision. | Table saws, circular saws, chainsaws, motorized augers, brush cutters, nail guns. |
-| **Youth 16 – 17** | Mowers, string trimmers, non-commercial power equipment with proper PPE. | Chainsaws, log splitters, commercial trenchers, working above 6 feet off ground. |
-| **Adults 18+ Only** | Circular saws, miter saws, pneumatic nail guns, tillers, post-hole augers. | Chainsaws (require specialized BSA chainsaw training certification). |
+| **Youth Under 14** | Hand tools only (screwdrivers, hammers, hand saws, rakes, paintbrushes, shovels) | Any power tools, power mowers, string trimmers, power drills |
+| **Youth 14 – 15** | Cordless power drills, sanders, small hand power tools (with 1-on-1 adult supervision) | Circular saws, table saws, chainsaws, motorized augers, nail guns |
+| **Youth 16 – 17** | Lawn mowers, string trimmers, light power tools with eye protection | Chainsaws, log splitters, commercial trenchers, working higher than 6 feet off the ground |
+| **Adults 18+ Only** | Circular saws, miter saws, nail guns, tillers, post-hole augers | Chainsaws (require special BSA certified chainsaw training) |
 
-## Execution Day: Leading the Workday
+## How to Lead on Project Workday
 
-On project day, the Eagle candidate is the project manager, not the primary laborer.
+On your project workday, you are the project manager—not the only person working.
 
-| Workday Leadership Role | Primary Responsibilities | Key Oversight Duties |
+| Role on Workday | What They Do | How They Help You Lead |
 | :--- | :--- | :--- |
-| **Eagle Project Manager (Candidate)** | Overall site supervision, schedule tracking, safety oversight | Walks site continuously, verifies quality, coaches crew leaders, handles logistics |
-| **Crew Leader 1 (e.g. Groundwork)** | Directs 3–4 youth volunteers on site prep and digging | Enforces safety perimeter, monitors utility markings, checks hole depth |
-| **Crew Leader 2 (e.g. Assembly)** | Directs 3–4 youth volunteers on measuring, cutting, and joints | Enforces eye protection, double-checks measurements, ensures square joints |
-| **Troop Scribe / Registrar** | Registration desk check-in, hours tracking, emergency contact sheet | Records arrival/departure times, coordinates water/snack distribution |
+| **Eagle Candidate (You!)** | Keep the project on schedule, check quality, watch for safety hazards | Walk the site, answer questions, encourage volunteers, keep things moving |
+| **Crew Leader 1 (e.g. Groundwork)** | Lead 3–4 youth volunteers on site prep and digging | Watch safety lines, check hole depth, ensure teamwork |
+| **Crew Leader 2 (e.g. Assembly)** | Lead 3–4 youth volunteers on measuring, cutting, and assembly | Check safety glasses, double-check measurements, keep cuts straight |
+| **Troop Scribe / Registrar** | Run the check-in table and log all volunteer hours | Record arrival/departure times, hand out water and snacks |
 
-### The Workday Morning Playbook
+### How to Run Your Workday Morning
 
-1. **Sign-In & Hours Log**: Station a volunteer (such as the Troop Scribe) at a registration table. Every volunteer must sign in, note their arrival time, and list emergency contact info.
-2. **Safety Briefing**: Gather all volunteers. Review hydration points, first aid kit location, mandatory safety glasses, and tool assignments.
-3. **Task Cards & Delegation**: Break volunteers into small teams with designated Crew Leaders. Provide each team with written task checklists.
-4. **Quality Control & Morale**: Walk the site continuously. Inspect screw alignments, check levels, praise volunteers, provide water breaks, and solve unexpected problems.
-5. **Site Cleanup & Debrief**: Ensure all tools are cleaned and inventoried, scrap materials recycled or disposed of, and the site left in pristine condition.
+1. **Sign-In Table**: Have every volunteer sign in with their arrival time, phone number, and emergency contact.
+2. **Safety Briefing**: Gather everyone before starting. Point out the first aid kit, water station, mandatory safety glasses, and tool rules.
+3. **Assign Small Teams**: Break volunteers into small teams with assigned Crew Leaders and give each team clear instructions.
+4. **Walk the Site & Encourage**: Move around the project continuously. Check measurements, praise great work, call water breaks, and fix problems.
+5. **Clean Up**: Make sure every tool is cleaned and counted, scrap wood is recycled or tossed, and the worksite looks great.
 
 {{< drg/tip >}}
-**The "Keep Your Hands Clean" Rule**:
-If you spend four hours holding a paintbrush, you cannot see that another crew is assembling a table backwards or that a volunteer is showing signs of heat exhaustion. Step back, maintain high-level awareness, and lead.
+**Keep Your Hands Clean**:
+If you spend four hours painting a fence board yourself, you won't notice that another team built a bench crooked or that a volunteer is getting dehydrated. Step back, look at the big picture, and lead.
 {{< /drg/tip >}}
 
-## The Project Report & Financial Summary
+## Finishing Your Project Report
 
-Upon completing the physical work, complete the **Project Report** section of the workbook:
+Once the physical work is complete, finish the **Project Report** in your workbook:
 
-- **Executive Summary**: What was accomplished vs. the original proposal.
-- **Changes & Adaptations**: Detail any changes made due to weather, supply chain issues, or unforeseen site conditions.
-- **Leadership Observations**: Reflect on what was challenging about directing volunteers and what you learned as a leader.
-- **Financial Reconciliation**: Complete the final accounting table:
+- **What You Did**: Explain how the project turned out and how it helped the beneficiary.
+- **Changes You Made**: Note any changes you had to make because of weather, supplies, or unexpected site conditions.
+- **What You Learned**: Write about what went well and what challenged you as a leader.
+- **Final Financial Table**: Complete the simple accounting table:
 
-| Item Category | Estimated Cost | Actual Cost | Variance | Funding Source / Donor |
+| Supply Category | Estimated Cost | Actual Cost | Difference | Who Paid for It |
 | :--- | :--- | :--- | :--- | :--- |
-| **Lumber & Hardware** | $450.00 | $412.50 | -$37.50 | Hardware Store Discount + Troop Fund |
-| **Paint & Sealant** | $120.00 | $135.00 | +$15.00 | Beneficiary Direct Contribution |
-| **Safety Equipment** | $40.00 | $32.00 | -$8.00 | Scout Family Donation |
-| **Volunteer Refreshments**| $75.00 | $68.00 | -$7.00 | Parent Bake Sale |
+| **Lumber & Screws** | $450.00 | $412.50 | -$37.50 | Local Hardware Discount + Troop Fund |
+| **Paint & Brushes** | $120.00 | $135.00 | +$15.00 | Beneficiary Donation |
+| **Safety Glasses & Gloves** | $40.00 | $32.00 | -$8.00 | Scout Family Donation |
+| **Snacks & Drinks** | $75.00 | $68.00 | -$7.00 | Parent Bake Sale |
 | **TOTAL** | **$685.00** | **$647.50** | **-$37.50** | *Balanced* |
 
-## Master Eagle Project Checklist
+## Eagle Project Checklist
 
-{{< drg/checklist title="Eagle Scout Service Project Milestone Checklist" subtitle="Track your path from concept to council approval" >}}
-- [ ] Life Scout rank earned and recorded in Scoutbook.
-- [ ] Download and read the official *Eagle Scout Service Project Workbook*.
-- [ ] Consult with a prospective beneficiary to identify a valid community need.
-- [ ] Draft the Project Proposal with budget estimate, material lists, and hazard analysis.
-- [ ] Secure Beneficiary Representative approval signature.
-- [ ] Secure Scoutmaster / Unit Leader approval signature.
-- [ ] Secure Troop Committee Chair approval signature.
-- [ ] Submit proposal to District/Council Advancement Committee and obtain written approval signature.
-- [ ] Complete the Project Final Plan with construction diagrams and step-by-step schedules.
-- [ ] Submit Project Fundraising Application (if raising funds from outside sources).
-- [ ] Order materials, confirm tool availability, and recruit youth/adult volunteers.
-- [ ] Conduct pre-workday safety inspection and gather First Aid kit + sign-in logs.
-- [ ] Execute workdays; log all volunteer hours (youth BSA, youth non-BSA, adults).
-- [ ] Clean up worksite and return borrowed equipment.
-- [ ] Complete the Project Report write-up and financial balance sheet.
-- [ ] Obtain Beneficiary Representative final sign-off signature.
-- [ ] Obtain Scoutmaster final sign-off signature.
-- [ ] Complete the Eagle Scout Rank Application and prepare for the Scoutmaster Conference and Board of Review.
+{{< drg/checklist title="Eagle Scout Service Project Checklist" subtitle="Track your steps from first idea to final approval" >}}
+- [ ] Reach the rank of Life Scout.
+- [ ] Download the official *Eagle Scout Service Project Workbook*.
+- [ ] Meet with your beneficiary to find a project that helps their organization.
+- [ ] Write your Project Proposal with supply lists, safety notes, and cost estimates.
+- [ ] Get Beneficiary Representative signature.
+- [ ] Get Scoutmaster signature.
+- [ ] Get Troop Committee Chair signature.
+- [ ] Submit your proposal to District Advancement and get their signature.
+- [ ] Write your detailed Project Plan with measurements, diagrams, and steps.
+- [ ] Submit a Fundraising Application (if raising money from outside sources).
+- [ ] Order supplies, gather tools, and recruit youth and adult volunteers.
+- [ ] Hold your workdays; log all volunteer hours.
+- [ ] Clean up the site and return borrowed equipment.
+- [ ] Fill out the Project Report and final cost sheet.
+- [ ] Get Beneficiary Representative final signature.
+- [ ] Get Scoutmaster final signature.
+- [ ] Turn in your Eagle application and get ready for your Board of Review!
 {{< /drg/checklist >}}
 
-## Recommended Advancement Resources
+## Related Guides
 
-- [The Strategic Merit Badge Roadmap](/scouts-bsa/leadership/merit-badge-strategy/)
-- [Patrol Leader Field Guide](/scouts-bsa/leadership/patrol-method/)
+- [How to Plan Your Eagle Merit Badges](/scouts-bsa/leadership/merit-badge-strategy/)
+- [Patrol Leader Guide: How to Run a Great Patrol](/scouts-bsa/leadership/patrol-method/)
 - [Eagle Rank Guide & Requirement Breakdown](/scouts-bsa/ranks/eagle/guide/)

@@ -1,6 +1,6 @@
 ---
-title: "Knots, Hitches, Bends & Lashings Field Guide"
-description: "A complete technical reference to cordage, rope mechanics, terminal whipping, advancement knots, climbing bends, friction hitches, and pioneering structural lashings."
+title: "Knots & Lashings Guide: Hitches, Bends & Camp Gadgets"
+description: "A step-by-step technical guide to tying the core scouting knots, pioneering lashings, rope care, whipping, and fusing."
 ---
 
 Ropework is one of the foundational disciplines of outdoor mastery. Whether pitching a storm-resistant tarp, hauling timber, securing a load, building pioneering structures, or executing a wilderness rescue, knowing the exact knot for the job—and tying it correctly under pressure—is essential.

@@ -1,184 +1,153 @@
 ---
-title: "Wilderness First Aid & Outdoor Emergency Protocols"
-description: "A comprehensive field reference for wilderness emergency action, patient assessment, evacuation decisions, SOAP documentation, trauma management, and environmental medicine."
+title: "Wilderness First Aid Guide: Handling Outdoor Emergencies"
+description: "A practical guide to wilderness emergency response: checking injured patients with MARCH PAWS, treating trauma, hypothermia wraps, and calling for help."
 ---
 
-Wilderness First Aid (WFA) differs fundamentally from urban emergency medicine. When access to definitive hospital care is hours or days away, outdoor leaders must stabilize patients, manage prolonged environmental exposure, improvise equipment, and make critical evacuation decisions under harsh conditions.
+Wilderness First Aid is different from first aid at home or school. When a hospital is hours or days away, you need to know how to keep an injured person safe, warm, and stable while your patrol arranges for help.
 
-## Backcountry Scene Size-Up & Primary Assessment
+## Checking the Scene and the Patient
 
-Before rushing toward an injured person, stop and evaluate the entire scene. Rescuer safety is always the highest priority.
+Before rushing in to help an injured person, stop and look around. Rescuer safety always comes first.
 
-### The S.T.O.P. Acronym
-- **S – Stop:** Take a deep breath. Count to ten. Regain emotional composure.
-- **T – Think:** Assess environmental dangers (falling rock, lightning, active traffic, river current).
-- **O – Observe:** Determine the mechanism of injury (MOI), number of patients, and available resources.
-- **P – Plan:** Formulate an organized approach, don personal protective equipment (PPE / nitrile gloves), and assign roles to patrol members.
+### The S.T.O.P. Rule
+- **S – Stop:** Take a deep breath. Stay calm.
+- **T – Think:** Check for danger (falling rocks, lightning, swift water, traffic).
+- **O – Observe:** See how many people are hurt and what supplies you have.
+- **P – Plan:** Put on medical gloves, make a plan, and assign jobs to your patrol.
 
 ![Backcountry Wilderness First Aid Primary Assessment (MARCH PAWS)](/img/diagrams/march-paws-flowchart.png)
 
-### Primary Assessment: The MARCH Protocol
+### The Primary Check: The MARCH Protocol
 
-In wilderness medicine, catastrophic external bleeding kills faster than an airway compromise. Use the military-derived **MARCH** protocol for the initial 60-second survey:
+In the outdoors, severe bleeding is the fastest threat to life. Follow the **MARCH** steps for your quick 60-second check:
 
-| Phase | Assessment Target | Critical Life Threat | Immediate Field Action |
+| Letter | What to Check | What to Look For | What to Do Right Away |
 | :--- | :--- | :--- | :--- |
-| **M – Massive Bleeding** | Extremities & junctional zones | Arterial spurting or pooling blood | Direct bone-pressing pressure, wound packing, or commercial CAT tourniquet |
-| **A – Airway & C-Spine** | Airway patency & spinal stability | Occluded airway, trauma spinal compromise | Jaw-thrust maneuver without neck extension; clear airway with gloved sweep |
-| **R – Respiration** | Chest rise & breath sounds | Sucking chest wound, flail chest, tension pneumo | Seal open chest wounds with vented chest seal; monitor bilateral breath sounds |
-| **C – Circulation** | Radial & carotid pulses, skin perfusion | Shock, internal hemorrhage, weak pulse | Check radial pulse, capillary refill (<2s), skin temp/color; manage shock |
-| **H – Hypothermia & Head** | Core temp & neurological status | Environmental cooling, cold ground heat loss | Insulate from ground immediately with foam pad & winter sleeping bag wrap |
+| **M – Massive Bleeding** | Arms, legs, neck, and body | Spurting or pooling blood | Press hard on the wound with clean gauze or use a commercial tourniquet. |
+| **A – Airway & Neck** | Throat and breathing passage | Blocked throat; neck injuries | Keep the head still; open airway using the jaw-thrust without bending the neck. |
+| **R – Respiration (Breathing)**| Chest rise and breath sounds | Trouble breathing; chest wounds | Cover open chest holes with a vented chest seal; sit patient comfortably. |
+| **C – Circulation** | Wrist and neck pulse | Weak pulse; cold, pale skin | Check wrist pulse and nailbed color; keep patient lying flat to treat shock. |
+| **H – Hypothermia & Head** | Body warmth and alertness | Shivering, confusion, cold ground | Put an insulated sleeping pad and sleeping bag under the patient right away! |
 
-## Wilderness Evacuation Decision Matrix
+## When and How to Evacuate
 
-| Category | Urgency Level | Criteria & Clinical Triggers | Action Plan |
+| Situation Level | How Fast to Evacuate | Examples | What Your Patrol Does |
 | :--- | :--- | :--- | :--- |
-| **Category A: Immediate Life Threat** | Evacuate ASAP / SAR Emergency | Uncontrolled hemorrhage, core temp <90°F or >104°F, GCS <13, severe chest pain/dyspnea, uncorrectable airway compromise | Activate satellite SOS / 911, establish LZ for helicopter evacuation |
-| **Category B: Urgent Evacuation** | Evacuate within 6–12 Hours | Reduced/splinted fractures, persistent mild AMS, progressive spreading infection, dislocations unable to reduce | Litter carry or coordinated ground SAR evacuation |
-| **Category C: Non-Urgent / Self-Evac** | Walk out / Patrol Escort | Minor closed sprains, small 1st-degree burns, controlled mild asthma, mild altitude headache | Patrol accompanies patient walking out to trailhead |
+| **Emergency (Life-Threatening)** | Right away / Call Search & Rescue | Severe bleeding, core body temp below 90°F or above 104°F, unconsciousness, severe chest pain | Press SOS on satellite messenger or call 911; clear a helicopter landing zone |
+| **Urgent (Within 6–12 Hours)** | Same-day evacuation | Broken bones that are splinted, deep wounds needing stitches, severe sprains | Carry patient in a litter or coordinate with Search & Rescue ground teams |
+| **Non-Urgent (Walk Out)** | Hike out when ready | Minor sprains, small scrapes, mild altitude headache, mild asthma | Patrol carries patient's pack and walks out with them to the trailhead |
 
-### Emergency Backcountry Communication Methods
+### Ways to Call for Help in the Backcountry
 
-| Channel / Tool | Technology / Band | Coverage & Reliability | Best-Practice Protocol |
+| Method | How It Works | Signal Needed | Best Way to Use It |
 | :--- | :--- | :--- | :--- |
-| **Cell Phone / SMS** | Cellular towers (Voice/Text) | Spotty in canyons/valleys | If voice calls drop, **send an SMS text to 911** (text packets require millisecond connections). |
-| **Satellite Messenger** | Iridium / Globalstar network | Global 2-way messaging | Send GPS coordinates, age, chief complaint, vital signs, and SAR extraction request. |
-| **Personal Locator Beacon** | 406 MHz NOAA Satellites | Direct distress beacon | Non-cancelable; activate ONLY in imminent loss-of-life or limb scenarios. |
-| **Ground-to-Air Signals** | Visual markers (10ft letters) | Aircraft visual search | Trample `V` (Need Assistance), `X` (Medical Assistance), or build 3 fires in a triangle. |
+| **Cell Phone / SMS** | Cell towers (Voice/Text) | Low cell service | If calls drop, **send a text to 911** (text messages can send through tiny bursts of signal). |
+| **Satellite Messenger** | InReach, ZOLEO, Apple SOS | Clear view of sky | Send your GPS coordinates, patient age, injuries, and what help you need. |
+| **Personal Locator Beacon** | Emergency NOAA Satellites | Direct distress beacon | Turn on ONLY in life-threatening emergencies where someone cannot survive without immediate rescue. |
+| **Ground-to-Air Signals** | Visual signals on the ground | Aircraft search | Stamp out big 10-foot letters in snow: `V` (Need Help) or `X` (Medical Help), or make 3 whistle blasts. |
 
-## Wilderness SOAP Note Documentation
+## Taking Notes on the Patient (SOAP Note)
 
-A SOAP note provides a structured format to document findings and communicate seamlessly with emergency medical services (EMS) and Search & Rescue (SAR):
+A SOAP note helps you organize your notes and give clean information to paramedics or Search & Rescue teams:
 
-| SOAP Section | Component Details | What to Record |
+| SOAP Section | What It Means | What You Write Down |
 | :--- | :--- | :--- |
-| **S – Subjective** | Patient Story & History | Patient name, age, incident time, chief complaint, mechanism of injury (MOI), and **SAMPLE** history (Signs/Symptoms, Allergies, Medications, Pertinent history, Last intake/output, Events leading up). |
-| **O – Objective** | Physical Findings & Vitals | Head-to-toe **DOTS** exam (Deformities, Open wounds, Tenderness, Swelling) and dated Vital Sign trends (Time, LOC via AVPU, Heart Rate, Resp Rate, Skin color/temp, Pupils). |
-| **A – Assessment** | Problem List | Numbered clinical problems in order of severity (e.g. 1: Closed tibia fracture; 2: Mild hypothermia; 3: Anticipated shock). |
-| **P – Plan** | Treatment & Evacuation Plan | Specific interventions applied (splints, bandages, hypo wrap), evacuation route/SAR method, and reassessment schedule (every 15 min for unstable, 30 min for stable). |
+| **S – Subjective** | The Patient's Story | Name, age, time of injury, where it hurts, and **SAMPLE** notes (Signs, Allergies, Medications, Past medical issues, Last food/water, Events leading up). |
+| **O – Objective** | What You Find | Findings from your head-to-toe check (**DOTS**: Deformities, Open wounds, Tenderness, Swelling) and vital signs (Time, Pulse rate, Breathing rate, Skin warmth). |
+| **A – Assessment** | Problem List | List the problems in order of danger (e.g. 1: Broken lower leg; 2: Mild hypothermia; 3: Scraped elbow). |
+| **P – Plan** | What You Did | Treatments you gave (splinting, bandages, warm wrap), how you plan to evacuate, and when to re-check vitals. |
 
-### Level of Consciousness (AVPU Scale)
+### How Awake Is the Patient? (The AVPU Scale)
 
-| Score | Clinical State | Patient Response | Assessment Technique |
-| :--- | :--- | :--- | :--- |
-| **A – Alert** | Fully conscious | Responds promptly; knows person, place, time, and event | Confirm Alert & Oriented $\times$ 4 |
-| **V – Verbal** | Lethargic / Drowsy | Opens eyes or speaks only when addressed loudly | Speak loudly near patient's ear |
-| **P – Pain** | Stuporous | Responds only to painful stimuli; does not speak | Apply sternal rub or trapezius squeeze |
-| **U – Unresponsive**| Comatose | Completely unconscious; zero verbal/motor response | Check carotid pulse; manage airway immediately |
+| Score | How the Patient Responds | How to Check |
+| :--- | :--- | :--- |
+| **A – Alert** | Wide awake; knows who they are, where they are, and what time it is | Ask simple questions: *"What is your name? Where are we?"* |
+| **V – Verbal** | Drowsy; opens eyes or speaks only when you talk loudly | Speak loudly near their ear |
+| **P – Pain** | Responds only to pinch or rub; does not speak | Gently pinch the shoulder muscle |
+| **U – Unresponsive** | Completely unconscious; does not respond to voice or touch | Check breathing and neck pulse immediately |
 
-## Traumatic Emergencies Management
+## Treating Injuries in the Field
 
-### Severe Hemorrhage & Commercial Tourniquet Application
-When direct bone-pressing pressure fails to stop severe arterial bleeding on an extremity:
+### Severe Bleeding & Tourniquets
+If direct pressure with gauze pads cannot stop severe spurting bleeding on an arm or leg:
 
 {{< drg/safety-first >}}
 **Tourniquet Rules:**
-1. Apply the tourniquet **2 to 3 inches above the wound** (between the wound and the heart). Never apply directly over a joint (knee or elbow); if the wound is just below a joint, place the tourniquet 2 inches above the joint.
-2. Pull the self-adhering band as tight as humanly possible before twisting the windlass rod.
-3. Twist the windlass rod until the arterial bleeding completely stops and the distal pulse disappears.
-4. Lock the windlass rod in the clip.
-5. Write the exact time of application (e.g., `TK 14:35`) on the forehead or white time tag.
-6. **NEVER loosen or remove a tourniquet once applied in the field.** Only hospital surgical staff should release it.
+1. Put the tourniquet **2 to 3 inches above the wound** (between the cut and the heart). Never put it directly over a knee or elbow joint.
+2. Pull the strap as tight as humanly possible before turning the windlass rod.
+3. Twist the rod until the bright red bleeding completely stops.
+4. Lock the rod into the clip.
+5. Write the exact time (like `TK 2:30 PM`) on the patient's forehead or on the white tourniquet tag.
+6. **NEVER loosen or take off a tourniquet once it is applied.** Only hospital doctors should take it off.
 {{< /drg/safety-first >}}
 
-### Fractures, Sprains & Dislocations (CSM Assessment)
-Before and after applying any splint, always assess **CSMs**:
-- **C – Circulation:** Check distal pulse (radial pulse for wrist/arm; dorsalis pedis / posterior tibial pulse for foot/leg). Check capillary refill and skin warmth.
-- **S – Sensation:** Touch the patient's toe or finger with their eyes closed: *"Which finger/toe am I touching?"* Check for numbness, tingling, or paresthesia.
-- **M – Movement:** Ask the patient to wiggle their fingers or push down against your hand with their foot ("step on the gas pedal").
+### Broken Bones & Sprains: Checking CSMs
+Always check **CSMs** before and after you put on any splint:
+- **C – Circulation (Blood Flow):** Check for a pulse past the injury (wrist or foot). Make sure the fingers or toes feel warm.
+- **S – Sensation (Feeling):** Have the patient close their eyes. Touch a toe or finger and ask: *"Which toe am I touching?"*
+- **M – Movement:** Ask the patient to wiggle their fingers or toes.
 
-```
-Splinting Rules:
-  1. Splint in the position found unless circulation is absent.
-  2. Immobilize the joint ABOVE and the joint BELOW the fracture.
-  3. Pad all rigid splint surfaces with soft clothing or fleece.
-  4. Leave fingers and toes exposed to monitor continuous CSMs.
-  5. Re-check CSMs every 15 minutes.
-```
+| Splinting Step | What to Do |
+| :--- | :--- |
+| **1. Shape First** | Splint the limb in the position you found it. |
+| **2. Immobilize Joints** | Support the joint **above** and the joint **below** the broken bone. |
+| **3. Pad the Splint** | Place soft clothing or fleece between the splint and the skin. |
+| **4. Leave Toes/Fingers Out** | Keep fingers or toes uncovered so you can re-check CSMs every 15 minutes. |
 
-#### SAM Splint Configurations
-- **Sugar-Tong Splint (Forearm / Wrist):** Bend a 36-inch SAM splint into a U-shape extending from the knuckles, around the elbow, to the palm. Wrap with an elastic bandage.
-- **Inverted-U Ankle Splint:** Form a stirrup under the heel coming up both sides of the calf.
-- **C-Curve Structural Rigidity:** Always bend a SAM splint along its longitudinal axis into a slight structural curve (like a gutter or roof tile). This creates immense rigidity from flexible aluminum.
+## Cold, Heat, and Altitude Emergencies
 
-### Wilderness Spinal Clearance Protocol
-In an austere environment where professional rescue is hours away, you may evaluate an alert trauma patient using the **Wilderness Spinal Clearance Protocol**:
+### Hypothermia & The "Burrito Wrap"
 
-{{< drg/be-prepared title="When Can You Clear a Spine in the Wilderness?" >}}
-A patient's cervical spine may be cleared from manual immobilization ONLY if **ALL** of the following criteria are met:
-1. **Patient is fully reliable:** Alert and oriented x 4, no alcohol/drugs, no severe psychiatric distress.
-2. **No distracting injuries:** No agonizing fractures or severe burns masking neck pain.
-3. **Normal motor and sensory exam:** Full strength and normal sensation in all four extremities.
-4. **No spine midline tenderness:** Zero pain or tenderness upon gentle palpation down the entire posterior midline cervical, thoracic, and lumbar vertebrae.
-5. **Painless active range of motion:** The patient can voluntarily rotate their head 45° left and right without discomfort (Rescuers must NEVER force the head to turn).
+Hypothermia happens when body temperature drops below 95°F.
 
-*If ANY criterion fails, maintain strict spinal motion restriction and prepare for litter evacuation.*
-{{< /drg/be-prepared >}}
-
-### Chest & Abdominal Trauma
-- **Sucking Chest Wound (Pneumothorax):** Air enters the pleural cavity through an open chest hole. Apply a commercial vented chest seal (or plastic wrapper taped on three sides). If the patient develops signs of a **Tension Pneumothorax** (extreme shortness of breath, tracheal deviation, jugular vein distension, cyanosis), temporarily lift/burp the seal to vent trapped high-pressure air.
-- **Flail Chest:** Two or more ribs broken in two or more places. Stabilize the paradoxical moving section by taping a bulky pad, folded fleece, or SAM splint over the unstable segment.
-
-## Environmental Medicine
-
-### Hypothermia Protocol & The "Burrito Wrap"
-
-Hypothermia occurs when the core body temperature drops below 95°F (35°C).
-
-| Stage | Core Body Temp | Clinical Presentation | Field Treatment |
-| :--- | :--- | :--- | :--- |
-| **Mild** | 90°F – 95°F (32°C – 35°C) | Vigorous shivering, "umbles" (stumbles, mumbles, fumbles, grumbles), alert | Dry clothes, windproof shell, high-calorie warm sugary fluids, gentle physical activity |
-| **Moderate** | 82°F – 90°F (28°C – 32°C) | Violent shivering ceases, irrational behavior, apathy, slurred speech, ataxia | Full Hypo Wrap, chemical heat packs to torso, NO active exercise, handle very gently |
-| **Severe** | < 82°F (< 28°C) | Unconscious, barely detectable pulse (< 30 bpm), shallow breathing, rigid muscles | Immediate Hypo Wrap, avoid rough handling (triggers ventricular fibrillation), urgent SAR evac |
+| Level | Signs & Symptoms | What to Do |
+| :--- | :--- | :--- |
+| **Mild Hypothermia** | Shivering, feeling cold, "Umbles" (stumbling, mumbling, fumbling, grumbling) | Put on dry clothes, windproof jacket, drink warm sweet drinks, do gentle walking. |
+| **Moderate Hypothermia** | Shivering stops, slurred speech, confusion, clumsy movements | Build a full Hypo Burrito Wrap, place warm bottles on chest/armpits, handle gently. |
+| **Severe Hypothermia** | Unconscious, barely breathing, very weak pulse | Immediate Hypo Wrap, do not shake or move roughly, call Search & Rescue ASAP! |
 
 ![Hypothermia Hypo-Wrap ('Burrito Wrap') System](/img/diagrams/hypothermia-burrito-wrap.png)
 
 {{< drg/safety-first >}}
-**Preventing Afterdrop:** Never place hot packs directly on cold hands or feet. Warming cold extremities first causes cold, acid-laden peripheral blood to rush back to the heart core, causing a lethal temperature plunge and cardiac arrest ("Afterdrop"). Always warm the **central torso and armpits** first.
+**Warm the Chest First:** Never put hot water bottles directly on cold feet or hands. Always warm the **chest, neck, and armpits** first. Warming cold arms and legs first can send cold blood rushing back to the heart, which is dangerous.
 {{< /drg/safety-first >}}
 
-### Hyperthermia: Heat Exhaustion vs. Heat Stroke
+### Heat Exhaustion vs. Heat Stroke
 
-Heat stroke is an immediate, life-threatening medical emergency.
-
-| Condition | Core Temperature & Signs | Mental Status & Skin | Immediate Action |
+| Condition | Body Signs & Skin | How the Scout Acts | What You Must Do |
 | :--- | :--- | :--- | :--- |
-| **Heat Exhaustion** | Core temp < 104°F (40°C), heavy sweating, headache, nausea | Normal mental status, pale/cool/clammy skin | Rest in shade, loosen tight clothing, sip cool electrolyte fluids, mist and fan |
-| **Heat Stroke (Life Threat!)** | Core temp > 104°F (40°C), hot red skin (sweating may cease) | Altered mental status, delirium, seizures, coma, rapid pulse | **Cool First, Transport Second!** Rapid ice-water immersion or aggressive dousing/fanning, ice packs on neck/armpits/groin, call 911/SAR |
+| **Heat Exhaustion** | Heavy sweating, pale cool clammy skin, headache | Normal thinking, tired, thirsty | Rest in shade, loosen clothes, sip cool water with electrolytes, fan with hat. |
+| **Heat Stroke (Emergency!)** | Hot red skin, sweating may stop, very rapid pulse | Confused, dizzy, fainting, seizures | **Cool First, Move Second!** Douse with cold water, fan aggressively, place ice/cold packs on neck and armpits, call 911/SAR! |
 
-### High Altitude Illness
+### Altitude Sickness
+When hiking above 8,000 feet, thinner air can cause altitude sickness:
+- **Mild Mountain Sickness:** Headache, upset stomach, tiredness, trouble sleeping. *Rest, drink plenty of water, and do not climb higher.*
+- **Severe Mountain Sickness:** Trouble breathing while resting, coughing, slurred speech, or unable to walk a straight line.
+- **The #1 Rule of Altitude Sickness:** **"GO DOWN!"** Hiking down 1,000 to 2,000 feet is the fastest, safest cure.
 
-Altitude illnesses occur due to decreased barometric pressure and hypoxia, typically above 8,000 feet (2,400 m).
+### Snake Bites (North American Pit Vipers)
+1. Keep the patient calm and sitting still (moving fast spreads venom).
+2. Take off rings, watches, and boots before swelling starts.
+3. Keep the bite at **heart level** (not elevated, not hanging down).
+4. Draw a circle around the swelling with a pen and write the time; check every 15 minutes.
+5. **NEVER** cut the bite, suck out venom, apply ice, or use a tourniquet.
+6. Get the patient to a hospital right away.
 
-- **AMS (Acute Mountain Sickness):** Headache plus at least one of: nausea/vomiting, fatigue, dizziness, insomnia. *Treatment: Rest, hydration, mild analgesics. Do not ascend.*
-- **HAPE (High Altitude Pulmonary Edema):** Fluid in the lungs. Severe breathlessness at rest, persistent cough producing pink frothy sputum, gurgling rales.
-- **HACE (High Altitude Cerebral Edema):** Brain swelling. Severe headache, ataxia (inability to walk heel-to-toe in a straight line), confusion, hallucination, coma.
-- **Golden Rule of Altitude Medicine:** **"DESCEND IMMEDIATELY!"** Descending 1,500–3,000 feet is the single most effective, lifesaving treatment for HAPE and HACE.
+## Patrol First Aid Kit Checklist
 
-### Envenomations & Bites
-
-#### North American Pit Viper (Rattlesnake, Copperhead, Cottonmouth)
-1. Keep the patient calm and completely still (running accelerates venom circulation).
-2. Remove all rings, watches, and tight clothing from the bitten limb before swelling begins.
-3. Position the limb at **heart level** (not elevated, not hanging low).
-4. Outline the edge of swelling with a permanent marker and write the time; repeat every 15 minutes to track progression.
-5. **DO NOT:** Cut the wound, suck out venom, apply ice, or apply a tourniquet.
-6. Evacuate immediately to a hospital with antivenom (CroFab).
-
-#### Anaphylaxis Protocol
-- **Signs:** Hives, facial/lip angioedema, wheezing, stridor, throat tightness, hypotension, nausea/vomiting.
-- **Treatment:** Administer **Epinephrine Auto-Injector (EpiPen 0.3 mg adult / 0.15 mg pediatric)** into the anterolateral mid-thigh. Hold firmly for 3–5 seconds.
-- **Biphasic Caution:** Symptoms can recur 15–30 minutes later as epinephrine metabolizes. If severe symptoms return and EMS is > 15 minutes away, administer a second epinephrine dose.
-
-{{< drg/checklist title="Patrol Wilderness First Aid Kit Checklist" subtitle="Comprehensive pack-out inventory for backcountry expeditions" >}}
-- [ ] **PPE & Sanitation:** 6 pairs Nitrile gloves (non-latex), CPR pocket mask, 2 oz hand sanitizer, biohazard bag.
-- [ ] **Trauma & Bleeding Control:** 1 Commercial Tourniquet (C-A-T or SOFTT-W), 1 QuikClot hemostatic gauze, 2 Israeli pressure bandages (4" & 6"), 10 sterile gauze pads (4x4), 1 roll conforming stretch gauze, trauma shears.
-- [ ] **Splinting & Musculoskeletal:** 1 SAM Splint (36"), 2 Triangular bandages (cravats), 1 roll cohesive self-adherent wrap (Coban), 1 roll 3" elastic wrap (Ace bandage), medical tape (cloth/duct).
-- [ ] **Wound & Blister Care:** 1 Irrigation syringe (18-gauge catheter or 30ml syringe), povidone-iodine / antiseptic wipes, sterile saline bottle, tincture of benzoin, hydrocolloid blister pads / moleskin, adhesive fabric bandages (assorted).
-- [ ] **Medications & Topicals (Unit-dosed):** Ibuprofen (NSAID / anti-inflammatory), Acetaminophen (analgesic/antipyretic), Diphenhydramine (antihistamine), Loperamide (anti-diarrheal), Bismuth subsalicylate, Oral Electrolyte rehydration powder packs, Hydrocortisone 1% cream, Triple antibiotic ointment, Epinephrine auto-injector (Rx).
-- [ ] **Tools & Wilderness Gear:** Waterproof SOAP documentation notebook with pencil, digital thermometer, fine-tipped tick tweezers, safety pins, emergency hypothermia space blanket (heavy-duty aluminized bivy).
+{{< drg/checklist title="Patrol Wilderness First Aid Kit Checklist" subtitle="Pack these items in your patrol first aid pouch" >}}
+- [ ] 6 pairs of nitrile gloves (non-latex) and CPR face shield.
+- [ ] 1 commercial tourniquet (CAT or SOFTT-W) and trauma shears.
+- [ ] 2 pressure bandages and 10 sterile gauze pads.
+- [ ] 1 SAM Splint (36-inch) and 2 triangular bandages (cravats).
+- [ ] 1 roll of elastic athletic wrap (Ace bandage) and medical tape.
+- [ ] Blister moleskin, hydrocolloid pads, and assorted band-aids.
+- [ ] Antiseptic wipes, clean water flush syringe, and triple antibiotic ointment.
+- [ ] Waterproof notebook and pencil for SOAP notes.
+- [ ] Tick tweezers and digital thermometer.
+- [ ] Emergency space blanket or thermal bivvy.
 {{< /drg/checklist >}}
 
 {{< drg/tip >}}
-**Wound Irrigation Principle:** *“The solution to pollution is dilution.”* High-pressure wound irrigation reduces infection rates far more effectively than antiseptics. Use a 30 mL syringe with an 18-gauge tip (or an improvised plastic sandwich bag with a pinhole) to flush wounds with at least 500 mL of clean, drinkable water.
+**Wound Cleaning Tip:** Clean water is the best way to clean a dirty scrape on the trail. Use a clean plastic bag with a tiny pinhole (or a clean water bottle) to squirt water with pressure into the scrape to wash out dirt and gravel before bandaging.
 {{< /drg/tip >}}

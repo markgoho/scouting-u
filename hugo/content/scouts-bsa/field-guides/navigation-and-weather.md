@@ -1,6 +1,6 @@
 ---
-title: "Navigation, Topographic Maps & Weather Forecasting Toolkit"
-description: "A comprehensive backcountry navigation and meteorology manual covering topographic map interpretation, UTM coordinates, magnetic declination math, pace factors, resection, and cloud-based weather forecasting."
+title: "Navigation & Weather Guide: Maps, Compasses & Forecasting"
+description: "How to find your way in the backcountry: reading topographic maps, using a baseplate compass, calculating declination, and reading clouds for weather."
 ---
 
 Precision navigation and weather awareness are the core survival skills of the wilderness traveler. Being able to read the land, plot an accurate course across trackless terrain, and predict approaching storms from cloud and barometric cues keeps a patrol safe and self-reliant.
