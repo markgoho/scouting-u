@@ -14,22 +14,46 @@ next_title: "Earn 5 more merit badges"
 As a Star Scout, demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived the Scout Oath and Scout Law in your everyday life.
 {{< /drg/requirement >}}
 
-You've told this story once already, at [Star](/scouts-bsa/ranks/star/guide/req2/): how the whole Scout Oath and Scout Law showed up in your everyday life, not just four picked points. Life asks the same question again, covering the months since you earned Star.
+Demonstrating Scout spirit at the Life rank reflects a mature embodiment of Scouting's core principles. As a Life Scout, you are expected to be a servant leader whose daily actions demonstrate character, ethical decision-making, and genuine care for others.
 
-## Why It's Asked Again
+---
 
-Scout spirit isn't a box you check once and move past — it's supposed to keep showing up as you take on more responsibility. Life is also the rank where your position of responsibility and your Eagle-track merit badge work start asking more of you, so this is a natural point for your Scoutmaster to check whether Scout spirit is keeping pace with everything else you're doing.
+## 1. Living the Scout Oath and Law as a Senior Scout
 
-## Duty to God
+At the Life rank, Scout spirit is evaluated by how your actions influence the people and environments around you:
 
-Stay personal and specific, the same way you did at Star: an actual choice or moment from your own faith tradition or beliefs, not a general statement about believing in God.
+- **Leadership by Example**: How do you respond when a campout faces bad weather or when a plan changes unexpectedly? Remaining cheerful, patient, and helpful sets the tone for younger Scouts.
+- **Mentorship & Inclusion**: Do you actively welcome new Scouts, ensure no one sits alone at troop meals, and encourage struggling patrol members?
+- **Everyday Integrity**: At school, do you uphold academic honesty and stand up against gossip, exclusion, and bullying? At home, do you contribute positively to family life and support your parents and siblings?
+- **Digital Citizenship**: Do you maintain respect, kindness, and safety in group chats, social media, and gaming communities?
 
-## Living the Oath and Law
+---
 
-Look for moments since your Star board of review — in your position of responsibility, your service work, or anywhere else in your life — where a point of the Law or the Oath's promise to do your best shaped a real decision. New responsibility tends to create new tests of Scout spirit: a patrol leader who's tempted to play favorites, or a Scout juggling merit badge deadlines who's tempted to cut a corner on an honest sign-off.
+## 2. Duty to God
+
+Scouting America emphasizes that spirituality, ethical living, and reverence are central to personal character:
+
+- **Expressing Your Beliefs**: Share how your faith tradition, spiritual practices, or personal convictions guide your moral choices and daily conduct.
+- **Concrete Examples**: Describe specific practices such as participating in religious observances, showing reverence for the natural world during outdoor adventures, offering prayers or moments of gratitude, or engaging in acts of charity and kindness.
+- **Respect for Others**: A Scout is reverent toward God and respects the religious convictions and spiritual expressions of others.
+
+---
+
+## 3. Preparing for Your Scoutmaster Conference Discussion
+
+Your Scoutmaster will engage you in a meaningful dialogue about your personal growth since earning Star:
+
+{{< drg/checklist title="Life Scout Spirit Reflection Guide" subtitle="Topics to consider before your conference" >}}
+- What difficult moral or ethical decisions have you faced in the past six months, and how did the Scout Oath and Law guide your choice?
+- In what ways have you demonstrated servant leadership by putting the needs of your patrol, family, or classmates ahead of your own?
+- How have you fulfilled your Duty to God in your personal life and spiritual journey?
+- What areas of personal growth do you want to focus on as you prepare for the Eagle Scout rank?
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-If you kept notes for your Star conference, keep doing it here. A running note of moments since Star beats trying to reconstruct six months of examples the night before your conference.
+Take time to write out brief notes about your experiences over the past six months. Sharing authentic, thoughtful stories of both your successes and your challenges demonstrates genuine self-awareness and maturity.
 {{< /drg/tip >}}
 
-This requirement is graded on whether your examples are honest and specific to your own life since Star — not on which points of the Law you happen to mention.
+{{< drg/be-prepared title="Navigating Peer Pressure" >}}
+As high school and extracurricular demands increase, peer pressure often intensifies. Be prepared to discuss how "morally straight" and "brave" apply when standing up for what is right in difficult social situations.
+{{< /drg/be-prepared >}}

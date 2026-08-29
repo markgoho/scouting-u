@@ -20,8 +20,8 @@ Camp stoves provide reliable, fast, and clean heat in all weather conditions wit
 
 | Stove Type | Fuel Used | Best Use Cases | Advantages & Limitations |
 | :--- | :--- | :--- | :--- |
-| **Lightweight Backcountry Stove** | Isobutane/propane screw-on canister or white gas (liquid fuel) | Backpacking treks, high-adventure outings, trail lunches, boiling water quickly | **Pros:** Weighs only a few ounces, compact (packs inside a cook pot), fast boil times.<br>**Cons:** Narrow pot supports (prone to tipping with large pots), limited simmer control, sensitive to high winds. |
-| **Two-Burner Propane Stove** | 1-lb disposable propane cylinders or bulk propane tanks with regulator | Troop base camps, patrol weekend campouts, car camping | **Pros:** Sturdy grates support large 8-qt pots and griddles, built-in windscreens, two adjustable burners for cooking full patrol meals.<br>**Cons:** Heavy (10–15+ lbs), bulky, not practical for backpacking. |
+| **Lightweight Backcountry Stove** | Isobutane/propane canister or white gas | Backpacking, high-adventure, boiling water | **Pros:** Weighs ounces, compact, fast boil times. **Cons:** Narrow pot supports, limited simmer control, wind sensitive. |
+| **Two-Burner Propane Stove** | 1-lb propane cylinders or bulk tank | Base camp, patrol campouts, car camping | **Pros:** Sturdy grates support large 8-qt pots, built-in windscreens, two adjustable burners. **Cons:** Heavy (10–15+ lbs), bulky. |
 
 ---
 

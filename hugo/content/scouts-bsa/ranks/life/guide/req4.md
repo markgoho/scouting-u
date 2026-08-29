@@ -14,36 +14,55 @@ next_title: "Serve in position of responsibility"
 While a Star Scout, participate in six hours of service through one or more service projects approved by your Scoutmaster. At least three hours of this service must be conservation-related.
 {{< /drg/requirement >}}
 
-The hour count holds steady at [six hours](/scouts-bsa/ranks/star/guide/req4/) — the same total Star asked for. What's new at Life is a condition on top of the count: at least three of those six hours have to be conservation-related.
+Requirement 4 maintains the six-hour service standard from the Star rank, but introduces a new, specialized requirement: **at least three of the six hours must be conservation-related**.
 
-## What Counts as Conservation-Related
+---
 
-Conservation service works on the outdoors itself, not just for it. Trail maintenance, invasive species removal, tree planting, stream or watershed cleanup, and habitat restoration projects all count. A canned food drive or a fundraiser, while real service, isn't conservation-related — if you're not sure whether a project qualifies, ask your Scoutmaster before you count the hours toward this requirement.
+## 1. What Qualifies as Conservation-Related Service?
 
-## Splitting Your Six Hours
+Conservation service involves hands-on work that directly benefits the natural environment, preserves wildlife habitats, protects ecosystems, or promotes environmental sustainability:
 
-You can meet this requirement with one project that's fully conservation-related, or split it: three-plus hours of conservation work and up to three hours of any other Scoutmaster-approved service. Either way, the full six hours still needs Scoutmaster approval before or as you do the work.
+### Qualifying Conservation Projects:
+- **Erosion Control & Trail Maintenance**: Repairing eroded public hiking trails, installing water bars, stabilizing stream banks, or building boardwalks over delicate wetlands.
+- **Invasive Species Removal**: Clearing non-native, invasive plant species (such as kudzu, honeysuckle, garlic mustard, or English ivy) under the guidance of a park ranger or conservation biologist.
+- **Habitat Restoration & Native Planting**: Planting native trees, shrubs, and pollinator wildflowers in public parks, wildlife refuges, or school nature sanctuaries.
+- **Watershed & Riparian Cleanup**: Cleaning debris and contaminants from streams, rivers, lakeshores, wetlands, or coastal shorelines.
+- **Wildlife Structures**: Constructing and installing bird boxes, bat houses, fish habitat structures, or owl nesting platforms in designated conservation areas.
 
-- At least **3 hours** must be conservation-related.
-- The remaining hours (up to 3) can be any approved service project.
+### What Does NOT Qualify as Conservation:
+- Routine litter cleanups along paved schoolyards or parking lots (unless part of a broader municipal watershed restoration effort).
+- General landscaping, lawn mowing, or weeding at a church or civic building.
+- Non-environmental community service, such as food sorting or blood drive support (which qualify for general service hours, but not the 3-hour conservation minimum).
 
-## Finding a Conservation Project
+---
 
-Good places to look:
+## 2. Structuring Your Six Hours
 
-- A troop-organized conservation outing, such as a trail day with a local land trust or park.
-- Council- or district-run conservation events, often tied to National Public Lands Day or similar events.
-- A local parks department, watershed group, or land conservancy that takes volunteer crews.
+You can fulfill your six hours in several ways:
+- **Option A (Full Conservation)**: Complete all six hours on one or more conservation projects.
+- **Option B (Split Service)**: Complete at least three hours on a conservation project, and up to three hours on other Scoutmaster-approved community service projects (such as helping with an Eagle Scout project or volunteering at a food bank).
+
+{{< drg/did-you-know >}}
+Hours spent working on conservation service for Life rank can also contribute toward prestigious Scouting conservation honors, including the Scouting America Conservation Good Turn Award and the Distinguished Conservationist Award.
+{{< /drg/did-you-know >}}
+
+---
+
+## 3. Finding and Logging Projects
+
+Work with your Scoutmaster to identify suitable opportunities:
+- Local municipal parks departments, county forest preserves, state parks, and national wildlife refuges regularly host volunteer workdays.
+- Local land trusts, watershed associations, and nature conservancies.
+- Troop or council-organized conservation campouts and workdays.
+
+{{< drg/checklist title="Conservation Service Log" subtitle="Information to document for Requirement 4" >}}
+- Date and location of the project.
+- Benefiting conservation agency, park, or organization.
+- Exact description of the environmental or conservation tasks completed.
+- Total hours worked (specifying conservation vs. general service hours).
+- Contact information of the supervising agency official or Scoutmaster.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Keep the same running log you started for your Star service hours: date, organization, task, and hours — and now note whether each entry is conservation-related. It makes confirming the three-hour split effortless later.
+Always secure your Scoutmaster's approval *before* participating in a conservation project. Confirming that the planned work meets the conservation standard avoids any ambiguity when your hours are submitted.
 {{< /drg/tip >}}
-
-{{< drg/checklist title="Service Hour Log" subtitle="What to record for each entry" >}}
-
-- Date and organization you served with.
-- What you actually did during the project.
-- How many hours it took.
-- Whether the work was conservation-related.
-- Your Scoutmaster's approval — before or as the project happens, not after.
-{{< /drg/checklist >}}

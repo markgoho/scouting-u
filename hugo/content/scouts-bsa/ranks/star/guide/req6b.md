@@ -14,16 +14,40 @@ next_title: "Complete Scoutmaster conference"
 With your parent or guardian's permission, view the <i><a href="https://www.scouting.org/training/youth-protection/scouts-bsa/"> Personal Safety Awareness videos</a></i>. (See the pamphlet inserted inside the front cover.)
 {{< /drg/requirement >}}
 
-You watched an earlier round of Personal Safety Awareness videos as a new Scout, covering digital safety, bullying, and abuse in general terms. Star adds a new set: four short videos covering sexting, grooming, abuse within a family, and how to help someone else who's a victim of abuse.
+The Personal Safety Awareness videos for older youth address real-world situations you may encounter as you navigate middle school, high school, social media, and peer relationships.
 
-## Before You Watch
+---
 
-Get your parent or guardian's permission first, and watch the videos with them if you can. These topics are more direct than the ones you covered as a new Scout, and having a trusted adult nearby to talk through what you see is the point, not an afterthought.
+## 1. Accessing the Videos
 
-## Where to Find Them
+The videos are hosted on the official Scouting America Youth Protection training portal:
+- Visit [scouting.org/training/youth-protection/scouts-bsa](https://www.scouting.org/training/youth-protection/scouts-bsa/).
+- Ensure you have your parent or guardian's permission before watching.
+- It is highly recommended to watch the videos alongside your parent or guardian so you can discuss the scenarios together.
 
-The videos are hosted on scouting.org's Youth Protection training page for Scouts BSA. Your Scoutmaster or a parent can help you find the current link if you're not sure where to start.
+---
+
+## 2. Key Video Modules and Themes
+
+The Star rank modules focus on advanced personal safety topics:
+
+- **Digital Exploitation & Sexting**: Understanding the legal, emotional, and safety consequences of taking, sending, or requesting explicit photos or messages. Recognizing how digital media can be saved, shared, and weaponized.
+- **Online Grooming & Predators**: Recognizing predatory tactics used in online gaming, chat apps, and social networks—such as excessive flattery, secret gift-giving, isolating you from friends/family, or pressuring you to move conversations to private channels.
+- **Bystander Intervention & Bullying**: Knowing how to safely intervene or report when you witness someone being bullied, harassed, or coerced in person or online.
+- **Support for Victims of Abuse**: Recognizing the emotional and behavioral signs of trauma in friends or peers, and understanding how to connect them with professional help and trusted adults.
+
+---
+
+## 3. Discussion Points for You and Your Family
+
+After viewing the video modules, take time to discuss the following questions with your parent or guardian:
+
+{{< drg/checklist title="Family Debrief Checklist" subtitle="Key discussion points after watching the videos" >}}
+- What are our family rules for online communication, privacy settings, and sharing photos?
+- What steps should you take if an online stranger or acquaintance sends an inappropriate message or asks for personal photos?
+- Who are at least three trusted adults outside your immediate household you can reach out to if you ever need confidential help?
+{{< /drg/checklist >}}
 
 {{< drg/safety-first >}}
-These videos exist to help you recognize abuse and know what to do about it — not to make you afraid. If anything in them reminds you of something that happened to you or someone you know, tell your parent or guardian or another trusted adult right away. You can also contact the Scouts First Helpline at 1-844-SCOUTS1 (1-844-726-8871).
+If you ever feel unsafe or believe a friend is in danger, reach out to a trusted adult immediately. You can also contact the **Scouts First Helpline at 1-844-SCOUTS1 (1-844-726-8871)** or text **HOME to 741741** to connect with the Crisis Text Line 24/7.
 {{< /drg/safety-first >}}

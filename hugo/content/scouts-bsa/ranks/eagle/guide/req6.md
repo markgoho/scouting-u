@@ -14,19 +14,42 @@ next_title: "Complete board of review"
 While a Life Scout, participate in a Scoutmaster conference.
 {{< /drg/requirement >}}
 
-You've done this at every rank since Scout — a one-on-one conversation with your Scoutmaster, not a test. This is the last one before your Eagle board of review, and it carries more to cover than any before it.
+The Eagle Scoutmaster conference is the final unit-level conference in your Scouts BSA advancement journey. It represents an in-depth, reflective mentoring session with your Scoutmaster to review your overall Scouting career, evaluate your service project, audit your application packet, and confirm your readiness for the Eagle Scout Board of Review.
 
-## What's Different at Eagle
+---
 
-Every other requirement funnels into this conversation. Your Scoutmaster will want to hear how your service project actually went — not just that it's finished, but what it was like to lead other people through it. They'll also want to confirm your merit badge count, your position of responsibility, and that your Scout spirit statement and references from requirement 2 are ready for your Eagle Scout Rank Application.
+## 1. Objectives of the Eagle Scoutmaster Conference
 
-## Getting Ready
+During this conference, you and your Scoutmaster will conduct a thorough review across several key areas:
 
-- Be ready to talk through your service project from [requirement 5](/scouts-bsa/ranks/eagle/guide/req5/) — what you planned, how you led your crew, and what you'd do differently.
-- Bring your merit badge records from [requirement 3](/scouts-bsa/ranks/eagle/guide/req3/), confirming your 21 total and your 13 Eagle-required badges.
-- Confirm your position of responsibility from [requirement 4](/scouts-bsa/ranks/eagle/guide/req4/) is on the approved list and covers the full six months.
-- Have your Scout spirit statement and references list from [requirement 2](/scouts-bsa/ranks/eagle/guide/req2/) finished, not just started.
+- **Reflecting on the Eagle Project**: Discussing the execution of your service project ([Requirement 5](/scouts-bsa/ranks/eagle/guide/req5/))—how you exercised leadership, resolved volunteer conflicts, managed unexpected logistical obstacles, and ensured safety.
+- **Reviewing Your Growth & Ideals**: Discussing your living of the Scout Oath and Scout Law, your Duty to God, and your written reflections on how these principles will guide your adult life ([Requirement 2](/scouts-bsa/ranks/eagle/guide/req2/)).
+- **Reviewing Six Months of Leadership**: Evaluating your performance during your six months in an approved position of responsibility ([Requirement 4](/scouts-bsa/ranks/eagle/guide/req4/)).
+- **Verifying Advancement Credentials**: Conducting a line-by-line audit of your *Eagle Scout Rank Application*, merit badge dates, and reference contact information.
+
+---
+
+## 2. Policy: Timing and Completion Standards
+
+Under the *Guide to Advancement* (topics 4.2.3.5 and 9.0.1.5):
+- The Scoutmaster conference must take place **before your 18th birthday** (unless an official council extension has been granted under topic 9.0.4.0).
+- While the conference is traditionally held after all other requirements are completed, it can technically occur at any point while you are a Life Scout.
+- **Unit Leader Signature**: Upon completing the conference and verifying that all requirements have been met, your Scoutmaster signs page 2 of your *Eagle Scout Rank Application*. If a Scoutmaster refuses to sign, the Scout is still entitled to submit their application for a board of review under disputed circumstances (topic 8.0.3.2).
+
+---
+
+## 3. Preparation and Application Assembly
+
+Arrive at your conference with a complete, impeccably assembled Eagle advancement binder:
+
+{{< drg/checklist title="Eagle Conference Preparation Checklist" subtitle="Documents to bring to your conference" >}}
+- Wear your complete, pristine field uniform (Class A) with merit badge sash.
+- Bring the completed, typed *Eagle Scout Rank Application*.
+- Bring the completed *Eagle Scout Service Project Workbook* (Proposal, Final Plan, and Project Report with all signatures).
+- Bring your *Statement of Ambitions and Life Purpose* and *Listing of Leadership Positions and Honors* ([Requirement 7](/scouts-bsa/ranks/eagle/guide/req7/)).
+- Bring your blue card applicant stubs or official Scoutbook individual advancement report.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-If any piece of your paperwork — a merit badge sign-off, a reference's contact information, your project workbook — is still missing, find that out here rather than at your board of review. Your Scoutmaster can catch a gap now; a board of review is a much less forgiving place to discover one.
+Review all requirement dates on your application with your unit advancement chair prior to your Scoutmaster conference to ensure that every date matches council records perfectly.
 {{< /drg/tip >}}

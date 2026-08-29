@@ -14,47 +14,106 @@ next_title: "Complete Scoutmaster conference"
 While a Life Scout, plan, develop, and give leadership to others in a service project helpful to any religious institution, any school, or your community. (The project must benefit an organization other than the Boy Scouts of America.) A project proposal must be approved by the organization benefiting from the effort, your Scoutmaster and unit committee, and the council or district before you start. You must use the Eagle Scout Service Project Workbook, BSA publication No. 512-927, in meeting this requirement. (To learn more about the Eagle Scout service project, see the Guide to Advancement, topics 9.0.2.0 through 9.0.2.16.)
 {{< /drg/requirement >}}
 
-Nothing before this has asked you to plan a project from a blank page, get it approved by three separate groups before you're allowed to start, and then direct other people through finishing it. This is the requirement most Scouts spend the longest time on, and the one most worth starting early — if you've been [collecting project ideas since Life](/scouts-bsa/ranks/life/guide/extended-learning/), this is where they get used.
+The Eagle Scout Service Project is the defining challenge of the Eagle Scout rank. It is the program's ultimate demonstration of your ability to plan, develop, fund, and **give leadership to others** in executing a project of lasting significance to your community.
 
-## Plan, Develop, Give Leadership — Not Just "Do"
+---
 
-Read the verbs closely: plan, develop, and give leadership *to others*. This requirement is not asking you to do the physical work yourself — it's asking you to be the person directing a crew of other people doing it. A Scout who quietly builds the whole project alone, without ever organizing or instructing a team, hasn't met this requirement no matter how good the finished result looks. If you can't picture yourself assigning tasks, checking on progress, and troubleshooting other people's work, that's the skill this requirement is actually testing.
+## 1. Core Principles: Plan, Develop, Give Leadership
 
-## Who It Can Benefit
+Under the *Guide to Advancement* (topics 9.0.2.0 through 9.0.2.16), the Eagle project is designed to test your executive and servant leadership skills:
 
-The project must help a religious institution, a school, or your community. It cannot benefit the Boy Scouts of America itself — a project that only improves your own troop's equipment or meeting space doesn't qualify, even if the work itself is real.
+- **Plan & Develop**: You must research, design, organize, and prepare the project from inception to completion.
+- **Give Leadership to Others**: The requirement explicitly mandates giving leadership to a team. You cannot execute the project alone. Your role is that of project manager and leader—directing, delegating, coordinating, and inspiring a workforce of youth and adult volunteers.
+- **Beneficiary Eligibility**: The project must benefit a religious institution, a school (public, private, or charter), or a community non-profit / civic organization.
+  - **Ineligible Beneficiaries**: The project **cannot** benefit Scouting America, your local council, your chartered organization solely for unit purposes, or any private, commercial, for-profit business.
+  - **Ineligible Project Types**: The project cannot be routine maintenance (e.g., standard lawn mowing or recurring weeding) and cannot be solely a fundraising drive (e.g., raising money without a tangible service outcome).
 
-## The Approval Chain
+---
 
-Before you do any project work, your proposal needs sign-off from three separate parties, in this order:
+## 2. The Official Workbook Structure
 
-1. **The benefiting organization** — the school, religious institution, or community group whose need you're addressing.
-2. **Your Scoutmaster and unit committee** — your own troop's approval.
-3. **Your council or district** — the final approval before you can begin.
+You must use the official **Eagle Scout Service Project Workbook** (BSA publication No. 512-927). The workbook is divided into distinct sections:
 
-Starting work before all three approvals are in means the project doesn't count, no matter how well it turns out.
+1. **Project Proposal**: The formal concept outline that requires four mandatory approvals before any work or fundraising begins.
+2. **Final Plan**: A detailed planning tool where you flesh out logistics, materials, safety, tools, scheduling, and volunteer assignments.
+3. **Fundraising Application**: Required if you solicit funds from sources outside your unit, chartered organization, parents, or beneficiary.
+4. **Project Report**: Completed after the physical work is finished, summarizing hours, expenditures, leadership challenges, and final approvals.
 
-## The Workbook
+---
 
-You must use the Eagle Scout Service Project Workbook (BSA publication No. 512-927) to document this requirement — your proposal, your plan, and your final write-up all go through it. Working outside the workbook, or improvising your own version of it, isn't a substitute.
+## 3. The Four Mandatory Proposal Approvals
 
-{{< drg/download
-    title="Eagle Scout Service Project Workbook"
-    url="https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/eagle-scout-workbook/" >}}
+{{< drg/safety-first >}}
+**STRICT ADVANCEMENT RULE**: You cannot begin physical project work, purchase materials, or conduct outside fundraising until ALL FOUR proposal approvals are secured in writing. Any work performed prior to district/council approval will not count.
+{{< /drg/safety-first >}}
 
-## Where to Learn More
+Your Project Proposal must be signed in the following exact sequence:
 
-The BSA *Guide to Advancement*, topics 9.0.2.0 through 9.0.2.16, covers the project process in full — proposal format, fundraising rules, what counts as leadership, and how the final approval works. Read it before you write your proposal, not after your council sends it back with questions.
+1. **Beneficiary Representative Approval**: The authorized representative of the organization benefiting from the project confirms the project is desired and beneficial.
+2. **Unit Leader (Scoutmaster) Approval**: Confirms the proposal meets rank standards and provides sufficient leadership opportunity.
+3. **Unit Committee Chair Approval**: Confirms unit committee support and logistical readiness.
+4. **Council or District Advancement Committee Approval**: The official district/council advancement representative reviews and authorizes you to proceed.
 
-{{< drg/be-prepared title="Your Proposal Gets Sent Back for Changes" >}}
-Your council or district reviews your proposal and asks for revisions before approving it.
+---
 
-- **Don't take it personally**: revision requests are a normal part of the process, not a sign your idea is bad.
-- **Read the specific feedback**: most revisions ask for more detail on leadership or a clearer benefit to the organization, not a different project entirely.
-- **Resubmit promptly**: the sooner you address the feedback, the sooner you can start the actual work.
-- **Ask your Scoutmaster to review changes before resubmitting**: a second set of eyes catches gaps before the council sees them again.
+## 4. The Final Plan and Project Coach
+
+After your Proposal is approved, you will complete the **Final Plan** in your workbook:
+- **Scope & Logistics**: Step-by-step construction/execution procedures, permits, site prep, weather contingency plans.
+- **Materials, Supplies & Tools**: Exact bill of materials, quantities, costs, sources, and tool safety requirements.
+- **Safety & First Aid Plan**: Emergency contacts, first aid station setup, hydration plan, hazard mitigations, and personal protective equipment (PPE).
+- **Working with an Eagle Project Coach**: Your unit or district will designate an experienced adult Eagle Project Coach to review your Final Plan and offer mentoring advice.
+
+---
+
+## 5. Fundraising Rules and Guidelines
+
+Under *Guide to Advancement* topic 9.0.2.10:
+- **No Approval Needed**: Fundraising is exempt from a separate application if funds come entirely from the beneficiary, your unit, your chartered organization, yourself, or your parents/relatives.
+- **Fundraising Application Required**: If you plan to solicit donations of cash or materials from the general public, local businesses, or civic groups, you must complete the *Eagle Scout Service Project Fundraising Application* in the workbook and obtain approval from your council advancement committee before soliciting.
+- **Handling Excess Funds**: Any leftover funds raised for the project must be transferred directly to the benefiting organization or your unit (if agreed upon with the beneficiary). No funds may be retained by the Scout.
+
+---
+
+## 6. Execution, Leadership, and Safety on the Workday
+
+On the day(s) of project execution, you transition into the role of active project director:
+
+- **Lead, Don't Just Labor**: Brief your volunteers, assign tasks to youth and adult teams, supervise quality control, and keep volunteers motivated.
+- **Two-Deep Leadership & Youth Protection**: Ensure at least two registered adult leaders (at least 21 years old) are present on site at all times.
+- **Age-Appropriate Tool Guidelines**: Enforce Scouting America's *Age-Appropriate Guidelines for Tool Use*:
+  - **Youth under 18**: Cannot operate commercial power saws, chain saws, stump grinders, or heavy machinery.
+  - **Youth 14–17**: May operate small handheld power drills, orbital sanders, and non-powered hand tools under strict adult supervision.
+  - All volunteers must wear appropriate PPE (safety glasses, ear protection, work gloves, closed-toe boots).
+
+---
+
+## 7. The Project Report and Final Sign-Offs
+
+Once all physical work and site cleanup are complete:
+
+- **Document Volunteer Hours**: Record all hours worked by yourself, youth volunteers (Scouts and non-Scouts), and adult volunteers.
+- **Financial Accounting**: Document actual expenses vs. budgeted costs, including all material donations.
+- **Reflect on Leadership**: Write thoughtful answers describing how you directed your crew, handled unforeseen challenges, and what you learned as a leader.
+- **Final Signatures**:
+  1. **Beneficiary Representative Signature**: Signs confirming the project was completed satisfactorily.
+  2. **Scoutmaster Signature**: Signs confirming that you planned, developed, and gave leadership to others.
+
+{{< drg/checklist title="Eagle Project Master Checklist" subtitle="Key milestones from proposal to report" >}}
+- Identify an eligible non-profit, school, or religious beneficiary.
+- Write the Project Proposal using the official PDF workbook.
+- Secure all 4 required Proposal signatures (Beneficiary, Scoutmaster, Committee Chair, District).
+- Complete the Final Plan with your Eagle Project Coach.
+- Obtain council approval for fundraising (if soliciting outside donations).
+- Lead the project execution, enforcing safety and youth protection.
+- Complete the Project Report, logging all volunteer hours and financial receipts.
+- Secure final completion signatures from the Beneficiary Representative and Scoutmaster.
+{{< /drg/checklist >}}
+
+{{< drg/be-prepared title="When Weather or Materials Delay Your Project" >}}
+Unforeseen rain, supply shortages, or volunteer cancellations frequently occur during large service projects. Have a contingency plan ready: alternative indoor tasks, backup work dates, and a clear communication channel (email or phone tree) to notify volunteers of schedule changes.
 {{< /drg/be-prepared >}}
 
 {{< drg/tip >}}
-Build in more lead time than you think you need. Getting three separate approvals, then scheduling volunteers, materials, and a work date, routinely takes longer than the project work itself.
+Take high-quality "before," "during," and "after" photographs of your project site from identical vantage points. Include these photographs in your final workbook to visually showcase the transformation achieved under your leadership.
 {{< /drg/tip >}}

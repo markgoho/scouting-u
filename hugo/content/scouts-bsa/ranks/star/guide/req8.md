@@ -11,27 +11,49 @@ next_title: "Extended Learning"
 ---
 
 {{< drg/requirement number="8" text_format="html" >}}
-Successfully complete your board of review for the Star rank.
+Successfully complete your board of review for the Star rank.<sup><a href="#fn-8">8</a></sup>
 {{< /drg/requirement >}}
 
-This is your fourth board of review — after [Tenderfoot](/scouts-bsa/ranks/tenderfoot/guide/req11/), [Second Class](/scouts-bsa/ranks/second-class/guide/req12/), and [First Class](/scouts-bsa/ranks/first-class/guide/req13/) — so the format is familiar: a short meeting with a small panel of troop adults, not a retest of your skills.
+The Board of Review is the final requirement for earning the Star Scout rank. It serves as an official review by the troop committee to ensure all requirements have been completed, assess the health and morale of the unit, and celebrate your advancement.
 
-## What the Board Confirms
+---
 
-The board isn't just checking off requirements 1 through 7 on paper. It's confirming the things those requirements were really asking for: that your four months as an active First Class Scout actually happened, that your position of responsibility was real, and that Scout spirit showed up in how you've actually lived, not just in what you say now.
+## 1. Composition and Rules of the Board of Review
 
-## What to Expect
+Under the *Guide to Advancement* (topics 8.0.0.0 through 8.0.2.0), specific rules govern how a Board of Review is conducted:
 
-- Be ready to talk about your position of responsibility, your merit badge progress, and what your service hours were like.
-- Questions are open-ended, aimed at an honest conversation about your growth since First Class, not pass/fail trivia.
-- Wear your full uniform and arrive a few minutes early, the same as your earlier boards of review.
+- **Panel Composition**: The board consists of at least three and not more than six members of the troop committee.
+- **Adult Leader Exclusion**: The Scoutmaster and Assistant Scoutmasters **cannot** sit on a Scout's board of review. Relatives and guardians are also excluded from sitting on their own Scout's board.
+- **Not a Retest**: A board of review is **never a retest of knowledge or skills**. The board members do not ask you to tie knots or recite first aid steps. Instead, they ask open-ended questions about your experiences, your leadership, your understanding of the Scout Oath and Law, and your future goals.
 
-## If the Board Doesn't Approve
+---
 
-Boards of review almost always end in approval — the requirements should already be confirmed well before this meeting. But if a board doesn't approve your advancement, you have the right to appeal that decision through your council, following the process in the BSA Guide to Advancement.
+## 2. What to Expect During the Review
+
+The review typically lasts 15 to 20 minutes and focuses on three main areas:
+
+1. **Your Star Experience**: Discussing your six merit badges, your service project hours, and the duties you carried out in your position of responsibility.
+2. **Scout Spirit & Personal Growth**: Exploring how you apply the Scout Oath and Scout Law in school, at home, in sports, and in your community.
+3. **Troop Assessment & Feedback**: Asking for your perspective on how the troop is running—what activities you enjoyed most, how patrol spirit is developing, and suggestions for future outings.
+4. **Looking Toward Life & Eagle**: Discussing your goals for the Life rank, leadership aspirations, and potential Eagle Scout project ideas.
+
+---
+
+## 3. Deliberation and Appeals
+
+After the conversation, you will step out of the room while the committee deliberates:
+- **Decision Standard**: The decision must be **unanimous** among the board members.
+- **Approval**: When approved, you will be invited back into the room, congratulated, and formally recognized as a Star Scout. Your advancement date becomes the official date of this board of review.
+- **Appeals**: If the board does not approve advancement, the chair will explain the specific reasons in writing and outline the steps needed to complete the requirements. Under *Guide to Advancement* topic 8.0.4.0, a Scout has the right to appeal an adverse decision to the district or council advancement committee.
+
+{{< drg/checklist title="Board of Review Readiness Checklist" subtitle="Ensure you are prepared" >}}
+- Complete all Requirements 1 through 7 before scheduling the board.
+- Wear your complete, clean field uniform (Class A) with merit badge sash.
+- Arrive 10–15 minutes early and check in with the advancement chair.
+- Bring your advancement records and project logs.
+- Answer questions honestly, thoughtfully, and with confidence.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-If you're not sure whether something in your record is finished — a merit badge counselor's sign-off, a service hour log — check with your Scoutmaster before the board meets, not during it.
+Remember that the board members are troop volunteers who want to see you succeed. Relax, speak from your genuine experience, and share your pride in what you have achieved as a First Class Scout.
 {{< /drg/tip >}}
-
-Once the board is satisfied, you'll be notified that you've earned Star — the first of the three Eagle-Palm ranks, and the point where merit badges, tenure, and leadership start counting toward Life and Eagle.

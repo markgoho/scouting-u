@@ -9,38 +9,44 @@ next: "/scouts-bsa/ranks/life/guide/print/"
 next_title: "Complete Digital Requirements Guide"
 ---
 
-## Congratulations!
+## Congratulations on Achieving Life Scout!
 
-Life is the last rank before Eagle — everything from here forward builds toward that final board of review. The habits Life asked for (longer tenure, real leadership, teaching someone else) aren't just rank requirements; they're the exact skills an Eagle Scout service project depends on, from planning a timeline to directing other people's work.
+Earning Life Scout is an extraordinary accomplishment that distinguishes you as an experienced, capable leader in Scouts BSA. You are now positioned on the threshold of Eagle Scout—the culmination of your youth Scouting journey.
 
-## Dig Deeper
+---
 
-**Why EDGE works better than "just tell them."** Requirement 6 had you use Explain, Demonstrate, Guide, Enable instead of simply describing a skill once. The reason it's a four-step method instead of one step is that each step catches a different failure: Explain alone leaves people without a mental model of what "correct" looks like, Demonstrate alone doesn't build muscle memory, and skipping Guide means the first time someone tries the skill unsupervised is also the first time anyone catches their mistakes. Enable is the step most new teachers skip — it's tempting to keep correcting instead of stepping back, but a Scout hasn't really learned a skill until someone lets them do it wrong on their own and self-correct.
+## Strategic Preparation for the Eagle Scout Rank
 
-**What comes after ILST.** If you took Introduction to Leadership Skills for Troops (ILST) for your Star position, National Youth Leadership Training (NYLT) is the next step up — a week-long, council-run course that goes deeper into the same leadership skills EDGE only touches: communication, planning, and working through team problems. Scouts in a position of responsibility get the most out of NYLT, so Life — where your position runs a full six months — is a natural time to attend.
+The requirements for Eagle Scout demand comprehensive project management, deep personal reflection, and continued active leadership. Begin preparing immediately:
 
-**The Eagle Scout service project starts earlier than you'd think.** Life requirement 3's merit badge count and Eagle's 21-badge requirement mean you're closer to Eagle than the rank name suggests. The Eagle Scout service project — a leadership project you plan, organize, and lead, benefiting a religious institution, school, or your community — has its own proposal and approval process that takes real lead time. Scouts who start thinking about project ideas during Life, rather than waiting until they're an Eagle-track Life Scout with nothing left, tend to have an easier path to Eagle's deadline (before their 18th birthday).
+### 1. Download and Study the Eagle Scout Service Project Workbook
+Obtain the official *Eagle Scout Service Project Workbook* (BSA publication No. 512-927) directly from [scouting.org](https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/eagle-scout-workbook/). Read through the entire document—especially the *Navigating the Eagle Scout Service Project, Information for Project Beneficiaries* section—to understand the full lifecycle from Proposal to Final Report.
 
-## Try This Next
+### 2. Formulate Your Service Project Concept
+Brainstorm community needs with local schools, religious institutions, non-profit charities, or civic parks. Look for a project that allows you to demonstrate substantial planning, fundraising (if needed), organization, and **leadership of others**.
 
-- Sign up for NYLT through your council if you haven't already — it builds directly on the EDGE teaching from [requirement 6](/scouts-bsa/ranks/life/guide/req6/) and the leadership work from [requirement 5](/scouts-bsa/ranks/life/guide/req5/).
-- Start a running list of Eagle Scout service project ideas now, even loosely — talk to your religious institution, school, or a local community organization about needs they have that a Scout-led project could meet.
-- Ask your Scoutmaster or a Scout who's already earned Eagle to walk you through what the Eagle Scout service project proposal actually involves, well before you need to write one.
+### 3. Map Out Your Remaining Merit Badges
+Verify which Eagle-required categories you still need to complete (such as *Personal Management*, *Family Life*, *Citizenship in Society*, or *Emergency Preparedness*). Factor in the 90-day tracking requirements to ensure you finish all badges well before age 18.
+
+### 4. Advanced Leadership Opportunities
+- **National Advanced Youth Leadership Experience (NAYLE)**: An elite leadership program held at Philmont Scout Ranch and other national high-adventure bases, building on NYLT principles.
+- **Order of the Arrow Brotherhood Membership**: After 6 to 10 months of active service as an Ordeal member, seal your membership in the Order by demonstrating your commitment to servant leadership.
+- **Kodiak Challenge**: A week-long high-adventure trek designed to teach practical leadership skills in challenging wilderness environments.
 
 {{< drg/experience-card
-    title="Attend National Youth Leadership Training (NYLT)"
-    details="Location: Most councils, typically a week-long session | Highlights: Deepen the leadership and teaching skills from requirements 5 and 6." >}}
+    title="National Advanced Youth Leadership Experience (NAYLE)"
+    details="Location: Philmont Scout Ranch & National High Adventure Bases | Highlights: Wilderness-based high-intensity leadership and team-building course." >}}
 
 {{< drg/experience-card
-    title="Interview an Eagle Scout About Their Service Project"
-    details="Location: Your troop or district | Highlights: Learn what the proposal, approval, and execution process actually looks like before you need to plan your own." >}}
+    title="Seal Your Membership as an OA Brotherhood Member"
+    details="Location: Local OA Lodge / Fellowship Weekend | Highlights: Deepen your service commitment and leadership in Scouting's National Honor Society." >}}
 
 {{< drg/org-card
-    name="Scouting America Eagle Scout Service Project Workbook"
+    name="Eagle Scout Service Project Workbook"
     url="https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/eagle-scout-workbook/"
-    description="The official workbook and process for planning, proposing, and completing an Eagle Scout service project." >}}
+    description="Download the official PDF workbook required for planning and documenting your Eagle project." >}}
 
 {{< drg/org-card
-    name="Scouting America National Youth Leadership Training"
-    url="https://www.scouting.org/programs/scouts-bsa/resources/nylt/"
-    description="Council-run leadership course that builds on the position of responsibility and teaching skills from this rank." >}}
+    name="Guide to Advancement: Section 9 (The Eagle Scout Rank)"
+    url="https://www.scouting.org/resources/guide-to-advancement/eagle-scout-rank/"
+    description="The official national policy manual covering Eagle projects, applications, and boards of review." >}}

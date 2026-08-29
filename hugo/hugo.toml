@@ -21,6 +21,21 @@ disableKinds = ['taxonomy', 'term']
   endpoint = 'https://ik.imagekit.io/doulacoop'
   widths   = [400, 600, 800, 1200, 1600]
 
+[[menus.main]]
+  name = 'Ranks'
+  url = '/scouts-bsa/ranks/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Field Guides'
+  url = '/scouts-bsa/field-guides/'
+  weight = 20
+
+[[menus.main]]
+  name = 'Leadership'
+  url = '/scouts-bsa/leadership/'
+  weight = 30
+
 [params.theme]
   siteTitle = 'Scouting University'
   siteTitleShort = 'Scouting U'
@@ -37,9 +52,46 @@ disableKinds = ['taxonomy', 'term']
     [[params.theme.footerColumns.links]]
       label = 'All Ranks'
       href = '/scouts-bsa/ranks/'
+    [[params.theme.footerColumns.links]]
+      label = 'Eagle Scout'
+      href = '/scouts-bsa/ranks/eagle/'
+
+  [[params.theme.footerColumns]]
+    title = 'Field Guides'
+    [[params.theme.footerColumns.links]]
+      label = 'All Field Guides'
+      href = '/scouts-bsa/field-guides/'
+    [[params.theme.footerColumns.links]]
+      label = 'Knots & Lashings'
+      href = '/scouts-bsa/field-guides/knots-and-lashings/'
+    [[params.theme.footerColumns.links]]
+      label = 'Wilderness First Aid'
+      href = '/scouts-bsa/field-guides/wilderness-first-aid/'
+    [[params.theme.footerColumns.links]]
+      label = 'Camp Kitchen & Cooking'
+      href = '/scouts-bsa/field-guides/camp-cooking/'
+    [[params.theme.footerColumns.links]]
+      label = 'Navigation & Weather'
+      href = '/scouts-bsa/field-guides/navigation-and-weather/'
+
+  [[params.theme.footerColumns]]
+    title = 'Leadership'
+    [[params.theme.footerColumns.links]]
+      label = 'Leadership Hub'
+      href = '/scouts-bsa/leadership/'
+    [[params.theme.footerColumns.links]]
+      label = 'Patrol Leader Guide'
+      href = '/scouts-bsa/leadership/patrol-method/'
+    [[params.theme.footerColumns.links]]
+      label = 'Eagle Project Roadmap'
+      href = '/scouts-bsa/leadership/eagle-project-workbook/'
+    [[params.theme.footerColumns.links]]
+      label = 'Merit Badge Strategy'
+      href = '/scouts-bsa/leadership/merit-badge-strategy/'
 
   [[params.theme.footerColumns]]
     title = 'Resources'
     [[params.theme.footerColumns.links]]
       label = 'Search'
       href = '/search/'
+

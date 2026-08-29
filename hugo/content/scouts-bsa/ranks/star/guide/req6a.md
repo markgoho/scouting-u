@@ -14,16 +14,41 @@ next_title: "View Personal Safety Awareness videos"
 With your parent or guardian, complete the exercises in the pamphlet<i> How to Protect Your Children from Child Abuse: A Parent's Guide</i>.
 {{< /drg/requirement >}}
 
-This requirement names a real pamphlet: *How to Protect Your Children from Child Abuse: A Parent's Guide*, published by the BSA as part of its Youth Protection program. It's printed at the front of your rank requirements book, and it's written for your parent or guardian as much as for you.
+The pamphlet *How to Protect Your Children from Child Abuse: A Parent's Guide* is a critical resource created by Scouting America to help families identify, prevent, and respond to potential abuse and exploitation.
 
-## What the Pamphlet Covers
+---
 
-The pamphlet walks through how to recognize the warning signs of abuse, how to talk openly with your child about personal safety without making the conversation scary, and what to do if a concern ever comes up. It's built around the same "Recognize, Resist, Report" idea that runs through all of BSA's Youth Protection training: recognize situations and behavior that put a young person at risk, resist inappropriate attention or contact, and report anything concerning to a trusted adult.
+## 1. Finding the Pamphlet
 
-## Doing the Exercises
+This guide is bound into the front section of your rank requirements literature and is also available digitally through the official Scouting America Youth Protection portal. 
 
-You and your parent or guardian sit down together and work through the pamphlet's exercises as a pair — this isn't something to do alone or to skim quickly. The point isn't to memorize facts; it's to make sure you and your parent or guardian have actually had this conversation, together, at least once.
+---
+
+## 2. Core Topics Covered in the Exercises
+
+Completing the exercises with your parent or guardian involves reading through the material together and discussing practical safety scenarios:
+
+- **The Three R's of Personal Safety**:
+  - **Recognize**: Identifying unsafe situations, predatory behaviors, boundary violations, or inappropriate physical, verbal, or digital attention.
+  - **Resist**: Confidently saying "No," setting firm personal physical boundaries, and leaving an uncomfortable or unsafe situation immediately.
+  - **Report**: Immediately telling a trusted adult (parent, guardian, teacher, counselor, or Scoutmaster) about what happened, even if someone told you to keep it a secret.
+- **Physical Boundaries & Respect**: Understanding that you have the absolute right to personal physical privacy and bodily autonomy.
+- **Digital Boundaries**: Navigating social media, text messages, gaming chat rooms, and private messaging safely. Understanding the risks of sharing photos, passwords, or personal location details.
+- **Peer-to-Peer Safety**: Recognizing bullying, hazing, cyberbullying, or harassment among peers, and knowing how to be an active upstander rather than a passive bystander.
+
+---
+
+## 3. Completing the Family Discussion
+
+Set aside quiet, uninterrupted time with your parent or guardian to work through the discussion checklists and review the scenarios in the guide.
+
+{{< drg/checklist title="Family Protection Checklist" subtitle="Steps to fulfill Requirement 6a" >}}
+- Read through the pamphlet together with your parent or guardian.
+- Complete each of the discussion questions and family safety exercises.
+- Establish a family emergency safety plan and identify who your trusted adults are.
+- Have your parent or guardian sign off in your advancement record upon completion.
+{{< /drg/checklist >}}
 
 {{< drg/safety-first >}}
-If anything you read or discuss reminds you of a real situation that worries you, tell your parent or guardian right away, or another trusted adult if you can't talk to them. You can also contact the Scouts First Helpline at 1-844-SCOUTS1 (1-844-726-8871).
+Never keep secrets about situations that make you feel uncomfortable, frightened, or confused. Abuse thrives on secrecy. If someone asks you to keep a secret that feels wrong, tell a parent, guardian, or trusted adult immediately.
 {{< /drg/safety-first >}}

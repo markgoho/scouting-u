@@ -14,16 +14,44 @@ next_title: "Demonstrate Scout spirit"
 Be active in your troop for at least four months as a First Class Scout.
 {{< /drg/requirement >}}
 
-Nothing before Star told you to wait. Scout, Tenderfoot, Second Class, and First Class were all about what you could do — tie a knot, pack a pack, pass a swim test. Star is the first rank that also asks how long you've stuck with it.
+The ranks leading to First Class were task-oriented: you mastered knots, navigated with map and compass, set up camp, and cooked meals. Star introduces a new dimension: **sustained active tenure**. Requirement 1 establishes a four-month period of continuous engagement in your troop as a First Class Scout.
 
-## What Counts as Active
+---
 
-"Active" doesn't mean perfect attendance. It means you show up for your patrol and troop meetings and outings on a regular basis, and you take part when you're there — not just standing in the back. Missing the occasional meeting for a legitimate reason (illness, a family trip, a school conflict) doesn't reset your clock. Your Scoutmaster is the one who confirms whether your four months counted as active, so if you're unsure whether an absence is a problem, ask early rather than waiting until your board of review.
+## 1. What "Active Participation" Means
 
-## Starting the Clock
+According to the official *Guide to Advancement* (topic 4.2.3.1), active participation is evaluated using three clear, objective standards:
 
-The four months start counting from the day you earned First Class — not from when you decide to start working on Star requirements. You can work on the other Star requirements (merit badges, service hours, your position of responsibility) during this same four-month window; you don't have to wait for it to finish before starting everything else.
+1. **Registration**: You must be officially registered in your unit (or dual-registered in a crew or ship) and in good standing with Scouting America.
+2. **Good Standing**: You meet the general behavioral and safety expectations of the unit, living in accordance with the Scout Oath and Scout Law.
+3. **Meeting Unit Expectations**: You attend unit meetings, outdoor activities, campouts, and service projects with reasonable regularity.
+
+{{< drg/did-you-know >}}
+"Active" does not demand 100% perfect attendance. Scouting recognizes that young people balance school obligations, athletics, family commitments, and religious activities. If you must miss several meetings due to a seasonal sport or academic demand, speak with your Scoutmaster beforehand to establish an agreed-upon plan for remaining connected.
+{{< /drg/did-you-know >}}
+
+---
+
+## 2. Calculating the Four-Month Clock
+
+The four-month clock begins on the exact date you passed your **First Class Board of Review**, not the date you were recognized at a court of honor.
+
+- **Example**: If your First Class board of review took place on October 15, your earliest possible date for a Star board of review is February 15 of the following year (assuming all other requirements are completed).
+- **Concurrent Work**: You do not have to wait for the four months to finish before working on other Star requirements. You can earn merit badges, log service hours, and serve in your leadership position during this four-month window.
+
+---
+
+## 3. Staying Engaged and Building Momentum
+
+Use these four months to transition from being a Scout who participates in activities to one who helps lead and support others:
+
+{{< drg/checklist title="Active Scout Habits" subtitle="How to make your four months meaningful" >}}
+- Attend weekly patrol and troop meetings consistently.
+- Participate actively in monthly campouts, hikes, and troop outdoor adventures.
+- Support your Patrol Leader and Senior Patrol Leader during ceremonies and skill instruction.
+- Communicate proactively with adult and youth leaders if an illness or emergency causes an absence.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Write down the date you earned First Class somewhere you won't lose it. It's the one number your Scoutmaster and your board of review will both ask about.
+Record the exact date of your First Class board of review in your advancement records or notes. Both your Scoutmaster during your conference and the members of your Star board of review will verify this date.
 {{< /drg/tip >}}

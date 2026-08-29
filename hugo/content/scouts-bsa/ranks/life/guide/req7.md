@@ -14,19 +14,40 @@ next_title: "Complete board of review"
 While a Star Scout, participate in a Scoutmaster conference.
 {{< /drg/requirement >}}
 
-You've done this before at every earlier rank, so the format needs no introduction: a one-on-one conversation with your Scoutmaster, not a test.
+The Life Scoutmaster conference is a pivotal milestone in your advancement journey. As the final rank conference before Eagle Scout, this discussion focuses on leadership maturity, your teaching experience, and your roadmap for completing the Eagle Scout rank requirements.
 
-## What's Different at Life
+---
 
-By Life, this conversation carries more weight than it did earlier. You've now taught another Scout using the EDGE method — your Scoutmaster will likely ask how that teaching went and what you learned from being on the instructing side. Your merit badge count is closing in on Eagle's 11-badge midpoint, and your Scoutmaster will want to hear how you're pacing the badges you still need.
+## 1. Objectives of the Life Scoutmaster Conference
 
-## Getting Ready
+During this conference, you and your Scoutmaster will explore several key topics:
 
-- Be ready to describe how your EDGE teaching from [requirement 6](/scouts-bsa/ranks/life/guide/req6/) went, including anything that surprised you about teaching versus doing.
-- Bring your notes on your position of responsibility from [requirement 5](/scouts-bsa/ranks/life/guide/req5/) — what you've done in it, not just that you hold it.
-- Have your Scout spirit examples from [requirement 2](/scouts-bsa/ranks/life/guide/req2/) ready, covering the months since Star.
-- Know your service hour split from [requirement 4](/scouts-bsa/ranks/life/guide/req4/) — how many were conservation-related and how many weren't.
+- **Reviewing Six Months of Leadership**: Reflecting on the duties and challenges of your position of responsibility ([Requirement 5](/scouts-bsa/ranks/life/guide/req5/))—evaluating how you mentored younger Scouts, managed troop logistics, and communicated with unit leaders.
+- **Assessing the EDGE Teaching Experience**: Discussing your instruction of another Scout ([Requirement 6](/scouts-bsa/ranks/life/guide/req6/))—what you learned about effective teaching, patience, and adapting to different learning styles.
+- **Evaluating Scout Spirit & Duty to God**: Reviewing your living of the Scout Oath, Scout Law, and Duty to God ([Requirement 2](/scouts-bsa/ranks/life/guide/req2/)) in your home, school, and community life.
+- **The Trail to Eagle**: Mapping out your remaining 10 merit badges (reaching 21 total, with 13 Eagle-required) and discussing preliminary concepts for your **Eagle Scout Service Project**.
+
+---
+
+## 2. Advancement Guidelines and Policies
+
+Under the *Guide to Advancement* (topic 4.2.3.5):
+- The conference is a coaching and goal-setting dialogue, not an examination.
+- It can be held at any point during your time as a Star Scout, though it typically occurs toward the conclusion of your six-month tenure.
+- The Scoutmaster cannot deny a conference or use it as a pass/fail barrier. If further development is needed, constructive guidance is provided to help you succeed.
+
+---
+
+## 3. Preparation and Materials
+
+{{< drg/checklist title="Life Conference Preparation Checklist" subtitle="What to bring and review" >}}
+- Wear your complete, clean field uniform (Class A) with merit badge sash.
+- Bring your advancement records, signed blue card stubs, and conservation service log.
+- Prepare reflections on your Teaching EDGE session and your leadership accomplishments.
+- Bring a list of the 10 remaining merit badges you plan to earn for Eagle.
+- Prepare preliminary thoughts and questions regarding potential Eagle Scout service project beneficiaries.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-If your EDGE teaching didn't go perfectly, say so. A Scoutmaster would rather hear an honest account of what was hard about teaching someone else than a version that leaves out the rough parts.
+Use this conference to ask your Scoutmaster about your troop's and district's Eagle project approval procedures. Understanding the project proposal and workbook requirements early will save you significant time as a Life Scout.
 {{< /drg/tip >}}

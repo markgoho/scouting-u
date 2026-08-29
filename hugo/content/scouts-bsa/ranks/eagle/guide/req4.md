@@ -11,28 +11,69 @@ next_title: "Lead Eagle service project"
 ---
 
 {{< drg/requirement number="4" text_format="html" >}}
-While a Life Scout, serve actively in your troop for six months in one or more of the following positions of responsibility:<br><br> <p><strong>Scout troop.</strong> Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, troop Order of the Arrow representative, den chief, scribe, librarian, historian, quartermaster, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.</p> <p><strong>Venturing crew.</strong> President, vice-president, secretary, historian, den chief, treasurer, guide, quartermaster, chaplain aide, or outdoor ethics guide.</p> <p><strong>Sea Scout ship.</strong> Boatswain, boatswains mate, storekeeper, purser, yeoman, crew leader, media specialist, specialist, den chief, or chaplain aide.</p> <p><strong>Lone Scout.</strong> Leadership responsibility in your school, religious organization, club, or elsewhere in your community.</p>
+While a Life Scout, serve actively in your troop for six months in one or more of the following positions of responsibility<sup><a href="#fn-11">11</a></sup>:<br><br> <p><strong>Scout troop.</strong> Patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, troop Order of the Arrow representative, den chief, scribe, librarian, historian, quartermaster, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.</p> <p><strong>Venturing crew.</strong> President, vice-president, secretary, historian, den chief, treasurer, guide, quartermaster, chaplain aide, or outdoor ethics guide.</p> <p><strong>Sea Scout ship.</strong> Boatswain, boatswains mate, storekeeper, purser, yeoman, crew leader, media specialist, specialist, den chief, or chaplain aide.</p> <p><strong>Lone Scout.</strong> Leadership responsibility in your school, religious organization, club, or elsewhere in your community.</p>
 {{< /drg/requirement >}}
 
-You already served [six months in a position of responsibility at Life](/scouts-bsa/ranks/life/guide/req5/). Eagle asks for the same six months again — but the rules around it tighten in two ways that catch Scouts off guard.
+Leadership is the hallmark of an Eagle Scout. Requirement 4 mandates that you serve actively for **at least six full months** in an approved youth leadership position of responsibility while holding the rank of Life Scout.
 
-## The List Narrows
+---
 
-Compare this list to Life's: bugler is gone. It was an approved position for Life, but it doesn't count for Eagle. Assistant patrol leader has never been an approved position at any of these ranks, even though some troops treat it as a real job — don't assume it counts here either. If you're not sure whether your current position is still on the approved list, check with your Scoutmaster before you're six months in.
+## 1. Approved Leadership Roles for Scout Troops
 
-- **Scout troop**: patrol leader, assistant senior patrol leader, senior patrol leader, troop guide, troop Order of the Arrow representative, den chief, scribe, librarian, historian, quartermaster, junior assistant Scoutmaster, chaplain aide, instructor, webmaster, or outdoor ethics guide.
-- **Venturing crew**: president, vice-president, secretary, historian, den chief, treasurer, guide, quartermaster, chaplain aide, or outdoor ethics guide.
-- **Sea Scout ship**: boatswain, boatswains mate, storekeeper, purser, yeoman, crew leader, media specialist, specialist, den chief, or chaplain aide.
-- **Lone Scout**: leadership responsibility in your school, religious organization, club, or elsewhere in your community.
+Scouting America maintains a strict list of qualifying youth leadership positions for the Eagle Scout rank:
 
-## No Leadership Project Alternative
+- **Senior Patrol Leader (SPL)**: Top elected youth leader; runs meetings, chairs the PLC, and coordinates troop program.
+- **Assistant Senior Patrol Leader (ASPL)**: Appointed second-in-command; directs meeting operations, manages appointed staff, and steps in for the SPL.
+- **Patrol Leader (PL)**: Elected patrol leader; represents patrol on the PLC and directs patrol activities and camping logistics.
+- **Troop Guide**: Senior mentor assigned to guide a new-Scout patrol toward First Class advancement.
+- **Troop Order of the Arrow Representative (OA Rep)**: Coordinates OA elections, service projects, and chapter/lodge participation.
+- **Scribe**: Troop administrative officer; manages meeting attendance, dues, and PLC minutes.
+- **Quartermaster**: Equipment manager; maintains troop gear inventory, campsite trailers, and tool maintenance.
+- **Historian**: Preserves troop history, photo archives, social archives, and annual displays.
+- **Librarian**: Organizes and manages the troop lending library of merit badge pamphlets and books.
+- **Webmaster**: Manages the troop website, digital communication platforms, and online calendar under Youth Protection standards.
+- **Chaplain Aide**: Coordinates non-denominational Scouts' Own services, promotes reverence, and supports unit members.
+- **Outdoor Ethics Guide**: Teaches and enforces Leave No Trace principles, Tread Lightly! ethics, and the Outdoor Code.
+- **Junior Assistant Scoutmaster (JASM)**: For youth at least 16 years old; provides advanced leadership and mentorship under the Scoutmaster's direction.
+- **Instructor**: Instructs Scouts in specific scoutcraft, pioneering, navigation, or first aid skills.
+- **Den Chief**: Serves as a youth leader and role model assisting a Cub Scout den leader with weekly den meetings and activities.
 
-At Life, a Scoutmaster-approved leadership project could stand in if no position was open. That alternative does not exist for Eagle — you have to actually hold one of the listed positions for six months. If nothing's open in your troop, talk to your Scoutmaster well before your Life tenure clock in [requirement 1](/scouts-bsa/ranks/eagle/guide/req1/) runs out, since finding an open position takes real lead time and there's no substitute to fall back on here.
+---
 
-## Serving Actively
+## 2. Critical Exclusions for the Eagle Rank
 
-"Serve actively" still means actually doing the job's duties for the full six months, not just holding the title — the same standard as every earlier rank. This window can run alongside the tenure clock from requirement 1.
+The rules for Eagle Scout leadership are strictly defined in **Footnote 11** and the *Guide to Advancement* (topic 4.2.3.4.4):
+
+{{< drg/did-you-know >}}
+- **Bugler is NOT an approved position for Eagle Scout**: While Bugler qualifies for Star and Life, it is explicitly excluded for Eagle.
+- **Assistant Patrol Leader (APL) is NOT approved**: APL does not qualify for Star, Life, or Eagle.
+- **No Leadership Projects**: Unlike Star and Life, a Scoutmaster-approved leadership project **CANNOT** be used as a substitute for serving in a position of responsibility for the Eagle Scout rank.
+{{< /drg/did-you-know >}}
+
+---
+
+## 3. Venturing, Sea Scout, and Lone Scout Positions
+
+- **Venturing Crew**: President, Vice-President, Secretary, Historian, Den Chief, Treasurer, Guide, Quartermaster, Chaplain Aide, or Outdoor Ethics Guide.
+- **Sea Scout Ship**: Boatswain, Boatswain's Mate, Storekeeper, Purser, Yeoman, Crew Leader, Media Specialist, Specialist, Den Chief, or Chaplain Aide.
+- **Lone Scout**: Leadership responsibility in your school (e.g., student body officer), religious institution, club, or community organization.
+
+---
+
+## 4. Demonstrating "Active Service" Over Six Months
+
+Serving actively requires executing the duties of your office with consistency, diligence, and accountability:
+1. **Understand Your Position**: Work with your Scoutmaster or SPL to clarify all expectations at the beginning of your term.
+2. **Consistent Performance**: Attend troop meetings, PLC meetings, and campouts, fulfilling your responsibilities for the full six months.
+3. **Combining Positions**: You may combine time served across multiple approved positions (e.g., three months as Patrol Leader followed by three months as Troop Guide) to reach your six-month total.
+
+{{< drg/checklist title="Eagle Leadership Verification Checklist" subtitle="Ensure your leadership term fulfills Requirement 4" >}}
+- Position is on the approved Eagle list (not Bugler or APL).
+- Served a full 6 months after your Life board of review date.
+- Fulfilled the job responsibilities actively and conscientiously.
+- Dates and position title recorded accurately on your Eagle Scout Rank Application.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Moving into a new position for Eagle? Ask whoever held it before you what the job actually involves. Six months is a long stretch to discover partway through that the role is bigger — or smaller — than you expected.
+Conduct a mid-term review with your Scoutmaster after three months in your position of responsibility. This ensures you are fulfilling the active service standard and provides an opportunity for feedback.
 {{< /drg/tip >}}

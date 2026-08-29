@@ -57,20 +57,38 @@ guide_nav:
 
 ## Overview
 
-Life is the last rank before Eagle. Every clock runs longer here — six months of tenure, six months in a position of responsibility, seven merit badges from the Eagle-required list instead of four — and it adds one skill no earlier rank asked for: teaching another Scout using the EDGE method. Earning Life means you're no longer just building your own skills; you're passing them on.
+Life Scout is the sixth rank in Scouts BSA and the final step before the Eagle Scout rank. As a Life Scout candidate, you are recognized as a senior youth leader, role model, and mentor to younger Scouts in your troop. 
 
-## Building on the Last Rank
+Earning the Life rank requires deep commitment across eight requirements. The timeframes and expectations expand significantly: your active tenure and leadership requirement both increase from four months to six months, your merit badge total reaches 11 (with at least seven from the Eagle-required list), your service hours incorporate a dedicated conservation focus, and you are called upon to teach outdoor and scoutcraft skills to another Scout using the Teaching EDGE method.
 
-You demonstrated [Scout spirit](/scouts-bsa/ranks/star/guide/req2/), logged [service hours](/scouts-bsa/ranks/star/guide/req4/), and held a [position of responsibility](/scouts-bsa/ranks/star/guide/req5/) at Star. All three come back here with a higher bar: your service hours stay at six but now require a three-hour conservation split, and your position of responsibility stretches from four months to six. Life also introduces something new — using the Teaching EDGE method to teach a skill you already know to a Scout who doesn't.
+---
 
-## What This Takes
+## The Core Pillars of Life Scout
 
-- **6 months** as an active Star Scout before you can complete this rank ([requirement 1](/scouts-bsa/ranks/life/guide/req1/), confirmed again at your [board of review](/scouts-bsa/ranks/life/guide/req8/)).
-- **5 more merit badges** (11 total), with **3 of those 5** from the Eagle-required list, bringing your Eagle-required count to 7 ([requirement 3](/scouts-bsa/ranks/life/guide/req3/)).
+To earn the Life rank, you will complete eight core requirements organized into the following key domains:
 
-## Get Ready!
+1. **Active Tenure ([Requirement 1](/scouts-bsa/ranks/life/guide/req1/))**: Be active in your troop for at least six months as a Star Scout.
+2. **Scout Spirit & Duty to God ([Requirement 2](/scouts-bsa/ranks/life/guide/req2/))**: Demonstrate how you live the Scout Oath and Scout Law in your everyday life and explain how you fulfill your Duty to God.
+3. **Advanced Merit Badge Progress ([Requirement 3](/scouts-bsa/ranks/life/guide/req3/))**: Earn five additional merit badges (reaching a total of 11), ensuring at least seven of your total 11 come from the Eagle-required list.
+4. **Conservation & Community Service ([Requirement 4](/scouts-bsa/ranks/life/guide/req4/))**: Complete six hours of Scoutmaster-approved service, with at least three hours dedicated specifically to conservation work.
+5. **Sustained Youth Leadership ([Requirement 5](/scouts-bsa/ranks/life/guide/req5/))**: Serve actively for six months in an approved youth position of responsibility.
+6. **Instruction & Mentorship ([Requirement 6](/scouts-bsa/ranks/life/guide/req6/))**: Use the four-step Teaching EDGE method (Explain, Demonstrate, Guide, Enable) to instruct another Scout in a core skill choice.
+7. **Advancement Review ([Requirements 7 & 8](/scouts-bsa/ranks/life/guide/req7/))**: Complete a Scoutmaster conference and successfully pass a board of review.
 
-Life takes longer than any rank before it — start your six-month tenure clock, your position of responsibility, and your merit badge work now, since all three run in the background while you work through the rest.
+---
+
+## Planning Your Path to Life
+
+Because the six-month clock represents a significant investment of time, disciplined planning is essential:
+
+- **Launch Tenure and Leadership Simultaneously**: Step into an approved position of responsibility immediately following your Star board of review so your six-month leadership term runs concurrently with your tenure requirement.
+- **Tackle Required Merit Badges**: Focus on high-demand Eagle-required badges—especially those with multi-month tracking periods like *Personal Management* (13 weeks), *Personal Fitness* (12 weeks/90 days), and *Family Life* (90 days).
+- **Find a Meaningful Conservation Project**: Identify a local park, watershed, or nature preserve where you can contribute hands-on conservation work.
+- **Prepare to Teach**: Choose a younger Scout in your troop and coordinate with your Scoutmaster to teach a foundational scoutcraft skill using the Teaching EDGE framework.
+
+{{< drg/tip >}}
+Life Scout is the ideal time to begin brainstorming ideas for your Eagle Scout Service Project. By observing other Scouts' Eagle projects and discussing community needs with your Scoutmaster, you will be prepared to hit the ground running once you earn Life.
+{{< /drg/tip >}}
 
 {{< drg/next-page
     text="With the big picture in view"

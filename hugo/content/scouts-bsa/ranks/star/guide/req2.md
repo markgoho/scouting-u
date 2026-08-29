@@ -14,22 +14,48 @@ next_title: "Earn 6 merit badges"
 As a First Class Scout, demonstrate Scout spirit by living the Scout Oath and Scout Law. Tell how you have done your duty to God and how you have lived the Scout Oath and Scout Law in your everyday life.
 {{< /drg/requirement >}}
 
-At [Tenderfoot](/scouts-bsa/ranks/tenderfoot/guide/req9/), [Second Class](/scouts-bsa/ranks/second-class/guide/req10/), and [First Class](/scouts-bsa/ranks/first-class/guide/req11/), you picked four points of the Scout Law each time and explained how you lived them. This requirement drops that structure. It doesn't ask for four points — it asks how you've lived the whole Scout Oath and Scout Law in your everyday life since you earned First Class.
+For Tenderfoot, Second Class, and First Class, you selected four specific points of the Scout Law at each rank to illustrate how you practiced Scout spirit. At Star Scout, the expectation deepens: you are asked to demonstrate how the entire Scout Oath and Scout Law shape your everyday life and conduct.
 
-## Why the Question Changed
+---
 
-By now you've cited all twelve points of the Law across your first three ranks. Star isn't asking you to find four new ones — there aren't any left that you haven't already used. Instead, it's asking a broader question: not "which points," but "what has Scout spirit actually looked like in your life lately." That's a harder question to answer with a rehearsed list, and it's supposed to be.
+## 1. Understanding Scout Spirit at the Star Level
 
-## Duty to God
+Scout spirit is not measured by reciting the Oath and Law from memory. It is demonstrated by your daily attitude, personal integrity, how you treat others, and how you uphold Scouting values when nobody is watching.
 
-This part stays personal, tied to your own faith tradition or beliefs. Come with something specific — an actual choice you made or moment you noticed — rather than a general statement about believing in God.
+As a senior youth candidate, your actions directly influence newer Scouts in the troop. Living the Scout Oath and Law means:
+- **At Home**: Showing respect to parents, guardians, and siblings; fulfilling household responsibilities without complaint; fostering a supportive family environment.
+- **At School**: Practicing academic honesty, treating teachers and classmates with kindness, including students who may feel left out, and standing up against bullying or teasing.
+- **In Extracurriculars & Athletics**: Exhibiting good sportsmanship, supporting teammates, showing grace in both victory and defeat, and giving full effort.
+- **Online & On Social Media**: Communicating respectfully, protecting personal privacy, refraining from cyberbullying or spreading rumors, and reflecting positive values in digital spaces.
 
-## Living the Oath and Law
+---
 
-Think across your whole life, not just Scouting: home, school, sports, friendships. Pick two or three real moments from the last four months where a point of the Law or a line of the Oath ("On my honor I will do my best...") shaped what you did. A moment where you were tempted to cut corners and didn't is often a stronger example than one where the right choice was easy.
+## 2. Explaining Your Duty to God
+
+Scouting America embraces a broad, inclusive understanding of Duty to God, welcoming youth and families of all faiths, beliefs, and religious traditions. 
+
+When discussing Duty to God with your Scoutmaster:
+- Reflect on your personal faith tradition, family values, or spiritual convictions.
+- Provide concrete examples: participating in religious services, offering prayers of gratitude, observing holy days, helping someone in need, caring for nature and creation, or demonstrating kindness and compassion as guided by your beliefs.
+- If your family does not belong to a formal religious congregation, describe how your family practices reverence, gratitude, ethical responsibility, and respect for others.
+
+---
+
+## 3. Preparing for Your Scoutmaster Discussion
+
+During your Scoutmaster conference, your Scoutmaster will ask you to share specific stories and reflections from your four months as a First Class Scout.
+
+{{< drg/checklist title="Scout Spirit Reflection Guide" subtitle="Questions to consider before your conference" >}}
+- What was a recent situation where doing the right thing was difficult or unpopular, but you chose to follow the Scout Oath or Law anyway?
+- How have you shown helpfulness, kindness, or cheerfulness to family members, teachers, or peers?
+- How does "On my honor I will do my best" apply to your schoolwork, leadership roles, or hobbies?
+- In what ways have you expressed your Duty to God and reverence in your daily routine?
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Keep a running note on your phone or in a notebook whenever you notice yourself living out a point of the Law. By the time your Scoutmaster conference comes around, you'll have real examples instead of trying to remember four months back.
+Keep a brief running log or note on your phone with memorable moments where you made an ethical decision or helped someone in an unexpected way. Having concrete examples ready makes your Scoutmaster conference thoughtful and authentic.
 {{< /drg/tip >}}
 
-This requirement is graded on whether your examples are honest and specific to your own life — not on which points of the Law you happen to mention.
+{{< drg/be-prepared title="When You Make a Mistake" >}}
+Scout spirit is not about perfection. If you had a conflict, made a mistake, or fell short of your ideals during the past four months, be honest about it. True character is shown when a Scout acknowledges an error, apologizes, makes amends, and learns how to handle similar situations better in the future.
+{{< /drg/be-prepared >}}

@@ -14,40 +14,61 @@ next_title: "Complete 6 hours of service"
 Earn six merit badges, including any four from the required list for Eagle. You may choose any of the merit badges on the required list for Eagle to fulfill this requirement. See Eagle rank requirement 3 for this list.
 {{< /drg/requirement >}}
 
-Six merit badges. Four of them have to come from a specific list of thirteen. This is the first rank where merit badges count toward advancement at all — everything before Star was skill demonstrations and service, not badge work.
+Requirement 3 marks the beginning of the formal merit badge requirement path in Scouts BSA advancement. While you may have earned merit badges earlier in your Scouting career, Star is the first rank where earning merit badges is required to advance.
 
-## The Eagle-Required List
+---
 
-Eagle rank requires 21 merit badges total, and 13 of them are fixed — you don't get to pick which subjects, only which badge within a few paired options. That list of 13 is what Star requirement 3 means by "the required list for Eagle":
+## 1. How Merit Badges Work
 
-- (a) First Aid
-- (b) Citizenship in the Community
-- (c) Citizenship in the Nation
-- (d) Citizenship in the World
-- (e) Communication
-- (f) Cooking
-- (g) Personal Fitness
-- (h) Emergency Preparedness **or** Lifesaving
-- (i) Environmental Science **or** Sustainability
-- (j) Personal Management
-- (k) Swimming **or** Hiking **or** Cycling
-- (l) Camping
-- (m) Family Life
+The merit badge program introduces you to over 135 subjects ranging from outdoor survival and environmental science to aviation, robotics, personal finance, and public health.
 
-Any merit badge on this list — including either option within (h), (i), or (k) — counts as "from the required list for Eagle" for this requirement.
+The official process for earning any merit badge involves four key steps:
+1. **Discuss with Your Scoutmaster**: Before beginning work, express your interest to your Scoutmaster and obtain an Application for Merit Badge (commonly called a "blue card") or a digital approval in Scoutbook.
+2. **Connect with a Registered Counselor**: Your Scoutmaster or unit advancement coordinator will provide the contact details of a qualified, registered merit badge counselor.
+3. **Complete the Requirements**: Meet with your counselor (always following Youth Protection guidelines and the buddy system). Work through the requirements exactly as stated—nothing may be added, and nothing may be omitted.
+4. **Final Sign-Off & Recording**: Once all requirements are fulfilled to the counselor's satisfaction, the counselor signs the blue card or submits completion via Scoutbook. Turn in your completed record to your troop advancement coordinator.
 
-## Picking Your Four
+---
 
-You get to choose which four of the thirteen you go after first. There's no wrong order, but a few things are worth knowing as you pick:
+## 2. Understanding the Eagle-Required Merit Badge Categories
 
-- Some of these badges (Camping, First Aid) build directly on skills you already have from earlier ranks — a natural place to start.
-- Citizenship in the Community, Citizenship in the Nation, and Citizenship in the World each take real research and a counselor conversation — don't leave all three for the last minute.
-- Whatever you don't use here toward your four, you'll still need eventually for Life and Eagle. Nothing you earn now goes to waste.
+Eagle Scout requires a total of 21 merit badges, of which 13 specific subjects/categories are required. For the Star rank, you must earn a total of **six merit badges**, with at least **four** coming from the Eagle-required list:
 
-## Your Other Two Badges
+- **First Aid**: Foundational emergency response and life-saving skills.
+- **Citizenship in the Community**: Local government, civic involvement, and community organizations.
+- **Citizenship in the Nation**: Federal government structure, national symbols, and historic documents.
+- **Citizenship in the World**: International relations, global treaties, and world cultures.
+- **Communication**: Public speaking, digital communication, interviewing, and writing skills.
+- **Cooking**: Camp culinary skills, nutrition, meal planning, and food safety.
+- **Personal Fitness**: Physical fitness, nutrition, and a mandatory 12-week (90-day) fitness tracking program.
+- **Emergency Preparedness OR Lifesaving**: Choose one to fulfill the requirement.
+- **Environmental Science OR Sustainability**: Choose one to fulfill the requirement.
+- **Personal Management**: Financial planning, budgeting, project tracking, and a mandatory 13-week budget record.
+- **Swimming OR Hiking OR Cycling**: Choose one outdoor physical skill to fulfill the requirement.
+- **Camping**: Outdoor living, campsite selection, packing, and a requirement for at least 20 days and nights of camping.
+- **Family Life**: Family roles, responsibilities, projects, and a mandatory 90-day tracking of family chores.
 
-The remaining two of your six can be any merit badge at all — from the Eagle-required list or not. Talk to your Scoutmaster about how your troop signs up merit badge counselors before you start; the process is the same one you'll use for every badge from here through Eagle.
+{{< drg/did-you-know >}}
+Any merit badge you earned as a Scout, Tenderfoot, Second Class, or First Class counts toward your six merit badges for Star. You do not need to earn all six during your four months as a First Class Scout.
+{{< /drg/did-you-know >}}
+
+---
+
+## 3. Strategic Selection: Picking Your Four Eagle-Required Badges
+
+Choosing which Eagle-required badges to complete for Star is an important strategic decision:
+
+1. **Leverage Existing Rank Skills**: Badges like **First Aid**, **Camping**, and **Cooking** directly build on skills you mastered from Scout through First Class.
+2. **Start Long-Lead Tracking Badges Early**: Badges like **Personal Fitness** (12 weeks/90 days), **Family Life** (90 days), and **Personal Management** (13 weeks) take three full months of consistent record-keeping. Starting one now helps prevent advancement bottlenecks later on the path to Life and Eagle.
+3. **Balance with Electives**: Your remaining two merit badges can be any elective badges that spark your curiosity—such as *Wilderness Survival*, *Archery*, *Woodwork*, *Robotics*, *Game Design*, or *Leatherwork*.
+
+{{< drg/checklist title="Merit Badge Roadmap Checklist" subtitle="Ensure your 6 badges meet all criteria" >}}
+- Total badges earned: at least 6.
+- Eagle-required badges: at least 4 from the official categories.
+- Elective or additional badges: 2 of your choice.
+- Blue cards or digital advancement records: signed by registered counselors and submitted to the unit advancement chair.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Ask your Scoutmaster or advancement coordinator for the troop's list of registered merit badge counselors before picking your six. Starting with a badge that has an active counselor nearby saves weeks of waiting.
+Keep your signed blue card applicant stubs in a dedicated three-ring binder with baseball-card protective sleeves. These paper records serve as permanent proof of completion if there is ever a database discrepancy.
 {{< /drg/tip >}}

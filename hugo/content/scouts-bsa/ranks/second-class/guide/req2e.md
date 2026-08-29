@@ -18,7 +18,7 @@ Cooking a balanced, nutritious hot meal in the field requires thoughtful plannin
 
 ## Designing a Balanced Meal with MyPlate
 
-<a href="https://www.myplate.gov/">USDA MyPlate</a> divides daily nutritional intake into five core food groups. A great camp meal incorporates all or most of these groups:
+[USDA MyPlate](https://www.myplate.gov/) divides daily nutritional intake into five core food groups. A great camp meal incorporates all or most of these groups:
 
 1. **Grains (Carbohydrates):** Fuel for endurance and sustained physical activity (oatmeal, whole wheat bread, tortillas, brown rice, pasta).
 2. **Protein:** Essential for muscle repair and long-lasting satiety (eggs, bacon, beans, chicken, tuna, cheese, nuts).

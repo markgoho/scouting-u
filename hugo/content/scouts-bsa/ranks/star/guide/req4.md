@@ -14,22 +14,47 @@ next_title: "Serve in position of responsibility"
 While a First Class Scout, participate in six hours of service through one or more service projects approved by your Scoutmaster.
 {{< /drg/requirement >}}
 
-Your service hours have grown at every rank so far: [one hour at Tenderfoot](/scouts-bsa/ranks/tenderfoot/guide/req7b/), [two at Second Class](/scouts-bsa/ranks/second-class/guide/req8e/), [three at First Class](/scouts-bsa/ranks/first-class/guide/req9d/). Star doubles that jump to six hours — more than any single earlier rank asked for on its own.
+Service is a core principle of Scouting, embodying the Scout slogan to "Do a Good Turn Daily." While Tenderfoot required one hour, Second Class required two, and First Class required three, Star raises the standard to **six hours of service**.
 
-## Finding a Project
+---
 
-Your Scoutmaster has to approve the project (or projects) before or as you do them, not after the fact. Good service work usually comes from one of a few places:
+## 1. Rules and Standards for Service Hours
 
-- A troop-organized service project, such as a conservation project or a community cleanup.
-- A request from your chartered organization or place of worship.
-- Something you find yourself — a neighbor who needs yard work, a food pantry that needs sorting help — that your Scoutmaster signs off on.
+To count toward Requirement 4, your service must satisfy specific criteria established by Scouting America:
 
-You can split the six hours across more than one project; they don't have to be a single event.
+1. **Earned While a First Class Scout**: The hours must be completed *after* your First Class board of review date. Hours performed prior to earning First Class cannot be carried forward.
+2. **Scoutmaster Approval**: The project must receive Scoutmaster approval *before* you participate. Retroactive approval is at the discretion of the Scoutmaster, so always verify beforehand.
+3. **Eligible Beneficiaries**: Projects may benefit your chartered organization, place of worship, school, local municipality, food bank, community park, conservation group, or an older Scout's Eagle Scout Service Project.
+4. **Ineligible Projects**: Service cannot benefit commercial, for-profit businesses, cannot involve personal favors for friends or family, and cannot be routine fundraising for your own troop (such as popcorn sales or car washes for unit funds).
 
-## Tracking Your Hours
+---
 
-Keep your own notes as you go: the date, the organization, what you did, and how many hours it took. You'll want this when you talk to your Scoutmaster and at your board of review — six hours spread across a few smaller projects is easy to lose track of if you wait until the end to reconstruct it.
+## 2. Options for Completing Your Six Hours
+
+You are not required to complete all six hours in a single day or project. You can combine hours across multiple activities:
+
+- **Assist an Eagle Scout Project**: Helping a fellow Scout carry out their Eagle Scout Service Project is an excellent way to earn hours while observing project leadership in action.
+- **Troop-Organized Service Days**: Participate in unit community cleanups, tree plantings, trail building, or holiday food drives (such as Scouting for Food).
+- **Civic and Faith-Based Service**: Volunteer at a local shelter, clean up grounds at your chartered organization, or assist with a library literacy drive.
+
+{{< drg/did-you-know >}}
+Hours spent working on your own service requirement cannot be "double counted" toward school or other club requirements unless both your Scoutmaster and the other organization explicitly approve the dual reporting.
+{{< /drg/did-you-know >}}
+
+---
+
+## 3. Accurate Record-Keeping
+
+Whenever you participate in a service project, maintain a detailed record so your Scoutmaster can sign off on your advancement without delay.
+
+{{< drg/checklist title="Service Project Log" subtitle="Information to record for each project" >}}
+- Date of service.
+- Name of the organization or beneficiary served.
+- Specific description of the tasks performed.
+- Total number of hours worked.
+- Name and contact information of the project supervisor or Scoutmaster.
+{{< /drg/checklist >}}
 
 {{< drg/tip >}}
-Ask your Scoutmaster to approve a project before you show up to do it, even for something informal like helping a neighbor. A quick text or conversation beforehand avoids any question later about whether the hours count.
+Always check with your Scoutmaster before starting an independent project outside of troop events. A quick conversation or email ensures the beneficiary and activity qualify under Scouting standards.
 {{< /drg/tip >}}

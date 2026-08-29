@@ -9,38 +9,55 @@ next: "/scouts-bsa/ranks/star/guide/print/"
 next_title: "Complete Digital Requirements Guide"
 ---
 
-## Congratulations!
+## Congratulations on Earning Star Scout!
 
-Star is a real shift in what Scouting asks of you. Up through First Class, advancement was about skills you could demonstrate in an afternoon. From here on, it's about sustained commitment — months of active tenure, a real leadership role, and a growing list of merit badges. The habits you build now — tracking your own hours, following through on a position over time, starting merit badge work early — are the same ones Life and Eagle will ask for again, just at a larger scale.
+Achieving the Star rank is a significant milestone that places you among the senior youth leaders in your troop. You have proven that you can sustain active commitment over four months, lead your peers in an official position of responsibility, contribute meaningful service to your community, and earn six merit badges toward Eagle.
 
-## Dig Deeper
+---
 
-**How merit badge counseling actually works.** Requirement 3 introduced merit badges, but it didn't explain the mechanics: you get a signed "blue card" from your Scoutmaster before starting a badge, meet with a registered counselor to work through the requirements, and the counselor signs off when you're done. Understanding this process now saves confusion on the fifteen more badges you'll need for Eagle.
+## Expanding Your Leadership Horizons
 
-**Leadership beyond the title.** Requirement 5 asks you to hold a position for four months, but holding a title and leading well aren't the same thing. Many councils offer a short course called Introduction to Leadership Skills for Troops (ILST), built specifically for Scouts in a position of responsibility — it teaches the actual skills (running a meeting, delegating, resolving conflict) that make a position more than a name on a roster.
+Now that you have achieved Star, take advantage of advanced leadership training and specialized Scouting programs designed for senior youth:
 
-**The "Three R's" beyond this rank.** Requirement 6's videos taught Recognize, Resist, Report as a framework for personal safety. That same framework — noticing a risky situation, refusing to go along with it, and telling a trusted adult — applies far beyond abuse prevention: bullying, hazing, and peer pressure all respond to the same three steps.
+### 1. Introduction to Leadership Skills for Troops (ILST)
+ILST is a troop-level training course led by senior youth and Scoutmasters. It provides intensive instruction across three vital leadership modules:
+- **Troop Organization**: Understanding roles, responsibilities, and the patrol method.
+- **Tools of the Trade**: Communication, meeting planning, delegating, and the Teaching EDGE method.
+- **Leadership & Teamwork**: Conflict resolution, ethical decision-making, and servant leadership.
 
-## Try This Next
+### 2. National Youth Leadership Training (NYLT)
+NYLT is an immersive, week-long council-level outdoor leadership experience. It simulates an elite high-performing troop environment, teaching advanced project management, communication frameworks, problem-solving models, and servant leadership skills that will benefit you in Scouting, school, and your future career.
 
-- Ask your Scoutmaster or advancement coordinator about ILST or a similar leadership course — it directly strengthens the position you're holding for [requirement 5](/scouts-bsa/ranks/star/guide/req5/).
-- Schedule your first meeting with a merit badge counselor now, rather than waiting until you've "picked" all six badges from [requirement 3](/scouts-bsa/ranks/star/guide/req3/) — starting one badge in motion often makes the rest easier to plan around.
-- Keep logging your service hours as a habit, not just a Star-specific task — Life and Eagle both raise the bar again.
+### 3. The Order of the Arrow (OA)
+The Order of the Arrow is Scouting America's National Honor Society. Scouts who exemplify the Scout Oath and Law in their daily lives are elected by their peers. OA members focus on cheerful service, camp conservation, and brotherhood.
+
+### 4. Den Chief Service & Training
+Serving as a Den Chief to a local Cub Scout pack connects you with younger youth, building your mentoring skills while strengthening the future pipeline of your troop. Den Chiefs can complete specialized online and in-person training modules to maximize their effectiveness.
+
+---
+
+## Next Steps Toward Life Scout
+
+As you begin your journey toward Life Scout, keep these strategic goals in focus:
+- Start your **six-month active tenure clock** and step into your next **position of responsibility**.
+- Begin your next five merit badges (aiming to reach 11 total, with at least 7 Eagle-required).
+- Look ahead to your **six hours of service** (including at least three hours of conservation-related service).
+- Practice the **Teaching EDGE method** to prepare for teaching younger Scouts.
 
 {{< drg/experience-card
-    title="Attend Introduction to Leadership Skills for Troops (ILST)"
-    details="Location: Most councils, often run at the troop or district level | Highlights: Build real skills for the position of responsibility from requirement 5." >}}
+    title="Attend National Youth Leadership Training (NYLT)"
+    details="Location: Local Council Camp | Highlights: Week-long advanced leadership training modeling real-world team development and communication." >}}
 
 {{< drg/experience-card
-    title="Shadow a Merit Badge Counselor Session"
-    details="Location: Wherever your troop's counselors meet with Scouts | Highlights: See how a full merit badge, start to finish, actually gets earned." >}}
+    title="Participate in Introduction to Leadership Skills for Troops (ILST)"
+    details="Location: Troop Meeting or Weekend Retreat | Highlights: Build practical delegation, planning, and mentoring skills for your leadership role." >}}
 
 {{< drg/org-card
     name="Scouting America Merit Badges"
     url="https://www.scouting.org/skills/merit-badges/"
-    description="The official list of merit badges, including which ones count toward Eagle." >}}
+    description="Explore the complete library of over 135 merit badge pamphlets and requirement guides." >}}
 
 {{< drg/org-card
-    name="Scouts First Helpline"
-    url="https://www.scouting.org/health-and-safety/safety-moments/scouts-first-helpline/"
-    description="24-hour helpline for reporting known or suspected abuse, referenced in requirement 6." >}}
+    name="Order of the Arrow"
+    url="https://oa-bsa.org/"
+    description="Learn about Scouting's National Honor Society and opportunities for cheerful service and leadership." >}}

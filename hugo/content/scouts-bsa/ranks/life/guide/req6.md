@@ -23,42 +23,87 @@ While a Star Scout, use the Teaching EDGE method to teach another Scout (prefera
 7. First Class - 7a and 7b (first aid)
 8. Three requirements from one of the required for Eagle merit badges, as approved by your Scoutmaster
 
-Knowing a skill and teaching a skill are two different jobs. You've had someone teach you every skill on this list already — now Life asks you to be the one on the other side, using a specific four-step method called EDGE.
+---
 
-## The EDGE Method
+## 1. Understanding the Teaching EDGE Method
 
-EDGE stands for **Explain, Demonstrate, Guide, Enable** — four steps, always in that order:
+The **Teaching EDGE** is Scouting America's official four-step instructional framework. It is designed to take a learner from complete unfamiliarity with a skill to confident, independent execution:
 
-- **Explain**: Describe what you're teaching and why it matters. Walk through the steps out loud before any hands touch the gear.
-- **Demonstrate**: Show the skill yourself, slowly and clearly, narrating what you're doing as you do it.
-- **Guide**: Let the Scout try it while you coach — correcting, prompting, and answering questions as they go.
-- **Enable**: Step back. Let the Scout do the skill on their own, without your help, to prove they've actually got it.
+1. **Explain (The Cognitive Phase)**:
+   - Introduce the skill clearly and describe its real-world purpose and safety considerations.
+   - Break the skill down into logical, easy-to-understand steps.
+   - Use clear terminology and encourage questions before touching any equipment.
+2. **Demonstrate (The Visual & Auditory Phase)**:
+   - Perform the skill yourself in front of the Scout, moving slowly and deliberately.
+   - Narrate your actions step-by-step as you perform them.
+   - Highlight key techniques, common pitfalls, and safety checks.
+3. **Guide (The Hands-On Coaching Phase)**:
+   - Place the tools, materials, or equipment directly into the learner's hands.
+   - Have the Scout perform the skill while you coach, prompt, and provide immediate, encouraging feedback.
+   - Correct errors gently and have the Scout repeat challenging steps until they feel comfortable.
+4. **Enable (The Autonomous Execution Phase)**:
+   - Step back completely and allow the Scout to perform the entire skill independently from start to finish without assistance.
+   - Assess their performance to confirm they have truly mastered the skill and understand the underlying concepts.
 
-Skipping straight from Explain to Guide, or from Demonstrate to Enable, isn't the EDGE method — each step has to happen, in order, for the teaching to count.
+{{< drg/did-you-know >}}
+Skipping any step of the EDGE method—such as jumping directly from Explain to Guide, or leaving out the independent Enable step—diminishes learning retention. All four steps must be executed in sequence.
+{{< /drg/did-you-know >}}
 
-## Picking Your One Choice
+---
 
-Choose ONE of the eight options above — you don't need to teach more than one. Pick the choice that matches a skill you're confident in and that fits a Scout who's ready to learn it. Whichever you pick, you're teaching *all* the requirement numbers listed for that choice, not just one of them: choice 1 means teaching both [Tenderfoot 4a](/scouts-bsa/ranks/tenderfoot/guide/req4a/) and [4b](/scouts-bsa/ranks/tenderfoot/guide/req4b/), not just whichever one you like better.
+## 2. Comprehensive Breakdown of the Eight Skill Choices
 
-If a navigation or tools choice appeals to you, [Second Class 3a and 3d](/scouts-bsa/ranks/second-class/guide/req3a/), [First Class 3a-3d](/scouts-bsa/ranks/first-class/guide/req3a/), and [First Class 4a and 4b](/scouts-bsa/ranks/first-class/guide/req4a/) all draw on skills you likely used most recently. If first aid is more your strength, [Second Class 6a and 6b](/scouts-bsa/ranks/second-class/guide/req6a/) and [First Class 7a and 7b](/scouts-bsa/ranks/first-class/guide/req7a/) go beyond the basics into bandaging and transporting an injured person.
+You must select **ONE** of the following eight options to teach. Whichever choice you select, you must teach **all** requirement components listed in that option:
 
-## Preparing to Teach
+### Choice 1: Tenderfoot 4a & 4b (First Aid)
+- **Tenderfoot 4a**: First aid for poisonous plants (poison ivy, oak, sumac), venomous snakebites, insect stings, tick bites, minor cuts and scrapes, minor burns and scalds, and nosebleeds.
+- **Tenderfoot 4b**: First aid for someone who is choking (abdominal thrusts / Heimlich maneuver).
 
-Review the skill yourself first, even if you learned it years ago — a rusty demonstration undercuts the whole method. Talk to your Scoutmaster about who you'll teach; a younger Scout who genuinely hasn't learned the skill yet gives you a real teaching situation, not a rehearsed one.
+### Choice 2: Second Class 2b, 2c, & 2d (Cooking & Fire Safety)
+- **Second Class 2b & 2c**: Selecting, preparing, and lighting tinder, kindling, and fuel wood for a cooking fire; managing fire safety and camp stoves.
+- **Second Class 2d**: Safe handling, sharpening, cleaning, and maintenance of a pocketknife, ax, and saw.
 
-## What "Prepared to Pass" Means
+### Choice 3: Second Class 3a & 3d (Navigation)
+- **Second Class 3a**: Demonstrating compass orientation, map symbols, and finding direction on a map using a compass.
+- **Second Class 3d**: Finding direction on a sunny day (using shadow-stick method) and on a clear night (locating the North Star / Polaris using the Big Dipper).
 
-The requirement doesn't ask you to sign the other Scout off — it asks you to get them ready to pass those requirements to their own Scoutmaster's satisfaction. Your Scoutmaster is the one judging whether your teaching worked, typically by checking in with the Scout you taught afterward.
+### Choice 4: First Class 3a, 3b, 3c, & 3d (Pioneering & Lashings)
+- **First Class 3a & 3b**: Tying timber hitch, clove hitch, square lashing, diagonal lashing, and shear lashing.
+- **First Class 3c & 3d**: Designing and constructing a useful camp gadget using proper lashings.
+
+### Choice 5: First Class 4a & 4b (Topographic Navigation)
+- **First Class 4a**: Orienting a topographic map using a compass and identifying terrain features (contour lines, elevation, ridgelines, valleys).
+- **First Class 4b**: Measuring compass bearings, calculating magnetic declination, and navigating a designated cross-country course by pacing.
+
+### Choice 6: Second Class 6a & 6b (First Aid)
+- **Second Class 6a**: First aid for object in the eye, puncture wounds, animal bites, second-degree burns, heat exhaustion, and shock.
+- **Second Class 6b**: Prevention and first aid for heatstroke, dehydration, hypothermia, and hyperventilation.
+
+### Choice 7: First Class 7a & 7b (Advanced First Aid)
+- **First Class 7a**: Bandaging with cravat bandages, managing open chest wounds, and stabilizing fractures and sprains using splints.
+- **First Class 7b**: Safely transporting an injured person from a smoke-filled room or building using proper carries (one-person and two-person carries).
+
+### Choice 8: Three Requirements from an Eagle-Required Merit Badge
+- Teach three specific requirements from an Eagle-required merit badge (such as First Aid, Camping, Cooking, or Emergency Preparedness), as approved in advance by your Scoutmaster.
+
+---
+
+## 3. The "Prepared to Pass" Standard
+
+The goal of Requirement 6 is not for you to sign off the Scout's rank in their record. Rather, you are preparing the learner so that they can demonstrate the skill to the Scoutmaster's (or designated tester's) complete satisfaction.
+
+{{< drg/checklist title="Teaching Preparation Checklist" subtitle="Steps to execute a successful EDGE session" >}}
+- Review the skill requirements thoroughly and practice your own demonstration beforehand.
+- Gather all necessary equipment, ropes, bandages, maps, or tools before the session begins.
+- Coordinate with your Scoutmaster on which Scout you will teach and when the session will occur.
+- Walk through all four EDGE stages: Explain, Demonstrate, Guide, and Enable.
+- Have the learner demonstrate the skill to the Scoutmaster for final evaluation.
+{{< /drg/checklist >}}
+
+{{< drg/be-prepared title="When the Learner Struggles During Guide" >}}
+If the Scout struggles during the Guide step, do not rush to Enable. Patience is essential. Return to Demonstrate, explain the challenging step in a new way, and guide them through smaller sub-steps until they build confidence.
+{{< /drg/be-prepared >}}
 
 {{< drg/tip >}}
-Ask your Scoutmaster beforehand exactly how they want to confirm this requirement — some will sit in and observe, others will check with the Scout you taught after the fact. Knowing which one saves confusion later.
+Ask your Scoutmaster whether they would like to observe your EDGE teaching session in real time or test the learner immediately following your instruction.
 {{< /drg/tip >}}
-
-{{< drg/be-prepared title="The Scout Still Can't Do It After Guide" >}}
-You've explained the skill, demonstrated it, and coached the Scout through several tries — but they're still getting it wrong on their own.
-
-- **Don't jump to Enable anyway**: letting them attempt it unsupervised when they're not ready isn't Enable, it's giving up on Guide too early.
-- **Go back to Demonstrate**: show the step that's tripping them up again, more slowly, and narrate it differently than you did the first time.
-- **Break the skill into smaller pieces**: guide them through one piece at a time instead of the whole skill at once.
-- **Give it time**: EDGE doesn't have to happen in a single sitting. A second Guide session, even a different day, still counts as the same method.
-{{< /drg/be-prepared >}}

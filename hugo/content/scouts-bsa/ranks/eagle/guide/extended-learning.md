@@ -9,36 +9,46 @@ next: "/scouts-bsa/ranks/eagle/guide/print/"
 next_title: "Complete Digital Requirements Guide"
 ---
 
-## Congratulations!
+## Congratulations on Earning Eagle Scout!
 
-Eagle Scout is the highest rank Scouts BSA offers, but earning it isn't the end of the program — it's a starting point. The planning, leadership, and follow-through your service project demanded are the same skills that carry directly into running a team, managing a long project at work, or organizing anything bigger than yourself.
+Earning the rank of Eagle Scout is a profound accomplishment that stays with you for the rest of your life. You have proven that you possess the grit, leadership capability, ethical integrity, and commitment to service required to make a lasting difference in the world.
 
-## Dig Deeper
+---
 
-**Eagle doesn't stop at Eagle.** After you earn the rank, you can keep advancing through Eagle Palms — each Palm requires five more merit badges beyond your 21 and three more months in a position of responsibility. Bronze, Gold, and Silver Palms mark five, ten, and fifteen additional badges respectively, and some Scouts keep earning them all the way to their 18th birthday.
+## Continuing Your Journey Beyond Eagle
 
-**Why the project has to be led, not built.** Requirement 5's insistence on "give leadership to others" rather than just "complete a project" isn't an arbitrary rule — it's the one part of the entire rank structure designed to test whether you can organize other people's work, not just your own. Every merit badge tests individual skill; the service project is the only requirement in the whole program built around directing a team.
+Becoming an Eagle Scout is not the end of your Scouting career; it is the launchpad for a lifetime of leadership and service:
 
-## Try This Next
+### 1. Earning Eagle Palms
+If you remain registered in a troop, crew, or ship prior to your 18th birthday, you can earn **Eagle Palms** to recognize additional merit badges and continued leadership:
+- **Bronze Palm**: Represents 5 additional merit badges beyond the 21 required for Eagle, plus 3 months of active participation and leadership.
+- **Gold Palm**: Represents 10 additional merit badges (5 beyond Bronze), plus 3 months of active service.
+- **Silver Palm**: Represents 15 additional merit badges (5 beyond Gold), plus 3 months of active service.
+- *(Note: Any excess merit badges earned prior to your Eagle board of review may be instantly awarded as Palms at your initial Eagle court of honor).*
 
-- Apply for membership in the National Eagle Scout Association (NESA) — it connects you with scholarship opportunities and a network of other Eagle Scouts.
-- Consider mentoring a younger Scout who's working toward their own Eagle service project — the questions you had when you started are the same ones they're facing now.
-- If you're not at your 18th birthday yet, look into starting an Eagle Palm using the position of responsibility and merit badge work you're already doing.
+### 2. National Eagle Scout Association (NESA)
+Join the **National Eagle Scout Association** ([nesa.org](https://www.nesa.org/)), a worldwide fellowship of Eagle Scouts. NESA provides exclusive academic scholarships, career networking, fellowship events, and opportunities to stay connected with fellow Eagles throughout your adult life.
+
+### 3. Mentoring the Next Generation
+As an Eagle Scout, your example in the troop is powerful. Consider serving as a **Junior Assistant Scoutmaster**, **Troop Guide**, or **Eagle Project Coach** to help younger Scouts navigate their own path to Eagle.
+
+### 4. Planning Your Eagle Scout Court of Honor
+Work with your family and troop committee to design a meaningful Eagle Court of Honor ceremony. Celebrate the leaders, parents, mentors, and fellow Scouts who supported you along your journey.
 
 {{< drg/experience-card
-    title="Mentor a Younger Scout's Eagle Project"
-    details="Location: Your troop | Highlights: Pass along what you learned about proposals, approvals, and leading a crew." >}}
+    title="Apply for NESA College & Vocational Scholarships"
+    details="Location: nesa.org | Highlights: Exclusive competitive academic and vocational scholarships awarded annually to Eagle Scouts." >}}
 
 {{< drg/experience-card
-    title="Start Working Toward an Eagle Palm"
-    details="Location: Your troop, ongoing | Highlights: Five more merit badges and three more months in a position of responsibility per Palm." >}}
+    title="Serve as a Troop Youth Mentor or Eagle Project Coach"
+    details="Location: Your Home Unit | Highlights: Pass along your project management, planning, and leadership expertise to emerging Life Scouts." >}}
 
 {{< drg/org-card
     name="National Eagle Scout Association (NESA)"
     url="https://www.nesa.org/"
-    description="Membership organization for Eagle Scouts, offering scholarships and a lifelong network." >}}
+    description="The official alumni organization for Eagle Scouts, offering scholarships, networking, and service initiatives." >}}
 
 {{< drg/org-card
     name="Scouting America Guide to Advancement"
     url="https://www.scouting.org/programs/scouts-bsa/advancement-and-awards/guide-to-advancement/"
-    description="The full rulebook behind boards of review, appeals, extensions, and the Eagle Scout service project process." >}}
+    description="Official policy guide covering Eagle Palms, adult leadership roles, and national advancement standards." >}}

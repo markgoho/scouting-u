@@ -53,19 +53,35 @@ guide_nav:
 
 ## Overview
 
-Eagle Scout is the highest rank in Scouts BSA — the point where six ranks of skills, service, and leadership come together in one final push. Earning it means holding a position of responsibility, passing 21 merit badges, and planning and leading a service project of your own from idea to finished work, not just following someone else's plan. Nothing here is a new kind of task; it's the same kinds of work you've already done, asked for at a higher level and for the last time before the rank stops being available to you.
+Eagle Scout is the highest and most revered rank in Scouts BSA, earned by only about six percent of all youth who enter the Scouting program. Achieving Eagle represents years of dedicated effort, outdoor mastery, servant leadership, citizenship, and personal character development.
 
-## Building on the Last Rank
+The Eagle Scout journey brings together every skill and value you have cultivated since joining Scouting. You will complete 21 merit badges, serve actively for at least six months in an approved youth leadership position, conceptualize, plan, fund, and lead an extensive service project for your community, prepare written statements and references, complete a comprehensive Scoutmaster conference, and successfully pass an Eagle Scout Board of Review.
 
-Scout spirit ([requirement 2](/scouts-bsa/ranks/eagle/guide/req2/)) and your position of responsibility ([requirement 4](/scouts-bsa/ranks/eagle/guide/req4/)) both repeat from [Life](/scouts-bsa/ranks/life/guide/), but each carries a real change this time: Scout spirit now comes with a formal written statement and a list of references for your Eagle Scout Rank Application, and the position of responsibility list narrows — a Scoutmaster-approved leadership project can no longer stand in for holding an actual position, the way it could at Life. The Eagle Scout service project ([requirement 5](/scouts-bsa/ranks/eagle/guide/req5/)) has no earlier equivalent — it's the first time the rank asks you to lead other people through a project you planned yourself, from proposal to finished work.
+---
 
-## What This Takes
+## The Seven Requirements for Eagle Scout
 
-Two numbers are worth writing down now. You need at least **21 total merit badges**, **13 of them from the Eagle-required list**, before you can apply — see [requirement 3](/scouts-bsa/ranks/eagle/guide/req3/) for the full list and the math on how many more you need. You also need **six months of active tenure as a Life Scout** — that clock, covered in [requirement 1](/scouts-bsa/ranks/eagle/guide/req1/), is the same six months that has to be behind you before your board of review in requirement 7 can happen.
+1. **Active Tenure as a Life Scout ([Requirement 1](/scouts-bsa/ranks/eagle/guide/req1/))**: Be active in your troop, crew, or ship for at least six months after earning the Life rank.
+2. **Scout Spirit & Reference Recommendations ([Requirement 2](/scouts-bsa/ranks/eagle/guide/req2/))**: Live the Scout Oath and Law in your daily life, articulate your Duty to God, and list reference individuals on your Eagle Scout Rank Application.
+3. **21 Merit Badges ([Requirement 3](/scouts-bsa/ranks/eagle/guide/req3/))**: Earn a total of 21 merit badges, including all 13 Eagle-required categories.
+4. **Youth Leadership in a Position of Responsibility ([Requirement 4](/scouts-bsa/ranks/eagle/guide/req4/))**: Serve actively for six months in an approved leadership position (note: Bugler, Assistant Patrol Leader, and leadership projects are not eligible).
+5. **The Eagle Scout Service Project ([Requirement 5](/scouts-bsa/ranks/eagle/guide/req5/))**: Plan, develop, and give leadership to others in a service project helpful to a religious institution, school, or community organization using the official workbook.
+6. **Scoutmaster Conference ([Requirement 6](/scouts-bsa/ranks/eagle/guide/req6/))**: Complete a unit leader conference reviewing your readiness and application packet.
+7. **Eagle Scout Board of Review ([Requirement 7](/scouts-bsa/ranks/eagle/guide/req7/))**: Submit a Statement of Ambitions and Life Purpose, leadership/honors listing, and successfully pass an Eagle Scout Board of Review.
 
-## Get Ready!
+---
 
-This is the last rank you can earn — everything you've built since Tenderfoot gets used here. Take it one requirement at a time, start your service project early, and lean on your Scoutmaster and troop committee along the way.
+## The Eagle Roadmap & Timeline
+
+Because the Eagle rank involves multi-step approval workflows, detailed project planning, and time-bound requirements, disciplined project management is critical:
+
+- **The Six-Month Window**: Your tenure ([Requirement 1](/scouts-bsa/ranks/eagle/guide/req1/)) and position of responsibility ([Requirement 4](/scouts-bsa/ranks/eagle/guide/req4/)) require a minimum of six months after earning Life.
+- **The 18th Birthday Milestone**: All requirements (Requirements 1 through 6, your project, application paperwork, and statement of ambitions) must be completed **before your 18th birthday** (unless an official council time extension is granted under *Guide to Advancement* topic 9.0.4.0).
+- **The Board of Review Window**: Your Eagle Scout Board of Review may occur before or within 24 months after your 18th birthday without special council approval (*Guide to Advancement* topic 8.0.3.1).
+
+{{< drg/tip >}}
+Download the official *Eagle Scout Rank Application* and *Eagle Scout Service Project Workbook* immediately upon earning Life Scout. Create an Eagle binder to organize your project proposal, blueprints, receipts, photos, blue cards, and reference contacts.
+{{< /drg/tip >}}
 
 {{< drg/next-page
     text="Start with the requirement that's been running since the day you earned Life."
