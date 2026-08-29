@@ -1,0 +1,327 @@
+{{/*
+  /scouts-bsa/ -- Scouts BSA Program Hub landing page.
+  Renders within the req-page / req-sidebar / req-main shell matching
+  the DRG and requirements landing pages.
+*/}}
+{{ define "html-class" }}theme-v2{{ end }}
+
+{{ define "main-class" }}req-page-main{{ end }}
+
+{{ define "main" }}
+  {{ $ranksData := index hugo.Data.ranks "scouts-bsa" }}
+  {{ $ranks := slice }}
+  {{ range $slug, $data := $ranksData }}
+    {{ $page := site.GetPage (printf "/scouts-bsa/ranks/%s" $slug) }}
+    {{ $ranks = $ranks | append (dict
+      "slug" $slug
+      "title" $data.title
+      "short" $data.short
+      "level" $data.level
+      "description" (cond (isset $page.Params "description") $page.Params.description "")
+      "page" $page
+    ) }}
+  {{ end }}
+  {{ $ranks = sort $ranks "level" }}
+
+  {{ $identity := partial "identity.html" (dict
+    "icon" "compass"
+    "eyebrow" "Scouting America"
+    "eyebrow_url" "/"
+    "title" "Scouts BSA"
+    "demote_heading" true
+    "micro_tag" "AGES 11–17 PROGRAM"
+  ) }}
+
+  {{ $meta := printf `<div class="req-sidebar__meta">
+    <a href="/scouts-bsa/ranks/" class="req-sidebar__meta-link">
+      <span class="req-sidebar__meta-label">Advancement</span>
+      <span class="req-sidebar__meta-val">7 Ranks to Eagle &rarr;</span>
+    </a>
+    <a href="/scouts-bsa/field-guides/" class="req-sidebar__meta-link">
+      <span class="req-sidebar__meta-label">Field Guides</span>
+      <span class="req-sidebar__meta-val">4 Outdoor Handbooks &rarr;</span>
+    </a>
+    <a href="/scouts-bsa/leadership/" class="req-sidebar__meta-link">
+      <span class="req-sidebar__meta-label">Leadership</span>
+      <span class="req-sidebar__meta-val">Patrol Method & PLC &rarr;</span>
+    </a>
+  </div>` }}
+
+  {{ $navItems := slice
+    (dict "label" "Overview" "url" "/scouts-bsa/" "icon" "compass" "active" true)
+    (dict "label" "Rank Advancement" "url" "/scouts-bsa/ranks/" "icon" "list-checks" "active" false)
+    (dict "label" "Field Guides" "url" "/scouts-bsa/field-guides/" "icon" "backpack" "active" false)
+    (dict "label" "Youth Leadership" "url" "/scouts-bsa/leadership/" "icon" "users-three" "active" false)
+  }}
+
+  {{ $eyebrow := printf `<a href="/" class="badge-hero__eyebrow">%s Scouting America</a><span class="badge-hero__pill">Ages 11–17</span><span class="badge-hero__eagle-chip">%s 7 Ranks to Eagle</span>`
+    (partial "icon.html" (dict "name" "compass" "class" "badge-hero__eyebrow-icon"))
+    (partial "icon.html" (dict "name" "medal" "class" "badge-hero__eagle-icon"))
+  }}
+
+  {{ $ctas := slice
+    (dict "url" "/scouts-bsa/ranks/" "label" "Browse Ranks" "icon" "list-checks")
+    (dict "url" "/scouts-bsa/field-guides/" "label" "Field Guides" "icon" "backpack" "secondary" true)
+    (dict "url" "/scouts-bsa/leadership/" "label" "Youth Leadership" "icon" "users-three" "secondary" true)
+  }}
+
+  {{ $glanceRows := slice
+    (dict "icon" "users-three" "label" "Age Group" "value" "11–17 Years")
+    (dict "icon" "list-checks" "label" "Ranks" "value" "7 (Scout to Eagle)")
+    (dict "icon" "medal" "label" "Eagle Badges" "value" "21 Merit Badges")
+    (dict "icon" "flag" "label" "Organization" "value" "Youth-Led Patrols")
+    (dict "icon" "shield-check" "label" "Core Method" "value" "The Patrol Method")
+    (dict "icon" "sun" "label" "Scout Motto" "value" "Be Prepared")
+  }}
+
+  <div class="req-page">
+    {{ partial "req-sidebar.html" (dict "nav_items" $navItems "identity" $identity "meta" $meta) }}
+
+    <div class="req-main">
+      {{ partial "breadcrumb.html" . }}
+
+      {{ $backdrop := partial "imagekit/img.html" (dict
+        "path" "/su-assets/scouts-bsa/hero"
+        "alt" ""
+        "width" 1376
+        "height" 768
+        "sizes" "100vw"
+        "v" "3d92507c"
+        "fetchpriority" "high"
+        "loading" "eager"
+      ) }}
+      {{ $emblem := partial "imagekit/img.html" (dict
+        "path" "/su-assets/scouts-bsa/hero"
+        "alt" "Scouts BSA girl patrol collaborating on a pioneering lashing project"
+        "width" 1376
+        "height" 768
+        "sizes" "(min-width: 1200px) 600px, 50vw"
+        "v" "3d92507c"
+        "class" "badge-hero__emblem"
+        "fetchpriority" "high"
+        "loading" "eager"
+      ) }}
+
+      {{ partial "hero.html" (dict
+        "eyebrow" $eyebrow
+        "title" "Scouts BSA"
+        "lead" "The official Scouting America program for youth ages 11 to 17. Master essential outdoor skills, progress along the trail to Eagle Scout, and build lifelong leadership in youth-led patrols."
+        "ctas" $ctas
+        "backdrop" $backdrop
+        "emblem" $emblem
+      ) }}
+
+      <div class="badge-overview">
+        <!-- Rank Advancement Trail Card -->
+        <div class="badge-preview card-surface card-surface--wash">
+          <h2 class="badge-preview__heading">The Trail to Eagle</h2>
+          <p class="badge-preview__snippet" style="margin-bottom: var(--space-s); color: var(--on-surface-muted);">
+            Seven sequential ranks building outdoor competence, service, and youth leadership.
+          </p>
+          <ul class="badge-preview__list">
+            {{ range $ranks }}
+              <li class="badge-preview__item">
+                <a href="/scouts-bsa/ranks/{{ .slug }}/" class="badge-preview__link">
+                  <span class="badge-preview__node req-card__node" aria-hidden="true">
+                    <span class="req-card__node-text">{{ .level }}</span>
+                  </span>
+                  <span class="badge-preview__text">
+                    <span class="badge-preview__title">{{ .title }}</span>
+                    {{ with .description }}
+                      <span class="badge-preview__snippet">{{ . | plainify | truncate 110 }}</span>
+                    {{ end }}
+                  </span>
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+          <a href="/scouts-bsa/ranks/" class="badge-preview__more">
+            Browse all 7 ranks & requirements
+            {{ partial "icon.html" (dict "name" "arrow-right" "class" "badge-preview__more-icon") }}
+          </a>
+        </div>
+
+        <!-- At a Glance facts -->
+        {{ partial "glance-card.html" (dict "heading" "Program Overview" "rows" $glanceRows) }}
+
+        <!-- Resources Card -->
+        <div class="badge-resources card-surface card-surface--wash">
+          <h2 class="badge-resources__heading">Quick Access</h2>
+          <ul class="badge-resources__list">
+            <li>
+              <a href="/scouts-bsa/ranks/eagle/" class="badge-resources__link">
+                {{ partial "icon.html" (dict "name" "medal" "class" "badge-resources__icon") }}
+                <span>Eagle Scout Roadmap</span>
+              </a>
+            </li>
+            <li>
+              <a href="/scouts-bsa/leadership/eagle-project-workbook/" class="badge-resources__link">
+                {{ partial "icon.html" (dict "name" "flag" "class" "badge-resources__icon") }}
+                <span>Eagle Project Guide</span>
+              </a>
+            </li>
+            <li>
+              <a href="/search/" class="badge-resources__link">
+                {{ partial "icon.html" (dict "name" "search" "class" "badge-resources__icon") }}
+                <span>Search Requirements</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2-Column Hub Showcase: Field Guides & Leadership -->
+      <div class="scouts-hub-grid scouts-hub-grid--2col">
+        <!-- Field Guides Card -->
+        <div class="scouts-hub-card card-surface card-surface--lift card-surface--wash">
+          <div class="scouts-hub-card__header">
+            <h2 class="scouts-hub-card__title">
+              {{ partial "icon.html" (dict "name" "backpack" "class" "badge-glance__icon") }}
+              Outdoor Field Guides
+            </h2>
+            <p class="scouts-hub-card__subtitle">
+              Field-tested reference handbooks for campouts, treks, and rank skills.
+            </p>
+          </div>
+
+          <ul class="scouts-hub-card__list">
+            <li>
+              <a href="/scouts-bsa/field-guides/knots-and-lashings/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "tree-evergreen" "size" "1.1rem") }}
+                    Knots, Hitches & Lashings
+                  </span>
+                  <span class="scouts-hub-item__tag">Ropework</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  Square Knot, Bowline, Taut-line, Clove Hitch, pioneering lashings, rope whipping & fusing.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="/scouts-bsa/field-guides/wilderness-first-aid/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "first-aid-kit" "size" "1.1rem") }}
+                    Wilderness First Aid
+                  </span>
+                  <span class="scouts-hub-item__tag">Safety</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  MARCH PAWS assessment, severe bleeding, SAM splinting, hypothermia wraps, SAR signaling.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="/scouts-bsa/field-guides/camp-cooking/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "cooking-pot" "size" "1.1rem") }}
+                    Camp Cooking & Kitchen
+                  </span>
+                  <span class="scouts-hub-item__tag">Kitchen</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  3-pot wash system, Dutch oven heat tables, camp stoves, food safety & bear triangle.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="/scouts-bsa/field-guides/navigation-and-weather/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "compass" "size" "1.1rem") }}
+                    Navigation & Weather
+                  </span>
+                  <span class="scouts-hub-item__tag">Trail Skills</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  Topographic contours, compass bearings, declination math, and cloud weather forecasting.
+                </p>
+              </a>
+            </li>
+          </ul>
+
+          <a href="/scouts-bsa/field-guides/" class="scouts-hub-card__cta">
+            Explore all Field Guides
+            {{ partial "icon.html" (dict "name" "arrow-right") }}
+          </a>
+        </div>
+
+        <!-- Youth Leadership Card -->
+        <div class="scouts-hub-card card-surface card-surface--lift card-surface--wash">
+          <div class="scouts-hub-card__header">
+            <h2 class="scouts-hub-card__title">
+              {{ partial "icon.html" (dict "name" "users-three" "class" "badge-glance__icon") }}
+              Youth Leadership Hub
+            </h2>
+            <p class="scouts-hub-card__subtitle">
+              In Scouts BSA, youth lead the troop under adult mentorship and coaching.
+            </p>
+          </div>
+
+          <ul class="scouts-hub-card__list">
+            <li>
+              <a href="/scouts-bsa/leadership/patrol-method/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "users-three" "size" "1.1rem") }}
+                    Patrol Leader Guide & Patrol Method
+                  </span>
+                  <span class="scouts-hub-item__tag">Patrol Ops</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  Fair duty rosters, campout menu & budget planning, patrol meetings, and campsite layout.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="/scouts-bsa/leadership/eagle-project-workbook/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "flag" "size" "1.1rem") }}
+                    Eagle Project Workbook & Guide
+                  </span>
+                  <span class="scouts-hub-item__tag">Eagle Project</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  Project ideation, securing the 4 required approvals, fundraising rules, and workday leadership.
+                </p>
+              </a>
+            </li>
+
+            <li>
+              <a href="/scouts-bsa/leadership/merit-badge-strategy/" class="scouts-hub-item">
+                <div class="scouts-hub-item__top">
+                  <span class="scouts-hub-item__title">
+                    {{ partial "icon.html" (dict "name" "medal" "size" "1.1rem") }}
+                    Eagle Merit Badge Strategy
+                  </span>
+                  <span class="scouts-hub-item__tag">Advancement</span>
+                </div>
+                <p class="scouts-hub-item__desc">
+                  Managing 90-day tracking badges, elective choices, blue card procedures, and timelines.
+                </p>
+              </a>
+            </li>
+          </ul>
+
+          <a href="/scouts-bsa/leadership/" class="scouts-hub-card__cta">
+            Open Youth Leadership Hub
+            {{ partial "icon.html" (dict "name" "arrow-right") }}
+          </a>
+        </div>
+      </div>
+
+      <!-- Prose Content from _index.md (The Scouting Method, EDGE method callout, etc.) -->
+      <article class="req-content" style="max-width: 100%; margin-block-start: var(--space-l);">
+        {{ .Content }}
+      </article>
+    </div>
+  </div>
+{{ end }}

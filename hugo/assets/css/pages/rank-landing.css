@@ -58,3 +58,434 @@
   background: var(--accent-wash);
 }
 
+/* ------------------------------------------------------------------ */
+/* Scouts BSA Program Hub landing page                                 */
+/* ------------------------------------------------------------------ */
+
+.req-sidebar__meta-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  padding: var(--space-3xs) var(--space-2xs);
+  border-radius: var(--radius-sm);
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.req-sidebar__meta-link:hover,
+.req-sidebar__meta-link:focus-visible {
+  background: var(--surface-sunken);
+  color: var(--accent);
+  transform: translateX(2px);
+}
+
+.dark .req-sidebar__meta-link:hover,
+.dark .req-sidebar__meta-link:focus-visible {
+  color: var(--amber);
+}
+
+.req-sidebar__meta-label {
+  font-size: var(--step--2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--on-surface-muted);
+}
+
+.req-sidebar__meta-val {
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--on-surface);
+  transition: color 0.15s ease;
+}
+
+.req-sidebar__meta-link:hover .req-sidebar__meta-val {
+  color: var(--accent);
+}
+
+.dark .req-sidebar__meta-link:hover .req-sidebar__meta-val {
+  color: var(--amber);
+}
+
+.scouts-hub-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-m);
+  margin-block-end: var(--space-l);
+}
+
+@container req-main (min-width: 700px) {
+  .scouts-hub-grid--2col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.scouts-hub-card {
+  padding: var(--space-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+}
+
+.scouts-hub-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+}
+
+.scouts-hub-card__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  color: var(--on-surface);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+}
+
+.scouts-hub-card__subtitle {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--on-surface-muted);
+  line-height: var(--line-height-relaxed);
+}
+
+.scouts-hub-card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.scouts-hub-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+  padding: var(--space-xs) var(--space-s);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--card-border-subtle);
+  background: var(--surface-raised);
+  text-decoration: none;
+  color: inherit;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.15s ease;
+}
+
+.scouts-hub-item:hover,
+.scouts-hub-item:focus-visible {
+  border-color: var(--accent);
+  background: var(--surface-sunken);
+  transform: translateX(4px);
+}
+
+.dark .scouts-hub-item:hover,
+.dark .scouts-hub-item:focus-visible {
+  border-color: var(--amber);
+}
+
+.scouts-hub-item__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-xs);
+}
+
+.scouts-hub-item__title {
+  font-weight: 700;
+  font-size: var(--step-0);
+  color: var(--on-surface);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+}
+
+.scouts-hub-item__tag {
+  font-size: var(--step--2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: var(--space-3xs) var(--space-2xs);
+  border-radius: var(--radius-full);
+  background: var(--surface-sunken);
+  color: var(--on-surface-muted);
+  white-space: nowrap;
+}
+
+.scouts-hub-item__desc {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--on-surface-muted);
+  line-height: 1.45;
+}
+
+.scouts-hub-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3xs);
+  margin-block-start: auto;
+  padding-block-start: var(--space-xs);
+  font-weight: 700;
+  font-size: var(--step--1);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.scouts-hub-card__cta:hover,
+.scouts-hub-card__cta:focus-visible {
+  text-decoration: underline;
+}
+
+.dark .scouts-hub-card__cta {
+  color: var(--amber);
+}
+
+/* ------------------------------------------------------------------ */
+/* Seven Ranks Showcase & Phase Progression                           */
+/* ------------------------------------------------------------------ */
+
+.rank-trail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  margin-block-start: var(--space-l);
+  margin-block-end: var(--space-xl);
+}
+
+.rank-trail-phase {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-m);
+}
+
+.rank-trail-phase__header {
+  padding: var(--space-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  border-radius: var(--radius-lg);
+}
+
+.rank-trail-phase__badge-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+}
+
+.rank-trail-phase__badge {
+  font-size: var(--step--2);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: var(--space-3xs) var(--space-xs);
+  border-radius: var(--radius-full);
+  background: var(--accent-container);
+  color: var(--on-accent-container);
+}
+
+.rank-trail-phase__badge--leadership {
+  background: var(--secondary-container);
+  color: var(--on-secondary-container);
+}
+
+.rank-trail-phase__tag {
+  font-size: var(--step--2);
+  font-weight: 600;
+  color: var(--on-surface-muted);
+}
+
+.rank-trail-phase__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  color: var(--on-surface);
+}
+
+.rank-trail-phase__desc {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--on-surface-muted);
+  line-height: var(--line-height-relaxed);
+}
+
+.rank-trail-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-m);
+}
+
+@container req-main (min-width: 650px) {
+  .rank-trail-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.rank-card {
+  padding: var(--space-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+  border-radius: var(--radius-lg);
+  position: relative;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.rank-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.dark .rank-card:hover {
+  border-color: var(--amber);
+}
+
+.rank-card--eagle {
+  border-color: var(--amber);
+  background: linear-gradient(
+    135deg,
+    var(--surface-raised) 0%,
+    var(--surface-sunken) 100%
+  );
+  box-shadow: 0 4px 20px rgba(255, 184, 0, 0.08);
+}
+
+.rank-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.rank-card__identity {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-s);
+}
+
+.rank-card__node {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.rank-card__node--eagle {
+  background: var(--amber);
+  color: #1a1400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-card__node-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.rank-card__title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+}
+
+.rank-card__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  line-height: var(--line-height-tight);
+}
+
+.rank-card__title a {
+  color: var(--on-surface);
+  text-decoration: none;
+}
+
+.rank-card__title a:hover,
+.rank-card__title a:focus-visible {
+  color: var(--accent);
+}
+
+.dark .rank-card__title a:hover,
+.dark .rank-card__title a:focus-visible {
+  color: var(--amber);
+}
+
+.rank-card__meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3xs);
+}
+
+.rank-card__tag {
+  font-size: var(--step--2);
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-full);
+  background: var(--surface-sunken);
+  color: var(--on-surface-muted);
+}
+
+.rank-card__tag--subtle {
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid var(--card-border-subtle);
+}
+
+.rank-card__tag--eagle {
+  background: var(--accent-container);
+  color: var(--on-accent-container);
+  font-weight: 700;
+}
+
+.rank-card__desc {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--on-surface-muted);
+  line-height: var(--line-height-relaxed);
+}
+
+.rank-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+  margin-block-start: auto;
+  padding-block-start: var(--space-xs);
+  border-block-start: 1px dashed var(--card-border-subtle);
+}
+
+.rank-card__action {
+  font-size: var(--step--2);
+  padding: var(--space-3xs) var(--space-xs);
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3xs);
+}
+
+.rank-card__action--primary {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-color: var(--accent);
+}
+
+.rank-card__action--eagle {
+  background: var(--amber);
+  color: #1a1400;
+  border-color: var(--amber);
+  font-weight: 700;
+}
+
+.rank-card__action-icon {
+  width: 1rem;
+  height: 1rem;
+}

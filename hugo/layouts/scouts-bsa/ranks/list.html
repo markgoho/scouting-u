@@ -1,17 +1,265 @@
 {{/*
-  /scouts-bsa/ranks/ -- scouting-u#19. Title-only rows ordered by level,
-  no snippet.
+  /scouts-bsa/ranks/ -- Scouts BSA Rank Advancement Hub.
+  Renders inside the shared req-page / req-sidebar-wrap / req-main shell,
+  with hero banner, at-a-glance bento grid, and structured 2-phase
+  showcase for all 7 ranks (Scout through Eagle).
 */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
+{{ define "main-class" }}req-page-main{{ end }}
+
 {{ define "main" }}
-  {{ partial "breadcrumb.html" . }}
-  <h1 class="ranks-index__title">{{ .Title }}</h1>
-  <ol class="ranks-index__list">
-    {{ range .Pages.ByParam "level" }}
-      <li class="ranks-index__item">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-  </ol>
+  {{ $ranks := .Pages.ByParam "level" }}
+
+  {{ $identity := partial "identity.html" (dict
+    "icon" "mountains"
+    "eyebrow" "Scouts BSA"
+    "eyebrow_url" "/scouts-bsa/"
+    "title" "Rank Advancement"
+    "demote_heading" true
+    "micro_tag" "THE TRAIL TO EAGLE"
+  ) }}
+
+  {{ $meta := printf `<div class="req-sidebar__meta">
+    <a href="/scouts-bsa/" class="req-sidebar__meta-link">
+      <span class="req-sidebar__meta-label">Program Hub</span>
+      <span class="req-sidebar__meta-val">Scouts BSA Home &rarr;</span>
+    </a>
+    <a href="/scouts-bsa/field-guides/" class="req-sidebar__meta-link">
+      <span class="req-sidebar__meta-label">Field Guides</span>
+      <span class="req-sidebar__meta-val">Outdoor Handbooks &rarr;</span>
+    </a>
+    <a href="/scouts-bsa/leadership/" class="req-sidebar__meta-link">
+      <span class="req-sidebar__meta-label">Leadership</span>
+      <span class="req-sidebar__meta-val">Patrol & PLC Guides &rarr;</span>
+    </a>
+  </div>` }}
+
+  {{ $navItems := slice
+    (dict "label" "Overview" "url" "/scouts-bsa/" "icon" "compass" "active" false)
+    (dict "label" "Rank Advancement" "url" "/scouts-bsa/ranks/" "icon" "list-checks" "active" true)
+    (dict "label" "Field Guides" "url" "/scouts-bsa/field-guides/" "icon" "backpack" "active" false)
+    (dict "label" "Youth Leadership" "url" "/scouts-bsa/leadership/" "icon" "users-three" "active" false)
+  }}
+
+  {{ $eyebrow := printf `<a href="/scouts-bsa/" class="badge-hero__eyebrow">%s%s</a><span class="badge-hero__pill">%s</span><span class="badge-hero__eagle-chip">%s%s</span>`
+    (partial "icon.html" (dict "name" "compass" "class" "badge-hero__eyebrow-icon"))
+    "Scouts BSA"
+    "Trail to Eagle"
+    (partial "icon.html" (dict "name" "medal" "class" "badge-hero__eagle-icon"))
+    "7 Sequential Ranks"
+  }}
+
+  {{ $ctas := slice
+    (dict "label" "Eagle Scout Rank" "url" "/scouts-bsa/ranks/eagle/" "icon" "medal" "secondary" false)
+    (dict "label" "Scouts BSA Hub" "url" "/scouts-bsa/" "icon" "compass" "secondary" true)
+  }}
+
+  <div class="req-page">
+    {{ partial "req-sidebar.html" (dict "nav_items" $navItems "identity" $identity "meta" $meta) }}
+
+    <div class="req-main">
+      {{ partial "breadcrumb.html" . }}
+
+      {{ $backdrop := partial "imagekit/img.html" (dict
+        "path" "/su-assets/scouts-bsa/hero"
+        "alt" ""
+        "width" 1376
+        "height" 768
+        "sizes" "100vw"
+        "v" "3d92507c"
+        "fetchpriority" "high"
+        "loading" "eager"
+      ) }}
+      {{ $emblem := partial "imagekit/img.html" (dict
+        "path" "/su-assets/scouts-bsa/hero"
+        "alt" "Scouts BSA girl patrol collaborating on a pioneering lashing project"
+        "width" 1376
+        "height" 768
+        "sizes" "(min-width: 1200px) 600px, 50vw"
+        "v" "3d92507c"
+        "class" "badge-hero__emblem"
+        "fetchpriority" "high"
+        "loading" "eager"
+      ) }}
+
+      {{ partial "hero.html" (dict
+        "eyebrow" $eyebrow
+        "title" "Rank Advancement"
+        "lead" "From learning the Scout Oath to the summit of Eagle Scout, the Scouts BSA advancement path builds lifelong outdoor competence, personal character, civic service, and youth leadership."
+        "ctas" $ctas
+        "backdrop" $backdrop
+        "emblem" $emblem
+      ) }}
+
+      <!-- Seven Ranks Showcase -->
+      <section class="rank-trail" aria-label="The Trail to Eagle Ranks">
+        
+        <!-- Phase 1: Scoutcraft & Outdoor Foundations -->
+        <div class="rank-trail-phase">
+          <div class="rank-trail-phase__header card-surface card-surface--wash">
+            <div class="rank-trail-phase__badge-wrap">
+              <span class="rank-trail-phase__badge">Phase 1</span>
+              <span class="rank-trail-phase__tag">Ranks 1–4</span>
+            </div>
+            <h2 class="rank-trail-phase__title">Scoutcraft & Outdoor Foundations</h2>
+            <p class="rank-trail-phase__desc">
+              Master core outdoor self-reliance: campcraft, navigation, knots and lashings, first aid, swimming, and physical fitness. Requirements across these four ranks may be worked on simultaneously.
+            </p>
+          </div>
+
+          <div class="rank-trail-grid">
+            {{ range $ranks }}
+              {{ if le .Params.level 4 }}
+                {{ $slug := .File.ContentBaseName }}
+                {{ $rankData := index (index hugo.Data.ranks "scouts-bsa") $slug }}
+                {{ $leafCount := partial "scouts-bsa/ranks/count-leaves.html" $rankData.requirements }}
+                {{ $reqsPage := .GetPage "requirements" }}
+                {{ $guidePage := .GetPage "guide" }}
+
+                <article class="rank-card card-surface card-surface--lift">
+                  <div class="rank-card__header">
+                    <div class="rank-card__identity">
+                      <span class="rank-card__node req-card__node" aria-hidden="true">
+                        <span class="req-card__node-text">{{ .Params.level }}</span>
+                      </span>
+                      <div class="rank-card__title-wrap">
+                        <h3 class="rank-card__title">
+                          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </h3>
+                        <div class="rank-card__meta-tags">
+                          <span class="rank-card__tag">{{ $leafCount }} Requirements</span>
+                          {{ if eq .Params.level 1 }}
+                            <span class="rank-card__tag rank-card__tag--subtle">Scout Basics</span>
+                          {{ else if eq .Params.level 2 }}
+                            <span class="rank-card__tag rank-card__tag--subtle">Campcraft & Fitness</span>
+                          {{ else if eq .Params.level 3 }}
+                            <span class="rank-card__tag rank-card__tag--subtle">Navigation & First Aid</span>
+                          {{ else if eq .Params.level 4 }}
+                            <span class="rank-card__tag rank-card__tag--subtle">Complete Outdoorsperson</span>
+                          {{ end }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="rank-card__desc">
+                    {{ with .Params.description }}
+                      {{ . | plainify | truncate 150 }}
+                    {{ end }}
+                  </p>
+
+                  <div class="rank-card__actions">
+                    <a href="{{ .RelPermalink }}" class="button button-secondary rank-card__action">
+                      {{ partial "icon.html" (dict "name" "compass" "class" "rank-card__action-icon") }}
+                      Overview
+                    </a>
+                    {{ with $reqsPage }}
+                      <a href="{{ .RelPermalink }}" class="button button-secondary rank-card__action">
+                        {{ partial "icon.html" (dict "name" "list-checks" "class" "rank-card__action-icon") }}
+                        Requirements
+                      </a>
+                    {{ end }}
+                    {{ with $guidePage }}
+                      <a href="{{ .RelPermalink }}" class="button rank-card__action rank-card__action--primary">
+                        {{ partial "icon.html" (dict "name" "book-open-text" "class" "rank-card__action-icon") }}
+                        Study Guide
+                      </a>
+                    {{ end }}
+                  </div>
+                </article>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- Phase 2: Leadership, Service & The Path to Eagle -->
+        <div class="rank-trail-phase">
+          <div class="rank-trail-phase__header card-surface card-surface--wash">
+            <div class="rank-trail-phase__badge-wrap">
+              <span class="rank-trail-phase__badge rank-trail-phase__badge--leadership">Phase 2</span>
+              <span class="rank-trail-phase__tag">Ranks 5–7</span>
+            </div>
+            <h2 class="rank-trail-phase__title">Youth Leadership & The Trail to Eagle</h2>
+            <p class="rank-trail-phase__desc">
+              Shift focus from learning skills to leading peers: troop leadership roles of responsibility, active tenure, community service projects, and earning Eagle-required merit badges.
+            </p>
+          </div>
+
+          <div class="rank-trail-grid">
+            {{ range $ranks }}
+              {{ if ge .Params.level 5 }}
+                {{ $slug := .File.ContentBaseName }}
+                {{ $rankData := index (index hugo.Data.ranks "scouts-bsa") $slug }}
+                {{ $leafCount := partial "scouts-bsa/ranks/count-leaves.html" $rankData.requirements }}
+                {{ $reqsPage := .GetPage "requirements" }}
+                {{ $guidePage := .GetPage "guide" }}
+                {{ $isEagle := eq .Params.level 7 }}
+
+                <article class="rank-card card-surface card-surface--lift {{ if $isEagle }}rank-card--eagle{{ end }}">
+                  <div class="rank-card__header">
+                    <div class="rank-card__identity">
+                      <span class="rank-card__node req-card__node {{ if $isEagle }}rank-card__node--eagle{{ end }}" aria-hidden="true">
+                        {{ if $isEagle }}
+                          {{ partial "icon.html" (dict "name" "medal" "class" "rank-card__node-icon") }}
+                        {{ else }}
+                          <span class="req-card__node-text">{{ .Params.level }}</span>
+                        {{ end }}
+                      </span>
+                      <div class="rank-card__title-wrap">
+                        <h3 class="rank-card__title">
+                          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        </h3>
+                        <div class="rank-card__meta-tags">
+                          <span class="rank-card__tag">{{ $leafCount }} Requirements</span>
+                          {{ if eq .Params.level 5 }}
+                            <span class="rank-card__tag rank-card__tag--subtle">6 Merit Badges &bull; 4 Mo. Tenure</span>
+                          {{ else if eq .Params.level 6 }}
+                            <span class="rank-card__tag rank-card__tag--subtle">11 Merit Badges &bull; 6 Mo. Tenure</span>
+                          {{ else if eq .Params.level 7 }}
+                            <span class="rank-card__tag rank-card__tag--eagle">21 Badges &bull; Eagle Project &bull; BOR</span>
+                          {{ end }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="rank-card__desc">
+                    {{ with .Params.description }}
+                      {{ . | plainify | truncate 160 }}
+                    {{ end }}
+                  </p>
+
+                  <div class="rank-card__actions">
+                    <a href="{{ .RelPermalink }}" class="button button-secondary rank-card__action">
+                      {{ partial "icon.html" (dict "name" "compass" "class" "rank-card__action-icon") }}
+                      Overview
+                    </a>
+                    {{ with $reqsPage }}
+                      <a href="{{ .RelPermalink }}" class="button button-secondary rank-card__action">
+                        {{ partial "icon.html" (dict "name" "list-checks" "class" "rank-card__action-icon") }}
+                        Requirements
+                      </a>
+                    {{ end }}
+                    {{ with $guidePage }}
+                      <a href="{{ .RelPermalink }}" class="button rank-card__action {{ if $isEagle }}rank-card__action--eagle{{ else }}rank-card__action--primary{{ end }}">
+                        {{ partial "icon.html" (dict "name" "book-open-text" "class" "rank-card__action-icon") }}
+                        Study Guide
+                      </a>
+                    {{ end }}
+                  </div>
+                </article>
+              {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </section>
+
+      <!-- Markdown Section for Advancement Guidelines & Tips -->
+      <article class="req-content" style="max-width: 100%; margin-block-start: var(--space-l);">
+        {{ .Content }}
+      </article>
+
+    </div>
+  </div>
 {{ end }}

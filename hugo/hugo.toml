@@ -22,14 +22,9 @@ disableKinds = ['taxonomy', 'term']
   widths   = [400, 600, 800, 1200, 1600]
 
 [[menus.main]]
-  name = 'Field Guides'
-  url = '/scouts-bsa/field-guides/'
+  name = 'Scouts BSA'
+  url = '/scouts-bsa/'
   weight = 10
-
-[[menus.main]]
-  name = 'Leadership'
-  url = '/scouts-bsa/leadership/'
-  weight = 20
 
 [params.theme]
   siteTitle = 'Scouting University'
