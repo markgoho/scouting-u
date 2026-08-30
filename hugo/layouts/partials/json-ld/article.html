@@ -1,0 +1,29 @@
+{{- /* Article schema for single content pages */ -}}
+{{- $description := .Description | default .Summary | default .Title | plainify -}}
+{{- if gt (len $description) 250 -}}
+  {{- $description = (substr $description 0 247) | printf "%s..." -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title | safeJS }}",
+  "description": "{{ $description | safeJS }}",
+  "url": "{{ .Permalink | absURL }}",
+  "inLanguage": "en-US",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink | absURL }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "about": {
+    "@type": "Thing",
+    "name": "Scouts BSA"
+  }
+}
+</script>
+{{ partial "json-ld/breadcrumb-auto.html" . }}

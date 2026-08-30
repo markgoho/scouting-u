@@ -7,3 +7,7 @@
     {{ .Content }}
   </article>
 {{ end }}
+
+{{ define "footer-scripts" }}
+  {{ partial "json-ld/article.html" . }}
+{{ end }}

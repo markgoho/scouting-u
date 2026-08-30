@@ -1,0 +1,86 @@
+{{- /* JSON-LD Course schema for rank requirements pages */ -}}
+{{- $slug := .Parent.File.ContentBaseName -}}
+{{- $rank := index (index hugo.Data.ranks "scouts-bsa") $slug -}}
+{{- $landingURL := .Parent.Permalink | absURL -}}
+
+{{- $description := .Description -}}
+{{- if not $description -}}
+  {{- $description = printf "Complete all requirements to earn the %s rank in Scouting America's Scouts BSA program." $rank.title -}}
+{{- end -}}
+{{- if gt (len $description) 250 -}}
+  {{- $description = (substr $description 0 247) | printf "%s..." -}}
+{{- end -}}
+
+{{- $meaningfulReqs := slice -}}
+{{- range $req := $rank.requirements -}}
+  {{- if $req.children -}}
+    {{- range $child := $req.children -}}
+      {{- $reqTitle := printf "Requirement %s" ($child.list_number | default $child.path) -}}
+      {{- with $child.short -}}{{- $reqTitle = printf "%s: %s" $reqTitle . -}}{{- end -}}
+      {{- $meaningfulReqs = $meaningfulReqs | append (dict "name" $reqTitle "text" ($child.text | plainify)) -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $reqTitle := printf "Requirement %s" ($req.list_number | default $req.path) -}}
+    {{- with $req.short -}}{{- $reqTitle = printf "%s: %s" $reqTitle . -}}{{- end -}}
+    {{- $meaningfulReqs = $meaningfulReqs | append (dict "name" $reqTitle "text" ($req.text | plainify)) -}}
+  {{- end -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "{{ $rank.title }} Rank Requirements",
+  "description": "{{ $description | safeJS }}",
+  "url": "{{ .Permalink | absURL }}",
+  "courseCode": "scouts-bsa-{{ $slug }}-requirements",
+  "educationalLevel": "Youth (ages 11-17)",
+  "inLanguage": "en-US",
+  "provider": {
+    "@type": "Organization",
+    "name": "Scouting America"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Blended"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "category": "Free"
+  },
+  "assesses": "{{ $rank.title }} rank skills and knowledge as defined by Scouting America requirements",
+  "educationalCredentialAwarded": "Scouts BSA Rank",
+  "isAccessibleForFree": true{{ if $meaningfulReqs }},
+  "hasPart": [
+    {{- range $index, $req := $meaningfulReqs -}}
+    {{- if gt $index 0 }},{{ end }}
+    {
+      "@type": "LearningResource",
+      "position": {{ add $index 1 }},
+      "name": "{{ $req.name | safeJS }}",
+      "learningResourceType": "Activity",
+      "educationalLevel": "Youth (ages 11-17)",
+      "teaches": "{{ $req.text | truncate 150 | safeJS }}"
+    }
+    {{- end }}
+  ]{{ end }},
+  "isPartOf": {
+    "@type": "Course",
+    "name": "{{ $rank.title }} Rank",
+    "description": "Learn about the {{ $rank.title }} rank through Scouting America's program.",
+    "url": "{{ $landingURL }}",
+    "provider": {
+      "@type": "Organization",
+      "name": "Scouting America"
+    }
+  }
+}
+</script>
+{{ partial "json-ld/breadcrumb-auto.html" . }}

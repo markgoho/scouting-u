@@ -16,12 +16,16 @@
  * 2. Blank requirement headings. Pagefind's Route A sub-results need the id
  *    on an h1-h6 with real text (scouting-u#35, uni-theme's CONTRACT.md). A
  *    blank one yields an unusable sub-result title rather than an error.
+ *
+ * 3. Missing or invalid JSON-LD. Every HTML page must emit Schema.org JSON-LD
+ *    structured data with valid syntax and required context/type fields.
  */
 import { Glob } from "bun";
 
 const PUBLIC_DIR = "hugo/public";
 const STRIPPED_HTML = "<!-- raw HTML omitted -->";
 const REQUIREMENT_HEADING = /<(h3|h4)\s+id="[^"]*"[^>]*>([\s\S]*?)<\/\1>/g;
+const JSON_LD_SCRIPT = /<script type=["']?application\/ld\+json["']?>([\s\S]*?)<\/script>/gi;
 
 const failures: string[] = [];
 
@@ -39,6 +43,23 @@ for await (const file of new Glob("**/*.html").scan(PUBLIC_DIR)) {
       break;
     }
   }
+
+  const jsonLdMatches = [...html.matchAll(JSON_LD_SCRIPT)];
+  if (jsonLdMatches.length === 0) {
+    failures.push(`${file}: missing application/ld+json structured data`);
+  } else {
+    for (const [, scriptContent] of jsonLdMatches) {
+      try {
+        const parsed = JSON.parse(scriptContent.trim());
+        if (!parsed["@context"] || (!parsed["@type"] && !parsed["@graph"])) {
+          failures.push(`${file}: JSON-LD object missing @context or @type/@graph`);
+        }
+      } catch (err: unknown) {
+        const message = err instanceof Error ? err.message : String(err);
+        failures.push(`${file}: invalid JSON in JSON-LD script: ${message}`);
+      }
+    }
+  }
 }
 
 if (failures.length > 0) {
@@ -46,4 +67,5 @@ if (failures.length > 0) {
   process.exit(1);
 }
 
-console.log("Build output verified: no stripped HTML, no blank requirement headings.");
+console.log("Build output verified: no stripped HTML, no blank requirement headings, all JSON-LD valid.");
+

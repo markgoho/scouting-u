@@ -79,4 +79,5 @@
 {{ define "footer-scripts" }}
   {{ $deepLinkTS := resources.Get "ts/deep-link.ts" | js.Build (dict "minify" true) }}
   <script>{{ $deepLinkTS.Content | safeJS }}</script>
+  {{ partial "json-ld/rank-requirements.html" . }}
 {{ end }}

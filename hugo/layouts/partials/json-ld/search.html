@@ -1,0 +1,17 @@
+{{- /* SearchResultsPage schema for search page */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SearchResultsPage",
+  "name": "{{ .Title | safeJS }}",
+  "description": "Find specific requirements across every Scouts BSA rank.",
+  "url": "{{ .Permalink | absURL }}",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  }
+}
+</script>
+{{ partial "json-ld/breadcrumb-auto.html" . }}

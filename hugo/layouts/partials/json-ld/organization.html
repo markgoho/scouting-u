@@ -1,0 +1,38 @@
+{{- /* WebSite and Organization schema for homepage */ -}}
+{{- $siteTitle := .Site.Params.theme.siteTitle | default .Site.Title | default "Scouting University" -}}
+{{- $siteTitleShort := .Site.Params.theme.siteTitleShort | default "Scouting U" -}}
+{{- $tagline := .Site.Params.theme.tagline | default "Your guide to Scouting America rank requirements." -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ .Site.BaseURL }}#website",
+      "url": "{{ .Site.BaseURL }}",
+      "name": "{{ $siteTitle }}",
+      "alternateName": "{{ $siteTitleShort }}",
+      "description": "{{ $tagline }}",
+      "publisher": {
+        "@id": "{{ .Site.BaseURL }}#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ .Site.BaseURL }}search/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ .Site.BaseURL }}#organization",
+      "name": "{{ $siteTitle }}",
+      "alternateName": "{{ $siteTitleShort }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": "{{ $tagline }}"
+    }
+  ]
+}
+</script>

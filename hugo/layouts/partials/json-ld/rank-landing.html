@@ -1,0 +1,77 @@
+{{- /* JSON-LD Course schema for rank landing pages */ -}}
+{{- $slug := .File.ContentBaseName -}}
+{{- $rank := index (index hugo.Data.ranks "scouts-bsa") $slug -}}
+{{- $requirementsPage := .GetPage "requirements" -}}
+{{- $guide := .GetPage "guide" -}}
+{{- $guideLabel := site.Params.theme.guideLabel | default "Digital Requirements Guide" -}}
+
+{{- $description := .Params.description -}}
+{{- if not $description -}}
+  {{- $description = printf "Learn about the %s rank and requirements through Scouting America's Scouts BSA program." $rank.title -}}
+{{- end -}}
+{{- if gt (len $description) 250 -}}
+  {{- $description = (substr $description 0 247) | printf "%s..." -}}
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "{{ $rank.title }} Rank",
+  "description": "{{ $description | safeJS }}",
+  "url": "{{ .Permalink | absURL }}",
+  "courseCode": "scouts-bsa-{{ $slug }}",
+  "educationalLevel": "Youth (ages 11-17)",
+  "inLanguage": "en-US",
+  "availableLanguage": "en",
+  "provider": {
+    "@type": "Organization",
+    "name": "Scouting America"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "educationalCredentialAwarded": "Scouts BSA Rank",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "category": "Free"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Blended"
+  },
+  "teaches": "{{ $rank.title }} skills and knowledge as defined by Scouting America rank requirements",
+  "about": {
+    "@type": "Thing",
+    "name": "{{ $rank.title }} Rank"
+  },
+  "hasPart": [
+    {{- if $requirementsPage }}
+    {
+      "@type": "WebPage",
+      "name": "{{ $rank.title }} Rank Requirements",
+      "url": "{{ $requirementsPage.Permalink | absURL }}"
+    }{{- end }}
+    {{- with $guide }},
+    {
+      "@type": "LearningResource",
+      "name": "{{ $rank.title }} Rank — {{ $guideLabel }}",
+      "url": "{{ .Permalink | absURL }}",
+      "learningResourceType": "Study Guide"
+    }
+    {{- end }}
+  ],
+  "isPartOf": {
+    "@type": "Course",
+    "name": "Scouts BSA Rank Advancement",
+    "description": "The advancement program for Scouts BSA from Scout to Eagle Scout.",
+    "url": "{{ .Parent.Permalink | absURL }}"
+  }
+}
+</script>
+{{ partial "json-ld/breadcrumb-auto.html" . }}

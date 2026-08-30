@@ -3,3 +3,7 @@
 {{ define "main" }}
   {{ partial "home/ladder.html" . }}
 {{ end }}
+
+{{ define "footer-scripts" }}
+  {{ partial "json-ld/organization.html" . }}
+{{ end }}
