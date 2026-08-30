@@ -12,6 +12,7 @@
     "index": "bunx pagefind --site hugo/public",
     "verify:output": "bun scripts/verify-build-output.ts",
     "verify:drg": "bun scripts/verify-drg.ts",
+    "verify:cross-links": "bun scripts/verify-cross-links.ts",
     "verify:youtube-links": "bun scripts/verify-youtube-links.ts",
     "generate:drg-images": "bun scripts/generate-drg-images.ts",
     "migrate:imagekit": "bun scripts/migrate-images-to-imagekit.ts",
