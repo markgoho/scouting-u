@@ -24,6 +24,8 @@ Demonstrate first aid for the following:
 
 At Tenderfoot you [treated cuts, scrapes, blisters, and minor burns](/scouts-bsa/ranks/tenderfoot/guide/req4a/). Second Class demonstrates first aid for seven categories that go further — from something as ordinary as an eyelash in your eye to a heat emergency that can turn dangerous fast.
 
+{{< related-guide badge="first-aid" title="First Aid Merit Badge Guide" description="Step up to advanced emergency triage, splinting, hurry case intervention, and CPR/AED certification." />}}
+
 ## Object in the Eye
 
 Don't rub the eye — that can drive debris deeper or scratch the surface. Try flushing gently with clean water, or lift the upper lid over the lower lid to let tears wash the object out. If it doesn't clear or is embedded, cover both eyes loosely and get medical help.

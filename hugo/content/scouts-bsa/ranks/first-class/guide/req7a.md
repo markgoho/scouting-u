@@ -16,6 +16,8 @@ Demonstrate bandages for a sprained ankle and for injuries on the head, the uppe
 
 A bandage does two jobs: it holds a dressing in place, and it supports an injured part so the person can move — or stay still — safely until real help arrives. This requirement asks you to demonstrate four specific bandages, each solving a different problem.
 
+{{< related-guide badge="first-aid" title="First Aid Merit Badge Guide" description="Master advanced wilderness bandaging, splinting, emergency transport, and CPR/AED protocols." />}}
+
 ### Bandage a sprained ankle
 
 Wrap a roller bandage or elastic wrap starting at the base of the toes, working up and around the foot and ankle in a figure-eight pattern, overlapping each layer by about half its width. Snug, not tight — you should still be able to slip a finger under the wrap, and toes should stay warm and normally colored.

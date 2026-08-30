@@ -148,8 +148,11 @@ A clean campsite keeps everyone safe, keeps animals away, and makes packing up e
 - Post-campout: all patrol gear cleaned, dried, and returned to Quartermaster.
 {{< /drg/checklist >}}
 
-## Related Guides
+## Related Guides & Merit Badges
+
+{{< related-guide badge="communication" title="Communication Merit Badge" description="Master meeting leadership, speech presentations, and patrol communication skills." />}}
 
 - [Eagle Scout Service Project Guide: How to Plan and Lead Your Project](/scouts-bsa/leadership/eagle-project-workbook/)
 - [How to Plan Your Eagle Merit Badges](/scouts-bsa/leadership/merit-badge-strategy/)
+- [Camp Kitchen & Cooking Field Guide](/scouts-bsa/field-guides/camp-cooking/)
 - [Youth Leadership & Patrol Toolkit Hub](/scouts-bsa/leadership/)

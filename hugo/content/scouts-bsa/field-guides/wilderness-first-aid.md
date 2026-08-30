@@ -151,3 +151,13 @@ When hiking above 8,000 feet, thinner air can cause altitude sickness:
 {{< drg/tip >}}
 **Wound Cleaning Tip:** Clean water is the best way to clean a dirty scrape on the trail. Use a clean plastic bag with a tiny pinhole (or a clean water bottle) to squirt water with pressure into the scrape to wash out dirt and gravel before bandaging.
 {{< /drg/tip >}}
+
+## Related Merit Badge Guides & Rank Requirements
+
+{{< related-guide badge="first-aid" title="First Aid Merit Badge Guide" description="Emergency triage, CPR/AED protocols, wound management, and hurry-case wilderness care." />}}
+
+{{< related-guide badge="emergency-preparedness" title="Emergency Preparedness Merit Badge Guide" description="Develop family emergency response plans, search-and-rescue protocols, and disaster readiness." />}}
+
+- [Tenderfoot Rank Guide: Basic First Aid & Wounds](/scouts-bsa/ranks/tenderfoot/guide/req4a/)
+- [Second Class Rank Guide: Hurry Cases & Shock](/scouts-bsa/ranks/second-class/guide/req6a/)
+- [First Class Rank Guide: Advanced First Aid & CPR](/scouts-bsa/ranks/first-class/guide/req7a/)

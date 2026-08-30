@@ -16,6 +16,8 @@ Discuss when you should and should not use lashings.
 
 Before you tie a single lashing, this requirement asks you to understand when lashing is appropriate, how structures achieve rigidity, and the critical safety rules governing pioneering.
 
+{{< related-guide badge="pioneering" title="Pioneering Merit Badge Guide" description="Step up to advanced pioneering engineering, including tripods, A-trestles, signal towers, and structural rope bridges." />}}
+
 ## When Lashings Make Sense
 
 - **Building useful camp gadgets and campsite structures** that support light-to-moderate, steady loads — camp tables, washstands, tool racks, dish-drying racks, and campsite gateway markers.

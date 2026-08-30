@@ -25,6 +25,8 @@ Physical fitness is essential for safe backcountry exploration, personal confide
 
 This baseline gives you a starting point so you can design a personal 30-day improvement plan in Requirement 6b and measure your real progress in Requirement 6c.
 
+{{< related-guide badge="personal-fitness" title="Personal Fitness Merit Badge Guide" description="Extend your 30-day fitness tracking into the comprehensive 12-week tracked physical fitness program required for Eagle Scout." />}}
+
 ## Proper Form and Testing Procedures
 
 To make your 30-day comparison meaningful, you must perform each test using strict, correct form:

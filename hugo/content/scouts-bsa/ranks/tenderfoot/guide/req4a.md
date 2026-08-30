@@ -25,6 +25,8 @@ Show first aid for the following:
 
 Most outdoor injuries aren't dramatic — they're the small stuff that ruins a trip if you don't know how to handle it. This requirement covers eight situations you're genuinely likely to face on a campout, and asks you to show, not just describe, how you'd treat each one.
 
+{{< related-guide badge="first-aid" title="First Aid Merit Badge Guide" description="Master the comprehensive wilderness triage, trauma care, and emergency response techniques required for Eagle Scout." />}}
+
 ### Show first aid for simple cuts and scrapes
 
 Clean the wound with water, apply an antiseptic if available, and cover with a sterile bandage. Watch for signs of infection — redness, swelling, warmth — over the following days.

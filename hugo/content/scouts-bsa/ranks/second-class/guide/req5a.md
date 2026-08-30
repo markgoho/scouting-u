@@ -16,6 +16,8 @@ Tell what precautions must be taken for a safe swim.
 
 Every organized Scouting swimming activity operates under an established eight-point safety plan called **Safe Swim Defense**. This framework prevents accidents and ensures rapid response if an emergency arises.
 
+{{< related-guide badge="swimming" title="Swimming Merit Badge Guide" description="Master the BSA swimmer classification test, surface dives, rescue strokes, and aquatics safety protocols." />}}
+
 ## The Eight Points of Safe Swim Defense
 
 ### Qualified Supervision

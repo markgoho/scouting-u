@@ -16,6 +16,8 @@ Show how to tie a square knot, two half-hitches, and a taut-line hitch. Explain 
 
 Each of these three knots does a different job, and knowing which one to reach for matters as much as knowing how to tie it.
 
+{{< related-guide badge="pioneering" title="Pioneering Merit Badge Guide" description="Learn how foundational knots and hitches scale into structural lashings, rope bridges, and pioneering camp gadgets." />}}
+
 ## The Three Tests of a Good Knot
 
 Before choosing or tying any knot, keep in mind what makes a knot effective in the field:

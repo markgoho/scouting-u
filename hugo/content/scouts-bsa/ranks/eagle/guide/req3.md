@@ -16,33 +16,35 @@ Earn a total of 21 merit badges (10 more than required for the Life rank), inclu
 
 Requirement 3 represents the culmination of your merit badge career in Scouts BSA: earning a minimum of **21 total merit badges**, encompassing all **13 required categories**.
 
+{{< related-guide url="/merit-badges/eagle-required/strategy/" title="Eagle Scout Merit Badge Strategy Guide" description="Complete roadmap for all 13 Eagle categories, time-lock badges, choice groups, and blue card verification on Merit Badge University." />}}
+
 ## Comprehensive Breakdown of the 13 Eagle-Required Categories
 
 Every candidate for Eagle Scout must complete merit badges covering the following 13 specific subjects/categories:
 
-1. **(a) First Aid**: Advanced emergency assessment, CPR/AED techniques, triage, wilderness trauma care, and shock management.
-2. **(b) Citizenship in the Community**: Local municipal government structure, attending city/town council meetings, and volunteering with local charitable organizations.
-3. **(c) Citizenship in the Nation**: Constitutional rights and duties, branches of the federal government, national landmarks, and communications with elected national representatives.
-4. **(d) Citizenship in the World**: International law, global treaties, non-governmental organizations (NGOs), foreign service, and world geopolitical issues.
-5. **(e) Communication**: Public speaking, interpersonal communication, digital messaging, interviewing, and writing and delivering formal presentations.
-6. **(f) Cooking**: Camp kitchen hygiene, nutritional meal planning for patrol and trail backpacking, cooking methods, and food safety.
-7. **(g) Personal Fitness**: Comprehensive physical fitness assessment, nutrition, aerobic/strength training, and a **12-week (90-day) tracked physical improvement program**.
-8. **(h) Emergency Preparedness OR Lifesaving**:
+1. **(a) {{< cross-link badge="first-aid" text="First Aid" />}}**: Advanced emergency assessment, CPR/AED techniques, triage, wilderness trauma care, and shock management.
+2. **(b) {{< cross-link badge="citizenship-in-the-community" text="Citizenship in the Community" />}}**: Local municipal government structure, attending city/town council meetings, and volunteering with local charitable organizations.
+3. **(c) {{< cross-link badge="citizenship-in-the-nation" text="Citizenship in the Nation" />}}**: Constitutional rights and duties, branches of the federal government, national landmarks, and communications with elected national representatives.
+4. **(d) {{< cross-link badge="citizenship-in-the-world" text="Citizenship in the World" />}}**: International law, global treaties, non-governmental organizations (NGOs), foreign service, and world geopolitical issues.
+5. **(e) {{< cross-link badge="communication" text="Communication" />}}**: Public speaking, interpersonal communication, digital messaging, interviewing, and writing and delivering formal presentations.
+6. **(f) {{< cross-link badge="cooking" text="Cooking" />}}**: Camp kitchen hygiene, nutritional meal planning for patrol and trail backpacking, cooking methods, and food safety.
+7. **(g) {{< cross-link badge="personal-fitness" text="Personal Fitness" />}}**: Comprehensive physical fitness assessment, nutrition, aerobic/strength training, and a **12-week (90-day) tracked physical improvement program**.
+8. **(h) {{< cross-link badge="emergency-preparedness" text="Emergency Preparedness" />}} OR {{< cross-link badge="lifesaving" text="Lifesaving" />}}**:
    - *Emergency Preparedness*: Family disaster planning, community emergency response, search and rescue protocols.
    - *Lifesaving*: Advanced water rescue, active and passive victim towing, spinal injury management, water safety.
    - *(Choose one to fulfill category h. If you earn both, the second badge counts as an optional elective).*
-9. **(i) Environmental Science OR Sustainability**:
+9. **(i) {{< cross-link badge="environmental-science" text="Environmental Science" />}} OR {{< cross-link badge="sustainability" text="Sustainability" />}}**:
    - *Environmental Science*: Ecological studies, population dynamics, pollution monitoring, biodiversity, and outdoor lab experiments.
    - *Sustainability*: Resource conservation, waste reduction, carbon footprint analysis, sustainable community planning.
    - *(Choose one to fulfill category i. If you earn both, the second badge counts as an optional elective).*
-10. **(j) Personal Management**: Personal financial literacy, understanding investments, insurance, career planning, and maintaining a **13-week detailed financial budget**.
-11. **(k) Swimming OR Hiking OR Cycling**:
+10. **(j) {{< cross-link badge="personal-management" text="Personal Management" />}}**: Personal financial literacy, understanding investments, insurance, career planning, and maintaining a **13-week detailed financial budget**.
+11. **(k) {{< cross-link badge="swimming" text="Swimming" />}} OR {{< cross-link badge="hiking" text="Hiking" />}} OR {{< cross-link badge="cycling" text="Cycling" />}}**:
     - *Swimming*: Water survival strokes, endurance swims, diving, water safety.
     - *Hiking*: Completing four 10-mile hikes and one continuous 20-mile hike.
     - *Cycling*: Road safety, bicycle maintenance, and completing two 10-mile, two 15-mile, two 25-mile, and one continuous 50-mile bike ride.
     - *(Choose one to fulfill category k. If you earn more than one, the additional badges count as optional electives).*
-12. **(l) Camping**: Low-impact outdoor living, wilderness campcraft, campsite planning, and completing at least **20 days and nights of scout camping**.
-13. **(m) Family Life**: Family communication, roles, home safety, family projects, and a **90-day tracking of personal and family household responsibilities**.
+12. **(l) {{< cross-link badge="camping" text="Camping" />}}**: Low-impact outdoor living, wilderness campcraft, campsite planning, and completing at least **20 days and nights of scout camping**.
+13. **(m) {{< cross-link badge="family-life" text="Family Life" />}}**: Family communication, roles, home safety, family projects, and a **90-day tracking of personal and family household responsibilities**.
 
 ## Optional Merit Badges (8 Electives)
 

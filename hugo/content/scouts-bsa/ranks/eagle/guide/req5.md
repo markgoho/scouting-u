@@ -16,6 +16,8 @@ While a Life Scout, plan, develop, and give leadership to others in a service pr
 
 The Eagle Scout Service Project is the defining challenge of the Eagle Scout rank. It is the program's ultimate demonstration of your ability to plan, develop, fund, and **give leadership to others** in executing a project of lasting significance to your community.
 
+{{< related-guide badge="personal-management" title="Personal Management Merit Badge Guide" description="Master the budgeting, project planning timeline, and resource allocation fundamentals essential for your Eagle Scout Service Project." />}}
+
 ## Core Principles: Plan, Develop, Give Leadership
 
 Under the *Guide to Advancement* (topics 9.0.2.0 through 9.0.2.16), the Eagle project is designed to test your executive and servant leadership skills:

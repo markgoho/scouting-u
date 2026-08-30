@@ -16,16 +16,18 @@ While a Star Scout, participate in six hours of service through one or more serv
 
 Requirement 4 maintains the six-hour service standard from the Star rank, but introduces a new, specialized requirement: **at least three of the six hours must be conservation-related**.
 
+{{< related-guide badge="environmental-science" title="Environmental Science Merit Badge Guide" description="Ecology fieldwork, environmental impact studies, and conservation principles directly relevant to Life rank service projects." />}}
+
 ## What Qualifies as Conservation-Related Service?
 
 Conservation service involves hands-on work that directly benefits the natural environment, preserves wildlife habitats, protects ecosystems, or promotes environmental sustainability:
 
 ### Qualifying Conservation Projects:
-- **Erosion Control & Trail Maintenance**: Repairing eroded public hiking trails, installing water bars, stabilizing stream banks, or building boardwalks over delicate wetlands.
+- **Erosion Control & Trail Maintenance**: Repairing eroded public hiking trails, installing water bars, stabilizing stream banks, or building boardwalks over delicate wetlands (pairs well with *{{< cross-link badge="soil-and-water-conservation" text="Soil and Water Conservation" />}}*).
 - **Invasive Species Removal**: Clearing non-native, invasive plant species (such as kudzu, honeysuckle, garlic mustard, or English ivy) under the guidance of a park ranger or conservation biologist.
-- **Habitat Restoration & Native Planting**: Planting native trees, shrubs, and pollinator wildflowers in public parks, wildlife refuges, or school nature sanctuaries.
-- **Watershed & Riparian Cleanup**: Cleaning debris and contaminants from streams, rivers, lakeshores, wetlands, or coastal shorelines.
-- **Wildlife Structures**: Constructing and installing bird boxes, bat houses, fish habitat structures, or owl nesting platforms in designated conservation areas.
+- **Habitat Restoration & Native Planting**: Planting native trees, shrubs, and pollinator wildflowers in public parks, wildlife refuges, or school nature sanctuaries (pairs well with *{{< cross-link badge="plant-science" text="Plant Science" />}}*).
+- **Watershed & Riparian Cleanup**: Cleaning debris and contaminants from streams, rivers, lakeshores, wetlands, or coastal shorelines (pairs well with *{{< cross-link badge="sustainability" text="Sustainability" />}}*).
+- **Wildlife Structures**: Constructing and installing bird boxes, bat houses, fish habitat structures, or owl nesting platforms in designated conservation areas (pairs well with *{{< cross-link badge="fish-and-wildlife-management" text="Fish and Wildlife Management" />}}*).
 
 ### What Does NOT Qualify as Conservation:
 - Routine litter cleanups along paved schoolyards or parking lots (unless part of a broader municipal watershed restoration effort).

@@ -16,6 +16,8 @@ Using a map and compass, complete an orienteering course that covers at least on
 
 Orienteering combines map reading, compass bearings, pacing, and terrain awareness to navigate through a series of wilderness checkpoints (control points). In addition to finding your way over at least one mile, this requirement challenges you to estimate heights and widths of natural or manmade obstacles using practical field geometry.
 
+{{< related-guide badge="orienteering" title="Orienteering Merit Badge Guide" description="Master wilderness navigation courses, topographic map reading, precision bearings, and pace count calibration." />}}
+
 ## Completing an Orienteering Course
 
 An orienteering course consists of a start, a designated sequence of **control points** (marked with orange-and-white nylon markers or permanent wooden posts), and a finish.

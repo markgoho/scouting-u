@@ -155,3 +155,13 @@ Every 10 to 15 minutes, lift the Dutch oven by its bail handle and rotate the po
 {{< drg/did-you-know >}}
 The black non-stick patina on well-seasoned cast iron is not grease—it is **polymerized oil**. Under high heat, unsaturated fats chemically cross-link into a natural, rock-hard polymer ceramic bonded directly into the microscopic pores of the iron.
 {{< /drg/did-you-know >}}
+
+## Related Merit Badge Guides & Rank Requirements
+
+{{< related-guide badge="cooking" title="Cooking Merit Badge Guide" description="Complete meal planning, nutrition calculations, Dutch oven techniques, and backcountry food safety." />}}
+
+{{< related-guide badge="camping" title="Camping Merit Badge Guide" description="Patrol campsite setup, kitchen organization, Leave No Trace sanitation, and wilderness food storage." />}}
+
+- [Patrol Leader Guide: How to Run a Great Patrol](/scouts-bsa/leadership/patrol-method/)
+- [First Class Rank Guide: Meal Planning & Dutch Oven Cooking](/scouts-bsa/ranks/first-class/guide/req2a/)
+- [Tenderfoot Rank Guide: Camp Stove & Nutrition Safety](/scouts-bsa/ranks/tenderfoot/guide/req2a/)

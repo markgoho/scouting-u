@@ -16,6 +16,8 @@ Successfully complete the BSA swimmer test.<sup><a href="#fn-4">4</a>, <a href="
 
 The BSA swimmer test is the essential milestone that qualifies a Scout for deep-water swimming, open-water activities, canoeing, kayaking, sailing, and aquatic high-adventure trips.
 
+{{< related-guide badge="swimming" title="Swimming Merit Badge Guide" description="Fulfill the foundational aquatics requirements for the Swimming and Lifesaving merit badges." />}}
+
 ## The Complete BSA Swimmer Test Sequence
 
 Under the direct supervision of a certified lifeguard or aquatics instructor, the test must be completed in one continuous swim, without stopping, standing, or holding onto the side of the pool:

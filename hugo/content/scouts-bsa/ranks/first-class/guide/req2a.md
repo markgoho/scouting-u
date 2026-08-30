@@ -16,6 +16,8 @@ Help plan a menu for one of the above campouts that includes at least one breakf
 
 Planning a full day of meals for your patrol requires balancing nutrition, taste, packability, cooking logistics, and budget. At First Class, you take the lead in designing a balanced three-meal menu (Breakfast, Lunch, Dinner) where at least two meals require cooking, ensuring every Scout has the energy to thrive on the campout.
 
+{{< related-guide badge="cooking" title="Cooking Merit Badge Guide" description="Master the comprehensive menu planning, budgeting, food safety regulations, and Dutch oven recipes for the Cooking merit badge." />}}
+
 ## Full-Day Sample Menu with MyPlate Breakdown
 
 Here is an example of a balanced, practical patrol menu for an active campout:

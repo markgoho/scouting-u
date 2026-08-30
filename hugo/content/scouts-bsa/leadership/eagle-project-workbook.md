@@ -138,7 +138,11 @@ Once the physical work is complete, finish the **Project Report** in your workbo
 - Turn in your Eagle application and get ready for your Board of Review!
 {{< /drg/checklist >}}
 
-## Related Guides
+## Related Guides & Merit Badges
+
+{{< related-guide badge="personal-management" title="Personal Management Merit Badge" description="Project management, budgeting, and timeline development skills that align directly with Eagle Scout Service Project planning." />}}
+
+{{< related-guide badge="communication" title="Communication Merit Badge" description="Develop clear presentation, meeting leadership, and volunteer briefing techniques essential for your Eagle project." />}}
 
 - [How to Plan Your Eagle Merit Badges](/scouts-bsa/leadership/merit-badge-strategy/)
 - [Patrol Leader Guide: How to Run a Great Patrol](/scouts-bsa/leadership/patrol-method/)

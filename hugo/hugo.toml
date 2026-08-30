@@ -11,6 +11,10 @@ disableKinds = ['taxonomy', 'term']
   [[module.imports]]
     path = "github.com/markgoho/uni-theme"
 
+[params]
+  mbu_base_url = 'https://merit-badge.university'
+  scouting_u_base_url = 'https://scouting.university'
+
 [params.analytics]
   pirsch_code = '3ghEJ8dNoUUjtbQI3smz4RUa5LeYQyfY'
 

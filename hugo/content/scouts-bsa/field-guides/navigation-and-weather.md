@@ -196,3 +196,13 @@ If the flash-to-bang count between seeing lightning and hearing thunder is **les
 4. Assume the **Lightning Crouch**: Crouch on top of an insulated sleeping pad or folded pack with feet pressed tightly together, head tucked down, and hands over ears.
 5. Wait **30 full minutes** after the last audible thunder before resuming travel.
 {{< /drg/safety-first >}}
+
+## Related Merit Badge Guides & Rank Requirements
+
+{{< related-guide badge="orienteering" title="Orienteering Merit Badge Guide" description="Master wilderness navigation courses, topographic map reading, and precision compass bearings." />}}
+
+{{< related-guide badge="weather" title="Weather Merit Badge Guide" description="Understand atmospheric pressure, cloud formations, storm tracking, and front movements." />}}
+
+- [Second Class Rank Guide: Map & Compass Navigation](/scouts-bsa/ranks/second-class/guide/req3a/)
+- [First Class Rank Guide: Topographic Maps & Compass Course](/scouts-bsa/ranks/first-class/guide/req4a/)
+- [First Class Rank Guide: Weather Forecasting & Hazard Signs](/scouts-bsa/ranks/first-class/guide/req5d/)

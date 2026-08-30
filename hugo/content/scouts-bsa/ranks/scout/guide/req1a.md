@@ -16,6 +16,8 @@ Repeat from memory the Scout Oath, Scout Law, Scout motto, and Scout slogan. In 
 
 The foundation of all Scouting is built on four core principles: the Scout Oath, the Scout Law, the Scout Motto, and the Scout Slogan. These are not merely words to memorize—they form a lifelong code of conduct that guides how you treat others, care for yourself, and serve your community.
 
+{{< related-guide badge="scouting-heritage" title="Scouting Heritage Merit Badge Guide" description="Explore the history and founding principles of Scouting, including Baden-Powell's origins and the development of the Scout Oath and Law." />}}
+
 ## The Scout Oath
 
 > **On my honor I will do my best to do my duty to God and my country and to obey the Scout Law; to help other people at all times; to keep myself physically strong, mentally awake, and morally straight.**

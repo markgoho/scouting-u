@@ -16,6 +16,8 @@ Earn five more merit badges (so that you have 11 in all) including any number mo
 
 Requirement 3 advances your merit badge progression from the Star rank milestone (6 badges, at least 4 Eagle-required) to the Life rank milestone: **11 total merit badges, with at least 7 from the Eagle-required list**.
 
+{{< related-guide url="/merit-badges/eagle-required/strategy/" title="Eagle Scout Merit Badge Strategy Guide" description="Complete 90-day time-lock badge planning, choice group analysis, and rank-by-rank roadmap on Merit Badge University." />}}
+
 ## Understanding the Advancement Mathematics
 
 The requirement focuses on cumulative totals rather than a strict breakdown of your next five badges:
@@ -36,19 +38,19 @@ Earning more than the required minimum of Eagle badges now puts you ahead for th
 
 The list of Eagle-required merit badge categories includes:
 
-1. **First Aid**
-2. **Citizenship in the Community**
-3. **Citizenship in the Nation**
-4. **Citizenship in the World**
-5. **Communication**
-6. **Cooking**
-7. **Personal Fitness** *(requires a 12-week/90-day physical fitness log)*
-8. **Emergency Preparedness OR Lifesaving** *(choose one)*
-9. **Environmental Science OR Sustainability** *(choose one)*
-10. **Personal Management** *(requires a 13-week financial tracking budget)*
-11. **Swimming OR Hiking OR Cycling** *(choose one)*
-12. **Camping** *(requires 20 days and nights of scout camping)*
-13. **Family Life** *(requires a 90-day tracking of family chores and projects)*
+1. **{{< cross-link badge="first-aid" text="First Aid" />}}**
+2. **{{< cross-link badge="citizenship-in-the-community" text="Citizenship in the Community" />}}**
+3. **{{< cross-link badge="citizenship-in-the-nation" text="Citizenship in the Nation" />}}**
+4. **{{< cross-link badge="citizenship-in-the-world" text="Citizenship in the World" />}}**
+5. **{{< cross-link badge="communication" text="Communication" />}}**
+6. **{{< cross-link badge="cooking" text="Cooking" />}}**
+7. **{{< cross-link badge="personal-fitness" text="Personal Fitness" />}}** *(requires a 12-week/90-day physical fitness log)*
+8. **{{< cross-link badge="emergency-preparedness" text="Emergency Preparedness" />}} OR {{< cross-link badge="lifesaving" text="Lifesaving" />}}** *(choose one)*
+9. **{{< cross-link badge="environmental-science" text="Environmental Science" />}} OR {{< cross-link badge="sustainability" text="Sustainability" />}}** *(choose one)*
+10. **{{< cross-link badge="personal-management" text="Personal Management" />}}** *(requires a 13-week financial tracking budget)*
+11. **{{< cross-link badge="swimming" text="Swimming" />}} OR {{< cross-link badge="hiking" text="Hiking" />}} OR {{< cross-link badge="cycling" text="Cycling" />}}** *(choose one)*
+12. **{{< cross-link badge="camping" text="Camping" />}}** *(requires 20 days and nights of scout camping)*
+13. **{{< cross-link badge="family-life" text="Family Life" />}}** *(requires a 90-day tracking of family chores and projects)*
 
 ## Strategic Planning for Eagle
 

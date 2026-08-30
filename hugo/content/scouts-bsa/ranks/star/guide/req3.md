@@ -16,6 +16,8 @@ Earn six merit badges, including any four from the required list for Eagle. You 
 
 Requirement 3 marks the beginning of the formal merit badge requirement path in Scouts BSA advancement. While you may have earned merit badges earlier in your Scouting career, Star is the first rank where earning merit badges is required to advance.
 
+{{< related-guide url="/merit-badges/eagle-required/strategy/" title="Eagle Scout Merit Badge Strategy Guide" description="Complete 90-day time-lock badge planning, choice group analysis, and rank-by-rank roadmap on Merit Badge University." />}}
+
 ## How Merit Badges Work
 
 The merit badge program introduces you to over 135 subjects ranging from outdoor survival and environmental science to aviation, robotics, personal finance, and public health.
@@ -30,19 +32,19 @@ The official process for earning any merit badge involves four key steps:
 
 Eagle Scout requires a total of 21 merit badges, of which 13 specific subjects/categories are required. For the Star rank, you must earn a total of **six merit badges**, with at least **four** coming from the Eagle-required list:
 
-- **First Aid**: Foundational emergency response and life-saving skills.
-- **Citizenship in the Community**: Local government, civic involvement, and community organizations.
-- **Citizenship in the Nation**: Federal government structure, national symbols, and historic documents.
-- **Citizenship in the World**: International relations, global treaties, and world cultures.
-- **Communication**: Public speaking, digital communication, interviewing, and writing skills.
-- **Cooking**: Camp culinary skills, nutrition, meal planning, and food safety.
-- **Personal Fitness**: Physical fitness, nutrition, and a mandatory 12-week (90-day) fitness tracking program.
-- **Emergency Preparedness OR Lifesaving**: Choose one to fulfill the requirement.
-- **Environmental Science OR Sustainability**: Choose one to fulfill the requirement.
-- **Personal Management**: Financial planning, budgeting, project tracking, and a mandatory 13-week budget record.
-- **Swimming OR Hiking OR Cycling**: Choose one outdoor physical skill to fulfill the requirement.
-- **Camping**: Outdoor living, campsite selection, packing, and a requirement for at least 20 days and nights of camping.
-- **Family Life**: Family roles, responsibilities, projects, and a mandatory 90-day tracking of family chores.
+- **{{< cross-link badge="first-aid" text="First Aid" />}}**: Foundational emergency response and life-saving skills.
+- **{{< cross-link badge="citizenship-in-the-community" text="Citizenship in the Community" />}}**: Local government, civic involvement, and community organizations.
+- **{{< cross-link badge="citizenship-in-the-nation" text="Citizenship in the Nation" />}}**: Federal government structure, national symbols, and historic documents.
+- **{{< cross-link badge="citizenship-in-the-world" text="Citizenship in the World" />}}**: International relations, global treaties, and world cultures.
+- **{{< cross-link badge="communication" text="Communication" />}}**: Public speaking, digital communication, interviewing, and writing skills.
+- **{{< cross-link badge="cooking" text="Cooking" />}}**: Camp culinary skills, nutrition, meal planning, and food safety.
+- **{{< cross-link badge="personal-fitness" text="Personal Fitness" />}}**: Physical fitness, nutrition, and a mandatory 12-week (90-day) fitness tracking program.
+- **{{< cross-link badge="emergency-preparedness" text="Emergency Preparedness" />}} OR {{< cross-link badge="lifesaving" text="Lifesaving" />}}**: Choose one to fulfill the requirement.
+- **{{< cross-link badge="environmental-science" text="Environmental Science" />}} OR {{< cross-link badge="sustainability" text="Sustainability" />}}**: Choose one to fulfill the requirement.
+- **{{< cross-link badge="personal-management" text="Personal Management" />}}**: Financial planning, budgeting, project tracking, and a mandatory 13-week budget record.
+- **{{< cross-link badge="swimming" text="Swimming" />}} OR {{< cross-link badge="hiking" text="Hiking" />}} OR {{< cross-link badge="cycling" text="Cycling" />}}**: Choose one outdoor physical skill to fulfill the requirement.
+- **{{< cross-link badge="camping" text="Camping" />}}**: Outdoor living, campsite selection, packing, and a requirement for at least 20 days and nights of camping.
+- **{{< cross-link badge="family-life" text="Family Life" />}}**: Family roles, responsibilities, projects, and a mandatory 90-day tracking of family chores.
 
 {{< drg/did-you-know >}}
 Any merit badge you earned as a Scout, Tenderfoot, Second Class, or First Class counts toward your six merit badges for Star. You do not need to earn all six during your four months as a First Class Scout.

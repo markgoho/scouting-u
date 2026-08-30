@@ -272,3 +272,13 @@ Splicing interweaves individual rope strands to create permanent joints with 90â
 {{< drg/did-you-know >}}
 The **Bowline** knot does not jam under load because tension applies force to the collar around the standing part rather than compressing the internal turn. To untie an extremely tight Bowline, simply flip the collar loop backward off the standing line ("breaking the back")â€”the knot instantly falls apart in your hands.
 {{< /drg/did-you-know >}}
+
+## Related Merit Badge Guides & Rank Requirements
+
+{{< related-guide badge="pioneering" title="Pioneering Merit Badge Guide" description="Advanced structural lashings, rope splices, anchor systems, and engineering pioneering projects." />}}
+
+{{< related-guide badge="camping" title="Camping Merit Badge Guide" description="Tarp guylines, tent pitching, camp gadget construction, and outdoor living skills." />}}
+
+- [Scout Rank Guide: Knots & Whipping](/scouts-bsa/ranks/scout/guide/req4a/)
+- [Tenderfoot Rank Guide: Hitches & Ropework](/scouts-bsa/ranks/tenderfoot/guide/req3a/)
+- [First Class Rank Guide: Lashings & Camp Gadgets](/scouts-bsa/ranks/first-class/guide/req3a/)
