@@ -52,8 +52,8 @@ Once all dishes are clean, dispose of the wastewater following Leave No Trace gu
 2. **Pack out solids:** Shake the strained food solids directly into the patrol trash bag.
 3. **Disperse greywater:** Broadcast the strained wastewater over a wide area or pour it into a designated campsite sump hole at least **200 feet (75 paces)** away from sleeping tents, trails, streams, and lakes.
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 Never wash dishes or dump soapy greywater directly into a river, lake, or natural spring, even when using biodegradable soap. Biodegradable soap requires soil microbes to break down safely.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 To complete this requirement, take the lead at the wash station during a patrol outing and demonstrate the entire setup, wash sequence, and greywater disposal process for your leader.

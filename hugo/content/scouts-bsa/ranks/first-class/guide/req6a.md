@@ -48,6 +48,6 @@ Under the direct supervision of a certified lifeguard or aquatics instructor, th
 The resting backstroke and 1-minute float at the end are not an afterthought — they test your ability to conserve energy and stay calm when fatigued, which is the most critical survival skill in open water.
 {{< /drg/tip >}}
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 The swimmer test must be administered under current Safe Swim Defense guidelines by a qualified aquatics instructor or lifeguard. All Scout swimmer classifications are re-tested annually.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}

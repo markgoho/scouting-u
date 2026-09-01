@@ -63,7 +63,7 @@ For frostbite, move the person into shelter and warm the frozen skin gradually u
 
 ### Show first aid for choking
 
-{{< drg/be-prepared title="A Patrol Member Starts Choking at Camp" >}}
+{{< drg/be-prepared title="A Patrol Member Starts Choking at Camp" safety="true" >}}
 Choking cuts off breathing fast, and hesitation costs time you don't have.
 
 - **Step one**: Ask "Are you choking?" If they can't speak or cough, act immediately.

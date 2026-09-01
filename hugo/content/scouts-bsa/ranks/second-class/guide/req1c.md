@@ -52,7 +52,7 @@ Walk the area, evaluate the terrain against the criteria above, and present your
 - **Point out the exact perimeter:** Show where patrol tents, the dining fly, and the kitchen station should go.
 - **Explain your rationale:** Explicitly state why the spot is safe (good drainage, no widow-makers overhead, sheltered from wind) and compliant with Leave No Trace (200 feet from water, established durable surface).
 
-{{< drg/be-prepared title="The Spot That Looks Perfect" >}}
+{{< drg/be-prepared title="The Spot That Looks Perfect" safety="true" >}}
 You find a flat, grassy clearing that looks ideal for the patrol site — but it sits in a shallow dip below the trail.
 
 - **Check the drainage**: Look for signs of standing water, matted-down silt, or dry channels leading into the clearing.

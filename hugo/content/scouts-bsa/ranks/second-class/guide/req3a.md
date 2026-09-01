@@ -56,9 +56,9 @@ United States Geological Survey (USGS) topographic maps use standardized colors 
 | **Black (Manmade Features)** | Cultural & Survey Marks | Black dashed lines indicate **hiking trails**; solid/parallel lines indicate roads and railroads; small black squares indicate **buildings**; a cross represents a church, and a flag indicates a school; "BM" marks an elevation **benchmark**. |
 | **Red / Pink (Urban & Roads)** | Built-Up Areas & Highways | Red lines mark primary highways and major roads; pink shading indicates densely populated cities and urban areas. |
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 Keep your compass away from metal belt buckles, iron tent stakes, watches, and cell phones when taking a bearing. Ferrous metals and electronics deflect the magnetic needle and cause significant navigational errors.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 {{< drg/tip >}}
 Remember the classic compass rhyme: **"Put Red in the Shed, and follow the Direction of Travel head!"**

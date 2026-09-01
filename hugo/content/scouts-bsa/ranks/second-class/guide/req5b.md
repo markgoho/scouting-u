@@ -46,6 +46,6 @@ The BSA beginner test demonstrates that you can enter deep water calmly, orient 
 If you feel tired or unsteady during the turn, remember that stopping to turn does not mean touching the wall or standing on the bottom. Keep your lungs filled with air to maintain natural buoyancy, sweep your hands gently under the surface to pivot, and push forward into your return stroke.
 {{< /drg/tip >}}
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 The beginner test must be administered under the direct supervision of a certified lifeguard or aquatics instructor in accordance with Safe Swim Defense.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}

@@ -65,12 +65,12 @@ This test measures the flexibility of your hamstring muscles and lower back safe
 
 ## Warm-Up and Testing Safety
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 **Always warm up before fitness testing**:
 - Spend **5 to 10 minutes** doing light dynamic activity (jogging in place, jumping jacks, high knees) to increase blood flow and warm your muscles.
 - Follow with gentle static stretches: quad/thigh stretches, calf stretches against a wall, and lower back stretches. Hold stretches steadily for 20 to 30 seconds without bouncing.
 - Have a buddy or leader time and count for you so you can focus entirely on maintaining proper form.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 {{< drg/tip >}}
 Record your true, honest results in your Scout handbook or log. An honest baseline gives you an authentic starting point to demonstrate real personal growth over the next 30 days.

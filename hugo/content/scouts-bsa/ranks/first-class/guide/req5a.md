@@ -67,9 +67,9 @@ Under Scouting America requirements, you can demonstrate evidence of your 10 nat
 2. **Fallen Specimens & Collections**: Finding fallen leaves, fallen acorns, cones, or dropped seed pods on the forest floor. You can create leaf pressings or pencil rubbings in a nature log.
 3. **Photographs You Have Taken**: Snapping clear close-up photos showing the leaf shape, margin, twig attachment, bark, and overall tree habit.
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 **Practice Outdoor Ethics**: Never strip bark from live standing trees, break living branches, or dig up wild plants. Collect only fallen specimens from the ground where permitted by park regulations.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 {{< drg/checklist title="Native Plant Identification Log" subtitle="Record your 10 native species" >}}
 - Common Plant Name & Scientific Name (if known)

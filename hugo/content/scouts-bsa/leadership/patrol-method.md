@@ -112,7 +112,7 @@ Use your 30-minute patrol time at weekly troop meetings to get organized:
 | **0:15 – 0:25** | Teach or practice a rank skill (like knots, lashings, or first aid) using EDGE | Assistant PL or Senior Scout |
 | **0:25 – 0:30** | Practice patrol yell, work on patrol flag, or prep for the troop game | Patrol Leader |
 
-{{< drg/be-prepared title="What to Do in Bad Weather" >}}
+{{< drg/be-prepared title="What to Do in Bad Weather" safety="true" >}}
 If bad weather hits your campout:
 - **No Trenching**: Do not dig ditches around tents. Instead, pitch tents on high, well-drained ground.
 - **Put Up a Dining Tarp**: Set up a sturdy rain fly over your kitchen area using taut-line hitches.

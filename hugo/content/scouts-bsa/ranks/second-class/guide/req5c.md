@@ -59,7 +59,7 @@ If no rescue rope or ring buoy is available, throw any buoyant item that will he
 **Silent Drowning Awareness**: In real life, struggling swimmers rarely wave their arms and scream for help as seen in movies. Drowning is usually quiet and subtle — a person struggling to keep their mouth above the surface cannot yell or wave. Always watch the water closely and call for a lifeguard immediately upon suspecting trouble.
 {{< /drg/safety-first >}}
 
-{{< drg/be-prepared title="Step-by-Step Response to a Swimmer in Distress" >}}
+{{< drg/be-prepared title="Step-by-Step Response to a Swimmer in Distress" safety="true" >}}
 1. **Shout for help**: Call loudly for the lifeguard and adult leaders (*"Swimmer in distress! Lifeguard!"*).
 2. **Assess distance**: If they are within reach, stay low and extend an arm, leg, pole, or paddle.
 3. **Throw if out of reach**: Anchor the bitter end under your foot and throw a ring buoy, throw bag, or life jacket just past them.

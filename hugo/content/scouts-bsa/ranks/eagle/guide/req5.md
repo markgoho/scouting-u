@@ -39,9 +39,9 @@ You must use the official **Eagle Scout Service Project Workbook** (BSA publicat
 
 ## The Four Mandatory Proposal Approvals
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 **STRICT ADVANCEMENT RULE**: You cannot begin physical project work, purchase materials, or conduct outside fundraising until ALL FOUR proposal approvals are secured in writing. Any work performed prior to district/council approval will not count.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 Your Project Proposal must be signed in the following exact sequence:
 

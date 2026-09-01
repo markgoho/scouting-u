@@ -41,10 +41,10 @@ You must fill out the **Project Proposal** section in the official *Eagle Scout 
 | **3rd Signature** | **Troop Committee Chair** | Confirms the troop supports your safety plan and adult supervision | Signs after your Scoutmaster |
 | **4th Signature** | **District Advancement Chair** | Makes sure your project meets national Scouting America guidelines | **Must have this signature before you buy materials, raise money, or do any work!** |
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 **Do Not Start Work Early**:
 You may NOT buy materials, raise money, ask local stores for donations, or start building until the District Advancement Chair has signed your proposal. Any work done before that date cannot count toward your requirement.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 {{< drg/be-prepared title="Common Proposal Mistakes to Avoid" >}}
 District advancement chairs most often ask Scouts to rewrite proposals for these reasons:

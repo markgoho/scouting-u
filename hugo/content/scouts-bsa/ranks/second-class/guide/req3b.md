@@ -51,9 +51,9 @@ Do not leave your map and compass stashed inside your backpack. Keep them access
 - **Map and compass** (for the specific trail area).
 {{< /drg/checklist >}}
 
-{{< drg/safety-first >}}
+{{< drg/tip >}}
 Stay hydrated by taking small, frequent sips of water every 20 to 30 minutes, rather than chugging water only when parched. Take short rest breaks at the top of hills rather than at the bottom.
-{{< /drg/safety-first >}}
+{{< /drg/tip >}}
 
 {{< drg/tip >}}
 If a physical disability or mobility limitation prevents walking or cycling, the Scouts BSA advancement program allows an appropriate motorized or wheelchair trip approved by your Scoutmaster and council advancement committee.

@@ -22,7 +22,7 @@ The most important rule when lost is to **stay calm and stay put**. Panicking, r
 
 The moment you realize you do not know where you are or cannot see your patrol, follow the **STOP** steps:
 
-{{< drg/be-prepared title="The STOP Protocol" >}}
+{{< drg/be-prepared title="The STOP Protocol" safety="true" >}}
 - **S — Stop (and Sit Down)**: Freeze in your tracks. Sit down on a log or rock, take a deep breath, and take a sip of water. Acknowledge that you are lost without panicking. Calming your body stops the rush of adrenaline that causes reckless decisions.
 - **T — Think**: How did you get here? When did you last see a familiar trail blaze, landmark, bridge, or member of your group? Can you see the trail within a few paces? If not, do not guess or wander—stay where you are.
 - **O — Observe**: Look around in all directions. Notice terrain features: ridges, streams, clearings, or distinct rock formations. Listen carefully for distant voices, vehicle traffic, running water, or whistles. Check your gear, water supply, and remaining daylight.
