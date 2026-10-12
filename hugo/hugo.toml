@@ -5,7 +5,7 @@ enableRobots = true
 disableKinds = ['taxonomy', 'term']
 
 [outputs]
-  home = ['html', 'rss', 'robots', 'llms', 'llmsfull']
+  home = ['html', 'rss', 'robots', 'llms', 'llmsfull', 'agentskills', 'ard', 'aicatalog']
 
 [module]
   [[module.imports]]
@@ -14,6 +14,15 @@ disableKinds = ['taxonomy', 'term']
 [params]
   mbu_base_url = 'https://merit-badge.university'
   scouting_u_base_url = 'https://scouting.university'
+
+[params.agents.representative_queries]
+  # One array per skill in assets/agent-skills/ (uni-theme ARD manifest).
+  rank-requirements = [
+    'What are the requirements for the Tenderfoot rank?',
+    'How do I complete First Class requirement 3b?',
+    'What do I need to earn Eagle Scout?',
+    'How do I tie a clove hitch for Scouts BSA?',
+  ]
 
 [params.analytics]
   pirsch_code = '3ghEJ8dNoUUjtbQI3smz4RUa5LeYQyfY'
