@@ -1,7 +1,8 @@
 {{- /* guide.md (uni-theme#41): the Markdown twin of guide.html, for a
   guide page that turns on the `markdown` output format.
 
-  Writes the group label and title, the description, the body through
+  Writes the title, the drg/md-context.md hook (which award this guide
+  is about), the group label, the description, the body through
   .RenderShortcodes (raw Markdown with each shortcode rendered by its .md
   variant, see text/markdown-body.md), and prev/next links as a list,
   each to the target's .md twin when it has one (else its absolute HTML
@@ -13,7 +14,10 @@
 {{- $navData := partial "drg/resolve-nav.html" . -}}
 {{- $cleanTitle := replaceRE `^(Req|Requirement) [0-9A-Za-z]+([–-][0-9A-Za-z]+)? — ` "" .Title -}}
 # {{ $cleanTitle }}
-{{ with $navData.group_title_display }}
+{{ with partial "drg/md-context.md" . }}
+{{ . }}
+{{ end }}
+{{- with $navData.group_title_display }}
 *{{ . }}*
 {{ end }}
 {{- with .Description }}
