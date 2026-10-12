@@ -5,4 +5,4 @@
 {{ with .Description }}
 {{ . }}
 {{ end }}
-{{ strings.TrimSpace (replaceRE `(?s)<!--.*?-->` "" .RenderShortcodes) }}
+{{ partial "text/markdown-body.md" . }}
