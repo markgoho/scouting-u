@@ -2,7 +2,7 @@
 
 - **Status:** Accepted
 - **Date:** 2026-08-23
-- **Applies to:** `hugo/layouts/shortcodes/drg/image.html`, `scripts/generate-drg-images.ts`,
+- **Applies to:** `[params.drg.image]` in `hugo/hugo.toml` (uni-theme's `drg/image`), `scripts/generate-drg-images.ts`,
   `scripts/migrate-images-to-imagekit.ts`, `scripts/verify-imagekit.ts`, every
   `guide/images.json`
 - **Related:** `.claude/skills/drg-images/SKILL.md`, mbu's own
@@ -72,12 +72,7 @@ reuse, not cross-site cache sharing. Quality (80) and format optimization
 are account-level dashboard settings already configured for mbu; nothing
 scouting-u-specific to set there.
 
-**The seam:** `hugo/layouts/shortcodes/drg/image.html` is a local override
-of `uni-theme`'s `shortcodes/drg/` directory (which has no `image.html` —
-mbu's own copy is local for the same reason). It resolves `src` against the
-guide's `images.json` manifest and calls the vendored `imagekit/img.html` /
-`imagekit/url.html` partials, already available here through the `uni-theme`
-module import — no theme change was needed.
+**The seam:** uni-theme's `shortcodes/drg/image.html` (uni-theme#39, scouting-u#127), configured by `[params.drg.image]` in `hugo/hugo.toml`: `path` is the printf of the manifest's `rank` key and the image id (`/su-assets/scouts-bsa/ranks/%s/guide/%s`), `max_width` is 1376. The theme resolves `src` against the guide's `images.json` manifest (`drg/image-resolve.html`), renders a local `images/<id>.png` through its `drg/local-image.html` before upload, and has a `.md` variant for the guide Markdown twins. Until scouting-u#127 this was a local override of the same shortcode; the move changed no HTML output.
 
 **`.claude/skills/drg/SHORTCODES.md`** previously stated flatly that no
 image pipeline exists in this repo. That line is now false and has been

@@ -6,9 +6,17 @@ cascade:
       path: /scouts-bsa/ranks/*
       kind: section
     layout: rank-landing
-    outputs: [html, markdown]
+    outputs: [html, rss, markdown]
   - target:
       path: /scouts-bsa/ranks/*/requirements
+      kind: page
+    outputs: [html, markdown]
+  - target:
+      path: /scouts-bsa/ranks/*/guide
+      kind: section
+    outputs: [html, rss, markdown]
+  - target:
+      path: /scouts-bsa/ranks/*/guide/*
       kind: page
     outputs: [html, markdown]
 ---

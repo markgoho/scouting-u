@@ -1,6 +1,11 @@
 ---
 title: "Youth Leadership Hub"
 description: "How youth leadership works in Scouting America: patrol roles, troop meetings, the PLC, the EDGE method, and guides for Patrol Leaders and Eagle candidates."
+outputs: [html, rss, markdown]
+cascade:
+  - target:
+      kind: page
+    outputs: [html, markdown]
 ---
 
 "The patrol method is not a way to run a troop; it is the *only* way." — Robert Baden-Powell

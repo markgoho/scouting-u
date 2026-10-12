@@ -25,6 +25,12 @@ disableKinds = ['taxonomy', 'term']
   endpoint = 'https://ik.imagekit.io/doulacoop'
   widths   = [400, 600, 800, 1200, 1600]
 
+[params.drg.image]
+  # uni-theme's drg/image shortcode (uni-theme#39): printf of the guide
+  # manifest's "rank" key and the image id. See ADR 0012.
+  path      = '/su-assets/scouts-bsa/ranks/%s/guide/%s'
+  max_width = 1376
+
 [[menus.main]]
   name = 'Scouts BSA'
   url = '/scouts-bsa/'
