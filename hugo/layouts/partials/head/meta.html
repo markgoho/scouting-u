@@ -22,17 +22,3 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ .Title }}" />
 <meta name="twitter:description" content="{{ .Description | default .Summary }}" />
-
-{{/* LLM visibility, copied from uni-theme's head/meta.html (uni-theme#37,
-  #40) because this file overrides it: one alternate link for each
-  Markdown output this page has, and the llms.txt link on the home page. */}}
-{{ range .AlternativeOutputFormats }}
-  {{ if eq .MediaType.Type "text/markdown" }}
-    <link rel="alternate" type="text/markdown" href="{{ .Permalink }}" />
-  {{ end }}
-{{ end }}
-{{ if .IsHome }}
-  {{ with .OutputFormats.Get "llms" }}
-    <link rel="alternate" type="text/plain" href="{{ .Permalink }}" title="llms.txt" />
-  {{ end }}
-{{ end }}
