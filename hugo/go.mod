@@ -2,4 +2,4 @@ module github.com/markgoho/scouting-u/hugo
 
 go 1.26.5
 
-require github.com/markgoho/uni-theme v0.1.1-0.20261012021638-d756298c5141 // indirect
+require github.com/markgoho/uni-theme v0.1.1-0.20261012124555-faa0daa6e60d // indirect
