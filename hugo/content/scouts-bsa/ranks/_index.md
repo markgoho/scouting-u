@@ -6,6 +6,11 @@ cascade:
       path: /scouts-bsa/ranks/*
       kind: section
     layout: rank-landing
+    outputs: [html, markdown]
+  - target:
+      path: /scouts-bsa/ranks/*/requirements
+      kind: page
+    outputs: [html, markdown]
 ---
 
 ## Advancement Rules & Core Guidelines

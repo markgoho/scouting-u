@@ -5,7 +5,7 @@ enableRobots = true
 disableKinds = ['taxonomy', 'term']
 
 [outputs]
-  home = ['html', 'rss', 'robots']
+  home = ['html', 'rss', 'robots', 'llms', 'llmsfull']
 
 [module]
   [[module.imports]]
