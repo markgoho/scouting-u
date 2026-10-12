@@ -6,7 +6,7 @@
 {{ with .Description }}
 {{ . }}
 {{ end }}
-{{- with strings.TrimSpace (replaceRE `(?s)<!--.*?-->` "" .RenderShortcodes) }}
+{{- with partial "text/markdown-body.md" . }}
 {{ . }}
 {{ end }}
 {{ range .Pages.ByTitle }}
