@@ -16,7 +16,9 @@ Assemble a personal first-aid kit to carry with you on future campouts and hikes
 
 A first-aid kit only helps if it matches the injuries you're actually likely to face — which is exactly what requirements 4a and 4b just covered. A personal kit handles scrapes, blisters, and other minor injuries; a larger patrol or home kit is what you lean on for more serious emergencies. Building your own kit, instead of grabbing a generic one off a shelf, is what makes this requirement stick.
 
-{{< drg/checklist title="Personal First-Aid Kit" subtitle="The Scouts BSA Handbook list — fit it all in a resealable plastic bag" >}}
+The requirement doesn't tell you exactly what goes in the kit. The checklist below is the one suggested in the Scouts BSA Handbook. It's a solid starting point, but it isn't a list you have to match item for item. You can add, swap, or leave out items to fit your trips and your own needs. What the requirement does ask is that you can explain how every item in *your* kit would be used.
+
+{{< drg/checklist title="Personal First-Aid Kit" subtitle="Suggested by the Scouts BSA Handbook — not a required list" >}}
 
 - 6 latex-free adhesive bandages, assorted sizes: for small cuts and scrapes.
 - 2 sterile 3-by-3-inch gauze pads: to cover larger wounds or apply pressure to stop bleeding.
@@ -38,7 +40,7 @@ Some people are allergic to antibiotic ointments and hydrocortisone cream. Alway
 
 ## Tell How You'd Use Each Item
 
-The requirement doesn't just ask you to pack a kit — it asks you to explain each item's purpose. Here's what each item in the handbook kit is for, and which injuries from requirement 4a it helps with. Read through it, then practice explaining your own kit out loud, holding up each item as you go.
+The requirement doesn't just ask you to pack a kit — it asks you to explain each item's purpose. Here's what each item in the suggested handbook kit is for, and which injuries from requirement 4a it helps with. If your kit includes something different, be ready to explain that item the same way. Read through it, then practice explaining your own kit out loud, holding up each item as you go.
 
 - **Adhesive bandages (6, assorted sizes):** Cover small cuts and scrapes after you've cleaned them, so dirt stays out while the skin heals. Small sizes fit fingers and knuckles; larger ones cover scraped knees and elbows. A bandage also works over a popped blister once it's been washed.
 - **Sterile 3-by-3-inch gauze pads (2):** For wounds too big for an adhesive bandage. Press a pad firmly on a bleeding cut to stop the bleeding, then tape it in place as a dressing. Gauze also makes a loose, clean cover for a minor burn after it's been cooled with water. "Sterile" means it's germ-free until you open the wrapper — so don't open it until you need it.
