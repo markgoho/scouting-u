@@ -56,7 +56,7 @@
 {{ $depth := .depth | default 1 }}
 {{ $rankTitle := .rank_title }}
 {{ $guide := .guide }}
-{{ $guideLookup := partial "scouts-bsa/ranks/req-guide-lookup.html" (dict "guide" $guide "path" $req.path) }}
+{{ $guideHref := partial "scouts-bsa/ranks/req-guide-lookup.html" (dict "guide" $guide "path" $req.path) }}
 
 {{ $marker := $req.req_id }}
 {{ if gt $depth 1 }}
@@ -79,6 +79,5 @@
   "children" $children
   "transition_num" true
   "text_format" "html"
-  "guide_href" $guideLookup.href
-  "own_guide" $guideLookup.own
+  "guide_href" $guideHref
 ) }}
