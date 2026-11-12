@@ -21,17 +21,13 @@
   guide - the guide section Page, or "" if this rank has no DRG guide yet
   path  - the requirement's dotted path, e.g. "6" or "6.a"
 
-  Returns a dict:
-  href - the guide URL (with a "#<id>" fragment for case 2), or "" if no
-         guide exists yet or nothing resolves.
-  own  - true only for case 1: the page is this requirement's own, so
-         the requirement shows a visible "Guide" link (node.own_guide).
+  Returns the guide URL (with a "#<id>" fragment for case 2), or "" if
+  no guide exists yet or nothing resolves.
 */}}
 {{ $guide := .guide }}
 {{ $path := .path }}
 
 {{ $href := "" }}
-{{ $own := false }}
 
 {{ if $guide }}
   {{ $dotsRemoved := replace $path "." "" }}
@@ -39,7 +35,6 @@
 
   {{ if $found }}
     {{ $href = $found.RelPermalink }}
-    {{ $own = true }}
   {{ else }}
     {{ $firstChild := $guide.GetPage (printf "req%sa" $dotsRemoved) }}
     {{ if $firstChild }}
@@ -60,4 +55,4 @@
   {{ end }}
 {{ end }}
 
-{{ return (dict "href" $href "own" $own) }}
+{{ return $href }}
