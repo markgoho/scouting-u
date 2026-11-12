@@ -1,9 +1,12 @@
 ---
+linkTitle: "Planning your Eagle merit badges"
+icon: "target"
+weight: 3
 title: "How to Plan Your Eagle Merit Badges"
 description: "Learn how to plan and pace your 21 merit badges for Eagle Scout on our sister site, Merit Badge University."
 ---
 
-To earn the rank of Eagle Scout, you need at least **21 merit badges**—including **14 specific Eagle-required badges** and **7 electives**.
+To earn the rank of Eagle Scout, you need at least **21 merit badges**—including **13 specific Eagle-required badges** and **8 electives**.
 
 Because several Eagle-required badges require **90+ days of continuous tracking**, planning your roadmap early is the key to finishing Eagle smoothly without rushing before your 18th birthday.
 

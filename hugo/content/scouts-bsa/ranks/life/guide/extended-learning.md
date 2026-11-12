@@ -22,7 +22,7 @@ Obtain the official *Eagle Scout Service Project Workbook* (BSA publication No. 
 Brainstorm community needs with local schools, religious institutions, non-profit charities, or civic parks. Look for a project that allows you to demonstrate substantial planning, fundraising (if needed), organization, and **leadership of others**.
 
 ### Map Out Your Remaining Merit Badges
-Verify which Eagle-required categories you still need to complete (such as *Personal Management*, *Family Life*, *Citizenship in Society*, or *Emergency Preparedness*). Factor in the 90-day tracking requirements to ensure you finish all badges well before age 18.
+Verify which Eagle-required categories you still need to complete (such as *Personal Management*, *Family Life*, or *Emergency Preparedness*). Factor in the 90-day tracking requirements to ensure you finish all badges well before age 18.
 
 ### Advanced Leadership Opportunities
 - **National Advanced Youth Leadership Experience (NAYLE)**: An elite leadership program held at Philmont Scout Ranch and other national high-adventure bases, building on NYLT principles.

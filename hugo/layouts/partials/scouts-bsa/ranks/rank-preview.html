@@ -1,95 +1,51 @@
-{{/*
-  scouts-bsa/ranks/rank-preview.html
+{{/* scouts-bsa/ranks/rank-preview.html
 
-  Landing-page "What you'll do" preview card (scouting-u#47), modeled on
-  mbu's badge-landing.html preview section. Reuses uni-theme's
-  .badge-preview and .badge-overview classes directly -- CONTRACT.md
-  documents them as theme-owned generic CSS (ADR 0008), same as the
-  hero (#46).
+  The rank overview's "What you'll do" list: one row per top-level
+  requirement, rendered by uni-theme's req-preview-list.html.
 
-  Rows are the rank's first 4 top-level requirements (revised again
-  from the #47-follow-up leaf-flatten, per live review): each row is
-  that top-level node itself when it carries its own `text` (e.g. Scout
-  `2`/`6`, a real ADR-0001 group with prose), or its first child when it
-  doesn't (a synthetic group wrapper with no prose of its own, e.g.
-  Scout `1`/`3`/`4` -> shown as "1a"/"3a"/"4a") -- every row still gets a
-  real snippet, without losing the top-level framing entirely the way a
-  full leaf-flatten did.
-
-  The "more" link intentionally carries no count ("View more
-  requirements", not "+N more") -- a per-row substitution makes "shown +
-  more = total" ambiguous (is a substituted "1a" row one leaf item or a
-  stand-in for all of group 1's children?), so this sidesteps ever
-  disagreeing with rank-glance.html's leaf-based "Requirements" count in
-  #48's facts card again.
-
-  Marker is the row's own `list_number` with the trailing dot trimmed
-  (e.g. "1a", or "5" for a flat top-level leaf) -- works whether the row
-  is the top-level node itself or a substituted child, since both carry
-  `list_number`. Title is `short`; snippet is `text`, truncated.
-
-  Substitution prefers the first child that actually has a Short Label,
-  not blindly the first child: a child with a deliberately blank `short`
-  (ADR 0009 -- its own text carries the heading on /requirements/) would
-  otherwise put a whole sentence in the title slot next to three-word
-  labels. When no child has one, the row falls back to the truncated text
-  as its title and drops the snippet, so it never renders an empty title
-  above a repeat of itself.
-
-  View-transition keys are `path` with dots to hyphens, matching
-  requirement-node.html's contract exactly, so a row morphs into its
-  matching card on /requirements/ instead of cross-fading.
+  Title is the requirement's Short Label, or its text when the label is
+  blank (ADR 0009). The snippet is the first sentence of the text. A
+  group with no text of its own, or only a lead-in ending in a colon
+  ("Do the following:"), takes its first child's text instead (two
+  levels at most), and that
+  child's view-transition key, so the snippet morphs into the line it
+  came from on /requirements/ (requirement-node.html sets every key).
 
   Params (dict): rank (rank data), requirements_page (the requirements Page)
 */}}
-{{ $rank := .rank }}
-{{ $reqPage := .requirements_page }}
-
-{{ $topLevel := $rank.requirements }}
-{{ $total := len $topLevel }}
-{{ $preview := first 4 $topLevel }}
-
-<div class="badge-preview card-surface">
-  <h2 class="badge-preview__heading">What you'll do</h2>
-  <ul class="badge-preview__list">
-    {{ range $node := $preview }}
-      {{ $row := $node }}
-      {{ if and (not $node.text) $node.children }}
-        {{ $row = index $node.children 0 }}
-        {{ range $node.children }}
-          {{ if and (not $row.short) .short }}
-            {{ $row = . }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ $key := replace $row.path "." "-" }}
-      {{ $marker := strings.TrimSuffix "." $row.list_number }}
-      <li class="badge-preview__item">
-        <a href="{{ $reqPage.RelPermalink }}#{{ $row.path }}" class="badge-preview__link">
-          <span
-            class="badge-preview__node req-card__node"
-            aria-hidden="true"
-            style="view-transition-name: req-num-{{ $key }}"
-            ><span class="req-card__node-text">{{ $marker }}</span></span
-          >
-          <span class="badge-preview__text">
-            {{ if $row.short }}
-              <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $row.short }}</span>
-              {{ with $row.text }}
-                <span class="badge-preview__snippet" style="view-transition-name: req-text-{{ $key }}">{{ . | plainify | truncate 120 }}</span>
-              {{ end }}
-            {{ else }}
-              <span class="badge-preview__title" style="view-transition-name: req-title-{{ $key }}">{{ $row.text | plainify | truncate 120 }}</span>
-            {{ end }}
-          </span>
-        </a>
-      </li>
+{{ $reqURL := .requirements_page.RelPermalink }}
+{{ $rows := slice }}
+{{ range $req := .rank.requirements }}
+  {{ $source := $req }}
+  {{ $text := $req.text | plainify | htmlUnescape | strings.TrimSpace }}
+  {{ range seq 2 }}
+    {{ if and (or (not $text) (strings.HasSuffix $text ":")) $source.children }}
+      {{ $source = index $source.children 0 }}
+      {{ $text = $source.text | plainify | htmlUnescape | strings.TrimSpace }}
     {{ end }}
-  </ul>
-  {{ if gt $total 4 }}
-    <a href="{{ $reqPage.RelPermalink }}" class="badge-preview__more">
-      View more requirements
-      {{ partial "icon.html" (dict "name" "arrow-right" "class" "badge-preview__more-icon") }}
-    </a>
   {{ end }}
-</div>
+  {{/* A lead-in to a bulleted list reads on into the list. */}}
+  {{ if and (strings.HasSuffix $text ":") $source.list }}
+    {{ $text = printf "%s %s." $text (delimit $source.list.items ", " | plainify | htmlUnescape) }}
+  {{ end }}
+  {{ $sentence := index (findRE `^[^.!?]*[.!?]["'’”)]*` $text 1) 0 | default $text }}
+  {{ $title := $req.short }}
+  {{ $snippet := $sentence | truncate 120 }}
+  {{ if not $title }}
+    {{ $title = $snippet }}
+    {{ $snippet = "" }}
+  {{ end }}
+  {{ $rows = $rows | append (dict
+    "url" (printf "%s#%s" $reqURL $req.path)
+    "marker" $req.req_id
+    "title" $title
+    "snippet" $snippet
+    "vt" (partial "text/transition-key.html" (dict "path" $req.path))
+    "text_vt" (partial "text/transition-key.html" (dict "path" $source.path))
+  ) }}
+{{ end }}
+{{ $n := len $rows }}
+{{ partial "req-preview-list.html" (dict
+  "count" (printf "%d %s" $n (cond (eq $n 1) "requirement" "requirements"))
+  "rows" $rows
+) }}

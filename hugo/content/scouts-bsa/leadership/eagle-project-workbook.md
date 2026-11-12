@@ -1,4 +1,7 @@
 ---
+linkTitle: "Eagle service project"
+icon: "hammer"
+weight: 2
 title: "Eagle Scout Service Project Guide: How to Plan and Lead Your Project"
 description: "Everything you need to know about Requirement 5: filling out the project workbook, getting approvals, leading volunteers on workday, and finishing your report."
 ---

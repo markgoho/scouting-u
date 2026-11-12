@@ -1,0 +1,38 @@
+{{/* scouts-bsa/index-sections.html
+
+  The site's index: the ranks, then the field guides, then the
+  leadership guides, as sections of link tiles. Shared by the home page
+  and /scouts-bsa/, which list the same things. A guide's tile uses its
+  front matter `linkTitle` and `icon`; each "more" link points at what
+  that section's own page has beyond the list.
+
+  Params: none.
+*/}}
+{{ $sections := slice
+  (dict "id" "field-guides" "title" "Field guides" "more" "The 10 outdoor essentials" "anchor" "the-10-outdoor-essentials")
+  (dict "id" "leadership" "title" "Youth leadership" "more" "Troop leadership roles" "anchor" "troop-leadership-roles")
+}}
+<section aria-labelledby="ranks">
+  <div class="index-section__head">
+    <h2 class="index-section__title" id="ranks">Ranks, Scout to Eagle</h2>
+    <a class="index-section__more" href="/scouts-bsa/ranks/">How rank advancement works</a>
+  </div>
+  {{ partial "scouts-bsa/ranks/rank-tiles.html" . }}
+</section>
+
+{{ range $sections }}
+  {{ $s := . }}
+  {{ with site.GetPage (printf "/scouts-bsa/%s" .id) }}
+    <section aria-labelledby="{{ $s.id }}">
+      <div class="index-section__head">
+        <h2 class="index-section__title" id="{{ $s.id }}">{{ $s.title }}</h2>
+        <a class="index-section__more" href="{{ .RelPermalink }}#{{ $s.anchor }}">{{ $s.more }}</a>
+      </div>
+      <div class="link-tiles">
+        {{ range .RegularPages.ByWeight }}
+          {{ partial "link-tile.html" (dict "url" .RelPermalink "title" .LinkTitle "icon" .Params.icon) }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

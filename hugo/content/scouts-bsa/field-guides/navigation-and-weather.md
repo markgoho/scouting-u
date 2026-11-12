@@ -1,4 +1,7 @@
 ---
+linkTitle: "Navigation and weather"
+icon: "compass"
+weight: 4
 title: "Navigation & Weather Guide: Maps, Compasses & Forecasting"
 description: "How to find your way in the backcountry: reading topographic maps, using a baseplate compass, calculating declination, and reading clouds for weather."
 ---

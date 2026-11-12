@@ -19,6 +19,7 @@
  *
  * 3. Missing or invalid JSON-LD. Every HTML page must emit Schema.org JSON-LD
  *    structured data with valid syntax and required context/type fields.
+ *    The noindex 404 page is exempt.
  *
  * 4. HTML or template code in the LLM text outputs (scouting-u#126, #129).
  *    Every index.md, llms.txt, and llms-full.txt must be plain Markdown: no
@@ -28,6 +29,7 @@
 import { Glob } from "bun";
 
 const PUBLIC_DIR = "hugo/public";
+const NOT_FOUND_PAGE = "404.html";
 const STRIPPED_HTML = "<!-- raw HTML omitted -->";
 const REQUIREMENT_HEADING = /<(h3|h4)\s+id="[^"]*"[^>]*>([\s\S]*?)<\/\1>/g;
 const HTML_TAG = /<[a-zA-Z/!]/;
@@ -52,7 +54,9 @@ for await (const file of new Glob("**/*.html").scan(PUBLIC_DIR)) {
   }
 
   const jsonLdMatches = [...html.matchAll(JSON_LD_SCRIPT)];
-  if (jsonLdMatches.length === 0) {
+  if (file === NOT_FOUND_PAGE) {
+    // noindex, so structured data would never be read.
+  } else if (jsonLdMatches.length === 0) {
     failures.push(`${file}: missing application/ld+json structured data`);
   } else {
     for (const [, scriptContent] of jsonLdMatches) {

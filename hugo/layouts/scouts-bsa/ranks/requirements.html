@@ -1,55 +1,50 @@
-{{/*
-  /scouts-bsa/ranks/{slug}/requirements/ -- scouting-u#18.
+{{/* /scouts-bsa/ranks/<slug>/requirements/: the official requirements.
+  Same layout as mbu's badge requirements: page head with tabs, the jump
+  list (with how-to-read, count and date under it), one tile per
+  top-level requirement, the copy-link dock. The rank's own header,
+  footer notes and footnotes stay above and below the tiles.
 
-  Route A (Pagefind sub-result headings, rank-grouped): every requirement
-  gets its own h3/h4 with a unique id on the heading, no recursion past
-  depth 2. Structure mirrors mbu's merit-badges/requirements.html:
-  full-bleed .req-page shell (uni-theme's shared req-sidebar.html renders
-  its own aside.req-sidebar-wrap + div.req-main), and uni-theme's shared
-  req-dock rendered OUTSIDE .req-main (that element's container-type:
-  inline-size would otherwise pin a position:fixed dock to the column,
-  not the viewport -- see req-dock.html).
-
-  The requirement list is uni-theme's req-card.html, called once per
-  top-level requirement. Local requirement-node.html no longer emits
-  markup -- it maps rank data into the theme's node dict and the theme
-  renders it, so the deep-link.ts selector contract and the Pagefind
-  non-blank-heading invariant are the theme's to keep, not ours to
-  re-derive. See uni-theme's CONTRACT.md.
-*/}}
+  The list is uni-theme's req-card.html fed by requirement-node.html;
+  see uni-theme's CONTRACT.md for the markup and deep-link.ts contract. */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
 {{ define "main-class" }}req-page-main{{ end }}
 
 {{ define "main" }}
-  {{ $slug := .Parent.File.ContentBaseName }}
-  {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $slug }}
-  {{ $landingURL := .Parent.RelPermalink }}
-  {{ $requirementsURL := .RelPermalink }}
-  {{ $guide := .Parent.GetPage "guide" }}
+  {{ $award := .Parent }}
+  {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $award.File.ContentBaseName }}
+  {{ $guide := $award.GetPage "guide" }}
+  {{ $n := len $rank.requirements }}
 
-  {{ $identity := partial "scouts-bsa/ranks/rank-identity.html" (dict "rank" $rank) }}
-  {{ $meta := partial "scouts-bsa/ranks/req-sidebar-meta.html" (dict "rank" $rank) }}
-  {{ $navItems := slice
-    (dict "label" "Overview" "url" $landingURL "icon" "compass" "active" false)
-    (dict "label" "Requirements" "url" $requirementsURL "icon" "list-checks" "active" true)
-  }}
-  {{ with $guide }}
-    {{ $navItems = $navItems | append (dict "label" "Study Guide" "url" .RelPermalink "icon" "book-open-text" "active" false) }}
+  {{ $jump := slice }}
+  {{ range $rank.requirements }}
+    {{ $jump = $jump | append (dict "marker" .req_id "label" (.short | default (printf "Requirement %s" .req_id)) "href" (printf "#%s" .path)) }}
   {{ end }}
+  {{ $date := "" }}
+  {{ with $rank.version_effective_date }}{{ $date = time.Format "January 2, 2006" . }}{{ end }}
+  {{ $railMeta := partial "req-rail-meta.html" (dict
+    "count" (printf "%d %s" $n (cond (eq $n 1) "requirement" "requirements"))
+    "date" $date
+  ) }}
+
+  {{ partial "page-head.html" (dict
+    "page" .
+    "title" $rank.title
+    "accent" "Requirements"
+    "tabs" (partial "award-tabs.html" (dict "award" $award "active" "requirements"))
+    "tabs_label" $rank.title
+  ) }}
 
   <div class="req-page">
-    {{ partial "req-sidebar.html" (dict "nav_items" $navItems "identity" $identity "meta" $meta) }}
+    {{ partial "req-jump.html" (dict "items" $jump "meta" $railMeta) }}
 
     <div class="req-main">
-      {{ partial "breadcrumb.html" . }}
+      {{ partial "req-key.html" (dict "brief" true) }}
+      {{ with $rank.header }}<p class="req-page-note">{{ . | safeHTML }}</p>{{ end }}
 
-      {{ with $rank.header }}
-        <div class="badge-description">
-          <p>{{ . | safeHTML }}</p>
-        </div>
-      {{ end }}
-
+      {{/* Search results name the award from this, not the page's h1
+        ("First Class Requirements"); search.ts adds "Rank". */}}
+      <span data-pagefind-meta="title" hidden>{{ $rank.title }}</span>
       <div class="rank-requirements" data-pagefind-body>
         <h2 class="req-main__heading">Requirements</h2>
 
@@ -62,7 +57,8 @@
       </div>
 
       {{ with $rank.footer }}
-        <div class="rank-requirements__footer">{{ . | safeHTML }}</div>
+        {{/* Synced HTML pads the notes with <br>s; the layout spaces them. */}}
+        <div class="req-page-note req-page-note--after">{{ replaceRE `^(\s*<br\s*/?>\s*)+|(\s*<br\s*/?>\s*)+$` "" . | safeHTML }}</div>
       {{ end }}
 
       {{ $footnotes := slice }}
@@ -73,6 +69,8 @@
     </div>
   </div>
 
+  {{/* Outside .req-main: its container-type would pin the fixed dock to
+    the column instead of the viewport (see req-dock.html). */}}
   {{ partial "req-dock.html" . }}
 {{ end }}
 

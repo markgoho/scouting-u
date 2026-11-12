@@ -1,16 +1,7 @@
-{{/*
-  /scouts-bsa/ranks/{slug}/ -- scouting-u#46 (supersedes #19/#34's stub
-  build). Renders inside the req-page/req-sidebar-wrap/req-main shell
-  shared with requirements.html, with a badge-hero-style hero (scouting-u
-  #44/ADR 0008) owning the page's real <h1> -- the shared sidebar's own
-  heading is demoted to a <p> here (see req-sidebar.html's
-  demote_heading param). Sequence prev/next lives in the sidebar, below
-  the identity block.
-
-  The "What you'll do" preview, "At a glance" facts, and DRG-reserved
-  "Resources & downloads" cards (#47/#48) live in `.badge-overview`
-  below the hero; a "Start with Requirement N" CTA closes the page.
-*/}}
+{{/* /scouts-bsa/ranks/<slug>/: the rank overview. Page head with the
+  Overview / Requirements / Guide tabs, then the description and the
+  "What you'll do" list, with downloads and the ranks before and after
+  this one beside them. */}}
 {{ define "html-class" }}theme-v2{{ end }}
 
 {{ define "main-class" }}req-page-main{{ end }}
@@ -18,61 +9,46 @@
 {{ define "main" }}
   {{ $slug := .File.ContentBaseName }}
   {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $slug }}
-  {{ $requirementsPage := .GetPage "requirements" }}
-  {{ $guide := .GetPage "guide" }}
   {{ $siblings := .Parent.Pages.ByParam "level" }}
-  {{ $total := len $siblings }}
   {{ $position := 0 }}
   {{ range $i, $p := $siblings }}
     {{ if eq $p.RelPermalink $.RelPermalink }}{{ $position = $i }}{{ end }}
   {{ end }}
-  {{ $prev := "" }}
-  {{ if gt $position 0 }}{{ $prev = index $siblings (sub $position 1) }}{{ end }}
-  {{ $next := "" }}
-  {{ if lt $position (sub $total 1) }}{{ $next = index $siblings (add $position 1) }}{{ end }}
-  {{ $guidePrint := .GetPage "guide/print" }}
-  {{ $leafCount := partial "scouts-bsa/ranks/count-leaves.html" $rank.requirements }}
-  {{ $firstReq := index $rank.requirements 0 }}
 
-  {{ $identity := partial "scouts-bsa/ranks/rank-identity.html" (dict "rank" $rank "demote_heading" true) }}
-  {{ $meta := partial "scouts-bsa/ranks/req-sidebar-meta.html" (dict "rank" $rank) }}
-  {{ $pager := partial "scouts-bsa/ranks/rank-pager.html" (dict "prev" $prev "next" $next) }}
-  {{ $navItems := slice
-    (dict "label" "Overview" "url" .RelPermalink "icon" "compass" "active" true)
-    (dict "label" "Requirements" "url" $requirementsPage.RelPermalink "icon" "list-checks" "active" false)
-  }}
-  {{ with $guide }}
-    {{ $navItems = $navItems | append (dict "label" "Study Guide" "url" .RelPermalink "icon" "book-open-text" "active" false) }}
-  {{ end }}
+  {{ partial "page-head.html" (dict
+    "page" .
+    "title" $rank.title
+    "accent" "Rank"
+    "title_vt" (printf "rank-title-%s" $slug)
+    "tabs" (partial "award-tabs.html" (dict "award" . "active" "overview"))
+    "tabs_label" $rank.title
+  ) }}
 
-  <div class="req-page">
-    {{ partial "req-sidebar.html" (dict "nav_items" $navItems "identity" $identity "meta" $meta "pager" $pager) }}
-
+  <div class="req-page req-page--landing">
     <div class="req-main">
-      {{ partial "breadcrumb.html" . }}
-
-      {{ partial "scouts-bsa/ranks/rank-hero.html" (dict
-        "rank" $rank
-        "position" (add $position 1)
-        "total" $total
-        "lead" .Params.description
-        "requirements_url" $requirementsPage.RelPermalink
-        "guide" $guide
-      ) }}
-
-      <div class="badge-overview">
-        {{ partial "scouts-bsa/ranks/rank-preview.html" (dict "rank" $rank "requirements_page" $requirementsPage) }}
-        {{ partial "scouts-bsa/ranks/rank-glance.html" (dict "rank" $rank "leaf_count" $leafCount) }}
-        {{ partial "scouts-bsa/ranks/rank-resources.html" (dict "guide_print" $guidePrint) }}
-      </div>
-
-      {{ with $firstReq }}
-        <a href="{{ $requirementsPage.RelPermalink }}#{{ .path }}" class="badge-start-cta">
-          Start with Requirement {{ .req_id }}
-          {{ partial "icon.html" (dict "name" "arrow-right" "class" "badge-start-cta__icon") }}
-        </a>
+      {{ with .Description }}<p class="badge-intro">{{ . }}</p>{{ end }}
+      {{ with .GetPage "requirements" }}
+        {{ partial "scouts-bsa/ranks/rank-preview.html" (dict "rank" $rank "requirements_page" .) }}
       {{ end }}
     </div>
+
+    <aside class="badge-aside">
+      {{ $rows := slice }}
+      {{ with .GetPage "guide/print" }}
+        {{ $rows = $rows | append (dict "icon" "scroll" "label" "Print the whole guide" "url" .RelPermalink) }}
+      {{ end }}
+      {{ if gt $position 0 }}
+        {{ with index $siblings (sub $position 1) }}
+          {{ $rows = $rows | append (dict "icon" "arrow-left" "label" (printf "Rank before: %s" .Title) "url" .RelPermalink) }}
+        {{ end }}
+      {{ end }}
+      {{ if lt $position (sub (len $siblings) 1) }}
+        {{ with index $siblings (add $position 1) }}
+          {{ $rows = $rows | append (dict "icon" "arrow-right" "label" (printf "Next rank: %s" .Title) "url" .RelPermalink) }}
+        {{ end }}
+      {{ end }}
+      {{ partial "resources-card.html" (dict "rows" $rows "heading" "Downloads and links") }}
+    </aside>
   </div>
 {{ end }}
 

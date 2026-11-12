@@ -20,9 +20,8 @@ Merit badges give Scouts the opportunity to explore more than 135 specialized su
 
 Merit badges are divided into two primary categories:
 
-1. **Eagle-Required Merit Badges**: These badges feature a distinctive **silver border** around the patch. To earn the Eagle Scout rank, you must earn **14 specific Eagle-required badges** across essential subjects:
+1. **Eagle-Required Merit Badges**: These badges feature a distinctive **silver border** around the patch. To earn the Eagle Scout rank, you must earn **13 specific Eagle-required badges** across essential subjects:
    - First Aid
-   - Citizenship in Society
    - Citizenship in the Community
    - Citizenship in the Nation
    - Citizenship in the World

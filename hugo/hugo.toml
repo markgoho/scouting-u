@@ -53,49 +53,49 @@ disableKinds = ['taxonomy', 'term']
   guideLabel = 'Digital Requirements Guide'
 
   [params.theme.cta]
-    label = 'Browse Ranks'
+    label = 'Browse ranks'
     href = '/scouts-bsa/ranks/'
 
   [[params.theme.footerColumns]]
     title = 'Ranks'
     [[params.theme.footerColumns.links]]
-      label = 'All Ranks'
+      label = 'All ranks'
       href = '/scouts-bsa/ranks/'
     [[params.theme.footerColumns.links]]
       label = 'Eagle Scout'
       href = '/scouts-bsa/ranks/eagle/'
 
   [[params.theme.footerColumns]]
-    title = 'Field Guides'
+    title = 'Field guides'
     [[params.theme.footerColumns.links]]
-      label = 'All Field Guides'
+      label = 'All field guides'
       href = '/scouts-bsa/field-guides/'
     [[params.theme.footerColumns.links]]
-      label = 'Knots & Lashings'
+      label = 'Knots & lashings'
       href = '/scouts-bsa/field-guides/knots-and-lashings/'
     [[params.theme.footerColumns.links]]
-      label = 'Wilderness First Aid'
+      label = 'Wilderness first aid'
       href = '/scouts-bsa/field-guides/wilderness-first-aid/'
     [[params.theme.footerColumns.links]]
-      label = 'Camp Kitchen & Cooking'
+      label = 'Camp kitchen & cooking'
       href = '/scouts-bsa/field-guides/camp-cooking/'
     [[params.theme.footerColumns.links]]
-      label = 'Navigation & Weather'
+      label = 'Navigation & weather'
       href = '/scouts-bsa/field-guides/navigation-and-weather/'
 
   [[params.theme.footerColumns]]
     title = 'Leadership'
     [[params.theme.footerColumns.links]]
-      label = 'Leadership Hub'
+      label = 'Leadership hub'
       href = '/scouts-bsa/leadership/'
     [[params.theme.footerColumns.links]]
-      label = 'Patrol Leader Guide'
+      label = 'Patrol leader guide'
       href = '/scouts-bsa/leadership/patrol-method/'
     [[params.theme.footerColumns.links]]
-      label = 'Eagle Project Roadmap'
+      label = 'Eagle project roadmap'
       href = '/scouts-bsa/leadership/eagle-project-workbook/'
     [[params.theme.footerColumns.links]]
-      label = 'Merit Badge Strategy'
+      label = 'Merit badge strategy'
       href = '/scouts-bsa/leadership/merit-badge-strategy/'
 
   [[params.theme.footerColumns]]

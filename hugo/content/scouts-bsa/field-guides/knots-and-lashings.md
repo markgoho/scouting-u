@@ -1,4 +1,7 @@
 ---
+linkTitle: "Knots and lashings"
+icon: "lasso"
+weight: 1
 title: "Knots & Lashings Guide: Hitches, Bends & Camp Gadgets"
 description: "A step-by-step technical guide to tying the core scouting knots, pioneering lashings, rope care, whipping, and fusing."
 ---
