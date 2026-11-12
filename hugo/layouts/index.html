@@ -1,7 +1,34 @@
 {{ define "html-class" }}theme-v2{{ end }}
 
+{{ define "main-class" }}index-main{{ end }}
+
 {{ define "main" }}
-  {{ partial "home/ladder.html" . }}
+  {{/* The home page is the index of the site: a search field, then the
+    ranks in the order they are earned, then the guides. */}}
+
+  {{/* Decorative, and hidden below 60rem; lazy so a phone has the best
+    chance of never fetching it. */}}
+  {{ $photo := partial "imagekit/img.html" (dict
+    "path" "/su-assets/scouts-bsa/hero"
+    "v" "3d92507c"
+    "width" 1376
+    "height" 768
+    "alt" ""
+    "sizes" "(min-width: 60rem) min(45vw, 700px), 1px"
+    "loading" "lazy"
+  ) }}
+
+  {{ partial "page-head.html" (dict
+    "page" .
+    "media" $photo
+    "title" "Scouts BSA ranks"
+    "lede" "Every rank from Scout to Eagle, with the official requirements and a guide to help you get ready."
+    "search" (dict "label" "Search ranks and requirements" "placeholder" "Rank or requirement")
+  ) }}
+
+  <div class="index-page">
+    {{ partial "scouts-bsa/index-sections.html" . }}
+  </div>
 {{ end }}
 
 {{ define "footer-scripts" }}

@@ -1,0 +1,22 @@
+{{/* scouts-bsa/ranks/rank-tiles.html
+
+  The seven ranks in the order they are earned, as link tiles. Shared by
+  the home page, /scouts-bsa/ and /scouts-bsa/ranks/. Each tile's title
+  morphs into the rank page's heading (rank-landing.html).
+
+  Params: none (reads the ranks section).
+*/}}
+<div class="link-tiles">
+  {{ range (site.GetPage "/scouts-bsa/ranks").Pages.ByParam "level" }}
+    {{ $slug := .File.ContentBaseName }}
+    {{ $rank := index (index hugo.Data.ranks "scouts-bsa") $slug }}
+    {{ $n := len $rank.requirements }}
+    {{ partial "link-tile.html" (dict
+      "url" .RelPermalink
+      "title" $rank.title
+      "marker" (string $rank.level)
+      "meta" (printf "%d %s" $n (cond (eq $n 1) "requirement" "requirements"))
+      "title_vt" (printf "rank-title-%s" $slug)
+    ) }}
+  {{ end }}
+</div>

@@ -37,7 +37,7 @@ Once you earn First Class, the focus shifts toward troop leadership, specialized
 6. **[Life](/scouts-bsa/ranks/life/)**: Requires at least **6 months of active service as a Star Scout**, earning **5 additional merit badges** (for a total of 11, including at least 7 Eagle-required), serving in a troop position of responsibility for 6 months, and completing at least **6 hours of community service**.
 7. **[Eagle Scout](/scouts-bsa/ranks/eagle/)**: The highest and most prestigious rank in Scouting. To earn Eagle, a Scout must:
    - Be active in the troop for at least **6 months as a Life Scout**.
-   - Earn a total of at least **21 merit badges** (including the **14 specific Eagle-required badges**).
+   - Earn a total of at least **21 merit badges** (including the **13 specific Eagle-required badges**).
    - Serve in a troop position of responsibility for at least 6 months as a Life Scout.
    - Plan, develop, and lead others in a major community service project (the **Eagle Scout Service Project**).
    - Successfully pass an Eagle Scout Board of Review before their 18th birthday.

@@ -1,11 +1,11 @@
 {{ define "html-class" }}theme-v2{{ end }}
 
+{{ define "main-class" }}req-page-main{{ end }}
+
 {{ define "main" }}
-  {{ partial "breadcrumb.html" . }}
-  <article class="content-wrapper">
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-  </article>
+  {{/* No lede: the article's first paragraph introduces it, so the head stays short. */}}
+  {{ partial "page-head.html" (dict "page" . "title" .Title) }}
+  {{ partial "prose-page.html" (dict "content" .Content) }}
 {{ end }}
 
 {{ define "footer-scripts" }}

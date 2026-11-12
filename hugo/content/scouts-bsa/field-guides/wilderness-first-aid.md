@@ -1,4 +1,7 @@
 ---
+linkTitle: "Wilderness first aid"
+icon: "first-aid-kit"
+weight: 2
 title: "Wilderness First Aid Guide: Handling Outdoor Emergencies"
 description: "A practical guide to wilderness emergency response: checking injured patients with MARCH PAWS, treating trauma, hypothermia wraps, and calling for help."
 ---

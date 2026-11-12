@@ -1,4 +1,7 @@
 ---
+linkTitle: "Camp cooking"
+icon: "cooking-pot"
+weight: 3
 title: "Camp Cooking & Kitchen Guide: Stoves, Dutch Ovens & Clean-Up"
 description: "How to cook great meals at camp: kitchen setup, the 200-foot bear triangle, 3-pot dishwashing, and Dutch oven heat charts."
 ---

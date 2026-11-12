@@ -1,4 +1,7 @@
 ---
+linkTitle: "Patrol leader guide"
+icon: "users-three"
+weight: 1
 title: "Patrol Leader Guide: How to Run a Great Patrol"
 description: "A practical guide for Patrol Leaders: how to build patrol spirit, make rotating duty rosters, plan campout meals, and keep your campsite organized."
 ---
