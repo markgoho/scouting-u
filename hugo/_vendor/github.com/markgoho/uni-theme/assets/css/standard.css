@@ -877,6 +877,23 @@ html.theme-v2:not([data-js]) .req-card:has(> .req-card__panel > .req-card__heade
 /* the bottom dock above.                                              */
 /* ------------------------------------------------------------------ */
 @supports (anchor-name: --a) and (position-anchor: --a) {
+  /* Tethered, the bar scrolls WITH the page (position: absolute below),
+     so its stack can no longer be fixed: a fixed parent would become its
+     containing block and freeze it to the screen again. The toast loses
+     that fixed parent, so it pins itself to the bottom instead. */
+  .theme-v2 .req-dock-stack {
+    position: static;
+  }
+
+  .theme-v2 .req-toast {
+    position: fixed;
+    z-index: 90;
+    inset-block-end: max(0.75rem, env(safe-area-inset-bottom));
+    inset-inline: 0;
+    margin-inline: auto;
+    inline-size: fit-content;
+  }
+
   .theme-v2 .req-child[data-selected],
   .theme-v2 .req-card[data-selected] > .req-card__panel {
     anchor-name: --req-selected;
@@ -886,7 +903,12 @@ html.theme-v2:not([data-js]) .req-card:has(> .req-card__panel > .req-card__heade
   .theme-v2 .req-dock,
   .theme-v2.dark .req-dock,
   .dark .theme-v2 .req-dock {
-    position: fixed;
+    /* ABSOLUTE, NOT FIXED. A fixed bar tethered to in-flow content has to
+       be re-placed by the main thread on every scroll frame, while touch
+       scrolling moves the page on the compositor -- so on phones the bar
+       trailed the requirement mid-scroll and snapped back on release.
+       Absolute, it is part of the scrolled document and moves with it. */
+    position: absolute;
     position-anchor: --req-selected;
     inset: auto;
     inset-block-end: calc(anchor(bottom) + 0.5rem);
